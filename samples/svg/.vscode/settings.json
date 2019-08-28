@@ -1,0 +1,4 @@
+{
+  "html.customData": ["./data/svg.html-data.json"],
+  "css.customData": ["./data/svg.css-data.json"],
+}

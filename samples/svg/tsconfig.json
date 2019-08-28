@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"target": "es6",
+		"outDir": "dist",
+		"lib": ["es6", "dom"],
+		"sourceMap": true
+	},
+	"include": [
+		"./build"
+	],
+	"exclude": ["node_modules", ".vscode-test"]
+}

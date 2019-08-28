@@ -1,0 +1,2067 @@
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "a",
+      "attributes": [
+        {
+          "name": "href",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/linking.html#AElementHrefAttribute"
+            }
+          ]
+        },
+        {
+          "name": "target",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/linking.html#AElementTargetAttribute"
+            }
+          ]
+        },
+        {
+          "name": "download",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/linking.html#AElementDownloadAttribute"
+            }
+          ]
+        },
+        {
+          "name": "ping",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/linking.html#AElementPingAttribute"
+            }
+          ]
+        },
+        {
+          "name": "rel",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/linking.html#AElementRelAttribute"
+            }
+          ]
+        },
+        {
+          "name": "hreflang",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/linking.html#AElementHreflangAttribute"
+            }
+          ]
+        },
+        {
+          "name": "type",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/linking.html#AElementTypeAttribute"
+            }
+          ]
+        },
+        {
+          "name": "referrerpolicy",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/linking.html#AElementReferrerpolicyAttribute"
+            }
+          ]
+        }
+      ],
+      "attributeCategories": [
+        "aria",
+        "conditional processing",
+        "core",
+        "global event",
+        "document element event",
+        "graphical event",
+        "presentation",
+        "deprecated xlink"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/linking.html#AElement"
+        }
+      ]
+    },
+    {
+      "name": "audio",
+      "attributes": [],
+      "attributeCategories": [
+        "aria",
+        "core",
+        "conditional processing",
+        "global event",
+        "document element event",
+        "graphical event",
+        "presentation"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/embedded.html#HTMLElements"
+        }
+      ]
+    },
+    {
+      "name": "canvas",
+      "attributes": [
+        {
+          "name": "preserveAspectRatio",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/coords.html#PreserveAspectRatioAttribute"
+            }
+          ]
+        }
+      ],
+      "attributeCategories": [
+        "aria",
+        "core",
+        "conditional processing",
+        "global event",
+        "document element event",
+        "graphical event",
+        "presentation"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/embedded.html#HTMLElements"
+        }
+      ]
+    },
+    {
+      "name": "circle",
+      "attributes": [
+        {
+          "name": "pathLength",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/paths.html#PathLengthAttribute"
+            }
+          ]
+        }
+      ],
+      "attributeCategories": [
+        "aria",
+        "conditional processing",
+        "core",
+        "global event",
+        "document element event",
+        "graphical event",
+        "presentation"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/shapes.html#CircleElement"
+        }
+      ]
+    },
+    {
+      "name": "defs",
+      "attributes": [],
+      "attributeCategories": [
+        "core",
+        "graphical event",
+        "global event",
+        "document element event",
+        "presentation"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/struct.html#DefsElement"
+        }
+      ]
+    },
+    {
+      "name": "desc",
+      "attributes": [],
+      "attributeCategories": [
+        "core",
+        "global event",
+        "document element event"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/struct.html#DescElement"
+        }
+      ]
+    },
+    {
+      "name": "ellipse",
+      "attributes": [
+        {
+          "name": "pathLength",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/paths.html#PathLengthAttribute"
+            }
+          ]
+        }
+      ],
+      "attributeCategories": [
+        "aria",
+        "conditional processing",
+        "core",
+        "global event",
+        "document element event",
+        "graphical event",
+        "presentation"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/shapes.html#EllipseElement"
+        }
+      ]
+    },
+    {
+      "name": "foreignObject",
+      "attributes": [],
+      "attributeCategories": [
+        "aria",
+        "core",
+        "conditional processing",
+        "global event",
+        "document element event",
+        "graphical event",
+        "presentation"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/embedded.html#ForeignObjectElement"
+        }
+      ]
+    },
+    {
+      "name": "g",
+      "attributes": [],
+      "attributeCategories": [
+        "aria",
+        "conditional processing",
+        "core",
+        "global event",
+        "document element event",
+        "graphical event",
+        "presentation"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/struct.html#GElement"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "attributes": [],
+      "attributeCategories": [
+        "aria",
+        "core",
+        "conditional processing",
+        "global event",
+        "document element event",
+        "graphical event",
+        "presentation"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/struct.html#UnknownElement"
+        }
+      ]
+    },
+    {
+      "name": "iframe",
+      "attributes": [],
+      "attributeCategories": [
+        "aria",
+        "core",
+        "conditional processing",
+        "global event",
+        "document element event",
+        "graphical event",
+        "presentation"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/embedded.html#HTMLElements"
+        }
+      ]
+    },
+    {
+      "name": "image",
+      "attributes": [
+        {
+          "name": "preserveAspectRatio",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/coords.html#PreserveAspectRatioAttribute"
+            }
+          ]
+        },
+        {
+          "name": "href",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/embedded.html#ImageElementHrefAttribute"
+            }
+          ]
+        },
+        {
+          "name": "crossorigin",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/embedded.html#ImageElementCrossoriginAttribute"
+            }
+          ]
+        }
+      ],
+      "attributeCategories": [
+        "aria",
+        "core",
+        "conditional processing",
+        "global event",
+        "document element event",
+        "graphical event",
+        "deprecated xlink",
+        "presentation"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/embedded.html#ImageElement"
+        }
+      ]
+    },
+    {
+      "name": "line",
+      "attributes": [
+        {
+          "name": "pathLength",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/paths.html#PathLengthAttribute"
+            }
+          ]
+        },
+        {
+          "name": "x1",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/shapes.html#LineElementX1Attribute"
+            }
+          ]
+        },
+        {
+          "name": "y1",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/shapes.html#LineElementY1Attribute"
+            }
+          ]
+        },
+        {
+          "name": "x2",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/shapes.html#LineElementX2Attribute"
+            }
+          ]
+        },
+        {
+          "name": "y2",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/shapes.html#LineElementY2Attribute"
+            }
+          ]
+        }
+      ],
+      "attributeCategories": [
+        "aria",
+        "conditional processing",
+        "core",
+        "global event",
+        "document element event",
+        "graphical event",
+        "presentation"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/shapes.html#LineElement"
+        }
+      ]
+    },
+    {
+      "name": "linearGradient",
+      "attributes": [
+        {
+          "name": "x1",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/pservers.html#LinearGradientElementX1Attribute"
+            }
+          ]
+        },
+        {
+          "name": "y1",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/pservers.html#LinearGradientElementY1Attribute"
+            }
+          ]
+        },
+        {
+          "name": "x2",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/pservers.html#LinearGradientElementX2Attribute"
+            }
+          ]
+        },
+        {
+          "name": "y2",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/pservers.html#LinearGradientElementY2Attribute"
+            }
+          ]
+        },
+        {
+          "name": "gradientUnits",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/pservers.html#LinearGradientElementGradientUnitsAttribute"
+            }
+          ]
+        },
+        {
+          "name": "gradientTransform",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/pservers.html#LinearGradientElementGradientTransformAttribute"
+            }
+          ]
+        },
+        {
+          "name": "spreadMethod",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/pservers.html#LinearGradientElementSpreadMethodAttribute"
+            }
+          ]
+        },
+        {
+          "name": "href",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/pservers.html#LinearGradientElementHrefAttribute"
+            }
+          ]
+        }
+      ],
+      "attributeCategories": [
+        "core",
+        "global event",
+        "document element event",
+        "presentation",
+        "deprecated xlink"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/pservers.html#LinearGradientElement"
+        }
+      ]
+    },
+    {
+      "name": "marker",
+      "attributes": [
+        {
+          "name": "viewBox",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/coords.html#ViewBoxAttribute"
+            }
+          ]
+        },
+        {
+          "name": "preserveAspectRatio",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/coords.html#PreserveAspectRatioAttribute"
+            }
+          ]
+        },
+        {
+          "name": "refX",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/painting.html#MarkerElementRefXAttribute"
+            }
+          ]
+        },
+        {
+          "name": "refY",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/painting.html#MarkerElementRefYAttribute"
+            }
+          ]
+        },
+        {
+          "name": "markerUnits",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/painting.html#MarkerUnitsAttribute"
+            }
+          ]
+        },
+        {
+          "name": "markerWidth",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/painting.html#MarkerWidthAttribute"
+            }
+          ]
+        },
+        {
+          "name": "markerHeight",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/painting.html#MarkerHeightAttribute"
+            }
+          ]
+        },
+        {
+          "name": "orient",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/painting.html#OrientAttribute"
+            }
+          ]
+        }
+      ],
+      "attributeCategories": [
+        "core",
+        "global event",
+        "document element event",
+        "presentation"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/painting.html#MarkerElement"
+        }
+      ]
+    },
+    {
+      "name": "metadata",
+      "attributes": [],
+      "attributeCategories": [
+        "core",
+        "global event",
+        "document element event"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/struct.html#MetadataElement"
+        }
+      ]
+    },
+    {
+      "name": "path",
+      "attributes": [
+        {
+          "name": "pathLength",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/paths.html#PathLengthAttribute"
+            }
+          ]
+        }
+      ],
+      "attributeCategories": [
+        "aria",
+        "conditional processing",
+        "core",
+        "global event",
+        "document element event",
+        "graphical event",
+        "presentation"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/paths.html#PathElement"
+        }
+      ]
+    },
+    {
+      "name": "pattern",
+      "attributes": [
+        {
+          "name": "viewBox",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/coords.html#ViewBoxAttribute"
+            }
+          ]
+        },
+        {
+          "name": "preserveAspectRatio",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/coords.html#PreserveAspectRatioAttribute"
+            }
+          ]
+        },
+        {
+          "name": "x",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/pservers.html#PatternElementXAttribute"
+            }
+          ]
+        },
+        {
+          "name": "y",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/pservers.html#PatternElementYAttribute"
+            }
+          ]
+        },
+        {
+          "name": "width",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/pservers.html#PatternElementWidthAttribute"
+            }
+          ]
+        },
+        {
+          "name": "height",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/pservers.html#PatternElementHeightAttribute"
+            }
+          ]
+        },
+        {
+          "name": "patternUnits",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/pservers.html#PatternElementPatternUnitsAttribute"
+            }
+          ]
+        },
+        {
+          "name": "patternContentUnits",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/pservers.html#PatternElementPatternContentUnitsAttribute"
+            }
+          ]
+        },
+        {
+          "name": "patternTransform",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/pservers.html#PatternElementPatternTransformAttribute"
+            }
+          ]
+        },
+        {
+          "name": "href",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/pservers.html#PatternElementHrefAttribute"
+            }
+          ]
+        }
+      ],
+      "attributeCategories": [
+        "core",
+        "global event",
+        "presentation",
+        "deprecated xlink"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/pservers.html#PatternElement"
+        }
+      ]
+    },
+    {
+      "name": "polygon",
+      "attributes": [
+        {
+          "name": "pathLength",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/paths.html#PathLengthAttribute"
+            }
+          ]
+        },
+        {
+          "name": "points",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/shapes.html#PolygonElementPointsAttribute"
+            }
+          ]
+        }
+      ],
+      "attributeCategories": [
+        "aria",
+        "conditional processing",
+        "core",
+        "global event",
+        "document element event",
+        "graphical event",
+        "presentation"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/shapes.html#PolygonElement"
+        }
+      ]
+    },
+    {
+      "name": "polyline",
+      "attributes": [
+        {
+          "name": "pathLength",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/paths.html#PathLengthAttribute"
+            }
+          ]
+        },
+        {
+          "name": "points",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/shapes.html#PolylineElementPointsAttribute"
+            }
+          ]
+        }
+      ],
+      "attributeCategories": [
+        "aria",
+        "conditional processing",
+        "core",
+        "global event",
+        "document element event",
+        "graphical event",
+        "presentation"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/shapes.html#PolylineElement"
+        }
+      ]
+    },
+    {
+      "name": "radialGradient",
+      "attributes": [
+        {
+          "name": "cx",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/pservers.html#RadialGradientElementCXAttribute"
+            }
+          ]
+        },
+        {
+          "name": "cy",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/pservers.html#RadialGradientElementCYAttribute"
+            }
+          ]
+        },
+        {
+          "name": "r",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/pservers.html#RadialGradientElementRAttribute"
+            }
+          ]
+        },
+        {
+          "name": "fx",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/pservers.html#RadialGradientElementFXAttribute"
+            }
+          ]
+        },
+        {
+          "name": "fy",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/pservers.html#RadialGradientElementFYAttribute"
+            }
+          ]
+        },
+        {
+          "name": "fr",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/pservers.html#RadialGradientElementFRAttribute"
+            }
+          ]
+        },
+        {
+          "name": "gradientUnits",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/pservers.html#RadialGradientElementGradientUnitsAttribute"
+            }
+          ]
+        },
+        {
+          "name": "gradientTransform",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/pservers.html#RadialGradientElementGradientTransformAttribute"
+            }
+          ]
+        },
+        {
+          "name": "spreadMethod",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/pservers.html#RadialGradientElementSpreadMethodAttribute"
+            }
+          ]
+        },
+        {
+          "name": "href",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/pservers.html#RadialGradientElementHrefAttribute"
+            }
+          ]
+        }
+      ],
+      "attributeCategories": [
+        "core",
+        "global event",
+        "document element event",
+        "presentation",
+        "deprecated xlink"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/pservers.html#RadialGradientElement"
+        }
+      ]
+    },
+    {
+      "name": "rect",
+      "attributes": [
+        {
+          "name": "pathLength",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/paths.html#PathLengthAttribute"
+            }
+          ]
+        }
+      ],
+      "attributeCategories": [
+        "aria",
+        "conditional processing",
+        "core",
+        "global event",
+        "document element event",
+        "graphical event",
+        "presentation"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/shapes.html#RectElement"
+        }
+      ]
+    },
+    {
+      "name": "script",
+      "attributes": [
+        {
+          "name": "type",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/interact.html#ScriptElementTypeAttribute"
+            }
+          ]
+        },
+        {
+          "name": "href",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/interact.html#ScriptElementHrefAttribute"
+            }
+          ]
+        },
+        {
+          "name": "crossorigin",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/interact.html#ScriptElementCrossoriginAttribute"
+            }
+          ]
+        }
+      ],
+      "attributeCategories": [
+        "core",
+        "global event",
+        "document element event",
+        "deprecated xlink"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/interact.html#ScriptElement"
+        }
+      ]
+    },
+    {
+      "name": "stop",
+      "attributes": [
+        {
+          "name": "offset",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/pservers.html#StopElementOffsetAttribute"
+            }
+          ]
+        }
+      ],
+      "attributeCategories": [
+        "core",
+        "global event",
+        "document element event",
+        "presentation"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/pservers.html#StopElement"
+        }
+      ]
+    },
+    {
+      "name": "style",
+      "attributes": [
+        {
+          "name": "type",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/styling.html#StyleElementTypeAttribute"
+            }
+          ]
+        },
+        {
+          "name": "media",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/styling.html#StyleElementMediaAttribute"
+            }
+          ]
+        },
+        {
+          "name": "title",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/styling.html#StyleElementTitleAttribute"
+            }
+          ]
+        }
+      ],
+      "attributeCategories": [
+        "core",
+        "global event",
+        "document element event"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/styling.html#StyleElement"
+        }
+      ]
+    },
+    {
+      "name": "svg",
+      "attributes": [
+        {
+          "name": "viewBox",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/coords.html#ViewBoxAttribute"
+            }
+          ]
+        },
+        {
+          "name": "preserveAspectRatio",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/coords.html#PreserveAspectRatioAttribute"
+            }
+          ]
+        },
+        {
+          "name": "zoomAndPan",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/interact.html#ZoomAndPanAttribute"
+            }
+          ]
+        },
+        {
+          "name": "transform",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/coords.html#TransformProperty"
+            }
+          ]
+        }
+      ],
+      "attributeCategories": [
+        "aria",
+        "conditional processing",
+        "core",
+        "document event",
+        "global event",
+        "document element event",
+        "graphical event",
+        "presentation"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/struct.html#SVGElement"
+        }
+      ]
+    },
+    {
+      "name": "switch",
+      "attributes": [],
+      "attributeCategories": [
+        "aria",
+        "conditional processing",
+        "core",
+        "global event",
+        "document element event",
+        "graphical event",
+        "presentation"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/struct.html#SwitchElement"
+        }
+      ]
+    },
+    {
+      "name": "symbol",
+      "attributes": [
+        {
+          "name": "preserveAspectRatio",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/coords.html#PreserveAspectRatioAttribute"
+            }
+          ]
+        },
+        {
+          "name": "viewBox",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/coords.html#ViewBoxAttribute"
+            }
+          ]
+        },
+        {
+          "name": "refX",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/struct.html#SymbolElementRefXAttribute"
+            }
+          ]
+        },
+        {
+          "name": "refY",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/struct.html#SymbolElementRefYAttribute"
+            }
+          ]
+        }
+      ],
+      "attributeCategories": [
+        "aria",
+        "core",
+        "global event",
+        "document element event",
+        "graphical event",
+        "presentation"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/struct.html#SymbolElement"
+        }
+      ]
+    },
+    {
+      "name": "text",
+      "attributes": [
+        {
+          "name": "lengthAdjust",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/text.html#TextElementLengthAdjustAttribute"
+            }
+          ]
+        },
+        {
+          "name": "x",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/text.html#TextElementXAttribute"
+            }
+          ]
+        },
+        {
+          "name": "y",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/text.html#TextElementYAttribute"
+            }
+          ]
+        },
+        {
+          "name": "dx",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/text.html#TextElementDXAttribute"
+            }
+          ]
+        },
+        {
+          "name": "dy",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/text.html#TextElementDYAttribute"
+            }
+          ]
+        },
+        {
+          "name": "rotate",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/text.html#TextElementRotateAttribute"
+            }
+          ]
+        },
+        {
+          "name": "textLength",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/text.html#TextElementTextLengthAttribute"
+            }
+          ]
+        }
+      ],
+      "attributeCategories": [
+        "aria",
+        "conditional processing",
+        "core",
+        "global event",
+        "document element event",
+        "graphical event",
+        "presentation"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/text.html#TextElement"
+        }
+      ]
+    },
+    {
+      "name": "textPath",
+      "attributes": [
+        {
+          "name": "lengthAdjust",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/text.html#TextElementLengthAdjustAttribute"
+            }
+          ]
+        },
+        {
+          "name": "textLength",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/text.html#TextElementTextLengthAttribute"
+            }
+          ]
+        },
+        {
+          "name": "path",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/text.html#TextPathElementPathAttribute"
+            }
+          ]
+        },
+        {
+          "name": "href",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/text.html#TextPathElementHrefAttribute"
+            }
+          ]
+        },
+        {
+          "name": "startOffset",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/text.html#TextPathElementStartOffsetAttribute"
+            }
+          ]
+        },
+        {
+          "name": "method",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/text.html#TextPathElementMethodAttribute"
+            }
+          ]
+        },
+        {
+          "name": "spacing",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/text.html#TextPathElementSpacingAttribute"
+            }
+          ]
+        },
+        {
+          "name": "side",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/text.html#TextPathElementSideAttribute"
+            }
+          ]
+        }
+      ],
+      "attributeCategories": [
+        "aria",
+        "conditional processing",
+        "core",
+        "global event",
+        "document element event",
+        "graphical event",
+        "presentation",
+        "deprecated xlink"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/text.html#TextPathElement"
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "attributes": [],
+      "attributeCategories": [
+        "core",
+        "global event",
+        "document element event"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/struct.html#TitleElement"
+        }
+      ]
+    },
+    {
+      "name": "tspan",
+      "attributes": [
+        {
+          "name": "x",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/text.html#TextElementXAttribute"
+            }
+          ]
+        },
+        {
+          "name": "y",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/text.html#TextElementYAttribute"
+            }
+          ]
+        },
+        {
+          "name": "dx",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/text.html#TextElementDXAttribute"
+            }
+          ]
+        },
+        {
+          "name": "dy",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/text.html#TextElementDYAttribute"
+            }
+          ]
+        },
+        {
+          "name": "rotate",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/text.html#TextElementRotateAttribute"
+            }
+          ]
+        },
+        {
+          "name": "textLength",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/text.html#TextElementTextLengthAttribute"
+            }
+          ]
+        },
+        {
+          "name": "lengthAdjust",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/text.html#TextElementLengthAdjustAttribute"
+            }
+          ]
+        }
+      ],
+      "attributeCategories": [
+        "aria",
+        "conditional processing",
+        "core",
+        "global event",
+        "document element event",
+        "graphical event",
+        "presentation"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/text.html#TextElement"
+        }
+      ]
+    },
+    {
+      "name": "use",
+      "attributes": [
+        {
+          "name": "href",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/struct.html#UseElementHrefAttribute"
+            }
+          ]
+        }
+      ],
+      "attributeCategories": [
+        "aria",
+        "core",
+        "conditional processing",
+        "global event",
+        "document element event",
+        "graphical event",
+        "presentation",
+        "deprecated xlink"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/struct.html#UseElement"
+        }
+      ]
+    },
+    {
+      "name": "video",
+      "attributes": [],
+      "attributeCategories": [
+        "aria",
+        "core",
+        "conditional processing",
+        "global event",
+        "document element event",
+        "graphical event",
+        "presentation"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/embedded.html#HTMLElements"
+        }
+      ]
+    },
+    {
+      "name": "view",
+      "attributes": [
+        {
+          "name": "viewBox",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/coords.html#ViewBoxAttribute"
+            }
+          ]
+        },
+        {
+          "name": "preserveAspectRatio",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/coords.html#PreserveAspectRatioAttribute"
+            }
+          ]
+        },
+        {
+          "name": "zoomAndPan",
+          "references": [
+            {
+              "name": "SVG Spec",
+              "url": "https://www.w3.org/TR/SVG/interact.html#ZoomAndPanAttribute"
+            }
+          ]
+        }
+      ],
+      "attributeCategories": [
+        "aria",
+        "core",
+        "global event",
+        "document element event"
+      ],
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/linking.html#ViewElement"
+        }
+      ]
+    }
+  ],
+  "globalAttributes": [
+    {
+      "name": "x",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/text.html#TextElementXAttribute"
+        }
+      ]
+    },
+    {
+      "name": "y",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/text.html#TextElementYAttribute"
+        }
+      ]
+    },
+    {
+      "name": "dx",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/text.html#TextElementDXAttribute"
+        }
+      ]
+    },
+    {
+      "name": "dy",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/text.html#TextElementDYAttribute"
+        }
+      ]
+    },
+    {
+      "name": "rotate",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/text.html#TextElementRotateAttribute"
+        }
+      ]
+    },
+    {
+      "name": "textLength",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/text.html#TextElementTextLengthAttribute"
+        }
+      ]
+    },
+    {
+      "name": "lengthAdjust",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/text.html#TextElementLengthAdjustAttribute"
+        }
+      ]
+    },
+    {
+      "name": "viewBox",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/coords.html#ViewBoxAttribute"
+        }
+      ]
+    },
+    {
+      "name": "preserveAspectRatio",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/coords.html#PreserveAspectRatioAttribute"
+        }
+      ]
+    },
+    {
+      "name": "zoomAndPan",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/interact.html#ZoomAndPanAttribute"
+        }
+      ]
+    },
+    {
+      "name": "pathLength",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/paths.html#PathLengthAttribute"
+        }
+      ]
+    },
+    {
+      "name": "href",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/linking.html#AElementHrefAttribute"
+        }
+      ]
+    },
+    {
+      "name": "target",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/linking.html#AElementTargetAttribute"
+        }
+      ]
+    },
+    {
+      "name": "download",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/linking.html#AElementDownloadAttribute"
+        }
+      ]
+    },
+    {
+      "name": "ping",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/linking.html#AElementPingAttribute"
+        }
+      ]
+    },
+    {
+      "name": "rel",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/linking.html#AElementRelAttribute"
+        }
+      ]
+    },
+    {
+      "name": "hreflang",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/linking.html#AElementHreflangAttribute"
+        }
+      ]
+    },
+    {
+      "name": "type",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/linking.html#AElementTypeAttribute"
+        }
+      ]
+    },
+    {
+      "name": "referrerpolicy",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/linking.html#AElementReferrerpolicyAttribute"
+        }
+      ]
+    },
+    {
+      "name": "crossorigin",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/embedded.html#ImageElementCrossoriginAttribute"
+        }
+      ]
+    },
+    {
+      "name": "x1",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/shapes.html#LineElementX1Attribute"
+        }
+      ]
+    },
+    {
+      "name": "y1",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/shapes.html#LineElementY1Attribute"
+        }
+      ]
+    },
+    {
+      "name": "x2",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/shapes.html#LineElementX2Attribute"
+        }
+      ]
+    },
+    {
+      "name": "y2",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/shapes.html#LineElementY2Attribute"
+        }
+      ]
+    },
+    {
+      "name": "gradientUnits",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/pservers.html#LinearGradientElementGradientUnitsAttribute"
+        }
+      ]
+    },
+    {
+      "name": "gradientTransform",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/pservers.html#LinearGradientElementGradientTransformAttribute"
+        }
+      ]
+    },
+    {
+      "name": "spreadMethod",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/pservers.html#LinearGradientElementSpreadMethodAttribute"
+        }
+      ]
+    },
+    {
+      "name": "refX",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/painting.html#MarkerElementRefXAttribute"
+        }
+      ]
+    },
+    {
+      "name": "refY",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/painting.html#MarkerElementRefYAttribute"
+        }
+      ]
+    },
+    {
+      "name": "markerUnits",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/painting.html#MarkerUnitsAttribute"
+        }
+      ]
+    },
+    {
+      "name": "markerWidth",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/painting.html#MarkerWidthAttribute"
+        }
+      ]
+    },
+    {
+      "name": "markerHeight",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/painting.html#MarkerHeightAttribute"
+        }
+      ]
+    },
+    {
+      "name": "orient",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/painting.html#OrientAttribute"
+        }
+      ]
+    },
+    {
+      "name": "width",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/pservers.html#PatternElementWidthAttribute"
+        }
+      ]
+    },
+    {
+      "name": "height",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/pservers.html#PatternElementHeightAttribute"
+        }
+      ]
+    },
+    {
+      "name": "patternUnits",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/pservers.html#PatternElementPatternUnitsAttribute"
+        }
+      ]
+    },
+    {
+      "name": "patternContentUnits",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/pservers.html#PatternElementPatternContentUnitsAttribute"
+        }
+      ]
+    },
+    {
+      "name": "patternTransform",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/pservers.html#PatternElementPatternTransformAttribute"
+        }
+      ]
+    },
+    {
+      "name": "points",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/shapes.html#PolygonElementPointsAttribute"
+        }
+      ]
+    },
+    {
+      "name": "cx",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/pservers.html#RadialGradientElementCXAttribute"
+        }
+      ]
+    },
+    {
+      "name": "cy",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/pservers.html#RadialGradientElementCYAttribute"
+        }
+      ]
+    },
+    {
+      "name": "r",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/pservers.html#RadialGradientElementRAttribute"
+        }
+      ]
+    },
+    {
+      "name": "fx",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/pservers.html#RadialGradientElementFXAttribute"
+        }
+      ]
+    },
+    {
+      "name": "fy",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/pservers.html#RadialGradientElementFYAttribute"
+        }
+      ]
+    },
+    {
+      "name": "fr",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/pservers.html#RadialGradientElementFRAttribute"
+        }
+      ]
+    },
+    {
+      "name": "offset",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/pservers.html#StopElementOffsetAttribute"
+        }
+      ]
+    },
+    {
+      "name": "media",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/styling.html#StyleElementMediaAttribute"
+        }
+      ]
+    },
+    {
+      "name": "title",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/styling.html#StyleElementTitleAttribute"
+        }
+      ]
+    },
+    {
+      "name": "transform",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/coords.html#TransformProperty"
+        }
+      ]
+    },
+    {
+      "name": "path",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/text.html#TextPathElementPathAttribute"
+        }
+      ]
+    },
+    {
+      "name": "startOffset",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/text.html#TextPathElementStartOffsetAttribute"
+        }
+      ]
+    },
+    {
+      "name": "method",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/text.html#TextPathElementMethodAttribute"
+        }
+      ]
+    },
+    {
+      "name": "spacing",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/text.html#TextPathElementSpacingAttribute"
+        }
+      ]
+    },
+    {
+      "name": "side",
+      "references": [
+        {
+          "name": "SVG Spec",
+          "url": "https://www.w3.org/TR/SVG/text.html#TextPathElementSideAttribute"
+        }
+      ]
+    }
+  ]
+}
