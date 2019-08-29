@@ -1,0 +1,9 @@
+{
+  "html.experimental.custom.tags": [
+    "./web-components.json",
+    "./element-details/web-components.json"
+  ],
+  "html.experimental.custom.attributes": [
+    "./web-component-attributes.json"
+  ]
+}

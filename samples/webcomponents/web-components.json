@@ -1,0 +1,34 @@
+{
+  "tags": [
+    {
+      "label": "open-shadow",
+      "description": "Open Shadow DOM Component",
+      "attributes": [
+        {
+          "label": "text",
+          "description": "The text inside the component"
+        }
+      ]
+    },
+    {
+      "label": "closed-shadow",
+      "description": "Closed Shadow DOM Component",
+      "attributes": [
+        {
+          "label": "text",
+          "description": "The text inside the component"
+        }
+      ]
+    },
+    {
+      "label": "my-custom-tag",
+      "description": "My custom tag",
+      "attributes": [
+        {
+          "label": "text",
+          "description": "The text attribute inside the component"
+        }
+      ]
+    }
+  ]
+}

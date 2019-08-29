@@ -1,0 +1,9 @@
+{
+  "tags": [
+    {
+      "label": "element-details",
+      "description": "Custom Web Component for <details>",
+      "attributes": []
+    }
+  ]
+}

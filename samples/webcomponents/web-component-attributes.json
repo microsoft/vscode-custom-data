@@ -1,0 +1,8 @@
+{
+  "attributes": [
+    {
+      "label": "my-global-attribute",
+      "description": "My global attribute"
+    }
+  ]
+}
