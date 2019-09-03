@@ -49,6 +49,7 @@ TODO
 - [`samples/helloworld`](./samples/helloworld): Open this sample in VS Code and start playing with custom data.
 - [`samples/svg`](./samples/svg): A real-world sample that loads SVG-related HTML/CSS entities in VS Code.
 - [`samples/webcomponents`](./samples/webcomponents): Use custom data to get web component editor support in HTML.
+- [`octref/vscode-mavo`](https://github.com/octref/vscode-mavo): Use custom data to support the [Mavo framework](https://mavo.io) built on top of HTML/CSS.
 
 ## Contributing
 
