@@ -55,6 +55,10 @@ On the other hand, for users and framework authors who build new technologies an
 - [`samples/webcomponents`](./samples/webcomponents): Use custom data to get web component editor support in HTML.
 - [`octref/vscode-mavo`](https://github.com/octref/vscode-mavo): Use custom data to support the [Mavo framework](https://mavo.io) built on top of HTML/CSS.
 
+## Web Data
+
+`/web-data` contains the data collection pipelines and the actual data being used in the VS Code [HTML extension](https://github.com/microsoft/vscode/tree/master/extensions/html-language-features) and [CSS extension](https://github.com/microsoft/vscode/tree/master/extensions/css-language-features). It pulls data from sources such as HTML/CSS spec and MDN and massages them into the custom data format ready to use.
+
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
