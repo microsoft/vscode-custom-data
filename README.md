@@ -7,12 +7,14 @@
 
 VS Code ships with rich [language feature support](https://code.visualstudio.com/api/language-extensions/programmatic-language-features) for HTML/CSS, such as auto-completion and hover information. The core of these language support are implemented in [vscode-html-languageservice](https://github.com/microsoft/vscode-html-languageservice) and [vscode-css-languageservice](https://github.com/microsoft/vscode-css-languageservice). In the past, these libraries were coupled to outdated schemas that define HTML/CSS entities. Custom data decouples these libraries from the data they use and allows VS Code to offer up-to-date support for latest HTML/CSS proposals or frameworks built on top of HTML/CSS.
 
+## Example
+
 Take this HTML auto-completion example:
 
 `<|`
 
 - `vscode-html-languageservice` determines that it should provide a list of tag names, such as `div`, `span`, `p`.
-- By default, VS Code provides data extracted from HTML spec to `vscode-html-languageservice`, so `<|` completes all HTML tags.
+- By default, VS Code provides data extracted from HTML spec to `vscode-html-languageservice`, so `<|` completes all HTML tags described in the HTML spec.
 - The `html.customData` setting and `contributes.html.customData` allows you to extend this list to include your own definition of HTML tags.
 
 On the one hand, we continuously curate the data VS Code provides to the HTML/CSS language services. For example, VS Code pulls data from [mdn/data](https://github.com/mdn/data) and [mdn/browser-compat-data](https://github.com/mdn/browser-compat-data) to provide latest information on CSS properties' usage, syntax and browser compatibility. By continously following the latest web spec, VS Code can provide latest information & up-to-date language support for new HTML/CSS entities.
@@ -35,14 +37,16 @@ On the other hand, for users and framework authors who build new technologies an
 - [HTML Custom Data](https://github.com/microsoft/vscode-html-languageservice/blob/master/docs/customData.md)
 - [CSS Custom Data](https://github.com/microsoft/vscode-css-languageservice/blob/master/docs/customData.md)
 
-## Schemas
+## Schemas and Versioning
 
 - [Latest HTML Schema, V1.1](https://github.com/microsoft/vscode-html-languageservice/blob/master/docs/customData.schema.json)
 - [Latest CSS Schema, V1.1](https://github.com/microsoft/vscode-CSS-languageservice/blob/master/docs/customData.schema.json)
 
 ### Versioning
 
-TODO
+- Schemas are versioned in the format of `<Major>.<Minor>`.
+- `Minor` changes are backwards compatible. Custom data that satisfies `V1.X` spec would be valid according to `V1.0` spec.
+- `Major` changes introduce breaking changes. Custom data that satisfies `V2.X` spec would likely be invalid according to `V1.0` spec.
 
 ## Samples
 
