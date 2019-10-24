@@ -1,4 +1,4 @@
-# My Component
+# My Component Docs
 
 Use it like this!
 

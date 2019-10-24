@@ -3,10 +3,10 @@
   "tags": [
     {
       "name": "my-component",
-      "description": "My custom component. Part of my [UI Library](https://www.webcomponents.org/collections). Use it like this:\n```html\n<my-component type='text'></my-component>\n<my-component\n  type='color'\n  color='#00bb00'\n></my-component>\n```",
+      "description": "My custom component. Here is its [documentation](https://github.com/microsoft/vscode-custom-data/blob/master/samples/webcomponents/src/components/my-component/docs.md).\nUse it like this:\n```html\n<my-component type='text'></my-component>\n<my-component\n  type='color'\n  color='#00bb00'\n></my-component>\n```",
       "references": [
         {
-          "name": "Official Docs",
+          "name": "WebComponents.org",
           "url": "https://www.webcomponents.org"
         }
       ],
