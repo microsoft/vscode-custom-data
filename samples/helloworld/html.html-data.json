@@ -1,20 +1,22 @@
 {
   "version": 1.1,
-  "tags": [{
-    "name": "my-button",
-    "description": "My button. You should use it as in `<my-button type='alert'></mybutton>`.",
-    "attributes": [{
-      "name": "type",
-      "description": "My button type",
-      "values": [
-        { "name": "alert" }
+  "tags": [
+    {
+      "name": "my-button",
+      "description": "My button. You should use it as in `<my-button type='alert'></mybutton>`.",
+      "attributes": [
+        {
+          "name": "type",
+          "description": "My button type",
+          "values": [{ "name": "alert" }]
+        }
+      ],
+      "references": [
+        {
+          "name": "Bootstrap buttons",
+          "url": "https://getbootstrap.com/docs/4.0/components/buttons/"
+        }
       ]
-    }],
-    "references": [
-      {
-        "name": "Bootstrap buttons",
-        "url": "https://getbootstrap.com/docs/4.0/components/buttons/"
-      }
-    ]
-  }]
+    }
+  ]
 }

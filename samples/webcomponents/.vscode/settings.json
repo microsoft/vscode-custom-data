@@ -1,9 +1,6 @@
 {
-  "html.experimental.custom.tags": [
-    "./web-components.json",
-    "./element-details/web-components.json"
-  ],
-  "html.experimental.custom.attributes": [
-    "./web-component-attributes.json"
+  "html.customData": [
+    "./src/web-components.html-data.json",
+    "./node_modules/@github/time-elements/web-components.html-data.json"
   ]
 }

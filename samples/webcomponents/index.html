@@ -1,0 +1,38 @@
+<head>
+  <script src="./src/components/my-component/main.js" defer></script>
+  <script src="./node_modules/@github/time-elements/dist/time-elements.js" defer></script>
+</head>
+  
+<!-- My Components -->
+<my-component type="text"></my-component>
+<my-component type="color" color="#00bb00"></my-component>
+
+<hr/>
+
+<!-- @github/time-elements -->
+<relative-time datetime="2014-04-01T16:30:00-08:00">
+  April 1, 2014
+</relative-time>
+
+<time-until datetime="2024-04-01T16:30:00-08:00">
+  April 1, 2024
+</time-until>
+
+<time-ago datetime="2012-04-01T16:30:00-08:00">
+  April 1, 2014
+</time-ago>
+
+<time-ago datetime="2012-04-01T16:30:00-08:00" format="micro">
+  April 1, 2014
+</time-ago>
+
+<local-time datetime="2014-04-01T16:30:00-08:00"
+    month="short"
+    day="numeric"
+    year="numeric"
+    hour="numeric"
+    minute="numeric">
+  April 1, 2014 4:30PM PDT
+</local-time>
+
+<!-- Type out these components above, and you should get auto completion on tag, attribute and attribute values -->

@@ -1,0 +1,35 @@
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "my-component",
+      "description": "My custom component. Part of my [UI Library](https://www.webcomponents.org/collections). Use it like this:\n```html\n<my-component type='text'></my-component>\n<my-component\n  type='color'\n  color='#00bb00'\n></my-component>\n```",
+      "references": [
+        {
+          "name": "Official Docs",
+          "url": "https://www.webcomponents.org"
+        }
+      ],
+      "attributes": [
+        {
+          "name": "type",
+          "description": "Type of the component. Can be either `text` or `color`.\nIf type is `color`, it needs to have a `color` attribute as well.",
+          "values": [
+            {
+              "name": "text",
+              "description": "For textual content."
+            },
+            {
+              "name": "color",
+              "description": "For colorful content."
+            }
+          ]
+        },
+        {
+          "name": "color",
+          "description": "Color of the component. Only applies when `type` is `color`."
+        }
+      ]
+    }
+  ]
+}
