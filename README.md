@@ -7,7 +7,14 @@
 
 VS Code ships with rich [language feature support](https://code.visualstudio.com/api/language-extensions/programmatic-language-features) for HTML/CSS, such as auto-completion and hover information. The core of these language support are implemented in [vscode-html-languageservice](https://github.com/microsoft/vscode-html-languageservice) and [vscode-css-languageservice](https://github.com/microsoft/vscode-css-languageservice). In the past, these libraries were coupled to outdated schemas that define HTML/CSS entities. Custom data decouples these libraries from the data they use and allows VS Code to offer up-to-date support for latest HTML/CSS proposals or frameworks built on top of HTML/CSS.
 
-## Example
+## Usage
+
+There are two primary use cases:
+
+1. You can use settings, `html.customData` and `css.customData` in your workspace settings to let VS Code load additional HTML/CSS entities, so they would show up in auto-completion, hover information etc. See [helloworld sample](./samples/helloworld) for an example.
+2. You can use [Contribution Points](https://code.visualstudio.com/api/references/contribution-points), `contributes.html.customData` or `contributes.css.customData` to load Custom Data into VS Code. See [vscode-mavo](https://github.com/octref/vscode-mavo) for an example.
+
+## Explanation
 
 Take this HTML auto-completion example:
 
