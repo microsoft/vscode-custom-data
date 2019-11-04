@@ -1,6 +1,6 @@
 {
   "name": "vscode-web-custom-data",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "generate-data": "node html/generateData.js && node css/generateData.js"
   },
