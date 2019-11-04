@@ -4,6 +4,9 @@
   "scripts": {
     "generate-data": "node html/generateData.js && node css/generateData.js"
   },
+  "files": [
+    "data/*"
+  ],
   "devDependencies": {
     "mdn-browser-compat-data": "^0.0.92",
     "mdn-data": "^2.0.4",
