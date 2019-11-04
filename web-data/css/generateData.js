@@ -363,6 +363,7 @@ const schemaFileName = 'css-schema.xml'
 const { addMDNProperties } = require('./mdn/mdn-data-importer')
 const { addMDNPseudoElements, addMDNPseudoSelectors } = require('./mdn/mdn-data-selector-importer')
 const { addBrowserCompatDataToProperties, addMDNReferences } = require('./mdn/mdn-browser-compat-data-importer')
+const { rankCSSProperties } = require('./chromestatus/rankCSSProperty')
 
 fs.readFile(path.resolve(__dirname, schemaFileName), (err, data) => {
   parser.parseString(data, function(err, result) {
@@ -376,6 +377,8 @@ fs.readFile(path.resolve(__dirname, schemaFileName), (err, data) => {
 
     let properties = toSource(result, 'properties')
     properties = addMDNProperties(properties)
+    properties = addMDNProperties(properties)
+    properties = rankCSSProperties(properties)
 
     addBrowserCompatDataToProperties(atDirectives, pseudoClasses, pseudoElements, properties)
     addMDNReferences(atDirectives, pseudoClasses, pseudoElements, properties)
