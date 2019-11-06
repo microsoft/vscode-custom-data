@@ -80,10 +80,10 @@ is-symbol@^1.0.2:
   dependencies:
     has-symbols "^1.0.0"
 
-mdn-browser-compat-data@^0.0.92:
-  version "0.0.92"
-  resolved "https://registry.yarnpkg.com/mdn-browser-compat-data/-/mdn-browser-compat-data-0.0.92.tgz#a581fdcc27cd5393e0de5e9179537c977d5933c4"
-  integrity sha512-CLFcN+PY+lP0tKjgAVFED74I3lTnWQos0Pgjby9vbpmTTHIHCc5ynajB/xUZow5ISG2ktwKTRcqi/eJx3elGfQ==
+mdn-browser-compat-data@^0.0.98:
+  version "0.0.98"
+  resolved "https://registry.yarnpkg.com/mdn-browser-compat-data/-/mdn-browser-compat-data-0.0.98.tgz#b1ef237767ddb9dce98cbae8de912de35a715891"
+  integrity sha512-aixrkulXdvMp90I5rWuzBCks9GruwEyNfMgX5qg9lSATyOvI5OPzuFnO98BAsXG5x5MrA9BSxu0jwJbRFaAG/g==
   dependencies:
     extend "3.0.2"
 

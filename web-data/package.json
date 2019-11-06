@@ -2,13 +2,14 @@
   "name": "vscode-web-custom-data",
   "version": "0.1.1",
   "scripts": {
+    "update-sources": "yarn add -D mdn-data mdn-browser-compat-data",
     "generate-data": "node html/generateData.js && node css/generateData.js"
   },
   "files": [
     "data/*"
   ],
   "devDependencies": {
-    "mdn-browser-compat-data": "^0.0.92",
+    "mdn-browser-compat-data": "^0.0.98",
     "mdn-data": "^2.0.4",
     "xml2js": "^0.4.22"
   }
