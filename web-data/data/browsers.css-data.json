@@ -525,7 +525,7 @@
     },
     {
       "name": "opacity",
-      "syntax": "<number>",
+      "syntax": "<alpha-value>",
       "references": [
         {
           "name": "MDN Reference",
@@ -848,7 +848,7 @@
           "description": "Produces a wavy line."
         }
       ],
-      "syntax": "<'text-decoration-line'> || <'text-decoration-style'> || <'text-decoration-color'>",
+      "syntax": "<'text-decoration-line'> || <'text-decoration-style'> || <'text-decoration-color'> || <'text-decoration-thickness'>",
       "references": [
         {
           "name": "MDN Reference",
@@ -1435,7 +1435,7 @@
           "description": "Sets 'white-space-collapsing' to 'preserve' and 'text-wrap' to 'normal'."
         }
       ],
-      "syntax": "normal | pre | nowrap | pre-wrap | pre-line",
+      "syntax": "normal | pre | nowrap | pre-wrap | pre-line | break-spaces",
       "references": [
         {
           "name": "MDN Reference",
@@ -4649,7 +4649,7 @@
           "description": "Represents a repeated fragment of the track list, allowing a large number of columns or rows that exhibit a recurring pattern to be written in a more compact form."
         }
       ],
-      "syntax": "none | <track-list> | <auto-track-list>",
+      "syntax": "none | <track-list> | <auto-track-list> | subgrid <line-name-list>?",
       "references": [
         {
           "name": "MDN Reference",
@@ -4780,7 +4780,7 @@
           "description": "The 'open-quote' and 'close-quote' values of the 'content' property produce no quotations marks, as if they were 'no-open-quote' and 'no-close-quote' respectively."
         }
       ],
-      "syntax": "none | [ <string> <string> ]+",
+      "syntax": "none | auto | [ <string> <string> ]+",
       "references": [
         {
           "name": "MDN Reference",
@@ -6065,7 +6065,7 @@
           "description": "Represents a repeated fragment of the track list, allowing a large number of columns or rows that exhibit a recurring pattern to be written in a more compact form."
         }
       ],
-      "syntax": "none | <track-list> | <auto-track-list>",
+      "syntax": "none | <track-list> | <auto-track-list> | subgrid <line-name-list>?",
       "references": [
         {
           "name": "MDN Reference",
@@ -6614,7 +6614,7 @@
           "description": "Breaks CJK scripts using a more restrictive set of line-breaking rules than 'normal'."
         }
       ],
-      "syntax": "auto | loose | normal | strict",
+      "syntax": "auto | loose | normal | strict | anywhere",
       "references": [
         {
           "name": "MDN Reference",
@@ -7022,7 +7022,7 @@
           "description": "Each line of text is underlined."
         }
       ],
-      "syntax": "none | [ underline || overline || line-through || blink ]",
+      "syntax": "none | [ underline || overline || line-through || blink ] | spelling-error | grammar-error",
       "references": [
         {
           "name": "MDN Reference",
@@ -8453,7 +8453,7 @@
         "C37",
         "O24"
       ],
-      "syntax": "<number>",
+      "syntax": "<alpha-value>",
       "references": [
         {
           "name": "MDN Reference",
@@ -9533,6 +9533,7 @@
       "status": "experimental",
       "syntax": "[ <'offset-position'>? [ <'offset-path'> [ <'offset-distance'> || <'offset-rotate'> ]? ]? ]! [ / <'offset-anchor'> ]?",
       "browsers": [
+        "FF71",
         "C55",
         "O42"
       ],
@@ -9702,7 +9703,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/font-size-adjust"
         }
       ],
-      "description": "Preserves the readability of text when font fallback occurs by adjusting the font-size so that the x-height is the same irregardless of the font used.",
+      "description": "Preserves the readability of text when font fallback occurs by adjusting the font-size so that the x-height is the same regardless of the font used.",
       "restrictions": [
         "number"
       ]
@@ -17745,6 +17746,12 @@
       "description": "Changes the appearance of buttons and other controls to resemble native controls."
     },
     {
+      "name": "aspect-ratio",
+      "status": "experimental",
+      "syntax": "auto | <ratio>",
+      "description": ""
+    },
+    {
       "name": "azimuth",
       "status": "obsolete",
       "syntax": "<angle> | [ [ left-side | far-left | left | center-left | center | center-right | right | far-right | right-side ] || behind ] | leftwards | rightwards",
@@ -18482,6 +18489,21 @@
       "description": "The scroll-snap-type-y CSS property defines how strictly snap points are enforced on the vertical axis of the scroll container in case there is one.\n\nSpecifying any precise animations or physics used to enforce those snap points is not covered by this property but instead left up to the user agent."
     },
     {
+      "name": "text-decoration-thickness",
+      "syntax": "auto | from-font | <length>",
+      "browsers": [
+        "FF70",
+        "S12.1"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-thickness"
+        }
+      ],
+      "description": ""
+    },
+    {
       "name": "text-emphasis",
       "syntax": "<'text-emphasis-style'> || <'text-emphasis-color'>",
       "browsers": [
@@ -18548,6 +18570,21 @@
         }
       ],
       "description": "The text-emphasis-style CSS property defines the type of emphasis used. It can also be set, and reset, using the text-emphasis shorthand."
+    },
+    {
+      "name": "text-underline-offset",
+      "syntax": "auto | from-font | <length>",
+      "browsers": [
+        "FF70",
+        "S12.1"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/text-underline-offset"
+        }
+      ],
+      "description": ""
     },
     {
       "name": "speak-as",
@@ -20428,7 +20465,8 @@
     {
       "name": "::marker",
       "browsers": [
-        "FF68"
+        "FF68",
+        "C80"
       ],
       "references": [
         {
