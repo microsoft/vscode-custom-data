@@ -75,13 +75,25 @@
     "name": "m",
     "values": [
       {
-        "name": "GET"
+        "name": "GET",
+        "description": {
+          "kind": "markdown",
+          "value": "Corresponds to the HTTP [GET method](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html#sec9.3); form data are appended to the `action` attribute URI with a '?' as separator, and the resulting URI is sent to the server. Use this method when the form has no side-effects and contains only ASCII characters."
+        }
       },
       {
-        "name": "POST"
+        "name": "POST",
+        "description": {
+          "kind": "markdown",
+          "value": "Corresponds to the HTTP [POST method](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html#sec9.5); form data are included in the body of the form and sent to the server."
+        }
       },
       {
-        "name": "dialog"
+        "name": "dialog",
+        "description": {
+          "kind": "markdown",
+          "value": "Use when the form is inside a [`<dialog>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog) element to close the dialog when submitted."
+        }
       }
     ]
   },
