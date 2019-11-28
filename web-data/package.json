@@ -1,6 +1,6 @@
 {
   "name": "vscode-web-custom-data",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "scripts": {
     "update-sources": "yarn add -D mdn-data mdn-browser-compat-data",
     "generate-data": "node html/generateData.js && node css/generateData.js"
