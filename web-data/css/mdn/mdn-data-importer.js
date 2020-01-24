@@ -5,7 +5,7 @@
 
 //@ts-check
 
-const { propertyDescriptions } = require('./mdn-documentation')
+const { propertyDescriptions: mdnPropertyDescriptions } = require('./mdn-documentation')
 
 const mdnExcludedProperties = [
   '--*', // custom properties
@@ -60,12 +60,24 @@ function addMDNProperties(vscProperties) {
     if (!propertyMap[pn]) {
       propertyMap[pn] = {
         name: pn,
-        desc: propertyDescriptions[pn] ? propertyDescriptions[pn] : '',
+        desc: mdnPropertyDescriptions[pn] ? mdnPropertyDescriptions[pn] : '',
         restriction: 'none',
         ...extractMDNProperties(allMDNProperties[pn])
       }
     }
   }
+
+  /**
+   * 3. If there's a property without any documentation, try adding MDN documentation to it
+   */
+  for (const pn of Object.keys(propertyMap)) {
+    if (!propertyMap[pn].desc || propertyMap[pn].desc === '') {
+      if (mdnPropertyDescriptions[pn]) {
+        propertyMap[pn].desc = mdnPropertyDescriptions[pn];
+      }
+    }
+  }
+
 
   return Object.values(propertyMap)
 }

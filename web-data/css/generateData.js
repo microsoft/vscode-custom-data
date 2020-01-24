@@ -377,7 +377,6 @@ fs.readFile(path.resolve(__dirname, schemaFileName), (err, data) => {
 
     let properties = toSource(result, 'properties')
     properties = addMDNProperties(properties)
-    properties = addMDNProperties(properties)
     properties = rankCSSProperties(properties)
 
     addBrowserCompatDataToProperties(atDirectives, pseudoClasses, pseudoElements, properties)
