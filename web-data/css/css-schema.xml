@@ -1616,7 +1616,7 @@
 			</values>
 		</entry>
 		<entry name="color" restriction="color" version="1.0" browsers="all" ref="http://www.w3.org/TR/css3-color/#foreground" syntax="body { $(name): red; }">
-			<desc>Color of an element's text</desc>
+			<desc>Sets the color of an element's text</desc>
 		</entry>
 		<entry name="color-adjust" restriction="enum" version="4.0" browsers="none" ref="https://drafts.csswg.org/css-color-4/#propdef-color-adjust" syntax="image { $(name): exact; }">
 			<desc>Provides a hint to the user-agent about how it should treat color and style choices that might be expensive or generally unwise on a given device.</desc>
