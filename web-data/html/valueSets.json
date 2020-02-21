@@ -1129,5 +1129,31 @@
         "name": "viewport"
       }
     ]
+  },
+  {
+    "name": "aria-haspopup",
+    "values": [
+      {
+        "name": "false"
+      },
+      {
+        "name": "true"
+      },
+      {
+        "name": "menu"
+      },
+      {
+        "name": "listbox"
+      },
+      {
+        "name": "tree"
+      },
+      {
+        "name": "grid"
+      },
+      {
+        "name": "dialog"
+      }
+    ]
   }
 ]
