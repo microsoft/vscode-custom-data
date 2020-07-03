@@ -5,6 +5,6 @@ This repository pulls data from multiple channels and massage them into the Cust
 
 ## License
 
-- `css/chromestatus/attributeRanking.json` is built upon content from [Chrome Status](https://www.chromestatus.com/metrics/css/popularity) and distrubted under CC Attribution 2.5.
+- `css/chromestatus/attributeRelevance.js` is built upon content from [Chrome Status](https://www.chromestatus.com/metrics/css/popularity) and distributed under CC Attribution 2.5.
 - `css/mdn/mdn-documentation.js` is built upon content from [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web)
 and distributed under CC BY-SA 2.5.

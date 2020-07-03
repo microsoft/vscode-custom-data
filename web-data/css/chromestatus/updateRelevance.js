@@ -1,11 +1,8 @@
-/**
- * Instructions:
- * 
- * - Open https://www.chromestatus.com/metrics/css/popularity
- * - Run this snippet in its console
- * - Data in JSON will be in your clipboard
- * - Paste that into `attributesRanking.json`
- */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
 var https = require('https');
 var fs = require('fs');
 var path = require('path');
@@ -31,9 +28,9 @@ function download(source) {
 async function main() {
 	const content = await download(`https://www.chromestatus.com/data/csspopularity`);
 
-	const data = JSON.parse(content).map(d => d.property_name);
+	const data = JSON.parse(content).map(d => ({ name: d.property_name, relevance: Math.floor(d.day_percentage * 100)}));
 	const outData = `module.exports = ${JSON.stringify(data, null, '\t')};`;
-	fs.writeFileSync(path.join(__dirname, 'attributesRanking.js'), outData);
+	fs.writeFileSync(path.join(__dirname, 'attributeRelevance.js'), outData);
 
 	console.log(`Updated attributesRanking.js`);
 }

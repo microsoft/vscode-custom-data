@@ -1,8 +1,8 @@
 # Changelog
 
-### 0.2.0 | 2020-07-03
+### 0.3.0 | 2020-07-03
 
-- Add rank property
+- Add relevance property (Value for 0-100 how common a property is)
 
 ### 0.1.1 | 2019-11-04
 
