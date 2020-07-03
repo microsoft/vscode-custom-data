@@ -1,6 +1,6 @@
 {
   "name": "vscode-web-custom-data",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "scripts": {
     "update-sources": "yarn add -D mdn-data mdn-browser-compat-data && node ./css/chromestatus/updateRanking.js",
     "generate-data": "node html/generateData.js && node css/generateData.js"
