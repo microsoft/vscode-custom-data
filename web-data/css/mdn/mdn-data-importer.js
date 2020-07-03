@@ -17,6 +17,8 @@ const mdnExcludedProperties = [
   'motion-rotation'
 ]
 
+const noDoc = ["-webkit-background-composite", "-webkit-margin-bottom-collapse", "-webkit-margin-collapse", "-webkit-margin-start", "-webkit-margin-top-collapse", "-webkit-padding-start", "-webkit-tap-highlight-color", "-webkit-text-fill-color", "-webkit-text-stroke", "-webkit-text-stroke-color", "-webkit-text-stroke-width", "-webkit-touch-callout", "-webkit-user-drag"];
+
 function addMDNProperties(vscProperties) {
   const propertyMap = {}
 
@@ -60,7 +62,7 @@ function addMDNProperties(vscProperties) {
     if (!propertyMap[pn]) {
       propertyMap[pn] = {
         name: pn,
-        desc: mdnPropertyDescriptions[pn] ? mdnPropertyDescriptions[pn] : '',
+        desc: mdnPropertyDescriptions[pn] || '',
         restriction: 'none',
         ...extractMDNProperties(allMDNProperties[pn])
       }
@@ -74,6 +76,8 @@ function addMDNProperties(vscProperties) {
     if (!propertyMap[pn].desc || propertyMap[pn].desc === '') {
       if (mdnPropertyDescriptions[pn]) {
         propertyMap[pn].desc = mdnPropertyDescriptions[pn];
+      } else if (noDoc.indexOf(pn) === -1) {
+        console.log(`Missing documentaton for ${pn}.`);
       }
     }
   }

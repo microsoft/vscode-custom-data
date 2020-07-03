@@ -174,7 +174,8 @@ module.exports ={
     'max-zoom': `The max-zoom CSS descriptor sets the maximum zoom factor of a document defined by the @viewport at-rule. The browser will not zoom in any further than this, whether automatically or at the user's request.\n\nA zoom factor of 1.0 or 100% corresponds to no zooming. Larger values are zoomed in. Smaller values are zoomed out.`,
     'min-zoom': `The min-zoom CSS descriptor sets the minimum zoom factor of a document defined by the @viewport at-rule. The browser will not zoom out any further than this, whether automatically or at the user's request.\n\nA zoom factor of 1.0 or 100% corresponds to no zooming. Larger values are zoomed in. Smaller values are zoomed out.`,
     'orientation': `The orientation CSS @media media feature can be used to apply styles based on the orientation of the viewport (or the page box, for paged media).`,
-    'user-zoom': `The user-zoom CSS descriptor controls whether or not the user can change the zoom factor of a document defined by @viewport.`
+    'user-zoom': `The user-zoom CSS descriptor controls whether or not the user can change the zoom factor of a document defined by @viewport.`,
+    'size': 'The size CSS at-rule descriptor, used with the @page at-rule, defines the size and orientation of the box which is used to represent a page. Most of the time, this size corresponds to the target size of the printed page if applicable.'
   },
   pseudoSelectorDescriptions: {
     ':defined': 'The :defined CSS pseudo-class represents any element that has been defined. This includes any standard element built in to the browser, and custom elements that have been successfully defined (i.e. with the CustomElementRegistry.define() method).',

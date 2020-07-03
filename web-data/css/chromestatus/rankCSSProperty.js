@@ -2,17 +2,14 @@ const chromeRanks = require('./attributesRanking');
 
 function rankCSSProperties(properties) {
   let newProps = []
-
-  chromeRanks.forEach(propName => {
+  for (let i = 0; i < chromeRanks.length; i++) {
+    const propName = chromeRanks[i];
     const matchingPropIndex = properties.findIndex(p => p.name === propName)
     if (matchingPropIndex !== -1) {
-      newProps.push(properties[matchingPropIndex])
-      properties.splice(matchingPropIndex, 1)
+      properties[matchingPropIndex].rank = i;
     }
-  })
-
-  newProps = [...newProps, ...properties]
-  return newProps
+  }
+  return properties;
 }
 
 module.exports = {

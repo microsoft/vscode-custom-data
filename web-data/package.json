@@ -1,16 +1,16 @@
 {
   "name": "vscode-web-custom-data",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "scripts": {
-    "update-sources": "yarn add -D mdn-data mdn-browser-compat-data",
+    "update-sources": "yarn add -D mdn-data mdn-browser-compat-data && node ./css/chromestatus/updateRanking.js",
     "generate-data": "node html/generateData.js && node css/generateData.js"
   },
   "files": [
     "data/*"
   ],
   "devDependencies": {
-    "mdn-browser-compat-data": "^1.0.20",
-    "mdn-data": "^2.0.8",
+    "mdn-browser-compat-data": "^1.0.29",
+    "mdn-data": "^2.0.10",
     "xml2js": "^0.4.22"
   }
 }
