@@ -11,7 +11,7 @@ VS Code ships with rich [language feature support](https://code.visualstudio.com
 
 There are two primary use cases:
 
-1. You can use settings, `html.customData` and `css.customData` in your workspace settings to let VS Code load additional HTML/CSS entities, so they would show up in auto-completion, hover information etc. See [helloworld sample](./samples/helloworld) for an example.
+1. You can use settings, `html.customData` and `css.customData` in your settings to let VS Code load additional HTML/CSS entities, so they would show up in auto-completion, hover information etc. See [helloworld sample](./samples/helloworld) for an example.
 2. You can use [Contribution Points](https://code.visualstudio.com/api/references/contribution-points), `contributes.html.customData` or `contributes.css.customData` to load Custom Data into VS Code. See [vscode-mavo](https://github.com/octref/vscode-mavo) for an example.
 
 ## Explanation
