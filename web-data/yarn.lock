@@ -80,17 +80,17 @@ is-symbol@^1.0.2:
   dependencies:
     has-symbols "^1.0.0"
 
-mdn-browser-compat-data@^1.0.29:
-  version "1.0.29"
-  resolved "https://registry.yarnpkg.com/mdn-browser-compat-data/-/mdn-browser-compat-data-1.0.29.tgz#9edddaa953221050c6959a538c993e915e619220"
-  integrity sha512-R9/8Xi1d9by2Ag5O7Sur3zoe8k/61a+yYeC4f6S5UhbEZb2ICmYNZuprm+2IO9bBcT3Pa2BtEx+xKoX/8v8tPw==
+mdn-browser-compat-data@^1.0.34:
+  version "1.0.34"
+  resolved "https://registry.yarnpkg.com/mdn-browser-compat-data/-/mdn-browser-compat-data-1.0.34.tgz#6c62df103ebefb68207098f90aaf7d840028d21c"
+  integrity sha512-bIufENDguhcjV4qAguNEyEBoYuRgS7vIwSNifYt8s3FIBrsRwUd0xWah0P7H1lLIcBCPwwwQWpLgWHx3K7rFFg==
   dependencies:
     extend "3.0.2"
 
-mdn-data@^2.0.10:
-  version "2.0.10"
-  resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.10.tgz#ca10ecb91669304f0e4b32863f22e184a6d958c0"
-  integrity sha512-vm+yOqfnDfxQVyhFdIr/9YSS6ZTAWmamMhlz3GcPYtbyd1ZdJZLbLTwCSSlztqNLHZVoUAlZwzk6nd04GGitJg==
+mdn-data@^2.0.11:
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.11.tgz#d2fc3d7fc3ff852375c775fe5283d1e374c4c95d"
+  integrity sha512-ADeJti8mfWxdXqoudn3HZFHA0UMJ18zaKVnEiL6dTwNg99ZGMMc78CA5TxbqWui4iA417ZOYkWkl+Ssv3ItQDw==
 
 object-inspect@^1.6.0:
   version "1.6.0"

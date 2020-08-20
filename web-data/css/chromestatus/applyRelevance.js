@@ -6,12 +6,14 @@
 const chromeAttributeRelevance = require('./attributeRelevance');
 
 function applyRelevance(properties) {
-  let newProps = []
-  for (const entry of chromeAttributeRelevance) {
-    const propName = entry.name;
-    const matchingPropIndex = properties.findIndex(p => p.name === propName)
-    if (matchingPropIndex !== -1) {
-      properties[matchingPropIndex].relevance = entry.relevance;
+  for (let property of properties) {
+    const propName = property.name;
+    const matchingPropIndex = chromeAttributeRelevance.findIndex(r => r.name === propName);
+    const relevance = matchingPropIndex !== -1 ? (chromeAttributeRelevance[matchingPropIndex].relevance >> 1) : 0;
+    if (property.status === 'o' || property.status === 'n') {
+      property.relevance = relevance;
+    } else {
+      property.relevance = 50 + relevance;
     }
   }
   return properties;
