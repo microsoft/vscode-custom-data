@@ -4360,7 +4360,7 @@
     },
     {
       "name": "aria-haspopup",
-      "valueSet": "b",
+      "valueSet": "haspopup",
       "references": [
         {
           "name": "WAI-ARIA Reference",
@@ -5902,6 +5902,60 @@
         },
         {
           "name": "viewport"
+        }
+      ]
+    },
+    {
+      "name": "haspopup",
+      "values": [
+        {
+          "name": "false",
+          "description": {
+            "kind": "markdown",
+            "value": "(default) Indicates the element does not have a popup."
+          }
+        },
+        {
+          "name": "true",
+          "description": {
+            "kind": "markdown",
+            "value": "Indicates the popup is a menu."
+          }
+        },
+        {
+          "name": "menu",
+          "description": {
+            "kind": "markdown",
+            "value": "Indicates the popup is a menu."
+          }
+        },
+        {
+          "name": "listbox",
+          "description": {
+            "kind": "markdown",
+            "value": "Indicates the popup is a listbox."
+          }
+        },
+        {
+          "name": "tree",
+          "description": {
+            "kind": "markdown",
+            "value": "Indicates the popup is a tree."
+          }
+        },
+        {
+          "name": "grid",
+          "description": {
+            "kind": "markdown",
+            "value": "Indicates the popup is a grid."
+          }
+        },
+        {
+          "name": "dialog",
+          "description": {
+            "kind": "markdown",
+            "value": "Indicates the popup is a dialog."
+          }
         }
       ]
     }
