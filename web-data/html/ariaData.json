@@ -64,7 +64,7 @@
   },
   {
     "name": "aria-haspopup",
-    "valueSet": "b"
+    "valueSet": "haspopup"
   },
   {
     "name": "aria-hidden",

@@ -155,13 +155,6 @@
     },
     {
       "name": "justify-self",
-      "browsers": [
-        "E16",
-        "FF45",
-        "S10.1",
-        "C57",
-        "O44"
-      ],
       "values": [
         {
           "name": "auto"
@@ -5510,13 +5503,6 @@
     },
     {
       "name": "grid-template-columns",
-      "browsers": [
-        "E16",
-        "FF52",
-        "S10.1",
-        "C57",
-        "O44"
-      ],
       "values": [
         {
           "name": "none",
@@ -5565,13 +5551,6 @@
     },
     {
       "name": "grid-template-rows",
-      "browsers": [
-        "E16",
-        "FF52",
-        "S10.1",
-        "C57",
-        "O44"
-      ],
       "values": [
         {
           "name": "none",
@@ -6851,7 +6830,7 @@
       "browsers": [
         "E79",
         "FF41",
-        "S10.1",
+        "S12.1",
         "C57",
         "O44"
       ],
@@ -9185,7 +9164,7 @@
     {
       "name": "-ms-grid-columns",
       "browsers": [
-        "E12",
+        "E",
         "IE10"
       ],
       "relevance": 50,
@@ -9273,7 +9252,7 @@
     {
       "name": "-ms-grid-rows",
       "browsers": [
-        "E12",
+        "E",
         "IE10"
       ],
       "relevance": 50,
@@ -12759,6 +12738,7 @@
       "browsers": [
         "E79",
         "FF36",
+        "S14",
         "C61",
         "O48"
       ],
@@ -13665,7 +13645,7 @@
       "browsers": [
         "E79",
         "FF41",
-        "S5.1",
+        "S14",
         "C48",
         "O15"
       ],
@@ -13675,7 +13655,7 @@
           "browsers": [
             "E79",
             "FF41",
-            "S5.1",
+            "S14",
             "C48",
             "O15"
           ],
@@ -13686,7 +13666,7 @@
           "browsers": [
             "E79",
             "FF41",
-            "S5.1",
+            "S14",
             "C48",
             "O15"
           ],
@@ -17543,7 +17523,7 @@
       "relevance": 60,
       "browsers": [
         "E84",
-        "FF1",
+        "FF80",
         "S3",
         "C84",
         "O70"
@@ -17990,7 +17970,10 @@
       "syntax": "[ <custom-ident> <integer>? ]+ | none",
       "relevance": 50,
       "browsers": [
-        "FF68"
+        "E85",
+        "FF68",
+        "C85",
+        "O71"
       ],
       "references": [
         {
@@ -18774,7 +18757,7 @@
       "browsers": [
         "E84",
         "FF63",
-        "S10.1",
+        "S12.1",
         "C84",
         "O70"
       ],
@@ -21422,10 +21405,10 @@
     {
       "name": "::marker",
       "browsers": [
-        "E80",
+        "E86",
         "FF68",
         "S11.1",
-        "C80"
+        "C86"
       ],
       "references": [
         {
