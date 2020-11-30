@@ -9,7 +9,7 @@
           "url": "https://www.w3.org/TR/SVG/text.html#AlignmentBaselineProperty"
         }
       ],
-      "description": "The `**alignment-baseline**` attribute specifies how an object is aligned with respect to its parent. This property specifies which baseline of this element is to be aligned with the corresponding baseline of the parent. For example, this allows alphabetic baselines in Roman text to stay aligned across font size changes. It defaults to the baseline with the same name as the computed value of the `alignment-baseline` property."
+      "description": "The **`alignment-baseline`** attribute specifies how an object is aligned with respect to its parent. This property specifies which baseline of this element is to be aligned with the corresponding baseline of the parent. For example, this allows alphabetic baselines in Roman text to stay aligned across font size changes. It defaults to the baseline with the same name as the computed value of the `alignment-baseline` property."
     },
     {
       "name": "baseline-shift",
@@ -31,7 +31,7 @@
       ],
       "status": "standard",
       "syntax": "<color>",
-      "description": "The **`color`** attribute is used to provide a potential indirect value, `currentColor`, for the `[fill](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/fill)`, `[stroke](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stroke)`, `[stop-color](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stop-color)`, `[flood-color](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/flood-color)`, and `[lighting-color](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/lighting-color)` attributes."
+      "description": "The **`color`** attribute is used to provide a potential indirect value, `currentcolor`, for the `[fill](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/fill)`, `[stroke](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stroke)`, `[stop-color](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stop-color)`, `[flood-color](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/flood-color)`, and `[lighting-color](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/lighting-color)` attributes."
     },
     {
       "name": "color-interpolation",
@@ -73,7 +73,7 @@
           "url": "https://www.w3.org/TR/SVG/text.html#DominantBaselineProperty"
         }
       ],
-      "description": "The **`dominant-baseline`** attribute specifies the dominant baseline, which is the baseline used to align the box’s text and inline-level contents. It is also indicates the default alignment baseline of any boxes participating in baseline alignment in the box’s alignment context."
+      "description": "The **`dominant-baseline`** attribute specifies the dominant baseline, which is the baseline used to align the box’s text and inline-level contents. It also indicates the default alignment baseline of any boxes participating in baseline alignment in the box’s alignment context."
     },
     {
       "name": "fill",
@@ -83,7 +83,7 @@
           "url": "https://www.w3.org/TR/SVG/painting.html#FillProperty"
         }
       ],
-      "description": "The **`fill`** attribute has two different meaning: For shapes and text it's a presentation attribute that lets define the color (_or any SVG paint servers like gradients or patterns_) used to paint the element; for animation it lets define what is the final state of the animation."
+      "description": "The **`fill`** attribute has two different meanings. For shapes and text it's a presentation attribute that defines the color (_or any SVG paint servers like gradients or patterns_) used to paint the element; for animation it defines the final state of the animation."
     },
     {
       "name": "fill-opacity",
@@ -113,7 +113,7 @@
           "url": "https://www.w3.org/TR/SVG/text.html#GlyphOrientationHorizontalProperty"
         }
       ],
-      "description": "The **`glyph-orientation-horizontal`** attribute affects the amount that hte current text position advances as each [glyph](https://developer.mozilla.org/en-US/docs/Glossary/glyph \"The definition of that term (glyph) has not been written yet; please consider contributing it!\") is rendered."
+      "description": "The **`glyph-orientation-horizontal`** attribute affects the amount that hte current text position advances as each [glyph](https://developer.mozilla.org/en-US/docs/Glossary/glyph) is rendered."
     },
     {
       "name": "glyph-orientation-vertical",
@@ -123,7 +123,7 @@
           "url": "https://www.w3.org/TR/SVG/text.html#GlyphOrientationVerticalProperty"
         }
       ],
-      "description": "The **`glyph-orientation-vertical`** attribute affects the amount that hte current text position advances as each [glyph](https://developer.mozilla.org/en-US/docs/Glossary/glyph \"The definition of that term (glyph) has not been written yet; please consider contributing it!\") is rendered."
+      "description": "The **`glyph-orientation-vertical`** attribute affects the amount that hte current text position advances as each [glyph](https://developer.mozilla.org/en-US/docs/Glossary/glyph) is rendered."
     },
     {
       "name": "image-rendering",
@@ -136,10 +136,11 @@
       "status": "standard",
       "syntax": "auto | crisp-edges | pixelated",
       "browsers": [
+        "E79",
         "FF3.6",
-        "S",
-        "C",
-        "O"
+        "S6",
+        "C13",
+        "O15"
       ],
       "description": "The **`image-rendering`** attribute provides a hint to the browser about how to make speed vs. quality tradeoffs as it performs image processing."
     },
@@ -154,7 +155,9 @@
       "status": "standard",
       "syntax": "<'width'>",
       "browsers": [
+        "E79",
         "FF41",
+        "S12.1",
         "C57",
         "O44"
       ],
@@ -187,7 +190,7 @@
           "url": "https://www.w3.org/TR/SVG/painting.html#MarkerMidProperty"
         }
       ],
-      "description": "The **`marker-mid`** attribute defines the arrowhead or polymarker that will be drawn at the final vertex of the given [shape](https://developer.mozilla.org/en-US/docs/Web/SVG/Element#Shape_elements)."
+      "description": "The **`marker-mid`** attribute defines the arrowhead or polymarker that will be drawn at all interior vertices of the given [shape](https://developer.mozilla.org/en-US/docs/Web/SVG/Element#Shape_elements)."
     },
     {
       "name": "marker-start",
@@ -219,11 +222,14 @@
           "url": "https://www.w3.org/TR/SVG/painting.html#PaintOrderProperty"
         }
       ],
-      "status": "experimental",
+      "status": "standard",
       "syntax": "normal | [ fill || stroke || markers ]",
       "browsers": [
+        "E17",
         "FF60",
-        "S"
+        "S8",
+        "C35",
+        "O22"
       ],
       "description": "The **`paint-order`** attribute specifies the order that the fill, stroke, and markers of a given shape or text element are painted."
     },
@@ -237,7 +243,7 @@
       ],
       "status": "standard",
       "syntax": "auto | none | visiblePainted | visibleFill | visibleStroke | visible | painted | fill | stroke | all | inherit",
-      "description": "The **`pointer-events`** attribute is a presentation attribute that lets define whether or when an element may be the target of a mouse event."
+      "description": "The **`pointer-events`** attribute is a presentation attribute that allows defining whether or when an element may be the target of a mouse event."
     },
     {
       "name": "shape-rendering",
@@ -370,7 +376,8 @@
       "status": "standard",
       "syntax": "auto | optimizeSpeed | optimizeLegibility | geometricPrecision",
       "browsers": [
-        "FF3",
+        "E79",
+        "FF1",
         "S5",
         "C4",
         "O15"
@@ -500,7 +507,7 @@
         }
       ],
       "status": "standard",
-      "syntax": "<number>",
+      "syntax": "<alpha-value>",
       "description": "The **`opacity`** attribute specifies the transparency of an object or of a group of objects, that is, the degree to which the background behind the element is overlaid."
     },
     {
@@ -524,7 +531,7 @@
         }
       ],
       "status": "standard",
-      "syntax": "[ <length> | <percentage> ] && [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto",
+      "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content(<length-percentage>)",
       "description": "The **`height`** attribute defines the vertical length of an element in the user coordinate system."
     },
     {
@@ -536,7 +543,7 @@
         }
       ],
       "status": "standard",
-      "syntax": "[ <length> | <percentage> ] && [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto",
+      "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content(<length-percentage>)",
       "description": "The **`width`** attribute defines the horizontal length of an element in the user coordinate system."
     },
     {
@@ -560,8 +567,9 @@
         }
       ],
       "status": "standard",
-      "syntax": "<number>",
+      "syntax": "<alpha-value>",
       "browsers": [
+        "E79",
         "FF62",
         "S10.1",
         "C37",
@@ -589,6 +597,7 @@
       "status": "standard",
       "syntax": "<length-percentage>",
       "browsers": [
+        "E79",
         "FF62",
         "S10.1",
         "C37",
@@ -637,9 +646,11 @@
       "status": "standard",
       "syntax": "auto | normal | none",
       "browsers": [
+        "E79",
         "FF32",
-        "S7",
-        "C32"
+        "S9",
+        "C33",
+        "O20"
       ],
       "description": "The **`font-kerning`** CSS property sets the use of the kerning information stored in a font."
     },
@@ -653,7 +664,7 @@
       ],
       "status": "standard",
       "syntax": "[ [ <'font-style'> || <font-variant-css21> || <'font-weight'> || <'font-stretch'> ]? <'font-size'> [ / <'line-height'> ]? <'font-family'> ] | caption | icon | menu | message-box | small-caption | status-bar",
-      "description": "The **`font`** CSS property is a shorthand for [`font-style`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-style \"The font-style CSS property sets whether a font should be styled with a normal, italic, or oblique face from its font-family.\"), [`font-variant`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant \"The font-variant CSS property is a shorthand for the longhand properties font-variant-caps, font-variant-numeric, font-variant-alternates, font-variant-ligatures, and font-variant-east-asian. You can also set the CSS Level 2 (Revision 1) values of font-variant, (that is, normal or small-caps), by using the font shorthand.\"), [`font-weight`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight \"The font-weight CSS property sets the weight (or boldness) of the font. The weights available depend on the font-family you are using.\"), [`font-stretch`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-stretch \"The font-stretch CSS property selects a normal, condensed, or expanded face from a font.\"), [`font-size`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size \"The font-size CSS property sets the size of the font.\"), [`line-height`](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height \"The line-height CSS property sets the height of a line box. It's commonly used to set the distance between lines of text.\"), and [`font-family`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family \"The font-family CSS property specifies a prioritized list of one or more font family names and/or generic family names for the selected element.\"). Alternatively, it sets an element's font to a system font."
+      "description": "The **`font`** CSS [shorthand property](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties) sets all the different properties of an element's font. Alternatively, it sets an element's font to a system font."
     },
     {
       "name": "font-family",
@@ -689,7 +700,7 @@
       ],
       "status": "standard",
       "syntax": "<absolute-size> | <relative-size> | <length-percentage>",
-      "description": "The **`font-size`** attribute refers to the size of the font from [baseline](https://developer.mozilla.org/en-US/docs/Glossary/baseline \"The definition of that term (baseline) has not been written yet; please consider contributing it!\") to baseline when multiple lines of text are set solid in a multiline layout environment."
+      "description": "The **`font-size`** attribute refers to the size of the font from [baseline](https://developer.mozilla.org/en-US/docs/Glossary/baseline) to baseline when multiple lines of text are set solid in a multiline layout environment."
     },
     {
       "name": "font-size-adjust",
@@ -702,6 +713,7 @@
       "status": "standard",
       "syntax": "none | <number>",
       "browsers": [
+        "E79",
         "FF40",
         "C43",
         "O30"
@@ -730,7 +742,7 @@
       ],
       "status": "standard",
       "syntax": "normal | italic | oblique <angle>?",
-      "description": "The **`font-size`** attribute specifies whether the text is to be rendered using a normal, italic or oblique face."
+      "description": "The **`font-style`** attribute specifies whether the text is to be rendered using a normal, italic, or oblique face."
     },
     {
       "name": "font-variant",
@@ -742,7 +754,7 @@
       ],
       "status": "standard",
       "syntax": "normal | none | [ <common-lig-values> || <discretionary-lig-values> || <historical-lig-values> || <contextual-alt-values> || stylistic( <feature-value-name> ) || historical-forms || styleset( <feature-value-name># ) || character-variant( <feature-value-name># ) || swash( <feature-value-name> ) || ornaments( <feature-value-name> ) || annotation( <feature-value-name> ) || [ small-caps | all-small-caps | petite-caps | all-petite-caps | unicase | titling-caps ] || <numeric-figure-values> || <numeric-spacing-values> || <numeric-fraction-values> || ordinal || slashed-zero || <east-asian-variant-values> || <east-asian-width-values> || ruby ]",
-      "description": "The **`font-variant`** attribute indicates whether the text is to be rendered using variations of the fontʼs [glyphs](https://developer.mozilla.org/en-US/docs/Glossary/glyph \"The definition of that term (glyphs) has not been written yet; please consider contributing it!\")."
+      "description": "The **`font-variant`** attribute indicates whether the text is to be rendered using variations of the fontʼs [glyphs](https://developer.mozilla.org/en-US/docs/Glossary/glyph)."
     },
     {
       "name": "font-variant-ligatures",
@@ -755,12 +767,13 @@
       "status": "standard",
       "syntax": "normal | none | [ <common-lig-values> || <discretionary-lig-values> || <historical-lig-values> || <contextual-alt-values> ]",
       "browsers": [
+        "E79",
         "FF34",
         "S9.1",
         "C34",
         "O21"
       ],
-      "description": "The **`font-variant-ligatures`** CSS property controls which [ligatures](https://developer.mozilla.org/en-US/docs/Glossary/ligature \"ligatures: A ligature is a joining of two characters into one shape. For example, in French \"œ\" is a ligature of \"oe\".\") and [contextual forms](https://developer.mozilla.org/en-US/docs/Glossary/contextual_forms \"The definition of that term (contextual forms) has not been written yet; please consider contributing it!\") are used in textual content of the elements it applies to. This leads to more harmonized forms in the resulting text."
+      "description": "The **`font-variant-ligatures`** CSS property controls which [ligatures](https://developer.mozilla.org/en-US/docs/Glossary/ligature) and [contextual forms](https://developer.mozilla.org/en-US/docs/Glossary/contextual_forms) are used in textual content of the elements it applies to."
     },
     {
       "name": "font-weight",
@@ -787,7 +800,7 @@
       "browsers": [
         "S10"
       ],
-      "description": "The **`hanging-punctuation`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property specifies whether a punctuation mark should hang at the start or end of a line of text."
+      "description": "The **`hanging-punctuation`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property specifies whether a punctuation mark should hang at the start or end of a line of text. Hanging punctuation may be placed outside the line box."
     },
     {
       "name": "hyphens",
@@ -799,7 +812,7 @@
       ],
       "status": "standard",
       "syntax": "none | manual | auto",
-      "description": "The **`hyphens`** [CSS](https://developer.mozilla.org/en-US/docs/CSS) property specifies how words should be hyphenated when text wraps across multiple lines. You can prevent hyphenation entirely, use hyphenation in manually-specified points within the text, or let the browser automatically insert hyphens where appropriate."
+      "description": "The **`hyphens`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property specifies how words should be hyphenated when text wraps across multiple lines."
     },
     {
       "name": "letter-spacing",
@@ -822,14 +835,7 @@
         }
       ],
       "status": "standard",
-      "syntax": "auto | loose | normal | strict",
-      "browsers": [
-        "E14",
-        "S",
-        "C58",
-        "IE5.5",
-        "O45"
-      ],
+      "syntax": "auto | loose | normal | strict | anywhere",
       "description": "The **`line-break`** CSS property sets how to break lines of Chinese, Japanese, or Korean (CJK) text when working with punctuation and symbols."
     },
     {
@@ -841,7 +847,7 @@
         }
       ],
       "status": "standard",
-      "syntax": "normal | break-word",
+      "syntax": "normal | break-word | anywhere",
       "description": "The `**overflow-wrap**` [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property applies to inline elements, setting whether the browser should insert line breaks within an otherwise unbreakable string to prevent text from overflowing its line box."
     },
     {
@@ -855,12 +861,13 @@
       "status": "standard",
       "syntax": "<integer> | <length>",
       "browsers": [
+        "E79",
         "FF4",
         "S6.1",
         "C21",
         "O15"
       ],
-      "description": "The **`tab-size`** CSS property is used to customize the width of a tab (`U+0009`) character."
+      "description": "The **`tab-size`** CSS property is used to customize the width of tab characters (U+0009)."
     },
     {
       "name": "text-align",
@@ -872,7 +879,7 @@
       ],
       "status": "standard",
       "syntax": "start | end | left | right | center | justify | match-parent",
-      "description": "The **`text-align`** CSS property sets the horizontal alignment of a block element or table-cell box. This means it works like [`vertical-align`](https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align \"The vertical-align CSS property sets vertical alignment of an inline or table-cell box.\") but in the horizontal direction."
+      "description": "The **`text-align`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets the horizontal alignment of a block element or table-cell box. This means it works like [`vertical-align`](https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align \"The vertical-align CSS property sets vertical alignment of an inline, inline-block or table-cell box.\") but in the horizontal direction."
     },
     {
       "name": "text-align-last",
@@ -888,8 +895,8 @@
         "E12",
         "FF49",
         "C47",
-        "IE",
-        "O"
+        "IE5.5",
+        "O34"
       ],
       "description": "The **`text-align-last`** CSS property sets how the last line of a block or a line, right before a forced line break, is aligned."
     },
@@ -916,11 +923,11 @@
       "status": "standard",
       "syntax": "auto | inter-character | inter-word | none",
       "browsers": [
-        "E14",
+        "E12",
         "FF55",
-        "C",
+        "C32",
         "IE11",
-        "O"
+        "O19"
       ],
       "description": "The **`text-justify`** CSS property sets what type of justification should be applied to text when [`text-align`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-align \"The text-align CSS property sets the horizontal alignment of a block element or table-cell box. This means it works like vertical-align but in the horizontal direction.\")`: justify;` is set on an element."
     },
@@ -933,7 +940,7 @@
         }
       ],
       "status": "standard",
-      "syntax": "none | capitalize | uppercase | lowercase | full-width",
+      "syntax": "none | capitalize | uppercase | lowercase | full-width | full-size-kana",
       "description": "The **`text-transform`** CSS property specifies how to capitalize an element's text. It can be used to make text appear in all-uppercase or all-lowercase, or with each word capitalized. It also can help improve legibility for ruby."
     },
     {
@@ -945,8 +952,8 @@
         }
       ],
       "status": "standard",
-      "syntax": "normal | pre | nowrap | pre-wrap | pre-line",
-      "description": "The **`white-space`** CSS property sets how [white space](https://developer.mozilla.org/en-US/docs/Glossary/whitespace \"white space: Whitespace is a set of characters used to show horizontal or vertical spaces between other characters. They are often used to separate tokens in HTML, CSS, JavaScript, and other computer languages.\") inside an element is handled."
+      "syntax": "normal | pre | nowrap | pre-wrap | pre-line | break-spaces",
+      "description": "The **`white-space`** CSS property sets how [white space](https://developer.mozilla.org/en-US/docs/Glossary/whitespace) inside an element is handled."
     },
     {
       "name": "word-break",
@@ -993,7 +1000,7 @@
       ],
       "status": "standard",
       "syntax": "baseline | sub | super | text-top | text-bottom | middle | top | bottom | <percentage> | <length>",
-      "description": "The **`vertical-align`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets vertical alignment of an inline or table-cell box."
+      "description": "The **`vertical-align`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets vertical alignment of an inline, inline-block or table-cell box."
     },
     {
       "name": "direction",
@@ -1005,7 +1012,7 @@
       ],
       "status": "standard",
       "syntax": "ltr | rtl",
-      "description": "The **`direction`** attribute specifies the inline-base direction of a [`<text>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text \"The SVG <text> element draws a graphics element consisting of text. It's possible to apply a gradient, pattern, clipping path, mask, or filter to <text>, like any other SVG graphics element.\") or [`<tspan>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/tspan \"The SVG <tspan> element define a subtext within a <text> element or another <tspan> element. It allows to adjust the style and/or position of that subtext as needed.\") element. It defines the start and end points of a line of text as used by the `[text-anchor](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/text-anchor)` and `[inline-size](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/inline-size)` properties. It also may affect the direction in which characters are positioned if the `[unicode-bidi](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/unicode-bidi)` property's value is either `embed` or `bidi-override`."
+      "description": "The **`direction`** attribute specifies the inline-base direction of a [`<text>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text \"The SVG <text> element draws a graphics element consisting of text. It's possible to apply a gradient, pattern, clipping path, mask, or filter to <text>, like any other SVG graphics element.\") or [`<tspan>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/tspan \"The SVG <tspan> element defines a subtext within a <text> element or another <tspan> element. It allows for adjustment of the style and/or position of that subtext as needed.\") element. It defines the start and end points of a line of text as used by the `[text-anchor](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/text-anchor)` and `[inline-size](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/inline-size)` properties. It also may affect the direction in which characters are positioned if the `[unicode-bidi](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/unicode-bidi)` property's value is either `embed` or `bidi-override`."
     },
     {
       "name": "unicode-bidi",
@@ -1017,7 +1024,7 @@
       ],
       "status": "standard",
       "syntax": "normal | embed | isolate | bidi-override | isolate-override | plaintext",
-      "description": "The **`unicode-bidi`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property, together with the [`direction`](https://developer.mozilla.org/en-US/docs/Web/CSS/direction \"The direction CSS property sets the direction of text, table columns, and horizontal overflow.\") property, determines how bidirectional text in a document is handled. For example, if a block of content contains both left-to-right and right-to-left text, the user-agent uses a complex Unicode algorithm to decide how to display the text. The `unicode-bidi` property overrides this algorithm and allows the developer to control the text embedding."
+      "description": "The **`unicode-bidi`** attribute specifies how the accumulation of the background image is managed."
     },
     {
       "name": "writing-mode",
@@ -1029,7 +1036,7 @@
       ],
       "status": "standard",
       "syntax": "horizontal-tb | vertical-rl | vertical-lr | sideways-rl | sideways-lr",
-      "description": "The **`writing-mode`** attribute specifies whether the initial inline-progression-direction for a [`<text>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text \"The SVG <text> element draws a graphics element consisting of text. It's possible to apply a gradient, pattern, clipping path, mask, or filter to <text>, like any other SVG graphics element.\") element shall be left-to-right, right-to-left, or top-to-bottom. The `writing-mode` attribute applies only to [`<text>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text \"The SVG <text> element draws a graphics element consisting of text. It's possible to apply a gradient, pattern, clipping path, mask, or filter to <text>, like any other SVG graphics element.\") elements; the attribute is ignored for [`<tspan>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/tspan \"The SVG <tspan> element define a subtext within a <text> element or another <tspan> element. It allows to adjust the style and/or position of that subtext as needed.\"), [`<tref>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/tref \"The textual content for a <text> SVG element can be either character data directly embedded within the <text> element or the character data content of a referenced element, where the referencing is specified with a <tref> element.\"), [`<altGlyph>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/altGlyph \"The <altGlyph> SVG element allows sophisticated selection of the glyphs used to render its child character data.\") and [`<textPath>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/textPath \"To render text along the shape of a <path>, enclose the text in a <textPath> element that has an href attribute with a reference to the <path> element.\") sub-elements. (Note that the inline-progression-direction can change within a [`<text>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text \"The SVG <text> element draws a graphics element consisting of text. It's possible to apply a gradient, pattern, clipping path, mask, or filter to <text>, like any other SVG graphics element.\") element due to the Unicode bidirectional algorithm and properties `[direction](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/direction)` and `[unicode-bidi](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/unicode-bidi)`."
+      "description": "The **`writing-mode`** attribute specifies whether the initial inline-progression-direction for a [`<text>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text \"The SVG <text> element draws a graphics element consisting of text. It's possible to apply a gradient, pattern, clipping path, mask, or filter to <text>, like any other SVG graphics element.\") element shall be left-to-right, right-to-left, or top-to-bottom. The `writing-mode` attribute applies only to [`<text>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text \"The SVG <text> element draws a graphics element consisting of text. It's possible to apply a gradient, pattern, clipping path, mask, or filter to <text>, like any other SVG graphics element.\") elements; the attribute is ignored for [`<tspan>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/tspan \"The SVG <tspan> element defines a subtext within a <text> element or another <tspan> element. It allows for adjustment of the style and/or position of that subtext as needed.\"), [`<tref>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/tref \"The textual content for a <text> SVG element can be either character data directly embedded within the <text> element or the character data content of a referenced element, where the referencing is specified with a <tref> element.\"), [`<altGlyph>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/altGlyph \"The <altGlyph> SVG element allows sophisticated selection of the glyphs used to render its child character data.\") and [`<textPath>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/textPath \"To render text along the shape of a <path>, enclose the text in a <textPath> element that has an href attribute with a reference to the <path> element.\") sub-elements. (Note that the inline-progression-direction can change within a [`<text>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text \"The SVG <text> element draws a graphics element consisting of text. It's possible to apply a gradient, pattern, clipping path, mask, or filter to <text>, like any other SVG graphics element.\") element due to the Unicode bidirectional algorithm and properties `[direction](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/direction)` and `[unicode-bidi](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/unicode-bidi)`.)"
     },
     {
       "name": "text-orientation",
@@ -1042,9 +1049,11 @@
       "status": "standard",
       "syntax": "mixed | upright | sideways",
       "browsers": [
+        "E79",
         "FF41",
+        "S14",
         "C48",
-        "O"
+        "O15"
       ],
       "description": "The **`text-orientation`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets the orientation of the text characters in a line. It only affects text in vertical mode (when [`writing-mode`](https://developer.mozilla.org/en-US/docs/Web/CSS/writing-mode \"The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, as well as the direction in which blocks progress. When set for an entire document, it should be set on the root element (html element for HTML documents).\") is not `horizontal-tb`)."
     },
@@ -1069,7 +1078,7 @@
         }
       ],
       "status": "standard",
-      "syntax": "<'text-decoration-line'> || <'text-decoration-style'> || <'text-decoration-color'>",
+      "syntax": "<'text-decoration-line'> || <'text-decoration-style'> || <'text-decoration-color'> || <'text-decoration-thickness'>",
       "description": "The **`text-decoration`** attribute defines whether text is decorated with an underline, overline and/or strike-through."
     },
     {
@@ -1081,12 +1090,13 @@
         }
       ],
       "status": "standard",
-      "syntax": "none | [ underline || overline || line-through || blink ]",
+      "syntax": "none | [ underline || overline || line-through || blink ] | spelling-error | grammar-error",
       "browsers": [
+        "E79",
         "FF36",
-        "S",
-        "C",
-        "O"
+        "S12.1",
+        "C57",
+        "O44"
       ],
       "description": "The **`text-decoration-line`** [CSS](https://developer.mozilla.org/en-US/docs/CSS) property sets the kind of decoration that is used on text in an element, such as an underline or overline."
     },
@@ -1101,8 +1111,9 @@
       "status": "standard",
       "syntax": "solid | double | dotted | dashed | wavy",
       "browsers": [
+        "E79",
         "FF36",
-        "S",
+        "S12.1",
         "C57",
         "O44"
       ],
@@ -1119,12 +1130,13 @@
       "status": "standard",
       "syntax": "<color>",
       "browsers": [
+        "E79",
         "FF36",
-        "S",
+        "S12.1",
         "C57",
         "O44"
       ],
-      "description": "The **`text-decoration-color`** [CSS](https://developer.mozilla.org/en-US/docs/CSS) property sets the color of decorations added to text by [`text-decoration-line`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-line \"The text-decoration-line CSS property sets the kind of decoration that is used on text in an element, such as an underline or overline.\")."
+      "description": "The **`text-decoration-color`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets the color of decorations added to text by [`text-decoration-line`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-line \"The text-decoration-line CSS property sets the kind of decoration that is used on text in an element, such as an underline or overline.\")."
     },
     {
       "name": "object-fit",
@@ -1143,7 +1155,7 @@
         "C31",
         "O19"
       ],
-      "description": "The **`object-fit`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets how the content of a [replaced element](https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element), such as an [`<img>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img \"The HTML <img> element embeds an image into the document. It is a replaced element.\") or [`<video>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video \"The HTML Video element (<video>) embeds a media player which supports video playback into the document.\"), should be resized to fit its container."
+      "description": "The **`object-fit`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets how the content of a [replaced element](https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element), such as an [`<img>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img \"The HTML <img> element embeds an image into the document.\") or [`<video>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video \"The HTML Video element (<video>) embeds a media player which supports video playback into the document. You can use <video> for audio content as well, but the <audio> element may provide a more appropriate user experience.\"), should be resized to fit its container."
     },
     {
       "name": "object-position",
@@ -1174,7 +1186,7 @@
       ],
       "status": "standard",
       "syntax": "[ <'outline-color'> || <'outline-style'> || <'outline-width'> ]",
-      "description": "The **`outline`** [CSS](https://developer.mozilla.org/en-US/docs/CSS) property is a [shorthand](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties) to set various outline properties in a single declaration: [`outline-style`](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-style \"The outline-style CSS property sets the style of an element's outline. An outline is a line that is drawn around an element, outside the border.\"), [`outline-width`](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-width \"The outline-width CSS property sets the thickness of an element's outline. An outline is a line that is drawn around an element, outside the border.\"), and [`outline-color`](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-color \"The outline-color CSS property sets the color of an element's outline.\")."
+      "description": "The **`outline`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) [shorthand property](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties) set all the outline properties in a single declaration."
     },
     {
       "name": "position",
@@ -1197,7 +1209,7 @@
         }
       ],
       "status": "standard",
-      "syntax": "none | capitalize | uppercase | lowercase | full-width",
+      "syntax": "none | capitalize | uppercase | lowercase | full-width | full-size-kana",
       "description": "The **`text-transform`** CSS property specifies how to capitalize an element's text. It can be used to make text appear in all-uppercase or all-lowercase, or with each word capitalized. It also can help improve legibility for ruby."
     },
     {
@@ -1258,7 +1270,7 @@
       ],
       "status": "standard",
       "syntax": "normal | none | [ <content-replacement> | <content-list> ] [/ <string> ]?",
-      "description": "The **`content`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property replaces an element with a generated value. Objects inserted using the `content` property are _anonymous [replaced elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element)._"
+      "description": "The **`content`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property replaces an element with a generated value. Objects inserted using the `content` property are **anonymous [replaced elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element)**_._"
     },
     {
       "name": "transform-box",
@@ -1269,9 +1281,11 @@
         }
       ],
       "status": "standard",
-      "syntax": "border-box | fill-box | view-box",
+      "syntax": "content-box | border-box | fill-box | stroke-box | view-box",
       "browsers": [
+        "E79",
         "FF55",
+        "S11",
         "C64",
         "O51"
       ],
@@ -1287,7 +1301,7 @@
       ],
       "status": "standard",
       "syntax": "[ <length-percentage> | left | center | right | top | bottom ] | [ [ <length-percentage> | left | center | right ] && [ <length-percentage> | top | center | bottom ] ] <length>?",
-      "description": "The **`transform-origin`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets the origin for an element's transformations."
+      "description": "The **`transform-origin`** SVG attribute sets the origin for an item’s transformations."
     },
     {
       "name": "will-change",
@@ -1300,6 +1314,7 @@
       "status": "standard",
       "syntax": "auto | <animateable-feature>#",
       "browsers": [
+        "E79",
         "FF36",
         "S9.1",
         "C36",
@@ -1328,8 +1343,8 @@
         }
       ],
       "status": "standard",
-      "syntax": "<length> | <percentage> | auto | max-content | min-content | fit-content | fill-available",
-      "description": "The **`min-width`** [CSS](https://developer.mozilla.org/en-US/docs/CSS) property sets the minimum width of an element. It prevents the [used value](https://developer.mozilla.org/en-US/docs/Web/CSS/used_value) of the [`width`](https://developer.mozilla.org/en-US/docs/Web/CSS/width \"The width CSS property sets an element's width. By default, it sets the width of the content area, but if box-sizing is set to border-box, it sets the width of the border area.\") property from becoming smaller than the value specified for `min-width`."
+      "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content(<length-percentage>)",
+      "description": "The **`min-width`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets the minimum width of an element. It prevents the [used value](https://developer.mozilla.org/en-US/docs/Web/CSS/used_value) of the [`width`](https://developer.mozilla.org/en-US/docs/Web/CSS/width \"The width CSS property sets an element's width. By default, it sets the width of the content area, but if box-sizing is set to border-box, it sets the width of the border area.\") property from becoming smaller than the value specified for `min-width`."
     },
     {
       "name": "max-width",
@@ -1340,8 +1355,8 @@
         }
       ],
       "status": "standard",
-      "syntax": "<length> | <percentage> | none | max-content | min-content | fit-content | fill-available",
-      "description": "The **`max-width`** [CSS](https://developer.mozilla.org/en-US/docs/CSS) property sets the maximum width of an element. It prevents the [used value](https://developer.mozilla.org/en-US/docs/Web/CSS/used_value) of the [`width`](https://developer.mozilla.org/en-US/docs/Web/CSS/width \"The width CSS property sets an element's width. By default, it sets the width of the content area, but if box-sizing is set to border-box, it sets the width of the border area.\") property from becoming larger than the value specified by `max-width`."
+      "syntax": "none | <length-percentage> | min-content | max-content | fit-content(<length-percentage>)",
+      "description": "The **`max-width`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets the maximum width of an element. It prevents the [used value](https://developer.mozilla.org/en-US/docs/Web/CSS/used_value) of the [`width`](https://developer.mozilla.org/en-US/docs/Web/CSS/width \"The width CSS property sets an element's width. By default, it sets the width of the content area, but if box-sizing is set to border-box, it sets the width of the border area.\") property from becoming larger than the value specified by `max-width`."
     },
     {
       "name": "block-size",
@@ -1354,7 +1369,9 @@
       "status": "standard",
       "syntax": "<'width'>",
       "browsers": [
+        "E79",
         "FF41",
+        "S12.1",
         "C57",
         "O44"
       ],
@@ -1371,6 +1388,7 @@
       "status": "standard",
       "syntax": "none | <shape-box> || <basic-shape> | <image>",
       "browsers": [
+        "E79",
         "FF62",
         "S10.1",
         "C37",
@@ -1386,7 +1404,7 @@
           "url": "https://www.w3.org/TR/SVG/text.html#AlignmentBaselineProperty"
         }
       ],
-      "description": "The `**alignment-baseline**` attribute specifies how an object is aligned with respect to its parent. This property specifies which baseline of this element is to be aligned with the corresponding baseline of the parent. For example, this allows alphabetic baselines in Roman text to stay aligned across font size changes. It defaults to the baseline with the same name as the computed value of the `alignment-baseline` property."
+      "description": "The **`alignment-baseline`** attribute specifies how an object is aligned with respect to its parent. This property specifies which baseline of this element is to be aligned with the corresponding baseline of the parent. For example, this allows alphabetic baselines in Roman text to stay aligned across font size changes. It defaults to the baseline with the same name as the computed value of the `alignment-baseline` property."
     },
     {
       "name": "baseline-shift",
@@ -1408,7 +1426,7 @@
       ],
       "status": "standard",
       "syntax": "<color>",
-      "description": "The **`color`** attribute is used to provide a potential indirect value, `currentColor`, for the `[fill](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/fill)`, `[stroke](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stroke)`, `[stop-color](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stop-color)`, `[flood-color](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/flood-color)`, and `[lighting-color](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/lighting-color)` attributes."
+      "description": "The **`color`** attribute is used to provide a potential indirect value, `currentcolor`, for the `[fill](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/fill)`, `[stroke](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stroke)`, `[stop-color](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stop-color)`, `[flood-color](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/flood-color)`, and `[lighting-color](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/lighting-color)` attributes."
     },
     {
       "name": "color-interpolation",
@@ -1450,7 +1468,7 @@
           "url": "https://www.w3.org/TR/SVG/text.html#DominantBaselineProperty"
         }
       ],
-      "description": "The **`dominant-baseline`** attribute specifies the dominant baseline, which is the baseline used to align the box’s text and inline-level contents. It is also indicates the default alignment baseline of any boxes participating in baseline alignment in the box’s alignment context."
+      "description": "The **`dominant-baseline`** attribute specifies the dominant baseline, which is the baseline used to align the box’s text and inline-level contents. It also indicates the default alignment baseline of any boxes participating in baseline alignment in the box’s alignment context."
     },
     {
       "name": "fill",
@@ -1460,7 +1478,7 @@
           "url": "https://www.w3.org/TR/SVG/painting.html#FillProperty"
         }
       ],
-      "description": "The **`fill`** attribute has two different meaning: For shapes and text it's a presentation attribute that lets define the color (_or any SVG paint servers like gradients or patterns_) used to paint the element; for animation it lets define what is the final state of the animation."
+      "description": "The **`fill`** attribute has two different meanings. For shapes and text it's a presentation attribute that defines the color (_or any SVG paint servers like gradients or patterns_) used to paint the element; for animation it defines the final state of the animation."
     },
     {
       "name": "fill-opacity",
@@ -1490,7 +1508,7 @@
           "url": "https://www.w3.org/TR/SVG/text.html#GlyphOrientationHorizontalProperty"
         }
       ],
-      "description": "The **`glyph-orientation-horizontal`** attribute affects the amount that hte current text position advances as each [glyph](https://developer.mozilla.org/en-US/docs/Glossary/glyph \"The definition of that term (glyph) has not been written yet; please consider contributing it!\") is rendered."
+      "description": "The **`glyph-orientation-horizontal`** attribute affects the amount that hte current text position advances as each [glyph](https://developer.mozilla.org/en-US/docs/Glossary/glyph) is rendered."
     },
     {
       "name": "glyph-orientation-vertical",
@@ -1500,7 +1518,7 @@
           "url": "https://www.w3.org/TR/SVG/text.html#GlyphOrientationVerticalProperty"
         }
       ],
-      "description": "The **`glyph-orientation-vertical`** attribute affects the amount that hte current text position advances as each [glyph](https://developer.mozilla.org/en-US/docs/Glossary/glyph \"The definition of that term (glyph) has not been written yet; please consider contributing it!\") is rendered."
+      "description": "The **`glyph-orientation-vertical`** attribute affects the amount that hte current text position advances as each [glyph](https://developer.mozilla.org/en-US/docs/Glossary/glyph) is rendered."
     },
     {
       "name": "image-rendering",
@@ -1513,10 +1531,11 @@
       "status": "standard",
       "syntax": "auto | crisp-edges | pixelated",
       "browsers": [
+        "E79",
         "FF3.6",
-        "S",
-        "C",
-        "O"
+        "S6",
+        "C13",
+        "O15"
       ],
       "description": "The **`image-rendering`** attribute provides a hint to the browser about how to make speed vs. quality tradeoffs as it performs image processing."
     },
@@ -1531,7 +1550,9 @@
       "status": "standard",
       "syntax": "<'width'>",
       "browsers": [
+        "E79",
         "FF41",
+        "S12.1",
         "C57",
         "O44"
       ],
@@ -1564,7 +1585,7 @@
           "url": "https://www.w3.org/TR/SVG/painting.html#MarkerMidProperty"
         }
       ],
-      "description": "The **`marker-mid`** attribute defines the arrowhead or polymarker that will be drawn at the final vertex of the given [shape](https://developer.mozilla.org/en-US/docs/Web/SVG/Element#Shape_elements)."
+      "description": "The **`marker-mid`** attribute defines the arrowhead or polymarker that will be drawn at all interior vertices of the given [shape](https://developer.mozilla.org/en-US/docs/Web/SVG/Element#Shape_elements)."
     },
     {
       "name": "marker-start",
@@ -1596,11 +1617,14 @@
           "url": "https://www.w3.org/TR/SVG/painting.html#PaintOrderProperty"
         }
       ],
-      "status": "experimental",
+      "status": "standard",
       "syntax": "normal | [ fill || stroke || markers ]",
       "browsers": [
+        "E17",
         "FF60",
-        "S"
+        "S8",
+        "C35",
+        "O22"
       ],
       "description": "The **`paint-order`** attribute specifies the order that the fill, stroke, and markers of a given shape or text element are painted."
     },
@@ -1614,7 +1638,7 @@
       ],
       "status": "standard",
       "syntax": "auto | none | visiblePainted | visibleFill | visibleStroke | visible | painted | fill | stroke | all | inherit",
-      "description": "The **`pointer-events`** attribute is a presentation attribute that lets define whether or when an element may be the target of a mouse event."
+      "description": "The **`pointer-events`** attribute is a presentation attribute that allows defining whether or when an element may be the target of a mouse event."
     },
     {
       "name": "shape-rendering",
@@ -1747,7 +1771,8 @@
       "status": "standard",
       "syntax": "auto | optimizeSpeed | optimizeLegibility | geometricPrecision",
       "browsers": [
-        "FF3",
+        "E79",
+        "FF1",
         "S5",
         "C4",
         "O15"
@@ -1877,7 +1902,7 @@
         }
       ],
       "status": "standard",
-      "syntax": "<number>",
+      "syntax": "<alpha-value>",
       "description": "The **`opacity`** attribute specifies the transparency of an object or of a group of objects, that is, the degree to which the background behind the element is overlaid."
     },
     {
@@ -1901,7 +1926,7 @@
         }
       ],
       "status": "standard",
-      "syntax": "[ <length> | <percentage> ] && [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto",
+      "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content(<length-percentage>)",
       "description": "The **`height`** attribute defines the vertical length of an element in the user coordinate system."
     },
     {
@@ -1913,7 +1938,7 @@
         }
       ],
       "status": "standard",
-      "syntax": "[ <length> | <percentage> ] && [ border-box | content-box ]? | available | min-content | max-content | fit-content | auto",
+      "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content(<length-percentage>)",
       "description": "The **`width`** attribute defines the horizontal length of an element in the user coordinate system."
     },
     {
@@ -1937,8 +1962,9 @@
         }
       ],
       "status": "standard",
-      "syntax": "<number>",
+      "syntax": "<alpha-value>",
       "browsers": [
+        "E79",
         "FF62",
         "S10.1",
         "C37",
@@ -1966,6 +1992,7 @@
       "status": "standard",
       "syntax": "<length-percentage>",
       "browsers": [
+        "E79",
         "FF62",
         "S10.1",
         "C37",
@@ -2014,9 +2041,11 @@
       "status": "standard",
       "syntax": "auto | normal | none",
       "browsers": [
+        "E79",
         "FF32",
-        "S7",
-        "C32"
+        "S9",
+        "C33",
+        "O20"
       ],
       "description": "The **`font-kerning`** CSS property sets the use of the kerning information stored in a font."
     },
@@ -2030,7 +2059,7 @@
       ],
       "status": "standard",
       "syntax": "[ [ <'font-style'> || <font-variant-css21> || <'font-weight'> || <'font-stretch'> ]? <'font-size'> [ / <'line-height'> ]? <'font-family'> ] | caption | icon | menu | message-box | small-caption | status-bar",
-      "description": "The **`font`** CSS property is a shorthand for [`font-style`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-style \"The font-style CSS property sets whether a font should be styled with a normal, italic, or oblique face from its font-family.\"), [`font-variant`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant \"The font-variant CSS property is a shorthand for the longhand properties font-variant-caps, font-variant-numeric, font-variant-alternates, font-variant-ligatures, and font-variant-east-asian. You can also set the CSS Level 2 (Revision 1) values of font-variant, (that is, normal or small-caps), by using the font shorthand.\"), [`font-weight`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight \"The font-weight CSS property sets the weight (or boldness) of the font. The weights available depend on the font-family you are using.\"), [`font-stretch`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-stretch \"The font-stretch CSS property selects a normal, condensed, or expanded face from a font.\"), [`font-size`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size \"The font-size CSS property sets the size of the font.\"), [`line-height`](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height \"The line-height CSS property sets the height of a line box. It's commonly used to set the distance between lines of text.\"), and [`font-family`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family \"The font-family CSS property specifies a prioritized list of one or more font family names and/or generic family names for the selected element.\"). Alternatively, it sets an element's font to a system font."
+      "description": "The **`font`** CSS [shorthand property](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties) sets all the different properties of an element's font. Alternatively, it sets an element's font to a system font."
     },
     {
       "name": "font-family",
@@ -2066,7 +2095,7 @@
       ],
       "status": "standard",
       "syntax": "<absolute-size> | <relative-size> | <length-percentage>",
-      "description": "The **`font-size`** attribute refers to the size of the font from [baseline](https://developer.mozilla.org/en-US/docs/Glossary/baseline \"The definition of that term (baseline) has not been written yet; please consider contributing it!\") to baseline when multiple lines of text are set solid in a multiline layout environment."
+      "description": "The **`font-size`** attribute refers to the size of the font from [baseline](https://developer.mozilla.org/en-US/docs/Glossary/baseline) to baseline when multiple lines of text are set solid in a multiline layout environment."
     },
     {
       "name": "font-size-adjust",
@@ -2079,6 +2108,7 @@
       "status": "standard",
       "syntax": "none | <number>",
       "browsers": [
+        "E79",
         "FF40",
         "C43",
         "O30"
@@ -2107,7 +2137,7 @@
       ],
       "status": "standard",
       "syntax": "normal | italic | oblique <angle>?",
-      "description": "The **`font-size`** attribute specifies whether the text is to be rendered using a normal, italic or oblique face."
+      "description": "The **`font-style`** attribute specifies whether the text is to be rendered using a normal, italic, or oblique face."
     },
     {
       "name": "font-variant",
@@ -2119,7 +2149,7 @@
       ],
       "status": "standard",
       "syntax": "normal | none | [ <common-lig-values> || <discretionary-lig-values> || <historical-lig-values> || <contextual-alt-values> || stylistic( <feature-value-name> ) || historical-forms || styleset( <feature-value-name># ) || character-variant( <feature-value-name># ) || swash( <feature-value-name> ) || ornaments( <feature-value-name> ) || annotation( <feature-value-name> ) || [ small-caps | all-small-caps | petite-caps | all-petite-caps | unicase | titling-caps ] || <numeric-figure-values> || <numeric-spacing-values> || <numeric-fraction-values> || ordinal || slashed-zero || <east-asian-variant-values> || <east-asian-width-values> || ruby ]",
-      "description": "The **`font-variant`** attribute indicates whether the text is to be rendered using variations of the fontʼs [glyphs](https://developer.mozilla.org/en-US/docs/Glossary/glyph \"The definition of that term (glyphs) has not been written yet; please consider contributing it!\")."
+      "description": "The **`font-variant`** attribute indicates whether the text is to be rendered using variations of the fontʼs [glyphs](https://developer.mozilla.org/en-US/docs/Glossary/glyph)."
     },
     {
       "name": "font-variant-ligatures",
@@ -2132,12 +2162,13 @@
       "status": "standard",
       "syntax": "normal | none | [ <common-lig-values> || <discretionary-lig-values> || <historical-lig-values> || <contextual-alt-values> ]",
       "browsers": [
+        "E79",
         "FF34",
         "S9.1",
         "C34",
         "O21"
       ],
-      "description": "The **`font-variant-ligatures`** CSS property controls which [ligatures](https://developer.mozilla.org/en-US/docs/Glossary/ligature \"ligatures: A ligature is a joining of two characters into one shape. For example, in French \"œ\" is a ligature of \"oe\".\") and [contextual forms](https://developer.mozilla.org/en-US/docs/Glossary/contextual_forms \"The definition of that term (contextual forms) has not been written yet; please consider contributing it!\") are used in textual content of the elements it applies to. This leads to more harmonized forms in the resulting text."
+      "description": "The **`font-variant-ligatures`** CSS property controls which [ligatures](https://developer.mozilla.org/en-US/docs/Glossary/ligature) and [contextual forms](https://developer.mozilla.org/en-US/docs/Glossary/contextual_forms) are used in textual content of the elements it applies to."
     },
     {
       "name": "font-weight",
@@ -2164,7 +2195,7 @@
       "browsers": [
         "S10"
       ],
-      "description": "The **`hanging-punctuation`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property specifies whether a punctuation mark should hang at the start or end of a line of text."
+      "description": "The **`hanging-punctuation`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property specifies whether a punctuation mark should hang at the start or end of a line of text. Hanging punctuation may be placed outside the line box."
     },
     {
       "name": "hyphens",
@@ -2176,7 +2207,7 @@
       ],
       "status": "standard",
       "syntax": "none | manual | auto",
-      "description": "The **`hyphens`** [CSS](https://developer.mozilla.org/en-US/docs/CSS) property specifies how words should be hyphenated when text wraps across multiple lines. You can prevent hyphenation entirely, use hyphenation in manually-specified points within the text, or let the browser automatically insert hyphens where appropriate."
+      "description": "The **`hyphens`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property specifies how words should be hyphenated when text wraps across multiple lines."
     },
     {
       "name": "letter-spacing",
@@ -2199,14 +2230,7 @@
         }
       ],
       "status": "standard",
-      "syntax": "auto | loose | normal | strict",
-      "browsers": [
-        "E14",
-        "S",
-        "C58",
-        "IE5.5",
-        "O45"
-      ],
+      "syntax": "auto | loose | normal | strict | anywhere",
       "description": "The **`line-break`** CSS property sets how to break lines of Chinese, Japanese, or Korean (CJK) text when working with punctuation and symbols."
     },
     {
@@ -2218,7 +2242,7 @@
         }
       ],
       "status": "standard",
-      "syntax": "normal | break-word",
+      "syntax": "normal | break-word | anywhere",
       "description": "The `**overflow-wrap**` [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property applies to inline elements, setting whether the browser should insert line breaks within an otherwise unbreakable string to prevent text from overflowing its line box."
     },
     {
@@ -2232,12 +2256,13 @@
       "status": "standard",
       "syntax": "<integer> | <length>",
       "browsers": [
+        "E79",
         "FF4",
         "S6.1",
         "C21",
         "O15"
       ],
-      "description": "The **`tab-size`** CSS property is used to customize the width of a tab (`U+0009`) character."
+      "description": "The **`tab-size`** CSS property is used to customize the width of tab characters (U+0009)."
     },
     {
       "name": "text-align",
@@ -2249,7 +2274,7 @@
       ],
       "status": "standard",
       "syntax": "start | end | left | right | center | justify | match-parent",
-      "description": "The **`text-align`** CSS property sets the horizontal alignment of a block element or table-cell box. This means it works like [`vertical-align`](https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align \"The vertical-align CSS property sets vertical alignment of an inline or table-cell box.\") but in the horizontal direction."
+      "description": "The **`text-align`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets the horizontal alignment of a block element or table-cell box. This means it works like [`vertical-align`](https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align \"The vertical-align CSS property sets vertical alignment of an inline, inline-block or table-cell box.\") but in the horizontal direction."
     },
     {
       "name": "text-align-last",
@@ -2265,8 +2290,8 @@
         "E12",
         "FF49",
         "C47",
-        "IE",
-        "O"
+        "IE5.5",
+        "O34"
       ],
       "description": "The **`text-align-last`** CSS property sets how the last line of a block or a line, right before a forced line break, is aligned."
     },
@@ -2293,11 +2318,11 @@
       "status": "standard",
       "syntax": "auto | inter-character | inter-word | none",
       "browsers": [
-        "E14",
+        "E12",
         "FF55",
-        "C",
+        "C32",
         "IE11",
-        "O"
+        "O19"
       ],
       "description": "The **`text-justify`** CSS property sets what type of justification should be applied to text when [`text-align`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-align \"The text-align CSS property sets the horizontal alignment of a block element or table-cell box. This means it works like vertical-align but in the horizontal direction.\")`: justify;` is set on an element."
     },
@@ -2310,7 +2335,7 @@
         }
       ],
       "status": "standard",
-      "syntax": "none | capitalize | uppercase | lowercase | full-width",
+      "syntax": "none | capitalize | uppercase | lowercase | full-width | full-size-kana",
       "description": "The **`text-transform`** CSS property specifies how to capitalize an element's text. It can be used to make text appear in all-uppercase or all-lowercase, or with each word capitalized. It also can help improve legibility for ruby."
     },
     {
@@ -2322,8 +2347,8 @@
         }
       ],
       "status": "standard",
-      "syntax": "normal | pre | nowrap | pre-wrap | pre-line",
-      "description": "The **`white-space`** CSS property sets how [white space](https://developer.mozilla.org/en-US/docs/Glossary/whitespace \"white space: Whitespace is a set of characters used to show horizontal or vertical spaces between other characters. They are often used to separate tokens in HTML, CSS, JavaScript, and other computer languages.\") inside an element is handled."
+      "syntax": "normal | pre | nowrap | pre-wrap | pre-line | break-spaces",
+      "description": "The **`white-space`** CSS property sets how [white space](https://developer.mozilla.org/en-US/docs/Glossary/whitespace) inside an element is handled."
     },
     {
       "name": "word-break",
@@ -2370,7 +2395,7 @@
       ],
       "status": "standard",
       "syntax": "baseline | sub | super | text-top | text-bottom | middle | top | bottom | <percentage> | <length>",
-      "description": "The **`vertical-align`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets vertical alignment of an inline or table-cell box."
+      "description": "The **`vertical-align`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets vertical alignment of an inline, inline-block or table-cell box."
     },
     {
       "name": "direction",
@@ -2382,7 +2407,7 @@
       ],
       "status": "standard",
       "syntax": "ltr | rtl",
-      "description": "The **`direction`** attribute specifies the inline-base direction of a [`<text>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text \"The SVG <text> element draws a graphics element consisting of text. It's possible to apply a gradient, pattern, clipping path, mask, or filter to <text>, like any other SVG graphics element.\") or [`<tspan>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/tspan \"The SVG <tspan> element define a subtext within a <text> element or another <tspan> element. It allows to adjust the style and/or position of that subtext as needed.\") element. It defines the start and end points of a line of text as used by the `[text-anchor](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/text-anchor)` and `[inline-size](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/inline-size)` properties. It also may affect the direction in which characters are positioned if the `[unicode-bidi](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/unicode-bidi)` property's value is either `embed` or `bidi-override`."
+      "description": "The **`direction`** attribute specifies the inline-base direction of a [`<text>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text \"The SVG <text> element draws a graphics element consisting of text. It's possible to apply a gradient, pattern, clipping path, mask, or filter to <text>, like any other SVG graphics element.\") or [`<tspan>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/tspan \"The SVG <tspan> element defines a subtext within a <text> element or another <tspan> element. It allows for adjustment of the style and/or position of that subtext as needed.\") element. It defines the start and end points of a line of text as used by the `[text-anchor](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/text-anchor)` and `[inline-size](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/inline-size)` properties. It also may affect the direction in which characters are positioned if the `[unicode-bidi](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/unicode-bidi)` property's value is either `embed` or `bidi-override`."
     },
     {
       "name": "unicode-bidi",
@@ -2394,7 +2419,7 @@
       ],
       "status": "standard",
       "syntax": "normal | embed | isolate | bidi-override | isolate-override | plaintext",
-      "description": "The **`unicode-bidi`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property, together with the [`direction`](https://developer.mozilla.org/en-US/docs/Web/CSS/direction \"The direction CSS property sets the direction of text, table columns, and horizontal overflow.\") property, determines how bidirectional text in a document is handled. For example, if a block of content contains both left-to-right and right-to-left text, the user-agent uses a complex Unicode algorithm to decide how to display the text. The `unicode-bidi` property overrides this algorithm and allows the developer to control the text embedding."
+      "description": "The **`unicode-bidi`** attribute specifies how the accumulation of the background image is managed."
     },
     {
       "name": "writing-mode",
@@ -2406,7 +2431,7 @@
       ],
       "status": "standard",
       "syntax": "horizontal-tb | vertical-rl | vertical-lr | sideways-rl | sideways-lr",
-      "description": "The **`writing-mode`** attribute specifies whether the initial inline-progression-direction for a [`<text>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text \"The SVG <text> element draws a graphics element consisting of text. It's possible to apply a gradient, pattern, clipping path, mask, or filter to <text>, like any other SVG graphics element.\") element shall be left-to-right, right-to-left, or top-to-bottom. The `writing-mode` attribute applies only to [`<text>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text \"The SVG <text> element draws a graphics element consisting of text. It's possible to apply a gradient, pattern, clipping path, mask, or filter to <text>, like any other SVG graphics element.\") elements; the attribute is ignored for [`<tspan>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/tspan \"The SVG <tspan> element define a subtext within a <text> element or another <tspan> element. It allows to adjust the style and/or position of that subtext as needed.\"), [`<tref>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/tref \"The textual content for a <text> SVG element can be either character data directly embedded within the <text> element or the character data content of a referenced element, where the referencing is specified with a <tref> element.\"), [`<altGlyph>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/altGlyph \"The <altGlyph> SVG element allows sophisticated selection of the glyphs used to render its child character data.\") and [`<textPath>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/textPath \"To render text along the shape of a <path>, enclose the text in a <textPath> element that has an href attribute with a reference to the <path> element.\") sub-elements. (Note that the inline-progression-direction can change within a [`<text>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text \"The SVG <text> element draws a graphics element consisting of text. It's possible to apply a gradient, pattern, clipping path, mask, or filter to <text>, like any other SVG graphics element.\") element due to the Unicode bidirectional algorithm and properties `[direction](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/direction)` and `[unicode-bidi](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/unicode-bidi)`."
+      "description": "The **`writing-mode`** attribute specifies whether the initial inline-progression-direction for a [`<text>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text \"The SVG <text> element draws a graphics element consisting of text. It's possible to apply a gradient, pattern, clipping path, mask, or filter to <text>, like any other SVG graphics element.\") element shall be left-to-right, right-to-left, or top-to-bottom. The `writing-mode` attribute applies only to [`<text>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text \"The SVG <text> element draws a graphics element consisting of text. It's possible to apply a gradient, pattern, clipping path, mask, or filter to <text>, like any other SVG graphics element.\") elements; the attribute is ignored for [`<tspan>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/tspan \"The SVG <tspan> element defines a subtext within a <text> element or another <tspan> element. It allows for adjustment of the style and/or position of that subtext as needed.\"), [`<tref>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/tref \"The textual content for a <text> SVG element can be either character data directly embedded within the <text> element or the character data content of a referenced element, where the referencing is specified with a <tref> element.\"), [`<altGlyph>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/altGlyph \"The <altGlyph> SVG element allows sophisticated selection of the glyphs used to render its child character data.\") and [`<textPath>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/textPath \"To render text along the shape of a <path>, enclose the text in a <textPath> element that has an href attribute with a reference to the <path> element.\") sub-elements. (Note that the inline-progression-direction can change within a [`<text>`](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text \"The SVG <text> element draws a graphics element consisting of text. It's possible to apply a gradient, pattern, clipping path, mask, or filter to <text>, like any other SVG graphics element.\") element due to the Unicode bidirectional algorithm and properties `[direction](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/direction)` and `[unicode-bidi](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/unicode-bidi)`.)"
     },
     {
       "name": "text-orientation",
@@ -2419,9 +2444,11 @@
       "status": "standard",
       "syntax": "mixed | upright | sideways",
       "browsers": [
+        "E79",
         "FF41",
+        "S14",
         "C48",
-        "O"
+        "O15"
       ],
       "description": "The **`text-orientation`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets the orientation of the text characters in a line. It only affects text in vertical mode (when [`writing-mode`](https://developer.mozilla.org/en-US/docs/Web/CSS/writing-mode \"The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, as well as the direction in which blocks progress. When set for an entire document, it should be set on the root element (html element for HTML documents).\") is not `horizontal-tb`)."
     },
@@ -2446,7 +2473,7 @@
         }
       ],
       "status": "standard",
-      "syntax": "<'text-decoration-line'> || <'text-decoration-style'> || <'text-decoration-color'>",
+      "syntax": "<'text-decoration-line'> || <'text-decoration-style'> || <'text-decoration-color'> || <'text-decoration-thickness'>",
       "description": "The **`text-decoration`** attribute defines whether text is decorated with an underline, overline and/or strike-through."
     },
     {
@@ -2458,12 +2485,13 @@
         }
       ],
       "status": "standard",
-      "syntax": "none | [ underline || overline || line-through || blink ]",
+      "syntax": "none | [ underline || overline || line-through || blink ] | spelling-error | grammar-error",
       "browsers": [
+        "E79",
         "FF36",
-        "S",
-        "C",
-        "O"
+        "S12.1",
+        "C57",
+        "O44"
       ],
       "description": "The **`text-decoration-line`** [CSS](https://developer.mozilla.org/en-US/docs/CSS) property sets the kind of decoration that is used on text in an element, such as an underline or overline."
     },
@@ -2478,8 +2506,9 @@
       "status": "standard",
       "syntax": "solid | double | dotted | dashed | wavy",
       "browsers": [
+        "E79",
         "FF36",
-        "S",
+        "S12.1",
         "C57",
         "O44"
       ],
@@ -2496,12 +2525,13 @@
       "status": "standard",
       "syntax": "<color>",
       "browsers": [
+        "E79",
         "FF36",
-        "S",
+        "S12.1",
         "C57",
         "O44"
       ],
-      "description": "The **`text-decoration-color`** [CSS](https://developer.mozilla.org/en-US/docs/CSS) property sets the color of decorations added to text by [`text-decoration-line`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-line \"The text-decoration-line CSS property sets the kind of decoration that is used on text in an element, such as an underline or overline.\")."
+      "description": "The **`text-decoration-color`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets the color of decorations added to text by [`text-decoration-line`](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-line \"The text-decoration-line CSS property sets the kind of decoration that is used on text in an element, such as an underline or overline.\")."
     },
     {
       "name": "object-fit",
@@ -2520,7 +2550,7 @@
         "C31",
         "O19"
       ],
-      "description": "The **`object-fit`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets how the content of a [replaced element](https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element), such as an [`<img>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img \"The HTML <img> element embeds an image into the document. It is a replaced element.\") or [`<video>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video \"The HTML Video element (<video>) embeds a media player which supports video playback into the document.\"), should be resized to fit its container."
+      "description": "The **`object-fit`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets how the content of a [replaced element](https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element), such as an [`<img>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img \"The HTML <img> element embeds an image into the document.\") or [`<video>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video \"The HTML Video element (<video>) embeds a media player which supports video playback into the document. You can use <video> for audio content as well, but the <audio> element may provide a more appropriate user experience.\"), should be resized to fit its container."
     },
     {
       "name": "object-position",
@@ -2551,7 +2581,7 @@
       ],
       "status": "standard",
       "syntax": "[ <'outline-color'> || <'outline-style'> || <'outline-width'> ]",
-      "description": "The **`outline`** [CSS](https://developer.mozilla.org/en-US/docs/CSS) property is a [shorthand](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties) to set various outline properties in a single declaration: [`outline-style`](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-style \"The outline-style CSS property sets the style of an element's outline. An outline is a line that is drawn around an element, outside the border.\"), [`outline-width`](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-width \"The outline-width CSS property sets the thickness of an element's outline. An outline is a line that is drawn around an element, outside the border.\"), and [`outline-color`](https://developer.mozilla.org/en-US/docs/Web/CSS/outline-color \"The outline-color CSS property sets the color of an element's outline.\")."
+      "description": "The **`outline`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) [shorthand property](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties) set all the outline properties in a single declaration."
     },
     {
       "name": "position",
@@ -2574,7 +2604,7 @@
         }
       ],
       "status": "standard",
-      "syntax": "none | capitalize | uppercase | lowercase | full-width",
+      "syntax": "none | capitalize | uppercase | lowercase | full-width | full-size-kana",
       "description": "The **`text-transform`** CSS property specifies how to capitalize an element's text. It can be used to make text appear in all-uppercase or all-lowercase, or with each word capitalized. It also can help improve legibility for ruby."
     },
     {
@@ -2635,7 +2665,7 @@
       ],
       "status": "standard",
       "syntax": "normal | none | [ <content-replacement> | <content-list> ] [/ <string> ]?",
-      "description": "The **`content`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property replaces an element with a generated value. Objects inserted using the `content` property are _anonymous [replaced elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element)._"
+      "description": "The **`content`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property replaces an element with a generated value. Objects inserted using the `content` property are **anonymous [replaced elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element)**_._"
     },
     {
       "name": "transform-box",
@@ -2646,9 +2676,11 @@
         }
       ],
       "status": "standard",
-      "syntax": "border-box | fill-box | view-box",
+      "syntax": "content-box | border-box | fill-box | stroke-box | view-box",
       "browsers": [
+        "E79",
         "FF55",
+        "S11",
         "C64",
         "O51"
       ],
@@ -2664,7 +2696,7 @@
       ],
       "status": "standard",
       "syntax": "[ <length-percentage> | left | center | right | top | bottom ] | [ [ <length-percentage> | left | center | right ] && [ <length-percentage> | top | center | bottom ] ] <length>?",
-      "description": "The **`transform-origin`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets the origin for an element's transformations."
+      "description": "The **`transform-origin`** SVG attribute sets the origin for an item’s transformations."
     },
     {
       "name": "will-change",
@@ -2677,6 +2709,7 @@
       "status": "standard",
       "syntax": "auto | <animateable-feature>#",
       "browsers": [
+        "E79",
         "FF36",
         "S9.1",
         "C36",
@@ -2705,8 +2738,8 @@
         }
       ],
       "status": "standard",
-      "syntax": "<length> | <percentage> | auto | max-content | min-content | fit-content | fill-available",
-      "description": "The **`min-width`** [CSS](https://developer.mozilla.org/en-US/docs/CSS) property sets the minimum width of an element. It prevents the [used value](https://developer.mozilla.org/en-US/docs/Web/CSS/used_value) of the [`width`](https://developer.mozilla.org/en-US/docs/Web/CSS/width \"The width CSS property sets an element's width. By default, it sets the width of the content area, but if box-sizing is set to border-box, it sets the width of the border area.\") property from becoming smaller than the value specified for `min-width`."
+      "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content(<length-percentage>)",
+      "description": "The **`min-width`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets the minimum width of an element. It prevents the [used value](https://developer.mozilla.org/en-US/docs/Web/CSS/used_value) of the [`width`](https://developer.mozilla.org/en-US/docs/Web/CSS/width \"The width CSS property sets an element's width. By default, it sets the width of the content area, but if box-sizing is set to border-box, it sets the width of the border area.\") property from becoming smaller than the value specified for `min-width`."
     },
     {
       "name": "max-width",
@@ -2717,8 +2750,8 @@
         }
       ],
       "status": "standard",
-      "syntax": "<length> | <percentage> | none | max-content | min-content | fit-content | fill-available",
-      "description": "The **`max-width`** [CSS](https://developer.mozilla.org/en-US/docs/CSS) property sets the maximum width of an element. It prevents the [used value](https://developer.mozilla.org/en-US/docs/Web/CSS/used_value) of the [`width`](https://developer.mozilla.org/en-US/docs/Web/CSS/width \"The width CSS property sets an element's width. By default, it sets the width of the content area, but if box-sizing is set to border-box, it sets the width of the border area.\") property from becoming larger than the value specified by `max-width`."
+      "syntax": "none | <length-percentage> | min-content | max-content | fit-content(<length-percentage>)",
+      "description": "The **`max-width`** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property sets the maximum width of an element. It prevents the [used value](https://developer.mozilla.org/en-US/docs/Web/CSS/used_value) of the [`width`](https://developer.mozilla.org/en-US/docs/Web/CSS/width \"The width CSS property sets an element's width. By default, it sets the width of the content area, but if box-sizing is set to border-box, it sets the width of the border area.\") property from becoming larger than the value specified by `max-width`."
     },
     {
       "name": "block-size",
@@ -2731,7 +2764,9 @@
       "status": "standard",
       "syntax": "<'width'>",
       "browsers": [
+        "E79",
         "FF41",
+        "S12.1",
         "C57",
         "O44"
       ],
@@ -2748,6 +2783,7 @@
       "status": "standard",
       "syntax": "none | <shape-box> || <basic-shape> | <image>",
       "browsers": [
+        "E79",
         "FF62",
         "S10.1",
         "C37",
