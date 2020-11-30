@@ -12,7 +12,7 @@
 
 //@ts-check
 
-module.exports ={
+module.exports = {
   propertyDescriptions: {
     '-ms-ime-align': `Aligns the Input Method Editor (IME) candidate window box relative to the element on which the IME composition is active.`,
     '-moz-binding': `The -moz-binding CSS property is used by Mozilla-based applications to attach an XBL binding to a DOM element.`,
@@ -175,7 +175,16 @@ module.exports ={
     'min-zoom': `The min-zoom CSS descriptor sets the minimum zoom factor of a document defined by the @viewport at-rule. The browser will not zoom out any further than this, whether automatically or at the user's request.\n\nA zoom factor of 1.0 or 100% corresponds to no zooming. Larger values are zoomed in. Smaller values are zoomed out.`,
     'orientation': `The orientation CSS @media media feature can be used to apply styles based on the orientation of the viewport (or the page box, for paged media).`,
     'user-zoom': `The user-zoom CSS descriptor controls whether or not the user can change the zoom factor of a document defined by @viewport.`,
-    'size': 'The size CSS at-rule descriptor, used with the @page at-rule, defines the size and orientation of the box which is used to represent a page. Most of the time, this size corresponds to the target size of the printed page if applicable.'
+    'size': 'The size CSS at-rule descriptor, used with the @page at-rule, defines the size and orientation of the box which is used to represent a page. Most of the time, this size corresponds to the target size of the printed page if applicable.',
+    'align-tracks': 'The align-tracks CSS property sets the alignment in the masonry axis for grid containers that have masonry in their block axis.',
+    'font-smooth': 'The font-smooth CSS property controls the application of anti-aliasing when fonts are rendered.',
+    'justify-tracks': 'The justify-tracks CSS property sets the alignment in the masonry axis for grid containers that have masonry in their inline axis',
+    'masonry-auto-flow': 'The masonry-auto-flow CSS property modifies how items are placed when using masonry in CSS Grid Layout.',
+    'math-style': 'The math-style property indicates whether MathML equations should render with normal or compact height.',
+    'scrollbar-gutter': 'The scrollbar-gutter CSS property allows authors to reserve space for the scrollbar, preventing unwanted layout changes as the content grows while also avoiding unnecessary visuals when scrolling isn\'t needed.',
+    'syntax': 'Specifies the syntax of the custom property registration represented by the @property rule, controlling how the property’s value is parsed at computed value time.',
+    'inherits': 'Specifies the inherit flag of the custom property registration represented by the @property rule, controlling whether or not the property inherits by default.',
+    'initial-value': 'Specifies the initial value of the custom property registration represented by the @property rule, controlling the property’s initial value.',
   },
   pseudoSelectorDescriptions: {
     ':defined': 'The :defined CSS pseudo-class represents any element that has been defined. This includes any standard element built in to the browser, and custom elements that have been successfully defined (i.e. with the CustomElementRegistry.define() method).',
@@ -188,7 +197,7 @@ module.exports ={
     ':is': 'The :is() CSS pseudo-class function takes a selector list as its argument, and selects any element that can be selected by one of the selectors in that list. This is useful for writing large selectors in a more compact form.',
     ':where': 'The :where() CSS pseudo-class function takes a selector list as its argument, and selects any element that can be selected by one of the selectors in that list.'
   },
-   pseudoElementDescriptions: {
+  pseudoElementDescriptions: {
     '::-moz-range-progress': 'The ::-moz-range-progress CSS pseudo-element is a Mozilla extension that represents the lower portion of the track (i.e., groove) in which the indicator slides in an <input> of type="range". This portion corresponds to values lower than the value currently selected by the thumb (i.e., virtual knob).',
     '::-moz-range-thumb': `The ::-moz-range-thumb CSS pseudo-element is a Mozilla extension that represents the thumb (i.e., virtual knob) of an <input> of type="range". The user can move the thumb along the input's track to alter its numerical value.`,
     '::-moz-range-track': 'The ::-moz-range-track CSS pseudo-element is a Mozilla extension that represents the track (i.e., groove) in which the indicator slides in an <input> of type="range".',

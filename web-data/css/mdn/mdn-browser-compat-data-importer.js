@@ -5,7 +5,7 @@
 
 //@ts-check
 
-const bcd = require('mdn-browser-compat-data')
+const bcd = require('@mdn/browser-compat-data')
 
 function addBrowserCompatDataToProperties(atdirectives, pseudoclasses, pseudoelements, properties) {
   atdirectives.forEach(item => {

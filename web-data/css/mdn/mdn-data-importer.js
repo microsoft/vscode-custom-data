@@ -5,6 +5,7 @@
 
 //@ts-check
 
+const { push } = require('../chromestatus/attributeRelevance');
 const { propertyDescriptions: mdnPropertyDescriptions } = require('./mdn-documentation')
 
 const mdnExcludedProperties = [
@@ -62,12 +63,14 @@ function addMDNProperties(vscProperties) {
     if (!propertyMap[pn]) {
       propertyMap[pn] = {
         name: pn,
-        desc: mdnPropertyDescriptions[pn] || '',
+        desc: '',
         restriction: 'none',
         ...extractMDNProperties(allMDNProperties[pn])
       }
     }
   }
+
+  const missingDocumentation = [];
 
   /**
    * 3. If there's a property without any documentation, try adding MDN documentation to it
@@ -77,10 +80,15 @@ function addMDNProperties(vscProperties) {
       if (mdnPropertyDescriptions[pn]) {
         propertyMap[pn].desc = mdnPropertyDescriptions[pn];
       } else if (noDoc.indexOf(pn) === -1) {
+        missingDocumentation.push(pn)
         console.log(`Missing documentaton for ${pn}.`);
       }
+    } else if (mdnPropertyDescriptions[pn]) {
+      console.log(`Extra documentaton for ${pn} no longer needed`);
     }
   }
+
+  console.log('add to mdn-documenatation.ts:' + missingDocumentation.map(e => `\n'${e}': '',`).join(''));
 
 
   return Object.values(propertyMap)

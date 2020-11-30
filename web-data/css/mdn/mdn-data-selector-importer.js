@@ -17,7 +17,7 @@ function addMDNPseudoElements(vscPseudoElements) {
 
 	for (const selectorName of Object.keys(mdnSelectors)) {
 		const selector = mdnSelectors[selectorName]
-		if (selector.syntax.startsWith('::')) {
+		if (selector.syntax.startsWith('::') && selector.syntax.length > 2) {
 			if (
 				!allPseudoElementNames.includes(selectorName) &&
 				!allPseudoElementNames.includes(selectorName + '()')
@@ -49,7 +49,7 @@ function addMDNPseudoSelectors(vscPseudoClasses) {
 
 	for (const selectorName of Object.keys(mdnSelectors)) {
 		const selector = mdnSelectors[selectorName]
-		if (selector.syntax.startsWith(':') && !selector.syntax.startsWith('::')) {
+		if (selector.syntax.startsWith(':') && !selector.syntax.startsWith('::') && selector.syntax.length > 1) {
 			if (
 				!mdnExcludedPseudoSelectors.includes(selectorName) &&
 				!allPseudoSelectorNames.includes(selectorName) &&

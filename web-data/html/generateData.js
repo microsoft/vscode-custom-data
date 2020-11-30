@@ -5,7 +5,7 @@
 
 const fs = require('fs')
 const path = require('path')
-const bcd = require('mdn-browser-compat-data')
+const bcd = require('@mdn/browser-compat-data')
 
 /*---------------------------------------------------------------------------------------------
  * Tags
