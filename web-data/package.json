@@ -3,14 +3,15 @@
   "version": "0.3.2",
   "scripts": {
     "update-sources": "yarn add -D mdn-data @mdn/browser-compat-data && node ./css/chromestatus/updateRelevance.js",
-    "generate-data": "node html/generateData.js && node css/generateData.js"
+    "generate-data": "node html/generateData.js && node css/generateData.js",
+    "postversion": "git push && git push --tags"
   },
   "files": [
     "data/*"
   ],
   "devDependencies": {
-    "@mdn/browser-compat-data": "^2.0.7",
-    "mdn-data": "^2.0.14",
-    "xml2js": "^0.4.22"
+    "@mdn/browser-compat-data": "^3.0.4",
+    "mdn-data": "^2.0.15",
+    "xml2js": "^0.4.23"
   }
 }

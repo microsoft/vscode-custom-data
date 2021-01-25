@@ -88,7 +88,10 @@ function addMDNProperties(vscProperties) {
     }
   }
 
-  console.log('add to mdn-documenatation.ts:' + missingDocumentation.map(e => `\n'${e}': '',`).join(''));
+  if (missingDocumentation.length) {
+    console.log('add to mdn-documenatation.ts (propertyDescriptions):' + missingDocumentation.map(e => `\n'${e}': '',`).join(''));
+  }
+  
 
 
   return Object.values(propertyMap)

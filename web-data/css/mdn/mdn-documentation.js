@@ -185,6 +185,8 @@ module.exports = {
     'syntax': 'Specifies the syntax of the custom property registration represented by the @property rule, controlling how the property’s value is parsed at computed value time.',
     'inherits': 'Specifies the inherit flag of the custom property registration represented by the @property rule, controlling whether or not the property inherits by default.',
     'initial-value': 'Specifies the initial value of the custom property registration represented by the @property rule, controlling the property’s initial value.',
+    'content-visibility': 'Controls whether or not an element renders its contents at all, along with forcing a strong set of containments, allowing user agents to potentially omit large swathes of layout and rendering work until it becomes needed.',
+    'forced-color-adjust': 'Allows authors to opt certain elements out of forced colors mode. This then restores the control of those values to CSS',
   },
   pseudoSelectorDescriptions: {
     ':defined': 'The :defined CSS pseudo-class represents any element that has been defined. This includes any standard element built in to the browser, and custom elements that have been successfully defined (i.e. with the CustomElementRegistry.define() method).',
@@ -195,7 +197,16 @@ module.exports = {
     ':has': ':The :has() CSS pseudo-class represents an element if any of the selectors passed as parameters (relative to the :scope of the given element), match at least one element.',
     ':blank': 'The :blank CSS pseudo-class selects empty user input elements (eg. <input> or <textarea>).',
     ':is': 'The :is() CSS pseudo-class function takes a selector list as its argument, and selects any element that can be selected by one of the selectors in that list. This is useful for writing large selectors in a more compact form.',
-    ':where': 'The :where() CSS pseudo-class function takes a selector list as its argument, and selects any element that can be selected by one of the selectors in that list.'
+    ':where': 'The :where() CSS pseudo-class function takes a selector list as its argument, and selects any element that can be selected by one of the selectors in that list.',
+    ':current': 'The :current CSS pseudo-class selector is a time-dimensional pseudo-class that represents the element, or an ancestor of the element, that is currently being displayed',
+    ':local-link': 'The :local-link CSS pseudo-class represents an link to the same document',
+    ':nth-col': 'The :nth-col() CSS pseudo-class is designed for tables and grids. It accepts the An+B notation such as used with the :nth-child selector, using this to target every nth column. ',
+    ':nth-last-col': 'The :nth-last-col() CSS pseudo-class is designed for tables and grids. It accepts the An+B notation such as used with the :nth-child selector, using this to target every nth column before it, therefore counting back from the end of the set of columns.',
+    ':paused': 'The :paused CSS pseudo-class selector is a resource state pseudo-class that will match an audio, video, or similar resource that is capable of being “played” or “paused”, when that element is “paused”.',
+    ':playing': 'The :playing CSS pseudo-class selector is a resource state pseudo-class that will match an audio, video, or similar resource that is capable of being “played” or “paused”, when that element is “playing”. ',
+    ':target-within': 'The :target-within CSS pseudo-class represents an element that is a target element or contains an element that is a target. A target element is a unique element with an id matching the URL\'s fragment.',
+    ':user-invalid': 'The :user-invalid CSS pseudo-class represents any validated form element whose value isn\'t valid based on their validation constraints, after the user has interacted with it.',
+    ':picture-in-picture': 'The :picture-in-picture CSS pseudo-class matches the element which is currently in picture-in-picture mode.',
   },
   pseudoElementDescriptions: {
     '::-moz-range-progress': 'The ::-moz-range-progress CSS pseudo-element is a Mozilla extension that represents the lower portion of the track (i.e., groove) in which the indicator slides in an <input> of type="range". This portion corresponds to values lower than the value currently selected by the thumb (i.e., virtual knob).',

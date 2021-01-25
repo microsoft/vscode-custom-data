@@ -339,7 +339,7 @@
         }
       ],
       "syntax": "<single-animation>#",
-      "relevance": 81,
+      "relevance": 80,
       "references": [
         {
           "name": "MDN Reference",
@@ -391,7 +391,7 @@
         }
       ],
       "syntax": "<single-animation-direction>#",
-      "relevance": 55,
+      "relevance": 56,
       "references": [
         {
           "name": "MDN Reference",
@@ -522,7 +522,7 @@
     },
     {
       "name": "animation-timing-function",
-      "syntax": "<timing-function>#",
+      "syntax": "<easing-function>#",
       "relevance": 68,
       "references": [
         {
@@ -548,7 +548,7 @@
         }
       ],
       "syntax": "visible | hidden",
-      "relevance": 60,
+      "relevance": 59,
       "references": [
         {
           "name": "MDN Reference",
@@ -748,7 +748,7 @@
     {
       "name": "background-clip",
       "syntax": "<box>#",
-      "relevance": 66,
+      "relevance": 67,
       "references": [
         {
           "name": "MDN Reference",
@@ -847,7 +847,7 @@
       ],
       "status": "experimental",
       "syntax": "[ center | [ [ left | right | x-start | x-end ]? <length-percentage>? ]! ]#",
-      "relevance": 54,
+      "relevance": 53,
       "references": [
         {
           "name": "MDN Reference",
@@ -1004,7 +1004,7 @@
         "C69",
         "O56"
       ],
-      "syntax": "<'border-top-width'> || <'border-top-style'> || <'color'>",
+      "syntax": "<'border-top-width'> || <'border-top-style'> || <color>",
       "relevance": 50,
       "references": [
         {
@@ -1029,7 +1029,7 @@
         "C69",
         "O56"
       ],
-      "syntax": "<'border-top-width'> || <'border-top-style'> || <'color'>",
+      "syntax": "<'border-top-width'> || <'border-top-style'> || <color>",
       "relevance": 50,
       "references": [
         {
@@ -1200,7 +1200,7 @@
     {
       "name": "border-bottom-color",
       "syntax": "<'border-top-color'>",
-      "relevance": 70,
+      "relevance": 71,
       "references": [
         {
           "name": "MDN Reference",
@@ -1215,7 +1215,7 @@
     {
       "name": "border-bottom-left-radius",
       "syntax": "<length-percentage>{1,2}",
-      "relevance": 74,
+      "relevance": 75,
       "references": [
         {
           "name": "MDN Reference",
@@ -1231,7 +1231,7 @@
     {
       "name": "border-bottom-right-radius",
       "syntax": "<length-percentage>{1,2}",
-      "relevance": 73,
+      "relevance": 74,
       "references": [
         {
           "name": "MDN Reference",
@@ -1247,7 +1247,7 @@
     {
       "name": "border-bottom-style",
       "syntax": "<line-style>",
-      "relevance": 56,
+      "relevance": 57,
       "references": [
         {
           "name": "MDN Reference",
@@ -1304,7 +1304,7 @@
       "name": "border-color",
       "values": [],
       "syntax": "<color>{1,4}",
-      "relevance": 86,
+      "relevance": 87,
       "references": [
         {
           "name": "MDN Reference",
@@ -1448,7 +1448,7 @@
         }
       ],
       "syntax": "none | <image>",
-      "relevance": 51,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -1492,7 +1492,7 @@
         "C69",
         "O56"
       ],
-      "syntax": "<'border-top-width'> || <'border-top-style'> || <'color'>",
+      "syntax": "<'border-top-width'> || <'border-top-style'> || <color>",
       "relevance": 50,
       "references": [
         {
@@ -1517,7 +1517,7 @@
         "C69",
         "O56"
       ],
-      "syntax": "<'border-top-width'> || <'border-top-style'> || <'color'>",
+      "syntax": "<'border-top-width'> || <'border-top-style'> || <color>",
       "relevance": 50,
       "references": [
         {
@@ -1670,7 +1670,7 @@
     {
       "name": "border-left",
       "syntax": "<line-width> || <line-style> || <color>",
-      "relevance": 82,
+      "relevance": 83,
       "references": [
         {
           "name": "MDN Reference",
@@ -1863,7 +1863,7 @@
     {
       "name": "border-top-color",
       "syntax": "<color>",
-      "relevance": 71,
+      "relevance": 72,
       "references": [
         {
           "name": "MDN Reference",
@@ -1878,7 +1878,7 @@
     {
       "name": "border-top-left-radius",
       "syntax": "<length-percentage>{1,2}",
-      "relevance": 74,
+      "relevance": 75,
       "references": [
         {
           "name": "MDN Reference",
@@ -1942,7 +1942,7 @@
       "name": "border-width",
       "values": [],
       "syntax": "<line-width>{1,4}",
-      "relevance": 81,
+      "relevance": 82,
       "references": [
         {
           "name": "MDN Reference",
@@ -2022,7 +2022,7 @@
         }
       ],
       "syntax": "none | <shadow>#",
-      "relevance": 89,
+      "relevance": 90,
       "references": [
         {
           "name": "MDN Reference",
@@ -2629,7 +2629,7 @@
         }
       ],
       "syntax": "none | strict | content | [ size || layout || style || paint ]",
-      "relevance": 54,
+      "relevance": 55,
       "references": [
         {
           "name": "MDN Reference",
@@ -2669,7 +2669,7 @@
         }
       ],
       "syntax": "normal | none | [ <content-replacement> | <content-list> ] [/ <string> ]?",
-      "relevance": 90,
+      "relevance": 89,
       "references": [
         {
           "name": "MDN Reference",
@@ -2691,7 +2691,7 @@
         }
       ],
       "syntax": "[ <custom-ident> <integer>? ]+ | none",
-      "relevance": 53,
+      "relevance": 52,
       "references": [
         {
           "name": "MDN Reference",
@@ -2713,7 +2713,7 @@
         }
       ],
       "syntax": "[ <custom-ident> <integer>? ]+ | none",
-      "relevance": 53,
+      "relevance": 52,
       "references": [
         {
           "name": "MDN Reference",
@@ -3444,7 +3444,7 @@
         }
       ],
       "syntax": "<'flex-direction'> || <'flex-wrap'>",
-      "relevance": 60,
+      "relevance": 59,
       "references": [
         {
           "name": "MDN Reference",
@@ -3474,7 +3474,7 @@
     {
       "name": "flex-shrink",
       "syntax": "<number>",
-      "relevance": 70,
+      "relevance": 71,
       "references": [
         {
           "name": "MDN Reference",
@@ -4487,7 +4487,7 @@
         }
       ],
       "syntax": "normal | italic | oblique <angle>{0,2}",
-      "relevance": 84,
+      "relevance": 83,
       "references": [
         {
           "name": "MDN Reference",
@@ -5649,7 +5649,7 @@
         }
       ],
       "syntax": "none | manual | auto",
-      "relevance": 54,
+      "relevance": 53,
       "references": [
         {
           "name": "MDN Reference",
@@ -5735,7 +5735,7 @@
         }
       ],
       "syntax": "auto | crisp-edges | pixelated",
-      "relevance": 56,
+      "relevance": 55,
       "references": [
         {
           "name": "MDN Reference",
@@ -6274,7 +6274,7 @@
         }
       ],
       "syntax": "[ <length> | <percentage> | auto ]{1,4}",
-      "relevance": 96,
+      "relevance": 95,
       "references": [
         {
           "name": "MDN Reference",
@@ -11262,7 +11262,7 @@
     {
       "name": "opacity",
       "syntax": "<alpha-value>",
-      "relevance": 94,
+      "relevance": 93,
       "references": [
         {
           "name": "MDN Reference",
@@ -11675,7 +11675,7 @@
         "O9.5"
       ],
       "syntax": "<length>",
-      "relevance": 60,
+      "relevance": 65,
       "references": [
         {
           "name": "MDN Reference",
@@ -11696,7 +11696,7 @@
         }
       ],
       "syntax": "auto | <'border-style'>",
-      "relevance": 60,
+      "relevance": 61,
       "references": [
         {
           "name": "MDN Reference",
@@ -11957,7 +11957,7 @@
         "O56"
       ],
       "syntax": "<'padding-left'>",
-      "relevance": 52,
+      "relevance": 53,
       "references": [
         {
           "name": "MDN Reference",
@@ -12400,7 +12400,7 @@
         }
       ],
       "syntax": "none | both | horizontal | vertical | block | inline",
-      "relevance": 59,
+      "relevance": 60,
       "references": [
         {
           "name": "MDN Reference",
@@ -12976,7 +12976,7 @@
         }
       ],
       "syntax": "none | <shape-box> || <basic-shape> | <image>",
-      "relevance": 51,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -13171,7 +13171,7 @@
     },
     {
       "name": "stroke-opacity",
-      "relevance": 51,
+      "relevance": 52,
       "description": "Specifies the opacity of the painting operation used to stroke the current object.",
       "restrictions": [
         "number(0-1)"
@@ -13580,7 +13580,7 @@
       "name": "text-indent",
       "values": [],
       "syntax": "<length-percentage> && hanging? && each-line?",
-      "relevance": 69,
+      "relevance": 68,
       "references": [
         {
           "name": "MDN Reference",
@@ -13805,7 +13805,7 @@
         }
       ],
       "syntax": "none | capitalize | uppercase | lowercase | full-width | full-size-kana",
-      "relevance": 86,
+      "relevance": 85,
       "references": [
         {
           "name": "MDN Reference",
@@ -14008,7 +14008,7 @@
         }
       ],
       "syntax": "none | <transform-list>",
-      "relevance": 90,
+      "relevance": 89,
       "references": [
         {
           "name": "MDN Reference",
@@ -14107,7 +14107,7 @@
     {
       "name": "transition-delay",
       "syntax": "<time>#",
-      "relevance": 62,
+      "relevance": 63,
       "references": [
         {
           "name": "MDN Reference",
@@ -14161,7 +14161,7 @@
     },
     {
       "name": "transition-timing-function",
-      "syntax": "<timing-function>#",
+      "syntax": "<easing-function>#",
       "relevance": 61,
       "references": [
         {
@@ -14203,7 +14203,7 @@
         }
       ],
       "syntax": "normal | embed | isolate | bidi-override | isolate-override | plaintext",
-      "relevance": 57,
+      "relevance": 58,
       "references": [
         {
           "name": "MDN Reference",
@@ -14557,9 +14557,8 @@
           "description": "The element imposes no constraint on the selection."
         }
       ],
-      "status": "nonstandard",
       "syntax": "auto | text | none | contain | all",
-      "relevance": 26,
+      "relevance": 75,
       "references": [
         {
           "name": "MDN Reference",
@@ -17002,12 +17001,6 @@
       ],
       "syntax": "normal | break-word",
       "relevance": 78,
-      "references": [
-        {
-          "name": "MDN Reference",
-          "url": "https://developer.mozilla.org/docs/Web/CSS/overflow-wrap"
-        }
-      ],
       "description": "Specifies whether the UA may break within a word to prevent overflow when an otherwise-unbreakable string is too long to fit.",
       "restrictions": [
         "enum"
@@ -17338,7 +17331,7 @@
     {
       "name": "-webkit-border-before",
       "status": "nonstandard",
-      "syntax": "<'border-width'> || <'border-style'> || <'color'>",
+      "syntax": "<'border-width'> || <'border-style'> || <color>",
       "relevance": 0,
       "browsers": [
         "E79",
@@ -17357,7 +17350,7 @@
     {
       "name": "-webkit-border-before-color",
       "status": "nonstandard",
-      "syntax": "<'color'>",
+      "syntax": "<color>",
       "relevance": 0,
       "description": "The -webkit-border-before-color CSS property sets the color of the individual logical block start border in a single place in the style sheet."
     },
@@ -17528,6 +17521,15 @@
       "status": "experimental",
       "syntax": "[ normal | <baseline-position> | <content-distribution> | <overflow-position>? <content-position> ]#",
       "relevance": 50,
+      "browsers": [
+        "FF77"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/align-tracks"
+        }
+      ],
       "description": "The align-tracks CSS property sets the alignment in the masonry axis for grid containers that have masonry in their block axis."
     },
     {
@@ -17554,10 +17556,11 @@
       "name": "aspect-ratio",
       "status": "experimental",
       "syntax": "auto | <ratio>",
-      "relevance": 50,
+      "relevance": 52,
       "browsers": [
+        "E88",
         "FF83",
-        "C84"
+        "C88"
       ],
       "references": [
         {
@@ -17595,7 +17598,7 @@
     },
     {
       "name": "border-block",
-      "syntax": "<'border-top-width'> || <'border-top-style'> || <'color'>",
+      "syntax": "<'border-top-width'> || <'border-top-style'> || <color>",
       "relevance": 50,
       "browsers": [
         "E79",
@@ -17670,7 +17673,8 @@
       "syntax": "<length-percentage>{1,2}",
       "relevance": 50,
       "browsers": [
-        "FF66"
+        "FF66",
+        "C89"
       ],
       "references": [
         {
@@ -17685,7 +17689,8 @@
       "syntax": "<length-percentage>{1,2}",
       "relevance": 50,
       "browsers": [
-        "FF66"
+        "FF66",
+        "C89"
       ],
       "references": [
         {
@@ -17697,7 +17702,7 @@
     },
     {
       "name": "border-inline",
-      "syntax": "<'border-top-width'> || <'border-top-style'> || <'color'>",
+      "syntax": "<'border-top-width'> || <'border-top-style'> || <color>",
       "relevance": 50,
       "browsers": [
         "E79",
@@ -17772,7 +17777,8 @@
       "syntax": "<length-percentage>{1,2}",
       "relevance": 50,
       "browsers": [
-        "FF66"
+        "FF66",
+        "C89"
       ],
       "references": [
         {
@@ -17787,7 +17793,8 @@
       "syntax": "<length-percentage>{1,2}",
       "relevance": 50,
       "browsers": [
-        "FF66"
+        "FF66",
+        "C89"
       ],
       "references": [
         {
@@ -17973,6 +17980,23 @@
       "description": "The color-adjust property is a non-standard CSS extension that can be used to force printing of background colors and images in browsers based on the WebKit engine."
     },
     {
+      "name": "content-visibility",
+      "syntax": "visible | auto | hidden",
+      "relevance": 50,
+      "browsers": [
+        "E85",
+        "C85",
+        "O71"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/content-visibility"
+        }
+      ],
+      "description": "Controls whether or not an element renders its contents at all, along with forcing a strong set of containments, allowing user agents to potentially omit large swathes of layout and rendering work until it becomes needed."
+    },
+    {
       "name": "counter-set",
       "syntax": "[ <custom-ident> <integer>? ]+ | none",
       "relevance": 50,
@@ -18047,6 +18071,24 @@
         }
       ],
       "description": "The font-smooth CSS property controls the application of anti-aliasing when fonts are rendered."
+    },
+    {
+      "name": "forced-color-adjust",
+      "status": "experimental",
+      "syntax": "auto | none",
+      "relevance": 50,
+      "browsers": [
+        "E79",
+        "C79",
+        "IE10"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/forced-color-adjust"
+        }
+      ],
+      "description": "Allows authors to opt certain elements out of forced colors mode. This then restores the control of those values to CSS"
     },
     {
       "name": "gap",
@@ -18243,6 +18285,15 @@
       "status": "experimental",
       "syntax": "[ normal | <content-distribution> | <overflow-position>? [ <content-position> | left | right ] ]#",
       "relevance": 50,
+      "browsers": [
+        "FF77"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/justify-tracks"
+        }
+      ],
       "description": "The justify-tracks CSS property sets the alignment in the masonry axis for grid containers that have masonry in their inline axis"
     },
     {
@@ -18342,6 +18393,18 @@
       "name": "mask-border",
       "syntax": "<'mask-border-source'> || <'mask-border-slice'> [ / <'mask-border-width'>? [ / <'mask-border-outset'> ]? ]? || <'mask-border-repeat'> || <'mask-border-mode'>",
       "relevance": 50,
+      "browsers": [
+        "E79",
+        "S3.1",
+        "C1",
+        "O15"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/mask-border"
+        }
+      ],
       "description": "The mask-border CSS property lets you create a mask along the edge of an element's border.\n\nThis property is a shorthand for mask-border-source, mask-border-slice, mask-border-width, mask-border-outset, mask-border-repeat, and mask-border-mode. As with all shorthand properties, any omitted sub-values will be set to their initial value."
     },
     {
@@ -18354,30 +18417,90 @@
       "name": "mask-border-outset",
       "syntax": "[ <length> | <number> ]{1,4}",
       "relevance": 50,
+      "browsers": [
+        "E79",
+        "S3.1",
+        "C1",
+        "O15"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/mask-border-outset"
+        }
+      ],
       "description": "The mask-border-outset CSS property specifies the distance by which an element's mask border is set out from its border box."
     },
     {
       "name": "mask-border-repeat",
       "syntax": "[ stretch | repeat | round | space ]{1,2}",
       "relevance": 50,
+      "browsers": [
+        "E79",
+        "S3.1",
+        "C1",
+        "O15"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/mask-border-repeat"
+        }
+      ],
       "description": "The mask-border-repeat CSS property defines how the edge regions of a source image are adjusted to fit the dimensions of an element's mask border."
     },
     {
       "name": "mask-border-slice",
       "syntax": "<number-percentage>{1,4} fill?",
       "relevance": 50,
+      "browsers": [
+        "E79",
+        "S3.1",
+        "C1",
+        "O15"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/mask-border-slice"
+        }
+      ],
       "description": "The mask-border-slice CSS property divides the image specified by mask-border-source into regions. These regions are used to form the components of an element's mask border."
     },
     {
       "name": "mask-border-source",
       "syntax": "none | <image>",
       "relevance": 50,
+      "browsers": [
+        "E79",
+        "S3.1",
+        "C1",
+        "O15"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/mask-border-source"
+        }
+      ],
       "description": "The mask-border-source CSS property specifies the source image used to create an element's mask border.\n\nThe mask-border-slice property is used to divide the source image into regions, which are then dynamically applied to the final mask border."
     },
     {
       "name": "mask-border-width",
       "syntax": "[ <length-percentage> | <number> | auto ]{1,4}",
       "relevance": 50,
+      "browsers": [
+        "E79",
+        "S3.1",
+        "C1",
+        "O15"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/mask-border-width"
+        }
+      ],
       "description": "The mask-border-width CSS property specifies the width of an element's mask border."
     },
     {
@@ -18420,6 +18543,12 @@
       "status": "experimental",
       "syntax": "[ pack | next ] || [ definite-first | ordered ]",
       "relevance": 50,
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/masonry-auto-flow"
+        }
+      ],
       "description": "The masonry-auto-flow CSS property modifies how items are placed when using masonry in CSS Grid Layout."
     },
     {
@@ -19396,8 +19525,10 @@
       "syntax": "auto | from-font | <length> | <percentage> ",
       "relevance": 50,
       "browsers": [
+        "E87",
         "FF70",
-        "S12.1"
+        "S12.1",
+        "C87"
       ],
       "references": [
         {
@@ -19487,7 +19618,7 @@
       "name": "text-size-adjust",
       "status": "experimental",
       "syntax": "none | auto | <percentage>",
-      "relevance": 57,
+      "relevance": 56,
       "browsers": [
         "E79",
         "C54",
@@ -19506,8 +19637,10 @@
       "syntax": "auto | <length> | <percentage> ",
       "relevance": 50,
       "browsers": [
+        "E87",
         "FF70",
-        "S12.1"
+        "S12.1",
+        "C87"
       ],
       "references": [
         {
@@ -20254,12 +20387,6 @@
       "browsers": [
         "FF4"
       ],
-      "references": [
-        {
-          "name": "MDN Reference",
-          "url": "https://developer.mozilla.org/docs/Web/CSS/:-moz-ui-invalid"
-        }
-      ],
       "description": "Non-standard. Represents any validated form element whose value isn't valid "
     },
     {
@@ -20615,6 +20742,11 @@
       "description": "Non-standard. Applies to all scrollbar pieces. Indicates whether or not the window containing the scrollbar is currently active."
     },
     {
+      "name": ":current",
+      "status": "experimental",
+      "description": "The :current CSS pseudo-class selector is a time-dimensional pseudo-class that represents the element, or an ancestor of the element, that is currently being displayed"
+    },
+    {
       "name": ":blank",
       "status": "experimental",
       "references": [
@@ -20658,10 +20790,9 @@
     },
     {
       "name": ":focus-visible",
-      "status": "experimental",
       "browsers": [
         "E79",
-        "FF4",
+        "FF85",
         "C86",
         "O54"
       ],
@@ -20675,7 +20806,6 @@
     },
     {
       "name": ":focus-within",
-      "status": "experimental",
       "browsers": [
         "E79",
         "FF52",
@@ -20721,6 +20851,26 @@
       "description": "The :is() CSS pseudo-class function takes a selector list as its argument, and selects any element that can be selected by one of the selectors in that list. This is useful for writing large selectors in a more compact form."
     },
     {
+      "name": ":local-link",
+      "status": "experimental",
+      "description": "The :local-link CSS pseudo-class represents an link to the same document"
+    },
+    {
+      "name": ":nth-col",
+      "status": "experimental",
+      "description": "The :nth-col() CSS pseudo-class is designed for tables and grids. It accepts the An+B notation such as used with the :nth-child selector, using this to target every nth column. "
+    },
+    {
+      "name": ":nth-last-col",
+      "status": "experimental",
+      "description": "The :nth-last-col() CSS pseudo-class is designed for tables and grids. It accepts the An+B notation such as used with the :nth-child selector, using this to target every nth column before it, therefore counting back from the end of the set of columns."
+    },
+    {
+      "name": ":paused",
+      "status": "experimental",
+      "description": "The :paused CSS pseudo-class selector is a resource state pseudo-class that will match an audio, video, or similar resource that is capable of being “played” or “paused”, when that element is “paused”."
+    },
+    {
       "name": ":placeholder-shown",
       "status": "experimental",
       "references": [
@@ -20730,6 +20880,36 @@
         }
       ],
       "description": "The :placeholder-shown CSS pseudo-class represents any <input> or <textarea> element that is currently displaying placeholder text."
+    },
+    {
+      "name": ":playing",
+      "status": "experimental",
+      "description": "The :playing CSS pseudo-class selector is a resource state pseudo-class that will match an audio, video, or similar resource that is capable of being “played” or “paused”, when that element is “playing”. "
+    },
+    {
+      "name": ":target-within",
+      "status": "experimental",
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/:target-within"
+        }
+      ],
+      "description": "The :target-within CSS pseudo-class represents an element that is a target element or contains an element that is a target. A target element is a unique element with an id matching the URL's fragment."
+    },
+    {
+      "name": ":user-invalid",
+      "status": "experimental",
+      "browsers": [
+        "FF4"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/:user-invalid"
+        }
+      ],
+      "description": "The :user-invalid CSS pseudo-class represents any validated form element whose value isn't valid based on their validation constraints, after the user has interacted with it."
     },
     {
       "name": ":where",
@@ -20746,6 +20926,11 @@
         }
       ],
       "description": "The :where() CSS pseudo-class function takes a selector list as its argument, and selects any element that can be selected by one of the selectors in that list."
+    },
+    {
+      "name": ":picture-in-picture",
+      "status": "experimental",
+      "description": "The :picture-in-picture CSS pseudo-class matches the element which is currently in picture-in-picture mode."
     }
   ],
   "pseudoElements": [

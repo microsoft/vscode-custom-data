@@ -10,10 +10,12 @@ const { abbreviateStatus } = require('./mdn-data-importer')
 const { pseudoSelectorDescriptions, pseudoElementDescriptions } = require('./mdn-documentation')
 
 function addMDNPseudoElements(vscPseudoElements) {
-	const mdnSelectors = mdnData.css.selectors
-	const allPseudoElements = vscPseudoElements
+	const mdnSelectors = mdnData.css.selectors;
+	const allPseudoElements = vscPseudoElements;
 
-	const allPseudoElementNames = vscPseudoElements.map(s => s.name)
+	const missingDocumentation = [];
+
+	const allPseudoElementNames = vscPseudoElements.map(s => s.name);
 
 	for (const selectorName of Object.keys(mdnSelectors)) {
 		const selector = mdnSelectors[selectorName]
@@ -22,14 +24,22 @@ function addMDNPseudoElements(vscPseudoElements) {
 				!allPseudoElementNames.includes(selectorName) &&
 				!allPseudoElementNames.includes(selectorName + '()')
 			) {
+				const desc = pseudoElementDescriptions[selectorName] ||  '';
+				if (!desc) {
+					missingDocumentation.push(selectorName);
+				}
 				allPseudoElements.push({
 					name: selectorName,
-					desc: pseudoElementDescriptions[selectorName] ? pseudoElementDescriptions[selectorName] : '',
+					desc,
 					status: abbreviateStatus(selector.status)
 				})
 			}
 		}
 	}
+	if (missingDocumentation.length) {
+		console.log('add to mdn-documenatation.ts (pseudoElementDescriptions):' + missingDocumentation.map(e => `\n'${e}': '',`).join(''));
+	}
+
 	return allPseudoElements
 }
 
@@ -45,7 +55,9 @@ function addMDNPseudoSelectors(vscPseudoClasses) {
 	const mdnSelectors = mdnData.css.selectors
 	const allPseudoSelectors = vscPseudoClasses
 
-	const allPseudoSelectorNames = vscPseudoClasses.map(s => s.name)
+	const allPseudoSelectorNames = vscPseudoClasses.map(s => s.name);
+
+	const missingDocumentation = [];
 
 	for (const selectorName of Object.keys(mdnSelectors)) {
 		const selector = mdnSelectors[selectorName]
@@ -55,14 +67,23 @@ function addMDNPseudoSelectors(vscPseudoClasses) {
 				!allPseudoSelectorNames.includes(selectorName) &&
 				!allPseudoSelectorNames.includes(selectorName + '()')
 			) {
+				const desc = pseudoSelectorDescriptions[selectorName] ||  '';
+				if (!desc) {
+					missingDocumentation.push(selectorName);
+				}
+
 				allPseudoSelectors.push({
 					name: selectorName,
-					desc: pseudoSelectorDescriptions[selectorName] ? pseudoSelectorDescriptions[selectorName] : '',
+					desc,
 					status: abbreviateStatus(selector.status)
 				})
 			}
 		}
 	}
+	if (missingDocumentation.length) {
+		console.log('add to mdn-documenatation.ts (pseudoSelectorDescriptions):' + missingDocumentation.map(e => `\n'${e}': '',`).join(''));
+	}
+
 	return allPseudoSelectors
 }
 
