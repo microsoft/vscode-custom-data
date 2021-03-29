@@ -15,15 +15,11 @@ const htmlTags = require('./htmlTags.json')
 const htmlTagDescriptions = require('./mdnTagDescriptions.json')
 
 htmlTags.forEach(t => {
-  const matchingTagDescription = htmlTagDescriptions.filter(td => td.name === t.name)
-    ? htmlTagDescriptions.filter(td => td.name === t.name)[0]
-    : null
+  const matchingTagDescription = htmlTagDescriptions.find(td => td.name === t.name)
 
   if (matchingTagDescription) {
     t.attributes.forEach(a => {
-      const matchingAttrDescription = matchingTagDescription.attributes.filter(ad => ad.name === a.name)
-        ? matchingTagDescription.attributes.filter(ad => ad.name === a.name)[0]
-        : null
+      const matchingAttrDescription = matchingTagDescription.attributes.find(ad => ad.name === a.name)
 
       if (matchingAttrDescription) {
         if (matchingAttrDescription.description) {
@@ -37,7 +33,7 @@ htmlTags.forEach(t => {
 
     const moreAttrs = []
     matchingTagDescription.attributes.forEach(ad => {
-      if (t.attributes.filter(a => a.name === ad.name).length === 0) {
+      if (!t.attributes.some(a => a.name === ad.name)) {
         moreAttrs.push(ad)
       }
     })
