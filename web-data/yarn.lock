@@ -2,22 +2,15 @@
 # yarn lockfile v1
 
 
-"@mdn/browser-compat-data@^3.0.4":
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/@mdn/browser-compat-data/-/browser-compat-data-3.0.4.tgz#770c9f674bdf8edbae96a1def688da39c6e73667"
-  integrity sha512-2QRe7xbrUe6OQ6B/Le22GZQSOnnjAxuMXk3OzOBbghLY7OeXg+phBjATt/r+MHrN3R3gZWME2fjBzSZmwL/s4A==
-  dependencies:
-    extend "3.0.2"
+"@mdn/browser-compat-data@^3.3.5":
+  version "3.3.5"
+  resolved "https://registry.yarnpkg.com/@mdn/browser-compat-data/-/browser-compat-data-3.3.5.tgz#7671e4ba4d344e20d969fe4a9086d453ac168a59"
+  integrity sha512-Pu2Usbl9YTpeNxYKRebFRE4fV85I/thTMpF1eKS2EsgODg9VkcK0/oRZqEFhR6/So5wSPYIBHvfmVFXx0uCt/g==
 
-extend@3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
-  integrity sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==
-
-mdn-data@^2.0.15:
-  version "2.0.15"
-  resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.15.tgz#4b31efd913cc9b0d8d99123033fbb805f458c541"
-  integrity sha512-1e9FFjfvzeTxVzBtcbAFDw9R+i+ka92rb9aT4TrV/68ZuLpM2kff4jatBDs/I/VvKPBLjCqv6/BtnD+pnAxyMg==
+mdn-data@^2.0.18:
+  version "2.0.18"
+  resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.18.tgz#7c82cb9478545cae34c3d2d7a133c02030fbdcdf"
+  integrity sha512-IeEPegFtPhAMl+Un8cUGHHdw59R1tfogShfv9c/OSRwQmKM05emvQNtH8mO6iRpoj2VpvBsRQW4YZYil5nd7eg==
 
 sax@>=0.6.0:
   version "1.2.4"

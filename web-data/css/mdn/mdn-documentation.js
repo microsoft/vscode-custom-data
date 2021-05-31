@@ -187,6 +187,8 @@ module.exports = {
     'initial-value': 'Specifies the initial value of the custom property registration represented by the @property rule, controlling the property’s initial value.',
     'content-visibility': 'Controls whether or not an element renders its contents at all, along with forcing a strong set of containments, allowing user agents to potentially omit large swathes of layout and rendering work until it becomes needed.',
     'forced-color-adjust': 'Allows authors to opt certain elements out of forced colors mode. This then restores the control of those values to CSS',
+    'color-scheme': 'The color-scheme CSS property allows an element to indicate which color schemes it can comfortably be rendered in.',
+    'overflow-clip-margin': 'The overflow-clip-margin CSS property determines how far outside its bounds an element with overflow: clip may be painted before being clipped.',
   },
   pseudoSelectorDescriptions: {
     ':defined': 'The :defined CSS pseudo-class represents any element that has been defined. This includes any standard element built in to the browser, and custom elements that have been successfully defined (i.e. with the CustomElementRegistry.define() method).',
@@ -207,6 +209,7 @@ module.exports = {
     ':target-within': 'The :target-within CSS pseudo-class represents an element that is a target element or contains an element that is a target. A target element is a unique element with an id matching the URL\'s fragment.',
     ':user-invalid': 'The :user-invalid CSS pseudo-class represents any validated form element whose value isn\'t valid based on their validation constraints, after the user has interacted with it.',
     ':picture-in-picture': 'The :picture-in-picture CSS pseudo-class matches the element which is currently in picture-in-picture mode.',
+    ':user-valid': 'The :user-valid CSS pseudo-class represents any validated form element whose value validates correctly based on its validation constraints. However, unlike :valid it only matches once the user has interacted with it.',
   },
   pseudoElementDescriptions: {
     '::-moz-range-progress': 'The ::-moz-range-progress CSS pseudo-element is a Mozilla extension that represents the lower portion of the track (i.e., groove) in which the indicator slides in an <input> of type="range". This portion corresponds to values lower than the value currently selected by the thumb (i.e., virtual knob).',
@@ -218,6 +221,7 @@ module.exports = {
     '::spelling-error': 'The ::spelling-error CSS pseudo-element represents a text segment which the user agent has flagged as incorrectly spelled.',
     '::slotted': 'The :slotted() CSS pseudo-element represents any element that has been placed into a slot inside an HTML template.',
     '::part': 'The ::part CSS pseudo-element represents any element within a shadow tree that has a matching part attribute.',
-    '::marker': 'The ::marker CSS pseudo-element selects the marker box of a list item, which typically contains a bullet or number. It works on any element or pseudo-element set to display: list-item, such as the <li> and <summary> elements.'
+    '::marker': 'The ::marker CSS pseudo-element selects the marker box of a list item, which typically contains a bullet or number. It works on any element or pseudo-element set to display: list-item, such as the <li> and <summary> elements.',
+    '::target-text': 'The ::target-text CSS pseudo-element represents the text that has been scrolled to if the browser supports scroll-to-text fragments. It allows authors to choose how to highlight that section of text.',
   }
 }
