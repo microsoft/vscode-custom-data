@@ -1,12 +1,11 @@
 
-The content of this node module contains data from multiple channels available under various open source licenses.
+The content of this node module is distributed under the MIT License (MIT).
+It is compiled from multiple channels available under various open source licenses.
 
 Data and descriptions are compiled from [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web)
 and distributed under [CC BY-SA 2.5.](https://creativecommons.org/licenses/by-sa/2.5/)
 
 The attribute ranking data is acquired from [Chrome Status](https://www.chromestatus.com/metrics/css/popularity) and distributed under [CC Attribution 2.5.](https://creativecommons.org/licenses/by/2.5/)
-
-The remainder is made available under the MIT license.
 
 ### Text of CC-BY-SA-2.5 license
 
@@ -67,7 +66,7 @@ Creative Commons may be contacted at http://creativecommons.org/.
 ```
 
 
-### Text of MIT license
+### Text of the MIT license
 ```
     MIT License
 
