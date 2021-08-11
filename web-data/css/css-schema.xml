@@ -1098,7 +1098,7 @@
 			<desc>IE only. Used to extend behaviors of the browser.</desc>
 		</entry>
 		<entry name="block-size" restriction="length, percentage" version="3.0" browsers="FF41" ref="https://drafts.csswg.org/css-logical-props/#propdef-block-size" syntax="header { $(name): 200px; }">
-			<desc>Logical 'width'. Mapping depends on the element’s 'writing-mode'.</desc>
+			<desc>Logical 'height'. Mapping depends on the element’s 'writing-mode'.</desc>
 			<values>
 				<value name="auto" version="4.0" browsers="all">
 					<desc>Depends on the values of other properties.</desc>
@@ -3689,7 +3689,7 @@
 			</values>
 		</entry>
 		<entry name="inline-size" restriction="length, percentage" version="3.0" browsers="FF41" ref="https://drafts.csswg.org/css-logical-props/#propdef-inline-size" syntax="header { $(name): 200px; }">
-			<desc>Logical 'height'. Mapping depends on the element’s 'writing-mode'.</desc>
+			<desc>Logical 'width'. Mapping depends on the element’s 'writing-mode'.</desc>
 			<values>
 				<value name="auto" version="3.0" browsers="all">
 					<desc>Depends on the values of other properties.</desc>
