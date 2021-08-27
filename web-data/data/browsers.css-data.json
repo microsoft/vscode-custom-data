@@ -12245,7 +12245,7 @@
         },
         {
           "name": "visible",
-          "description": "The given element can be the target element for pointer events when the ‘visibility’ property is set to visible and the pointer is over either the interior or the perimeter of the element."
+          "description": "The given element can be the target element for pointer events when the ‘visibility’ property is set to visible and the pointer is over either the interior or the perimete of the element."
         },
         {
           "name": "visibleFill",
