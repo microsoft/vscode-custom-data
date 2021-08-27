@@ -971,7 +971,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/block-size"
         }
       ],
-      "description": "Logical 'width'. Mapping depends on the element’s 'writing-mode'.",
+      "description": "Size of an element in the direction opposite that of the direction specified by 'writing-mode'.",
       "restrictions": [
         "length",
         "percentage"
@@ -5817,7 +5817,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/inline-size"
         }
       ],
-      "description": "Logical 'height'. Mapping depends on the element’s 'writing-mode'.",
+      "description": "Size of an element in the direction specified by 'writing-mode'.",
       "restrictions": [
         "length",
         "percentage"
@@ -6789,7 +6789,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/max-block-size"
         }
       ],
-      "description": "Logical 'max-width'. Mapping depends on the element’s 'writing-mode'.",
+      "description": "Maximum size of an element in the direction opposite that of the direction specified by 'writing-mode'.",
       "restrictions": [
         "length",
         "percentage"
@@ -6852,7 +6852,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/max-inline-size"
         }
       ],
-      "description": "Logical 'max-height'. Mapping depends on the element’s 'writing-mode'.",
+      "description": "Maximum size of an element in the direction specified by 'writing-mode'.",
       "restrictions": [
         "length",
         "percentage"
@@ -6909,7 +6909,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/min-block-size"
         }
       ],
-      "description": "Logical 'min-width'. Mapping depends on the element’s 'writing-mode'.",
+      "description": "Minimal size of an element in the direction opposite that of the direction specified by 'writing-mode'.",
       "restrictions": [
         "length",
         "percentage"
@@ -6965,7 +6965,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/min-inline-size"
         }
       ],
-      "description": "Logical 'min-height'. Mapping depends on the element’s 'writing-mode'.",
+      "description": "Minimal size of an element in the direction specified by 'writing-mode'.",
       "restrictions": [
         "length",
         "percentage"

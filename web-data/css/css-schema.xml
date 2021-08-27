@@ -1098,7 +1098,7 @@
 			<desc>IE only. Used to extend behaviors of the browser.</desc>
 		</entry>
 		<entry name="block-size" restriction="length, percentage" version="3.0" browsers="FF41" ref="https://drafts.csswg.org/css-logical-props/#propdef-block-size" syntax="header { $(name): 200px; }">
-			<desc>Logical 'width'. Mapping depends on the element’s 'writing-mode'.</desc>
+			<desc>Size of an element in the direction opposite that of the direction specified by 'writing-mode'.</desc>
 			<values>
 				<value name="auto" version="4.0" browsers="all">
 					<desc>Depends on the values of other properties.</desc>
@@ -3689,7 +3689,7 @@
 			</values>
 		</entry>
 		<entry name="inline-size" restriction="length, percentage" version="3.0" browsers="FF41" ref="https://drafts.csswg.org/css-logical-props/#propdef-inline-size" syntax="header { $(name): 200px; }">
-			<desc>Logical 'height'. Mapping depends on the element’s 'writing-mode'.</desc>
+			<desc>Size of an element in the direction specified by 'writing-mode'.</desc>
 			<values>
 				<value name="auto" version="3.0" browsers="all">
 					<desc>Depends on the values of other properties.</desc>
@@ -4373,7 +4373,7 @@
 			</values>
 		</entry>
 		<entry name="max-block-size" restriction="length, percentage" version="3.0" browsers="FF41" ref="https://drafts.csswg.org/css-logical-props/#propdef-min-block-size" syntax="header { $(name): 200px; }">
-			<desc>Logical 'max-width'. Mapping depends on the element’s 'writing-mode'.</desc>
+			<desc>Maximum size of an element in the direction opposite that of the direction specified by 'writing-mode'.</desc>
 			<values>
 				<value name="none" version="3.0" browsers="all">
 					<desc>No limit on the width of the box.</desc>
@@ -4401,7 +4401,7 @@
 			</values>
 		</entry>
 		<entry name="max-inline-size" restriction="length, percentage" version="3.0" browsers="FF41" ref="https://drafts.csswg.org/css-logical-props/#propdef-min-block-size" syntax="header { $(name): 200px; }">
-			<desc>Logical 'max-height'. Mapping depends on the element’s 'writing-mode'.</desc>
+			<desc>Maximum size of an element in the direction specified by 'writing-mode'.</desc>
 			<values>
 				<value name="none" version="3.0" browsers="all">
 					<desc>No limit on the height of the box.</desc>
@@ -4445,7 +4445,7 @@
 			</values>
 		</entry>
 		<entry name="min-block-size" restriction="length, percentage" version="3.0" browsers="FF41" ref="https://drafts.csswg.org/css-logical-props/#propdef-min-block-size" syntax="header { $(name): 200px; }">
-			<desc>Logical 'min-width'. Mapping depends on the element’s 'writing-mode'.</desc>
+			<desc>Minimal size of an element in the direction opposite that of the direction specified by 'writing-mode'.</desc>
 		</entry>
 		<entry name="min-height" restriction="length, percentage" version="2.0" browsers="E,C,FF1,IE7,O7,S1" ref="http://www.w3.org/TR/css3-box/#min-height" syntax="footer { $(name): 300px; }">
 			<desc>Allows authors to constrain content height to a certain range.</desc>
@@ -4466,7 +4466,7 @@
 			</values>
 		</entry>
 		<entry name="min-inline-size" restriction="length, percentage" version="3.0" browsers="FF41" ref="https://drafts.csswg.org/css-logical-props/#propdef-min-block-size" syntax="header { $(name): 200px; }">
-			<desc>Logical 'min-height'. Mapping depends on the element’s 'writing-mode'.</desc>
+			<desc>Minimal size of an element in the direction specified by 'writing-mode'.</desc>
 		</entry>
 		<entry name="min-width" restriction="length, percentage" version="2.0" browsers="E,C,FF1,IE7,O7,S1" ref="http://www.w3.org/TR/css3-box/#min-width" syntax="footer { $(name): 300px; }">
 			<desc>Allows authors to constrain content width to a certain range.</desc>
