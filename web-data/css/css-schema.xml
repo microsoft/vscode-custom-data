@@ -4039,7 +4039,7 @@
 			</values>
 		</entry>
 		<entry name="margin" restriction="length, percentage" version="1.0" browsers="all" ref="http://www.w3.org/TR/css3-box/#margin1" syntax="div { $(name): 4px 7px 2px 4px; }">
-			<desc>Shorthand property to set values the thickness of the margin area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. Negative values for margin properties are allowed, but there may be implementation-specific limits.</desc>
+			<desc>Shorthand property to set values for the thickness of the margin area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. Negative values for margin properties are allowed, but there may be implementation-specific limits.</desc>
 			<values>
 				<value name="auto" version="1.0" browsers="all" />
 				<value name="logical" version="3.0" browsers="none">
@@ -4060,7 +4060,7 @@
 			</values>
 		</entry>
 		<entry name="margin-bottom" restriction="length, percentage" version="1.0" browsers="all" ref="http://www.w3.org/TR/css3-box/#margin1" syntax="div { $(name): 4px; }">
-			<desc>Shorthand property to set values the thickness of the margin area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. Negative values for margin properties are allowed, but there may be implementation-specific limits..</desc>
+			<desc>Shorthand property to set values for the thickness of the margin area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. Negative values for margin properties are allowed, but there may be implementation-specific limits..</desc>
 			<values>
 				<value name="auto" version="1.0" browsers="all" />
 			</values>
@@ -4078,19 +4078,19 @@
 			</values>
 		</entry>
 		<entry name="margin-left" restriction="length, percentage" version="1.0" browsers="all" ref="http://www.w3.org/TR/css3-box/#margin1" syntax="div { $(name): 4px; }">
-			<desc>Shorthand property to set values the thickness of the margin area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. Negative values for margin properties are allowed, but there may be implementation-specific limits..</desc>
+			<desc>Shorthand property to set values for the thickness of the margin area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. Negative values for margin properties are allowed, but there may be implementation-specific limits..</desc>
 			<values>
 				<value name="auto" version="1.0" browsers="all" />
 			</values>
 		</entry>
 		<entry name="margin-right" restriction="length, percentage" version="1.0" browsers="all" ref="http://www.w3.org/TR/css3-box/#margin1" syntax="div { $(name): 4px; }">
-			<desc>Shorthand property to set values the thickness of the margin area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. Negative values for margin properties are allowed, but there may be implementation-specific limits..</desc>
+			<desc>Shorthand property to set values for the thickness of the margin area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. Negative values for margin properties are allowed, but there may be implementation-specific limits..</desc>
 			<values>
 				<value name="auto" version="1.0" browsers="all" />
 			</values>
 		</entry>
 		<entry name="margin-top" restriction="length, percentage" version="1.0" browsers="all" ref="http://www.w3.org/TR/css3-box/#margin1" syntax="div { $(name): 4px; }">
-			<desc>Shorthand property to set values the thickness of the margin area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. Negative values for margin properties are allowed, but there may be implementation-specific limits..</desc>
+			<desc>Shorthand property to set values for the thickness of the margin area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. Negative values for margin properties are allowed, but there may be implementation-specific limits..</desc>
 			<values>
 				<value name="auto" version="1.0" browsers="all" />
 			</values>
@@ -6737,7 +6737,7 @@
 			<desc>@counter-style descriptor. Specifies a “fixed-width” counter style, where representations shorter than the pad value are padded with a particular &lt;symbol></desc>
 		</entry>
 		<entry name="padding" restriction="length, percentage" version="1.0" browsers="all" ref="http://www.w3.org/TR/css3-box/#padding1" syntax="div { $(name): 4px 7px 2px 4px; }">
-			<desc>Shorthand property to set values the thickness of the padding area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. The value may not be negative.</desc>
+			<desc>Shorthand property to set values for the thickness of the padding area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. The value may not be negative.</desc>
 			<values>
 				<value name="logical" version="3.0" browsers="none">
 					<desc>Indicates that the values map to the logical properties instead of the physical ones.</desc>
@@ -6745,7 +6745,7 @@
 			</values>
 	</entry>
 		<entry name="padding-bottom" restriction="length, percentage" version="1.0" browsers="all" ref="http://www.w3.org/TR/css3-box/#padding1" syntax="ul { $(name): 2em; }">
-			<desc>Shorthand property to set values the thickness of the padding area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. The value may not be negative.</desc>
+			<desc>Shorthand property to set values for the thickness of the padding area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. The value may not be negative.</desc>
 		</entry>
 		<entry name="padding-block-end" restriction="length, percentage" version="3.0" browsers="FF41" ref="https://drafts.csswg.org/css-logical-props/#border-padding" syntax="article { $(name): 50px; }">
 			<desc>Logical 'padding-bottom'. Mapping depends on the parent element’s 'writing-mode', 'direction', and 'text-orientation'.</desc>
@@ -6760,13 +6760,13 @@
 			<desc>Logical 'padding-left'. Mapping depends on the parent element’s 'writing-mode', 'direction', and 'text-orientation'.</desc>
 		</entry>
 		<entry name="padding-left" restriction="length, percentage" version="1.0" browsers="all" ref="http://www.w3.org/TR/css3-box/#padding1" syntax="ul { $(name): 2em; }">
-			<desc>Shorthand property to set values the thickness of the padding area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. The value may not be negative.</desc>
+			<desc>Shorthand property to set values for the thickness of the padding area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. The value may not be negative.</desc>
 		</entry>
 		<entry name="padding-right" restriction="length, percentage" version="1.0" browsers="all" ref="http://www.w3.org/TR/css3-box/#padding1" syntax="ul { $(name): 2em; }">
-			<desc>Shorthand property to set values the thickness of the padding area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. The value may not be negative.</desc>
+			<desc>Shorthand property to set values for the thickness of the padding area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. The value may not be negative.</desc>
 		</entry>
 		<entry name="padding-top" restriction="length, percentage" version="1.0" browsers="all" ref="http://www.w3.org/TR/css3-box/#padding1" syntax="ul { $(name): 2em; }">
-			<desc>Shorthand property to set values the thickness of the padding area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. The value may not be negative.</desc>
+			<desc>Shorthand property to set values for the thickness of the padding area. If left is omitted, it is the same as right. If bottom is omitted it is the same as top, if right is omitted it is the same as top. The value may not be negative.</desc>
 		</entry>
 		<entry name="page" restriction="identifier" version="3.0" browsers="none" ref="http://www.w3.org/TR/css3-page/#page" syntax="auto | &lt;identifier&gt;">
 			<desc>Specifies a particular type of page (called a named page) on which an element must be displayed.</desc>
