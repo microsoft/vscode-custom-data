@@ -36,6 +36,8 @@
   { "name": "onmouseover" },
   { "name": "onmouseup" },
   { "name": "onmousewheel" },
+  { "name": "onmouseenter" },
+  { "name": "onmouseleave" },
   { "name": "onpause" },
   { "name": "onplay" },
   { "name": "onplaying" },
@@ -54,5 +56,16 @@
   { "name": "onsuspend" },
   { "name": "ontimeupdate" },
   { "name": "onvolumechange" },
-  { "name": "onwaiting" }
+  { "name": "onwaiting" },
+  { "name": "onpointercancel" },
+  { "name": "onpointerdown" },
+  { "name": "onpointerenter" },
+  { "name": "onpointerleave" },
+  { "name": "onpointerlockchange" },
+  { "name": "onpointerlockerror" },
+  { "name": "onpointermove" },
+  { "name": "onpointerout" },
+  { "name": "onpointerover" },
+  { "name": "onpointerup" }
+
 ]
