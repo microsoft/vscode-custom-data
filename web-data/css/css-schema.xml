@@ -6957,7 +6957,7 @@
 					<desc>The given element can be the target element for pointer events whenever the pointer is over the perimeter of the element.</desc>
 				</value>
 				<value name="visible" version="3.0" browsers="all">
-					<desc>The given element can be the target element for pointer events when the ‘visibility’ property is set to visible and the pointer is over either the interior or the perimete of the element.</desc>
+					<desc>The given element can be the target element for pointer events when the ‘visibility’ property is set to visible and the pointer is over either the interior or the perimeter of the element.</desc>
 				</value>
 				<value name="visibleFill" version="3.0" browsers="all">
 					<desc>The given element can be the target element for pointer events when the ‘visibility’ property is set to visible and when the pointer is over the interior of the element.</desc>
