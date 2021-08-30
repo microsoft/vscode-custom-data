@@ -189,6 +189,11 @@ module.exports = {
     'forced-color-adjust': 'Allows authors to opt certain elements out of forced colors mode. This then restores the control of those values to CSS',
     'color-scheme': 'The color-scheme CSS property allows an element to indicate which color schemes it can comfortably be rendered in.',
     'overflow-clip-margin': 'The overflow-clip-margin CSS property determines how far outside its bounds an element with overflow: clip may be painted before being clipped.',
+    'accent-color': 'Sets the color of the elements accent',
+    'ascent-override': 'Describes the ascent metric of a font.',
+    'descent-override': 'Describes the descent metric of a font.',
+    'line-gap-override': 'Describes the line-gap metric of a font.',
+    'size-adjust': 'A multiplier for glyph outlines and metrics of a font.'
   },
   pseudoSelectorDescriptions: {
     ':defined': 'The :defined CSS pseudo-class represents any element that has been defined. This includes any standard element built in to the browser, and custom elements that have been successfully defined (i.e. with the CustomElementRegistry.define() method).',
