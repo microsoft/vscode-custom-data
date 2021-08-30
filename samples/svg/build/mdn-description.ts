@@ -7,7 +7,7 @@ const turndownService = new TurndownService()
 
 export type PropertyType = 'tag' | 'attribute'
 
-async function getMDNHTMLDescription(name: string, type: PropertyType): Promise<string> {
+async function getMDNHTMLDescription(name: string, type: PropertyType): Promise<string | null> {
   if (type === 'tag') {
     try {
       const svgres = await got(`https://developer.mozilla.org/en-US/docs/Web/SVG/Element/${name}$json`, {
@@ -49,10 +49,14 @@ async function getMDNHTMLDescription(name: string, type: PropertyType): Promise<
 
 export async function getMDNMDDescription(name: string, type: PropertyType) {
   try {
-    const htmlSummary = await getMDNHTMLDescription(name, type)
-    const mdSummary: string = turndownService.turndown(htmlSummary)
+    const htmlSummary = await getMDNHTMLDescription(name, type);
+    if (htmlSummary) {
+      const mdSummary: string = turndownService.turndown(htmlSummary)
 
-    return mdSummary.replace(/\]\(\//g, `](${MDN_ROOT}/`)
+      return mdSummary.replace(/\]\(\//g, `](${MDN_ROOT}/`)
+    }
+    return null;
+
   } catch (err) {
     return null
   }

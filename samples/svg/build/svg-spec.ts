@@ -85,7 +85,7 @@ export function getSVGSpec() {
   $('attributecategory').each((_, e) => {
     const attrCate = {
       name: e.attribs['name'],
-      attributes: [],
+      attributes: [] as any,
       references: [
         {
           name: 'SVG Spec',
@@ -114,8 +114,8 @@ export function getSVGSpec() {
   $('element').each((_, e) => {
     const el = {
       name: e.attribs['name'],
-      attributes: [],
-      attributeCategories: [],
+      attributes: [] as HTMLAttribute[],
+      attributeCategories: [] as string[],
       references: [
         {
           name: 'SVG Spec',

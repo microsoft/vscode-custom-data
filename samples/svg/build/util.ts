@@ -1,12 +1,12 @@
 export function sleep(ms: number) {
-	return new Promise(resolve => {
+	return new Promise<void>(resolve => {
 		setTimeout(() => {
 			resolve()
 		}, ms)
 	})
 }
 
-const browserNames = {
+const browserNames : { [browser: string]: string }= {
 	E: 'Edge',
 	FF: 'Firefox',
 	S: 'Safari',
@@ -15,8 +15,8 @@ const browserNames = {
 	O: 'Opera'
 }
 
-export function toCompatString(bcdProperty) {
-	let s = []
+export function toCompatString(bcdProperty: any) :string[] {
+	let s : string[] = []
 
 	if (bcdProperty.__compat) {
 		Object.keys(browserNames).forEach((abbrev) => {
@@ -34,7 +34,7 @@ export function toCompatString(bcdProperty) {
 			const browserName = browserNames[abbrev].toLowerCase()
 
 			// Select the most recent versions from all contexts as the short compat string
-			let shortCompatStringAggregatedFromContexts;
+			let shortCompatStringAggregatedFromContexts : string | undefined;
 
 			Object.keys(bcdProperty).forEach(contextName => {
 				const context = bcdProperty[contextName]
@@ -53,13 +53,13 @@ export function toCompatString(bcdProperty) {
 		})
 
 	}
-  return s
+  return s;
 }
 
 /**
  * Check that a property is supported in all major browsers: Edge, Firefox, Safari, Chrome, IE, Opera
  */
-export function isSupportedInAllBrowsers(bcdProperty) {
+export function isSupportedInAllBrowsers(bcdProperty: any) {
 	if (bcdProperty.__compat) {
 		return Object.keys(browserNames).every((abbrev) => {
 			const browserName = browserNames[abbrev].toLowerCase()
@@ -112,7 +112,7 @@ export function isSupportedInAllBrowsers(bcdProperty) {
  *   }
  * } => "FF6"
  */
-function supportToShortCompatString(support, browserAbbrev) {
+function supportToShortCompatString(support: any, browserAbbrev: any) {
   let version_added
   if (Array.isArray(support) && support[0] && support[0].version_added) {
     version_added = support[0].version_added
@@ -131,7 +131,7 @@ function supportToShortCompatString(support, browserAbbrev) {
   return null
 }
 
-function isSupported(support) {
+function isSupported(support: any) {
   let version_added
   if (Array.isArray(support) && support[0] && support[0].version_added) {
     version_added = support[0].version_added
