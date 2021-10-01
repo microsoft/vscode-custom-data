@@ -10,8 +10,8 @@
     "data/*"
   ],
   "devDependencies": {
-    "@mdn/browser-compat-data": "^4.0.1",
-    "mdn-data": "^2.0.21",
+    "@mdn/browser-compat-data": "^4.0.5",
+    "mdn-data": "^2.0.22",
     "xml2js": "^0.4.23"
   }
 }
