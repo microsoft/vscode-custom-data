@@ -5398,6 +5398,12 @@
           "name": "nickname"
         },
         {
+          "name": "off"
+        },
+        {
+          "name": "on"
+        },
+        {
           "name": "organization"
         },
         {
