@@ -11,6 +11,16 @@
 			"outFiles": [
 				"${workspaceFolder}/out/**/*.js"
 			]
+		},
+		{
+			"name": "Update Data",
+			"program": "${workspaceFolder}/dist/index.js",
+			"request": "launch",
+			"skipFiles": [
+				"<node_internals>/**"
+			],
+			"type": "pwa-node",
+			"preLaunchTask": "npm: compile"
 		}
 	]
 }

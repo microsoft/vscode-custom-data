@@ -1,6 +1,6 @@
 
 const mdnData = require('mdn-data');
-const bcdData = require('mdn-browser-compat-data')
+const bcdData = require('@mdn/browser-compat-data')
 
 import { CSSProperty, CSSSpecProperty } from './svg-spec';
 import { toCompatString, isSupportedInAllBrowsers } from './util';

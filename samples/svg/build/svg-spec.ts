@@ -64,6 +64,7 @@ function parseStringList(str: string) {
   return str.split(',').map(s => s.trim())
 }
 
+
 export function getSVGSpec() {
   const src = fs.readFileSync(DEFINITION_PATH, 'utf-8')
   const $ = cheerio.load(src, {
@@ -71,101 +72,124 @@ export function getSVGSpec() {
   })
 
   $('definitions > attribute').each((_, e) => {
-    globalAttributes.push({
-      name: e.attribs['name'],
-      references: [
-        {
-          name: 'SVG Spec',
-          url: handleHref(e.attribs['href'])
-        }
-      ]
-    })
+    const x = $(e), name = x.attr('name'), href = x.attr('href');
+    if (name && href) {
+      globalAttributes.push({
+        name,
+        references: [
+          {
+            name: 'SVG Spec',
+            url: handleHref(href)
+          }
+        ]
+      })
+    }
+
+
   })
 
   $('attributecategory').each((_, e) => {
-    const attrCate = {
-      name: e.attribs['name'],
-      attributes: [] as any,
-      references: [
-        {
-          name: 'SVG Spec',
-          url: handleHref(e.attribs['href'])
-        }
-      ]
+    const x = $(e), name = x.attr('name'), href = x.attr('href');
+    if (name && href) {
+      const attrCate = {
+        name,
+        attributes: [] as any,
+        references: [
+          {
+            name: 'SVG Spec',
+            url: handleHref(href)
+          }
+        ]
+      }
+
+      $(e)
+        .find('attribute')
+        .each((_, e) => {
+          const x = $(e), name = x.attr('name'), href = x.attr('href');
+          if (name && href) {
+            attrCate.attributes.push({
+              name,
+              references: [
+                {
+                  name: 'SVG Spec',
+                  url: handleHref(href)
+                }
+              ]
+            })
+          }
+        })
+
+
+      attributeCategories.push(attrCate)
     }
 
-    $(e)
-      .find('attribute')
-      .each((_, e) => {
-        attrCate.attributes.push({
-          name: e.attribs['name'],
-          references: [
-            {
-              name: 'SVG Spec',
-              url: handleHref(e.attribs['href'])
-            }
-          ]
-        })
-      })
-
-    attributeCategories.push(attrCate)
   })
 
   $('element').each((_, e) => {
-    const el = {
-      name: e.attribs['name'],
-      attributes: [] as HTMLAttribute[],
-      attributeCategories: [] as string[],
-      references: [
-        {
-          name: 'SVG Spec',
-          url: handleHref(e.attribs['href'])
-        }
-      ]
-    }
+    const x = $(e), name = x.attr('name'), href = x.attr('href'), attributes = x.attr('attributes'), attributecategories = x.attr('attributecategories');
+    if (name && href) {
+      const el = {
+        name,
+        attributes: [] as HTMLAttribute[],
+        attributeCategories: [] as string[],
+        references: [
+          {
+            name: 'SVG Spec',
+            url: handleHref(href)
+          }
+        ]
+      }
 
-    if (e.attribs['attributes']) {
-      parseStringList(e.attribs['attributes']).forEach(s => {
-        const matchingAttr = globalAttributes.find(a => a.name === s)
-        if (matchingAttr) {
-          el.attributes.push(matchingAttr)
-        }
-      })
-    }
-
-    $(e)
-      .find('attribute')
-      .each((_, ea) => {
-        el.attributes.push({
-          name: ea.attribs['name'],
-          references: [
-            {
-              name: 'SVG Spec',
-              url: handleHref(ea.attribs['href'])
-            }
-          ]
+      if (attributes) {
+        parseStringList(attributes).forEach(s => {
+          const matchingAttr = globalAttributes.find(a => a.name === s)
+          if (matchingAttr) {
+            el.attributes.push(matchingAttr)
+          }
         })
-      })
+      }
 
-    if (e.attribs['attributecategories']) {
-      parseStringList(e.attribs['attributecategories']).forEach(s => {
-        el.attributeCategories.push(s)
-      })
+      $(e)
+        .find('attribute')
+        .each((_, ea) => {
+          const x = $(ea), name = x.attr('name'), href = x.attr('href');
+          if (name && href) {
+            el.attributes.push({
+              name,
+              references: [
+                {
+                  name: 'SVG Spec',
+                  url: handleHref(href)
+                }
+              ]
+            })
+          }
+        })
+
+      if (attributecategories) {
+        parseStringList(attributecategories).forEach(s => {
+          el.attributeCategories.push(s)
+        })
+      }
+
+      elements.push(el)
     }
-
-    elements.push(el)
   })
 
   $('property').each((_, e) => {
-    cssSpecProperties.push({
-      name: e.attribs['name'],
-      references: [
-        {
-          name: 'SVG Spec',
-          url: handleHref(e.attribs['href'])
-        }
-      ]
-    })
+    const x = $(e), name = x.attr('name'), href = x.attr('href');
+    if (name && href) {
+      cssSpecProperties.push({
+        name,
+        references: [
+          {
+            name: 'SVG Spec',
+            url: handleHref(href)
+          }
+        ]
+      })
+
+    }
   })
 
   return {

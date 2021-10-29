@@ -1,4 +1,4 @@
-const bcd = require('mdn-browser-compat-data')
+const bcd = require('@mdn/browser-compat-data')
 
 import * as fs from 'fs'
 import * as path from 'path'
