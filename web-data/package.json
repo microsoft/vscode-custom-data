@@ -1,6 +1,15 @@
 {
-  "name": "vscode-web-custom-data",
+  "name": "@vscode/web-custom-data",
   "version": "0.3.5",
+  "license": "MIT",
+  "author": "Visual Studio Code Team",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/microsoft/vscode-custom-data.git"
+  },
+  "bugs": {
+    "url": "https://github.com/microsoft/vscode-custom-data/issues"
+  },
   "scripts": {
     "update-sources": "yarn add -D mdn-data @mdn/browser-compat-data && node ./css/chromestatus/updateRelevance.js",
     "generate-data": "node html/generateData.js && node css/generateData.js",
