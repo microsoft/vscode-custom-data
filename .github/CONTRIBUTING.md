@@ -1,4 +1,4 @@
-# Contributing to vscode-custom-data
+# Contributing to VS Code Custom Data
 
 ## I want to update a specific HTML/CSS entity
 

@@ -1,5 +1,5 @@
 <p>
-  <h2 align="center">vscode-custom-data</h2>
+  <h2 align="center">VS Code Custom Data</h2>
   Documentation, sample and data for using VS Code's HTML/CSS custom data format.
 </p>
 
@@ -71,7 +71,7 @@ On the other hand, for users and framework authors who build new technologies an
 - Run `yarn update-sources`, which updates `@mdn/browser-compat-data`, `mdn-data` and `attributeRelevance.js`
 - After all updates are done, run `yarn generate-data`
 - Review the diff. Make sure the updates look reasonable. If there are new properties, make sure that they don't have blank descriptions. There is no API for pulling descriptions. Each time you regenerate the data, if there are properties with missing descriptions, find its MDN page, go to https://github.com/microsoft/vscode-custom-data/blob/master/web-data/css/mdn/mdn-documentation.js and update it manually
-- Finally, commit and publish the data to [vscode-web-custom-data](https://www.npmjs.com/package/vscode-web-custom-data) on NPM. 
+- Finally, commit and publish the data to [@vscode/web-custom-data](https://www.npmjs.com/package/@vscode/web-custom-data) on NPM. 
 
 ## Contributing
 

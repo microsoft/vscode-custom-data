@@ -1,6 +1,6 @@
 ## VS Code Web Custom Data
 
-This repository pulls data from multiple channels and massage them into the Custom Data Format. The data is then published to [vscode-web-custom-data](https://www.npmjs.com/package/vscode-web-custom-data) package and consumed in VS Code's [HTML](https://github.com/Microsoft/vscode-html-languageservice) and [CSS](https://github.com/Microsoft/vscode-css-languageservice) Language Services.
+This repository pulls data from multiple channels and massage them into the Custom Data Format. The data is then published to [@vscode/web-custom-data](https://www.npmjs.com/package/@vscode/web-custom-data) package and consumed in VS Code's [HTML](https://github.com/Microsoft/vscode-html-languageservice) and [CSS](https://github.com/Microsoft/vscode-css-languageservice) Language Services.
 
 
 ## License
