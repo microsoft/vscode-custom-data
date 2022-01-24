@@ -26,7 +26,7 @@ function download(source) {
 }
 
 async function main() {
-	const content = await download(`https://www.chromestatus.com/data/csspopularity`);
+	const content = await download(`https://chromestatus.com/data/csspopularity`);
 
 	const data = JSON.parse(content).map(d => ({ name: d.property_name, relevance: Math.floor(d.day_percentage * 100)}));
 	const outData = `module.exports = ${JSON.stringify(data, null, '\t')};`;

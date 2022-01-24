@@ -193,7 +193,9 @@ module.exports = {
     'ascent-override': 'Describes the ascent metric of a font.',
     'descent-override': 'Describes the descent metric of a font.',
     'line-gap-override': 'Describes the line-gap metric of a font.',
-    'size-adjust': 'A multiplier for glyph outlines and metrics of a font.'
+    'size-adjust': 'A multiplier for glyph outlines and metrics of a font.',
+    'hyphenate-character': 'A hyphenate character used at the end of a line.',
+    'input-security': 'Enables or disables the obscuring a sensitive test input.',
   },
   pseudoSelectorDescriptions: {
     ':defined': 'The :defined CSS pseudo-class represents any element that has been defined. This includes any standard element built in to the browser, and custom elements that have been successfully defined (i.e. with the CustomElementRegistry.define() method).',
