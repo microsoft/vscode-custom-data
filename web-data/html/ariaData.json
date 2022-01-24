@@ -35,9 +35,6 @@
     "valueSet": "current"
   },
   {
-    "name": "aria-describedat"
-  },
-  {
     "name": "aria-describedby"
   },
   {
@@ -73,9 +70,6 @@
   {
     "name": "aria-invalid",
     "valueSet": "invalid"
-  },
-  {
-    "name": "aria-kbdshortcuts"
   },
   {
     "name": "aria-label"
