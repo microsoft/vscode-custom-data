@@ -9674,29 +9674,7 @@
 				<value name="text" version="3.0" browsers="all" />
 			</values>
 		</entry>
-		<entry name="white-space" restriction="enum" version="1.0" browsers="all" ref="http://www.w3.org/TR/css3-text/#white-space0" syntax="section { $(name): nowrap; }">
-			<desc>Shorthand property for the 'white-space-collapsing' and 'text-wrap' properties.</desc>
-			<values>
-				<value name="normal" version="1.0" browsers="all">
-					<desc>Sets 'white-space-collapsing' to 'collapse' and 'text-wrap' to 'normal'.</desc>
-				</value>
-				<value name="nowrap" version="1.0" browsers="all">
-					<desc>Sets 'white-space-collapsing' to 'collapse' and 'text-wrap' to 'none'.</desc>
-				</value>
-				<value name="pre" version="1.0" browsers="all">
-					<desc>Sets 'white-space-collapsing' to 'preserve' and 'text-wrap' to 'none'.</desc>
-				</value>
-				<value name="pre-line" version="2.1" browsers="all">
-					<desc>Sets 'white-space-collapsing' to 'preserve-breaks' and 'text-wrap' to 'normal'.</desc>
-				</value>
-				<value name="pre-wrap" version="2.1" browsers="all">
-					<desc>Sets 'white-space-collapsing' to 'preserve' and 'text-wrap' to 'normal'.</desc>
-				</value>
-				<value name="pre-wrap-auto" version="3.0" browsers="none">
-					<desc>Preserves white space and allows wrapping. However, some of the behavior is made UA dependent to allow matching platform conventions.</desc>
-				</value>
-			</values>
-		</entry>
+
 		<entry name="widows" restriction="integer" version="2.0" browsers="C,IE8,O9.5,S1" ref="http://www.w3.org/TR/css3-break/#widows-orphans" syntax="&lt;integer&gt;">
 			<desc>Specifies the minimum number of line boxes of a block container that must be left in a fragment after a break.</desc>
 		</entry>

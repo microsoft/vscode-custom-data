@@ -26,7 +26,8 @@
         "name": "href"
       },
       {
-        "name": "target"
+        "name": "target",
+        "valueSet": "target"
       }
     ]
   },
@@ -303,7 +304,8 @@
         "name": "href"
       },
       {
-        "name": "target"
+        "name": "target",
+        "valueSet": "target"
       },
       {
         "name": "download"
@@ -761,7 +763,8 @@
         "name": "href"
       },
       {
-        "name": "target"
+        "name": "target",
+        "valueSet": "target"
       },
       {
         "name": "download"
@@ -902,7 +905,8 @@
         "valueSet": "v"
       },
       {
-        "name": "target"
+        "name": "target",
+        "valueSet": "target"
       }
     ]
   },

@@ -196,6 +196,9 @@ module.exports = {
     'size-adjust': 'A multiplier for glyph outlines and metrics of a font.',
     'hyphenate-character': 'A hyphenate character used at the end of a line.',
     'input-security': 'Enables or disables the obscuring a sensitive test input.',
+    'animation-timeline': 'Specifies the names of one or more @scroll-timeline at-rules to describe the element\'s scroll animations.',
+    'print-color-adjust': 'Defines what optimization the user agent is allowed to do when adjusting the appearance for an output device.',
+    'white-space': `Specifies how whitespace is handled in an element.`
   },
   pseudoSelectorDescriptions: {
     ':defined': 'The :defined CSS pseudo-class represents any element that has been defined. This includes any standard element built in to the browser, and custom elements that have been successfully defined (i.e. with the CustomElementRegistry.define() method).',

@@ -339,7 +339,7 @@
         }
       ],
       "syntax": "<single-animation>#",
-      "relevance": 82,
+      "relevance": 83,
       "references": [
         {
           "name": "MDN Reference",
@@ -358,7 +358,7 @@
     {
       "name": "animation-delay",
       "syntax": "<time>#",
-      "relevance": 63,
+      "relevance": 64,
       "references": [
         {
           "name": "MDN Reference",
@@ -439,7 +439,7 @@
         }
       ],
       "syntax": "<single-animation-fill-mode>#",
-      "relevance": 63,
+      "relevance": 64,
       "references": [
         {
           "name": "MDN Reference",
@@ -460,7 +460,7 @@
         }
       ],
       "syntax": "<single-animation-iteration-count>#",
-      "relevance": 60,
+      "relevance": 61,
       "references": [
         {
           "name": "MDN Reference",
@@ -523,7 +523,7 @@
     {
       "name": "animation-timing-function",
       "syntax": "<easing-function>#",
-      "relevance": 70,
+      "relevance": 71,
       "references": [
         {
           "name": "MDN Reference",
@@ -1231,7 +1231,7 @@
     {
       "name": "border-bottom-right-radius",
       "syntax": "<length-percentage>{1,2}",
-      "relevance": 74,
+      "relevance": 75,
       "references": [
         {
           "name": "MDN Reference",
@@ -1247,7 +1247,7 @@
     {
       "name": "border-bottom-style",
       "syntax": "<line-style>",
-      "relevance": 58,
+      "relevance": 59,
       "references": [
         {
           "name": "MDN Reference",
@@ -1734,7 +1734,7 @@
     {
       "name": "border-radius",
       "syntax": "<length-percentage>{1,4} [ / <length-percentage>{1,4} ]?",
-      "relevance": 92,
+      "relevance": 93,
       "references": [
         {
           "name": "MDN Reference",
@@ -1830,7 +1830,7 @@
       "name": "border-style",
       "values": [],
       "syntax": "<line-style>{1,4}",
-      "relevance": 81,
+      "relevance": 80,
       "references": [
         {
           "name": "MDN Reference",
@@ -2307,7 +2307,7 @@
         }
       ],
       "syntax": "<clip-source> | [ <basic-shape> || <geometry-box> ] | none",
-      "relevance": 57,
+      "relevance": 60,
       "references": [
         {
           "name": "MDN Reference",
@@ -2449,7 +2449,7 @@
         }
       ],
       "syntax": "normal | <length-percentage>",
-      "relevance": 55,
+      "relevance": 54,
       "description": "Sets the gap between columns. If there is a column rule between columns, it will appear in the middle of the gap.",
       "restrictions": [
         "length",
@@ -2595,6 +2595,7 @@
       "browsers": [
         "E79",
         "FF69",
+        "S15.4",
         "C52",
         "O40"
       ],
@@ -3444,7 +3445,7 @@
         }
       ],
       "syntax": "<'flex-direction'> || <'flex-wrap'>",
-      "relevance": 61,
+      "relevance": 62,
       "references": [
         {
           "name": "MDN Reference",
@@ -5226,7 +5227,7 @@
         }
       ],
       "syntax": "<grid-line>",
-      "relevance": 50,
+      "relevance": 51,
       "references": [
         {
           "name": "MDN Reference",
@@ -5541,7 +5542,7 @@
         }
       ],
       "syntax": "none | <track-list> | <auto-track-list> | subgrid <line-name-list>?",
-      "relevance": 58,
+      "relevance": 59,
       "references": [
         {
           "name": "MDN Reference",
@@ -6414,7 +6415,7 @@
         }
       ],
       "syntax": "<'margin-left'>",
-      "relevance": 51,
+      "relevance": 52,
       "references": [
         {
           "name": "MDN Reference",
@@ -6567,7 +6568,7 @@
       "browsers": [
         "E79",
         "FF53",
-        "S4",
+        "S15.4",
         "C1",
         "O15"
       ],
@@ -6599,7 +6600,8 @@
     {
       "name": "mask-mode",
       "browsers": [
-        "FF53"
+        "FF53",
+        "S15.4"
       ],
       "values": [
         {
@@ -6635,7 +6637,7 @@
       "browsers": [
         "E79",
         "FF53",
-        "S4",
+        "S15.4",
         "C1",
         "O15"
       ],
@@ -6658,7 +6660,7 @@
       "browsers": [
         "E79",
         "FF53",
-        "S3.1",
+        "S15.4",
         "C1",
         "O15"
       ],
@@ -6682,7 +6684,7 @@
       "browsers": [
         "E79",
         "FF53",
-        "S3.1",
+        "S15.4",
         "C1",
         "O15"
       ],
@@ -6704,7 +6706,7 @@
       "browsers": [
         "E79",
         "FF53",
-        "S4",
+        "S15.4",
         "C4",
         "O15"
       ],
@@ -11269,7 +11271,7 @@
     {
       "name": "opacity",
       "syntax": "<alpha-value>",
-      "relevance": 94,
+      "relevance": 93,
       "references": [
         {
           "name": "MDN Reference",
@@ -11782,7 +11784,7 @@
         }
       ],
       "syntax": "normal | break-word | anywhere",
-      "relevance": 64,
+      "relevance": 65,
       "references": [
         {
           "name": "MDN Reference",
@@ -12752,7 +12754,7 @@
       "browsers": [
         "E79",
         "FF36",
-        "Spreview",
+        "S15.4",
         "C61",
         "O48"
       ],
@@ -12905,7 +12907,7 @@
         }
       ],
       "syntax": "none | [ x | y | block | inline | both ] [ mandatory | proximity ]?",
-      "relevance": 52,
+      "relevance": 53,
       "references": [
         {
           "name": "MDN Reference",
@@ -13031,7 +13033,7 @@
         "O8"
       ],
       "syntax": "<length>{1,2} | auto | [ <page-size> || [ portrait | landscape ] ]",
-      "relevance": 53,
+      "relevance": 52,
       "description": "The size CSS at-rule descriptor, used with the @page at-rule, defines the size and orientation of the box which is used to represent a page. Most of the time, this size corresponds to the target size of the printed page if applicable.",
       "restrictions": [
         "length"
@@ -13090,7 +13092,7 @@
           "description": "No paint is applied in this layer."
         }
       ],
-      "relevance": 64,
+      "relevance": 65,
       "description": "Paints along the outline of the given graphical element.",
       "restrictions": [
         "color",
@@ -13106,7 +13108,7 @@
           "description": "Indicates that no dashing is used."
         }
       ],
-      "relevance": 58,
+      "relevance": 59,
       "description": "Controls the pattern of dashes and gaps used to stroke paths.",
       "restrictions": [
         "length",
@@ -13523,7 +13525,7 @@
         }
       ],
       "syntax": "none | [ underline || overline || line-through || blink ] | spelling-error | grammar-error",
-      "relevance": 51,
+      "relevance": 52,
       "references": [
         {
           "name": "MDN Reference",
@@ -14129,7 +14131,7 @@
     {
       "name": "transition-duration",
       "syntax": "<time>#",
-      "relevance": 63,
+      "relevance": 64,
       "references": [
         {
           "name": "MDN Reference",
@@ -16814,43 +16816,6 @@
       ]
     },
     {
-      "name": "white-space",
-      "values": [
-        {
-          "name": "normal",
-          "description": "Sets 'white-space-collapsing' to 'collapse' and 'text-wrap' to 'normal'."
-        },
-        {
-          "name": "nowrap",
-          "description": "Sets 'white-space-collapsing' to 'collapse' and 'text-wrap' to 'none'."
-        },
-        {
-          "name": "pre",
-          "description": "Sets 'white-space-collapsing' to 'preserve' and 'text-wrap' to 'none'."
-        },
-        {
-          "name": "pre-line",
-          "description": "Sets 'white-space-collapsing' to 'preserve-breaks' and 'text-wrap' to 'normal'."
-        },
-        {
-          "name": "pre-wrap",
-          "description": "Sets 'white-space-collapsing' to 'preserve' and 'text-wrap' to 'normal'."
-        }
-      ],
-      "syntax": "normal | pre | nowrap | pre-wrap | pre-line | break-spaces",
-      "relevance": 90,
-      "references": [
-        {
-          "name": "MDN Reference",
-          "url": "https://developer.mozilla.org/docs/Web/CSS/white-space"
-        }
-      ],
-      "description": "Shorthand property for the 'white-space-collapsing' and 'text-wrap' properties.",
-      "restrictions": [
-        "enum"
-      ]
-    },
-    {
       "name": "widows",
       "browsers": [
         "E12",
@@ -16981,7 +16946,7 @@
         }
       ],
       "syntax": "normal | <length>",
-      "relevance": 57,
+      "relevance": 58,
       "references": [
         {
           "name": "MDN Reference",
@@ -17007,7 +16972,7 @@
         }
       ],
       "syntax": "normal | break-word",
-      "relevance": 78,
+      "relevance": 77,
       "description": "Specifies whether the UA may break within a word to prevent overflow when an otherwise-unbreakable string is too long to fit.",
       "restrictions": [
         "enum"
@@ -17086,7 +17051,7 @@
         }
       ],
       "syntax": "auto | <number> | <percentage>",
-      "relevance": 68,
+      "relevance": 67,
       "references": [
         {
           "name": "MDN Reference",
@@ -17530,7 +17495,7 @@
       "browsers": [
         "E93",
         "FF92",
-        "Spreview",
+        "S15.4",
         "C93",
         "O79"
       ],
@@ -17559,6 +17524,21 @@
       "description": "The align-tracks CSS property sets the alignment in the masonry axis for grid containers that have masonry in their block axis."
     },
     {
+      "name": "animation-timeline",
+      "syntax": "<single-animation-timeline>#",
+      "relevance": 50,
+      "browsers": [
+        "FF97"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/animation-timeline"
+        }
+      ],
+      "description": "Specifies the names of one or more @scroll-timeline at-rules to describe the element's scroll animations."
+    },
+    {
       "name": "appearance",
       "status": "experimental",
       "syntax": "none | auto | textfield | menulist-button | <compat-auto>",
@@ -17566,7 +17546,7 @@
       "browsers": [
         "E84",
         "FF80",
-        "Spreview",
+        "S15.4",
         "C84",
         "O70"
       ],
@@ -18009,23 +17989,10 @@
       "description": "The -moz-box-pack and -webkit-box-pack CSS properties specify how a -moz-box or -webkit-box packs its contents in the direction of its layout. The effect of this is only visible if there is extra space in the box."
     },
     {
-      "name": "color-adjust",
+      "name": "print-color-adjust",
       "syntax": "economy | exact",
       "relevance": 50,
-      "browsers": [
-        "E79",
-        "FF48",
-        "S6",
-        "C49",
-        "O15"
-      ],
-      "references": [
-        {
-          "name": "MDN Reference",
-          "url": "https://developer.mozilla.org/docs/Web/CSS/color-adjust"
-        }
-      ],
-      "description": "The color-adjust property is a non-standard CSS extension that can be used to force printing of background colors and images in browsers based on the WebKit engine."
+      "description": "Defines what optimization the user agent is allowed to do when adjusting the appearance for an output device."
     },
     {
       "name": "color-scheme",
@@ -18052,6 +18019,7 @@
       "relevance": 52,
       "browsers": [
         "E85",
+        "S15.4",
         "C85",
         "O71"
       ],
@@ -18160,7 +18128,7 @@
     {
       "name": "gap",
       "syntax": "<'row-gap'> <'column-gap'>?",
-      "relevance": 53,
+      "relevance": 54,
       "browsers": [
         "E84",
         "FF63",
@@ -18189,6 +18157,19 @@
       "name": "hyphenate-character",
       "syntax": "auto | <string>",
       "relevance": 50,
+      "browsers": [
+        "E79",
+        "FF97",
+        "S5.1",
+        "C6",
+        "O15"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/hyphenate-character"
+        }
+      ],
       "description": "A hyphenate character used at the end of a line."
     },
     {
@@ -18598,7 +18579,7 @@
       "browsers": [
         "E79",
         "FF53",
-        "S4",
+        "S15.4",
         "C1",
         "O15"
       ],
@@ -18616,7 +18597,8 @@
       "relevance": 50,
       "browsers": [
         "E18",
-        "FF53"
+        "FF53",
+        "S15.4"
       ],
       "references": [
         {
@@ -19050,7 +19032,7 @@
     {
       "name": "row-gap",
       "syntax": "normal | <length-percentage>",
-      "relevance": 50,
+      "relevance": 51,
       "browsers": [
         "E84",
         "FF63",
@@ -19656,7 +19638,7 @@
       "browsers": [
         "E79",
         "FF70",
-        "Spreview",
+        "S15.4",
         "C64",
         "O50"
       ],
@@ -19834,6 +19816,18 @@
         }
       ],
       "description": "The translate CSS property allows you to specify translation transforms individually and independently of the transform property. This maps better to typical user interface usage, and saves having to remember the exact order of transform functions to specify in the transform value."
+    },
+    {
+      "name": "white-space",
+      "syntax": "normal | pre | nowrap | pre-wrap | pre-line | break-spaces",
+      "relevance": 90,
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/white-space"
+        }
+      ],
+      "description": "Specifies how whitespace is handled in an element."
     },
     {
       "name": "speak-as",
@@ -21009,7 +21003,7 @@
       "name": ":has",
       "status": "experimental",
       "browsers": [
-        "Spreview"
+        "S15.4"
       ],
       "references": [
         {

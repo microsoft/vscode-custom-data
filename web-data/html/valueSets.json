@@ -379,6 +379,23 @@
     ]
   },
   {
+    "name": "target",
+    "values": [
+      {
+        "name": "_self"
+      },
+      {
+        "name": "_blank"
+      },
+      {
+        "name": "_parent"
+      },
+      {
+        "name": "_top"
+      }
+    ]
+  },
+  {
     "name": "sb",
     "values": [
       {
