@@ -18643,7 +18643,7 @@
       "status": "experimental",
       "syntax": "none | <integer>",
       "relevance": 50,
-      "description": "The max-liens property forces a break after a set number of lines"
+      "description": "The max-lines property forces a break after a set number of lines"
     },
     {
       "name": "offset",
