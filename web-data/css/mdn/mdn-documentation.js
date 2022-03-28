@@ -101,7 +101,7 @@ module.exports = {
     'mask-border-width': `The mask-border-width CSS property specifies the width of an element's mask border.`,
     'mask-clip': `The mask-clip CSS property determines the area, which is affected by a mask. The painted content of an element must be restricted to this area.`,
     'mask-composite': `The mask-composite CSS property represents a compositing operation used on the current mask layer with the mask layers below it.`,
-    'max-lines': `The max-liens property forces a break after a set number of lines`,
+    'max-lines': `The max-lines property forces a break after a set number of lines`,
     'offset': `The offset CSS property is a shorthand property for animating an element along a defined path.`,
     'offset-anchor': `Defines an anchor point of the box positioned along the path. The anchor point specifies the point of the box which is to be considered as the point that is moved along the path.`,
     'offset-distance': `The offset-distance CSS property specifies a position along an offset-path.`,
