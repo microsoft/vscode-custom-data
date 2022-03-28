@@ -6026,6 +6026,10 @@
         {
           "name": "strict",
           "description": "Breaks CJK scripts using a more restrictive set of line-breaking rules than 'normal'."
+        },
+        {
+          "name": "anywhere",
+          "description": "There is a soft wrap opportunity around every typographic character unit, including around any punctuation character or preserved white spaces, or in the middle of words, disregarding any prohibition against line breaks, even those introduced by characters with the GL, WJ, or ZWJ line breaking classes or mandated by the word-break property."
         }
       ],
       "syntax": "auto | loose | normal | strict | anywhere",
