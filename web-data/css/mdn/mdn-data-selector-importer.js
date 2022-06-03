@@ -5,12 +5,14 @@
 
 //@ts-check
 
-const mdnData = require('mdn-data')
+const mdnData = require('mdn-data');
+const mdnCompatData = require('@mdn/browser-compat-data');
 const { abbreviateStatus } = require('./mdn-data-importer')
 const { pseudoSelectorDescriptions, pseudoElementDescriptions } = require('./mdn-documentation')
 
 function addMDNPseudoElements(vscPseudoElements) {
 	const mdnSelectors = mdnData.css.selectors;
+	const mdnCompatProperties = mdnCompatData.css.properties;
 	const allPseudoElements = vscPseudoElements;
 
 	const missingDocumentation = [];
@@ -31,7 +33,7 @@ function addMDNPseudoElements(vscPseudoElements) {
 				allPseudoElements.push({
 					name: selectorName,
 					desc,
-					status: abbreviateStatus(selector.status)
+					status: abbreviateStatus(selector, mdnCompatProperties[selectorName])
 				})
 			}
 		}
@@ -52,7 +54,8 @@ const mdnExcludedPseudoSelectors = [
 ]
 
 function addMDNPseudoSelectors(vscPseudoClasses) {
-	const mdnSelectors = mdnData.css.selectors
+	const mdnSelectors = mdnData.css.selectors;
+	const mdnCompatProperties = mdnCompatData.css.properties;
 	const allPseudoSelectors = vscPseudoClasses
 
 	const allPseudoSelectorNames = vscPseudoClasses.map(s => s.name);
@@ -67,6 +70,7 @@ function addMDNPseudoSelectors(vscPseudoClasses) {
 				!allPseudoSelectorNames.includes(selectorName) &&
 				!allPseudoSelectorNames.includes(selectorName + '()')
 			) {
+				
 				const desc = pseudoSelectorDescriptions[selectorName] ||  '';
 				if (!desc) {
 					missingDocumentation.push(selectorName);
@@ -75,7 +79,7 @@ function addMDNPseudoSelectors(vscPseudoClasses) {
 				allPseudoSelectors.push({
 					name: selectorName,
 					desc,
-					status: abbreviateStatus(selector.status)
+					status: abbreviateStatus(selector, mdnCompatProperties[selectorName])
 				})
 			}
 		}

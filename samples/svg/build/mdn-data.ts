@@ -26,7 +26,30 @@ export function addCSSMDNData(specProperty: CSSSpecProperty): CSSProperty {
 
 function getPropertyStatus(name: string) {
   if (properties[name]) {
-    return properties[name].status
+    let status = properties[name].status;
+    let mdnCompatEntry = bcdProperties[name];
+    if (!mdnCompatEntry) {
+      for (const contextName in mdnCompatEntry) {
+        if (mdnCompatEntry[contextName].__compat) {
+          mdnCompatEntry = mdnCompatEntry[contextName].__compat;
+          break;
+        }
+      }
+    }
+
+    const compatStatus = mdnCompatEntry?.status;
+    if (compatStatus) {
+      if (compatStatus.experimental) {
+        status = 'experimental';
+      } else if (compatStatus.deprecated) {
+        status = 'obsolete';
+      } else if (compatStatus.standard_track) {
+        status = 'standard';
+      } else {
+        status = 'nonstandard';
+      }
+    }
+    return status;
   }
 }
 
