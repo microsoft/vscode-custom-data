@@ -21,6 +21,7 @@
   {
     "name": "base",
     "description": "The base element allows authors to specify the document base URL for the purposes of resolving relative URLs, and the name of the default browsing context for the purposes of following hyperlinks. The element does not represent any content beyond this information.",
+    "void": true,
     "attributes": [
       {
         "name": "href"
@@ -34,6 +35,7 @@
   {
     "name": "link",
     "description": "The link element allows authors to link their document to other resources.",
+    "void": true,
     "attributes": [
       {
         "name": "href"
@@ -62,6 +64,7 @@
   {
     "name": "meta",
     "description": "The meta element represents various kinds of metadata that cannot be expressed using the title, base, link, style, and script elements.",
+    "void": true,
     "attributes": [
       {
         "name": "name"
@@ -214,6 +217,7 @@
   {
     "name": "hr",
     "description": "The hr element represents a paragraph-level thematic break, e.g. a scene change in a story, or a transition to another topic within a section of a reference book.",
+    "void": true,
     "attributes": []
   },
   {
@@ -465,11 +469,13 @@
   {
     "name": "br",
     "description": "The br element represents a line break.",
+    "void": true,
     "attributes": []
   },
   {
     "name": "wbr",
     "description": "The wbr element represents a line break opportunity.",
+    "void": true,
     "attributes": []
   },
   {
@@ -497,6 +503,7 @@
   {
     "name": "img",
     "description": "An img element represents an image.",
+    "void": true,
     "attributes": [
       {
         "name": "alt"
@@ -562,6 +569,7 @@
   {
     "name": "embed",
     "description": "The embed element provides an integration point for an external (typically non-HTML) application or interactive content.",
+    "void": true,
     "attributes": [
       {
         "name": "src"
@@ -611,6 +619,7 @@
   {
     "name": "param",
     "description": "The param element defines parameters for plugins invoked by object elements. It does not represent anything on its own.",
+    "void": true,
     "attributes": [
       {
         "name": "name"
@@ -704,6 +713,7 @@
   {
     "name": "source",
     "description": "The source element allows authors to specify multiple alternative media resources for media elements. It does not represent anything on its own.",
+    "void": true,
     "attributes": [
       {
         "name": "src"
@@ -716,6 +726,7 @@
   {
     "name": "track",
     "description": "The track element allows authors to specify explicit external timed text tracks for media elements. It does not represent anything on its own.",
+    "void": true,
     "attributes": [
       {
         "name": "default",
@@ -748,6 +759,7 @@
   {
     "name": "area",
     "description": "The area element represents either a hyperlink with some text and a corresponding area on an image map, or a dead area on an image map.",
+    "void": true,
     "attributes": [
       {
         "name": "alt"
@@ -809,6 +821,7 @@
   {
     "name": "col",
     "description": "If a col element has a parent and that is a colgroup element that itself has a parent that is a table element, then the col element represents one or more columns in the column group represented by that colgroup.",
+    "void": true,
     "attributes": [
       {
         "name": "span"
@@ -925,6 +938,7 @@
   {
     "name": "input",
     "description": "The input element represents a typed data field, usually with a form control to allow the user to edit the data.",
+    "void": true,
     "attributes": [
       {
         "name": "accept"
