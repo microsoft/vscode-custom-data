@@ -5,7 +5,8 @@
 
 //@ts-check
 
-const { push } = require('../chromestatus/attributeRelevance');
+const mdnData = require('mdn-data');
+const mdnCompatData = require('@mdn/browser-compat-data');
 const { propertyDescriptions: mdnPropertyDescriptions } = require('./mdn-documentation')
 
 const mdnExcludedProperties = [
@@ -23,15 +24,23 @@ const noDoc = ["-webkit-background-composite", "-webkit-margin-bottom-collapse",
 function addMDNProperties(vscProperties) {
   const propertyMap = {}
 
-  const mdnProperties = require('mdn-data').css.properties
-  const mdnAtRules = require('mdn-data').css.atRules
+  const mdnProperties = mdnData.css.properties;
+  const mdnCompatProperties = mdnCompatData.css.properties;
+
+  const mdnAtRules = mdnData.css.atRules;
+  const mdnCompatAtRules = mdnCompatData.css['at-rules'];
+
+  const allMDNProperties = {};
+
+  for (const property of Object.keys(mdnProperties)) {
+    allMDNProperties[property] = extractMDNProperties(property, mdnProperties[property], mdnCompatProperties[property]);
+  }
 
   // Flatten at-rule properties and put all properties together
-  const allMDNProperties = mdnProperties
   for (const atRuleName of Object.keys(mdnAtRules)) {
     if (mdnAtRules[atRuleName].descriptors) {
       for (const atRulePropertyName of Object.keys(mdnAtRules[atRuleName].descriptors)) {
-        allMDNProperties[atRulePropertyName] = mdnAtRules[atRuleName].descriptors[atRulePropertyName]
+        allMDNProperties[atRulePropertyName] = extractMDNProperties(`${atRuleName}/${atRulePropertyName}`, mdnAtRules[atRuleName].descriptors[atRulePropertyName], mdnCompatAtRules[atRuleName]?.[atRulePropertyName]);
       }
     }
   }
@@ -48,7 +57,7 @@ function addMDNProperties(vscProperties) {
       if (allMDNProperties[p.name]) {
         propertyMap[p.name] = {
           ...p,
-          ...extractMDNProperties(allMDNProperties[p.name])
+          ...allMDNProperties[p.name]
         }
       } else {
         propertyMap[p.name] = p
@@ -65,7 +74,7 @@ function addMDNProperties(vscProperties) {
         name: pn,
         desc: '',
         restriction: 'none',
-        ...extractMDNProperties(allMDNProperties[pn])
+        ...allMDNProperties[pn]
       }
     }
   }
@@ -91,7 +100,7 @@ function addMDNProperties(vscProperties) {
   if (missingDocumentation.length) {
     console.log('add to mdn-documenatation.ts (propertyDescriptions):' + missingDocumentation.map(e => `\n'${e}': '',`).join(''));
   }
-  
+
 
 
   return Object.values(propertyMap)
@@ -100,15 +109,9 @@ function addMDNProperties(vscProperties) {
 /**
  * Extract only the MDN data that we use
  */
-function extractMDNProperties(mdnEntry) {
-  if (mdnEntry.status === 'standard') {
-    return {
-      syntax: mdnEntry.syntax
-    }
-  }
-
+function extractMDNProperties(name, mdnEntry, mdCompatEntry) {
   return {
-    status: abbreviateStatus(mdnEntry.status),
+    status: abbreviateStatus(mdnEntry, mdCompatEntry),
     syntax: mdnEntry.syntax
   }
 }
@@ -116,7 +119,38 @@ function extractMDNProperties(mdnEntry) {
 /**
  * Make syntax as small as possible for browser usage
  */
-function abbreviateStatus(status) {
+function abbreviateStatus(mdnEntry, mdnCompatEntry) {
+
+  let status = mdnEntry.status;
+  if (mdnCompatEntry) {
+    let compatData = mdnCompatEntry.__compat;
+    if (!compatData) {
+      for (const contextName in mdnCompatEntry) {
+        if (mdnCompatEntry[contextName].__compat) {
+          compatData = mdnCompatEntry[contextName].__compat;
+          break;
+        }
+      }
+    }
+
+    const compatStatus = compatData?.status;
+    if (compatStatus) {
+      if (compatStatus.experimental) {
+        status = 'experimental';
+      } else if (compatStatus.deprecated) {
+        status = 'obsolete';
+      } else if (compatStatus.standard_track) {
+        status = 'standard';
+      } else {
+        status = 'nonstandard';
+      }
+    }
+  }
+
+  if (mdnEntry.status === 'standard') {
+    return undefined;
+  }
+
   return {
     nonstandard: 'n',
     experimental: 'e',

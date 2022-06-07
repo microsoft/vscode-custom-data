@@ -845,7 +845,6 @@
           "description": "Equivalent to '100%' for the horizontal position if one or two values are given, otherwise specifies the right edge as the origin for the next offset."
         }
       ],
-      "status": "experimental",
       "syntax": "[ center | [ [ left | right | x-start | x-end ]? <length-percentage>? ]! ]#",
       "relevance": 54,
       "references": [
@@ -876,7 +875,6 @@
           "description": "Equivalent to '0%' for the vertical position if one or two values are given, otherwise specifies the top edge as the origin for the next offset."
         }
       ],
-      "status": "experimental",
       "syntax": "[ center | [ [ top | bottom | y-start | y-end ]? <length-percentage>? ]! ]#",
       "relevance": 53,
       "references": [
@@ -9808,9 +9806,9 @@
     {
       "name": "-ms-scrollbar-track-color",
       "browsers": [
-        "IE5"
+        "IE8"
       ],
-      "status": "nonstandard",
+      "status": "obsolete",
       "syntax": "<color>",
       "relevance": 0,
       "references": [
@@ -12588,7 +12586,6 @@
           "description": "The ruby text appears on the right of the base. Unlike 'before' and 'after', this value is not relative to the text flow direction."
         }
       ],
-      "status": "experimental",
       "syntax": "[ alternate || [ over | under ] ] | inter-character",
       "relevance": 50,
       "references": [
@@ -17079,7 +17076,7 @@
     },
     {
       "name": "-moz-binding",
-      "status": "nonstandard",
+      "status": "obsolete",
       "syntax": "<url> | none",
       "relevance": 0,
       "browsers": [
@@ -17102,7 +17099,7 @@
     },
     {
       "name": "-moz-float-edge",
-      "status": "nonstandard",
+      "status": "obsolete",
       "syntax": "border-box | content-box | margin-box | padding-box",
       "relevance": 0,
       "browsers": [
@@ -17118,7 +17115,7 @@
     },
     {
       "name": "-moz-force-broken-image-icon",
-      "status": "nonstandard",
+      "status": "obsolete",
       "syntax": "0 | 1",
       "relevance": 0,
       "browsers": [
@@ -17166,7 +17163,7 @@
     },
     {
       "name": "-moz-outline-radius",
-      "status": "nonstandard",
+      "status": "obsolete",
       "syntax": "<outline-radius>{1,4} [ / <outline-radius>{1,4} ]?",
       "relevance": 0,
       "browsers": [
@@ -17182,7 +17179,7 @@
     },
     {
       "name": "-moz-outline-radius-bottomleft",
-      "status": "nonstandard",
+      "status": "obsolete",
       "syntax": "<outline-radius>",
       "relevance": 0,
       "browsers": [
@@ -17198,7 +17195,7 @@
     },
     {
       "name": "-moz-outline-radius-bottomright",
-      "status": "nonstandard",
+      "status": "obsolete",
       "syntax": "<outline-radius>",
       "relevance": 0,
       "browsers": [
@@ -17214,7 +17211,7 @@
     },
     {
       "name": "-moz-outline-radius-topleft",
-      "status": "nonstandard",
+      "status": "obsolete",
       "syntax": "<outline-radius>",
       "relevance": 0,
       "browsers": [
@@ -17230,7 +17227,7 @@
     },
     {
       "name": "-moz-outline-radius-topright",
-      "status": "nonstandard",
+      "status": "obsolete",
       "syntax": "<outline-radius>",
       "relevance": 0,
       "browsers": [
@@ -17260,7 +17257,7 @@
     },
     {
       "name": "-moz-user-input",
-      "status": "nonstandard",
+      "status": "obsolete",
       "syntax": "auto | none | enabled | disabled",
       "relevance": 0,
       "browsers": [
@@ -17535,7 +17532,6 @@
     },
     {
       "name": "appearance",
-      "status": "experimental",
       "syntax": "none | auto | textfield | menulist-button | <compat-auto>",
       "relevance": 62,
       "browsers": [
@@ -17555,7 +17551,6 @@
     },
     {
       "name": "aspect-ratio",
-      "status": "experimental",
       "syntax": "auto | <ratio>",
       "relevance": 52,
       "browsers": [
@@ -17829,12 +17824,12 @@
     },
     {
       "name": "box-align",
-      "status": "nonstandard",
+      "status": "obsolete",
       "syntax": "start | center | end | baseline | stretch",
       "relevance": 0,
       "browsers": [
         "E12",
-        "FF1",
+        "FF49",
         "S3",
         "C1",
         "O15"
@@ -17849,12 +17844,12 @@
     },
     {
       "name": "box-direction",
-      "status": "nonstandard",
+      "status": "obsolete",
       "syntax": "normal | reverse | inherit",
       "relevance": 0,
       "browsers": [
         "E12",
-        "FF1",
+        "FF49",
         "S3",
         "C1",
         "O15"
@@ -17869,12 +17864,12 @@
     },
     {
       "name": "box-flex",
-      "status": "nonstandard",
+      "status": "obsolete",
       "syntax": "<number>",
       "relevance": 0,
       "browsers": [
         "E12",
-        "FF1",
+        "FF49",
         "S3",
         "C1",
         "O15"
@@ -17889,7 +17884,7 @@
     },
     {
       "name": "box-flex-group",
-      "status": "nonstandard",
+      "status": "obsolete",
       "syntax": "<integer>",
       "relevance": 0,
       "browsers": [
@@ -17907,7 +17902,7 @@
     },
     {
       "name": "box-lines",
-      "status": "nonstandard",
+      "status": "obsolete",
       "syntax": "single | multiple",
       "relevance": 0,
       "browsers": [
@@ -17925,12 +17920,12 @@
     },
     {
       "name": "box-ordinal-group",
-      "status": "nonstandard",
+      "status": "obsolete",
       "syntax": "<integer>",
       "relevance": 0,
       "browsers": [
         "E12",
-        "FF1",
+        "FF49",
         "S3",
         "C1",
         "O15"
@@ -17945,12 +17940,12 @@
     },
     {
       "name": "box-orient",
-      "status": "nonstandard",
+      "status": "obsolete",
       "syntax": "horizontal | vertical | inline-axis | block-axis | inherit",
       "relevance": 0,
       "browsers": [
         "E12",
-        "FF1",
+        "FF49",
         "S3",
         "C1",
         "O15"
@@ -17965,12 +17960,12 @@
     },
     {
       "name": "box-pack",
-      "status": "nonstandard",
+      "status": "obsolete",
       "syntax": "start | center | end | justify",
       "relevance": 0,
       "browsers": [
         "E12",
-        "FF1",
+        "FF49",
         "S3",
         "C1",
         "O15"
@@ -18116,7 +18111,6 @@
     },
     {
       "name": "forced-color-adjust",
-      "status": "experimental",
       "syntax": "auto | none",
       "relevance": 52,
       "browsers": [
@@ -21875,7 +21869,7 @@
       "browsers": [
         "E86",
         "FF68",
-        "S11.1",
+        "Spreview",
         "C86",
         "O72"
       ],
