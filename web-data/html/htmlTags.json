@@ -530,6 +530,21 @@
       },
       {
         "name": "height"
+      },
+      {
+        "name": "decoding",
+        "valueSet": "decoding"
+      },
+      {
+        "name": "loading",
+        "valueSet": "loading"
+      },
+      {
+        "name": "referrerpolicy",
+        "valueSet": "referrerpolicy"
+      },
+      {
+        "name": "sizes"
       }
     ]
   },

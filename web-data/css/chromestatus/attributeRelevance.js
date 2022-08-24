@@ -5,35 +5,35 @@ module.exports = [
 	},
 	{
 		"name": "height",
-		"relevance": 93
+		"relevance": 92
 	},
 	{
 		"name": "display",
-		"relevance": 93
-	},
-	{
-		"name": "padding",
 		"relevance": 92
 	},
 	{
 		"name": "position",
-		"relevance": 92
+		"relevance": 91
+	},
+	{
+		"name": "padding",
+		"relevance": 91
 	},
 	{
 		"name": "margin",
-		"relevance": 92
+		"relevance": 91
 	},
 	{
 		"name": "border",
-		"relevance": 92
+		"relevance": 91
 	},
 	{
 		"name": "top",
-		"relevance": 91
+		"relevance": 90
 	},
 	{
 		"name": "color",
-		"relevance": 91
+		"relevance": 90
 	},
 	{
 		"name": "left",
@@ -41,190 +41,178 @@ module.exports = [
 	},
 	{
 		"name": "margin-top",
-		"relevance": 90
+		"relevance": 89
 	},
 	{
 		"name": "font-size",
-		"relevance": 90
+		"relevance": 89
 	},
 	{
 		"name": "background-color",
-		"relevance": 90
-	},
-	{
-		"name": "font-weight",
 		"relevance": 89
 	},
 	{
 		"name": "text-align",
-		"relevance": 89
-	},
-	{
-		"name": "font-family",
 		"relevance": 88
 	},
 	{
+		"name": "font-weight",
+		"relevance": 87
+	},
+	{
+		"name": "font-family",
+		"relevance": 87
+	},
+	{
 		"name": "opacity",
-		"relevance": 87
-	},
-	{
-		"name": "overflow",
-		"relevance": 87
-	},
-	{
-		"name": "background",
-		"relevance": 87
-	},
-	{
-		"name": "line-height",
-		"relevance": 87
-	},
-	{
-		"name": "box-sizing",
 		"relevance": 86
 	},
 	{
-		"name": "border-radius",
+		"name": "background",
+		"relevance": 86
+	},
+	{
+		"name": "overflow",
+		"relevance": 86
+	},
+	{
+		"name": "line-height",
+		"relevance": 86
+	},
+	{
+		"name": "box-sizing",
 		"relevance": 85
 	},
 	{
 		"name": "z-index",
-		"relevance": 85
+		"relevance": 84
+	},
+	{
+		"name": "border-radius",
+		"relevance": 84
 	},
 	{
 		"name": "text-decoration",
-		"relevance": 85
+		"relevance": 84
 	},
 	{
 		"name": "cursor",
-		"relevance": 85
+		"relevance": 84
 	},
 	{
 		"name": "margin-left",
-		"relevance": 84
-	},
-	{
-		"name": "margin-bottom",
-		"relevance": 84
+		"relevance": 83
 	},
 	{
 		"name": "vertical-align",
-		"relevance": 84
+		"relevance": 83
+	},
+	{
+		"name": "margin-bottom",
+		"relevance": 83
 	},
 	{
 		"name": "float",
-		"relevance": 83
+		"relevance": 82
 	},
 	{
 		"name": "margin-right",
-		"relevance": 83
+		"relevance": 82
 	},
 	{
 		"name": "right",
-		"relevance": 83
+		"relevance": 82
 	},
 	{
 		"name": "max-width",
-		"relevance": 82
+		"relevance": 81
 	},
 	{
 		"name": "padding-left",
-		"relevance": 82
+		"relevance": 81
 	},
 	{
 		"name": "transform",
-		"relevance": 82
+		"relevance": 81
 	},
 	{
 		"name": "padding-top",
-		"relevance": 82
-	},
-	{
-		"name": "content",
-		"relevance": 81
+		"relevance": 80
 	},
 	{
 		"name": "bottom",
-		"relevance": 81
+		"relevance": 80
+	},
+	{
+		"name": "content",
+		"relevance": 80
 	},
 	{
 		"name": "box-shadow",
-		"relevance": 81
-	},
-	{
-		"name": "font-style",
-		"relevance": 81
+		"relevance": 80
 	},
 	{
 		"name": "white-space",
-		"relevance": 80
-	},
-	{
-		"name": "padding-right",
-		"relevance": 80
-	},
-	{
-		"name": "min-height",
-		"relevance": 80
-	},
-	{
-		"name": "padding-bottom",
 		"relevance": 79
 	},
 	{
-		"name": "border-bottom",
+		"name": "font-style",
+		"relevance": 79
+	},
+	{
+		"name": "padding-right",
+		"relevance": 79
+	},
+	{
+		"name": "min-height",
 		"relevance": 78
+	},
+	{
+		"name": "padding-bottom",
+		"relevance": 78
+	},
+	{
+		"name": "border-bottom",
+		"relevance": 77
 	},
 	{
 		"name": "background-image",
-		"relevance": 78
+		"relevance": 77
 	},
 	{
 		"name": "transition",
-		"relevance": 78
+		"relevance": 77
 	},
 	{
 		"name": "outline",
-		"relevance": 78
+		"relevance": 76
 	},
 	{
 		"name": "min-width",
-		"relevance": 77
+		"relevance": 76
 	},
 	{
 		"name": "visibility",
-		"relevance": 77
+		"relevance": 76
 	},
 	{
 		"name": "border-top",
-		"relevance": 76
+		"relevance": 75
 	},
 	{
 		"name": "background-position",
-		"relevance": 76
+		"relevance": 75
 	},
 	{
 		"name": "border-color",
-		"relevance": 75
+		"relevance": 74
 	},
 	{
 		"name": "src",
-		"relevance": 75
+		"relevance": 74
 	},
 	{
 		"name": "text-transform",
-		"relevance": 73
-	},
-	{
-		"name": "background-repeat",
-		"relevance": 72
-	},
-	{
-		"name": "alias-webkit-transform",
-		"relevance": 72
-	},
-	{
-		"name": "justify-content",
 		"relevance": 71
 	},
 	{
@@ -232,211 +220,219 @@ module.exports = [
 		"relevance": 71
 	},
 	{
-		"name": "background-size",
+		"name": "background-repeat",
 		"relevance": 71
 	},
 	{
-		"name": "align-items",
-		"relevance": 71
-	},
-	{
-		"name": "list-style",
-		"relevance": 71
-	},
-	{
-		"name": "clear",
+		"name": "justify-content",
 		"relevance": 70
 	},
 	{
-		"name": "font",
-		"relevance": 68
+		"name": "alias-webkit-transform",
+		"relevance": 70
 	},
 	{
-		"name": "border-left",
+		"name": "align-items",
+		"relevance": 70
+	},
+	{
+		"name": "background-size",
+		"relevance": 70
+	},
+	{
+		"name": "list-style",
+		"relevance": 69
+	},
+	{
+		"name": "clear",
+		"relevance": 69
+	},
+	{
+		"name": "font",
 		"relevance": 67
 	},
 	{
-		"name": "webkit-user-select",
-		"relevance": 66
-	},
-	{
-		"name": "webkit-user-select",
-		"relevance": 66
-	},
-	{
-		"name": "flex-direction",
-		"relevance": 66
-	},
-	{
-		"name": "overflow-y",
-		"relevance": 66
-	},
-	{
-		"name": "pointer-events",
-		"relevance": 66
-	},
-	{
-		"name": "border-width",
+		"name": "border-left",
 		"relevance": 65
 	},
 	{
-		"name": "animation",
+		"name": "overflow-y",
+		"relevance": 65
+	},
+	{
+		"name": "webkit-user-select",
+		"relevance": 65
+	},
+	{
+		"name": "webkit-user-select",
+		"relevance": 65
+	},
+	{
+		"name": "flex-direction",
+		"relevance": 65
+	},
+	{
+		"name": "pointer-events",
 		"relevance": 64
 	},
 	{
 		"name": "text-overflow",
-		"relevance": 64
+		"relevance": 63
+	},
+	{
+		"name": "animation",
+		"relevance": 63
+	},
+	{
+		"name": "border-width",
+		"relevance": 63
+	},
+	{
+		"name": "alias-webkit-box-sizing",
+		"relevance": 63
+	},
+	{
+		"name": "webkit-appearance",
+		"relevance": 63
+	},
+	{
+		"name": "webkit-appearance",
+		"relevance": 63
 	},
 	{
 		"name": "border-right",
-		"relevance": 64
+		"relevance": 63
 	},
 	{
 		"name": "letter-spacing",
-		"relevance": 64
-	},
-	{
-		"name": "webkit-font-smoothing",
 		"relevance": 63
 	},
 	{
 		"name": "overflow-x",
-		"relevance": 63
-	},
-	{
-		"name": "border-style",
-		"relevance": 63
-	},
-	{
-		"name": "alias-webkit-transition",
 		"relevance": 62
 	},
 	{
-		"name": "webkit-appearance",
+		"name": "webkit-font-smoothing",
+		"relevance": 62
+	},
+	{
+		"name": "alias-webkit-transition",
 		"relevance": 61
 	},
 	{
-		"name": "webkit-appearance",
-		"relevance": 61
-	},
-	{
-		"name": "alias-webkit-box-sizing",
+		"name": "border-style",
 		"relevance": 61
 	},
 	{
 		"name": "flex",
-		"relevance": 60
-	},
-	{
-		"name": "flex-wrap",
 		"relevance": 59
 	},
 	{
-		"name": "webkit-tap-highlight-color",
+		"name": "flex-wrap",
 		"relevance": 58
 	},
 	{
-		"name": "alias-webkit-box-shadow",
+		"name": "webkit-tap-highlight-color",
 		"relevance": 57
-	},
-	{
-		"name": "word-wrap",
-		"relevance": 56
-	},
-	{
-		"name": "word-wrap",
-		"relevance": 56
-	},
-	{
-		"name": "user-select",
-		"relevance": 56
 	},
 	{
 		"name": "alias-webkit-text-size-adjust",
 		"relevance": 55
 	},
 	{
+		"name": "user-select",
+		"relevance": 55
+	},
+	{
+		"name": "alias-webkit-box-shadow",
+		"relevance": 55
+	},
+	{
+		"name": "word-wrap",
+		"relevance": 55
+	},
+	{
+		"name": "word-wrap",
+		"relevance": 55
+	},
+	{
 		"name": "fill",
-		"relevance": 54
+		"relevance": 53
 	},
 	{
 		"name": "transform-origin",
-		"relevance": 54
-	},
-	{
-		"name": "border-top-left-radius",
-		"relevance": 52
-	},
-	{
-		"name": "clip",
-		"relevance": 52
-	},
-	{
-		"name": "border-bottom-left-radius",
-		"relevance": 52
+		"relevance": 53
 	},
 	{
 		"name": "flex-grow",
+		"relevance": 52
+	},
+	{
+		"name": "border-top-left-radius",
 		"relevance": 51
 	},
 	{
-		"name": "list-style-type",
-		"relevance": 51
-	},
-	{
-		"name": "border-top-right-radius",
-		"relevance": 51
-	},
-	{
-		"name": "border-bottom-right-radius",
-		"relevance": 51
+		"name": "text-shadow",
+		"relevance": 50
 	},
 	{
 		"name": "word-break",
-		"relevance": 51
+		"relevance": 50
 	},
 	{
-		"name": "alias-webkit-animation",
+		"name": "border-bottom-left-radius",
+		"relevance": 50
+	},
+	{
+		"name": "border-top-right-radius",
+		"relevance": 50
+	},
+	{
+		"name": "border-bottom-right-radius",
 		"relevance": 50
 	},
 	{
 		"name": "border-collapse",
-		"relevance": 50
+		"relevance": 49
+	},
+	{
+		"name": "list-style-type",
+		"relevance": 49
+	},
+	{
+		"name": "clip",
+		"relevance": 49
+	},
+	{
+		"name": "alias-webkit-animation",
+		"relevance": 48
 	},
 	{
 		"name": "flex-shrink",
-		"relevance": 48
-	},
-	{
-		"name": "text-shadow",
-		"relevance": 48
+		"relevance": 47
 	},
 	{
 		"name": "unicode-range",
-		"relevance": 46
+		"relevance": 44
 	},
 	{
 		"name": "align-self",
-		"relevance": 45
-	},
-	{
-		"name": "border-bottom-color",
-		"relevance": 45
-	},
-	{
-		"name": "alias-webkit-border-radius",
-		"relevance": 45
-	},
-	{
-		"name": "border-top-color",
 		"relevance": 44
 	},
 	{
 		"name": "webkit-box-orient",
-		"relevance": 44
+		"relevance": 43
+	},
+	{
+		"name": "border-bottom-color",
+		"relevance": 43
 	},
 	{
 		"name": "animation-timing-function",
+		"relevance": 43
+	},
+	{
+		"name": "alias-webkit-border-radius",
 		"relevance": 43
 	},
 	{
@@ -444,67 +440,75 @@ module.exports = [
 		"relevance": 42
 	},
 	{
-		"name": "font-display",
-		"relevance": 41
-	},
-	{
-		"name": "webkit-box-align",
-		"relevance": 40
-	},
-	{
-		"name": "text-rendering",
-		"relevance": 40
+		"name": "border-top-color",
+		"relevance": 42
 	},
 	{
 		"name": "direction",
-		"relevance": 39
+		"relevance": 42
 	},
 	{
-		"name": "outline-offset",
-		"relevance": 39
-	},
-	{
-		"name": "background-clip",
-		"relevance": 38
+		"name": "font-display",
+		"relevance": 42
 	},
 	{
 		"name": "animation-duration",
-		"relevance": 37
+		"relevance": 41
 	},
 	{
 		"name": "animation-name",
+		"relevance": 41
+	},
+	{
+		"name": "text-rendering",
+		"relevance": 39
+	},
+	{
+		"name": "touch-action",
+		"relevance": 39
+	},
+	{
+		"name": "webkit-box-align",
+		"relevance": 38
+	},
+	{
+		"name": "outline-offset",
+		"relevance": 38
+	},
+	{
+		"name": "background-clip",
+		"relevance": 37
+	},
+	{
+		"name": "object-fit",
 		"relevance": 37
 	},
 	{
 		"name": "border-spacing",
-		"relevance": 36
-	},
-	{
-		"name": "alias-webkit-transform-origin",
-		"relevance": 36
+		"relevance": 37
 	},
 	{
 		"name": "text-indent",
 		"relevance": 36
 	},
 	{
-		"name": "object-fit",
-		"relevance": 35
-	},
-	{
-		"name": "touch-action",
-		"relevance": 35
+		"name": "alias-webkit-transform-origin",
+		"relevance": 34
 	},
 	{
 		"name": "zoom",
 		"relevance": 34
 	},
 	{
-		"name": "webkit-box-flex",
-		"relevance": 34
+		"name": "transition-property",
+		"relevance": 33
 	},
 	{
 		"name": "webkit-line-clamp",
+		"relevance": 33
+	},
+	{
+		"name": "stroke",
 		"relevance": 33
 	},
 	{
@@ -512,83 +516,79 @@ module.exports = [
 		"relevance": 33
 	},
 	{
+		"name": "border-left-color",
+		"relevance": 33
+	},
+	{
+		"name": "transition-duration",
+		"relevance": 32
+	},
+	{
 		"name": "flex-basis",
 		"relevance": 32
 	},
 	{
-		"name": "overflow-wrap",
+		"name": "webkit-box-flex",
 		"relevance": 32
-	},
-	{
-		"name": "alias-webkit-align-items",
-		"relevance": 32
-	},
-	{
-		"name": "border-left-color",
-		"relevance": 31
-	},
-	{
-		"name": "alias-webkit-justify-content",
-		"relevance": 30
-	},
-	{
-		"name": "stroke",
-		"relevance": 30
-	},
-	{
-		"name": "border-right-color",
-		"relevance": 30
-	},
-	{
-		"name": "transition-property",
-		"relevance": 29
-	},
-	{
-		"name": "alias-webkit-animation-timing-function",
-		"relevance": 29
-	},
-	{
-		"name": "font-variant",
-		"relevance": 29
-	},
-	{
-		"name": "transition-duration",
-		"relevance": 29
-	},
-	{
-		"name": "transition-delay",
-		"relevance": 29
 	},
 	{
 		"name": "webkit-box-pack",
-		"relevance": 29
+		"relevance": 32
 	},
 	{
 		"name": "transition-timing-function",
-		"relevance": 28
+		"relevance": 32
+	},
+	{
+		"name": "border-right-color",
+		"relevance": 31
+	},
+	{
+		"name": "flex-flow",
+		"relevance": 31
+	},
+	{
+		"name": "overflow-wrap",
+		"relevance": 30
 	},
 	{
 		"name": "animation-delay",
-		"relevance": 28
+		"relevance": 30
 	},
 	{
-		"name": "order",
-		"relevance": 27
-	},
-	{
-		"name": "will-change",
-		"relevance": 27
-	},
-	{
-		"name": "alias-webkit-background-size",
-		"relevance": 27
-	},
-	{
-		"name": "alias-webkit-flex",
-		"relevance": 27
+		"name": "font-variant",
+		"relevance": 30
 	},
 	{
 		"name": "animation-fill-mode",
+		"relevance": 29
+	},
+	{
+		"name": "alias-webkit-align-items",
+		"relevance": 29
+	},
+	{
+		"name": "order",
+		"relevance": 29
+	},
+	{
+		"name": "align-content",
+		"relevance": 28
+	},
+	{
+		"name": "alias-webkit-justify-content",
+		"relevance": 28
+	},
+	{
+		"name": "will-change",
+		"relevance": 28
+	},
+	{
+		"name": "stroke-width",
+		"relevance": 27
+	},
+	{
+		"name": "transition-delay",
 		"relevance": 26
 	},
 	{
@@ -600,40 +600,48 @@ module.exports = [
 		"relevance": 25
 	},
 	{
-		"name": "clip-path",
+		"name": "animation-iteration-count",
 		"relevance": 25
 	},
 	{
-		"name": "align-content",
+		"name": "webkit-box-direction",
 		"relevance": 25
+	},
+	{
+		"name": "alias-webkit-background-size",
+		"relevance": 24
+	},
+	{
+		"name": "alias-webkit-flex",
+		"relevance": 24
+	},
+	{
+		"name": "stroke-dashoffset",
+		"relevance": 24
+	},
+	{
+		"name": "stroke-dasharray",
+		"relevance": 24
+	},
+	{
+		"name": "clip-path",
+		"relevance": 23
 	},
 	{
 		"name": "outline-width",
 		"relevance": 23
 	},
 	{
-		"name": "border-top-width",
-		"relevance": 23
-	},
-	{
 		"name": "outline-style",
-		"relevance": 23
+		"relevance": 22
 	},
 	{
-		"name": "flex-flow",
-		"relevance": 23
-	},
-	{
-		"name": "stroke-width",
+		"name": "border-top-width",
 		"relevance": 22
 	},
 	{
 		"name": "resize",
 		"relevance": 22
-	},
-	{
-		"name": "animation-iteration-count",
-		"relevance": 21
 	},
 	{
 		"name": "table-layout",
@@ -644,103 +652,79 @@ module.exports = [
 		"relevance": 21
 	},
 	{
-		"name": "alias-webkit-flex-direction",
+		"name": "alias-webkit-animation-timing-function",
 		"relevance": 20
 	},
 	{
-		"name": "webkit-box-direction",
+		"name": "grid-template-columns",
 		"relevance": 20
-	},
-	{
-		"name": "webkit-filter",
-		"relevance": 19
-	},
-	{
-		"name": "webkit-filter",
-		"relevance": 19
-	},
-	{
-		"name": "contain",
-		"relevance": 19
 	},
 	{
 		"name": "border-right-width",
+		"relevance": 20
+	},
+	{
+		"name": "alias-webkit-transition-property",
 		"relevance": 19
 	},
 	{
-		"name": "stroke-dashoffset",
+		"name": "alias-webkit-flex-direction",
+		"relevance": 19
+	},
+	{
+		"name": "backface-visibility",
+		"relevance": 19
+	},
+	{
+		"name": "border-bottom-style",
 		"relevance": 19
 	},
 	{
 		"name": "border-left-width",
+		"relevance": 19
+	},
+	{
+		"name": "webkit-mask-image",
 		"relevance": 18
 	},
 	{
-		"name": "backface-visibility",
+		"name": "font-feature-settings",
 		"relevance": 18
 	},
 	{
-		"name": "stroke-dasharray",
-		"relevance": 18
+		"name": "webkit-filter",
+		"relevance": 17
 	},
 	{
-		"name": "alias-webkit-animation-name",
-		"relevance": 18
+		"name": "webkit-filter",
+		"relevance": 17
+	},
+	{
+		"name": "contain",
+		"relevance": 17
 	},
 	{
 		"name": "alias-webkit-animation-duration",
 		"relevance": 17
 	},
 	{
-		"name": "grid-template-columns",
+		"name": "alias-webkit-animation-name",
 		"relevance": 17
 	},
 	{
-		"name": "border-bottom-style",
+		"name": "text-size-adjust",
 		"relevance": 17
+	},
+	{
+		"name": "border-top-style",
+		"relevance": 16
 	},
 	{
 		"name": "alias-webkit-flex-wrap",
 		"relevance": 15
 	},
 	{
-		"name": "border-top-style",
-		"relevance": 15
-	},
-	{
-		"name": "text-size-adjust",
-		"relevance": 15
-	},
-	{
-		"name": "alias-webkit-transition-property",
-		"relevance": 14
-	},
-	{
-		"name": "animation-direction",
-		"relevance": 14
-	},
-	{
-		"name": "alias-webkit-flex-shrink",
-		"relevance": 14
-	},
-	{
-		"name": "webkit-mask-image",
-		"relevance": 14
-	},
-	{
-		"name": "unicode-bidi",
-		"relevance": 14
-	},
-	{
-		"name": "font-feature-settings",
-		"relevance": 14
-	},
-	{
-		"name": "alias-webkit-border-top-right-radius",
-		"relevance": 14
-	},
-	{
-		"name": "alias-webkit-border-top-left-radius",
+		"name": "hyphens",
 		"relevance": 14
 	},
 	{
@@ -748,7 +732,19 @@ module.exports = [
 		"relevance": 14
 	},
 	{
-		"name": "alias-webkit-transition-duration",
+		"name": "webkit-font-feature-settings",
+		"relevance": 14
+	},
+	{
+		"name": "webkit-font-feature-settings",
+		"relevance": 14
+	},
+	{
+		"name": "alias-webkit-border-top-right-radius",
+		"relevance": 14
+	},
+	{
+		"name": "gap",
 		"relevance": 14
 	},
 	{
@@ -756,11 +752,11 @@ module.exports = [
 		"relevance": 14
 	},
 	{
-		"name": "alias-webkit-border-bottom-right-radius",
+		"name": "alias-webkit-border-top-left-radius",
 		"relevance": 14
 	},
 	{
-		"name": "alias-webkit-border-bottom-left-radius",
+		"name": "alias-webkit-border-bottom-right-radius",
 		"relevance": 13
 	},
 	{
@@ -768,7 +764,15 @@ module.exports = [
 		"relevance": 13
 	},
 	{
-		"name": "alias-webkit-flex-grow",
+		"name": "unicode-bidi",
+		"relevance": 13
+	},
+	{
+		"name": "alias-webkit-border-bottom-left-radius",
+		"relevance": 13
+	},
+	{
+		"name": "alias-webkit-flex-shrink",
 		"relevance": 13
 	},
 	{
@@ -776,7 +780,19 @@ module.exports = [
 		"relevance": 13
 	},
 	{
-		"name": "alias-webkit-transition-timing-function",
+		"name": "alias-webkit-transition-duration",
+		"relevance": 13
+	},
+	{
+		"name": "animation-direction",
+		"relevance": 13
+	},
+	{
+		"name": "alias-webkit-animation-fill-mode",
+		"relevance": 13
+	},
+	{
+		"name": "alias-webkit-flex-grow",
 		"relevance": 12
 	},
 	{
@@ -784,51 +800,55 @@ module.exports = [
 		"relevance": 12
 	},
 	{
-		"name": "alias-webkit-animation-fill-mode",
+		"name": "object-position",
+		"relevance": 12
+	},
+	{
+		"name": "webkit-clip-path",
+		"relevance": 12
+	},
+	{
+		"name": "webkit-clip-path",
 		"relevance": 12
 	},
 	{
 		"name": "perspective",
-		"relevance": 12
+		"relevance": 11
+	},
+	{
+		"name": "alias-webkit-transition-timing-function",
+		"relevance": 11
 	},
 	{
 		"name": "alias-webkit-animation-iteration-count",
 		"relevance": 11
 	},
 	{
-		"name": "alias-webkit-align-self",
+		"name": "grid-area",
 		"relevance": 11
 	},
 	{
-		"name": "gap",
+		"name": "scroll-boundary-behavior",
 		"relevance": 11
 	},
 	{
-		"name": "list-style-position",
-		"relevance": 10
+		"name": "scroll-boundary-behavior",
+		"relevance": 11
 	},
 	{
-		"name": "hyphens",
-		"relevance": 10
+		"name": "column-gap",
+		"relevance": 11
 	},
 	{
 		"name": "transform-style",
 		"relevance": 10
 	},
 	{
-		"name": "webkit-clip-path",
+		"name": "list-style-position",
 		"relevance": 10
 	},
 	{
-		"name": "webkit-clip-path",
-		"relevance": 10
-	},
-	{
-		"name": "webkit-font-feature-settings",
-		"relevance": 10
-	},
-	{
-		"name": "webkit-font-feature-settings",
+		"name": "alias-webkit-align-self",
 		"relevance": 10
 	},
 	{
@@ -836,31 +856,39 @@ module.exports = [
 		"relevance": 9
 	},
 	{
-		"name": "grid-area",
+		"name": "text-decoration-color",
 		"relevance": 9
-	},
-	{
-		"name": "column-gap",
-		"relevance": 9
-	},
-	{
-		"name": "alias-webkit-flex-basis",
-		"relevance": 8
-	},
-	{
-		"name": "scroll-boundary-behavior",
-		"relevance": 8
-	},
-	{
-		"name": "scroll-boundary-behavior",
-		"relevance": 8
 	},
 	{
 		"name": "background-position-x",
-		"relevance": 8
+		"relevance": 9
+	},
+	{
+		"name": "backdrop-filter",
+		"relevance": 9
 	},
 	{
 		"name": "grid-template-rows",
+		"relevance": 9
+	},
+	{
+		"name": "background-attachment",
+		"relevance": 8
+	},
+	{
+		"name": "grid-column",
+		"relevance": 8
+	},
+	{
+		"name": "margin-block-start",
+		"relevance": 8
+	},
+	{
+		"name": "grid-gap",
+		"relevance": 8
+	},
+	{
+		"name": "alias-webkit-flex-basis",
 		"relevance": 8
 	},
 	{
@@ -868,31 +896,11 @@ module.exports = [
 		"relevance": 8
 	},
 	{
-		"name": "alias-webkit-transition-delay",
-		"relevance": 8
-	},
-	{
 		"name": "webkit-background-clip",
-		"relevance": 8
-	},
-	{
-		"name": "webkit-background-clip",
-		"relevance": 8
-	},
-	{
-		"name": "background-attachment",
-		"relevance": 8
-	},
-	{
-		"name": "object-position",
 		"relevance": 7
 	},
 	{
-		"name": "margin-block-end",
-		"relevance": 7
-	},
-	{
-		"name": "margin-block-start",
+		"name": "webkit-background-clip",
 		"relevance": 7
 	},
 	{
@@ -900,7 +908,11 @@ module.exports = [
 		"relevance": 7
 	},
 	{
-		"name": "grid-gap",
+		"name": "margin-block-end",
+		"relevance": 7
+	},
+	{
+		"name": "grid-template-areas",
 		"relevance": 7
 	},
 	{
@@ -908,11 +920,11 @@ module.exports = [
 		"relevance": 7
 	},
 	{
-		"name": "backdrop-filter",
+		"name": "aspect-ratio",
 		"relevance": 7
 	},
 	{
-		"name": "border-right-style",
+		"name": "alias-webkit-transition-delay",
 		"relevance": 7
 	},
 	{
@@ -920,15 +932,23 @@ module.exports = [
 		"relevance": 7
 	},
 	{
-		"name": "counter-reset",
+		"name": "scroll-behavior",
 		"relevance": 7
+	},
+	{
+		"name": "border-left-style",
+		"relevance": 7
+	},
+	{
+		"name": "border-right-style",
+		"relevance": 6
 	},
 	{
 		"name": "stroke-linecap",
 		"relevance": 6
 	},
 	{
-		"name": "grid-column",
+		"name": "counter-reset",
 		"relevance": 6
 	},
 	{
@@ -936,11 +956,7 @@ module.exports = [
 		"relevance": 6
 	},
 	{
-		"name": "border-left-style",
-		"relevance": 6
-	},
-	{
-		"name": "page-break-inside",
+		"name": "text-decoration-line",
 		"relevance": 6
 	},
 	{
@@ -948,31 +964,7 @@ module.exports = [
 		"relevance": 6
 	},
 	{
-		"name": "alias-webkit-flex-flow",
-		"relevance": 6
-	},
-	{
-		"name": "caret-color",
-		"relevance": 6
-	},
-	{
-		"name": "font-variant-ligatures",
-		"relevance": 6
-	},
-	{
-		"name": "alias-webkit-align-content",
-		"relevance": 6
-	},
-	{
-		"name": "webkit-box-ordinal-group",
-		"relevance": 6
-	},
-	{
-		"name": "column-count",
-		"relevance": 6
-	},
-	{
-		"name": "alias-webkit-transform-style",
+		"name": "justify-self",
 		"relevance": 6
 	},
 	{
@@ -980,11 +972,35 @@ module.exports = [
 		"relevance": 6
 	},
 	{
-		"name": "all",
+		"name": "alias-webkit-transform-style",
 		"relevance": 6
 	},
 	{
-		"name": "justify-self",
+		"name": "webkit-animation-direction",
+		"relevance": 6
+	},
+	{
+		"name": "webkit-animation-direction",
+		"relevance": 6
+	},
+	{
+		"name": "page-break-inside",
+		"relevance": 6
+	},
+	{
+		"name": "scroll-snap-type",
+		"relevance": 6
+	},
+	{
+		"name": "column-count",
+		"relevance": 6
+	},
+	{
+		"name": "font-variant-ligatures",
+		"relevance": 6
+	},
+	{
+		"name": "caret-color",
 		"relevance": 6
 	},
 	{
@@ -992,19 +1008,23 @@ module.exports = [
 		"relevance": 6
 	},
 	{
-		"name": "scroll-behavior",
+		"name": "padding-inline-start",
 		"relevance": 6
 	},
 	{
-		"name": "fill-opacity",
+		"name": "all",
+		"relevance": 6
+	},
+	{
+		"name": "text-decoration-skip",
 		"relevance": 5
 	},
 	{
-		"name": "alias-webkit-order",
+		"name": "alias-webkit-flex-flow",
 		"relevance": 5
 	},
 	{
-		"name": "webkit-user-drag",
+		"name": "webkit-box-ordinal-group",
 		"relevance": 5
 	},
 	{
@@ -1016,27 +1036,15 @@ module.exports = [
 		"relevance": 5
 	},
 	{
-		"name": "aspect-ratio",
+		"name": "scroll-snap-align",
 		"relevance": 5
 	},
 	{
-		"name": "grid-template-areas",
+		"name": "webkit-user-drag",
 		"relevance": 5
 	},
 	{
-		"name": "text-decoration-skip",
-		"relevance": 5
-	},
-	{
-		"name": "scroll-snap-type",
-		"relevance": 5
-	},
-	{
-		"name": "list-style-image",
-		"relevance": 5
-	},
-	{
-		"name": "text-decoration-color",
+		"name": "grid-row",
 		"relevance": 5
 	},
 	{
@@ -1044,31 +1052,31 @@ module.exports = [
 		"relevance": 5
 	},
 	{
-		"name": "alias-webkit-opacity",
+		"name": "margin-inline-start",
 		"relevance": 5
 	},
 	{
-		"name": "webkit-animation-direction",
-		"relevance": 4
+		"name": "alias-webkit-order",
+		"relevance": 5
 	},
 	{
-		"name": "webkit-animation-direction",
-		"relevance": 4
+		"name": "fill-opacity",
+		"relevance": 5
 	},
 	{
-		"name": "page-break-after",
-		"relevance": 4
+		"name": "color-scheme",
+		"relevance": 5
 	},
 	{
 		"name": "overflow-anchor",
 		"relevance": 4
 	},
 	{
-		"name": "scroll-snap-align",
+		"name": "alias-webkit-opacity",
 		"relevance": 4
 	},
 	{
-		"name": "padding-inline-start",
+		"name": "list-style-image",
 		"relevance": 4
 	},
 	{
@@ -1076,15 +1084,11 @@ module.exports = [
 		"relevance": 4
 	},
 	{
-		"name": "color-scheme",
+		"name": "tab-size",
 		"relevance": 4
 	},
 	{
-		"name": "margin-inline-start",
-		"relevance": 4
-	},
-	{
-		"name": "text-decoration-line",
+		"name": "alias-webkit-align-content",
 		"relevance": 4
 	},
 	{
@@ -1092,7 +1096,31 @@ module.exports = [
 		"relevance": 4
 	},
 	{
+		"name": "page-break-after",
+		"relevance": 4
+	},
+	{
+		"name": "alias-webkit-column-gap",
+		"relevance": 4
+	},
+	{
+		"name": "margin-inline-end",
+		"relevance": 4
+	},
+	{
 		"name": "webkit-text-fill-color",
+		"relevance": 4
+	},
+	{
+		"name": "line-break",
+		"relevance": 4
+	},
+	{
+		"name": "line-break",
+		"relevance": 4
+	},
+	{
+		"name": "row-gap",
 		"relevance": 4
 	},
 	{
@@ -1100,15 +1128,11 @@ module.exports = [
 		"relevance": 4
 	},
 	{
-		"name": "grid-row",
-		"relevance": 4
+		"name": "webkit-padding-start",
+		"relevance": 3
 	},
 	{
-		"name": "alias-webkit-animation-play-state",
-		"relevance": 4
-	},
-	{
-		"name": "tab-size",
+		"name": "webkit-padding-start",
 		"relevance": 3
 	},
 	{
@@ -1116,31 +1140,11 @@ module.exports = [
 		"relevance": 3
 	},
 	{
-		"name": "alias-webkit-column-gap",
-		"relevance": 3
-	},
-	{
-		"name": "line-break",
-		"relevance": 3
-	},
-	{
-		"name": "line-break",
-		"relevance": 3
-	},
-	{
 		"name": "grid-row-gap",
 		"relevance": 3
 	},
 	{
-		"name": "orphans",
-		"relevance": 3
-	},
-	{
 		"name": "empty-cells",
-		"relevance": 3
-	},
-	{
-		"name": "widows",
 		"relevance": 3
 	},
 	{
@@ -1152,27 +1156,55 @@ module.exports = [
 		"relevance": 3
 	},
 	{
-		"name": "columns",
+		"name": "orphans",
+		"relevance": 3
+	},
+	{
+		"name": "widows",
+		"relevance": 3
+	},
+	{
+		"name": "alias-webkit-animation-play-state",
+		"relevance": 3
+	},
+	{
+		"name": "inset",
 		"relevance": 3
 	},
 	{
 		"name": "padding-inline-end",
-		"relevance": 2
+		"relevance": 3
 	},
 	{
-		"name": "inset",
-		"relevance": 2
+		"name": "text-decoration-style",
+		"relevance": 3
+	},
+	{
+		"name": "columns",
+		"relevance": 3
+	},
+	{
+		"name": "webkit-margin-end",
+		"relevance": 3
+	},
+	{
+		"name": "webkit-margin-end",
+		"relevance": 3
+	},
+	{
+		"name": "webkit-margin-start",
+		"relevance": 3
+	},
+	{
+		"name": "webkit-margin-start",
+		"relevance": 3
 	},
 	{
 		"name": "column-width",
-		"relevance": 2
+		"relevance": 3
 	},
 	{
 		"name": "alias-webkit-column-count",
-		"relevance": 2
-	},
-	{
-		"name": "row-gap",
 		"relevance": 2
 	},
 	{
@@ -1180,27 +1212,7 @@ module.exports = [
 		"relevance": 2
 	},
 	{
-		"name": "margin-inline-end",
-		"relevance": 2
-	},
-	{
-		"name": "stop-color",
-		"relevance": 2
-	},
-	{
-		"name": "grid-column-start",
-		"relevance": 2
-	},
-	{
-		"name": "webkit-print-color-adjust",
-		"relevance": 2
-	},
-	{
 		"name": "webkit-mask-size",
-		"relevance": 2
-	},
-	{
-		"name": "column-rule",
 		"relevance": 2
 	},
 	{
@@ -1208,15 +1220,31 @@ module.exports = [
 		"relevance": 2
 	},
 	{
+		"name": "webkit-padding-end",
+		"relevance": 2
+	},
+	{
+		"name": "webkit-padding-end",
+		"relevance": 2
+	},
+	{
+		"name": "webkit-print-color-adjust",
+		"relevance": 2
+	},
+	{
+		"name": "grid-column-start",
+		"relevance": 2
+	},
+	{
+		"name": "stop-color",
+		"relevance": 2
+	},
+	{
+		"name": "column-rule",
+		"relevance": 2
+	},
+	{
 		"name": "text-align-last",
-		"relevance": 2
-	},
-	{
-		"name": "break-inside",
-		"relevance": 2
-	},
-	{
-		"name": "webkit-user-modify",
 		"relevance": 2
 	},
 	{
@@ -1224,35 +1252,27 @@ module.exports = [
 		"relevance": 2
 	},
 	{
-		"name": "stroke-miterlimit",
+		"name": "webkit-user-modify",
 		"relevance": 2
 	},
 	{
-		"name": "fill-rule",
+		"name": "webkit-mask-position",
 		"relevance": 2
 	},
 	{
-		"name": "webkit-padding-start",
+		"name": "background-blend-mode",
 		"relevance": 2
 	},
 	{
-		"name": "webkit-padding-start",
+		"name": "break-inside",
 		"relevance": 2
 	},
 	{
-		"name": "webkit-margin-start",
+		"name": "webkit-mask-repeat",
 		"relevance": 2
 	},
 	{
-		"name": "webkit-margin-start",
-		"relevance": 2
-	},
-	{
-		"name": "stroke-linejoin",
-		"relevance": 2
-	},
-	{
-		"name": "text-decoration-style",
+		"name": "text-decoration-skip-ink",
 		"relevance": 2
 	},
 	{
@@ -1260,27 +1280,19 @@ module.exports = [
 		"relevance": 2
 	},
 	{
+		"name": "fill-rule",
+		"relevance": 2
+	},
+	{
 		"name": "font-variant-numeric",
-		"relevance": 1
+		"relevance": 2
 	},
 	{
-		"name": "text-decoration-skip-ink",
-		"relevance": 1
+		"name": "stroke-miterlimit",
+		"relevance": 2
 	},
 	{
-		"name": "webkit-margin-end",
-		"relevance": 1
-	},
-	{
-		"name": "webkit-margin-end",
-		"relevance": 1
-	},
-	{
-		"name": "webkit-mask-position",
-		"relevance": 1
-	},
-	{
-		"name": "scroll-padding-top",
+		"name": "stroke-linejoin",
 		"relevance": 1
 	},
 	{
@@ -1289,10 +1301,6 @@ module.exports = [
 	},
 	{
 		"name": "scroll-boundary-behavior-y",
-		"relevance": 1
-	},
-	{
-		"name": "grid-row-start",
 		"relevance": 1
 	},
 	{
@@ -1300,7 +1308,7 @@ module.exports = [
 		"relevance": 1
 	},
 	{
-		"name": "webkit-mask-repeat",
+		"name": "scroll-padding-top",
 		"relevance": 1
 	},
 	{
@@ -1308,7 +1316,7 @@ module.exports = [
 		"relevance": 1
 	},
 	{
-		"name": "webkit-margin-before",
+		"name": "grid-row-start",
 		"relevance": 1
 	},
 	{
@@ -1316,7 +1324,7 @@ module.exports = [
 		"relevance": 1
 	},
 	{
-		"name": "background-blend-mode",
+		"name": "webkit-margin-before",
 		"relevance": 1
 	},
 	{
@@ -1324,19 +1332,11 @@ module.exports = [
 		"relevance": 1
 	},
 	{
+		"name": "grid-auto-columns",
+		"relevance": 1
+	},
+	{
 		"name": "grid-row-end",
-		"relevance": 1
-	},
-	{
-		"name": "place-items",
-		"relevance": 1
-	},
-	{
-		"name": "webkit-margin-after",
-		"relevance": 1
-	},
-	{
-		"name": "webkit-margin-after",
 		"relevance": 1
 	},
 	{
@@ -1344,7 +1344,15 @@ module.exports = [
 		"relevance": 1
 	},
 	{
-		"name": "grid-auto-columns",
+		"name": "webkit-margin-after",
+		"relevance": 1
+	},
+	{
+		"name": "webkit-margin-after",
+		"relevance": 1
+	},
+	{
+		"name": "alias-webkit-column-width",
 		"relevance": 1
 	},
 	{
@@ -1356,15 +1364,23 @@ module.exports = [
 		"relevance": 1
 	},
 	{
-		"name": "webkit-padding-end",
+		"name": "webkit-box-decoration-break",
 		"relevance": 1
 	},
 	{
-		"name": "webkit-padding-end",
+		"name": "text-decoration-thickness",
 		"relevance": 1
 	},
 	{
-		"name": "alias-webkit-column-width",
+		"name": "place-items",
+		"relevance": 1
+	},
+	{
+		"name": "column-rule-color",
+		"relevance": 1
+	},
+	{
+		"name": "writing-mode",
 		"relevance": 1
 	},
 	{
@@ -1372,7 +1388,7 @@ module.exports = [
 		"relevance": 1
 	},
 	{
-		"name": "webkit-margin-top-collapse",
+		"name": "column-rule-style",
 		"relevance": 1
 	},
 	{
@@ -1384,11 +1400,11 @@ module.exports = [
 		"relevance": 1
 	},
 	{
-		"name": "webkit-box-decoration-break",
+		"name": "intrinsic-size",
 		"relevance": 1
 	},
 	{
-		"name": "writing-mode",
+		"name": "intrinsic-size",
 		"relevance": 1
 	},
 	{
@@ -1396,15 +1412,7 @@ module.exports = [
 		"relevance": 1
 	},
 	{
-		"name": "column-rule-color",
-		"relevance": 1
-	},
-	{
-		"name": "column-rule-style",
-		"relevance": 0
-	},
-	{
-		"name": "border-inline-start-width",
+		"name": "webkit-margin-top-collapse",
 		"relevance": 0
 	},
 	{
@@ -1416,15 +1424,59 @@ module.exports = [
 		"relevance": 0
 	},
 	{
+		"name": "text-underline-offset",
+		"relevance": 0
+	},
+	{
+		"name": "border-inline-start-width",
+		"relevance": 0
+	},
+	{
+		"name": "scroll-snap-stop",
+		"relevance": 0
+	},
+	{
+		"name": "shape-rendering",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-text-stroke-color",
+		"relevance": 0
+	},
+	{
+		"name": "alias-webkit-column-rule",
+		"relevance": 0
+	},
+	{
+		"name": "scroll-boundary-behavior-x",
+		"relevance": 0
+	},
+	{
+		"name": "scroll-boundary-behavior-x",
+		"relevance": 0
+	},
+	{
+		"name": "grid-template",
+		"relevance": 0
+	},
+	{
+		"name": "mask",
+		"relevance": 0
+	},
+	{
+		"name": "alias-webkit-columns",
+		"relevance": 0
+	},
+	{
 		"name": "webkit-mask-box-image",
 		"relevance": 0
 	},
 	{
-		"name": "intrinsic-size",
+		"name": "text-underline-position",
 		"relevance": 0
 	},
 	{
-		"name": "intrinsic-size",
+		"name": "webkit-column-break-inside",
 		"relevance": 0
 	},
 	{
@@ -1436,63 +1488,15 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "alias-webkit-column-rule",
-		"relevance": 0
-	},
-	{
-		"name": "shape-rendering",
-		"relevance": 0
-	},
-	{
-		"name": "alias-webkit-columns",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-text-stroke-color",
-		"relevance": 0
-	},
-	{
-		"name": "mask",
-		"relevance": 0
-	},
-	{
-		"name": "place-self",
-		"relevance": 0
-	},
-	{
-		"name": "text-decoration-thickness",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-column-break-inside",
-		"relevance": 0
-	},
-	{
-		"name": "scroll-boundary-behavior-x",
-		"relevance": 0
-	},
-	{
-		"name": "scroll-boundary-behavior-x",
-		"relevance": 0
-	},
-	{
 		"name": "webkit-text-stroke",
 		"relevance": 0
 	},
 	{
-		"name": "text-anchor",
+		"name": "scroll-snap-margin",
 		"relevance": 0
 	},
 	{
-		"name": "grid-template",
-		"relevance": 0
-	},
-	{
-		"name": "text-underline-offset",
-		"relevance": 0
-	},
-	{
-		"name": "text-underline-position",
+		"name": "scroll-snap-margin",
 		"relevance": 0
 	},
 	{
@@ -1500,11 +1504,7 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "scroll-snap-margin",
-		"relevance": 0
-	},
-	{
-		"name": "scroll-snap-margin",
+		"name": "text-anchor",
 		"relevance": 0
 	},
 	{
@@ -1512,19 +1512,7 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "page-orientation",
-		"relevance": 0
-	},
-	{
-		"name": "scroll-snap-stop",
-		"relevance": 0
-	},
-	{
 		"name": "clip-rule",
-		"relevance": 0
-	},
-	{
-		"name": "mask-type",
 		"relevance": 0
 	},
 	{
@@ -1532,47 +1520,11 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "column-span",
-		"relevance": 0
-	},
-	{
 		"name": "scroll-padding",
 		"relevance": 0
 	},
 	{
-		"name": "webkit-text-security",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-line-break",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-background-origin",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-background-origin",
-		"relevance": 0
-	},
-	{
-		"name": "font-variation-settings",
-		"relevance": 0
-	},
-	{
-		"name": "background-repeat-x",
-		"relevance": 0
-	},
-	{
-		"name": "vector-effect",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-box-lines",
-		"relevance": 0
-	},
-	{
-		"name": "border-image-outset",
+		"name": "column-span",
 		"relevance": 0
 	},
 	{
@@ -1584,11 +1536,27 @@ module.exports = [
 		"relevance": 0
 	},
 	{
+		"name": "mask-type",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-line-break",
+		"relevance": 0
+	},
+	{
+		"name": "font-variation-settings",
+		"relevance": 0
+	},
+	{
 		"name": "min-inline-size",
 		"relevance": 0
 	},
 	{
-		"name": "scroll-snap-margin-top",
+		"name": "place-self",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-text-security",
 		"relevance": 0
 	},
 	{
@@ -1596,27 +1564,19 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "webkit-box-reflect",
+		"name": "scroll-snap-margin-top",
 		"relevance": 0
 	},
 	{
-		"name": "break-after",
+		"name": "webkit-background-origin",
 		"relevance": 0
 	},
 	{
-		"name": "dominant-baseline",
+		"name": "webkit-background-origin",
 		"relevance": 0
 	},
 	{
-		"name": "font-variant-east-asian",
-		"relevance": 0
-	},
-	{
-		"name": "break-before",
-		"relevance": 0
-	},
-	{
-		"name": "stop-opacity",
+		"name": "vector-effect",
 		"relevance": 0
 	},
 	{
@@ -1628,23 +1588,43 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "system",
+		"name": "background-repeat-x",
 		"relevance": 0
 	},
 	{
-		"name": "symbols",
+		"name": "break-after",
 		"relevance": 0
 	},
 	{
-		"name": "suffix",
+		"name": "border-image-outset",
 		"relevance": 0
 	},
 	{
-		"name": "block-size",
+		"name": "webkit-box-lines",
 		"relevance": 0
 	},
 	{
-		"name": "text-orientation",
+		"name": "font-variant-east-asian",
+		"relevance": 0
+	},
+	{
+		"name": "dominant-baseline",
+		"relevance": 0
+	},
+	{
+		"name": "break-before",
+		"relevance": 0
+	},
+	{
+		"name": "page-orientation",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-box-reflect",
+		"relevance": 0
+	},
+	{
+		"name": "stop-opacity",
 		"relevance": 0
 	},
 	{
@@ -1652,23 +1632,11 @@ module.exports = [
 		"relevance": 0
 	},
 	{
+		"name": "block-size",
+		"relevance": 0
+	},
+	{
 		"name": "column-rule-width",
-		"relevance": 0
-	},
-	{
-		"name": "alignment-baseline",
-		"relevance": 0
-	},
-	{
-		"name": "r",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-mask-composite",
-		"relevance": 0
-	},
-	{
-		"name": "scroll-padding-left",
 		"relevance": 0
 	},
 	{
@@ -1676,11 +1644,59 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "border-inline-end-color",
+		"name": "r",
+		"relevance": 0
+	},
+	{
+		"name": "margin-inline",
+		"relevance": 0
+	},
+	{
+		"name": "text-orientation",
+		"relevance": 0
+	},
+	{
+		"name": "alignment-baseline",
+		"relevance": 0
+	},
+	{
+		"name": "scroll-padding-left",
 		"relevance": 0
 	},
 	{
 		"name": "border-inline-start-color",
+		"relevance": 0
+	},
+	{
+		"name": "min-block-size",
+		"relevance": 0
+	},
+	{
+		"name": "symbols",
+		"relevance": 0
+	},
+	{
+		"name": "system",
+		"relevance": 0
+	},
+	{
+		"name": "suffix",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-mask-composite",
+		"relevance": 0
+	},
+	{
+		"name": "border-inline-end-color",
+		"relevance": 0
+	},
+	{
+		"name": "size-adjust",
+		"relevance": 0
+	},
+	{
+		"name": "scrollbar-gutter",
 		"relevance": 0
 	},
 	{
@@ -1692,19 +1708,7 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "webkit-app-region",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-app-region",
-		"relevance": 0
-	},
-	{
-		"name": "background-repeat-y",
-		"relevance": 0
-	},
-	{
-		"name": "min-block-size",
+		"name": "margin-block",
 		"relevance": 0
 	},
 	{
@@ -1716,7 +1720,11 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "webkit-highlight",
+		"name": "image-orientation",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-margin-collapse",
 		"relevance": 0
 	},
 	{
@@ -1724,31 +1732,11 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "image-orientation",
-		"relevance": 0
-	},
-	{
-		"name": "transform-box",
-		"relevance": 0
-	},
-	{
-		"name": "margin-inline",
-		"relevance": 0
-	},
-	{
-		"name": "baseline-shift",
-		"relevance": 0
-	},
-	{
 		"name": "webkit-mask-origin",
 		"relevance": 0
 	},
 	{
-		"name": "cy",
-		"relevance": 0
-	},
-	{
-		"name": "scroll-padding-bottom",
+		"name": "background-repeat-y",
 		"relevance": 0
 	},
 	{
@@ -1756,31 +1744,27 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "webkit-hyphenate-character",
-		"relevance": 0
-	},
-	{
-		"name": "scroll-snap-margin-bottom",
-		"relevance": 0
-	},
-	{
-		"name": "scroll-snap-margin-bottom",
-		"relevance": 0
-	},
-	{
-		"name": "border-block-end-width",
-		"relevance": 0
-	},
-	{
-		"name": "border-inline-start-style",
-		"relevance": 0
-	},
-	{
 		"name": "border-block-start-width",
 		"relevance": 0
 	},
 	{
-		"name": "text-combine-upright",
+		"name": "paint-order",
+		"relevance": 0
+	},
+	{
+		"name": "cy",
+		"relevance": 0
+	},
+	{
+		"name": "baseline-shift",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-hyphenate-character",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-hyphenate-character",
 		"relevance": 0
 	},
 	{
@@ -1792,7 +1776,27 @@ module.exports = [
 		"relevance": 0
 	},
 	{
+		"name": "border-inline-start-style",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-highlight",
+		"relevance": 0
+	},
+	{
+		"name": "border-block-end-width",
+		"relevance": 0
+	},
+	{
+		"name": "text-combine-upright",
+		"relevance": 0
+	},
+	{
 		"name": "border-inline-end-style",
+		"relevance": 0
+	},
+	{
+		"name": "padding-block",
 		"relevance": 0
 	},
 	{
@@ -1804,6 +1808,26 @@ module.exports = [
 		"relevance": 0
 	},
 	{
+		"name": "scroll-snap-margin-bottom",
+		"relevance": 0
+	},
+	{
+		"name": "scroll-snap-margin-bottom",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-app-region",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-app-region",
+		"relevance": 0
+	},
+	{
+		"name": "accent-color",
+		"relevance": 0
+	},
+	{
 		"name": "webkit-rtl-ordering",
 		"relevance": 0
 	},
@@ -1812,15 +1836,11 @@ module.exports = [
 		"relevance": 0
 	},
 	{
+		"name": "transform-box",
+		"relevance": 0
+	},
+	{
 		"name": "webkit-border-horizontal-spacing",
-		"relevance": 0
-	},
-	{
-		"name": "descent-override",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-mask-position-y",
 		"relevance": 0
 	},
 	{
@@ -1828,7 +1848,11 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "margin-block",
+		"name": "scroll-padding-bottom",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-mask-position-y",
 		"relevance": 0
 	},
 	{
@@ -1837,42 +1861,6 @@ module.exports = [
 	},
 	{
 		"name": "webkit-padding-before",
-		"relevance": 0
-	},
-	{
-		"name": "size-adjust",
-		"relevance": 0
-	},
-	{
-		"name": "page",
-		"relevance": 0
-	},
-	{
-		"name": "paint-order",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-text-emphasis-color",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-text-emphasis-color",
-		"relevance": 0
-	},
-	{
-		"name": "padding-block",
-		"relevance": 0
-	},
-	{
-		"name": "text-emphasis-position",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-padding-after",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-padding-after",
 		"relevance": 0
 	},
 	{
@@ -1880,7 +1868,15 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "scrollbar-gutter",
+		"name": "descent-override",
+		"relevance": 0
+	},
+	{
+		"name": "grid",
+		"relevance": 0
+	},
+	{
+		"name": "text-emphasis-position",
 		"relevance": 0
 	},
 	{
@@ -1888,7 +1884,31 @@ module.exports = [
 		"relevance": 0
 	},
 	{
+		"name": "webkit-padding-after",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-padding-after",
+		"relevance": 0
+	},
+	{
+		"name": "page",
+		"relevance": 0
+	},
+	{
 		"name": "webkit-border-vertical-spacing",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-text-emphasis-color",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-text-emphasis-color",
+		"relevance": 0
+	},
+	{
+		"name": "border-end-end-radius",
 		"relevance": 0
 	},
 	{
@@ -1896,11 +1916,11 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "webkit-text-emphasis-position",
+		"name": "offset-distance",
 		"relevance": 0
 	},
 	{
-		"name": "webkit-text-emphasis-position",
+		"name": "offset-path",
 		"relevance": 0
 	},
 	{
@@ -1916,43 +1936,11 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "color-interpolation",
-		"relevance": 0
-	},
-	{
-		"name": "flood-color",
-		"relevance": 0
-	},
-	{
-		"name": "color-rendering",
-		"relevance": 0
-	},
-	{
-		"name": "flood-opacity",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-text-decorations-in-effect",
-		"relevance": 0
-	},
-	{
 		"name": "max-inline-size",
 		"relevance": 0
 	},
 	{
-		"name": "offset-path",
-		"relevance": 0
-	},
-	{
-		"name": "border-inline-end",
-		"relevance": 0
-	},
-	{
-		"name": "offset-distance",
-		"relevance": 0
-	},
-	{
-		"name": "lighting-color",
+		"name": "color-interpolation",
 		"relevance": 0
 	},
 	{
@@ -1960,23 +1948,19 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "webkit-text-orientation",
+		"name": "webkit-text-emphasis-position",
 		"relevance": 0
 	},
 	{
-		"name": "marker-end",
+		"name": "webkit-text-emphasis-position",
 		"relevance": 0
 	},
 	{
-		"name": "webkit-text-emphasis-style",
+		"name": "color-rendering",
 		"relevance": 0
 	},
 	{
-		"name": "webkit-text-emphasis-style",
-		"relevance": 0
-	},
-	{
-		"name": "marker-start",
+		"name": "flood-color",
 		"relevance": 0
 	},
 	{
@@ -1984,15 +1968,19 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "ry",
+		"name": "marker-end",
 		"relevance": 0
 	},
 	{
-		"name": "buffered-rendering",
+		"name": "flood-opacity",
 		"relevance": 0
 	},
 	{
-		"name": "font-optical-sizing",
+		"name": "marker-start",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-text-decorations-in-effect",
 		"relevance": 0
 	},
 	{
@@ -2000,15 +1988,51 @@ module.exports = [
 		"relevance": 0
 	},
 	{
+		"name": "lighting-color",
+		"relevance": 0
+	},
+	{
+		"name": "border-inline-end",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-text-emphasis-style",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-text-emphasis-style",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-text-orientation",
+		"relevance": 0
+	},
+	{
+		"name": "scale",
+		"relevance": 0
+	},
+	{
+		"name": "buffered-rendering",
+		"relevance": 0
+	},
+	{
 		"name": "y",
 		"relevance": 0
 	},
 	{
-		"name": "grid",
+		"name": "webkit-text-combine",
 		"relevance": 0
 	},
 	{
-		"name": "webkit-text-combine",
+		"name": "translate",
+		"relevance": 0
+	},
+	{
+		"name": "font-optical-sizing",
+		"relevance": 0
+	},
+	{
+		"name": "inset-block-start",
 		"relevance": 0
 	},
 	{
@@ -2032,11 +2056,27 @@ module.exports = [
 		"relevance": 0
 	},
 	{
+		"name": "scroll-snap-margin-left",
+		"relevance": 0
+	},
+	{
+		"name": "scroll-snap-margin-left",
+		"relevance": 0
+	},
+	{
+		"name": "border-block-end",
+		"relevance": 0
+	},
+	{
 		"name": "webkit-mask-box-image-slice",
 		"relevance": 0
 	},
 	{
 		"name": "webkit-mask-box-image-width",
+		"relevance": 0
+	},
+	{
+		"name": "ry",
 		"relevance": 0
 	},
 	{
@@ -2052,11 +2092,7 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "scroll-snap-margin-left",
-		"relevance": 0
-	},
-	{
-		"name": "scroll-snap-margin-left",
+		"name": "border-start-end-radius",
 		"relevance": 0
 	},
 	{
@@ -2065,26 +2101,6 @@ module.exports = [
 	},
 	{
 		"name": "webkit-border-before-style",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-box-flex-group",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-locale",
-		"relevance": 0
-	},
-	{
-		"name": "alias-webkit-column-rule-style",
-		"relevance": 0
-	},
-	{
-		"name": "alias-webkit-column-rule-color",
-		"relevance": 0
-	},
-	{
-		"name": "border-end-end-radius",
 		"relevance": 0
 	},
 	{
@@ -2092,11 +2108,19 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "inset-block-start",
+		"name": "webkit-locale",
 		"relevance": 0
 	},
 	{
-		"name": "webkit-transform-origin-y",
+		"name": "alias-webkit-column-rule-color",
+		"relevance": 0
+	},
+	{
+		"name": "border-end-start-radius",
+		"relevance": 0
+	},
+	{
+		"name": "alias-webkit-column-rule-style",
 		"relevance": 0
 	},
 	{
@@ -2105,6 +2129,14 @@ module.exports = [
 	},
 	{
 		"name": "scroll-snap-margin-right",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-box-flex-group",
+		"relevance": 0
+	},
+	{
+		"name": "border-start-start-radius",
 		"relevance": 0
 	},
 	{
@@ -2112,15 +2144,7 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "webkit-column-break-after",
-		"relevance": 0
-	},
-	{
-		"name": "scroll-snap-margin-block-end",
-		"relevance": 0
-	},
-	{
-		"name": "scroll-snap-margin-block-end",
+		"name": "scroll-padding-block-start",
 		"relevance": 0
 	},
 	{
@@ -2128,27 +2152,39 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "scroll-snap-margin-block-start",
-		"relevance": 0
-	},
-	{
-		"name": "scroll-snap-margin-block-start",
-		"relevance": 0
-	},
-	{
-		"name": "scroll-snap-margin-inline-start",
-		"relevance": 0
-	},
-	{
-		"name": "scroll-snap-margin-inline-start",
-		"relevance": 0
-	},
-	{
-		"name": "scroll-padding-block-start",
-		"relevance": 0
-	},
-	{
 		"name": "scroll-padding-block-end",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-transform-origin-y",
+		"relevance": 0
+	},
+	{
+		"name": "scroll-snap-margin-inline-start",
+		"relevance": 0
+	},
+	{
+		"name": "scroll-snap-margin-inline-start",
+		"relevance": 0
+	},
+	{
+		"name": "scroll-snap-margin-block-start",
+		"relevance": 0
+	},
+	{
+		"name": "scroll-snap-margin-block-start",
+		"relevance": 0
+	},
+	{
+		"name": "scroll-snap-margin-block-end",
+		"relevance": 0
+	},
+	{
+		"name": "scroll-snap-margin-block-end",
+		"relevance": 0
+	},
+	{
+		"name": "inset-block-end",
 		"relevance": 0
 	},
 	{
@@ -2164,47 +2200,7 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "webkit-column-break-before",
-		"relevance": 0
-	},
-	{
-		"name": "border-block-end",
-		"relevance": 0
-	},
-	{
-		"name": "counter-set",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-ruby-position",
-		"relevance": 0
-	},
-	{
-		"name": "border-start-end-radius",
-		"relevance": 0
-	},
-	{
-		"name": "border-end-start-radius",
-		"relevance": 0
-	},
-	{
-		"name": "border-start-start-radius",
-		"relevance": 0
-	},
-	{
-		"name": "accent-color",
-		"relevance": 0
-	},
-	{
-		"name": "inset-block-end",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-border-start",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-border-start",
+		"name": "inset-inline",
 		"relevance": 0
 	},
 	{
@@ -2212,15 +2208,55 @@ module.exports = [
 		"relevance": 0
 	},
 	{
+		"name": "webkit-column-break-before",
+		"relevance": 0
+	},
+	{
+		"name": "hyphenate-character",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-ruby-position",
+		"relevance": 0
+	},
+	{
+		"name": "counter-set",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-text-emphasis",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-text-emphasis",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-border-start",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-border-start",
+		"relevance": 0
+	},
+	{
+		"name": "rotate",
+		"relevance": 0
+	},
+	{
 		"name": "overscroll-behavior-inline",
 		"relevance": 0
 	},
 	{
-		"name": "webkit-text-emphasis",
+		"name": "webkit-column-break-after",
 		"relevance": 0
 	},
 	{
-		"name": "webkit-text-emphasis",
+		"name": "webkit-border-end",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-border-end",
 		"relevance": 0
 	},
 	{
@@ -2232,63 +2268,11 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "overscroll-behavior-inline",
-		"relevance": 0
-	},
-	{
-		"name": "overscroll-behavior-inline",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-border-end",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-border-end",
-		"relevance": 0
-	},
-	{
-		"name": "overscroll-behavior-block",
-		"relevance": 0
-	},
-	{
-		"name": "overscroll-behavior-block",
-		"relevance": 0
-	},
-	{
-		"name": "syntax",
-		"relevance": 0
-	},
-	{
-		"name": "scroll-padding-inline",
-		"relevance": 0
-	},
-	{
-		"name": "alias-webkit-shape-outside",
-		"relevance": 0
-	},
-	{
-		"name": "alias-webkit-column-rule-width",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-margin-after-collapse",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-margin-before-collapse",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-border-before",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-border-before",
-		"relevance": 0
-	},
-	{
 		"name": "border-block-width",
+		"relevance": 0
+	},
+	{
+		"name": "border-inline-width",
 		"relevance": 0
 	},
 	{
@@ -2300,155 +2284,11 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "border-inline-width",
+		"name": "overscroll-behavior-inline",
 		"relevance": 0
 	},
 	{
-		"name": "webkit-border-after",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-border-after",
-		"relevance": 0
-	},
-	{
-		"name": "offset-rotation",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-border-end-color",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-border-end-color",
-		"relevance": 0
-	},
-	{
-		"name": "inset-inline",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-border-end-width",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-border-end-width",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-border-start-width",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-border-start-width",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-border-start-color",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-border-start-color",
-		"relevance": 0
-	},
-	{
-		"name": "overscroll-behavior-block",
-		"relevance": 0
-	},
-	{
-		"name": "line-gap-override",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-border-after-color",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-border-after-color",
-		"relevance": 0
-	},
-	{
-		"name": "marker",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-border-after-width",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-border-after-width",
-		"relevance": 0
-	},
-	{
-		"name": "intrinsic-block-size",
-		"relevance": 0
-	},
-	{
-		"name": "intrinsic-block-size",
-		"relevance": 0
-	},
-	{
-		"name": "overflow-clip-margin",
-		"relevance": 0
-	},
-	{
-		"name": "font-palette",
-		"relevance": 0
-	},
-	{
-		"name": "font-synthesis-weight",
-		"relevance": 0
-	},
-	{
-		"name": "font-synthesis-small-caps",
-		"relevance": 0
-	},
-	{
-		"name": "font-synthesis-style",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-margin-bottom-collapse",
-		"relevance": 0
-	},
-	{
-		"name": "app-region",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-margin-collapse",
-		"relevance": 0
-	},
-	{
-		"name": "intrinsic-inline-size",
-		"relevance": 0
-	},
-	{
-		"name": "intrinsic-inline-size",
-		"relevance": 0
-	},
-	{
-		"name": "intrinsic-height",
-		"relevance": 0
-	},
-	{
-		"name": "intrinsic-height",
-		"relevance": 0
-	},
-	{
-		"name": "inset-block",
-		"relevance": 0
-	},
-	{
-		"name": "border-block",
-		"relevance": 0
-	},
-	{
-		"name": "intrinsic-width",
-		"relevance": 0
-	},
-	{
-		"name": "intrinsic-width",
+		"name": "overscroll-behavior-inline",
 		"relevance": 0
 	},
 	{
@@ -2456,7 +2296,143 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "scroll-padding-block",
+		"name": "webkit-border-after",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-border-after",
+		"relevance": 0
+	},
+	{
+		"name": "inset-block",
+		"relevance": 0
+	},
+	{
+		"name": "scroll-padding-inline",
+		"relevance": 0
+	},
+	{
+		"name": "overscroll-behavior-block",
+		"relevance": 0
+	},
+	{
+		"name": "overscroll-behavior-block",
+		"relevance": 0
+	},
+	{
+		"name": "alias-webkit-column-rule-width",
+		"relevance": 0
+	},
+	{
+		"name": "line-gap-override",
+		"relevance": 0
+	},
+	{
+		"name": "syntax",
+		"relevance": 0
+	},
+	{
+		"name": "overflow-clip-margin",
+		"relevance": 0
+	},
+	{
+		"name": "alias-webkit-shape-outside",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-border-before",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-border-before",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-margin-after-collapse",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-margin-before-collapse",
+		"relevance": 0
+	},
+	{
+		"name": "marker",
+		"relevance": 0
+	},
+	{
+		"name": "offset-rotation",
+		"relevance": 0
+	},
+	{
+		"name": "overscroll-behavior-block",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-border-end-color",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-border-end-color",
+		"relevance": 0
+	},
+	{
+		"name": "intrinsic-block-size",
+		"relevance": 0
+	},
+	{
+		"name": "intrinsic-block-size",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-border-end-width",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-border-end-width",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-border-start-color",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-border-start-color",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-border-start-width",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-border-start-width",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-border-after-color",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-border-after-color",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-border-after-width",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-border-after-width",
+		"relevance": 0
+	},
+	{
+		"name": "border-block",
+		"relevance": 0
+	},
+	{
+		"name": "font-palette",
+		"relevance": 0
+	},
+	{
+		"name": "app-region",
 		"relevance": 0
 	},
 	{
@@ -2464,19 +2440,47 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "scroll-snap-margin-inline",
+		"name": "intrinsic-inline-size",
 		"relevance": 0
 	},
 	{
-		"name": "scroll-snap-margin-inline",
+		"name": "intrinsic-inline-size",
 		"relevance": 0
 	},
 	{
-		"name": "scroll-snap-margin-block",
+		"name": "font-synthesis-small-caps",
 		"relevance": 0
 	},
 	{
-		"name": "scroll-snap-margin-block",
+		"name": "font-synthesis-weight",
+		"relevance": 0
+	},
+	{
+		"name": "font-synthesis-style",
+		"relevance": 0
+	},
+	{
+		"name": "object-view-box",
+		"relevance": 0
+	},
+	{
+		"name": "intrinsic-height",
+		"relevance": 0
+	},
+	{
+		"name": "intrinsic-height",
+		"relevance": 0
+	},
+	{
+		"name": "intrinsic-width",
+		"relevance": 0
+	},
+	{
+		"name": "intrinsic-width",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-margin-bottom-collapse",
 		"relevance": 0
 	},
 	{
@@ -2484,11 +2488,43 @@ module.exports = [
 		"relevance": 0
 	},
 	{
+		"name": "scroll-padding-block",
+		"relevance": 0
+	},
+	{
+		"name": "scroll-snap-margin-inline",
+		"relevance": 0
+	},
+	{
+		"name": "scroll-snap-margin-inline",
+		"relevance": 0
+	},
+	{
+		"name": "scroll-snap-margin-block",
+		"relevance": 0
+	},
+	{
+		"name": "scroll-snap-margin-block",
+		"relevance": 0
+	},
+	{
+		"name": "container-name",
+		"relevance": 0
+	},
+	{
+		"name": "container-type",
+		"relevance": 0
+	},
+	{
 		"name": "webkit-min-logical-width",
 		"relevance": 0
 	},
 	{
 		"name": "webkit-min-logical-width",
+		"relevance": 0
+	},
+	{
+		"name": "border-inline-color",
 		"relevance": 0
 	},
 	{
@@ -2504,7 +2540,11 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "border-inline-color",
+		"name": "pop-up-show-delay",
+		"relevance": 0
+	},
+	{
+		"name": "pop-up-show-delay",
 		"relevance": 0
 	},
 	{
@@ -2513,6 +2553,10 @@ module.exports = [
 	},
 	{
 		"name": "webkit-logical-height",
+		"relevance": 0
+	},
+	{
+		"name": "container",
 		"relevance": 0
 	},
 	{
@@ -2532,19 +2576,19 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "webkit-max-logical-width",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-max-logical-width",
-		"relevance": 0
-	},
-	{
 		"name": "webkit-min-logical-height",
 		"relevance": 0
 	},
 	{
 		"name": "webkit-min-logical-height",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-max-logical-width",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-max-logical-width",
 		"relevance": 0
 	},
 	{
@@ -2560,10 +2604,6 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "orientation",
-		"relevance": 0
-	},
-	{
 		"name": "motion",
 		"relevance": 0
 	},
@@ -2576,7 +2616,11 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "font-size-adjust",
+		"name": "pop-up-hide-delay",
+		"relevance": 0
+	},
+	{
+		"name": "pop-up-hide-delay",
 		"relevance": 0
 	},
 	{
@@ -2584,15 +2628,19 @@ module.exports = [
 		"relevance": 0
 	},
 	{
+		"name": "prefix",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-border-after-style",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-border-after-style",
+		"relevance": 0
+	},
+	{
 		"name": "alias-epub-text-transform",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-border-after-style",
-		"relevance": 0
-	},
-	{
-		"name": "webkit-border-after-style",
 		"relevance": 0
 	},
 	{
@@ -2604,7 +2652,7 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "prefix",
+		"name": "font-size-adjust",
 		"relevance": 0
 	},
 	{
@@ -2613,10 +2661,6 @@ module.exports = [
 	},
 	{
 		"name": "motion-path",
-		"relevance": 0
-	},
-	{
-		"name": "container",
 		"relevance": 0
 	},
 	{
@@ -2640,39 +2684,11 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "scale",
-		"relevance": 0
-	},
-	{
-		"name": "translate",
-		"relevance": 0
-	},
-	{
 		"name": "range",
 		"relevance": 0
 	},
 	{
 		"name": "additive-symbols",
-		"relevance": 0
-	},
-	{
-		"name": "rotate",
-		"relevance": 0
-	},
-	{
-		"name": "offset-anchor",
-		"relevance": 0
-	},
-	{
-		"name": "offset-position",
-		"relevance": 0
-	},
-	{
-		"name": "alias-epub-text-combine",
-		"relevance": 0
-	},
-	{
-		"name": "animation-timeline",
 		"relevance": 0
 	},
 	{
@@ -2696,7 +2712,15 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "webkit-hyphenate-limit-lines",
+		"name": "pad",
+		"relevance": 0
+	},
+	{
+		"name": "offset-anchor",
+		"relevance": 0
+	},
+	{
+		"name": "animation-timeline",
 		"relevance": 0
 	},
 	{
@@ -2704,7 +2728,27 @@ module.exports = [
 		"relevance": 0
 	},
 	{
+		"name": "alias-epub-text-combine",
+		"relevance": 0
+	},
+	{
+		"name": "offset-position",
+		"relevance": 0
+	},
+	{
 		"name": "webkit-mask-repeat-y",
+		"relevance": 0
+	},
+	{
+		"name": "webkit-hyphenate-limit-lines",
+		"relevance": 0
+	},
+	{
+		"name": "page-transition-tag",
+		"relevance": 0
+	},
+	{
+		"name": "alias-epub-text-emphasis-color",
 		"relevance": 0
 	},
 	{
@@ -2716,11 +2760,7 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "pad",
-		"relevance": 0
-	},
-	{
-		"name": "alias-epub-text-emphasis-color",
+		"name": "fallback",
 		"relevance": 0
 	},
 	{
@@ -2728,15 +2768,27 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "fallback",
-		"relevance": 0
-	},
-	{
-		"name": "container-name",
+		"name": "speak-as",
 		"relevance": 0
 	},
 	{
 		"name": "glyph-orientation-vertical",
+		"relevance": 0
+	},
+	{
+		"name": "text-line-through-style",
+		"relevance": 0
+	},
+	{
+		"name": "max-zoom",
+		"relevance": 0
+	},
+	{
+		"name": "min-zoom",
+		"relevance": 0
+	},
+	{
+		"name": "orientation",
 		"relevance": 0
 	},
 	{
@@ -2764,27 +2816,11 @@ module.exports = [
 		"relevance": 0
 	},
 	{
-		"name": "speak-as",
-		"relevance": 0
-	},
-	{
-		"name": "container-type",
-		"relevance": 0
-	},
-	{
 		"name": "base-palette",
 		"relevance": 0
 	},
 	{
 		"name": "override-colors",
-		"relevance": 0
-	},
-	{
-		"name": "page-transition-tag",
-		"relevance": 0
-	},
-	{
-		"name": "object-view-box",
 		"relevance": 0
 	},
 	{
@@ -2801,10 +2837,6 @@ module.exports = [
 	},
 	{
 		"name": "text-line-through-mode",
-		"relevance": 0
-	},
-	{
-		"name": "text-line-through-style",
 		"relevance": 0
 	},
 	{
@@ -3029,14 +3061,6 @@ module.exports = [
 	},
 	{
 		"name": "webkit-background-blend-mode",
-		"relevance": 0
-	},
-	{
-		"name": "max-zoom",
-		"relevance": 0
-	},
-	{
-		"name": "min-zoom",
 		"relevance": 0
 	},
 	{
