@@ -1206,5 +1206,59 @@
         }
       }
     ]
+  },
+  {
+    "name": "decoding",
+    "values": [
+      {
+        "name": "sync"
+      },
+      {
+        "name": "async"
+      },
+      {
+        "name": "auto"
+      }
+    ]
+  },
+  {
+    "name": "loading",
+    "values": [
+      {
+        "name": "eager"
+      },
+      {
+        "name": "lazy"
+      }
+    ]
+  },
+  {
+    "name": "referrerpolicy",
+    "values": [
+      {
+        "name": "no-referrer"
+      },
+      {
+        "name": "no-referrer-when-downgrade"
+      },
+      {
+        "name": "origin"
+      },
+      {
+        "name": "origin-when-cross-origin"
+      },
+      {
+        "name": "same-origin"
+      },
+      {
+        "name": "strict-origin"
+      },
+      {
+        "name": "strict-origin-when-cross-origin"
+      },
+      {
+        "name": "unsafe-url"
+      }
+    ]
   }
 ]

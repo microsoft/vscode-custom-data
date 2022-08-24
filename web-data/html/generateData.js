@@ -19,14 +19,14 @@ htmlTags.forEach(t => {
 
   if (matchingTagDescription) {
     t.attributes.forEach(a => {
-      const matchingAttrDescription = matchingTagDescription.attributes.find(ad => ad.name === a.name)
-
+      const matchingAttrDescription =
+        matchingTagDescription.attributes.filter(ad => ad.name === a.name && ad.description)
+          .map(ad => ad.description)
+          .join('\n');
       if (matchingAttrDescription) {
-        if (matchingAttrDescription.description) {
-          a.description = {
-            kind: 'markdown',
-            value: matchingAttrDescription.description
-          }
+        a.description = {
+          kind: 'markdown',
+          value: matchingAttrDescription
         }
       }
     })
