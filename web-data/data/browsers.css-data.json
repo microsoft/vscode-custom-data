@@ -369,7 +369,7 @@
         }
       ],
       "syntax": "<single-animation>#",
-      "relevance": 81,
+      "relevance": 82,
       "references": [
         {
           "name": "MDN Reference",
@@ -469,7 +469,7 @@
         }
       ],
       "syntax": "<single-animation-fill-mode>#",
-      "relevance": 64,
+      "relevance": 65,
       "references": [
         {
           "name": "MDN Reference",
@@ -490,7 +490,7 @@
         }
       ],
       "syntax": "<single-animation-iteration-count>#",
-      "relevance": 62,
+      "relevance": 63,
       "references": [
         {
           "name": "MDN Reference",
@@ -538,7 +538,7 @@
         }
       ],
       "syntax": "<single-animation-play-state>#",
-      "relevance": 54,
+      "relevance": 53,
       "references": [
         {
           "name": "MDN Reference",
@@ -778,7 +778,7 @@
     {
       "name": "background-clip",
       "syntax": "<box>#",
-      "relevance": 68,
+      "relevance": 69,
       "references": [
         {
           "name": "MDN Reference",
@@ -1316,7 +1316,7 @@
         }
       ],
       "syntax": "collapse | separate",
-      "relevance": 74,
+      "relevance": 75,
       "references": [
         {
           "name": "MDN Reference",
@@ -1796,7 +1796,7 @@
     {
       "name": "border-right-color",
       "syntax": "<color>",
-      "relevance": 65,
+      "relevance": 66,
       "references": [
         {
           "name": "MDN Reference",
@@ -1938,7 +1938,7 @@
     {
       "name": "border-top-style",
       "syntax": "<line-style>",
-      "relevance": 58,
+      "relevance": 57,
       "references": [
         {
           "name": "MDN Reference",
@@ -1970,7 +1970,7 @@
       "name": "border-width",
       "values": [],
       "syntax": "<line-width>{1,4}",
-      "relevance": 81,
+      "relevance": 82,
       "references": [
         {
           "name": "MDN Reference",
@@ -2328,7 +2328,7 @@
         }
       ],
       "syntax": "<shape> | auto",
-      "relevance": 74,
+      "relevance": 75,
       "references": [
         {
           "name": "MDN Reference",
@@ -2353,7 +2353,7 @@
         }
       ],
       "syntax": "<clip-source> | [ <basic-shape> || <geometry-box> ] | none",
-      "relevance": 61,
+      "relevance": 62,
       "references": [
         {
           "name": "MDN Reference",
@@ -2681,8 +2681,8 @@
           "description": "Turns on paint containment for the element."
         }
       ],
-      "syntax": "none | strict | content | [ size || layout || style || paint ]",
-      "relevance": 58,
+      "syntax": "none | strict | content | [ [ size || inline-size ] || layout || style || paint ]",
+      "relevance": 59,
       "references": [
         {
           "name": "MDN Reference",
@@ -3527,7 +3527,7 @@
     {
       "name": "flex-shrink",
       "syntax": "<number>",
-      "relevance": 73,
+      "relevance": 74,
       "references": [
         {
           "name": "MDN Reference",
@@ -4598,7 +4598,7 @@
         }
       ],
       "syntax": "normal | none | [ <common-lig-values> || <discretionary-lig-values> || <historical-lig-values> || <contextual-alt-values> || stylistic(<feature-value-name>) || historical-forms || styleset(<feature-value-name>#) || character-variant(<feature-value-name>#) || swash(<feature-value-name>) || ornaments(<feature-value-name>) || annotation(<feature-value-name>) || [ small-caps | all-small-caps | petite-caps | all-petite-caps | unicase | titling-caps ] || <numeric-figure-values> || <numeric-spacing-values> || <numeric-fraction-values> || ordinal || slashed-zero || <east-asian-variant-values> || <east-asian-width-values> || ruby ]",
-      "relevance": 65,
+      "relevance": 64,
       "references": [
         {
           "name": "MDN Reference",
@@ -5022,7 +5022,7 @@
         }
       ],
       "syntax": "<font-weight-absolute>{1,2}",
-      "relevance": 93,
+      "relevance": 94,
       "references": [
         {
           "name": "MDN Reference",
@@ -5300,7 +5300,7 @@
       ],
       "status": "obsolete",
       "syntax": "<length-percentage>",
-      "relevance": 2,
+      "relevance": 3,
       "description": "Specifies the gutters between grid columns. Replaced by 'column-gap' property.",
       "restrictions": [
         "length"
@@ -6191,7 +6191,7 @@
         }
       ],
       "syntax": "<'list-style-type'> || <'list-style-position'> || <'list-style-image'>",
-      "relevance": 84,
+      "relevance": 85,
       "references": [
         {
           "name": "MDN Reference",
@@ -6320,7 +6320,7 @@
         }
       ],
       "syntax": "<counter-style> | <string> | none",
-      "relevance": 74,
+      "relevance": 75,
       "references": [
         {
           "name": "MDN Reference",
@@ -6369,7 +6369,7 @@
         }
       ],
       "syntax": "<'margin-left'>",
-      "relevance": 53,
+      "relevance": 54,
       "references": [
         {
           "name": "MDN Reference",
@@ -12248,7 +12248,7 @@
         }
       ],
       "syntax": "none | <length>",
-      "relevance": 55,
+      "relevance": 56,
       "references": [
         {
           "name": "MDN Reference",
@@ -13144,7 +13144,7 @@
           "description": "No paint is applied in this layer."
         }
       ],
-      "relevance": 66,
+      "relevance": 67,
       "description": "Paints along the outline of the given graphical element.",
       "restrictions": [
         "color",
@@ -13570,7 +13570,7 @@
         }
       ],
       "syntax": "none | [ underline || overline || line-through || blink ] | spelling-error | grammar-error",
-      "relevance": 53,
+      "relevance": 56,
       "references": [
         {
           "name": "MDN Reference",
@@ -13764,7 +13764,7 @@
         }
       ],
       "syntax": "[ clip | ellipsis | <string> ]{1,2}",
-      "relevance": 81,
+      "relevance": 82,
       "references": [
         {
           "name": "MDN Reference",
@@ -13804,7 +13804,7 @@
         }
       ],
       "syntax": "auto | optimizeSpeed | optimizeLegibility | geometricPrecision",
-      "relevance": 69,
+      "relevance": 70,
       "references": [
         {
           "name": "MDN Reference",
@@ -14201,7 +14201,7 @@
         }
       ],
       "syntax": "none | <single-transition-property>#",
-      "relevance": 66,
+      "relevance": 67,
       "references": [
         {
           "name": "MDN Reference",
@@ -17092,7 +17092,7 @@
         }
       ],
       "syntax": "auto | <number> | <percentage>",
-      "relevance": 67,
+      "relevance": 66,
       "references": [
         {
           "name": "MDN Reference",
@@ -20076,6 +20076,23 @@
       "description": "Defines set of animation key frames."
     },
     {
+      "name": "@layer",
+      "browsers": [
+        "E99",
+        "FF97",
+        "S15.4",
+        "C99",
+        "O85"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/@layer"
+        }
+      ],
+      "description": "Declare a cascade layer and the order of precedence in case of multiple cascade layers."
+    },
+    {
       "name": "@media",
       "references": [
         {
@@ -20147,6 +20164,21 @@
         }
       ],
       "description": "Directive defines various page parameters."
+    },
+    {
+      "name": "@property",
+      "browsers": [
+        "E85",
+        "C85",
+        "O71"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/@property"
+        }
+      ],
+      "description": "Describes the aspect of custom properties and variables."
     },
     {
       "name": "@supports",
