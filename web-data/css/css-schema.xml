@@ -37,6 +37,9 @@
 		<entry name="@keyframes" version="3.0" browsers="E,C43,FF16,IE10,O30,S9" ref="http://www.w3.org/TR/css3-animations/#keyframes" syntax="@keyframes animation-name">
 			<desc>Defines set of animation key frames.</desc>
 		</entry>
+		<entry name="@layer" version="5.0" browsers="E99,C99,FF97,O85,S15.4" ref="https://drafts.csswg.org/css-cascade-5/#layering" syntax="@layer layer-name {rules}">
+			<desc>Declare a cascade layer and the order of precedence in case of multiple cascade layers.</desc>
+		</entry>
 		<entry name="@left-bottom" version="3" browsers="none" ref="http://www.w3.org/TR/css3-page/#page-box">
 			<desc>A variable-height box within the area defined by the left margin and adjacent to the top of the bottom-left-corner.</desc>
 		</entry>
@@ -70,6 +73,9 @@
 		<entry name="@page" version="2.0" browsers="all" ref="http://www.w3.org/TR/css3-page/#page-box-page-rule" syntax="@page :first { margin-top: 10cm }">
 			<desc>Directive defines various page parameters.</desc>
 		</entry>
+		<entry name="@property" version="0.1" browsers="C85,E85,O71" ref="https://drafts.css-houdini.org/css-properties-values-api/#at-property-rule" syntax="@property --property-name { syntax: '<color>'; inherits: false; initial-value: #c0ffee; }">
+			<desc>Describes the aspect of custom properties and variables.</desc>
+		</entry>		
 		<entry name="@right-bottom" version="3" browsers="none" ref="http://www.w3.org/TR/css3-page/#page-box">
 			<desc>A variable-height box within the area defined by the right margin and adjacent to the top of the bottom-right-corner.</desc>
 		</entry>
