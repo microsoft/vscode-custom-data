@@ -103,10 +103,6 @@ function addBCDToBrowsers(item, matchingBCDItem) {
 }
 
 function toCompatString(bcdProperty) {
-  if (isSupportedInAllBrowsers(bcdProperty)) {
-    return 'all'
-  }
-
 	let s = []
 
 	if (bcdProperty.__compat) {
@@ -147,40 +143,6 @@ function toCompatString(bcdProperty) {
   return s.join(',')
 }
 
-/**
- * Check that a property is supported in all major browsers: Edge, Firefox, Safari, Chrome, IE, Opera
- */
-function isSupportedInAllBrowsers(bcdProperty) {
-	if (bcdProperty.__compat) {
-		return Object.keys(browserNames).every((abbrev) => {
-			const browserName = browserNames[abbrev].toLowerCase()
-			if (bcdProperty.__compat && bcdProperty.__compat.support[browserName]) {
-				const browserSupport = bcdProperty.__compat.support[browserName]
-				if (browserSupport) {
-					return isSupported(browserSupport)
-				}
-			}
-
-			return false
-		})
-	} else {
-		return Object.keys(browserNames).every((abbrev) => {
-			const browserName = browserNames[abbrev].toLowerCase()
-
-			return Object.keys(bcdProperty).some(contextName => {
-				const context = bcdProperty[contextName]
-				if (context.__compat && context.__compat.support[browserName]) {
-					const browserSupport = context.__compat.support[browserName]
-					if (browserSupport) {
-						return isSupported(browserSupport)
-					}
-				}
-
-				return false
-			})
-		})
-	}
-}
 
 /**
  * https://github.com/mdn/browser-compat-data/blob/master/schemas/compat-data-schema.md

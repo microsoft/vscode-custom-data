@@ -18,6 +18,14 @@
     },
     {
       "name": "align-content",
+      "browsers": [
+        "E12",
+        "FF28",
+        "S9",
+        "C29",
+        "IE11",
+        "O12.1"
+      ],
       "values": [
         {
           "name": "center",
@@ -59,6 +67,14 @@
     },
     {
       "name": "align-items",
+      "browsers": [
+        "E12",
+        "FF20",
+        "S9",
+        "C29",
+        "IE11",
+        "O12.1"
+      ],
       "values": [
         {
           "name": "baseline",
@@ -96,6 +112,14 @@
     },
     {
       "name": "justify-items",
+      "browsers": [
+        "E12",
+        "FF20",
+        "S9",
+        "C52",
+        "IE11",
+        "O12.1"
+      ],
       "values": [
         {
           "name": "auto"
@@ -173,6 +197,14 @@
     },
     {
       "name": "justify-self",
+      "browsers": [
+        "E16",
+        "FF45",
+        "S10.1",
+        "C57",
+        "IE10",
+        "O44"
+      ],
       "values": [
         {
           "name": "auto"
@@ -247,6 +279,14 @@
     },
     {
       "name": "align-self",
+      "browsers": [
+        "E12",
+        "FF20",
+        "S9",
+        "C29",
+        "IE10",
+        "O12.1"
+      ],
       "values": [
         {
           "name": "auto",
@@ -330,6 +370,14 @@
     },
     {
       "name": "animation",
+      "browsers": [
+        "E12",
+        "FF16",
+        "S9",
+        "C43",
+        "IE10",
+        "O30"
+      ],
       "values": [
         {
           "name": "alternate",
@@ -387,6 +435,14 @@
     },
     {
       "name": "animation-delay",
+      "browsers": [
+        "E12",
+        "FF16",
+        "S9",
+        "C43",
+        "IE10",
+        "O30"
+      ],
       "syntax": "<time>#",
       "relevance": 65,
       "references": [
@@ -402,6 +458,14 @@
     },
     {
       "name": "animation-direction",
+      "browsers": [
+        "E12",
+        "FF16",
+        "S9",
+        "C43",
+        "IE10",
+        "O30"
+      ],
       "values": [
         {
           "name": "alternate",
@@ -435,6 +499,14 @@
     },
     {
       "name": "animation-duration",
+      "browsers": [
+        "E12",
+        "FF16",
+        "S9",
+        "C43",
+        "IE10",
+        "O30"
+      ],
       "syntax": "<time>#",
       "relevance": 70,
       "references": [
@@ -450,6 +522,14 @@
     },
     {
       "name": "animation-fill-mode",
+      "browsers": [
+        "E12",
+        "FF16",
+        "S9",
+        "C43",
+        "IE10",
+        "O30"
+      ],
       "values": [
         {
           "name": "backwards",
@@ -483,6 +563,14 @@
     },
     {
       "name": "animation-iteration-count",
+      "browsers": [
+        "E12",
+        "FF16",
+        "S9",
+        "C43",
+        "IE10",
+        "O30"
+      ],
       "values": [
         {
           "name": "infinite",
@@ -505,6 +593,14 @@
     },
     {
       "name": "animation-name",
+      "browsers": [
+        "E12",
+        "FF16",
+        "S9",
+        "C43",
+        "IE10",
+        "O30"
+      ],
       "values": [
         {
           "name": "none",
@@ -527,6 +623,14 @@
     },
     {
       "name": "animation-play-state",
+      "browsers": [
+        "E12",
+        "FF16",
+        "S9",
+        "C43",
+        "IE10",
+        "O30"
+      ],
       "values": [
         {
           "name": "paused",
@@ -552,6 +656,14 @@
     },
     {
       "name": "animation-timing-function",
+      "browsers": [
+        "E12",
+        "FF16",
+        "S9",
+        "C43",
+        "IE10",
+        "O30"
+      ],
       "syntax": "<easing-function>#",
       "relevance": 71,
       "references": [
@@ -567,6 +679,14 @@
     },
     {
       "name": "backface-visibility",
+      "browsers": [
+        "E12",
+        "FF16",
+        "S15.4",
+        "C36",
+        "IE10",
+        "O23"
+      ],
       "values": [
         {
           "name": "hidden",
@@ -592,6 +712,14 @@
     },
     {
       "name": "background",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "values": [
         {
           "name": "fixed",
@@ -632,6 +760,14 @@
     },
     {
       "name": "background-attachment",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "values": [
         {
           "name": "fixed",
@@ -639,6 +775,14 @@
         },
         {
           "name": "local",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O3.5"
+          ],
           "description": "The background is fixed with regard to the element's contents: if the element has a scrolling mechanism, the background scrolls with the element's contents."
         },
         {
@@ -777,6 +921,14 @@
     },
     {
       "name": "background-clip",
+      "browsers": [
+        "E12",
+        "FF4",
+        "S14",
+        "C1",
+        "IE9",
+        "O10.5"
+      ],
       "syntax": "<box>#",
       "relevance": 69,
       "references": [
@@ -792,6 +944,14 @@
     },
     {
       "name": "background-color",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "syntax": "<color>",
       "relevance": 94,
       "references": [
@@ -807,6 +967,14 @@
     },
     {
       "name": "background-image",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "values": [
         {
           "name": "none",
@@ -829,6 +997,14 @@
     },
     {
       "name": "background-origin",
+      "browsers": [
+        "E12",
+        "FF4",
+        "S3",
+        "C1",
+        "IE9",
+        "O10.5"
+      ],
       "syntax": "<box>#",
       "relevance": 53,
       "references": [
@@ -844,6 +1020,14 @@
     },
     {
       "name": "background-position",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "syntax": "<bg-position>#",
       "relevance": 87,
       "references": [
@@ -861,6 +1045,14 @@
     },
     {
       "name": "background-position-x",
+      "browsers": [
+        "E12",
+        "FF49",
+        "S1",
+        "C1",
+        "IE6",
+        "O15"
+      ],
       "values": [
         {
           "name": "center",
@@ -891,6 +1083,14 @@
     },
     {
       "name": "background-position-y",
+      "browsers": [
+        "E12",
+        "FF49",
+        "S1",
+        "C1",
+        "IE6",
+        "O15"
+      ],
       "values": [
         {
           "name": "bottom",
@@ -921,6 +1121,14 @@
     },
     {
       "name": "background-repeat",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "values": [],
       "syntax": "<repeat-style>#",
       "relevance": 85,
@@ -937,6 +1145,14 @@
     },
     {
       "name": "background-size",
+      "browsers": [
+        "E12",
+        "FF4",
+        "S5",
+        "C3",
+        "IE9",
+        "O10"
+      ],
       "values": [
         {
           "name": "auto",
@@ -1007,6 +1223,14 @@
     },
     {
       "name": "border",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "syntax": "<line-width> || <line-style> || <color>",
       "relevance": 95,
       "references": [
@@ -1209,6 +1433,14 @@
     },
     {
       "name": "border-bottom",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "syntax": "<line-width> || <line-style> || <color>",
       "relevance": 88,
       "references": [
@@ -1227,6 +1459,14 @@
     },
     {
       "name": "border-bottom-color",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "syntax": "<'border-top-color'>",
       "relevance": 71,
       "references": [
@@ -1242,6 +1482,14 @@
     },
     {
       "name": "border-bottom-left-radius",
+      "browsers": [
+        "E12",
+        "FF4",
+        "S5",
+        "C4",
+        "IE9",
+        "O10.5"
+      ],
       "syntax": "<length-percentage>{1,2}",
       "relevance": 75,
       "references": [
@@ -1258,6 +1506,14 @@
     },
     {
       "name": "border-bottom-right-radius",
+      "browsers": [
+        "E12",
+        "FF4",
+        "S5",
+        "C4",
+        "IE9",
+        "O10.5"
+      ],
       "syntax": "<length-percentage>{1,2}",
       "relevance": 75,
       "references": [
@@ -1274,6 +1530,14 @@
     },
     {
       "name": "border-bottom-style",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE5.5",
+        "O9.2"
+      ],
       "syntax": "<line-style>",
       "relevance": 59,
       "references": [
@@ -1289,6 +1553,14 @@
     },
     {
       "name": "border-bottom-width",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "syntax": "<line-width>",
       "relevance": 63,
       "references": [
@@ -1305,6 +1577,14 @@
     },
     {
       "name": "border-collapse",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1.2",
+        "C1",
+        "IE5",
+        "O4"
+      ],
       "values": [
         {
           "name": "collapse",
@@ -1330,6 +1610,14 @@
     },
     {
       "name": "border-color",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "values": [],
       "syntax": "<color>{1,4}",
       "relevance": 87,
@@ -1346,6 +1634,14 @@
     },
     {
       "name": "border-image",
+      "browsers": [
+        "E12",
+        "FF15",
+        "S6",
+        "C16",
+        "IE11",
+        "O11"
+      ],
       "values": [
         {
           "name": "auto",
@@ -1398,6 +1694,14 @@
     },
     {
       "name": "border-image-outset",
+      "browsers": [
+        "E12",
+        "FF15",
+        "S6",
+        "C15",
+        "IE11",
+        "O15"
+      ],
       "syntax": "[ <length> | <number> ]{1,4}",
       "relevance": 50,
       "references": [
@@ -1414,6 +1718,14 @@
     },
     {
       "name": "border-image-repeat",
+      "browsers": [
+        "E12",
+        "FF15",
+        "S6",
+        "C15",
+        "IE11",
+        "O15"
+      ],
       "values": [
         {
           "name": "repeat",
@@ -1447,6 +1759,14 @@
     },
     {
       "name": "border-image-slice",
+      "browsers": [
+        "E12",
+        "FF15",
+        "S6",
+        "C15",
+        "IE11",
+        "O15"
+      ],
       "values": [
         {
           "name": "fill",
@@ -1469,6 +1789,14 @@
     },
     {
       "name": "border-image-source",
+      "browsers": [
+        "E12",
+        "FF15",
+        "S6",
+        "C15",
+        "IE11",
+        "O15"
+      ],
       "values": [
         {
           "name": "none",
@@ -1490,6 +1818,14 @@
     },
     {
       "name": "border-image-width",
+      "browsers": [
+        "E12",
+        "FF13",
+        "S6",
+        "C15",
+        "IE11",
+        "O15"
+      ],
       "values": [
         {
           "name": "auto",
@@ -1697,6 +2033,14 @@
     },
     {
       "name": "border-left",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "syntax": "<line-width> || <line-style> || <color>",
       "relevance": 82,
       "references": [
@@ -1715,6 +2059,14 @@
     },
     {
       "name": "border-left-color",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "syntax": "<color>",
       "relevance": 66,
       "references": [
@@ -1730,6 +2082,14 @@
     },
     {
       "name": "border-left-style",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE5.5",
+        "O9.2"
+      ],
       "syntax": "<line-style>",
       "relevance": 53,
       "references": [
@@ -1745,6 +2105,14 @@
     },
     {
       "name": "border-left-width",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "syntax": "<line-width>",
       "relevance": 59,
       "references": [
@@ -1761,6 +2129,14 @@
     },
     {
       "name": "border-radius",
+      "browsers": [
+        "E12",
+        "FF4",
+        "S5",
+        "C4",
+        "IE9",
+        "O10.5"
+      ],
       "syntax": "<length-percentage>{1,4} [ / <length-percentage>{1,4} ]?",
       "relevance": 92,
       "references": [
@@ -1777,6 +2153,14 @@
     },
     {
       "name": "border-right",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE5.5",
+        "O9.2"
+      ],
       "syntax": "<line-width> || <line-style> || <color>",
       "relevance": 81,
       "references": [
@@ -1795,6 +2179,14 @@
     },
     {
       "name": "border-right-color",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "syntax": "<color>",
       "relevance": 66,
       "references": [
@@ -1810,6 +2202,14 @@
     },
     {
       "name": "border-right-style",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE5.5",
+        "O9.2"
+      ],
       "syntax": "<line-style>",
       "relevance": 53,
       "references": [
@@ -1825,6 +2225,14 @@
     },
     {
       "name": "border-right-width",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "syntax": "<line-width>",
       "relevance": 60,
       "references": [
@@ -1841,6 +2249,14 @@
     },
     {
       "name": "border-spacing",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE8",
+        "O4"
+      ],
       "syntax": "<length> <length>?",
       "relevance": 68,
       "references": [
@@ -1856,6 +2272,14 @@
     },
     {
       "name": "border-style",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "values": [],
       "syntax": "<line-style>{1,4}",
       "relevance": 80,
@@ -1872,6 +2296,14 @@
     },
     {
       "name": "border-top",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "syntax": "<line-width> || <line-style> || <color>",
       "relevance": 87,
       "references": [
@@ -1890,6 +2322,14 @@
     },
     {
       "name": "border-top-color",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "syntax": "<color>",
       "relevance": 71,
       "references": [
@@ -1905,6 +2345,14 @@
     },
     {
       "name": "border-top-left-radius",
+      "browsers": [
+        "E12",
+        "FF4",
+        "S5",
+        "C4",
+        "IE9",
+        "O10.5"
+      ],
       "syntax": "<length-percentage>{1,2}",
       "relevance": 75,
       "references": [
@@ -1921,6 +2369,14 @@
     },
     {
       "name": "border-top-right-radius",
+      "browsers": [
+        "E12",
+        "FF4",
+        "S5",
+        "C4",
+        "IE9",
+        "O10.5"
+      ],
       "syntax": "<length-percentage>{1,2}",
       "relevance": 75,
       "references": [
@@ -1937,6 +2393,14 @@
     },
     {
       "name": "border-top-style",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE5.5",
+        "O9.2"
+      ],
       "syntax": "<line-style>",
       "relevance": 57,
       "references": [
@@ -1952,6 +2416,14 @@
     },
     {
       "name": "border-top-width",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "syntax": "<line-width>",
       "relevance": 61,
       "references": [
@@ -1968,6 +2440,14 @@
     },
     {
       "name": "border-width",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "values": [],
       "syntax": "<line-width>{1,4}",
       "relevance": 82,
@@ -1985,6 +2465,14 @@
     },
     {
       "name": "bottom",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE5",
+        "O6"
+      ],
       "values": [
         {
           "name": "auto",
@@ -2039,6 +2527,14 @@
     },
     {
       "name": "box-shadow",
+      "browsers": [
+        "E12",
+        "FF4",
+        "S5.1",
+        "C10",
+        "IE9",
+        "O10.5"
+      ],
       "values": [
         {
           "name": "inset",
@@ -2066,6 +2562,14 @@
     },
     {
       "name": "box-sizing",
+      "browsers": [
+        "E12",
+        "FF29",
+        "S5.1",
+        "C10",
+        "IE8",
+        "O7"
+      ],
       "values": [
         {
           "name": "border-box",
@@ -2091,6 +2595,14 @@
     },
     {
       "name": "break-after",
+      "browsers": [
+        "E12",
+        "FF65",
+        "S10",
+        "C50",
+        "IE10",
+        "O37"
+      ],
       "values": [
         {
           "name": "always",
@@ -2144,6 +2656,14 @@
     },
     {
       "name": "break-before",
+      "browsers": [
+        "E12",
+        "FF65",
+        "S10",
+        "C50",
+        "IE10",
+        "O37"
+      ],
       "values": [
         {
           "name": "always",
@@ -2197,6 +2717,14 @@
     },
     {
       "name": "break-inside",
+      "browsers": [
+        "E12",
+        "FF65",
+        "S10",
+        "C50",
+        "IE10",
+        "O37"
+      ],
       "values": [
         {
           "name": "auto",
@@ -2230,6 +2758,14 @@
     },
     {
       "name": "caption-side",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE8",
+        "O4"
+      ],
       "values": [
         {
           "name": "bottom",
@@ -2284,6 +2820,14 @@
     },
     {
       "name": "clear",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "values": [
         {
           "name": "both",
@@ -2317,6 +2861,14 @@
     },
     {
       "name": "clip",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O7"
+      ],
       "values": [
         {
           "name": "auto",
@@ -2342,6 +2894,14 @@
     },
     {
       "name": "clip-path",
+      "browsers": [
+        "E79",
+        "FF3.5",
+        "S9.1",
+        "C55",
+        "IE10",
+        "O42"
+      ],
       "values": [
         {
           "name": "none",
@@ -2396,6 +2956,14 @@
     },
     {
       "name": "color",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE3",
+        "O3.5"
+      ],
       "syntax": "<color>",
       "relevance": 95,
       "references": [
@@ -2441,6 +3009,14 @@
     },
     {
       "name": "column-count",
+      "browsers": [
+        "E12",
+        "FF52",
+        "S9",
+        "C50",
+        "IE10",
+        "O11.1"
+      ],
       "values": [
         {
           "name": "auto",
@@ -2463,6 +3039,14 @@
     },
     {
       "name": "column-fill",
+      "browsers": [
+        "E12",
+        "FF52",
+        "S9",
+        "C50",
+        "IE10",
+        "O37"
+      ],
       "values": [
         {
           "name": "auto",
@@ -2488,6 +3072,14 @@
     },
     {
       "name": "column-gap",
+      "browsers": [
+        "E12",
+        "FF1.5",
+        "S3",
+        "C1",
+        "IE10",
+        "O11.1"
+      ],
       "values": [
         {
           "name": "normal",
@@ -2510,6 +3102,14 @@
     },
     {
       "name": "column-rule",
+      "browsers": [
+        "E12",
+        "FF52",
+        "S9",
+        "C50",
+        "IE10",
+        "O11.1"
+      ],
       "syntax": "<'column-rule-width'> || <'column-rule-style'> || <'column-rule-color'>",
       "relevance": 51,
       "references": [
@@ -2528,6 +3128,14 @@
     },
     {
       "name": "column-rule-color",
+      "browsers": [
+        "E12",
+        "FF52",
+        "S9",
+        "C50",
+        "IE10",
+        "O11.1"
+      ],
       "syntax": "<color>",
       "relevance": 50,
       "references": [
@@ -2543,6 +3151,14 @@
     },
     {
       "name": "column-rule-style",
+      "browsers": [
+        "E12",
+        "FF52",
+        "S9",
+        "C50",
+        "IE10",
+        "O11.1"
+      ],
       "syntax": "<'border-style'>",
       "relevance": 50,
       "references": [
@@ -2558,6 +3174,14 @@
     },
     {
       "name": "column-rule-width",
+      "browsers": [
+        "E12",
+        "FF52",
+        "S9",
+        "C50",
+        "IE10",
+        "O11.1"
+      ],
       "syntax": "<'border-width'>",
       "relevance": 50,
       "references": [
@@ -2574,6 +3198,14 @@
     },
     {
       "name": "columns",
+      "browsers": [
+        "E12",
+        "FF52",
+        "S9",
+        "C50",
+        "IE10",
+        "O11.1"
+      ],
       "values": [
         {
           "name": "auto",
@@ -2597,6 +3229,14 @@
     },
     {
       "name": "column-span",
+      "browsers": [
+        "E12",
+        "FF71",
+        "S9",
+        "C50",
+        "IE10",
+        "O11.1"
+      ],
       "values": [
         {
           "name": "all",
@@ -2622,6 +3262,14 @@
     },
     {
       "name": "column-width",
+      "browsers": [
+        "E12",
+        "FF50",
+        "S9",
+        "C50",
+        "IE10",
+        "O11.1"
+      ],
       "values": [
         {
           "name": "auto",
@@ -2696,6 +3344,14 @@
     },
     {
       "name": "content",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE8",
+        "O4"
+      ],
       "values": [
         {
           "name": "attr()",
@@ -2737,6 +3393,14 @@
     },
     {
       "name": "counter-increment",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S3",
+        "C2",
+        "IE8",
+        "O9.2"
+      ],
       "values": [
         {
           "name": "none",
@@ -2759,6 +3423,14 @@
     },
     {
       "name": "counter-reset",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S3",
+        "C2",
+        "IE8",
+        "O9.2"
+      ],
       "values": [
         {
           "name": "none",
@@ -2781,6 +3453,14 @@
     },
     {
       "name": "cursor",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1.2",
+        "C1",
+        "IE4",
+        "O7"
+      ],
       "values": [
         {
           "name": "alias",
@@ -2828,10 +3508,26 @@
         },
         {
           "name": "grab",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1.2",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "Indicates that something can be grabbed."
         },
         {
           "name": "grabbing",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1.2",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "Indicates that something is being grabbed."
         },
         {
@@ -2844,18 +3540,50 @@
         },
         {
           "name": "-moz-grab",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1.2",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "Indicates that something can be grabbed."
         },
         {
           "name": "-moz-grabbing",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1.2",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "Indicates that something is being grabbed."
         },
         {
           "name": "-moz-zoom-in",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1.2",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "Indicates that something can be zoomed (magnified) in."
         },
         {
           "name": "-moz-zoom-out",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1.2",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "Indicates that something can be zoomed (magnified) out."
         },
         {
@@ -2932,18 +3660,50 @@
         },
         {
           "name": "-webkit-grab",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1.2",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "Indicates that something can be grabbed."
         },
         {
           "name": "-webkit-grabbing",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1.2",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "Indicates that something is being grabbed."
         },
         {
           "name": "-webkit-zoom-in",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1.2",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "Indicates that something can be zoomed (magnified) in."
         },
         {
           "name": "-webkit-zoom-out",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1.2",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "Indicates that something can be zoomed (magnified) out."
         },
         {
@@ -2952,10 +3712,26 @@
         },
         {
           "name": "zoom-in",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1.2",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "Indicates that something can be zoomed (magnified) in."
         },
         {
           "name": "zoom-out",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1.2",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "Indicates that something can be zoomed (magnified) out."
         }
       ],
@@ -2976,6 +3752,14 @@
     },
     {
       "name": "direction",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C2",
+        "IE5.5",
+        "O9.2"
+      ],
       "values": [
         {
           "name": "ltr",
@@ -3001,6 +3785,14 @@
     },
     {
       "name": "display",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O7"
+      ],
       "values": [
         {
           "name": "block",
@@ -3008,22 +3800,62 @@
         },
         {
           "name": "contents",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "The element itself does not generate any boxes, but its children and pseudo-elements still generate boxes as normal."
         },
         {
           "name": "flex",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "The element generates a principal flex container box and establishes a flex formatting context."
         },
         {
           "name": "flexbox",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "The element lays out its contents using flow layout (block-and-inline layout). Standardized as 'flex'."
         },
         {
           "name": "flow-root",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "The element generates a block container box, and lays out its contents using flow layout."
         },
         {
           "name": "grid",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "The element generates a principal grid container box, and establishes a grid formatting context."
         },
         {
@@ -3036,10 +3868,26 @@
         },
         {
           "name": "inline-flex",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "Inline-level flex container."
         },
         {
           "name": "inline-flexbox",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "Inline-level flex container. Standardized as 'inline-flex'"
         },
         {
@@ -3052,56 +3900,184 @@
         },
         {
           "name": "-moz-box",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "The element lays out its contents using flow layout (block-and-inline layout). Standardized as 'flex'."
         },
         {
-          "name": "-moz-deck"
+          "name": "-moz-deck",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ]
         },
         {
-          "name": "-moz-grid"
+          "name": "-moz-grid",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ]
         },
         {
-          "name": "-moz-grid-group"
+          "name": "-moz-grid-group",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ]
         },
         {
-          "name": "-moz-grid-line"
+          "name": "-moz-grid-line",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ]
         },
         {
-          "name": "-moz-groupbox"
+          "name": "-moz-groupbox",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ]
         },
         {
           "name": "-moz-inline-box",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "Inline-level flex container. Standardized as 'inline-flex'"
         },
         {
-          "name": "-moz-inline-grid"
+          "name": "-moz-inline-grid",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ]
         },
         {
-          "name": "-moz-inline-stack"
+          "name": "-moz-inline-stack",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ]
         },
         {
-          "name": "-moz-marker"
+          "name": "-moz-marker",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ]
         },
         {
-          "name": "-moz-popup"
+          "name": "-moz-popup",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ]
         },
         {
-          "name": "-moz-stack"
+          "name": "-moz-stack",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ]
         },
         {
           "name": "-ms-flexbox",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "The element lays out its contents using flow layout (block-and-inline layout). Standardized as 'flex'."
         },
         {
           "name": "-ms-grid",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "The element generates a principal grid container box, and establishes a grid formatting context."
         },
         {
           "name": "-ms-inline-flexbox",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "Inline-level flex container. Standardized as 'inline-flex'"
         },
         {
           "name": "-ms-inline-grid",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "Inline-level grid container."
         },
         {
@@ -3126,6 +4102,14 @@
         },
         {
           "name": "run-in",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "The element generates a run-in box. Run-in elements act like inlines or blocks, depending on the surrounding elements."
         },
         {
@@ -3158,18 +4142,50 @@
         },
         {
           "name": "-webkit-box",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "The element lays out its contents using flow layout (block-and-inline layout). Standardized as 'flex'."
         },
         {
           "name": "-webkit-flex",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "The element lays out its contents using flow layout (block-and-inline layout)."
         },
         {
           "name": "-webkit-inline-box",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "Inline-level flex container. Standardized as 'inline-flex'"
         },
         {
           "name": "-webkit-inline-flex",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "Inline-level flex container."
         }
       ],
@@ -3188,13 +4204,29 @@
     },
     {
       "name": "empty-cells",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1.2",
+        "C1",
+        "IE8",
+        "O4"
+      ],
       "values": [
         {
           "name": "hide",
           "description": "No borders or backgrounds are drawn around/behind empty cells."
         },
         {
-          "name": "-moz-show-background"
+          "name": "-moz-show-background",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1.2",
+            "C1",
+            "IE8",
+            "O4"
+          ]
         },
         {
           "name": "show",
@@ -3375,6 +4407,14 @@
     },
     {
       "name": "flex",
+      "browsers": [
+        "E12",
+        "FF20",
+        "S9",
+        "C29",
+        "IE11",
+        "O12.1"
+      ],
       "values": [
         {
           "name": "auto",
@@ -3382,6 +4422,14 @@
         },
         {
           "name": "content",
+          "browsers": [
+            "E12",
+            "FF20",
+            "S9",
+            "C29",
+            "IE11",
+            "O12.1"
+          ],
           "description": "Indicates automatic sizing, based on the flex item's content."
         },
         {
@@ -3406,6 +4454,14 @@
     },
     {
       "name": "flex-basis",
+      "browsers": [
+        "E12",
+        "FF22",
+        "S9",
+        "C29",
+        "IE11",
+        "O12.1"
+      ],
       "values": [
         {
           "name": "auto",
@@ -3413,6 +4469,14 @@
         },
         {
           "name": "content",
+          "browsers": [
+            "E12",
+            "FF22",
+            "S9",
+            "C29",
+            "IE11",
+            "O12.1"
+          ],
           "description": "Indicates automatic sizing, based on the flex item's content."
         }
       ],
@@ -3433,6 +4497,14 @@
     },
     {
       "name": "flex-direction",
+      "browsers": [
+        "E12",
+        "FF81",
+        "S9",
+        "C29",
+        "IE11",
+        "O12.1"
+      ],
       "values": [
         {
           "name": "column",
@@ -3466,6 +4538,14 @@
     },
     {
       "name": "flex-flow",
+      "browsers": [
+        "E12",
+        "FF28",
+        "S9",
+        "C29",
+        "IE11",
+        "O12.1"
+      ],
       "values": [
         {
           "name": "column",
@@ -3511,6 +4591,14 @@
     },
     {
       "name": "flex-grow",
+      "browsers": [
+        "E12",
+        "FF20",
+        "S9",
+        "C29",
+        "IE11",
+        "O12.1"
+      ],
       "syntax": "<number>",
       "relevance": 76,
       "references": [
@@ -3526,6 +4614,14 @@
     },
     {
       "name": "flex-shrink",
+      "browsers": [
+        "E12",
+        "FF20",
+        "S9",
+        "C29",
+        "IE10",
+        "O12.1"
+      ],
       "syntax": "<number>",
       "relevance": 74,
       "references": [
@@ -3541,6 +4637,14 @@
     },
     {
       "name": "flex-wrap",
+      "browsers": [
+        "E12",
+        "FF28",
+        "S9",
+        "C29",
+        "IE11",
+        "O17"
+      ],
       "values": [
         {
           "name": "nowrap",
@@ -3570,13 +4674,37 @@
     },
     {
       "name": "float",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O7"
+      ],
       "values": [
         {
           "name": "inline-end",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "A keyword indicating that the element must float on the end side of its containing block. That is the right side with ltr scripts, and the left side with rtl scripts."
         },
         {
           "name": "inline-start",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "A keyword indicating that the element must float on the start side of its containing block. That is the left side with ltr scripts, and the right side with rtl scripts."
         },
         {
@@ -3640,6 +4768,14 @@
     },
     {
       "name": "font",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE3",
+        "O3.5"
+      ],
       "values": [
         {
           "name": "100",
@@ -3772,6 +4908,14 @@
     },
     {
       "name": "font-family",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE3",
+        "O3.5"
+      ],
       "values": [
         {
           "name": "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"
@@ -3843,6 +4987,14 @@
     },
     {
       "name": "font-feature-settings",
+      "browsers": [
+        "E15",
+        "FF34",
+        "S9.1",
+        "C48",
+        "IE10",
+        "O35"
+      ],
       "values": [
         {
           "name": "\"aalt\"",
@@ -4401,6 +5553,14 @@
     },
     {
       "name": "font-size",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE5.5",
+        "O7"
+      ],
       "values": [
         {
           "name": "large"
@@ -4470,6 +5630,14 @@
     },
     {
       "name": "font-stretch",
+      "browsers": [
+        "E12",
+        "FF9",
+        "S11",
+        "C60",
+        "IE9",
+        "O47"
+      ],
       "values": [
         {
           "name": "condensed"
@@ -4485,6 +5653,14 @@
         },
         {
           "name": "narrower",
+          "browsers": [
+            "E12",
+            "FF9",
+            "S11",
+            "C60",
+            "IE9",
+            "O47"
+          ],
           "description": "Indicates a narrower value relative to the width of the parent element."
         },
         {
@@ -4504,6 +5680,14 @@
         },
         {
           "name": "wider",
+          "browsers": [
+            "E12",
+            "FF9",
+            "S11",
+            "C60",
+            "IE9",
+            "O47"
+          ],
           "description": "Indicates a wider value relative to the width of the parent element."
         }
       ],
@@ -4522,6 +5706,14 @@
     },
     {
       "name": "font-style",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O7"
+      ],
       "values": [
         {
           "name": "italic",
@@ -4587,6 +5779,14 @@
     },
     {
       "name": "font-variant",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "values": [
         {
           "name": "normal",
@@ -4967,6 +6167,14 @@
     },
     {
       "name": "font-weight",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C2",
+        "IE3",
+        "O3.5"
+      ],
       "values": [
         {
           "name": "100",
@@ -5120,6 +6328,14 @@
     },
     {
       "name": "grid-auto-columns",
+      "browsers": [
+        "E16",
+        "FF70",
+        "S10.1",
+        "C57",
+        "IE10",
+        "O44"
+      ],
       "values": [
         {
           "name": "min-content",
@@ -5190,6 +6406,14 @@
     },
     {
       "name": "grid-auto-rows",
+      "browsers": [
+        "E16",
+        "FF70",
+        "S10.1",
+        "C57",
+        "IE10",
+        "O44"
+      ],
       "values": [
         {
           "name": "min-content",
@@ -5560,6 +6784,14 @@
     },
     {
       "name": "grid-template-columns",
+      "browsers": [
+        "E16",
+        "FF52",
+        "S10.1",
+        "C57",
+        "IE10",
+        "O44"
+      ],
       "values": [
         {
           "name": "none",
@@ -5608,6 +6840,14 @@
     },
     {
       "name": "grid-template-rows",
+      "browsers": [
+        "E16",
+        "FF52",
+        "S10.1",
+        "C57",
+        "IE10",
+        "O44"
+      ],
       "values": [
         {
           "name": "none",
@@ -5657,6 +6897,14 @@
     },
     {
       "name": "height",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O7"
+      ],
       "values": [
         {
           "name": "auto",
@@ -5664,14 +6912,38 @@
         },
         {
           "name": "fit-content",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "Use the fit-content inline size or fit-content block size, as appropriate to the writing mode."
         },
         {
           "name": "max-content",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "Use the max-content inline size or max-content block size, as appropriate to the writing mode."
         },
         {
           "name": "min-content",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "Use the min-content inline size or min-content block size, as appropriate to the writing mode."
         }
       ],
@@ -5691,6 +6963,14 @@
     },
     {
       "name": "hyphens",
+      "browsers": [
+        "E79",
+        "FF43",
+        "S5.1",
+        "C55",
+        "IE10",
+        "O44"
+      ],
       "values": [
         {
           "name": "auto",
@@ -5910,6 +7190,14 @@
     },
     {
       "name": "justify-content",
+      "browsers": [
+        "E12",
+        "FF20",
+        "S9",
+        "C29",
+        "IE11",
+        "O12.1"
+      ],
       "values": [
         {
           "name": "center",
@@ -6006,6 +7294,14 @@
     },
     {
       "name": "left",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE5.5",
+        "O5"
+      ],
       "values": [
         {
           "name": "auto",
@@ -6028,6 +7324,14 @@
     },
     {
       "name": "letter-spacing",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "values": [
         {
           "name": "normal",
@@ -6065,6 +7369,14 @@
     },
     {
       "name": "line-break",
+      "browsers": [
+        "E14",
+        "FF69",
+        "S11",
+        "C58",
+        "IE5.5",
+        "O45"
+      ],
       "values": [
         {
           "name": "auto",
@@ -6102,6 +7414,14 @@
     },
     {
       "name": "line-height",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O7"
+      ],
       "values": [
         {
           "name": "normal",
@@ -6125,6 +7445,14 @@
     },
     {
       "name": "list-style",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O7"
+      ],
       "values": [
         {
           "name": "armenian"
@@ -6175,6 +7503,14 @@
         },
         {
           "name": "symbols()",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "Allows a counter style to be defined inline."
         },
         {
@@ -6207,6 +7543,14 @@
     },
     {
       "name": "list-style-image",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O7"
+      ],
       "values": [
         {
           "name": "none",
@@ -6228,6 +7572,14 @@
     },
     {
       "name": "list-style-position",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "values": [
         {
           "name": "inside",
@@ -6253,6 +7605,14 @@
     },
     {
       "name": "list-style-type",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "values": [
         {
           "name": "armenian",
@@ -6304,6 +7664,14 @@
         },
         {
           "name": "symbols()",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O3.5"
+          ],
           "description": "Allows a counter style to be defined inline."
         },
         {
@@ -6335,6 +7703,14 @@
     },
     {
       "name": "margin",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE3",
+        "O3.5"
+      ],
       "values": [
         {
           "name": "auto"
@@ -6412,6 +7788,14 @@
     },
     {
       "name": "margin-bottom",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE3",
+        "O3.5"
+      ],
       "values": [
         {
           "name": "auto"
@@ -6489,6 +7873,14 @@
     },
     {
       "name": "margin-left",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE3",
+        "O3.5"
+      ],
       "values": [
         {
           "name": "auto"
@@ -6510,6 +7902,14 @@
     },
     {
       "name": "margin-right",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE3",
+        "O3.5"
+      ],
       "values": [
         {
           "name": "auto"
@@ -6531,6 +7931,14 @@
     },
     {
       "name": "margin-top",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE3",
+        "O3.5"
+      ],
       "values": [
         {
           "name": "auto"
@@ -6861,6 +8269,14 @@
     },
     {
       "name": "max-height",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1.3",
+        "C18",
+        "IE7",
+        "O7"
+      ],
       "values": [
         {
           "name": "none",
@@ -6868,14 +8284,38 @@
         },
         {
           "name": "fit-content",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1.3",
+            "C18",
+            "IE7",
+            "O7"
+          ],
           "description": "Use the fit-content inline size or fit-content block size, as appropriate to the writing mode."
         },
         {
           "name": "max-content",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1.3",
+            "C18",
+            "IE7",
+            "O7"
+          ],
           "description": "Use the max-content inline size or max-content block size, as appropriate to the writing mode."
         },
         {
           "name": "min-content",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1.3",
+            "C18",
+            "IE7",
+            "O7"
+          ],
           "description": "Use the min-content inline size or min-content block size, as appropriate to the writing mode."
         }
       ],
@@ -6924,6 +8364,14 @@
     },
     {
       "name": "max-width",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE7",
+        "O4"
+      ],
       "values": [
         {
           "name": "none",
@@ -6931,14 +8379,38 @@
         },
         {
           "name": "fit-content",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE7",
+            "O4"
+          ],
           "description": "Use the fit-content inline size or fit-content block size, as appropriate to the writing mode."
         },
         {
           "name": "max-content",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE7",
+            "O4"
+          ],
           "description": "Use the max-content inline size or max-content block size, as appropriate to the writing mode."
         },
         {
           "name": "min-content",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE7",
+            "O4"
+          ],
           "description": "Use the min-content inline size or min-content block size, as appropriate to the writing mode."
         }
       ],
@@ -6981,20 +8453,60 @@
     },
     {
       "name": "min-height",
+      "browsers": [
+        "E12",
+        "FF3",
+        "S1.3",
+        "C1",
+        "IE7",
+        "O4"
+      ],
       "values": [
         {
-          "name": "auto"
+          "name": "auto",
+          "browsers": [
+            "E12",
+            "FF3",
+            "S1.3",
+            "C1",
+            "IE7",
+            "O4"
+          ]
         },
         {
           "name": "fit-content",
+          "browsers": [
+            "E12",
+            "FF3",
+            "S1.3",
+            "C1",
+            "IE7",
+            "O4"
+          ],
           "description": "Use the fit-content inline size or fit-content block size, as appropriate to the writing mode."
         },
         {
           "name": "max-content",
+          "browsers": [
+            "E12",
+            "FF3",
+            "S1.3",
+            "C1",
+            "IE7",
+            "O4"
+          ],
           "description": "Use the max-content inline size or max-content block size, as appropriate to the writing mode."
         },
         {
           "name": "min-content",
+          "browsers": [
+            "E12",
+            "FF3",
+            "S1.3",
+            "C1",
+            "IE7",
+            "O4"
+          ],
           "description": "Use the min-content inline size or min-content block size, as appropriate to the writing mode."
         }
       ],
@@ -7037,20 +8549,60 @@
     },
     {
       "name": "min-width",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE7",
+        "O4"
+      ],
       "values": [
         {
-          "name": "auto"
+          "name": "auto",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE7",
+            "O4"
+          ]
         },
         {
           "name": "fit-content",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE7",
+            "O4"
+          ],
           "description": "Use the fit-content inline size or fit-content block size, as appropriate to the writing mode."
         },
         {
           "name": "max-content",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE7",
+            "O4"
+          ],
           "description": "Use the max-content inline size or max-content block size, as appropriate to the writing mode."
         },
         {
           "name": "min-content",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE7",
+            "O4"
+          ],
           "description": "Use the min-content inline size or min-content block size, as appropriate to the writing mode."
         }
       ],
@@ -11323,6 +12875,14 @@
     },
     {
       "name": "opacity",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S2",
+        "C1",
+        "IE9",
+        "O9"
+      ],
       "syntax": "<alpha-value>",
       "relevance": 93,
       "references": [
@@ -11338,6 +12898,14 @@
     },
     {
       "name": "order",
+      "browsers": [
+        "E12",
+        "FF20",
+        "S9",
+        "C29",
+        "IE11",
+        "O12.1"
+      ],
       "syntax": "<integer>",
       "relevance": 64,
       "references": [
@@ -11678,6 +13246,14 @@
     },
     {
       "name": "outline",
+      "browsers": [
+        "E12",
+        "FF1.5",
+        "S1.2",
+        "C1",
+        "IE8",
+        "O7"
+      ],
       "values": [
         {
           "name": "auto",
@@ -11685,6 +13261,14 @@
         },
         {
           "name": "invert",
+          "browsers": [
+            "E12",
+            "FF1.5",
+            "S1.2",
+            "C1",
+            "IE8",
+            "O7"
+          ],
           "description": "Performs a color inversion on the pixels on the screen."
         }
       ],
@@ -11707,9 +13291,25 @@
     },
     {
       "name": "outline-color",
+      "browsers": [
+        "E12",
+        "FF1.5",
+        "S1.2",
+        "C1",
+        "IE8",
+        "O7"
+      ],
       "values": [
         {
           "name": "invert",
+          "browsers": [
+            "E12",
+            "FF1.5",
+            "S1.2",
+            "C1",
+            "IE8",
+            "O7"
+          ],
           "description": "Performs a color inversion on the pixels on the screen."
         }
       ],
@@ -11751,6 +13351,14 @@
     },
     {
       "name": "outline-style",
+      "browsers": [
+        "E12",
+        "FF1.5",
+        "S1.2",
+        "C1",
+        "IE8",
+        "O7"
+      ],
       "values": [
         {
           "name": "auto",
@@ -11773,6 +13381,14 @@
     },
     {
       "name": "outline-width",
+      "browsers": [
+        "E12",
+        "FF1.5",
+        "S1.2",
+        "C1",
+        "IE8",
+        "O7"
+      ],
       "syntax": "<line-width>",
       "relevance": 61,
       "references": [
@@ -11789,6 +13405,14 @@
     },
     {
       "name": "overflow",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O7"
+      ],
       "values": [
         {
           "name": "auto",
@@ -11800,6 +13424,14 @@
         },
         {
           "name": "-moz-hidden-unscrollable",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O7"
+          ],
           "description": "Same as the standardized 'clip', except doesn't establish a block formatting context."
         },
         {
@@ -11826,6 +13458,14 @@
     },
     {
       "name": "overflow-wrap",
+      "browsers": [
+        "E18",
+        "FF49",
+        "S7",
+        "C23",
+        "IE5.5",
+        "O12.1"
+      ],
       "values": [
         {
           "name": "break-word",
@@ -11851,6 +13491,14 @@
     },
     {
       "name": "overflow-x",
+      "browsers": [
+        "E12",
+        "FF3.5",
+        "S3",
+        "C1",
+        "IE5",
+        "O9.5"
+      ],
       "values": [
         {
           "name": "auto",
@@ -11884,6 +13532,14 @@
     },
     {
       "name": "overflow-y",
+      "browsers": [
+        "E12",
+        "FF3.5",
+        "S3",
+        "C1",
+        "IE5",
+        "O9.5"
+      ],
       "values": [
         {
           "name": "auto",
@@ -11932,6 +13588,14 @@
     },
     {
       "name": "padding",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "values": [],
       "syntax": "[ <length> | <percentage> ]{1,4}",
       "relevance": 95,
@@ -11949,6 +13613,14 @@
     },
     {
       "name": "padding-bottom",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "syntax": "<length> | <percentage>",
       "relevance": 89,
       "references": [
@@ -12057,6 +13729,14 @@
     },
     {
       "name": "padding-left",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "syntax": "<length> | <percentage>",
       "relevance": 90,
       "references": [
@@ -12073,6 +13753,14 @@
     },
     {
       "name": "padding-right",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "syntax": "<length> | <percentage>",
       "relevance": 89,
       "references": [
@@ -12089,6 +13777,14 @@
     },
     {
       "name": "padding-top",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "syntax": "<length> | <percentage>",
       "relevance": 90,
       "references": [
@@ -12105,6 +13801,14 @@
     },
     {
       "name": "page-break-after",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1.2",
+        "C1",
+        "IE4",
+        "O7"
+      ],
       "values": [
         {
           "name": "always",
@@ -12142,6 +13846,14 @@
     },
     {
       "name": "page-break-before",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1.2",
+        "C1",
+        "IE4",
+        "O7"
+      ],
       "values": [
         {
           "name": "always",
@@ -12179,6 +13891,14 @@
     },
     {
       "name": "page-break-inside",
+      "browsers": [
+        "E12",
+        "FF19",
+        "S1.3",
+        "C1",
+        "IE8",
+        "O7"
+      ],
       "values": [
         {
           "name": "auto",
@@ -12241,6 +13961,14 @@
     },
     {
       "name": "perspective",
+      "browsers": [
+        "E12",
+        "FF16",
+        "S9",
+        "C36",
+        "IE10",
+        "O23"
+      ],
       "values": [
         {
           "name": "none",
@@ -12263,6 +13991,14 @@
     },
     {
       "name": "perspective-origin",
+      "browsers": [
+        "E12",
+        "FF16",
+        "S9",
+        "C36",
+        "IE10",
+        "O23"
+      ],
       "syntax": "<position>",
       "relevance": 51,
       "references": [
@@ -12280,6 +14016,14 @@
     },
     {
       "name": "pointer-events",
+      "browsers": [
+        "E12",
+        "FF1.5",
+        "S4",
+        "C1",
+        "IE11",
+        "O9"
+      ],
       "values": [
         {
           "name": "all",
@@ -12333,6 +14077,14 @@
     },
     {
       "name": "position",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O4"
+      ],
       "values": [
         {
           "name": "absolute",
@@ -12344,6 +14096,14 @@
         },
         {
           "name": "-ms-page",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O4"
+          ],
           "description": "The box's position is calculated according to the 'absolute' model."
         },
         {
@@ -12356,10 +14116,26 @@
         },
         {
           "name": "sticky",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O4"
+          ],
           "description": "The box's position is calculated according to the normal flow. Then the box is offset relative to its flow root and containing block and in all cases, including table elements, does not affect the position of any following boxes."
         },
         {
           "name": "-webkit-sticky",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O4"
+          ],
           "description": "The box's position is calculated according to the normal flow. Then the box is offset relative to its flow root and containing block and in all cases, including table elements, does not affect the position of any following boxes."
         }
       ],
@@ -12392,6 +14168,14 @@
     },
     {
       "name": "quotes",
+      "browsers": [
+        "E12",
+        "FF1.5",
+        "S9",
+        "C11",
+        "IE8",
+        "O4"
+      ],
       "values": [
         {
           "name": "none",
@@ -12476,6 +14260,14 @@
     },
     {
       "name": "right",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE5.5",
+        "O5"
+      ],
       "values": [
         {
           "name": "auto",
@@ -12944,6 +14736,14 @@
     },
     {
       "name": "scroll-snap-type",
+      "browsers": [
+        "E79",
+        "FF68",
+        "S11",
+        "C69",
+        "IE10",
+        "O56"
+      ],
       "values": [
         {
           "name": "none",
@@ -13320,6 +15120,14 @@
     },
     {
       "name": "table-layout",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C14",
+        "IE5",
+        "O7"
+      ],
       "values": [
         {
           "name": "auto",
@@ -13368,6 +15176,14 @@
     },
     {
       "name": "text-align",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE3",
+        "O3.5"
+      ],
       "values": [
         {
           "name": "center",
@@ -13375,6 +15191,14 @@
         },
         {
           "name": "end",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE3",
+            "O3.5"
+          ],
           "description": "The inline contents are aligned to the end edge of the line box."
         },
         {
@@ -13391,6 +15215,14 @@
         },
         {
           "name": "start",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE3",
+            "O3.5"
+          ],
           "description": "The inline contents are aligned to the start edge of the line box."
         }
       ],
@@ -13409,6 +15241,14 @@
     },
     {
       "name": "text-align-last",
+      "browsers": [
+        "E12",
+        "FF49",
+        "S16",
+        "C47",
+        "IE5.5",
+        "O34"
+      ],
       "values": [
         {
           "name": "auto",
@@ -13468,6 +15308,14 @@
     },
     {
       "name": "text-decoration",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE3",
+        "O3.5"
+      ],
       "values": [
         {
           "name": "dashed",
@@ -13632,6 +15480,14 @@
     },
     {
       "name": "text-indent",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE3",
+        "O3.5"
+      ],
       "values": [],
       "syntax": "<length-percentage> && hanging? && each-line?",
       "relevance": 68,
@@ -13753,6 +15609,14 @@
     },
     {
       "name": "text-overflow",
+      "browsers": [
+        "E12",
+        "FF7",
+        "S1.3",
+        "C1",
+        "IE6",
+        "O11"
+      ],
       "values": [
         {
           "name": "clip",
@@ -13818,6 +15682,14 @@
     },
     {
       "name": "text-shadow",
+      "browsers": [
+        "E12",
+        "FF3.5",
+        "S1.1",
+        "C2",
+        "IE10",
+        "O9.5"
+      ],
       "values": [
         {
           "name": "none",
@@ -13840,6 +15712,14 @@
     },
     {
       "name": "text-transform",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O7"
+      ],
       "values": [
         {
           "name": "capitalize",
@@ -13873,6 +15753,14 @@
     },
     {
       "name": "text-underline-position",
+      "browsers": [
+        "E12",
+        "FF74",
+        "S12.1",
+        "C33",
+        "IE6",
+        "O20"
+      ],
       "values": [
         {
           "name": "above"
@@ -13901,6 +15789,14 @@
     },
     {
       "name": "top",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE5",
+        "O6"
+      ],
       "values": [
         {
           "name": "auto",
@@ -13923,19 +15819,51 @@
     },
     {
       "name": "touch-action",
+      "browsers": [
+        "E12",
+        "FF52",
+        "S13",
+        "C36",
+        "IE11",
+        "O23"
+      ],
       "values": [
         {
           "name": "auto",
           "description": "The user agent may determine any permitted touch behaviors for touches that begin on the element."
         },
         {
-          "name": "cross-slide-x"
+          "name": "cross-slide-x",
+          "browsers": [
+            "E12",
+            "FF52",
+            "S13",
+            "C36",
+            "IE11",
+            "O23"
+          ]
         },
         {
-          "name": "cross-slide-y"
+          "name": "cross-slide-y",
+          "browsers": [
+            "E12",
+            "FF52",
+            "S13",
+            "C36",
+            "IE11",
+            "O23"
+          ]
         },
         {
-          "name": "double-tap-zoom"
+          "name": "double-tap-zoom",
+          "browsers": [
+            "E12",
+            "FF52",
+            "S13",
+            "C36",
+            "IE11",
+            "O23"
+          ]
         },
         {
           "name": "manipulation",
@@ -13954,7 +15882,15 @@
           "description": "The user agent may consider touches that begin on the element only for the purposes of vertically scrolling the element's nearest ancestor with vertically scrollable content."
         },
         {
-          "name": "pinch-zoom"
+          "name": "pinch-zoom",
+          "browsers": [
+            "E12",
+            "FF52",
+            "S13",
+            "C36",
+            "IE11",
+            "O23"
+          ]
         }
       ],
       "syntax": "auto | none | [ [ pan-x | pan-left | pan-right ] || [ pan-y | pan-up | pan-down ] || pinch-zoom ] | manipulation",
@@ -13972,6 +15908,14 @@
     },
     {
       "name": "transform",
+      "browsers": [
+        "E12",
+        "FF16",
+        "S9",
+        "C36",
+        "IE10",
+        "O23"
+      ],
       "values": [
         {
           "name": "matrix()",
@@ -14076,6 +16020,14 @@
     },
     {
       "name": "transform-origin",
+      "browsers": [
+        "E12",
+        "FF16",
+        "S9",
+        "C36",
+        "IE10",
+        "O23"
+      ],
       "syntax": "[ <length-percentage> | left | center | right | top | bottom ] | [ [ <length-percentage> | left | center | right ] && [ <length-percentage> | top | center | bottom ] ] <length>?",
       "relevance": 76,
       "references": [
@@ -14132,6 +16084,14 @@
     },
     {
       "name": "transition",
+      "browsers": [
+        "E12",
+        "FF16",
+        "S9",
+        "C26",
+        "IE10",
+        "O12.1"
+      ],
       "values": [
         {
           "name": "all",
@@ -14160,6 +16120,14 @@
     },
     {
       "name": "transition-delay",
+      "browsers": [
+        "E12",
+        "FF16",
+        "S9",
+        "C26",
+        "IE10",
+        "O12.1"
+      ],
       "syntax": "<time>#",
       "relevance": 63,
       "references": [
@@ -14175,6 +16143,14 @@
     },
     {
       "name": "transition-duration",
+      "browsers": [
+        "E12",
+        "FF16",
+        "S9",
+        "C26",
+        "IE10",
+        "O12.1"
+      ],
       "syntax": "<time>#",
       "relevance": 66,
       "references": [
@@ -14190,6 +16166,14 @@
     },
     {
       "name": "transition-property",
+      "browsers": [
+        "E12",
+        "FF16",
+        "S9",
+        "C26",
+        "IE10",
+        "O12.1"
+      ],
       "values": [
         {
           "name": "all",
@@ -14215,6 +16199,14 @@
     },
     {
       "name": "transition-timing-function",
+      "browsers": [
+        "E12",
+        "FF16",
+        "S9",
+        "C26",
+        "IE10",
+        "O12.1"
+      ],
       "syntax": "<easing-function>#",
       "relevance": 66,
       "references": [
@@ -14230,6 +16222,14 @@
     },
     {
       "name": "unicode-bidi",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1.3",
+        "C2",
+        "IE5.5",
+        "O9.2"
+      ],
       "values": [
         {
           "name": "bidi-override",
@@ -14241,10 +16241,26 @@
         },
         {
           "name": "isolate",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1.3",
+            "C2",
+            "IE5.5",
+            "O9.2"
+          ],
           "description": "The contents of the element are considered to be inside a separate, independent paragraph."
         },
         {
           "name": "isolate-override",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1.3",
+            "C2",
+            "IE5.5",
+            "O9.2"
+          ],
           "description": "This combines the isolation behavior of 'isolate' with the directional override behavior of 'bidi-override'"
         },
         {
@@ -14253,6 +16269,14 @@
         },
         {
           "name": "plaintext",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1.3",
+            "C2",
+            "IE5.5",
+            "O9.2"
+          ],
           "description": "For the purposes of the Unicode bidirectional algorithm, the base directionality of each bidi paragraph for which the element forms the containing block is determined not by the element's computed 'direction'."
         }
       ],
@@ -14590,6 +16614,14 @@
     },
     {
       "name": "user-select",
+      "browsers": [
+        "E79",
+        "FF69",
+        "S3",
+        "C54",
+        "IE10",
+        "O41"
+      ],
       "values": [
         {
           "name": "all",
@@ -14626,6 +16658,14 @@
     },
     {
       "name": "vertical-align",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O4"
+      ],
       "values": [
         {
           "name": "auto",
@@ -14664,7 +16704,15 @@
           "description": "Align the before edge of the extended inline box with the before-edge of the line box."
         },
         {
-          "name": "-webkit-baseline-middle"
+          "name": "-webkit-baseline-middle",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O4"
+          ]
         }
       ],
       "syntax": "baseline | sub | super | text-top | text-bottom | middle | top | bottom | <percentage> | <length>",
@@ -14683,6 +16731,14 @@
     },
     {
       "name": "visibility",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O4"
+      ],
       "values": [
         {
           "name": "collapse",
@@ -16880,6 +18936,14 @@
     },
     {
       "name": "width",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "values": [
         {
           "name": "auto",
@@ -16887,14 +18951,38 @@
         },
         {
           "name": "fit-content",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O3.5"
+          ],
           "description": "Use the fit-content inline size or fit-content block size, as appropriate to the writing mode."
         },
         {
           "name": "max-content",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O3.5"
+          ],
           "description": "Use the max-content inline size or max-content block size, as appropriate to the writing mode."
         },
         {
           "name": "min-content",
+          "browsers": [
+            "E12",
+            "FF1",
+            "S1",
+            "C1",
+            "IE4",
+            "O3.5"
+          ],
           "description": "Use the min-content inline size or min-content block size, as appropriate to the writing mode."
         }
       ],
@@ -16951,6 +19039,14 @@
     },
     {
       "name": "word-break",
+      "browsers": [
+        "E12",
+        "FF15",
+        "S3",
+        "C1",
+        "IE5.5",
+        "O15"
+      ],
       "values": [
         {
           "name": "break-all",
@@ -16980,6 +19076,14 @@
     },
     {
       "name": "word-spacing",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE6",
+        "O3.5"
+      ],
       "values": [
         {
           "name": "normal",
@@ -17021,6 +19125,14 @@
     },
     {
       "name": "writing-mode",
+      "browsers": [
+        "E12",
+        "FF41",
+        "S10.1",
+        "C48",
+        "IE9",
+        "O35"
+      ],
       "values": [
         {
           "name": "horizontal-tb",
@@ -17028,10 +19140,26 @@
         },
         {
           "name": "sideways-lr",
+          "browsers": [
+            "E12",
+            "FF41",
+            "S10.1",
+            "C48",
+            "IE9",
+            "O35"
+          ],
           "description": "Left-to-right block flow direction. The writing mode is vertical, while the typographic mode is horizontal."
         },
         {
           "name": "sideways-rl",
+          "browsers": [
+            "E12",
+            "FF41",
+            "S10.1",
+            "C48",
+            "IE9",
+            "O35"
+          ],
           "description": "Right-to-left block flow direction. The writing mode is vertical, while the typographic mode is horizontal."
         },
         {
@@ -17058,6 +19186,14 @@
     },
     {
       "name": "z-index",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O4"
+      ],
       "values": [
         {
           "name": "auto",
@@ -19672,6 +21808,14 @@
       "name": "text-combine-upright",
       "syntax": "none | all | [ digits <integer>? ]",
       "relevance": 50,
+      "browsers": [
+        "E15",
+        "FF48",
+        "S5.1",
+        "C48",
+        "IE11",
+        "O35"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -19891,6 +22035,14 @@
       "name": "white-space",
       "syntax": "normal | pre | nowrap | pre-wrap | pre-line | break-spaces",
       "relevance": 89,
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE5.5",
+        "O4"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -20007,6 +22159,14 @@
   "atDirectives": [
     {
       "name": "@charset",
+      "browsers": [
+        "E12",
+        "FF1.5",
+        "S4",
+        "C2",
+        "IE5.5",
+        "O9"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -20033,6 +22193,14 @@
     },
     {
       "name": "@font-face",
+      "browsers": [
+        "E12",
+        "FF3.5",
+        "S3.1",
+        "C1",
+        "IE4",
+        "O10"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -20057,6 +22225,14 @@
     },
     {
       "name": "@import",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE5.5",
+        "O3.5"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -20067,6 +22243,14 @@
     },
     {
       "name": "@keyframes",
+      "browsers": [
+        "E12",
+        "FF16",
+        "S9",
+        "C43",
+        "IE10",
+        "O30"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -20094,6 +22278,14 @@
     },
     {
       "name": "@media",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S3",
+        "C1",
+        "IE6",
+        "O9.2"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -20126,6 +22318,14 @@
     },
     {
       "name": "@namespace",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE9",
+        "O8"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -20209,6 +22409,14 @@
   "pseudoClasses": [
     {
       "name": ":active",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O5"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -20236,6 +22444,14 @@
     },
     {
       "name": ":checked",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S3.1",
+        "C1",
+        "IE9",
+        "O9"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -20279,6 +22495,14 @@
     },
     {
       "name": ":disabled",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S3.1",
+        "C1",
+        "IE9",
+        "O9"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -20297,6 +22521,14 @@
     },
     {
       "name": ":empty",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S3.1",
+        "C1",
+        "IE9",
+        "O9.5"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -20307,6 +22539,14 @@
     },
     {
       "name": ":enabled",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S3.1",
+        "C1",
+        "IE9",
+        "O9"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -20342,6 +22582,14 @@
     },
     {
       "name": ":first-child",
+      "browsers": [
+        "E12",
+        "FF3",
+        "S3.1",
+        "C4",
+        "IE7",
+        "O9.5"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -20352,6 +22600,14 @@
     },
     {
       "name": ":first-of-type",
+      "browsers": [
+        "E12",
+        "FF3.5",
+        "S3.1",
+        "C1",
+        "IE9",
+        "O9.5"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -20362,6 +22618,14 @@
     },
     {
       "name": ":focus",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE8",
+        "O7"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -20372,6 +22636,14 @@
     },
     {
       "name": ":fullscreen",
+      "browsers": [
+        "E12",
+        "FF64",
+        "S6",
+        "C71",
+        "IE11",
+        "O58"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -20436,6 +22708,14 @@
     },
     {
       "name": ":hover",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S2",
+        "C1",
+        "IE4",
+        "O4"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -20454,6 +22734,14 @@
     },
     {
       "name": ":indeterminate",
+      "browsers": [
+        "E12",
+        "FF2",
+        "S3",
+        "C1",
+        "IE10",
+        "O9"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -20481,6 +22769,14 @@
     },
     {
       "name": ":invalid",
+      "browsers": [
+        "E12",
+        "FF4",
+        "S5",
+        "C10",
+        "IE10",
+        "O10"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -20503,6 +22799,14 @@
     },
     {
       "name": ":last-child",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S3.1",
+        "C1",
+        "IE9",
+        "O9.5"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -20513,6 +22817,14 @@
     },
     {
       "name": ":last-of-type",
+      "browsers": [
+        "E12",
+        "FF3.5",
+        "S3.1",
+        "C1",
+        "IE9",
+        "O9.5"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -20540,6 +22852,14 @@
     },
     {
       "name": ":link",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE3",
+        "O3.5"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -20797,6 +23117,14 @@
     },
     {
       "name": ":only-child",
+      "browsers": [
+        "E12",
+        "FF1.5",
+        "S3.1",
+        "C2",
+        "IE9",
+        "O9.5"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -20807,6 +23135,14 @@
     },
     {
       "name": ":only-of-type",
+      "browsers": [
+        "E12",
+        "FF3.5",
+        "S3.1",
+        "C1",
+        "IE9",
+        "O9.5"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -20817,6 +23153,14 @@
     },
     {
       "name": ":optional",
+      "browsers": [
+        "E12",
+        "FF4",
+        "S5",
+        "C10",
+        "IE10",
+        "O10"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -20891,6 +23235,14 @@
     },
     {
       "name": ":required",
+      "browsers": [
+        "E12",
+        "FF4",
+        "S5",
+        "C10",
+        "IE10",
+        "O10"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -20918,6 +23270,14 @@
     },
     {
       "name": ":root",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE9",
+        "O9.5"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -20961,6 +23321,14 @@
     },
     {
       "name": ":target",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1.3",
+        "C1",
+        "IE9",
+        "O9.5"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -20971,6 +23339,14 @@
     },
     {
       "name": ":valid",
+      "browsers": [
+        "E12",
+        "FF4",
+        "S5",
+        "C10",
+        "IE10",
+        "O10"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -20989,6 +23365,14 @@
     },
     {
       "name": ":visited",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE4",
+        "O3.5"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -21170,6 +23554,14 @@
     {
       "name": ":placeholder-shown",
       "status": "experimental",
+      "browsers": [
+        "E79",
+        "FF51",
+        "S9",
+        "C47",
+        "IE10",
+        "O34"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -21269,6 +23661,14 @@
   "pseudoElements": [
     {
       "name": "::after",
+      "browsers": [
+        "E12",
+        "FF1.5",
+        "S4",
+        "C1",
+        "IE9",
+        "O7"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -21279,6 +23679,14 @@
     },
     {
       "name": "::backdrop",
+      "browsers": [
+        "E79",
+        "FF47",
+        "S15.4",
+        "C37",
+        "IE11",
+        "O24"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -21289,6 +23697,14 @@
     },
     {
       "name": "::before",
+      "browsers": [
+        "E12",
+        "FF1.5",
+        "S4",
+        "C1",
+        "IE9",
+        "O7"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -21347,6 +23763,14 @@
     },
     {
       "name": "::first-letter",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE9",
+        "O7"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -21357,6 +23781,14 @@
     },
     {
       "name": "::first-line",
+      "browsers": [
+        "E12",
+        "FF1",
+        "S1",
+        "C1",
+        "IE9",
+        "O7"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -21533,6 +23965,14 @@
     },
     {
       "name": "::selection",
+      "browsers": [
+        "E12",
+        "FF62",
+        "S1.1",
+        "C1",
+        "IE9",
+        "O9.5"
+      ],
       "references": [
         {
           "name": "MDN Reference",
