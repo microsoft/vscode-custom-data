@@ -52,7 +52,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/align-content"
         }
       ],
-      "description": "Aligns a flex container’s lines within the flex container when there is extra space in the cross-axis, similar to how 'justify-content' aligns individual items within the main-axis.",
+      "description": "Aligns a flex container's lines within the flex container when there is extra space in the cross-axis, similar to how 'justify-content' aligns individual items within the main-axis.",
       "restrictions": [
         "enum"
       ]
@@ -62,11 +62,11 @@
       "values": [
         {
           "name": "baseline",
-          "description": "If the flex item’s inline axis is the same as the cross axis, this value is identical to 'flex-start'. Otherwise, it participates in baseline alignment."
+          "description": "If the flex item's inline axis is the same as the cross axis, this value is identical to 'flex-start'. Otherwise, it participates in baseline alignment."
         },
         {
           "name": "center",
-          "description": "The flex item’s margin box is centered in the cross axis within the line."
+          "description": "The flex item's margin box is centered in the cross axis within the line."
         },
         {
           "name": "flex-end",
@@ -250,15 +250,15 @@
       "values": [
         {
           "name": "auto",
-          "description": "Computes to the value of 'align-items' on the element’s parent, or 'stretch' if the element has no parent. On absolutely positioned elements, it computes to itself."
+          "description": "Computes to the value of 'align-items' on the element's parent, or 'stretch' if the element has no parent. On absolutely positioned elements, it computes to itself."
         },
         {
           "name": "baseline",
-          "description": "If the flex item’s inline axis is the same as the cross axis, this value is identical to 'flex-start'. Otherwise, it participates in baseline alignment."
+          "description": "If the flex item's inline axis is the same as the cross axis, this value is identical to 'flex-start'. Otherwise, it participates in baseline alignment."
         },
         {
           "name": "center",
-          "description": "The flex item’s margin box is centered in the cross axis within the line."
+          "description": "The flex item's margin box is centered in the cross axis within the line."
         },
         {
           "name": "flex-end",
@@ -639,11 +639,11 @@
         },
         {
           "name": "local",
-          "description": "The background is fixed with regard to the element’s contents: if the element has a scrolling mechanism, the background scrolls with the element’s contents."
+          "description": "The background is fixed with regard to the element's contents: if the element has a scrolling mechanism, the background scrolls with the element's contents."
         },
         {
           "name": "scroll",
-          "description": "The background is fixed with regard to the element itself and does not scroll with its contents. (It is effectively attached to the element’s border.)"
+          "description": "The background is fixed with regard to the element itself and does not scroll with its contents. (It is effectively attached to the element's border.)"
         }
       ],
       "syntax": "<attachment>#",
@@ -940,7 +940,7 @@
       "values": [
         {
           "name": "auto",
-          "description": "Resolved by using the image’s intrinsic ratio and the size of the other dimension, or failing that, using the image’s intrinsic size, or failing that, treating it as 100%."
+          "description": "Resolved by using the image's intrinsic ratio and the size of the other dimension, or failing that, using the image's intrinsic size, or failing that, treating it as 100%."
         },
         {
           "name": "contain",
@@ -1040,7 +1040,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/border-block-end"
         }
       ],
-      "description": "Logical 'border-bottom'. Mapping depends on the parent element’s 'writing-mode', 'direction', and 'text-orientation'.",
+      "description": "Logical 'border-bottom'. Mapping depends on the parent element's 'writing-mode', 'direction', and 'text-orientation'.",
       "restrictions": [
         "length",
         "line-width",
@@ -1065,7 +1065,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/border-block-start"
         }
       ],
-      "description": "Logical 'border-top'. Mapping depends on the parent element’s 'writing-mode', 'direction', and 'text-orientation'.",
+      "description": "Logical 'border-top'. Mapping depends on the parent element's 'writing-mode', 'direction', and 'text-orientation'.",
       "restrictions": [
         "length",
         "line-width",
@@ -1090,7 +1090,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/border-block-end-color"
         }
       ],
-      "description": "Logical 'border-bottom-color'. Mapping depends on the parent element’s 'writing-mode', 'direction', and 'text-orientation'.",
+      "description": "Logical 'border-bottom-color'. Mapping depends on the parent element's 'writing-mode', 'direction', and 'text-orientation'.",
       "restrictions": [
         "color"
       ]
@@ -1112,7 +1112,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/border-block-start-color"
         }
       ],
-      "description": "Logical 'border-top-color'. Mapping depends on the parent element’s 'writing-mode', 'direction', and 'text-orientation'.",
+      "description": "Logical 'border-top-color'. Mapping depends on the parent element's 'writing-mode', 'direction', and 'text-orientation'.",
       "restrictions": [
         "color"
       ]
@@ -1134,7 +1134,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/border-block-end-style"
         }
       ],
-      "description": "Logical 'border-bottom-style'. Mapping depends on the parent element’s 'writing-mode', 'direction', and 'text-orientation'.",
+      "description": "Logical 'border-bottom-style'. Mapping depends on the parent element's 'writing-mode', 'direction', and 'text-orientation'.",
       "restrictions": [
         "line-style"
       ]
@@ -1156,7 +1156,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/border-block-start-style"
         }
       ],
-      "description": "Logical 'border-top-style'. Mapping depends on the parent element’s 'writing-mode', 'direction', and 'text-orientation'.",
+      "description": "Logical 'border-top-style'. Mapping depends on the parent element's 'writing-mode', 'direction', and 'text-orientation'.",
       "restrictions": [
         "line-style"
       ]
@@ -1178,7 +1178,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/border-block-end-width"
         }
       ],
-      "description": "Logical 'border-bottom-width'. Mapping depends on the parent element’s 'writing-mode', 'direction', and 'text-orientation'.",
+      "description": "Logical 'border-bottom-width'. Mapping depends on the parent element's 'writing-mode', 'direction', and 'text-orientation'.",
       "restrictions": [
         "length",
         "line-width"
@@ -1201,7 +1201,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/border-block-start-width"
         }
       ],
-      "description": "Logical 'border-top-width'. Mapping depends on the parent element’s 'writing-mode', 'direction', and 'text-orientation'.",
+      "description": "Logical 'border-top-width'. Mapping depends on the parent element's 'writing-mode', 'direction', and 'text-orientation'.",
       "restrictions": [
         "length",
         "line-width"
@@ -1528,7 +1528,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-end"
         }
       ],
-      "description": "Logical 'border-right'. Mapping depends on the parent element’s 'writing-mode', 'direction', and 'text-orientation'.",
+      "description": "Logical 'border-right'. Mapping depends on the parent element's 'writing-mode', 'direction', and 'text-orientation'.",
       "restrictions": [
         "length",
         "line-width",
@@ -1553,7 +1553,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-start"
         }
       ],
-      "description": "Logical 'border-left'. Mapping depends on the parent element’s 'writing-mode', 'direction', and 'text-orientation'.",
+      "description": "Logical 'border-left'. Mapping depends on the parent element's 'writing-mode', 'direction', and 'text-orientation'.",
       "restrictions": [
         "length",
         "line-width",
@@ -1578,7 +1578,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-end-color"
         }
       ],
-      "description": "Logical 'border-right-color'. Mapping depends on the parent element’s 'writing-mode', 'direction', and 'text-orientation'.",
+      "description": "Logical 'border-right-color'. Mapping depends on the parent element's 'writing-mode', 'direction', and 'text-orientation'.",
       "restrictions": [
         "color"
       ]
@@ -1600,7 +1600,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-start-color"
         }
       ],
-      "description": "Logical 'border-left-color'. Mapping depends on the parent element’s 'writing-mode', 'direction', and 'text-orientation'.",
+      "description": "Logical 'border-left-color'. Mapping depends on the parent element's 'writing-mode', 'direction', and 'text-orientation'.",
       "restrictions": [
         "color"
       ]
@@ -1622,7 +1622,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-end-style"
         }
       ],
-      "description": "Logical 'border-right-style'. Mapping depends on the parent element’s 'writing-mode', 'direction', and 'text-orientation'.",
+      "description": "Logical 'border-right-style'. Mapping depends on the parent element's 'writing-mode', 'direction', and 'text-orientation'.",
       "restrictions": [
         "line-style"
       ]
@@ -1644,7 +1644,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-start-style"
         }
       ],
-      "description": "Logical 'border-left-style'. Mapping depends on the parent element’s 'writing-mode', 'direction', and 'text-orientation'.",
+      "description": "Logical 'border-left-style'. Mapping depends on the parent element's 'writing-mode', 'direction', and 'text-orientation'.",
       "restrictions": [
         "line-style"
       ]
@@ -1666,7 +1666,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-end-width"
         }
       ],
-      "description": "Logical 'border-right-width'. Mapping depends on the parent element’s 'writing-mode', 'direction', and 'text-orientation'.",
+      "description": "Logical 'border-right-width'. Mapping depends on the parent element's 'writing-mode', 'direction', and 'text-orientation'.",
       "restrictions": [
         "length",
         "line-width"
@@ -1689,7 +1689,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-start-width"
         }
       ],
-      "description": "Logical 'border-left-width'. Mapping depends on the parent element’s 'writing-mode', 'direction', and 'text-orientation'.",
+      "description": "Logical 'border-left-width'. Mapping depends on the parent element's 'writing-mode', 'direction', and 'text-orientation'.",
       "restrictions": [
         "length",
         "line-width"
@@ -2335,7 +2335,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/clip"
         }
       ],
-      "description": "Deprecated. Use the 'clip-path' property when support allows. Defines the visible portion of an element’s box.",
+      "description": "Deprecated. Use the 'clip-path' property when support allows. Defines the visible portion of an element's box.",
       "restrictions": [
         "enum"
       ]
@@ -2381,11 +2381,11 @@
       "values": [
         {
           "name": "evenodd",
-          "description": "Determines the ‘insideness’ of a point on the canvas by drawing a ray from that point to infinity in any direction and counting the number of path segments from the given shape that the ray crosses."
+          "description": "Determines the 'insideness' of a point on the canvas by drawing a ray from that point to infinity in any direction and counting the number of path segments from the given shape that the ray crosses."
         },
         {
           "name": "nonzero",
-          "description": "Determines the ‘insideness’ of a point on the canvas by drawing a ray from that point to infinity in any direction and then examining the places where a segment of the shape crosses the ray."
+          "description": "Determines the 'insideness' of a point on the canvas by drawing a ray from that point to infinity in any direction and then examining the places where a segment of the shape crosses the ray."
         }
       ],
       "relevance": 50,
@@ -3242,7 +3242,7 @@
       ],
       "syntax": "<counter-style-name>",
       "relevance": 50,
-      "description": "@counter-style descriptor. Specifies a fallback counter style to be used when the current counter style can’t create a representation for a given counter value.",
+      "description": "@counter-style descriptor. Specifies a fallback counter style to be used when the current counter style can't create a representation for a given counter value.",
       "restrictions": [
         "identifier"
       ]
@@ -3252,7 +3252,7 @@
       "values": [
         {
           "name": "url()",
-          "description": "A URL reference to a paint server element, which is an element that defines a paint server: ‘hatch’, ‘linearGradient’, ‘mesh’, ‘pattern’, ‘radialGradient’ and ‘solidcolor’."
+          "description": "A URL reference to a paint server element, which is an element that defines a paint server: 'hatch', 'linearGradient', 'mesh', 'pattern', 'radialGradient' and 'solidcolor'."
         },
         {
           "name": "none",
@@ -3280,11 +3280,11 @@
       "values": [
         {
           "name": "evenodd",
-          "description": "Determines the ‘insideness’ of a point on the canvas by drawing a ray from that point to infinity in any direction and counting the number of path segments from the given shape that the ray crosses."
+          "description": "Determines the 'insideness' of a point on the canvas by drawing a ray from that point to infinity in any direction and counting the number of path segments from the given shape that the ray crosses."
         },
         {
           "name": "nonzero",
-          "description": "Determines the ‘insideness’ of a point on the canvas by drawing a ray from that point to infinity in any direction and then examining the places where a segment of the shape crosses the ray."
+          "description": "Determines the 'insideness' of a point on the canvas by drawing a ray from that point to infinity in any direction and then examining the places where a segment of the shape crosses the ray."
         }
       ],
       "relevance": 51,
@@ -3367,7 +3367,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/filter"
         }
       ],
-      "description": "Processes an element’s rendering before it is displayed in the document, by applying one or more filter effects.",
+      "description": "Processes an element's rendering before it is displayed in the document, by applying one or more filter effects.",
       "restrictions": [
         "enum",
         "url"
@@ -3382,7 +3382,7 @@
         },
         {
           "name": "content",
-          "description": "Indicates automatic sizing, based on the flex item’s content."
+          "description": "Indicates automatic sizing, based on the flex item's content."
         },
         {
           "name": "none",
@@ -3413,7 +3413,7 @@
         },
         {
           "name": "content",
-          "description": "Indicates automatic sizing, based on the flex item’s content."
+          "description": "Indicates automatic sizing, based on the flex item's content."
         }
       ],
       "syntax": "content | <'width'>",
@@ -3436,7 +3436,7 @@
       "values": [
         {
           "name": "column",
-          "description": "The flex container’s main axis has the same orientation as the block axis of the current writing mode."
+          "description": "The flex container's main axis has the same orientation as the block axis of the current writing mode."
         },
         {
           "name": "column-reverse",
@@ -3444,7 +3444,7 @@
         },
         {
           "name": "row",
-          "description": "The flex container’s main axis has the same orientation as the inline axis of the current writing mode."
+          "description": "The flex container's main axis has the same orientation as the inline axis of the current writing mode."
         },
         {
           "name": "row-reverse",
@@ -3459,7 +3459,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/flex-direction"
         }
       ],
-      "description": "Specifies how flex items are placed in the flex container, by setting the direction of the flex container’s main axis.",
+      "description": "Specifies how flex items are placed in the flex container, by setting the direction of the flex container's main axis.",
       "restrictions": [
         "enum"
       ]
@@ -3469,7 +3469,7 @@
       "values": [
         {
           "name": "column",
-          "description": "The flex container’s main axis has the same orientation as the block axis of the current writing mode."
+          "description": "The flex container's main axis has the same orientation as the block axis of the current writing mode."
         },
         {
           "name": "column-reverse",
@@ -3481,7 +3481,7 @@
         },
         {
           "name": "row",
-          "description": "The flex container’s main axis has the same orientation as the inline axis of the current writing mode."
+          "description": "The flex container's main axis has the same orientation as the inline axis of the current writing mode."
         },
         {
           "name": "row-reverse",
@@ -4452,7 +4452,7 @@
       "values": [
         {
           "name": "none",
-          "description": "Do not preserve the font’s x-height."
+          "description": "Do not preserve the font's x-height."
         }
       ],
       "syntax": "none | [ ex-height | cap-height | ch-width | ic-width | ic-height ]? [ from-font | <number> ]",
@@ -4867,7 +4867,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-ligatures"
         }
       ],
-      "description": "Specifies control over which ligatures are enabled or disabled. A value of ‘normal’ implies that the defaults set by the font are used.",
+      "description": "Specifies control over which ligatures are enabled or disabled. A value of 'normal' implies that the defaults set by the font are used.",
       "restrictions": [
         "enum"
       ]
@@ -5071,11 +5071,11 @@
       "values": [
         {
           "name": "auto",
-          "description": "The property contributes nothing to the grid item’s placement, indicating auto-placement, an automatic span, or a default span of one."
+          "description": "The property contributes nothing to the grid item's placement, indicating auto-placement, an automatic span, or a default span of one."
         },
         {
           "name": "span",
-          "description": "Contributes a grid span to the grid item’s placement such that the corresponding edge of the grid item’s grid area is N lines from its opposite edge."
+          "description": "Contributes a grid span to the grid item's placement such that the corresponding edge of the grid item's grid area is N lines from its opposite edge."
         }
       ],
       "syntax": "<grid-line> [ / <grid-line> ]{0,3}",
@@ -5086,7 +5086,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/grid-area"
         }
       ],
-      "description": "Determine a grid item’s size and location within the grid by contributing a line, a span, or nothing (automatic) to its grid placement. Shorthand for 'grid-row-start', 'grid-column-start', 'grid-row-end', and 'grid-column-end'.",
+      "description": "Determine a grid item's size and location within the grid by contributing a line, a span, or nothing (automatic) to its grid placement. Shorthand for 'grid-row-start', 'grid-column-start', 'grid-row-end', and 'grid-column-end'.",
       "restrictions": [
         "identifier",
         "integer"
@@ -5172,7 +5172,7 @@
         },
         {
           "name": "dense",
-          "description": "If specified, the auto-placement algorithm uses a “dense” packing algorithm, which attempts to fill in holes earlier in the grid if smaller items come up later."
+          "description": "If specified, the auto-placement algorithm uses a \"dense\" packing algorithm, which attempts to fill in holes earlier in the grid if smaller items come up later."
         }
       ],
       "syntax": "[ row | column ] || dense",
@@ -5234,11 +5234,11 @@
       "values": [
         {
           "name": "auto",
-          "description": "The property contributes nothing to the grid item’s placement, indicating auto-placement, an automatic span, or a default span of one."
+          "description": "The property contributes nothing to the grid item's placement, indicating auto-placement, an automatic span, or a default span of one."
         },
         {
           "name": "span",
-          "description": "Contributes a grid span to the grid item’s placement such that the corresponding edge of the grid item’s grid area is N lines from its opposite edge."
+          "description": "Contributes a grid span to the grid item's placement such that the corresponding edge of the grid item's grid area is N lines from its opposite edge."
         }
       ],
       "syntax": "<grid-line> [ / <grid-line> ]?",
@@ -5268,11 +5268,11 @@
       "values": [
         {
           "name": "auto",
-          "description": "The property contributes nothing to the grid item’s placement, indicating auto-placement, an automatic span, or a default span of one."
+          "description": "The property contributes nothing to the grid item's placement, indicating auto-placement, an automatic span, or a default span of one."
         },
         {
           "name": "span",
-          "description": "Contributes a grid span to the grid item’s placement such that the corresponding edge of the grid item’s grid area is N lines from its opposite edge."
+          "description": "Contributes a grid span to the grid item's placement such that the corresponding edge of the grid item's grid area is N lines from its opposite edge."
         }
       ],
       "syntax": "<grid-line>",
@@ -5283,7 +5283,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/grid-column-end"
         }
       ],
-      "description": "Determine a grid item’s size and location within the grid by contributing a line, a span, or nothing (automatic) to its grid placement.",
+      "description": "Determine a grid item's size and location within the grid by contributing a line, a span, or nothing (automatic) to its grid placement.",
       "restrictions": [
         "identifier",
         "integer",
@@ -5318,11 +5318,11 @@
       "values": [
         {
           "name": "auto",
-          "description": "The property contributes nothing to the grid item’s placement, indicating auto-placement, an automatic span, or a default span of one."
+          "description": "The property contributes nothing to the grid item's placement, indicating auto-placement, an automatic span, or a default span of one."
         },
         {
           "name": "span",
-          "description": "Contributes a grid span to the grid item’s placement such that the corresponding edge of the grid item’s grid area is N lines from its opposite edge."
+          "description": "Contributes a grid span to the grid item's placement such that the corresponding edge of the grid item's grid area is N lines from its opposite edge."
         }
       ],
       "syntax": "<grid-line>",
@@ -5333,7 +5333,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/grid-column-start"
         }
       ],
-      "description": "Determine a grid item’s size and location within the grid by contributing a line, a span, or nothing (automatic) to its grid placement.",
+      "description": "Determine a grid item's size and location within the grid by contributing a line, a span, or nothing (automatic) to its grid placement.",
       "restrictions": [
         "identifier",
         "integer",
@@ -5368,11 +5368,11 @@
       "values": [
         {
           "name": "auto",
-          "description": "The property contributes nothing to the grid item’s placement, indicating auto-placement, an automatic span, or a default span of one."
+          "description": "The property contributes nothing to the grid item's placement, indicating auto-placement, an automatic span, or a default span of one."
         },
         {
           "name": "span",
-          "description": "Contributes a grid span to the grid item’s placement such that the corresponding edge of the grid item’s grid area is N lines from its opposite edge."
+          "description": "Contributes a grid span to the grid item's placement such that the corresponding edge of the grid item's grid area is N lines from its opposite edge."
         }
       ],
       "syntax": "<grid-line> [ / <grid-line> ]?",
@@ -5402,11 +5402,11 @@
       "values": [
         {
           "name": "auto",
-          "description": "The property contributes nothing to the grid item’s placement, indicating auto-placement, an automatic span, or a default span of one."
+          "description": "The property contributes nothing to the grid item's placement, indicating auto-placement, an automatic span, or a default span of one."
         },
         {
           "name": "span",
-          "description": "Contributes a grid span to the grid item’s placement such that the corresponding edge of the grid item’s grid area is N lines from its opposite edge."
+          "description": "Contributes a grid span to the grid item's placement such that the corresponding edge of the grid item's grid area is N lines from its opposite edge."
         }
       ],
       "syntax": "<grid-line>",
@@ -5417,7 +5417,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/grid-row-end"
         }
       ],
-      "description": "Determine a grid item’s size and location within the grid by contributing a line, a span, or nothing (automatic) to its grid placement.",
+      "description": "Determine a grid item's size and location within the grid by contributing a line, a span, or nothing (automatic) to its grid placement.",
       "restrictions": [
         "identifier",
         "integer",
@@ -5452,11 +5452,11 @@
       "values": [
         {
           "name": "auto",
-          "description": "The property contributes nothing to the grid item’s placement, indicating auto-placement, an automatic span, or a default span of one."
+          "description": "The property contributes nothing to the grid item's placement, indicating auto-placement, an automatic span, or a default span of one."
         },
         {
           "name": "span",
-          "description": "Contributes a grid span to the grid item’s placement such that the corresponding edge of the grid item’s grid area is N lines from its opposite edge."
+          "description": "Contributes a grid span to the grid item's placement such that the corresponding edge of the grid item's grid area is N lines from its opposite edge."
         }
       ],
       "syntax": "<grid-line>",
@@ -5467,7 +5467,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/grid-row-start"
         }
       ],
-      "description": "Determine a grid item’s size and location within the grid by contributing a line, a span, or nothing (automatic) to its grid placement.",
+      "description": "Determine a grid item's size and location within the grid by contributing a line, a span, or nothing (automatic) to its grid placement.",
       "restrictions": [
         "identifier",
         "integer",
@@ -5542,7 +5542,7 @@
       "values": [
         {
           "name": "none",
-          "description": "The grid container doesn’t define any named grid areas."
+          "description": "The grid container doesn't define any named grid areas."
         }
       ],
       "syntax": "none | <string>+",
@@ -6210,7 +6210,7 @@
       "values": [
         {
           "name": "none",
-          "description": "The default contents of the of the list item’s marker are given by 'list-style-type' instead."
+          "description": "The default contents of the of the list item's marker are given by 'list-style-type' instead."
         }
       ],
       "syntax": "<image> | none",
@@ -6327,7 +6327,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/list-style-type"
         }
       ],
-      "description": "Used to construct the default contents of a list item’s marker",
+      "description": "Used to construct the default contents of a list item's marker",
       "restrictions": [
         "enum",
         "string"
@@ -6376,7 +6376,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/margin-block-end"
         }
       ],
-      "description": "Logical 'margin-bottom'. Mapping depends on the parent element’s 'writing-mode', 'direction', and 'text-orientation'.",
+      "description": "Logical 'margin-bottom'. Mapping depends on the parent element's 'writing-mode', 'direction', and 'text-orientation'.",
       "restrictions": [
         "length",
         "percentage"
@@ -6404,7 +6404,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/margin-block-start"
         }
       ],
-      "description": "Logical 'margin-top'. Mapping depends on the parent element’s 'writing-mode', 'direction', and 'text-orientation'.",
+      "description": "Logical 'margin-top'. Mapping depends on the parent element's 'writing-mode', 'direction', and 'text-orientation'.",
       "restrictions": [
         "length",
         "percentage"
@@ -6453,7 +6453,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/margin-inline-end"
         }
       ],
-      "description": "Logical 'margin-right'. Mapping depends on the parent element’s 'writing-mode', 'direction', and 'text-orientation'.",
+      "description": "Logical 'margin-right'. Mapping depends on the parent element's 'writing-mode', 'direction', and 'text-orientation'.",
       "restrictions": [
         "length",
         "percentage"
@@ -6481,7 +6481,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/margin-inline-start"
         }
       ],
-      "description": "Logical 'margin-left'. Mapping depends on the parent element’s 'writing-mode', 'direction', and 'text-orientation'.",
+      "description": "Logical 'margin-left'. Mapping depends on the parent element's 'writing-mode', 'direction', and 'text-orientation'.",
       "restrictions": [
         "length",
         "percentage"
@@ -6563,7 +6563,7 @@
         }
       ],
       "relevance": 50,
-      "description": "Specifies the marker symbol that shall be used for all points on the sets the value for all vertices on the given ‘path’ element or basic shape.",
+      "description": "Specifies the marker symbol that shall be used for all points on the sets the value for all vertices on the given 'path' element or basic shape.",
       "restrictions": [
         "url"
       ]
@@ -6772,7 +6772,7 @@
       "values": [
         {
           "name": "auto",
-          "description": "Resolved by using the image’s intrinsic ratio and the size of the other dimension, or failing that, using the image’s intrinsic size, or failing that, treating it as 100%."
+          "description": "Resolved by using the image's intrinsic ratio and the size of the other dimension, or failing that, using the image's intrinsic size, or failing that, treating it as 100%."
         },
         {
           "name": "contain",
@@ -8900,11 +8900,11 @@
       "values": [
         {
           "name": "baseline",
-          "description": "If the flex item’s inline axis is the same as the cross axis, this value is identical to 'flex-start'. Otherwise, it participates in baseline alignment."
+          "description": "If the flex item's inline axis is the same as the cross axis, this value is identical to 'flex-start'. Otherwise, it participates in baseline alignment."
         },
         {
           "name": "center",
-          "description": "The flex item’s margin box is centered in the cross axis within the line."
+          "description": "The flex item's margin box is centered in the cross axis within the line."
         },
         {
           "name": "end",
@@ -8933,7 +8933,7 @@
       "values": [
         {
           "name": "column",
-          "description": "The flex container’s main axis has the same orientation as the block axis of the current writing mode."
+          "description": "The flex container's main axis has the same orientation as the block axis of the current writing mode."
         },
         {
           "name": "column-reverse",
@@ -8941,7 +8941,7 @@
         },
         {
           "name": "row",
-          "description": "The flex container’s main axis has the same orientation as the inline axis of the current writing mode."
+          "description": "The flex container's main axis has the same orientation as the inline axis of the current writing mode."
         },
         {
           "name": "row-reverse",
@@ -8949,7 +8949,7 @@
         }
       ],
       "relevance": 50,
-      "description": "Specifies how flex items are placed in the flex container, by setting the direction of the flex container’s main axis.",
+      "description": "Specifies how flex items are placed in the flex container, by setting the direction of the flex container's main axis.",
       "restrictions": [
         "enum"
       ]
@@ -8962,7 +8962,7 @@
       "values": [
         {
           "name": "column",
-          "description": "The flex container’s main axis has the same orientation as the block axis of the current writing mode."
+          "description": "The flex container's main axis has the same orientation as the block axis of the current writing mode."
         },
         {
           "name": "column-reverse",
@@ -8974,7 +8974,7 @@
         },
         {
           "name": "row",
-          "description": "The flex container’s main axis has the same orientation as the inline axis of the current writing mode."
+          "description": "The flex container's main axis has the same orientation as the inline axis of the current writing mode."
         },
         {
           "name": "wrap",
@@ -8999,15 +8999,15 @@
       "values": [
         {
           "name": "auto",
-          "description": "Computes to the value of 'align-items' on the element’s parent, or 'stretch' if the element has no parent. On absolutely positioned elements, it computes to itself."
+          "description": "Computes to the value of 'align-items' on the element's parent, or 'stretch' if the element has no parent. On absolutely positioned elements, it computes to itself."
         },
         {
           "name": "baseline",
-          "description": "If the flex item’s inline axis is the same as the cross axis, this value is identical to 'flex-start'. Otherwise, it participates in baseline alignment."
+          "description": "If the flex item's inline axis is the same as the cross axis, this value is identical to 'flex-start'. Otherwise, it participates in baseline alignment."
         },
         {
           "name": "center",
-          "description": "The flex item’s margin box is centered in the cross axis within the line."
+          "description": "The flex item's margin box is centered in the cross axis within the line."
         },
         {
           "name": "end",
@@ -9060,7 +9060,7 @@
         }
       ],
       "relevance": 50,
-      "description": "Aligns a flex container’s lines within the flex container when there is extra space in the cross-axis, similar to how 'justify-content' aligns individual items within the main-axis.",
+      "description": "Aligns a flex container's lines within the flex container when there is extra space in the cross-axis, similar to how 'justify-content' aligns individual items within the main-axis.",
       "restrictions": [
         "enum"
       ]
@@ -10246,7 +10246,7 @@
         },
         {
           "name": "digits",
-          "description": "Attempt to typeset horizontally each maximal sequence of consecutive ASCII digits (U+0030–U+0039) that has as many or fewer characters than the specified integer such that it takes up the space of a single character within the vertical line box."
+          "description": "Attempt to typeset horizontally each maximal sequence of consecutive ASCII digits (U+0030-U+0039) that has as many or fewer characters than the specified integer such that it takes up the space of a single character within the vertical line box."
         },
         {
           "name": "none",
@@ -10694,7 +10694,7 @@
         },
         {
           "name": "minimum",
-          "description": "Inline flow content can flow around the edge of the exclusion with the smallest available space within the flow content’s containing block, and must leave the other edge of the exclusion empty."
+          "description": "Inline flow content can flow around the edge of the exclusion with the smallest available space within the flow content's containing block, and must leave the other edge of the exclusion empty."
         },
         {
           "name": "start",
@@ -11175,15 +11175,15 @@
       "values": [
         {
           "name": "contain",
-          "description": "The replaced content is sized to maintain its aspect ratio while fitting within the element’s content box: its concrete object size is resolved as a contain constraint against the element's used width and height."
+          "description": "The replaced content is sized to maintain its aspect ratio while fitting within the element's content box: its concrete object size is resolved as a contain constraint against the element's used width and height."
         },
         {
           "name": "cover",
-          "description": "The replaced content is sized to maintain its aspect ratio while filling the element's entire content box: its concrete object size is resolved as a cover constraint against the element’s used width and height."
+          "description": "The replaced content is sized to maintain its aspect ratio while filling the element's entire content box: its concrete object size is resolved as a cover constraint against the element's used width and height."
         },
         {
           "name": "fill",
-          "description": "The replaced content is sized to fill the element’s content box: the object's concrete object size is the element's used width and height."
+          "description": "The replaced content is sized to fill the element's content box: the object's concrete object size is the element's used width and height."
         },
         {
           "name": "none",
@@ -11191,7 +11191,7 @@
         },
         {
           "name": "scale-down",
-          "description": "Size the content as if ‘none’ or ‘contain’ were specified, whichever would result in a smaller concrete object size."
+          "description": "Size the content as if 'none' or 'contain' were specified, whichever would result in a smaller concrete object size."
         }
       ],
       "syntax": "fill | contain | cover | none | scale-down",
@@ -11283,15 +11283,15 @@
       "values": [
         {
           "name": "contain",
-          "description": "The replaced content is sized to maintain its aspect ratio while fitting within the element’s content box: its concrete object size is resolved as a contain constraint against the element's used width and height."
+          "description": "The replaced content is sized to maintain its aspect ratio while fitting within the element's content box: its concrete object size is resolved as a contain constraint against the element's used width and height."
         },
         {
           "name": "cover",
-          "description": "The replaced content is sized to maintain its aspect ratio while filling the element's entire content box: its concrete object size is resolved as a cover constraint against the element’s used width and height."
+          "description": "The replaced content is sized to maintain its aspect ratio while filling the element's entire content box: its concrete object size is resolved as a cover constraint against the element's used width and height."
         },
         {
           "name": "fill",
-          "description": "The replaced content is sized to fill the element’s content box: the object's concrete object size is the element's used width and height."
+          "description": "The replaced content is sized to fill the element's content box: the object's concrete object size is the element's used width and height."
         },
         {
           "name": "none",
@@ -11299,7 +11299,7 @@
         },
         {
           "name": "scale-down",
-          "description": "Size the content as if ‘none’ or ‘contain’ were specified, whichever would result in a smaller concrete object size."
+          "description": "Size the content as if 'none' or 'contain' were specified, whichever would result in a smaller concrete object size."
         }
       ],
       "relevance": 50,
@@ -11616,7 +11616,7 @@
         }
       ],
       "relevance": 50,
-      "description": "Logical 'bottom'. Mapping depends on the parent element’s 'writing-mode', 'direction', and 'text-orientation'.",
+      "description": "Logical 'bottom'. Mapping depends on the parent element's 'writing-mode', 'direction', and 'text-orientation'.",
       "restrictions": [
         "length",
         "percentage"
@@ -11634,7 +11634,7 @@
         }
       ],
       "relevance": 50,
-      "description": "Logical 'top'. Mapping depends on the parent element’s 'writing-mode', 'direction', and 'text-orientation'.",
+      "description": "Logical 'top'. Mapping depends on the parent element's 'writing-mode', 'direction', and 'text-orientation'.",
       "restrictions": [
         "length",
         "percentage"
@@ -11652,7 +11652,7 @@
         }
       ],
       "relevance": 50,
-      "description": "Logical 'right'. Mapping depends on the parent element’s 'writing-mode', 'direction', and 'text-orientation'.",
+      "description": "Logical 'right'. Mapping depends on the parent element's 'writing-mode', 'direction', and 'text-orientation'.",
       "restrictions": [
         "length",
         "percentage"
@@ -11670,7 +11670,7 @@
         }
       ],
       "relevance": 50,
-      "description": "Logical 'left'. Mapping depends on the parent element’s 'writing-mode', 'direction', and 'text-orientation'.",
+      "description": "Logical 'left'. Mapping depends on the parent element's 'writing-mode', 'direction', and 'text-orientation'.",
       "restrictions": [
         "length",
         "percentage"
@@ -11800,7 +11800,7 @@
         },
         {
           "name": "-moz-hidden-unscrollable",
-          "description": "Same as the standardized 'clip', except doesn’t establish a block formatting context."
+          "description": "Same as the standardized 'clip', except doesn't establish a block formatting context."
         },
         {
           "name": "scroll",
@@ -11922,7 +11922,7 @@
       ],
       "syntax": "<integer> && <symbol>",
       "relevance": 50,
-      "description": "@counter-style descriptor. Specifies a “fixed-width” counter style, where representations shorter than the pad value are padded with a particular <symbol>",
+      "description": "@counter-style descriptor. Specifies a \"fixed-width\" counter style, where representations shorter than the pad value are padded with a particular <symbol>",
       "restrictions": [
         "integer",
         "image",
@@ -11980,7 +11980,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/padding-block-end"
         }
       ],
-      "description": "Logical 'padding-bottom'. Mapping depends on the parent element’s 'writing-mode', 'direction', and 'text-orientation'.",
+      "description": "Logical 'padding-bottom'. Mapping depends on the parent element's 'writing-mode', 'direction', and 'text-orientation'.",
       "restrictions": [
         "length",
         "percentage"
@@ -12003,7 +12003,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/padding-block-start"
         }
       ],
-      "description": "Logical 'padding-top'. Mapping depends on the parent element’s 'writing-mode', 'direction', and 'text-orientation'.",
+      "description": "Logical 'padding-top'. Mapping depends on the parent element's 'writing-mode', 'direction', and 'text-orientation'.",
       "restrictions": [
         "length",
         "percentage"
@@ -12026,7 +12026,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/padding-inline-end"
         }
       ],
-      "description": "Logical 'padding-right'. Mapping depends on the parent element’s 'writing-mode', 'direction', and 'text-orientation'.",
+      "description": "Logical 'padding-right'. Mapping depends on the parent element's 'writing-mode', 'direction', and 'text-orientation'.",
       "restrictions": [
         "length",
         "percentage"
@@ -12049,7 +12049,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/padding-inline-start"
         }
       ],
-      "description": "Logical 'padding-left'. Mapping depends on the parent element’s 'writing-mode', 'direction', and 'text-orientation'.",
+      "description": "Logical 'padding-left'. Mapping depends on the parent element's 'writing-mode', 'direction', and 'text-orientation'.",
       "restrictions": [
         "length",
         "percentage"
@@ -12303,19 +12303,19 @@
         },
         {
           "name": "visible",
-          "description": "The given element can be the target element for pointer events when the ‘visibility’ property is set to visible and the pointer is over either the interior or the perimeter of the element."
+          "description": "The given element can be the target element for pointer events when the 'visibility' property is set to visible and the pointer is over either the interior or the perimeter of the element."
         },
         {
           "name": "visibleFill",
-          "description": "The given element can be the target element for pointer events when the ‘visibility’ property is set to visible and when the pointer is over the interior of the element."
+          "description": "The given element can be the target element for pointer events when the 'visibility' property is set to visible and when the pointer is over the interior of the element."
         },
         {
           "name": "visiblePainted",
-          "description": "The given element can be the target element for pointer events when the ‘visibility’ property is set to visible and when the pointer is over a ‘painted’ area."
+          "description": "The given element can be the target element for pointer events when the 'visibility' property is set to visible and when the pointer is over a 'painted' area."
         },
         {
           "name": "visibleStroke",
-          "description": "The given element can be the target element for pointer events when the ‘visibility’ property is set to visible and when the pointer is over the perimeter of the element."
+          "description": "The given element can be the target element for pointer events when the 'visibility' property is set to visible and when the pointer is over the perimeter of the element."
         }
       ],
       "syntax": "auto | none | visiblePainted | visibleFill | visibleStroke | visible | painted | fill | stroke | all | inherit",
@@ -12853,7 +12853,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-coordinate"
         }
       ],
-      "description": "Defines the x and y coordinate within the element which will align with the nearest ancestor scroll container’s snap-destination for the respective axis.",
+      "description": "Defines the x and y coordinate within the element which will align with the nearest ancestor scroll container's snap-destination for the respective axis.",
       "restrictions": [
         "position",
         "length",
@@ -12875,7 +12875,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-destination"
         }
       ],
-      "description": "Define the x and y coordinate within the scroll container’s visual viewport which element snap points will align with.",
+      "description": "Define the x and y coordinate within the scroll container's visual viewport which element snap points will align with.",
       "restrictions": [
         "position",
         "length",
@@ -12895,7 +12895,7 @@
         },
         {
           "name": "repeat()",
-          "description": "Defines an interval at which snap points are defined, starting from the container’s relevant start edge."
+          "description": "Defines an interval at which snap points are defined, starting from the container's relevant start edge."
         }
       ],
       "status": "obsolete",
@@ -12925,7 +12925,7 @@
         },
         {
           "name": "repeat()",
-          "description": "Defines an interval at which snap points are defined, starting from the container’s relevant start edge."
+          "description": "Defines an interval at which snap points are defined, starting from the container's relevant start edge."
         }
       ],
       "status": "obsolete",
@@ -13137,7 +13137,7 @@
       "values": [
         {
           "name": "url()",
-          "description": "A URL reference to a paint server element, which is an element that defines a paint server: ‘hatch’, ‘linearGradient’, ‘mesh’, ‘pattern’, ‘radialGradient’ and ‘solidcolor’."
+          "description": "A URL reference to a paint server element, which is an element that defines a paint server: 'hatch', 'linearGradient', 'mesh', 'pattern', 'radialGradient' and 'solidcolor'."
         },
         {
           "name": "none",
@@ -13269,7 +13269,7 @@
       "values": [
         {
           "name": "additive",
-          "description": "Represents “sign-value” numbering systems, which, rather than using reusing digits in different positions to change their value, define additional digits with much larger values, so that the value of the number can be obtained by adding all the digits together."
+          "description": "Represents \"sign-value\" numbering systems, which, rather than using reusing digits in different positions to change their value, define additional digits with much larger values, so that the value of the number can be obtained by adding all the digits together."
         },
         {
           "name": "alphabetic",
@@ -13298,7 +13298,7 @@
       ],
       "syntax": "cyclic | numeric | alphabetic | symbolic | additive | [ fixed <integer>? ] | [ extends <counter-style-name> ]",
       "relevance": 50,
-      "description": "@counter-style descriptor. Specifies which algorithm will be used to construct the counter’s representation based on the counter value.",
+      "description": "@counter-style descriptor. Specifies which algorithm will be used to construct the counter's representation based on the counter value.",
       "restrictions": [
         "enum",
         "integer"
@@ -13811,7 +13811,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/text-rendering"
         }
       ],
-      "description": "The creator of SVG content might want to provide a hint to the implementation about what tradeoffs to make as it renders text. The ‘text-rendering’ property provides these hints.",
+      "description": "The creator of SVG content might want to provide a hint to the implementation about what tradeoffs to make as it renders text. The 'text-rendering' property provides these hints.",
       "restrictions": [
         "enum"
       ]
@@ -13866,7 +13866,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/text-transform"
         }
       ],
-      "description": "Controls capitalization effects of an element’s text.",
+      "description": "Controls capitalization effects of an element's text.",
       "restrictions": [
         "enum"
       ]
@@ -13879,11 +13879,11 @@
         },
         {
           "name": "auto",
-          "description": "The user agent may use any algorithm to determine the underline’s position. In horizontal line layout, the underline should be aligned as for alphabetic. In vertical line layout, if the language is set to Japanese or Korean, the underline should be aligned as for over."
+          "description": "The user agent may use any algorithm to determine the underline's position. In horizontal line layout, the underline should be aligned as for alphabetic. In vertical line layout, if the language is set to Japanese or Korean, the underline should be aligned as for over."
         },
         {
           "name": "below",
-          "description": "The underline is aligned with the under edge of the element’s content box."
+          "description": "The underline is aligned with the under edge of the element's content box."
         }
       ],
       "syntax": "auto | from-font | [ under || [ left | right ] ]",
@@ -13947,11 +13947,11 @@
         },
         {
           "name": "pan-x",
-          "description": "The user agent may consider touches that begin on the element only for the purposes of horizontally scrolling the element’s nearest ancestor with horizontally scrollable content."
+          "description": "The user agent may consider touches that begin on the element only for the purposes of horizontally scrolling the element's nearest ancestor with horizontally scrollable content."
         },
         {
           "name": "pan-y",
-          "description": "The user agent may consider touches that begin on the element only for the purposes of vertically scrolling the element’s nearest ancestor with vertically scrollable content."
+          "description": "The user agent may consider touches that begin on the element only for the purposes of vertically scrolling the element's nearest ancestor with vertically scrollable content."
         },
         {
           "name": "pinch-zoom"
@@ -14277,7 +14277,7 @@
           "description": "Ampersand."
         },
         {
-          "name": "U+20-24F, U+2B0-2FF, U+370-4FF, U+1E00-1EFF, U+2000-20CF, U+2100-23FF, U+2500-26FF, U+E000-F8FF, U+FB00–FB4F",
+          "name": "U+20-24F, U+2B0-2FF, U+370-4FF, U+1E00-1EFF, U+2000-20CF, U+2100-23FF, U+2500-26FF, U+E000-F8FF, U+FB00-FB4F",
           "description": "WGL4 character set (Pan-European)."
         },
         {
@@ -14333,167 +14333,167 @@
           "description": "Cyrillic Supplement. Extra letters for Komi, Khanty, Chukchi, Mordvin, Kurdish, Aleut, Chuvash, Abkhaz, Azerbaijani, and Orok."
         },
         {
-          "name": "U+00-52F, U+1E00-1FFF, U+2200–22FF",
+          "name": "U+00-52F, U+1E00-1FFF, U+2200-22FF",
           "description": "Latin, Greek, Cyrillic, some punctuation and symbols."
         },
         {
-          "name": "U+530–58F",
+          "name": "U+530-58F",
           "description": "Armenian."
         },
         {
-          "name": "U+590–5FF",
+          "name": "U+590-5FF",
           "description": "Hebrew."
         },
         {
-          "name": "U+600–6FF",
+          "name": "U+600-6FF",
           "description": "Arabic."
         },
         {
-          "name": "U+750–77F",
+          "name": "U+750-77F",
           "description": "Arabic Supplement. Additional letters for African languages, Khowar, Torwali, Burushaski, and early Persian."
         },
         {
-          "name": "U+8A0–8FF",
+          "name": "U+8A0-8FF",
           "description": "Arabic Extended-A. Additional letters for African languages, European and Central Asian languages, Rohingya, Tamazight, Arwi, and Koranic annotation signs."
         },
         {
-          "name": "U+700–74F",
+          "name": "U+700-74F",
           "description": "Syriac."
         },
         {
-          "name": "U+900–97F",
+          "name": "U+900-97F",
           "description": "Devanagari."
         },
         {
-          "name": "U+980–9FF",
+          "name": "U+980-9FF",
           "description": "Bengali."
         },
         {
-          "name": "U+A00–A7F",
+          "name": "U+A00-A7F",
           "description": "Gurmukhi."
         },
         {
-          "name": "U+A80–AFF",
+          "name": "U+A80-AFF",
           "description": "Gujarati."
         },
         {
-          "name": "U+B00–B7F",
+          "name": "U+B00-B7F",
           "description": "Oriya."
         },
         {
-          "name": "U+B80–BFF",
+          "name": "U+B80-BFF",
           "description": "Tamil."
         },
         {
-          "name": "U+C00–C7F",
+          "name": "U+C00-C7F",
           "description": "Telugu."
         },
         {
-          "name": "U+C80–CFF",
+          "name": "U+C80-CFF",
           "description": "Kannada."
         },
         {
-          "name": "U+D00–D7F",
+          "name": "U+D00-D7F",
           "description": "Malayalam."
         },
         {
-          "name": "U+D80–DFF",
+          "name": "U+D80-DFF",
           "description": "Sinhala."
         },
         {
-          "name": "U+118A0–118FF",
+          "name": "U+118A0-118FF",
           "description": "Warang Citi."
         },
         {
-          "name": "U+E00–E7F",
+          "name": "U+E00-E7F",
           "description": "Thai."
         },
         {
-          "name": "U+1A20–1AAF",
+          "name": "U+1A20-1AAF",
           "description": "Tai Tham."
         },
         {
-          "name": "U+AA80–AADF",
+          "name": "U+AA80-AADF",
           "description": "Tai Viet."
         },
         {
-          "name": "U+E80–EFF",
+          "name": "U+E80-EFF",
           "description": "Lao."
         },
         {
-          "name": "U+F00–FFF",
+          "name": "U+F00-FFF",
           "description": "Tibetan."
         },
         {
-          "name": "U+1000–109F",
+          "name": "U+1000-109F",
           "description": "Myanmar (Burmese)."
         },
         {
-          "name": "U+10A0–10FF",
+          "name": "U+10A0-10FF",
           "description": "Georgian."
         },
         {
-          "name": "U+1200–137F",
+          "name": "U+1200-137F",
           "description": "Ethiopic."
         },
         {
-          "name": "U+1380–139F",
+          "name": "U+1380-139F",
           "description": "Ethiopic Supplement. Extra Syllables for Sebatbeit, and Tonal marks"
         },
         {
-          "name": "U+2D80–2DDF",
+          "name": "U+2D80-2DDF",
           "description": "Ethiopic Extended. Extra Syllables for Me'en, Blin, and Sebatbeit."
         },
         {
-          "name": "U+AB00–AB2F",
+          "name": "U+AB00-AB2F",
           "description": "Ethiopic Extended-A. Extra characters for Gamo-Gofa-Dawro, Basketo, and Gumuz."
         },
         {
-          "name": "U+1780–17FF",
+          "name": "U+1780-17FF",
           "description": "Khmer."
         },
         {
-          "name": "U+1800–18AF",
+          "name": "U+1800-18AF",
           "description": "Mongolian."
         },
         {
-          "name": "U+1B80–1BBF",
+          "name": "U+1B80-1BBF",
           "description": "Sundanese."
         },
         {
-          "name": "U+1CC0–1CCF",
+          "name": "U+1CC0-1CCF",
           "description": "Sundanese Supplement. Punctuation."
         },
         {
-          "name": "U+4E00–9FD5",
+          "name": "U+4E00-9FD5",
           "description": "CJK (Chinese, Japanese, Korean) Unified Ideographs. Most common ideographs for modern Chinese and Japanese."
         },
         {
-          "name": "U+3400–4DB5",
+          "name": "U+3400-4DB5",
           "description": "CJK Unified Ideographs Extension A. Rare ideographs."
         },
         {
-          "name": "U+2F00–2FDF",
+          "name": "U+2F00-2FDF",
           "description": "Kangxi Radicals."
         },
         {
-          "name": "U+2E80–2EFF",
+          "name": "U+2E80-2EFF",
           "description": "CJK Radicals Supplement. Alternative forms of Kangxi Radicals."
         },
         {
-          "name": "U+1100–11FF",
+          "name": "U+1100-11FF",
           "description": "Hangul Jamo."
         },
         {
-          "name": "U+AC00–D7AF",
+          "name": "U+AC00-D7AF",
           "description": "Hangul Syllables."
         },
         {
-          "name": "U+3040–309F",
+          "name": "U+3040-309F",
           "description": "Hiragana."
         },
         {
-          "name": "U+30A0–30FF",
+          "name": "U+30A0-30FF",
           "description": "Katakana."
         },
         {
@@ -14501,15 +14501,15 @@
           "description": "Japanese Kanji, Hiragana and Katakana characters plus Yen/Yuan symbol."
         },
         {
-          "name": "U+A4D0–A4FF",
+          "name": "U+A4D0-A4FF",
           "description": "Lisu."
         },
         {
-          "name": "U+A000–A48F",
+          "name": "U+A000-A48F",
           "description": "Yi Syllables."
         },
         {
-          "name": "U+A490–A4CF",
+          "name": "U+A490-A4CF",
           "description": "Yi Radicals."
         },
         {
@@ -14517,35 +14517,35 @@
           "description": "General Punctuation."
         },
         {
-          "name": "U+3000–303F",
+          "name": "U+3000-303F",
           "description": "CJK Symbols and Punctuation."
         },
         {
-          "name": "U+2070–209F",
+          "name": "U+2070-209F",
           "description": "Superscripts and Subscripts."
         },
         {
-          "name": "U+20A0–20CF",
+          "name": "U+20A0-20CF",
           "description": "Currency Symbols."
         },
         {
-          "name": "U+2100–214F",
+          "name": "U+2100-214F",
           "description": "Letterlike Symbols."
         },
         {
-          "name": "U+2150–218F",
+          "name": "U+2150-218F",
           "description": "Number Forms."
         },
         {
-          "name": "U+2190–21FF",
+          "name": "U+2190-21FF",
           "description": "Arrows."
         },
         {
-          "name": "U+2200–22FF",
+          "name": "U+2200-22FF",
           "description": "Mathematical Operators."
         },
         {
-          "name": "U+2300–23FF",
+          "name": "U+2300-23FF",
           "description": "Miscellaneous Technical."
         },
         {
@@ -14553,31 +14553,31 @@
           "description": "Private Use Area."
         },
         {
-          "name": "U+FB00–FB4F",
+          "name": "U+FB00-FB4F",
           "description": "Alphabetic Presentation Forms. Ligatures for latin, Armenian, and Hebrew."
         },
         {
-          "name": "U+FB50–FDFF",
+          "name": "U+FB50-FDFF",
           "description": "Arabic Presentation Forms-A. Contextual forms / ligatures for Persian, Urdu, Sindhi, Central Asian languages, etc, Arabic pedagogical symbols, word ligatures."
         },
         {
-          "name": "U+1F600–1F64F",
+          "name": "U+1F600-1F64F",
           "description": "Emoji: Emoticons."
         },
         {
-          "name": "U+2600–26FF",
+          "name": "U+2600-26FF",
           "description": "Emoji: Miscellaneous Symbols."
         },
         {
-          "name": "U+1F300–1F5FF",
+          "name": "U+1F300-1F5FF",
           "description": "Emoji: Miscellaneous Symbols and Pictographs."
         },
         {
-          "name": "U+1F900–1F9FF",
+          "name": "U+1F900-1F9FF",
           "description": "Emoji: Supplemental Symbols and Pictographs."
         },
         {
-          "name": "U+1F680–1F6FF",
+          "name": "U+1F680-1F6FF",
           "description": "Emoji: Transport and Map Symbols."
         }
       ],
@@ -14705,7 +14705,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/visibility"
         }
       ],
-      "description": "Specifies whether the boxes generated by an element are rendered. Invisible boxes still affect layout (set the ‘display’ property to ‘none’ to suppress box generation altogether).",
+      "description": "Specifies whether the boxes generated by an element are rendered. Invisible boxes still affect layout (set the 'display' property to 'none' to suppress box generation altogether).",
       "restrictions": [
         "enum"
       ]
@@ -15944,7 +15944,7 @@
         }
       ],
       "relevance": 50,
-      "description": "Processes an element’s rendering before it is displayed in the document, by applying one or more filter effects.",
+      "description": "Processes an element's rendering before it is displayed in the document, by applying one or more filter effects.",
       "restrictions": [
         "enum",
         "url"
@@ -16242,7 +16242,7 @@
       "values": [
         {
           "name": "auto",
-          "description": "Resolved by using the image’s intrinsic ratio and the size of the other dimension, or failing that, using the image’s intrinsic size, or failing that, treating it as 100%."
+          "description": "Resolved by using the image's intrinsic ratio and the size of the other dimension, or failing that, using the image's intrinsic size, or failing that, treating it as 100%."
         },
         {
           "name": "contain",
@@ -16928,7 +16928,7 @@
         },
         {
           "name": "contents",
-          "description": "Indicates that the author expects to animate or change something about the element’s contents in the near future."
+          "description": "Indicates that the author expects to animate or change something about the element's contents in the near future."
         },
         {
           "name": "scroll-position",
@@ -16994,7 +16994,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/word-spacing"
         }
       ],
-      "description": "Specifies additional spacing between “words”.",
+      "description": "Specifies additional spacing between \"words\".",
       "restrictions": [
         "length",
         "percentage"
@@ -20258,7 +20258,7 @@
         "C",
         "S5"
       ],
-      "description": "Non-standard. Applies to buttons and track pieces. Indicates whether or not the button or track piece will decrement the view’s position when used."
+      "description": "Non-standard. Applies to buttons and track pieces. Indicates whether or not the button or track piece will decrement the view's position when used."
     },
     {
       "name": ":default",
@@ -20416,7 +20416,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/:host"
         }
       ],
-      "description": "When evaluated in the context of a shadow tree, matches the shadow tree’s host element."
+      "description": "When evaluated in the context of a shadow tree, matches the shadow tree's host element."
     },
     {
       "name": ":host()",
@@ -20424,7 +20424,7 @@
         "C35",
         "O22"
       ],
-      "description": "When evaluated in the context of a shadow tree, it matches the shadow tree’s host element if the host element, in its normal context, matches the selector argument."
+      "description": "When evaluated in the context of a shadow tree, it matches the shadow tree's host element if the host element, in its normal context, matches the selector argument."
     },
     {
       "name": ":host-context()",
@@ -20450,7 +20450,7 @@
         "C",
         "S5"
       ],
-      "description": "Non-standard. Applies to buttons and track pieces. Indicates whether or not the button or track piece will increment the view’s position when used."
+      "description": "Non-standard. Applies to buttons and track pieces. Indicates whether or not the button or track piece will increment the view's position when used."
     },
     {
       "name": ":indeterminate",
@@ -20622,7 +20622,7 @@
       "browsers": [
         "FF3"
       ],
-      "description": "Non-standard. Matches elements, such as images, that haven’t started loading yet."
+      "description": "Non-standard. Matches elements, such as images, that haven't started loading yet."
     },
     {
       "name": ":-moz-only-whitespace",
@@ -20683,7 +20683,7 @@
       "browsers": [
         "FF3"
       ],
-      "description": "Non-standard. Matches elements representing images that have been disabled due to the user’s preferences."
+      "description": "Non-standard. Matches elements representing images that have been disabled due to the user's preferences."
     },
     {
       "name": ":-moz-window-inactive",
@@ -21275,7 +21275,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/::after"
         }
       ],
-      "description": "Represents a styleable child pseudo-element immediately after the originating element’s actual content."
+      "description": "Represents a styleable child pseudo-element immediately after the originating element's actual content."
     },
     {
       "name": "::backdrop",
@@ -21295,7 +21295,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/::before"
         }
       ],
-      "description": "Represents a styleable child pseudo-element immediately before the originating element’s actual content."
+      "description": "Represents a styleable child pseudo-element immediately before the originating element's actual content."
     },
     {
       "name": "::content",
