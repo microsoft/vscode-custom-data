@@ -295,40 +295,6 @@ function getValues(valArr, restriction, ruleName) {
   return vals
 }
 
-function internalizeDescriptions(entries) {
-  var descriptions = {}
-  var conflicts = {}
-  entries.forEach(function(e) {
-    if (e.values) {
-      e.values.forEach(function(d) {
-        if (!d.desc) {
-          conflicts[d.name] = true
-          return
-        }
-        var existing = descriptions[d.name]
-        if (existing) {
-          if (existing !== d.desc) {
-            conflicts[d.name] = true
-          }
-        }
-        descriptions[d.name] = d.desc
-      })
-    }
-  })
-  entries.forEach(function(e) {
-    if (e.values) {
-      e.values.forEach(function(d) {
-        if (!conflicts[d.name]) {
-          delete d.desc
-        } else {
-          delete descriptions[d.name]
-        }
-      })
-    }
-  })
-  return descriptions
-}
-
 function toSource(object, keyName) {
   if (!object.css[keyName]) {
     return []

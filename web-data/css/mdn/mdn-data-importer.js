@@ -53,11 +53,17 @@ function addMDNProperties(vscProperties) {
    * 1. Go through VSC properties. For each entry that has a matching entry in MDN, merge both entry.
    */
   vscProperties.forEach(p => {
-    if (p.name) {
-      if (allMDNProperties[p.name]) {
+    const name = p.name;
+    if (name) {
+      const mdnProperty = allMDNProperties[name];
+      if (mdnProperty) {
+        if (p.values) {
+          // use the handcrafted values, if available
+          mdnProperty.values = p.values;
+        }
         propertyMap[p.name] = {
           ...p,
-          ...allMDNProperties[p.name]
+          ...mdnProperty
         }
       } else {
         propertyMap[p.name] = p
@@ -112,8 +118,17 @@ function addMDNProperties(vscProperties) {
 function extractMDNProperties(name, mdnEntry, mdCompatEntry) {
   return {
     status: abbreviateStatus(mdnEntry, mdCompatEntry),
-    syntax: mdnEntry.syntax
+    syntax: mdnEntry.syntax,
+    values: getValuesFromSytax(mdnEntry.syntax)
   }
+}
+
+function getValuesFromSytax(syntax) {
+  // collect the values if the syntax is simple (a | b | c)
+  if (/^[\w-]+(?:\s*\|\s*[\w-]+)*$/.test(syntax)) {
+    return syntax.split('|').map(e => e.trim()).map(name => ({ name }));
+  }
+  return undefined;
 }
 
 /**
