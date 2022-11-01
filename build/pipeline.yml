@@ -1,0 +1,30 @@
+name: $(Date:yyyyMMdd)$(Rev:.r)
+
+trigger:
+  branches:
+    include:
+      - main
+pr: none
+
+resources:
+  repositories:
+    - repository: templates
+      type: github
+      name: microsoft/vscode-engineering
+      ref: main
+      endpoint: Monaco
+
+parameters:
+  - name: publishPackage
+    displayName: 🚀 Publish web-custom-data
+    type: boolean
+    default: false
+
+extends:
+  template: azure-pipelines/npm-package/pipeline.yml@templates
+  parameters:
+    npmPackages:
+      - name: web-custom-data
+
+        publishPackage: ${{ parameters.publishPackage }}
+        workingDirectory: $(Build.SourcesDirectory)/web-data
