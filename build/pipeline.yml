@@ -26,5 +26,10 @@ extends:
     npmPackages:
       - name: web-custom-data
 
+        buildPlatforms:
+          - name: Linux
+            nodeVersions:
+              - 14.x
+
         publishPackage: ${{ parameters.publishPackage }}
         workingDirectory: $(Build.SourcesDirectory)/web-data
