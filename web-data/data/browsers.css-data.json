@@ -50,6 +50,42 @@
         {
           "name": "stretch",
           "description": "Lines stretch to take up the remaining space."
+        },
+        {
+          "name": "start"
+        },
+        {
+          "name": "end"
+        },
+        {
+          "name": "normal"
+        },
+        {
+          "name": "baseline"
+        },
+        {
+          "name": "first baseline"
+        },
+        {
+          "name": "last baseline"
+        },
+        {
+          "name": "space-around"
+        },
+        {
+          "name": "space-between"
+        },
+        {
+          "name": "space-evenly"
+        },
+        {
+          "name": "stretch"
+        },
+        {
+          "name": "safe"
+        },
+        {
+          "name": "unsafe"
         }
       ],
       "syntax": "normal | <baseline-position> | <content-distribution> | <overflow-position>? <content-position>",
@@ -95,6 +131,36 @@
         {
           "name": "stretch",
           "description": "If the cross size property of the flex item computes to auto, and neither of the cross-axis margins are auto, the flex item is stretched."
+        },
+        {
+          "name": "normal"
+        },
+        {
+          "name": "start"
+        },
+        {
+          "name": "end"
+        },
+        {
+          "name": "self-start"
+        },
+        {
+          "name": "self-end"
+        },
+        {
+          "name": "first baseline"
+        },
+        {
+          "name": "last baseline"
+        },
+        {
+          "name": "stretch"
+        },
+        {
+          "name": "safe"
+        },
+        {
+          "name": "unsafe"
         }
       ],
       "syntax": "normal | stretch | <baseline-position> | [ <overflow-position>? <self-position> ]",
@@ -293,6 +359,15 @@
           "description": "Computes to the value of 'align-items' on the element's parent, or 'stretch' if the element has no parent. On absolutely positioned elements, it computes to itself."
         },
         {
+          "name": "normal"
+        },
+        {
+          "name": "self-end"
+        },
+        {
+          "name": "self-start"
+        },
+        {
           "name": "baseline",
           "description": "If the flex item's inline axis is the same as the cross axis, this value is identical to 'flex-start'. Otherwise, it participates in baseline alignment."
         },
@@ -311,6 +386,21 @@
         {
           "name": "stretch",
           "description": "If the cross size property of the flex item computes to auto, and neither of the cross-axis margins are auto, the flex item is stretched."
+        },
+        {
+          "name": "baseline"
+        },
+        {
+          "name": "first baseline"
+        },
+        {
+          "name": "last baseline"
+        },
+        {
+          "name": "safe"
+        },
+        {
+          "name": "unsafe"
         }
       ],
       "syntax": "auto | normal | stretch | <baseline-position> | <overflow-position>? <self-position>",
