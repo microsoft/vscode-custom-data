@@ -622,9 +622,9 @@
 				<value name="stretch" version="3.0" browsers="all">
 					<desc>If the cross size property of the flex item computes to auto, and neither of the cross-axis margins are auto, the flex item is stretched.</desc>
 				</value>
-				<value name="save" version="3.0" browsers="all">
+				<value name="safe" version="3.0" browsers="all">
 				</value>
-				<value name="unsave" version="3.0" browsers="all">
+				<value name="unsafe" version="3.0" browsers="all">
 				</value>
 				<value name="legacy" version="3.0" browsers="all">
 				</value>

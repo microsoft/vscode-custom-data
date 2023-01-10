@@ -53,7 +53,7 @@
         }
       ],
       "syntax": "normal | <baseline-position> | <content-distribution> | <overflow-position>? <content-position>",
-      "relevance": 64,
+      "relevance": 65,
       "references": [
         {
           "name": "MDN Reference",
@@ -173,10 +173,10 @@
           "description": "If the cross size property of the flex item computes to auto, and neither of the cross-axis margins are auto, the flex item is stretched."
         },
         {
-          "name": "save"
+          "name": "safe"
         },
         {
-          "name": "unsave"
+          "name": "unsafe"
         },
         {
           "name": "legacy"
@@ -265,7 +265,7 @@
         }
       ],
       "syntax": "auto | normal | stretch | <baseline-position> | <overflow-position>? [ <self-position> | left | right ]",
-      "relevance": 53,
+      "relevance": 54,
       "references": [
         {
           "name": "MDN Reference",
@@ -314,7 +314,7 @@
         }
       ],
       "syntax": "auto | normal | stretch | <baseline-position> | <overflow-position>? <self-position>",
-      "relevance": 73,
+      "relevance": 72,
       "references": [
         {
           "name": "MDN Reference",
@@ -337,7 +337,7 @@
       ],
       "values": [],
       "syntax": "initial | inherit | unset | revert | revert-layer",
-      "relevance": 52,
+      "relevance": 53,
       "references": [
         {
           "name": "MDN Reference",
@@ -417,7 +417,7 @@
         }
       ],
       "syntax": "<single-animation>#",
-      "relevance": 83,
+      "relevance": 82,
       "references": [
         {
           "name": "MDN Reference",
@@ -665,7 +665,7 @@
         "O30"
       ],
       "syntax": "<easing-function>#",
-      "relevance": 72,
+      "relevance": 71,
       "references": [
         {
           "name": "MDN Reference",
@@ -698,7 +698,7 @@
         }
       ],
       "syntax": "visible | hidden",
-      "relevance": 59,
+      "relevance": 60,
       "references": [
         {
           "name": "MDN Reference",
@@ -1029,7 +1029,7 @@
         "O3.5"
       ],
       "syntax": "<bg-position>#",
-      "relevance": 88,
+      "relevance": 87,
       "references": [
         {
           "name": "MDN Reference",
@@ -1131,7 +1131,7 @@
       ],
       "values": [],
       "syntax": "<repeat-style>#",
-      "relevance": 86,
+      "relevance": 85,
       "references": [
         {
           "name": "MDN Reference",
@@ -1515,7 +1515,7 @@
         "O10.5"
       ],
       "syntax": "<length-percentage>{1,2}",
-      "relevance": 75,
+      "relevance": 74,
       "references": [
         {
           "name": "MDN Reference",
@@ -1596,7 +1596,7 @@
         }
       ],
       "syntax": "collapse | separate",
-      "relevance": 74,
+      "relevance": 73,
       "references": [
         {
           "name": "MDN Reference",
@@ -1676,7 +1676,7 @@
         }
       ],
       "syntax": "<'border-image-source'> || <'border-image-slice'> [ / <'border-image-width'> | / <'border-image-width'>? / <'border-image-outset'> ]? || <'border-image-repeat'>",
-      "relevance": 52,
+      "relevance": 53,
       "references": [
         {
           "name": "MDN Reference",
@@ -2162,7 +2162,7 @@
         "O9.2"
       ],
       "syntax": "<line-width> || <line-style> || <color>",
-      "relevance": 81,
+      "relevance": 80,
       "references": [
         {
           "name": "MDN Reference",
@@ -2258,7 +2258,7 @@
         "O4"
       ],
       "syntax": "<length> <length>?",
-      "relevance": 68,
+      "relevance": 67,
       "references": [
         {
           "name": "MDN Reference",
@@ -2354,7 +2354,7 @@
         "O10.5"
       ],
       "syntax": "<length-percentage>{1,2}",
-      "relevance": 76,
+      "relevance": 75,
       "references": [
         {
           "name": "MDN Reference",
@@ -2378,7 +2378,7 @@
         "O10.5"
       ],
       "syntax": "<length-percentage>{1,2}",
-      "relevance": 76,
+      "relevance": 75,
       "references": [
         {
           "name": "MDN Reference",
@@ -2847,7 +2847,7 @@
         }
       ],
       "syntax": "none | left | right | both | inline-start | inline-end",
-      "relevance": 85,
+      "relevance": 84,
       "references": [
         {
           "name": "MDN Reference",
@@ -2965,7 +2965,7 @@
         "O3.5"
       ],
       "syntax": "<color>",
-      "relevance": 95,
+      "relevance": 94,
       "references": [
         {
           "name": "MDN Reference",
@@ -3330,7 +3330,7 @@
         }
       ],
       "syntax": "none | strict | content | [ [ size || inline-size ] || layout || style || paint ]",
-      "relevance": 59,
+      "relevance": 58,
       "references": [
         {
           "name": "MDN Reference",
@@ -3736,7 +3736,7 @@
         }
       ],
       "syntax": "[ [ <url> [ <x> <y> ]? , ]* [ auto | default | none | context-menu | help | pointer | progress | wait | cell | crosshair | text | vertical-text | alias | copy | move | no-drop | not-allowed | e-resize | n-resize | ne-resize | nw-resize | s-resize | se-resize | sw-resize | w-resize | ew-resize | ns-resize | nesw-resize | nwse-resize | col-resize | row-resize | all-scroll | zoom-in | zoom-out | grab | grabbing ] ]",
-      "relevance": 92,
+      "relevance": 91,
       "references": [
         {
           "name": "MDN Reference",
@@ -4481,7 +4481,7 @@
         }
       ],
       "syntax": "content | <'width'>",
-      "relevance": 68,
+      "relevance": 69,
       "references": [
         {
           "name": "MDN Reference",
@@ -5478,7 +5478,7 @@
         }
       ],
       "syntax": "normal | <feature-tag-value>#",
-      "relevance": 59,
+      "relevance": 58,
       "references": [
         {
           "name": "MDN Reference",
@@ -5607,7 +5607,8 @@
     {
       "name": "font-size-adjust",
       "browsers": [
-        "FF3"
+        "FF3",
+        "Spreview"
       ],
       "values": [
         {
@@ -6230,7 +6231,7 @@
         }
       ],
       "syntax": "<font-weight-absolute>{1,2}",
-      "relevance": 94,
+      "relevance": 93,
       "references": [
         {
           "name": "MDN Reference",
@@ -6634,7 +6635,7 @@
         }
       ],
       "syntax": "<grid-line>",
-      "relevance": 50,
+      "relevance": 51,
       "references": [
         {
           "name": "MDN Reference",
@@ -6684,7 +6685,7 @@
         }
       ],
       "syntax": "<grid-line>",
-      "relevance": 50,
+      "relevance": 51,
       "references": [
         {
           "name": "MDN Reference",
@@ -6823,7 +6824,7 @@
         }
       ],
       "syntax": "none | <track-list> | <auto-track-list> | subgrid <line-name-list>?",
-      "relevance": 60,
+      "relevance": 61,
       "references": [
         {
           "name": "MDN Reference",
@@ -6879,7 +6880,7 @@
         }
       ],
       "syntax": "none | <track-list> | <auto-track-list> | subgrid <line-name-list>?",
-      "relevance": 54,
+      "relevance": 55,
       "references": [
         {
           "name": "MDN Reference",
@@ -7176,7 +7177,7 @@
         }
       ],
       "syntax": "auto | isolate",
-      "relevance": 51,
+      "relevance": 52,
       "references": [
         {
           "name": "MDN Reference",
@@ -7400,7 +7401,7 @@
         }
       ],
       "syntax": "auto | loose | normal | strict | anywhere",
-      "relevance": 51,
+      "relevance": 52,
       "references": [
         {
           "name": "MDN Reference",
@@ -7527,7 +7528,7 @@
         }
       ],
       "syntax": "<'list-style-type'> || <'list-style-position'> || <'list-style-image'>",
-      "relevance": 85,
+      "relevance": 84,
       "references": [
         {
           "name": "MDN Reference",
@@ -7717,7 +7718,7 @@
         }
       ],
       "syntax": "[ <length> | <percentage> | auto ]{1,4}",
-      "relevance": 96,
+      "relevance": 95,
       "references": [
         {
           "name": "MDN Reference",
@@ -7830,7 +7831,7 @@
         }
       ],
       "syntax": "<'margin-left'>",
-      "relevance": 52,
+      "relevance": 53,
       "references": [
         {
           "name": "MDN Reference",
@@ -7858,7 +7859,7 @@
         }
       ],
       "syntax": "<'margin-left'>",
-      "relevance": 52,
+      "relevance": 53,
       "references": [
         {
           "name": "MDN Reference",
@@ -7887,7 +7888,7 @@
         }
       ],
       "syntax": "<length> | <percentage> | auto",
-      "relevance": 92,
+      "relevance": 91,
       "references": [
         {
           "name": "MDN Reference",
@@ -8724,7 +8725,7 @@
         }
       ],
       "syntax": "<blend-mode> | plus-lighter",
-      "relevance": 52,
+      "relevance": 53,
       "references": [
         {
           "name": "MDN Reference",
@@ -12907,7 +12908,7 @@
         "O12.1"
       ],
       "syntax": "<integer>",
-      "relevance": 64,
+      "relevance": 65,
       "references": [
         {
           "name": "MDN Reference",
@@ -13337,7 +13338,7 @@
         "O9.5"
       ],
       "syntax": "<length>",
-      "relevance": 69,
+      "relevance": 68,
       "references": [
         {
           "name": "MDN Reference",
@@ -13877,7 +13878,7 @@
         }
       ],
       "syntax": "auto | always | avoid | left | right | recto | verso",
-      "relevance": 51,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -13976,7 +13977,7 @@
         }
       ],
       "syntax": "none | <length>",
-      "relevance": 55,
+      "relevance": 54,
       "references": [
         {
           "name": "MDN Reference",
@@ -14183,7 +14184,7 @@
         }
       ],
       "syntax": "none | auto | [ <string> <string> ]+",
-      "relevance": 53,
+      "relevance": 54,
       "references": [
         {
           "name": "MDN Reference",
@@ -14246,7 +14247,7 @@
         }
       ],
       "syntax": "none | both | horizontal | vertical | block | inline",
-      "relevance": 60,
+      "relevance": 61,
       "references": [
         {
           "name": "MDN Reference",
@@ -14885,7 +14886,7 @@
         "O8"
       ],
       "syntax": "<length>{1,2} | auto | [ <page-size> || [ portrait | landscape ] ]",
-      "relevance": 53,
+      "relevance": 52,
       "description": "The size CSS at-rule descriptor, used with the @page at-rule, defines the size and orientation of the box which is used to represent a page. Most of the time, this size corresponds to the target size of the printed page if applicable.",
       "restrictions": [
         "length"
@@ -14908,7 +14909,7 @@
         }
       ],
       "syntax": "[ <url> [ format( <string># ) ]? | local( <family-name> ) ]#",
-      "relevance": 87,
+      "relevance": 86,
       "description": "@font-face descriptor. Specifies the resource containing font data. It is required, whether the font is downloadable or locally installed.",
       "restrictions": [
         "enum",
@@ -14944,7 +14945,7 @@
           "description": "No paint is applied in this layer."
         }
       ],
-      "relevance": 67,
+      "relevance": 66,
       "description": "Paints along the outline of the given graphical element.",
       "restrictions": [
         "color",
@@ -14960,7 +14961,7 @@
           "description": "Indicates that no dashing is used."
         }
       ],
-      "relevance": 62,
+      "relevance": 61,
       "description": "Controls the pattern of dashes and gaps used to stroke paths.",
       "restrictions": [
         "length",
@@ -14971,7 +14972,7 @@
     },
     {
       "name": "stroke-dashoffset",
-      "relevance": 62,
+      "relevance": 61,
       "description": "Specifies the distance into the dash pattern to start the dash.",
       "restrictions": [
         "percentage",
@@ -15016,7 +15017,7 @@
           "description": "Indicates that a round corner is to be used to join path segments."
         }
       ],
-      "relevance": 50,
+      "relevance": 51,
       "description": "Specifies the shape to be used at the corners of paths or basic shapes when they are stroked.",
       "restrictions": [
         "enum"
@@ -15040,7 +15041,7 @@
     },
     {
       "name": "stroke-width",
-      "relevance": 64,
+      "relevance": 63,
       "description": "Specifies the width of the stroke on the current object.",
       "restrictions": [
         "percentage",
@@ -15378,7 +15379,7 @@
         "O44"
       ],
       "syntax": "<color>",
-      "relevance": 55,
+      "relevance": 54,
       "references": [
         {
           "name": "MDN Reference",
@@ -15490,7 +15491,7 @@
       ],
       "values": [],
       "syntax": "<length-percentage> && hanging? && each-line?",
-      "relevance": 69,
+      "relevance": 68,
       "references": [
         {
           "name": "MDN Reference",
@@ -15668,7 +15669,7 @@
         }
       ],
       "syntax": "auto | optimizeSpeed | optimizeLegibility | geometricPrecision",
-      "relevance": 69,
+      "relevance": 68,
       "references": [
         {
           "name": "MDN Reference",
@@ -15697,7 +15698,7 @@
         }
       ],
       "syntax": "none | <shadow-t>#",
-      "relevance": 76,
+      "relevance": 75,
       "references": [
         {
           "name": "MDN Reference",
@@ -16006,7 +16007,7 @@
         }
       ],
       "syntax": "none | <transform-list>",
-      "relevance": 91,
+      "relevance": 90,
       "references": [
         {
           "name": "MDN Reference",
@@ -16152,7 +16153,7 @@
         "O12.1"
       ],
       "syntax": "<time>#",
-      "relevance": 63,
+      "relevance": 64,
       "references": [
         {
           "name": "MDN Reference",
@@ -16185,7 +16186,7 @@
         }
       ],
       "syntax": "none | <single-transition-property>#",
-      "relevance": 67,
+      "relevance": 66,
       "references": [
         {
           "name": "MDN Reference",
@@ -16644,7 +16645,7 @@
         }
       ],
       "syntax": "auto | text | none | contain | all",
-      "relevance": 81,
+      "relevance": 80,
       "references": [
         {
           "name": "MDN Reference",
@@ -16716,7 +16717,7 @@
         }
       ],
       "syntax": "baseline | sub | super | text-top | text-bottom | middle | top | bottom | <percentage> | <length>",
-      "relevance": 92,
+      "relevance": 91,
       "references": [
         {
           "name": "MDN Reference",
@@ -16754,7 +16755,7 @@
         }
       ],
       "syntax": "visible | hidden | collapse",
-      "relevance": 88,
+      "relevance": 87,
       "references": [
         {
           "name": "MDN Reference",
@@ -19117,7 +19118,7 @@
         }
       ],
       "syntax": "normal | break-word",
-      "relevance": 78,
+      "relevance": 77,
       "description": "Specifies whether the UA may break within a word to prevent overflow when an otherwise-unbreakable string is too long to fit.",
       "restrictions": [
         "enum"
@@ -19910,7 +19911,7 @@
     {
       "name": "backdrop-filter",
       "syntax": "none | <filter-function-list>",
-      "relevance": 58,
+      "relevance": 59,
       "browsers": [
         "E17",
         "FF103",
@@ -20433,7 +20434,7 @@
     {
       "name": "color-scheme",
       "syntax": "normal | [ light | dark | <custom-ident> ]+ && only?",
-      "relevance": 52,
+      "relevance": 53,
       "browsers": [
         "E81",
         "FF96",
@@ -20451,12 +20452,11 @@
     },
     {
       "name": "contain-intrinsic-size",
-      "status": "experimental",
       "syntax": "[ none | <length> | auto <length> ]{1,2}",
       "relevance": 50,
       "browsers": [
         "E83",
-        "FF104",
+        "FF107",
         "C83",
         "O69"
       ],
@@ -20470,12 +20470,11 @@
     },
     {
       "name": "contain-intrinsic-block-size",
-      "status": "experimental",
       "syntax": "none | <length> | auto <length>",
       "relevance": 50,
       "browsers": [
         "E95",
-        "FF104",
+        "FF107",
         "C95",
         "O81"
       ],
@@ -20489,12 +20488,11 @@
     },
     {
       "name": "contain-intrinsic-height",
-      "status": "experimental",
       "syntax": "none | <length> | auto <length>",
       "relevance": 50,
       "browsers": [
         "E83",
-        "FF104",
+        "FF107",
         "C83",
         "O69"
       ],
@@ -20508,12 +20506,11 @@
     },
     {
       "name": "contain-intrinsic-inline-size",
-      "status": "experimental",
       "syntax": "none | <length> | auto <length>",
       "relevance": 50,
       "browsers": [
         "E95",
-        "FF104",
+        "FF107",
         "C95",
         "O81"
       ],
@@ -20527,12 +20524,11 @@
     },
     {
       "name": "contain-intrinsic-width",
-      "status": "experimental",
       "syntax": "none | <length> | auto <length>",
       "relevance": 50,
       "browsers": [
         "E83",
-        "FF104",
+        "FF107",
         "C83",
         "O69"
       ],
@@ -20667,7 +20663,7 @@
           "name": "none"
         }
       ],
-      "relevance": 57,
+      "relevance": 56,
       "browsers": [
         "E79",
         "C89",
@@ -20684,7 +20680,7 @@
     {
       "name": "gap",
       "syntax": "<'row-gap'> <'column-gap'>?",
-      "relevance": 58,
+      "relevance": 60,
       "browsers": [
         "E16",
         "FF52",
@@ -20787,7 +20783,7 @@
     {
       "name": "inset",
       "syntax": "<'top'>{1,4}",
-      "relevance": 51,
+      "relevance": 52,
       "browsers": [
         "E87",
         "FF66",
@@ -21311,7 +21307,8 @@
       "syntax": "auto | <position>",
       "relevance": 50,
       "browsers": [
-        "FF72"
+        "FF72",
+        "Spreview"
       ],
       "references": [
         {
@@ -21328,6 +21325,7 @@
       "browsers": [
         "E79",
         "FF72",
+        "Spreview",
         "C55",
         "O42"
       ],
@@ -21363,6 +21361,9 @@
       "status": "experimental",
       "syntax": "auto | <position>",
       "relevance": 50,
+      "browsers": [
+        "Spreview"
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -21378,6 +21379,7 @@
       "browsers": [
         "E79",
         "FF72",
+        "Spreview",
         "C56",
         "O43"
       ],
@@ -21777,7 +21779,7 @@
     {
       "name": "row-gap",
       "syntax": "normal | <length-percentage>",
-      "relevance": 52,
+      "relevance": 53,
       "browsers": [
         "E16",
         "FF52",
@@ -22291,7 +22293,7 @@
     {
       "name": "scroll-padding-top",
       "syntax": "auto | <length-percentage>",
-      "relevance": 51,
+      "relevance": 50,
       "browsers": [
         "E79",
         "FF68",
@@ -22477,7 +22479,7 @@
       "browsers": [
         "E15",
         "FF48",
-        "S5.1",
+        "Spreview",
         "C48",
         "IE11",
         "O35"
@@ -22637,7 +22639,7 @@
       "name": "text-size-adjust",
       "status": "experimental",
       "syntax": "none | auto | <percentage>",
-      "relevance": 60,
+      "relevance": 59,
       "browsers": [
         "E79",
         "C54",
@@ -22748,7 +22750,7 @@
           "name": "break-spaces"
         }
       ],
-      "relevance": 90,
+      "relevance": 89,
       "browsers": [
         "E12",
         "FF1",
@@ -25197,7 +25199,7 @@
       "browsers": [
         "E86",
         "FF68",
-        "Spreview",
+        "S11.1",
         "C86",
         "O72"
       ],
