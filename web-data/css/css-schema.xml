@@ -545,42 +545,86 @@
 			<values>
 				<value name="center" version="3.0" browsers="all">
 					<desc>Lines are packed toward the center of the flex container.</desc>
-		</value>
+				</value>
 				<value name="flex-end" version="3.0" browsers="all">
 					<desc>Lines are packed toward the end of the flex container.</desc>
-		</value>
+				</value>
 				<value name="flex-start" version="3.0" browsers="all">
 					<desc>Lines are packed toward the start of the flex container.</desc>
-		</value>
+				</value>
 				<value name="space-around" version="3.0" browsers="all">
 					<desc>Lines are evenly distributed in the flex container, with half-size spaces on either end.</desc>
-		</value>
+				</value>
 				<value name="space-between" version="3.0" browsers="all">
 					<desc>Lines are evenly distributed in the flex container.</desc>
-		</value>
+				</value>
 				<value name="stretch" version="3.0" browsers="all">
 					<desc>Lines stretch to take up the remaining space.</desc>
-		</value>
-			</values>
+				</value>
+				<value name="start" version="3.0" browsers="all">
+				</value>
+				<value name="end" version="3.0" browsers="all">
+				</value>
+				<value name="normal" version="3.0" browsers="all">
+				</value>
+				<value name="baseline" version="3.0" browsers="all">
+				</value>				
+				<value name="first baseline" version="3.0" browsers="all">
+				</value>
+				<value name="last baseline" version="3.0" browsers="all">
+				</value>
+				<value name="space-around" version="3.0" browsers="all">
+				</value>
+				<value name="space-between" version="3.0" browsers="all">
+				</value>
+				<value name="space-evenly" version="3.0" browsers="all">
+				</value>
+				<value name="stretch" version="3.0" browsers="all">
+				</value>
+				<value name="safe" version="3.0" browsers="all">
+				</value>
+				<value name="unsafe" version="3.0" browsers="all">
+				</value>			
+		</values>
 		</entry>
 		<entry name="align-items" restriction="enum" version="3.0" browsers="E,C29,FF22,IE11,O12.1,S9" ref="http://www.w3.org/TR/css3-flexbox/#align-items" syntax="p { $(name): flex-start; }">
 			<desc>Aligns flex items along the cross axis of the current line of the flex container.</desc>
 			<values>
 				<value name="baseline" version="3.0" browsers="all">
 					<desc>If the flex item's inline axis is the same as the cross axis, this value is identical to 'flex-start'. Otherwise, it participates in baseline alignment.</desc>
-		</value>
+				</value>
 				<value name="center" version="3.0" browsers="all">
 					<desc>The flex item's margin box is centered in the cross axis within the line.</desc>
-		</value>
+				</value>
 				<value name="flex-end" version="3.0" browsers="all">
 					<desc>The cross-end margin edge of the flex item is placed flush with the cross-end edge of the line.</desc>
-		</value>
+				</value>
 				<value name="flex-start" version="3.0" browsers="all">
 					<desc>The cross-start margin edge of the flex item is placed flush with the cross-start edge of the line.</desc>
-		</value>
+				</value>
 				<value name="stretch" version="3.0" browsers="all">
 					<desc>If the cross size property of the flex item computes to auto, and neither of the cross-axis margins are auto, the flex item is stretched.</desc>
-		</value>
+				</value>
+				<value name="normal" version="3.0" browsers="all">
+				</value>
+				<value name="start" version="3.0" browsers="all">
+				</value>
+				<value name="end" version="3.0" browsers="all">
+				</value>
+				<value name="self-start" version="3.0" browsers="all">
+				</value>
+				<value name="self-end" version="3.0" browsers="all">
+				</value>
+				<value name="first baseline" version="3.0" browsers="all">
+				</value>
+				<value name="last baseline" version="3.0" browsers="all">
+				</value>
+				<value name="stretch" version="3.0" browsers="all">
+				</value>
+				<value name="safe" version="3.0" browsers="all">
+				</value>
+				<value name="unsafe" version="3.0" browsers="all">
+				</value>																	
 			</values>
 		</entry>
 		<entry name="justify-items" restriction="enum" version="3.0" browsers="FF45" ref="https://www.w3.org/TR/css-grid-1/#row-align">
@@ -715,22 +759,38 @@
 			<values>
 				<value name="auto" version="3.0" browsers="all">
 					<desc>Computes to the value of 'align-items' on the element's parent, or 'stretch' if the element has no parent. On absolutely positioned elements, it computes to itself.</desc>
-		</value>
+				</value>
+				<value name="normal" version="3.0" browsers="all">
+				</value>
+				<value name="self-end" version="3.0" browsers="all">
+				</value>
+				<value name="self-start" version="3.0" browsers="all">
+				</value>							
 				<value name="baseline" version="3.0" browsers="all">
 					<desc>If the flex item's inline axis is the same as the cross axis, this value is identical to 'flex-start'. Otherwise, it participates in baseline alignment.</desc>
-		</value>
+				</value>
 				<value name="center" version="3.0" browsers="all">
 					<desc>The flex item's margin box is centered in the cross axis within the line.</desc>
-		</value>
+				</value>
 				<value name="flex-end" version="3.0" browsers="all">
 					<desc>The cross-end margin edge of the flex item is placed flush with the cross-end edge of the line.</desc>
-		</value>
+				</value>
 				<value name="flex-start" version="3.0" browsers="all">
 					<desc>The cross-start margin edge of the flex item is placed flush with the cross-start edge of the line.</desc>
-		</value>
+				</value>
 				<value name="stretch" version="3.0" browsers="all">
 					<desc>If the cross size property of the flex item computes to auto, and neither of the cross-axis margins are auto, the flex item is stretched.</desc>
-		</value>
+				</value>
+				<value name="baseline" version="3.0" browsers="all">
+				</value>				
+				<value name="first baseline" version="3.0" browsers="all">
+				</value>
+				<value name="last baseline" version="3.0" browsers="all">
+				</value>
+				<value name="safe" version="3.0" browsers="all">
+				</value>
+				<value name="unsafe" version="3.0" browsers="all">
+				</value>					
 			</values>
 		</entry>
 		<entry name="all" restriction="enum" version="3.0" browsers="C37,FF27,O24" ref="http://www.w3.org/TR/css-cascade-3/#all-shorthand" syntax="* { $(name): unset; }">
