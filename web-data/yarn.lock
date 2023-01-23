@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@mdn/browser-compat-data@^5.2.27":
-  version "5.2.27"
-  resolved "https://registry.yarnpkg.com/@mdn/browser-compat-data/-/browser-compat-data-5.2.27.tgz#4825f946849ae82c1e7e590dc2c2e420237e6ea3"
-  integrity sha512-CBttnJDgfnV5xk1tcfzoApP98N3CHqcMiReH3uNQExh0mBN4ROUCcuTmRzAyj7HrrnULL2c9/Jh1E2Yh78UPpA==
+"@mdn/browser-compat-data@^5.2.30":
+  version "5.2.30"
+  resolved "https://registry.yarnpkg.com/@mdn/browser-compat-data/-/browser-compat-data-5.2.30.tgz#67aac0e3fbd2da9ac386d325d05fc324c0b93111"
+  integrity sha512-j48TKjgXHuUXzdk5MuPI7BBjryHQeI2TFWhcULBjiCkqXmW2hBoKGwQNEXTSzCVQmYvEat15cDDPU3NIQmY50w==
 
 mdn-data@^2.0.30:
   version "2.0.30"
