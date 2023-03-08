@@ -1384,5 +1384,33 @@
         "name": "height"
       }
     ]
+  },
+  {
+    "name": "slot",
+    "description": "The slot element is a placeholder inside a web component that you can fill with your own markup, which lets you create separate DOM trees and present them together.",
+    "attributes": [
+      {
+        "name": "name"
+      }
+    ]
+  },
+  {
+    "name": "data",
+    "description": "The data element links a given piece of content with a machine-readable translation.",
+    "attributes": [
+      {
+        "name": "value"
+      }
+    ]
+  },
+  {
+    "name": "hgroup",
+    "description": "The hgroup element represents a heading and related content. It groups a single h1–h6 element with one or more p.",
+    "attributes": []
+  },
+  {
+    "name": "menu",
+    "description": "The menu element represents an unordered list of interactive items.",
+    "attributes": []
   }
 ]
