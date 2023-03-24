@@ -656,10 +656,8 @@
       "status": "standard",
       "syntax": "none | [ ex-height | cap-height | ch-width | ic-width | ic-height ]? [ from-font | <number> ]",
       "browsers": [
-        "E79",
-        "FF40",
-        "C43",
-        "O30"
+        "FF3",
+        "S16.4"
       ]
     },
     {
@@ -820,14 +818,7 @@
         }
       ],
       "status": "standard",
-      "syntax": "auto | start | end | left | right | center | justify",
-      "browsers": [
-        "E12",
-        "FF49",
-        "C47",
-        "IE5.5",
-        "O34"
-      ]
+      "syntax": "auto | start | end | left | right | center | justify"
     },
     {
       "name": "text-indent",
@@ -1173,7 +1164,7 @@
         }
       ],
       "status": "standard",
-      "syntax": "normal | none | [ <content-replacement> | <content-list> ] [/ <string> ]?"
+      "syntax": "normal | none | [ <content-replacement> | <content-list> ] [/ [ <string> | <counter> ]+ ]?"
     },
     {
       "name": "transform-box",
@@ -1946,10 +1937,8 @@
       "status": "standard",
       "syntax": "none | [ ex-height | cap-height | ch-width | ic-width | ic-height ]? [ from-font | <number> ]",
       "browsers": [
-        "E79",
-        "FF40",
-        "C43",
-        "O30"
+        "FF3",
+        "S16.4"
       ]
     },
     {
@@ -2110,14 +2099,7 @@
         }
       ],
       "status": "standard",
-      "syntax": "auto | start | end | left | right | center | justify",
-      "browsers": [
-        "E12",
-        "FF49",
-        "C47",
-        "IE5.5",
-        "O34"
-      ]
+      "syntax": "auto | start | end | left | right | center | justify"
     },
     {
       "name": "text-indent",
@@ -2463,7 +2445,7 @@
         }
       ],
       "status": "standard",
-      "syntax": "normal | none | [ <content-replacement> | <content-list> ] [/ <string> ]?"
+      "syntax": "normal | none | [ <content-replacement> | <content-list> ] [/ [ <string> | <counter> ]+ ]?"
     },
     {
       "name": "transform-box",
