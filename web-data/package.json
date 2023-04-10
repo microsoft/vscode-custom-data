@@ -20,6 +20,6 @@
   "devDependencies": {
     "@mdn/browser-compat-data": "^5.2.45",
     "mdn-data": "^2.0.31",
-    "xml2js": "^0.4.23"
+    "xml2js": "^0.5.0"
   }
 }
