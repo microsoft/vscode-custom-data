@@ -1545,7 +1545,11 @@
         },
         {
           "name": "loading",
-          "valueSet": "loading"
+          "valueSet": "loading",
+          "description": {
+            "kind": "markdown",
+            "value": "Indicates how the browser should load the image."
+          }
         },
         {
           "name": "referrerpolicy",
@@ -6089,10 +6093,18 @@
       "name": "loading",
       "values": [
         {
-          "name": "eager"
+          "name": "eager",
+          "description": {
+            "kind": "markdown",
+            "value": "Loads the image immediately, regardless of whether or not the image is currently within the visible viewport (this is the default value)."
+          }
         },
         {
-          "name": "lazy"
+          "name": "lazy",
+          "description": {
+            "kind": "markdown",
+            "value": "Defers loading the image until it reaches a calculated distance from the viewport, as defined by the browser. The intent is to avoid the network and storage bandwidth needed to handle the image until it's reasonably certain that it will be needed. This generally improves the performance of the content in most typical use cases."
+          }
         }
       ]
     },
