@@ -537,7 +537,11 @@
       },
       {
         "name": "loading",
-        "valueSet": "loading"
+        "valueSet": "loading",
+        "description": {
+          "kind": "markdown",
+          "value": "Indicates how the browser should load the image."
+        }
       },
       {
         "name": "referrerpolicy",
