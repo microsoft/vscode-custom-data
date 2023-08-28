@@ -9,6 +9,8 @@ const fs = require('fs')
 const path = require('path')
 const xml2js = require('xml2js')
 
+const { readFile, writeFile } = fs.promises;
+
 // keep in sync with data from language facts
 const colors = {
   aliceblue: '#f0f8ff',
@@ -236,14 +238,14 @@ function getValues(valArr, restriction, ruleName) {
     }
   }
   var vals = valArr
-    .map(function(v) {
+    .map(function (v) {
       return {
         name: v.$.name,
         desc: v.desc,
         browsers: v.$.browsers !== 'all' ? v.$.browsers : void 0
       }
     })
-    .filter(function(v) {
+    .filter(function (v) {
       if (v.browsers === 'none') {
         return false
       }
@@ -255,7 +257,7 @@ function getValues(valArr, restriction, ruleName) {
 
     var moreColors = {}
 
-    vals = vals.filter(function(v) {
+    vals = vals.filter(function (v) {
       if (typeof colorsCopy[v.name] === 'string') {
         delete colorsCopy[v.name]
         return false
@@ -301,7 +303,7 @@ function toSource(object, keyName) {
   }
   var result = []
   var entryArr = object.css[keyName].entry
-  entryArr.forEach(function(e) {
+  entryArr.forEach(function (e) {
     if (e.$.browsers === 'none') {
       return
     }
@@ -326,47 +328,48 @@ function toSource(object, keyName) {
 const parser = new xml2js.Parser({ explicitArray: false })
 const schemaFileName = 'css-schema.xml'
 
-const { addMDNProperties } = require('./mdn/mdn-data-importer')
-const { addMDNPseudoElements, addMDNPseudoSelectors } = require('./mdn/mdn-data-selector-importer')
-const { addBrowserCompatDataToProperties, addMDNReferences } = require('./mdn/mdn-browser-compat-data-importer')
-const { applyRelevance } = require('./chromestatus/applyRelevance')
+const { addMDNProperties } = require('./mdn/mdn-data-importer');
+const { addMDNPseudoElements, addMDNPseudoSelectors } = require('./mdn/mdn-data-selector-importer');
+const { addBrowserCompatDataToProperties, addMDNReferences } = require('./mdn/mdn-browser-compat-data-importer');
+const { applyRelevance } = require('./chromestatus/applyRelevance');
 
-fs.readFile(path.resolve(__dirname, schemaFileName), (err, data) => {
-  parser.parseString(data, function(err, result) {
-    const atDirectives = toSource(result, 'atDirectives')
+async function process() {
 
-    let pseudoClasses = toSource(result, 'pseudoClasses')
-    pseudoClasses = addMDNPseudoSelectors(pseudoClasses)
+  const data = await readFile(path.resolve(__dirname, schemaFileName));
+  const result = await parser.parseStringPromise(data);
+  const atDirectives = toSource(result, 'atDirectives');
 
-    let pseudoElements = toSource(result, 'pseudoElements')
-    pseudoElements = addMDNPseudoElements(pseudoElements)
+  let pseudoClasses = toSource(result, 'pseudoClasses');
+  pseudoClasses = await addMDNPseudoSelectors(pseudoClasses);
 
-    let properties = toSource(result, 'properties')
-    properties = addMDNProperties(properties)
-    properties = applyRelevance(properties)
+  let pseudoElements = toSource(result, 'pseudoElements');
+  pseudoElements = await addMDNPseudoElements(pseudoElements);
 
-    addBrowserCompatDataToProperties(atDirectives, pseudoClasses, pseudoElements, properties)
-    addMDNReferences(atDirectives, pseudoClasses, pseudoElements, properties)
+  let properties = toSource(result, 'properties');
+  properties = await addMDNProperties(properties)
+  properties = applyRelevance(properties)
 
-    const customDataObject = {
-      version: 1.1,
-      properties,
-      atDirectives,
-      pseudoClasses,
-      pseudoElements
-    }
+  addBrowserCompatDataToProperties(atDirectives, pseudoClasses, pseudoElements, properties)
+  addMDNReferences(atDirectives, pseudoClasses, pseudoElements, properties)
 
-    customDataObject.properties.forEach(convertEntry)
-    customDataObject.atDirectives.forEach(convertEntry)
-    customDataObject.pseudoClasses.forEach(convertEntry)
-    customDataObject.pseudoElements.forEach(convertEntry)
+  const customDataObject = {
+    version: 1.1,
+    properties,
+    atDirectives,
+    pseudoClasses,
+    pseudoElements
+  }
 
-    const outPath = path.resolve(__dirname, '../data/browsers.css-data.json')
-    console.log('Writing custom data to: ' + outPath)
-    fs.writeFileSync(outPath, JSON.stringify(customDataObject, null, 2))
-    console.log('Done')
-  })
-})
+  customDataObject.properties.forEach(convertEntry)
+  customDataObject.atDirectives.forEach(convertEntry)
+  customDataObject.pseudoClasses.forEach(convertEntry)
+  customDataObject.pseudoElements.forEach(convertEntry)
+
+  const outPath = path.resolve(__dirname, '../data/browsers.css-data.json')
+  console.log('Writing custom data to: ' + outPath)
+  await writeFile(outPath, JSON.stringify(customDataObject, null, 2));
+  console.log('Done')
+}
 
 /**
  * Temporarily convert old entry to new entry
@@ -431,3 +434,6 @@ function expandEntryStatus(status) {
       return 'standard'
   }
 }
+
+
+process();
