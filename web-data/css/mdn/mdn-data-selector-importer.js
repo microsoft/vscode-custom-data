@@ -8,9 +8,9 @@
 const mdnData = require('mdn-data');
 const mdnCompatData = require('@mdn/browser-compat-data');
 const { abbreviateStatus } = require('./mdn-data-importer')
-const { pseudoSelectorDescriptions, pseudoElementDescriptions } = require('./mdn-documentation')
+const { pseudoSelectorDescriptions, pseudoElementDescriptions, fetchDocFromMDN } = require('./mdn-documentation')
 
-function addMDNPseudoElements(vscPseudoElements) {
+async function addMDNPseudoElements(vscPseudoElements) {
 	const mdnSelectors = mdnData.css.selectors;
 	const mdnCompatProperties = mdnCompatData.css.properties;
 	const allPseudoElements = vscPseudoElements;
@@ -26,7 +26,7 @@ function addMDNPseudoElements(vscPseudoElements) {
 				!allPseudoElementNames.includes(selectorName) &&
 				!allPseudoElementNames.includes(selectorName + '()')
 			) {
-				const desc = pseudoElementDescriptions[selectorName] ||  '';
+				const desc = pseudoElementDescriptions[selectorName] || '';
 				if (!desc) {
 					missingDocumentation.push(selectorName);
 				}
@@ -39,7 +39,14 @@ function addMDNPseudoElements(vscPseudoElements) {
 		}
 	}
 	if (missingDocumentation.length) {
-		console.log('add to mdn-documenatation.ts (pseudoElementDescriptions):' + missingDocumentation.map(e => `\n'${e}': '',`).join(''));
+		const fetchedDocs = ['{'];
+		console.log('add to mdn-documentation.ts (pseudoElementDescriptions):');
+		for (let prop of missingDocumentation) {
+		  const doc = await fetchDocFromMDN(prop.replace(/::/, '_doublecolon_'), undefined);
+		  fetchedDocs.push(`  '${prop}': \`${doc ?? ''}\`,`);
+		}
+		fetchedDocs.push('}');
+		console.log(fetchedDocs.join('\n'));
 	}
 
 	return allPseudoElements
@@ -53,7 +60,7 @@ const mdnExcludedPseudoSelectors = [
 	':any'
 ]
 
-function addMDNPseudoSelectors(vscPseudoClasses) {
+async function addMDNPseudoSelectors(vscPseudoClasses) {
 	const mdnSelectors = mdnData.css.selectors;
 	const mdnCompatProperties = mdnCompatData.css.properties;
 	const allPseudoSelectors = vscPseudoClasses
@@ -85,7 +92,14 @@ function addMDNPseudoSelectors(vscPseudoClasses) {
 		}
 	}
 	if (missingDocumentation.length) {
-		console.log('add to mdn-documenatation.ts (pseudoSelectorDescriptions):' + missingDocumentation.map(e => `\n'${e}': '',`).join(''));
+		console.log('add to mdn-documentation.ts (pseudoSelectorDescriptions):');
+		const fetchedDocs = ['{'];
+		for (let prop of missingDocumentation) {
+			const doc = await fetchDocFromMDN(prop.replace(/:/, '_colon_'), undefined);
+			fetchedDocs.push(`  '${prop}': \`${doc ?? ''}\`,`);
+		  }
+		  fetchedDocs.push('}');
+		  console.log(fetchedDocs.join('\n'));
 	}
 
 	return allPseudoSelectors

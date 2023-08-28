@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the Creative Commons Attribution-ShareAlike 2.5 Generic License.
  *--------------------------------------------------------------------------------------------*/
-
+const util = require('../utils');
 /**
  * This file is mainly compiled from https://developer.mozilla.org/en-US/docs/Web/CSS with some additions from the following sources
  *  - https://msdn.microsoft.com/en-us/library/dn433242(v=vs.85).aspx
@@ -12,7 +12,43 @@
 
 //@ts-check
 
+function extractFirstSentence(content) {
+  const match = content.match(/\{\{CSSRef\}\}[^\n\r]*[\r\n]*([^\r\n]*)/);
+  if (match) {
+    let desc = match[1].trim();
+    // replace all markdown links with the link text
+    desc = desc.replace(/\[([^\]]*)\]\([^\)]*\)/g, '$1');
+    // replace all markdown bold with the text
+    desc = desc.replace(/\*\*([^\*]*)\*\*/g, '$1');
+    //replace all markdown underline with the text
+    desc = desc.replace(/_([^_]*)_/g, '$1');
+    // replace {{ cssxref("value") }} with the value
+    desc = desc.replace(/\{\{\s*cssxref\("([^"]*)"\)\s*\}\}/g, '$1');
+    // replace {{ Glossary("key", "value") }} with the value
+    desc = desc.replace(/\{\{\s*Glossary\("([^"]*)",\s*"([^"]*)"\)\s*\}\}/gi, '$2');
+    // replace {{ Glossary("value") }} with the value
+    desc = desc.replace(/\{\{\s*Glossary\("([^"]*)"\)\s*\}\}/gi, '$1');
+    // replace `value` with the value
+    desc = desc.replace(/`([^`]*)`/g, '$1');
+    return desc;
+
+  }
+  return undefined;
+}
+
+async function fetchDocFromMDN(prop, atRuleName) {
+  let pathSegment = atRuleName ? `${atRuleName}/${prop}` : prop;
+  const url = `https://raw.githubusercontent.com/mdn/content/main/files/en-us/web/css/${pathSegment}/index.md`;
+  try {
+    return extractFirstSentence(await util.download(url));
+  } catch (e) {
+  }
+  return undefined;
+}
+
+
 module.exports = {
+  fetchDocFromMDN,
   propertyDescriptions: {
     '-ms-ime-align': `Aligns the Input Method Editor (IME) candidate window box relative to the element on which the IME composition is active.`,
     '-moz-binding': `The -moz-binding CSS property is used by Mozilla-based applications to attach an XBL binding to a DOM element.`,
@@ -212,6 +248,30 @@ module.exports = {
     'scroll-timeline': 'Defines a name that can be used to identify the source element of a scroll timeline, along with the scrollbar axis that should provide the timeline.',
     'scroll-timeline-axis': 'Specifies the scrollbar that will be used to provide the timeline for a scroll-timeline animation',
     'scroll-timeline-name': 'Defines a name that can be used to identify an element as the source of a scroll-timeline.',
+    'animation-range': `The animation-range CSS shorthand property is used to set the start and end of an animation's attachment range along its timeline, i.e. where along the timeline an animation will start and end.`,
+    'animation-range-end': `The animation-range-end CSS property is used to set the end of an animation's attachment range along its timeline, i.e. where along the timeline an animation will end.`,
+    'animation-range-start': `The animation-range-start CSS property is used to set the start of an animation's attachment range along its timeline, i.e. where along the timeline an animation will start.`,
+    'container': `The container shorthand CSS property establishes the element as a query container and specifies the name or name for the containment context used in a container query.`,
+    'container-name': `The container-name CSS property specifies a list of query container names used by the @container at-rule in a container query.`,
+    'container-type': `The container-type CSS property is used to define the type of containment used in a container query.`,
+    'font-palette': `The font-palette CSS property allows specifying one of the many palettes contained in a font that a user agent should use for the font. Users can also override the values in a palette or create a new palette by using the @font-palette-values at-rule.`,
+    'font-synthesis-small-caps': `The font-synthesis-small-caps CSS property lets you specify whether or not the browser may synthesize small-caps typeface when it is missing in a font family. Small-caps glyphs typically use the form of uppercase letters but are reduced to the size of lowercase letters.`,
+    'font-synthesis-style': `The font-synthesis-style CSS property lets you specify whether or not the browser may synthesize the oblique typeface when it is missing in a font family.`,
+    'font-synthesis-weight': `The font-synthesis-weight CSS property lets you specify whether or not the browser may synthesize the bold typeface when it is missing in a font family.`,
+    'font-variant-emoji': `The font-variant-emoji CSS property specifies the default presentation style for displaying emojis.`,
+    'hyphenate-limit-chars': `The hyphenate-limit-chars CSS property specifies the minimum word length to allow hyphenation of words as well as the minimum number of characters before and after the hyphen.`,
+    'page': `The page CSS property is used to specify the named page, a specific type of page defined by the @page at-rule.`,
+    'text-wrap': `The text-wrap CSS property controls how text inside an element is wrapped.`,
+    'timeline-scope': `The timeline-scope CSS property modifies the scope of a named animation timeline.`,
+    'view-timeline': `The view-timeline CSS shorthand property is used to define a named view progress timeline, which is progressed through based on the change in visibility of an element (known as the subject) inside a scrollable element (scroller). view-timeline is set on the subject.`,
+    'view-timeline-axis': `The view-timeline-axis CSS property is used to specify the scrollbar direction that will be used to provide the timeline for a named view progress timeline animation, which is progressed through based on the change in visibility of an element (known as the subject) inside a scrollable element (scroller). view-timeline-axis is set on the subject. See CSS scroll-driven animations for more details.`,
+    'view-timeline-name': `The view-timeline-name CSS property is used to define the name of a named view progress timeline, which is progressed through based on the change in visibility of an element (known as the subject) inside a scrollable element (scroller). view-timeline is set on the subject.`,
+    'view-transition-name': `The view-transition-name CSS property provides the selected element with a distinct identifying name (a custom-ident) and causes it to participate in a separate view transition from the root view transition — or no view transition if the none value is specified.`,
+    'white-space-collapse': `The white-space-collapse CSS property controls how white space inside an element is collapsed.`,
+    'view-timeline-inset': `The view-timeline-inset CSS property is used to specify one or two values representing an adjustment to the position of the scrollport (see Scroll container for more details) in which the subject element of a named view progress timeline animation is deemed to be visible. Put another way, this allows you to specify start and/or end inset (or outset) values that offset the position of the timeline.`,
+    'base-palette': `The base-palette CSS descriptor is used to specify the name or index of a pre-defined palette to be used for creating a new palette. If the specified base-palette does not exist, then the palette defined at index 0 will be used.`,
+    'override-colors': `The override-colors CSS descriptor is used to override colors in the chosen base-palette for a color font.`,
+    'page-orientation': `The page-orientation CSS descriptor for the @page at-rule controls the rotation of a printed page. It handles the flow of content across pages when the orientation of a page is changed. This behavior differs from the size descriptor in that a user can define the direction in which to rotate the page.`,
   },
   pseudoSelectorDescriptions: {
     ':defined': 'The :defined CSS pseudo-class represents any element that has been defined. This includes any standard element built in to the browser, and custom elements that have been successfully defined (i.e. with the CustomElementRegistry.define() method).',
@@ -246,5 +306,12 @@ module.exports = {
     '::part': 'The ::part CSS pseudo-element represents any element within a shadow tree that has a matching part attribute.',
     '::marker': 'The ::marker CSS pseudo-element selects the marker box of a list item, which typically contains a bullet or number. It works on any element or pseudo-element set to display: list-item, such as the <li> and <summary> elements.',
     '::target-text': 'The ::target-text CSS pseudo-element represents the text that has been scrolled to if the browser supports scroll-to-text fragments. It allows authors to choose how to highlight that section of text.',
+    '::view-transition': `The ::view-transition CSS pseudo-element represents the root of the view transitions overlay, which contains all view transitions and sits over the top of all other page content.`,
+    '::view-transition-group': `The ::view-transition-group CSS pseudo-element represents a single view transition group.`,
+    '::view-transition-image-pair': `The ::view-transition-image-pair CSS pseudo-element represents a container for a view transition's "old" and "new" view states — before and after the transition.`,
+    '::view-transition-new': `The ::view-transition-new CSS pseudo-element represents the "new" view state of a view transition — a live representation of the new view, after the transition.`,
+    '::view-transition-old': `The ::view-transition-old CSS pseudo-element represents the "old" view state of a view transition — a static screenshot of the old view, before the transition.`,
   }
 }
+
+
