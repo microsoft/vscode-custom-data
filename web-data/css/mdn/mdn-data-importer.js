@@ -7,7 +7,7 @@
 
 const mdnData = require('mdn-data');
 const mdnCompatData = require('@mdn/browser-compat-data');
-const { propertyDescriptions: mdnPropertyDescriptions } = require('./mdn-documentation')
+const { propertyDescriptions: mdnPropertyDescriptions, fetchDocFromMDN } = require('./mdn-documentation');
 
 const mdnExcludedProperties = [
   '--*', // custom properties
@@ -21,7 +21,7 @@ const mdnExcludedProperties = [
 
 const noDoc = ["-webkit-background-composite", "-webkit-margin-bottom-collapse", "-webkit-margin-collapse", "-webkit-margin-start", "-webkit-margin-top-collapse", "-webkit-padding-start", "-webkit-tap-highlight-color", "-webkit-text-fill-color", "-webkit-text-stroke", "-webkit-text-stroke-color", "-webkit-text-stroke-width", "-webkit-touch-callout", "-webkit-user-drag"];
 
-function addMDNProperties(vscProperties) {
+async function addMDNProperties(vscProperties) {
   const propertyMap = {}
 
   const mdnProperties = mdnData.css.properties;
@@ -33,14 +33,14 @@ function addMDNProperties(vscProperties) {
   const allMDNProperties = {};
 
   for (const property of Object.keys(mdnProperties)) {
-    allMDNProperties[property] = extractMDNProperties(property, mdnProperties[property], mdnCompatProperties[property]);
+    allMDNProperties[property] = extractMDNProperties(undefined, mdnProperties[property], mdnCompatProperties[property]);
   }
 
   // Flatten at-rule properties and put all properties together
   for (const atRuleName of Object.keys(mdnAtRules)) {
     if (mdnAtRules[atRuleName].descriptors) {
       for (const atRulePropertyName of Object.keys(mdnAtRules[atRuleName].descriptors)) {
-        allMDNProperties[atRulePropertyName] = extractMDNProperties(`${atRuleName}/${atRulePropertyName}`, mdnAtRules[atRuleName].descriptors[atRulePropertyName], mdnCompatAtRules[atRuleName]?.[atRulePropertyName]);
+        allMDNProperties[atRulePropertyName] = extractMDNProperties(atRuleName, mdnAtRules[atRuleName].descriptors[atRulePropertyName], mdnCompatAtRules[atRuleName]?.[atRulePropertyName]);
       }
     }
   }
@@ -95,7 +95,7 @@ function addMDNProperties(vscProperties) {
       if (mdnPropertyDescriptions[pn]) {
         propertyMap[pn].desc = mdnPropertyDescriptions[pn];
       } else if (noDoc.indexOf(pn) === -1) {
-        missingDocumentation.push(pn)
+        missingDocumentation.push(pn);
         console.log(`Missing documentaton for ${pn}.`);
       }
     } else if (mdnPropertyDescriptions[pn]) {
@@ -104,19 +104,24 @@ function addMDNProperties(vscProperties) {
   }
 
   if (missingDocumentation.length) {
-    console.log('add to mdn-documenatation.ts (propertyDescriptions):' + missingDocumentation.map(e => `\n'${e}': '',`).join(''));
+    const fetchedDocs = ['{'];
+    console.log('add to mdn-documentation.ts (propertyDescriptions):');
+    for (let prop of missingDocumentation) {
+      const doc = await fetchDocFromMDN(prop, propertyMap[prop]?.atRule);
+      fetchedDocs.push(`  '${prop}': \`${doc ?? ''}\`,`);
+    }
+    fetchedDocs.push('}');
+    console.log(fetchedDocs.join('\n'));
   }
-
-
-
   return Object.values(propertyMap)
 }
 
 /**
  * Extract only the MDN data that we use
  */
-function extractMDNProperties(name, mdnEntry, mdCompatEntry) {
+function extractMDNProperties(atRule, mdnEntry, mdCompatEntry) {
   return {
+    atRule,
     status: abbreviateStatus(mdnEntry, mdCompatEntry),
     syntax: mdnEntry.syntax,
     values: getValuesFromSytax(mdnEntry.syntax)
