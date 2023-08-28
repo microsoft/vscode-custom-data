@@ -31,15 +31,15 @@
     "update-data": "npm run compile && node ./dist/index.js"
   },
   "devDependencies": {
-    "@mdn/browser-compat-data": "^5.2.45",
+    "@mdn/browser-compat-data": "^5.3.13",
     "@types/cheerio": "^0.22.31",
     "@types/got": "^9.6.12",
     "@types/node": "^18.11.18",
     "@types/turndown": "^5.0.1",
-    "@types/vscode": "^1.76.0",
+    "@types/vscode": "^1.81.0",
     "cheerio": "1.0.0-rc.12",
-    "mdn-data": "^2.0.31",
+    "mdn-data": "^2.0.33",
     "turndown": "^7.1.2",
-    "typescript": "^5.0.2"
+    "typescript": "^5.2.2"
   }
 }

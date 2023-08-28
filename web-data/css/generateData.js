@@ -7,7 +7,6 @@
 
 const fs = require('fs')
 const path = require('path')
-const xml2js = require('xml2js')
 
 const { readFile, writeFile } = fs.promises;
 
@@ -324,9 +323,7 @@ function toSource(object, keyName) {
 
   return result
 }
-
-const parser = new xml2js.Parser({ explicitArray: false })
-const schemaFileName = 'css-schema.xml'
+const schemaFileName = 'css-schema.json'
 
 const { addMDNProperties } = require('./mdn/mdn-data-importer');
 const { addMDNPseudoElements, addMDNPseudoSelectors } = require('./mdn/mdn-data-selector-importer');
@@ -336,7 +333,7 @@ const { applyRelevance } = require('./chromestatus/applyRelevance');
 async function process() {
 
   const data = await readFile(path.resolve(__dirname, schemaFileName));
-  const result = await parser.parseStringPromise(data);
+  const result = JSON.parse(data.toString());
   const atDirectives = toSource(result, 'atDirectives');
 
   let pseudoClasses = toSource(result, 'pseudoClasses');
