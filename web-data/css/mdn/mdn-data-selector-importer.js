@@ -55,7 +55,7 @@ async function addMDNPseudoElements(vscPseudoElements) {
 const mdnExcludedPseudoSelectors = [
 	/**
 	 * See https://developer.mozilla.org/en-US/docs/Web/CSS/:matches
-	 * -moz-any and -webkit-any are already in css-schema.xml
+	 * -moz-any and -webkit-any are already in css-schema.json
 	 */
 	':any'
 ]

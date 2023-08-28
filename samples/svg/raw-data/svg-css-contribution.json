@@ -842,7 +842,7 @@
       "status": "standard",
       "syntax": "auto | inter-character | inter-word | none",
       "browsers": [
-        "E12",
+        "E79",
         "FF55",
         "C32",
         "IE11",
@@ -869,7 +869,7 @@
         }
       ],
       "status": "standard",
-      "syntax": "normal | pre | nowrap | pre-wrap | pre-line | break-spaces"
+      "syntax": "normal | pre | nowrap | pre-wrap | pre-line | break-spaces | [ <'white-space-collapse'> || <'text-wrap'> || <'white-space-trim'> ]"
     },
     {
       "name": "word-break",
@@ -2123,7 +2123,7 @@
       "status": "standard",
       "syntax": "auto | inter-character | inter-word | none",
       "browsers": [
-        "E12",
+        "E79",
         "FF55",
         "C32",
         "IE11",
@@ -2150,7 +2150,7 @@
         }
       ],
       "status": "standard",
-      "syntax": "normal | pre | nowrap | pre-wrap | pre-line | break-spaces"
+      "syntax": "normal | pre | nowrap | pre-wrap | pre-line | break-spaces | [ <'white-space-collapse'> || <'text-wrap'> || <'white-space-trim'> ]"
     },
     {
       "name": "word-break",

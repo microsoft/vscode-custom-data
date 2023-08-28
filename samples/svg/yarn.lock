@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@mdn/browser-compat-data@^5.2.45":
-  "integrity" "sha512-Er03EjYAx3TTMvdBdm6Z3SG4IV0/FWfRJP4CBNtRLWoPVVyp9BdYt/9X4zSFw4GAIOVx6+6r7d8VAw0sbPtMjg=="
-  "resolved" "https://registry.npmjs.org/@mdn/browser-compat-data/-/browser-compat-data-5.2.45.tgz"
-  "version" "5.2.45"
+"@mdn/browser-compat-data@^5.3.13":
+  "integrity" "sha512-58+1nu0GOUsNtuPbSRKI6/oDti++pJ/cSIy0+OgjtGD8dfvAYfVu3+OqsPkHLpRbcBPvf8nJt7NQDK6n9KD5Zw=="
+  "resolved" "https://registry.npmjs.org/@mdn/browser-compat-data/-/browser-compat-data-5.3.13.tgz"
+  "version" "5.3.13"
 
 "@types/cheerio@^0.22.31":
   "integrity" "sha512-Kt7Cdjjdi2XWSfrZ53v4Of0wG3ZcmaegFXjMmz9tfNrZSkzzo36G0AL1YqSdcIA78Etjt6E609pt5h1xnQkPUw=="
@@ -38,10 +38,10 @@
   "resolved" "https://registry.npmjs.org/@types/turndown/-/turndown-5.0.1.tgz"
   "version" "5.0.1"
 
-"@types/vscode@^1.76.0":
-  "integrity" "sha512-CQcY3+Fe5hNewHnOEAVYj4dd1do/QHliXaknAEYSXx2KEHUzFibDZSKptCon+HPgK55xx20pR+PBJjf0MomnBA=="
-  "resolved" "https://registry.npmjs.org/@types/vscode/-/vscode-1.76.0.tgz"
-  "version" "1.76.0"
+"@types/vscode@^1.81.0":
+  "integrity" "sha512-YIaCwpT+O2E7WOMq0eCgBEABE++SX3Yl/O02GoMIF2DO3qAtvw7m6BXFYsxnc6XyzwZgh6/s/UG78LSSombl2w=="
+  "resolved" "https://registry.npmjs.org/@types/vscode/-/vscode-1.81.0.tgz"
+  "version" "1.81.0"
 
 "asynckit@^0.4.0":
   "integrity" "sha1-x57Zf380y48robyXkLzDZkdLS3k="
@@ -165,10 +165,10 @@
     "domutils" "^3.0.1"
     "entities" "^4.4.0"
 
-"mdn-data@^2.0.31":
-  "integrity" "sha512-BoMtKzFjk2+b5QDi1QtS4XBZtwd1WIBVQSVe9Q6iIgQP+m6KhlbukWM8bp7rYgWXOXzp/cBqgHWU7az4hGV1WA=="
-  "resolved" "https://registry.npmjs.org/mdn-data/-/mdn-data-2.0.31.tgz"
-  "version" "2.0.31"
+"mdn-data@^2.0.33":
+  "integrity" "sha512-7n9sfbaiI7Eqow7h/ObqtPie0/8x0NR8Mm7wuy9UBGRnpUKaVUpJUgK826lBWWRAcVQ1vEjtP1bXDE+nCXbMzw=="
+  "resolved" "https://registry.npmjs.org/mdn-data/-/mdn-data-2.0.33.tgz"
+  "version" "2.0.33"
 
 "mime-db@1.50.0":
   "integrity" "sha512-9tMZCDlYHqeERXEHO9f/hKfNXhre5dK2eE/krIvUjZbS2KPcqGDfNShIWS1uW9XOTKQKqK6qbeOci18rbfW77A=="
@@ -211,7 +211,7 @@
   dependencies:
     "domino" "^2.1.6"
 
-"typescript@^5.0.2":
-  "integrity" "sha512-wVORMBGO/FAs/++blGNeAVdbNKtIh1rbBL2EyQ1+J9lClJ93KiiKe8PmFIVdXhHcyv44SL9oglmfeSsndo0jRw=="
-  "resolved" "https://registry.npmjs.org/typescript/-/typescript-5.0.2.tgz"
-  "version" "5.0.2"
+"typescript@^5.2.2":
+  "integrity" "sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w=="
+  "resolved" "https://registry.npmjs.org/typescript/-/typescript-5.2.2.tgz"
+  "version" "5.2.2"
