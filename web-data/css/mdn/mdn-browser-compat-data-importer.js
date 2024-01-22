@@ -10,7 +10,7 @@ const bcd = require('@mdn/browser-compat-data')
 function addBrowserCompatDataToProperties(atdirectives, pseudoclasses, pseudoelements, properties) {
   atdirectives.forEach(item => {
     if (bcd.css['at-rules'][item.name.slice(1)]) {
-      const matchingBCDItem = bcd.css['at-rules'][item.name.slice(1)] 
+      const matchingBCDItem = bcd.css['at-rules'][item.name.slice(1)]
       addBCDToBrowsers(item, matchingBCDItem)
     }
   })
@@ -52,11 +52,11 @@ function addMDNReferences(atdirectives, pseudoclasses, pseudoelements, propertie
 
   atdirectives.forEach(item => {
     if (bcd.css['at-rules'][item.name.slice(1)]) {
-      const matchingBCDItem = bcd.css['at-rules'][item.name.slice(1)]  
+      const matchingBCDItem = bcd.css['at-rules'][item.name.slice(1)]
       addReference(item, matchingBCDItem);
     }
   })
-  
+
   pseudoclasses.forEach(item => {
     if (bcd.css.selectors[item.name.slice(1)]) {
       const matchingBCDItem = bcd.css.selectors[item.name.slice(1)]
@@ -146,7 +146,7 @@ function toCompatString(bcdProperty) {
 
 /**
  * https://github.com/mdn/browser-compat-data/blob/master/schemas/compat-data-schema.md
- * 
+ *
  * Convert a support statement to a short compat string.
  * For example:
  * { "ie": { "version_added": "6.0" } } => "IE6.0"
@@ -174,11 +174,13 @@ function supportToShortCompatString(support, browserAbbrev) {
   }
 
   if (version_added) {
-    if (typeof(version_added) === 'boolean') {
-      return browserAbbrev
-    } else {
+    if (typeof(version_added) === 'string') {
+      if (version_added.startsWith('≤')) {
+        version_added = version_added.substring(1);
+      }
       return `${browserAbbrev}${version_added}`
     }
+    return browserAbbrev
   }
 
   return null
