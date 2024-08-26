@@ -165,7 +165,7 @@
         }
       ],
       "syntax": "normal | stretch | <baseline-position> | [ <overflow-position>? <self-position> ]",
-      "relevance": 87,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -250,7 +250,7 @@
         }
       ],
       "syntax": "normal | stretch | <baseline-position> | <overflow-position>? [ <self-position> | left | right ] | legacy | legacy && [ left | right | center ]",
-      "relevance": 56,
+      "relevance": 53,
       "references": [
         {
           "name": "MDN Reference",
@@ -332,7 +332,7 @@
         }
       ],
       "syntax": "auto | normal | stretch | <baseline-position> | <overflow-position>? [ <self-position> | left | right ]",
-      "relevance": 55,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -405,7 +405,7 @@
         }
       ],
       "syntax": "auto | normal | stretch | <baseline-position> | <overflow-position>? <self-position>",
-      "relevance": 72,
+      "relevance": 73,
       "references": [
         {
           "name": "MDN Reference",
@@ -428,7 +428,7 @@
       ],
       "values": [],
       "syntax": "initial | inherit | unset | revert | revert-layer",
-      "relevance": 54,
+      "relevance": 53,
       "references": [
         {
           "name": "MDN Reference",
@@ -593,7 +593,7 @@
         "O30"
       ],
       "syntax": "<time>#",
-      "relevance": 71,
+      "relevance": 72,
       "references": [
         {
           "name": "MDN Reference",
@@ -634,7 +634,7 @@
         }
       ],
       "syntax": "<single-animation-fill-mode>#",
-      "relevance": 64,
+      "relevance": 65,
       "references": [
         {
           "name": "MDN Reference",
@@ -663,7 +663,7 @@
         }
       ],
       "syntax": "<single-animation-iteration-count>#",
-      "relevance": 64,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -693,7 +693,7 @@
         }
       ],
       "syntax": "[ none | <keyframes-name> ]#",
-      "relevance": 71,
+      "relevance": 72,
       "references": [
         {
           "name": "MDN Reference",
@@ -727,7 +727,7 @@
         }
       ],
       "syntax": "<single-animation-play-state>#",
-      "relevance": 54,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -783,7 +783,7 @@
         }
       ],
       "syntax": "visible | hidden",
-      "relevance": 59,
+      "relevance": 60,
       "references": [
         {
           "name": "MDN Reference",
@@ -824,7 +824,7 @@
         }
       ],
       "syntax": "[ <bg-layer> , ]* <final-bg-layer>",
-      "relevance": 92,
+      "relevance": 93,
       "references": [
         {
           "name": "MDN Reference",
@@ -876,7 +876,7 @@
         }
       ],
       "syntax": "<attachment>#",
-      "relevance": 53,
+      "relevance": 54,
       "references": [
         {
           "name": "MDN Reference",
@@ -992,7 +992,7 @@
         }
       ],
       "syntax": "<blend-mode>#",
-      "relevance": 54,
+      "relevance": 52,
       "references": [
         {
           "name": "MDN Reference",
@@ -1015,7 +1015,7 @@
         "O10.5"
       ],
       "syntax": "<box>#",
-      "relevance": 67,
+      "relevance": 69,
       "references": [
         {
           "name": "MDN Reference",
@@ -1038,7 +1038,7 @@
         "O3.5"
       ],
       "syntax": "<color>",
-      "relevance": 93,
+      "relevance": 94,
       "references": [
         {
           "name": "MDN Reference",
@@ -1067,7 +1067,7 @@
         }
       ],
       "syntax": "<bg-image>#",
-      "relevance": 86,
+      "relevance": 88,
       "references": [
         {
           "name": "MDN Reference",
@@ -1114,7 +1114,7 @@
         "O3.5"
       ],
       "syntax": "<bg-position>#",
-      "relevance": 85,
+      "relevance": 87,
       "references": [
         {
           "name": "MDN Reference",
@@ -1191,7 +1191,7 @@
         }
       ],
       "syntax": "[ center | [ [ top | bottom | y-start | y-end ]? <length-percentage>? ]! ]#",
-      "relevance": 53,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -1216,7 +1216,7 @@
       ],
       "values": [],
       "syntax": "<repeat-style>#",
-      "relevance": 84,
+      "relevance": 85,
       "references": [
         {
           "name": "MDN Reference",
@@ -1253,7 +1253,7 @@
         }
       ],
       "syntax": "<bg-size>#",
-      "relevance": 84,
+      "relevance": 85,
       "references": [
         {
           "name": "MDN Reference",
@@ -1317,7 +1317,7 @@
         "O3.5"
       ],
       "syntax": "<line-width> || <line-style> || <color>",
-      "relevance": 94,
+      "relevance": 95,
       "references": [
         {
           "name": "MDN Reference",
@@ -1342,7 +1342,7 @@
         "O56"
       ],
       "syntax": "<'border-top-width'> || <'border-top-style'> || <color>",
-      "relevance": 53,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -1527,7 +1527,7 @@
         "O3.5"
       ],
       "syntax": "<line-width> || <line-style> || <color>",
-      "relevance": 86,
+      "relevance": 87,
       "references": [
         {
           "name": "MDN Reference",
@@ -1553,7 +1553,7 @@
         "O3.5"
       ],
       "syntax": "<'border-top-color'>",
-      "relevance": 69,
+      "relevance": 70,
       "references": [
         {
           "name": "MDN Reference",
@@ -1576,7 +1576,7 @@
         "O10.5"
       ],
       "syntax": "<length-percentage>{1,2}",
-      "relevance": 73,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -1600,7 +1600,7 @@
         "O10.5"
       ],
       "syntax": "<length-percentage>{1,2}",
-      "relevance": 73,
+      "relevance": 74,
       "references": [
         {
           "name": "MDN Reference",
@@ -1624,7 +1624,7 @@
         "O9.2"
       ],
       "syntax": "<line-style>",
-      "relevance": 57,
+      "relevance": 60,
       "references": [
         {
           "name": "MDN Reference",
@@ -1647,7 +1647,7 @@
         "O3.5"
       ],
       "syntax": "<line-width>",
-      "relevance": 62,
+      "relevance": 65,
       "references": [
         {
           "name": "MDN Reference",
@@ -1681,7 +1681,7 @@
         }
       ],
       "syntax": "collapse | separate",
-      "relevance": 71,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -2127,7 +2127,7 @@
         "O3.5"
       ],
       "syntax": "<line-width> || <line-style> || <color>",
-      "relevance": 79,
+      "relevance": 81,
       "references": [
         {
           "name": "MDN Reference",
@@ -2153,7 +2153,7 @@
         "O3.5"
       ],
       "syntax": "<color>",
-      "relevance": 66,
+      "relevance": 67,
       "references": [
         {
           "name": "MDN Reference",
@@ -2199,7 +2199,7 @@
         "O3.5"
       ],
       "syntax": "<line-width>",
-      "relevance": 61,
+      "relevance": 63,
       "references": [
         {
           "name": "MDN Reference",
@@ -2223,7 +2223,7 @@
         "O10.5"
       ],
       "syntax": "<length-percentage>{1,4} [ / <length-percentage>{1,4} ]?",
-      "relevance": 91,
+      "relevance": 92,
       "references": [
         {
           "name": "MDN Reference",
@@ -2247,7 +2247,7 @@
         "O9.2"
       ],
       "syntax": "<line-width> || <line-style> || <color>",
-      "relevance": 78,
+      "relevance": 80,
       "references": [
         {
           "name": "MDN Reference",
@@ -2319,7 +2319,7 @@
         "O3.5"
       ],
       "syntax": "<line-width>",
-      "relevance": 61,
+      "relevance": 63,
       "references": [
         {
           "name": "MDN Reference",
@@ -2343,7 +2343,7 @@
         "O4"
       ],
       "syntax": "<length> <length>?",
-      "relevance": 65,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -2367,7 +2367,7 @@
       ],
       "values": [],
       "syntax": "<line-style>{1,4}",
-      "relevance": 78,
+      "relevance": 79,
       "references": [
         {
           "name": "MDN Reference",
@@ -2390,7 +2390,7 @@
         "O3.5"
       ],
       "syntax": "<line-width> || <line-style> || <color>",
-      "relevance": 84,
+      "relevance": 86,
       "references": [
         {
           "name": "MDN Reference",
@@ -2416,7 +2416,7 @@
         "O3.5"
       ],
       "syntax": "<color>",
-      "relevance": 69,
+      "relevance": 71,
       "references": [
         {
           "name": "MDN Reference",
@@ -2439,7 +2439,7 @@
         "O10.5"
       ],
       "syntax": "<length-percentage>{1,2}",
-      "relevance": 74,
+      "relevance": 75,
       "references": [
         {
           "name": "MDN Reference",
@@ -2463,7 +2463,7 @@
         "O10.5"
       ],
       "syntax": "<length-percentage>{1,2}",
-      "relevance": 74,
+      "relevance": 75,
       "references": [
         {
           "name": "MDN Reference",
@@ -2487,7 +2487,7 @@
         "O9.2"
       ],
       "syntax": "<line-style>",
-      "relevance": 55,
+      "relevance": 58,
       "references": [
         {
           "name": "MDN Reference",
@@ -2510,7 +2510,7 @@
         "O3.5"
       ],
       "syntax": "<line-width>",
-      "relevance": 60,
+      "relevance": 61,
       "references": [
         {
           "name": "MDN Reference",
@@ -2535,7 +2535,7 @@
       ],
       "values": [],
       "syntax": "<line-width>{1,4}",
-      "relevance": 80,
+      "relevance": 82,
       "references": [
         {
           "name": "MDN Reference",
@@ -2565,7 +2565,7 @@
         }
       ],
       "syntax": "<length> | <percentage> | auto",
-      "relevance": 89,
+      "relevance": 90,
       "references": [
         {
           "name": "MDN Reference",
@@ -2631,7 +2631,7 @@
         }
       ],
       "syntax": "none | <shadow>#",
-      "relevance": 89,
+      "relevance": 90,
       "references": [
         {
           "name": "MDN Reference",
@@ -2666,7 +2666,7 @@
         }
       ],
       "syntax": "content-box | border-box",
-      "relevance": 91,
+      "relevance": 92,
       "references": [
         {
           "name": "MDN Reference",
@@ -2829,7 +2829,7 @@
         }
       ],
       "syntax": "auto | avoid | avoid-page | avoid-column | avoid-region",
-      "relevance": 51,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -2890,7 +2890,7 @@
         }
       ],
       "syntax": "auto | <color>",
-      "relevance": 55,
+      "relevance": 53,
       "references": [
         {
           "name": "MDN Reference",
@@ -2932,7 +2932,7 @@
         }
       ],
       "syntax": "none | left | right | both | inline-start | inline-end",
-      "relevance": 81,
+      "relevance": 83,
       "references": [
         {
           "name": "MDN Reference",
@@ -2965,7 +2965,7 @@
         }
       ],
       "syntax": "<shape> | auto",
-      "relevance": 72,
+      "relevance": 74,
       "references": [
         {
           "name": "MDN Reference",
@@ -3055,7 +3055,7 @@
         "O3.5"
       ],
       "syntax": "<color>",
-      "relevance": 94,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -3473,7 +3473,7 @@
         }
       ],
       "syntax": "normal | none | [ <content-replacement> | <content-list> ] [/ [ <string> | <counter> ]+ ]?",
-      "relevance": 88,
+      "relevance": 89,
       "references": [
         {
           "name": "MDN Reference",
@@ -3831,7 +3831,7 @@
         }
       ],
       "syntax": "[ [ <url> [ <x> <y> ]? , ]* [ auto | default | none | context-menu | help | pointer | progress | wait | cell | crosshair | text | vertical-text | alias | copy | move | no-drop | not-allowed | e-resize | n-resize | ne-resize | nw-resize | s-resize | se-resize | sw-resize | w-resize | ew-resize | ns-resize | nesw-resize | nwse-resize | col-resize | row-resize | all-scroll | zoom-in | zoom-out | grab | grabbing ] ]",
-      "relevance": 90,
+      "relevance": 91,
       "references": [
         {
           "name": "MDN Reference",
@@ -3866,7 +3866,7 @@
         }
       ],
       "syntax": "ltr | rtl",
-      "relevance": 70,
+      "relevance": 71,
       "references": [
         {
           "name": "MDN Reference",
@@ -4394,7 +4394,7 @@
           "description": "No paint is applied in this layer."
         }
       ],
-      "relevance": 79,
+      "relevance": 77,
       "references": [
         {
           "name": "MDN Reference",
@@ -4527,7 +4527,7 @@
         }
       ],
       "syntax": "none | <filter-function-list>",
-      "relevance": 71,
+      "relevance": 70,
       "references": [
         {
           "name": "MDN Reference",
@@ -4573,7 +4573,7 @@
         }
       ],
       "syntax": "none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]",
-      "relevance": 81,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -4712,7 +4712,7 @@
         }
       ],
       "syntax": "<'flex-direction'> || <'flex-wrap'>",
-      "relevance": 63,
+      "relevance": 64,
       "references": [
         {
           "name": "MDN Reference",
@@ -4735,7 +4735,7 @@
         "O12.1"
       ],
       "syntax": "<number>",
-      "relevance": 76,
+      "relevance": 77,
       "references": [
         {
           "name": "MDN Reference",
@@ -4758,7 +4758,7 @@
         "O12.1"
       ],
       "syntax": "<number>",
-      "relevance": 76,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -4795,7 +4795,7 @@
         }
       ],
       "syntax": "nowrap | wrap | wrap-reverse",
-      "relevance": 82,
+      "relevance": 81,
       "references": [
         {
           "name": "MDN Reference",
@@ -4856,7 +4856,7 @@
         }
       ],
       "syntax": "left | right | none | inline-start | inline-end",
-      "relevance": 88,
+      "relevance": 89,
       "references": [
         {
           "name": "MDN Reference",
@@ -5029,7 +5029,7 @@
         }
       ],
       "syntax": "[ [ <'font-style'> || <font-variant-css21> || <'font-weight'> || <'font-stretch'> ]? <'font-size'> [ / <'line-height'> ]? <'font-family'> ] | caption | icon | menu | message-box | small-caption | status-bar",
-      "relevance": 81,
+      "relevance": 83,
       "references": [
         {
           "name": "MDN Reference",
@@ -5109,7 +5109,7 @@
       ],
       "atRule": "@font-face",
       "syntax": "<family-name>",
-      "relevance": 92,
+      "relevance": 93,
       "references": [
         {
           "name": "MDN Reference",
@@ -5615,7 +5615,7 @@
       ],
       "atRule": "@font-face",
       "syntax": "normal | <feature-tag-value>#",
-      "relevance": 58,
+      "relevance": 57,
       "references": [
         {
           "name": "MDN Reference",
@@ -5728,7 +5728,7 @@
         }
       ],
       "syntax": "<absolute-size> | <relative-size> | <length-percentage>",
-      "relevance": 93,
+      "relevance": 94,
       "references": [
         {
           "name": "MDN Reference",
@@ -5834,7 +5834,7 @@
       ],
       "atRule": "@font-face",
       "syntax": "<font-stretch-absolute>{1,2}",
-      "relevance": 56,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -5872,7 +5872,7 @@
       ],
       "atRule": "@font-face",
       "syntax": "normal | italic | oblique <angle>{0,2}",
-      "relevance": 88,
+      "relevance": 89,
       "references": [
         {
           "name": "MDN Reference",
@@ -5941,7 +5941,7 @@
         }
       ],
       "syntax": "normal | none | [ <common-lig-values> || <discretionary-lig-values> || <historical-lig-values> || <contextual-alt-values> || stylistic( <feature-value-name> ) || historical-forms || styleset( <feature-value-name># ) || character-variant( <feature-value-name># ) || swash( <feature-value-name> ) || ornaments( <feature-value-name> ) || annotation( <feature-value-name> ) || [ small-caps | all-small-caps | petite-caps | all-petite-caps | unicase | titling-caps ] || <numeric-figure-values> || <numeric-spacing-values> || <numeric-fraction-values> || ordinal || slashed-zero || <east-asian-variant-values> || <east-asian-width-values> || ruby ]",
-      "relevance": 63,
+      "relevance": 64,
       "references": [
         {
           "name": "MDN Reference",
@@ -6380,7 +6380,7 @@
       ],
       "atRule": "@font-face",
       "syntax": "<font-weight-absolute>{1,2}",
-      "relevance": 92,
+      "relevance": 93,
       "references": [
         {
           "name": "MDN Reference",
@@ -6440,7 +6440,7 @@
         }
       ],
       "syntax": "<grid-line> [ / <grid-line> ]{0,3}",
-      "relevance": 58,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -6545,7 +6545,7 @@
         }
       ],
       "syntax": "[ row | column ] || dense",
-      "relevance": 54,
+      "relevance": 53,
       "references": [
         {
           "name": "MDN Reference",
@@ -6619,7 +6619,7 @@
         }
       ],
       "syntax": "<grid-line> [ / <grid-line> ]?",
-      "relevance": 59,
+      "relevance": 56,
       "references": [
         {
           "name": "MDN Reference",
@@ -6653,7 +6653,7 @@
         }
       ],
       "syntax": "<grid-line>",
-      "relevance": 52,
+      "relevance": 51,
       "references": [
         {
           "name": "MDN Reference",
@@ -6703,7 +6703,7 @@
         }
       ],
       "syntax": "<grid-line>",
-      "relevance": 52,
+      "relevance": 51,
       "references": [
         {
           "name": "MDN Reference",
@@ -6727,7 +6727,7 @@
       ],
       "status": "obsolete",
       "syntax": "<'grid-row-gap'> <'grid-column-gap'>?",
-      "relevance": 8,
+      "relevance": 5,
       "description": "Shorthand that specifies the gutters between grid columns and grid rows in one declaration. Replaced by 'gap' property.",
       "restrictions": [
         "length"
@@ -6753,7 +6753,7 @@
         }
       ],
       "syntax": "<grid-line> [ / <grid-line> ]?",
-      "relevance": 57,
+      "relevance": 54,
       "references": [
         {
           "name": "MDN Reference",
@@ -6787,7 +6787,7 @@
         }
       ],
       "syntax": "<grid-line>",
-      "relevance": 52,
+      "relevance": 51,
       "references": [
         {
           "name": "MDN Reference",
@@ -6811,7 +6811,7 @@
       ],
       "status": "obsolete",
       "syntax": "<length-percentage>",
-      "relevance": 2,
+      "relevance": 0,
       "description": "Specifies the gutters between grid rows. Replaced by 'row-gap' property.",
       "restrictions": [
         "length"
@@ -6837,7 +6837,7 @@
         }
       ],
       "syntax": "<grid-line>",
-      "relevance": 53,
+      "relevance": 51,
       "references": [
         {
           "name": "MDN Reference",
@@ -6923,7 +6923,7 @@
         }
       ],
       "syntax": "none | <string>+",
-      "relevance": 54,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -6976,7 +6976,7 @@
         }
       ],
       "syntax": "none | <track-list> | <auto-track-list> | subgrid <line-name-list>?",
-      "relevance": 66,
+      "relevance": 64,
       "references": [
         {
           "name": "MDN Reference",
@@ -7032,7 +7032,7 @@
         }
       ],
       "syntax": "none | <track-list> | <auto-track-list> | subgrid <line-name-list>?",
-      "relevance": 57,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -7101,7 +7101,7 @@
         }
       ],
       "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content | fit-content(<length-percentage>)",
-      "relevance": 95,
+      "relevance": 96,
       "references": [
         {
           "name": "MDN Reference",
@@ -7139,7 +7139,7 @@
         }
       ],
       "syntax": "none | manual | auto",
-      "relevance": 54,
+      "relevance": 56,
       "references": [
         {
           "name": "MDN Reference",
@@ -7225,7 +7225,7 @@
         }
       ],
       "syntax": "auto | crisp-edges | pixelated",
-      "relevance": 53,
+      "relevance": 54,
       "references": [
         {
           "name": "MDN Reference",
@@ -7290,7 +7290,7 @@
         }
       ],
       "syntax": "<'width'>",
-      "relevance": 53,
+      "relevance": 54,
       "references": [
         {
           "name": "MDN Reference",
@@ -7412,7 +7412,7 @@
         }
       ],
       "syntax": "normal | <content-distribution> | <overflow-position>? [ <content-position> | left | right ]",
-      "relevance": 87,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -7456,7 +7456,7 @@
         }
       ],
       "syntax": "<length> | <percentage> | auto",
-      "relevance": 94,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -7547,7 +7547,7 @@
         }
       ],
       "syntax": "auto | loose | normal | strict | anywhere",
-      "relevance": 52,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -7576,7 +7576,7 @@
         }
       ],
       "syntax": "normal | <number> | <length> | <percentage>",
-      "relevance": 91,
+      "relevance": 92,
       "references": [
         {
           "name": "MDN Reference",
@@ -7674,7 +7674,7 @@
         }
       ],
       "syntax": "<'list-style-type'> || <'list-style-position'> || <'list-style-image'>",
-      "relevance": 81,
+      "relevance": 83,
       "references": [
         {
           "name": "MDN Reference",
@@ -7738,7 +7738,7 @@
         }
       ],
       "syntax": "inside | outside",
-      "relevance": 54,
+      "relevance": 55,
       "references": [
         {
           "name": "MDN Reference",
@@ -7835,7 +7835,7 @@
         }
       ],
       "syntax": "<counter-style> | <string> | none",
-      "relevance": 71,
+      "relevance": 73,
       "references": [
         {
           "name": "MDN Reference",
@@ -7892,7 +7892,7 @@
         }
       ],
       "syntax": "<'margin-left'>",
-      "relevance": 55,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -7920,7 +7920,7 @@
         }
       ],
       "syntax": "<'margin-left'>",
-      "relevance": 55,
+      "relevance": 56,
       "references": [
         {
           "name": "MDN Reference",
@@ -7949,7 +7949,7 @@
         }
       ],
       "syntax": "<length> | <percentage> | auto",
-      "relevance": 90,
+      "relevance": 91,
       "references": [
         {
           "name": "MDN Reference",
@@ -7977,7 +7977,7 @@
         }
       ],
       "syntax": "<'margin-left'>",
-      "relevance": 57,
+      "relevance": 58,
       "references": [
         {
           "name": "MDN Reference",
@@ -8005,7 +8005,7 @@
         }
       ],
       "syntax": "<'margin-left'>",
-      "relevance": 58,
+      "relevance": 59,
       "references": [
         {
           "name": "MDN Reference",
@@ -8034,7 +8034,7 @@
         }
       ],
       "syntax": "<length> | <percentage> | auto",
-      "relevance": 90,
+      "relevance": 91,
       "references": [
         {
           "name": "MDN Reference",
@@ -8063,7 +8063,7 @@
         }
       ],
       "syntax": "<length> | <percentage> | auto",
-      "relevance": 90,
+      "relevance": 91,
       "references": [
         {
           "name": "MDN Reference",
@@ -8092,7 +8092,7 @@
         }
       ],
       "syntax": "<length> | <percentage> | auto",
-      "relevance": 93,
+      "relevance": 94,
       "references": [
         {
           "name": "MDN Reference",
@@ -8249,7 +8249,7 @@
         }
       ],
       "syntax": "<mask-reference>#",
-      "relevance": 58,
+      "relevance": 57,
       "references": [
         {
           "name": "MDN Reference",
@@ -8334,7 +8334,7 @@
         "O106"
       ],
       "syntax": "<position>#",
-      "relevance": 52,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -8358,7 +8358,7 @@
         "O106"
       ],
       "syntax": "<repeat-style>#",
-      "relevance": 54,
+      "relevance": 53,
       "references": [
         {
           "name": "MDN Reference",
@@ -8551,7 +8551,7 @@
         }
       ],
       "syntax": "<'max-width'>",
-      "relevance": 53,
+      "relevance": 54,
       "references": [
         {
           "name": "MDN Reference",
@@ -8617,7 +8617,7 @@
         }
       ],
       "syntax": "none | <length-percentage> | min-content | max-content | fit-content | fit-content(<length-percentage>)",
-      "relevance": 90,
+      "relevance": 91,
       "references": [
         {
           "name": "MDN Reference",
@@ -8713,7 +8713,7 @@
         }
       ],
       "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content | fit-content(<length-percentage>)",
-      "relevance": 88,
+      "relevance": 89,
       "references": [
         {
           "name": "MDN Reference",
@@ -8736,7 +8736,7 @@
         "O44"
       ],
       "syntax": "<'min-width'>",
-      "relevance": 53,
+      "relevance": 54,
       "references": [
         {
           "name": "MDN Reference",
@@ -8809,7 +8809,7 @@
         }
       ],
       "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content | fit-content(<length-percentage>)",
-      "relevance": 87,
+      "relevance": 88,
       "references": [
         {
           "name": "MDN Reference",
@@ -8926,7 +8926,7 @@
         }
       ],
       "syntax": "<blend-mode> | plus-lighter",
-      "relevance": 53,
+      "relevance": 54,
       "references": [
         {
           "name": "MDN Reference",
@@ -13476,7 +13476,7 @@
         }
       ],
       "syntax": "[ <'outline-color'> || <'outline-style'> || <'outline-width'> ]",
-      "relevance": 86,
+      "relevance": 88,
       "references": [
         {
           "name": "MDN Reference",
@@ -13517,7 +13517,7 @@
         }
       ],
       "syntax": "auto | <color>",
-      "relevance": 61,
+      "relevance": 62,
       "references": [
         {
           "name": "MDN Reference",
@@ -13540,7 +13540,7 @@
         "O9.5"
       ],
       "syntax": "<length>",
-      "relevance": 68,
+      "relevance": 69,
       "references": [
         {
           "name": "MDN Reference",
@@ -13569,7 +13569,7 @@
         }
       ],
       "syntax": "auto | <'border-style'>",
-      "relevance": 58,
+      "relevance": 61,
       "references": [
         {
           "name": "MDN Reference",
@@ -13593,7 +13593,7 @@
         "O7"
       ],
       "syntax": "<line-width>",
-      "relevance": 62,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -13647,7 +13647,7 @@
         }
       ],
       "syntax": "[ visible | hidden | clip | scroll | auto ]{1,2}",
-      "relevance": 92,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -13677,10 +13677,14 @@
         {
           "name": "normal",
           "description": "Lines may break only at allowed break points."
+        },
+        {
+          "name": "anywhere",
+          "description": "There is a soft wrap opportunity around every typographic character unit, including around any punctuation character or preserved white spaces, or in the middle of words, disregarding any prohibition against line breaks, even those introduced by characters with the GL, WJ, or ZWJ line breaking classes or mandated by the word-break property."
         }
       ],
       "syntax": "normal | break-word | anywhere",
-      "relevance": 64,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -13721,7 +13725,7 @@
         }
       ],
       "syntax": "visible | hidden | clip | scroll | auto",
-      "relevance": 80,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -13762,7 +13766,7 @@
         }
       ],
       "syntax": "visible | hidden | clip | scroll | auto",
-      "relevance": 81,
+      "relevance": 82,
       "references": [
         {
           "name": "MDN Reference",
@@ -13826,7 +13830,7 @@
         "O3.5"
       ],
       "syntax": "<length> | <percentage>",
-      "relevance": 87,
+      "relevance": 88,
       "references": [
         {
           "name": "MDN Reference",
@@ -13849,7 +13853,7 @@
         "O56"
       ],
       "syntax": "<'padding-left'>",
-      "relevance": 53,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -13872,7 +13876,7 @@
         "O56"
       ],
       "syntax": "<'padding-left'>",
-      "relevance": 53,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -13942,7 +13946,7 @@
         "O3.5"
       ],
       "syntax": "<length> | <percentage>",
-      "relevance": 88,
+      "relevance": 89,
       "references": [
         {
           "name": "MDN Reference",
@@ -13966,7 +13970,7 @@
         "O3.5"
       ],
       "syntax": "<length> | <percentage>",
-      "relevance": 87,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -13990,7 +13994,7 @@
         "O3.5"
       ],
       "syntax": "<length> | <percentage>",
-      "relevance": 88,
+      "relevance": 89,
       "references": [
         {
           "name": "MDN Reference",
@@ -14036,7 +14040,7 @@
         }
       ],
       "syntax": "auto | always | avoid | left | right | recto | verso",
-      "relevance": 51,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -14114,7 +14118,7 @@
         }
       ],
       "syntax": "auto | avoid",
-      "relevance": 52,
+      "relevance": 53,
       "references": [
         {
           "name": "MDN Reference",
@@ -14180,7 +14184,7 @@
         }
       ],
       "syntax": "none | <length>",
-      "relevance": 54,
+      "relevance": 55,
       "references": [
         {
           "name": "MDN Reference",
@@ -14267,7 +14271,7 @@
         }
       ],
       "syntax": "auto | none | visiblePainted | visibleFill | visibleStroke | visible | painted | fill | stroke | all | inherit",
-      "relevance": 81,
+      "relevance": 82,
       "references": [
         {
           "name": "MDN Reference",
@@ -14344,7 +14348,7 @@
         }
       ],
       "syntax": "static | relative | absolute | sticky | fixed",
-      "relevance": 94,
+      "relevance": 95,
       "references": [
         {
           "name": "MDN Reference",
@@ -14388,7 +14392,7 @@
         }
       ],
       "syntax": "none | auto | [ <string> <string> ]+",
-      "relevance": 53,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -14452,7 +14456,7 @@
         }
       ],
       "syntax": "none | both | horizontal | vertical | block | inline",
-      "relevance": 65,
+      "relevance": 67,
       "references": [
         {
           "name": "MDN Reference",
@@ -14481,7 +14485,7 @@
         }
       ],
       "syntax": "<length> | <percentage> | auto",
-      "relevance": 90,
+      "relevance": 91,
       "references": [
         {
           "name": "MDN Reference",
@@ -14914,7 +14918,7 @@
         }
       ],
       "syntax": "none | [ x | y | block | inline | both ] [ mandatory | proximity ]?",
-      "relevance": 56,
+      "relevance": 53,
       "references": [
         {
           "name": "MDN Reference",
@@ -15054,7 +15058,7 @@
       ],
       "atRule": "@page",
       "syntax": "<length>{1,2} | auto | [ <page-size> || [ portrait | landscape ] ]",
-      "relevance": 53,
+      "relevance": 50,
       "description": "The size CSS at-rule descriptor, used with the @page at-rule, defines the size and orientation of the box which is used to represent a page. Most of the time, this size corresponds to the target size of the printed page if applicable.",
       "restrictions": [
         "length"
@@ -15078,7 +15082,7 @@
       ],
       "atRule": "@font-face",
       "syntax": "[ <url> [ format( <string># ) ]? | local( <family-name> ) ]#",
-      "relevance": 84,
+      "relevance": 86,
       "description": "@font-face descriptor. Specifies the resource containing font data. It is required, whether the font is downloadable or locally installed.",
       "restrictions": [
         "enum",
@@ -15095,7 +15099,7 @@
         "C80",
         "O67"
       ],
-      "relevance": 51,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -15147,7 +15151,7 @@
           "description": "No paint is applied in this layer."
         }
       ],
-      "relevance": 68,
+      "relevance": 67,
       "references": [
         {
           "name": "MDN Reference",
@@ -15224,7 +15228,7 @@
           "description": "Indicates that at the end of each subpath, the shape representing the stroke will be extended by a rectangle with the same width as the stroke width and whose length is half of the stroke width."
         }
       ],
-      "relevance": 53,
+      "relevance": 50,
       "description": "Specifies the shape to be used at the end of open subpaths when they are stroked.",
       "restrictions": [
         "enum"
@@ -15298,7 +15302,7 @@
         "C80",
         "O67"
       ],
-      "relevance": 69,
+      "relevance": 64,
       "description": "Specifies the width of the stroke on the current object.",
       "restrictions": [
         "percentage",
@@ -15533,7 +15537,7 @@
         }
       ],
       "syntax": "auto | start | end | left | right | center | justify",
-      "relevance": 51,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -15629,7 +15633,7 @@
         }
       ],
       "syntax": "<'text-decoration-line'> || <'text-decoration-style'> || <'text-decoration-color'> || <'text-decoration-thickness'>",
-      "relevance": 90,
+      "relevance": 91,
       "references": [
         {
           "name": "MDN Reference",
@@ -15692,7 +15696,7 @@
         }
       ],
       "syntax": "none | [ underline || overline || line-through || blink ] | spelling-error | grammar-error",
-      "relevance": 57,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -15740,7 +15744,7 @@
         }
       ],
       "syntax": "solid | double | dotted | dashed | wavy",
-      "relevance": 51,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -15764,7 +15768,7 @@
       ],
       "values": [],
       "syntax": "<length-percentage> && hanging? && each-line?",
-      "relevance": 65,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -15902,7 +15906,7 @@
         }
       ],
       "syntax": "[ clip | ellipsis | <string> ]{1,2}",
-      "relevance": 80,
+      "relevance": 82,
       "references": [
         {
           "name": "MDN Reference",
@@ -15942,7 +15946,7 @@
         }
       ],
       "syntax": "auto | optimizeSpeed | optimizeLegibility | geometricPrecision",
-      "relevance": 65,
+      "relevance": 68,
       "references": [
         {
           "name": "MDN Reference",
@@ -15971,7 +15975,7 @@
         }
       ],
       "syntax": "none | <shadow-t>#",
-      "relevance": 71,
+      "relevance": 73,
       "references": [
         {
           "name": "MDN Reference",
@@ -16013,7 +16017,7 @@
         }
       ],
       "syntax": "none | capitalize | uppercase | lowercase | full-width | full-size-kana",
-      "relevance": 84,
+      "relevance": 86,
       "references": [
         {
           "name": "MDN Reference",
@@ -16078,7 +16082,7 @@
         }
       ],
       "syntax": "<length> | <percentage> | auto",
-      "relevance": 94,
+      "relevance": 95,
       "references": [
         {
           "name": "MDN Reference",
@@ -16280,7 +16284,7 @@
         }
       ],
       "syntax": "none | <transform-list>",
-      "relevance": 89,
+      "relevance": 90,
       "references": [
         {
           "name": "MDN Reference",
@@ -16303,7 +16307,7 @@
         "O23"
       ],
       "syntax": "[ <length-percentage> | left | center | right | top | bottom ] | [ [ <length-percentage> | left | center | right ] && [ <length-percentage> | top | center | bottom ] ] <length>?",
-      "relevance": 74,
+      "relevance": 76,
       "references": [
         {
           "name": "MDN Reference",
@@ -16344,7 +16348,7 @@
         }
       ],
       "syntax": "flat | preserve-3d",
-      "relevance": 55,
+      "relevance": 56,
       "references": [
         {
           "name": "MDN Reference",
@@ -16377,7 +16381,7 @@
         }
       ],
       "syntax": "<single-transition>#",
-      "relevance": 88,
+      "relevance": 89,
       "references": [
         {
           "name": "MDN Reference",
@@ -16403,7 +16407,7 @@
         "O12.1"
       ],
       "syntax": "<time>#",
-      "relevance": 63,
+      "relevance": 64,
       "references": [
         {
           "name": "MDN Reference",
@@ -16459,7 +16463,7 @@
         }
       ],
       "syntax": "none | <single-transition-property>#",
-      "relevance": 67,
+      "relevance": 68,
       "references": [
         {
           "name": "MDN Reference",
@@ -16881,7 +16885,7 @@
       ],
       "atRule": "@font-face",
       "syntax": "<unicode-range>#",
-      "relevance": 71,
+      "relevance": 72,
       "description": "@font-face descriptor. Defines the set of Unicode codepoints that may be supported by the font face for which it is declared.",
       "restrictions": [
         "unicode-range"
@@ -16919,7 +16923,7 @@
         }
       ],
       "syntax": "auto | text | none | contain | all",
-      "relevance": 80,
+      "relevance": 82,
       "references": [
         {
           "name": "MDN Reference",
@@ -16991,7 +16995,7 @@
         }
       ],
       "syntax": "baseline | sub | super | text-top | text-bottom | middle | top | bottom | <percentage> | <length>",
-      "relevance": 89,
+      "relevance": 90,
       "references": [
         {
           "name": "MDN Reference",
@@ -17029,7 +17033,7 @@
         }
       ],
       "syntax": "visible | hidden | collapse",
-      "relevance": 85,
+      "relevance": 87,
       "references": [
         {
           "name": "MDN Reference",
@@ -19207,7 +19211,7 @@
         "O9.2"
       ],
       "syntax": "<integer>",
-      "relevance": 51,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -19272,7 +19276,7 @@
         }
       ],
       "syntax": "auto | <length> | <percentage> | min-content | max-content | fit-content | fit-content(<length-percentage>)",
-      "relevance": 95,
+      "relevance": 96,
       "references": [
         {
           "name": "MDN Reference",
@@ -19347,7 +19351,7 @@
         }
       ],
       "syntax": "normal | break-all | keep-all | break-word",
-      "relevance": 75,
+      "relevance": 76,
       "references": [
         {
           "name": "MDN Reference",
@@ -19409,7 +19413,7 @@
         }
       ],
       "syntax": "normal | break-word",
-      "relevance": 75,
+      "relevance": 77,
       "description": "Specifies whether the UA may break within a word to prevent overflow when an otherwise-unbreakable string is too long to fit.",
       "restrictions": [
         "enum"
@@ -19493,7 +19497,7 @@
         }
       ],
       "syntax": "auto | <integer>",
-      "relevance": 91,
+      "relevance": 92,
       "references": [
         {
           "name": "MDN Reference",
@@ -19521,7 +19525,7 @@
         }
       ],
       "syntax": "normal | reset | <number> | <percentage>",
-      "relevance": 63,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -20051,14 +20055,14 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/anchor-name"
         }
       ],
-      "description": "The anchor-name CSS property enables defining an element as an anchor element by giving it one or more identifying anchor names. Each name can then be set as the value of a positioned element's position-anchor property to associate it with the anchor."
+      "description": "The anchor-name property declares that an element is an anchor element, and gives it a list of anchor names to be targeted by."
     },
     {
       "name": "anchor-scope",
       "status": "experimental",
       "syntax": "none | all | <dashed-ident>#",
       "relevance": 50,
-      "description": ""
+      "description": "This property scopes the specified anchor names, and lookups for these anchor names, to this element’s subtree"
     },
     {
       "name": "animation-composition",
@@ -20174,7 +20178,7 @@
     {
       "name": "aspect-ratio",
       "syntax": "auto | <ratio>",
-      "relevance": 61,
+      "relevance": 60,
       "browsers": [
         "E88",
         "FF89",
@@ -20200,7 +20204,7 @@
     {
       "name": "backdrop-filter",
       "syntax": "none | <filter-function-list>",
-      "relevance": 60,
+      "relevance": 50,
       "browsers": [
         "E79",
         "FF103",
@@ -20295,7 +20299,7 @@
     {
       "name": "border-end-end-radius",
       "syntax": "<length-percentage>{1,2}",
-      "relevance": 54,
+      "relevance": 53,
       "browsers": [
         "E89",
         "FF66",
@@ -20314,7 +20318,7 @@
     {
       "name": "border-end-start-radius",
       "syntax": "<length-percentage>{1,2}",
-      "relevance": 54,
+      "relevance": 53,
       "browsers": [
         "E89",
         "FF66",
@@ -20428,7 +20432,7 @@
     {
       "name": "border-start-start-radius",
       "syntax": "<length-percentage>{1,2}",
-      "relevance": 54,
+      "relevance": 53,
       "browsers": [
         "E89",
         "FF66",
@@ -20810,7 +20814,7 @@
     {
       "name": "container",
       "syntax": "<'container-name'> [ / <'container-type'> ]?",
-      "relevance": 53,
+      "relevance": 50,
       "browsers": [
         "E105",
         "FF110",
@@ -20889,7 +20893,7 @@
           "name": "hidden"
         }
       ],
-      "relevance": 52,
+      "relevance": 50,
       "browsers": [
         "E85",
         "FF125",
@@ -20947,7 +20951,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/field-sizing"
         }
       ],
-      "description": "The field-sizing CSS property enables you to control the sizing behavior of elements that are given a default preferred size, such as form control elements."
+      "description": "The field-sizing CSS property enables you to control the sizing behavior of elements that are given a default preferred size, such as form control elements. This property enables you to override the default sizing behavior, allowing form controls to adjust in size to fit their contents."
     },
     {
       "name": "font-optical-sizing",
@@ -20999,7 +21003,7 @@
       "name": "font-variation-settings",
       "atRule": "@font-face",
       "syntax": "normal | [ <string> <number> ]#",
-      "relevance": 54,
+      "relevance": 51,
       "browsers": [
         "E17",
         "FF62",
@@ -21199,7 +21203,7 @@
     {
       "name": "gap",
       "syntax": "<'row-gap'> <'column-gap'>?",
-      "relevance": 72,
+      "relevance": 71,
       "browsers": [
         "E16",
         "FF52",
@@ -21315,7 +21319,7 @@
     {
       "name": "inset",
       "syntax": "<'top'>{1,4}",
-      "relevance": 61,
+      "relevance": 58,
       "browsers": [
         "E87",
         "FF66",
@@ -21336,7 +21340,7 @@
       "status": "experimental",
       "syntax": "none | <inset-area>",
       "relevance": 50,
-      "description": ""
+      "description": "Most common use-cases of anchor positioning only need to worry about the edges of the positioned element’s containing block, and the edges of the default anchor element. These lines can be thought of as defining a 3x3 grid; inset-area lets you easily set up the positioned element’s inset properties by specifying what area of this inset-area grid you want the positioned element to be in"
     },
     {
       "name": "inset-block",
@@ -21417,7 +21421,7 @@
     {
       "name": "inset-inline-end",
       "syntax": "<'top'>",
-      "relevance": 54,
+      "relevance": 51,
       "browsers": [
         "E87",
         "FF63",
@@ -21564,7 +21568,7 @@
     {
       "name": "mask",
       "syntax": "<mask-layer>#",
-      "relevance": 57,
+      "relevance": 55,
       "browsers": [
         "E120",
         "FF53",
@@ -21724,7 +21728,7 @@
     {
       "name": "mask-composite",
       "syntax": "<compositing-operator>#",
-      "relevance": 52,
+      "relevance": 50,
       "browsers": [
         "E120",
         "FF53",
@@ -22230,7 +22234,7 @@
     {
       "name": "padding-block",
       "syntax": "<'padding-left'>{1,2}",
-      "relevance": 55,
+      "relevance": 54,
       "browsers": [
         "E87",
         "FF66",
@@ -22287,7 +22291,7 @@
     {
       "name": "place-content",
       "syntax": "<'align-content'> <'justify-content'>?",
-      "relevance": 52,
+      "relevance": 51,
       "browsers": [
         "E79",
         "FF45",
@@ -22306,7 +22310,7 @@
     {
       "name": "place-items",
       "syntax": "<'align-items'> <'justify-items'>?",
-      "relevance": 52,
+      "relevance": 51,
       "browsers": [
         "E79",
         "FF45",
@@ -22325,7 +22329,7 @@
     {
       "name": "place-self",
       "syntax": "<'align-self'> <'justify-self'>?",
-      "relevance": 53,
+      "relevance": 50,
       "browsers": [
         "E79",
         "FF45",
@@ -22357,7 +22361,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/position-anchor"
         }
       ],
-      "description": "The position-anchor CSS property specifices the anchor name of the anchor element (i.e. an element that has an anchor name set on it via the anchor-name property) a positioned element is associated with."
+      "description": "The position-anchor property defines the default anchor specifier for all anchor functions on the element, allowing multiple elements to use the same set of anchor functions (and position options lists!) while changing which anchor element each is referring to."
     },
     {
       "name": "position-try",
@@ -22375,14 +22379,14 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/position-try"
         }
       ],
-      "description": "The position-try CSS property is a shorthand that corresponds to the position-try-order and position-try-fallbacks properties."
+      "description": "This shorthand sets both position-try-options and position-try-order. If <'position-try-order'> is omitted, it’s set to the property’s initial value."
     },
     {
       "name": "position-try-options",
       "status": "experimental",
       "syntax": "none | [ [<dashed-ident> || <try-tactic>] | inset-area( <'inset-area'> ) ]#",
       "relevance": 50,
-      "description": ""
+      "description": "This property provides a list of alternate positioning styles to try when the absolutely positioned box overflows its inset-modified containing block. This position options list is initially empty."
     },
     {
       "name": "position-try-order",
@@ -22400,7 +22404,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/position-try-order"
         }
       ],
-      "description": "The position-try-order CSS property allows you to specify various fallback options that result in an available position-try fallback being used to set an anchor-positioned element's position, instead of its initial position settings."
+      "description": "This property specifies the order in which the position options list will be tried."
     },
     {
       "name": "position-visibility",
@@ -22418,7 +22422,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/position-visibility"
         }
       ],
-      "description": "The position-visibility CSS property enables conditionally hiding an anchor-positioned element depending on, for example, whether it is overflowing its containing element or the viewport."
+      "description": "There are times when an element’s anchors are not appropriate for positioning the element with, and it would be better to simply not display the element at all. position-visibility provides several conditions where this could be the case."
     },
     {
       "name": "print-color-adjust",
@@ -22469,7 +22473,7 @@
     {
       "name": "row-gap",
       "syntax": "normal | <length-percentage>",
-      "relevance": 59,
+      "relevance": 58,
       "browsers": [
         "E16",
         "FF52",
@@ -22525,7 +22529,7 @@
     {
       "name": "scrollbar-color",
       "syntax": "auto | <color>{2}",
-      "relevance": 53,
+      "relevance": 50,
       "browsers": [
         "E121",
         "FF64",
@@ -22800,7 +22804,7 @@
     {
       "name": "scroll-padding",
       "syntax": "[ auto | <length-percentage> ]{1,4}",
-      "relevance": 52,
+      "relevance": 50,
       "browsers": [
         "E79",
         "FF68",
@@ -23036,7 +23040,7 @@
           "name": "always"
         }
       ],
-      "relevance": 51,
+      "relevance": 50,
       "browsers": [
         "E79",
         "FF103",
@@ -23197,7 +23201,7 @@
           "name": "none"
         }
       ],
-      "relevance": 51,
+      "relevance": 50,
       "browsers": [
         "E79",
         "FF70",
@@ -23216,7 +23220,7 @@
     {
       "name": "text-decoration-thickness",
       "syntax": "auto | from-font | <length> | <percentage> ",
-      "relevance": 51,
+      "relevance": 50,
       "browsers": [
         "E89",
         "FF70",
@@ -23312,7 +23316,7 @@
       "name": "text-size-adjust",
       "status": "experimental",
       "syntax": "none | auto | <percentage>",
-      "relevance": 58,
+      "relevance": 57,
       "browsers": [
         "E79",
         "C54",
@@ -23406,7 +23410,7 @@
           "name": "pretty"
         }
       ],
-      "relevance": 55,
+      "relevance": 54,
       "browsers": [
         "E114",
         "FF121",
@@ -23447,7 +23451,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/text-wrap-mode"
         }
       ],
-      "description": "The text-wrap-mode CSS property controls whether the text inside an element is wrapped. The different values provide alternate ways of wrapping the content of a block element. It can also be set, and reset, using the text-wrap shorthand."
+      "description": "The text-wrap-mode CSS property controls whether the text inside an element is wrapped. The different values provide alternate ways of wrapping the content of a block element. It can also be set, and reset, using the {{CSSXRef(\"text-wrap\")}} shorthand."
     },
     {
       "name": "text-wrap-style",
@@ -23477,7 +23481,7 @@
           "url": "https://developer.mozilla.org/docs/Web/CSS/text-wrap-style"
         }
       ],
-      "description": "The text-wrap-style CSS property controls how text inside an element is wrapped. The different values provide alternate ways of wrapping the content of a block element. It can also be set, and reset, using the text-wrap shorthand."
+      "description": "The text-wrap-style CSS property controls how text inside an element is wrapped. The different values provide alternate ways of wrapping the content of a block element. It can also be set, and reset, using the {{CSSXRef(\"text-wrap\")}} shorthand."
     },
     {
       "name": "timeline-scope",
@@ -23667,7 +23671,7 @@
     {
       "name": "white-space",
       "syntax": "normal | pre | nowrap | pre-wrap | pre-line | break-spaces | [ <'white-space-collapse'> || <'text-wrap'> || <'white-space-trim'> ]",
-      "relevance": 88,
+      "relevance": 89,
       "browsers": [
         "E12",
         "FF1",
