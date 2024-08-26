@@ -1,6 +1,6 @@
 {
   "name": "@vscode/web-custom-data",
-  "version": "0.4.9",
+  "version": "0.4.10",
   "license": "MIT",
   "author": "Visual Studio Code Team",
   "repository": {
@@ -18,7 +18,7 @@
     "data/*"
   ],
   "devDependencies": {
-    "@mdn/browser-compat-data": "^5.5.7",
-    "mdn-data": "^2.3.5"
+    "@mdn/browser-compat-data": "^5.5.48",
+    "mdn-data": "^2.9.0"
   }
 }
