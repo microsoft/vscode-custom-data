@@ -20,5 +20,8 @@
   "devDependencies": {
     "@mdn/browser-compat-data": "^5.5.48",
     "mdn-data": "^2.9.0"
+  },
+  "dependencies": {
+    "@vscode/web-custom-data": "file:"
   }
 }
