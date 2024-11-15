@@ -41,5 +41,8 @@
     "mdn-data": "^2.0.33",
     "turndown": "^7.1.2",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "svg": "file:"
   }
 }
