@@ -33,4 +33,5 @@ extends:
               - 14.x
 
         publishPackage: ${{ parameters.publishPackage }}
+        publishRequiresApproval: false
         workingDirectory: $(Build.SourcesDirectory)/web-data
