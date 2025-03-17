@@ -371,7 +371,8 @@ async function process() {
 
 function processEntry(entry) {
   try {
-    entry.baselineStatus = getStatus('', entry.webdxKey)
+     const { baseline, baseline_low_date, baseline_high_date } = getStatus('', entry.webdxKey)
+     entry.baselineStatus = {baseline, baseline_low_date, baseline_high_date}
   } catch {
     delete entry.webdxKey
   }
