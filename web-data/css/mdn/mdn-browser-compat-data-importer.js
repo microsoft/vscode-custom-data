@@ -6,33 +6,44 @@
 //@ts-check
 
 const bcd = require('@mdn/browser-compat-data')
+const { getStatus } = require('compute-baseline')
 
 function addBrowserCompatDataToProperties(atdirectives, pseudoclasses, pseudoelements, properties) {
   atdirectives.forEach(item => {
-    if (bcd.css['at-rules'][item.name.slice(1)]) {
-      const matchingBCDItem = bcd.css['at-rules'][item.name.slice(1)]
-      addBCDToBrowsers(item, matchingBCDItem)
+    const featureName = item.name.slice(1)
+    if (bcd.css['at-rules'][featureName]) {
+      const matchingBCDItem = bcd.css['at-rules'][featureName]
+      addBCDToBrowsers(item, matchingBCDItem, featureName)
     }
   })
 
   pseudoclasses.forEach(item => {
-    if (bcd.css.selectors[item.name.slice(1)]) {
-      const matchingBCDItem = bcd.css.selectors[item.name.slice(1)]
-      addBCDToBrowsers(item, matchingBCDItem)
+    let featureName = item.name.slice(1)
+    if (featureName.endsWith('()')) {
+      featureName = featureName.slice(0, -2)
+    }
+    if (bcd.css.selectors[featureName]) {
+      const matchingBCDItem = bcd.css.selectors[featureName]
+      addBCDToBrowsers(item, matchingBCDItem, featureName)
     }
   })
 
   pseudoelements.forEach(item => {
-    if (bcd.css.selectors[item.name.slice(2)]) {
-      const matchingBCDItem = bcd.css.selectors[item.name.slice(2)]
-      addBCDToBrowsers(item, matchingBCDItem)
+    let featureName = item.name.slice(2)
+    if (featureName.endsWith('()')) {
+      featureName = featureName.slice(0, -2)
+    }
+    if (bcd.css.selectors[featureName]) {
+      const matchingBCDItem = bcd.css.selectors[featureName]
+      addBCDToBrowsers(item, matchingBCDItem, featureName)
     }
   })
 
   properties.forEach(item => {
-    if (bcd.css.properties[item.name]) {
-      const matchingBCDItem = bcd.css.properties[item.name]
-      addBCDToBrowsers(item, matchingBCDItem)
+    const featureName = item.name
+    if (bcd.css.properties[featureName]) {
+      const matchingBCDItem = bcd.css.properties[featureName]
+      addBCDToBrowsers(item, matchingBCDItem, featureName)
     }
   })
 }
@@ -88,7 +99,7 @@ const browserNames = {
 	O: 'Opera'
 }
 
-function addBCDToBrowsers(item, matchingBCDItem) {
+function addBCDToBrowsers(item, matchingBCDItem, featureName) {
   const compatString = toCompatString(matchingBCDItem)
 
   if (compatString !== '') {
@@ -99,6 +110,16 @@ function addBCDToBrowsers(item, matchingBCDItem) {
         item.browsers = compatString
       }
     }
+  }
+
+  // map the BCD item to the feature's WebDX key
+  const sourceFile = matchingBCDItem.__compat.source_file
+  if (sourceFile) {
+    const parts = sourceFile.replace(/\.json$/, '').split('/')
+    if (parts.at(-1) == featureName) {
+      parts.pop()
+    }
+    item.webdxKey = [...parts, featureName].join('.')
   }
 }
 

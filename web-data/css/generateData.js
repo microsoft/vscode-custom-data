@@ -329,6 +329,7 @@ const { addMDNProperties } = require('./mdn/mdn-data-importer');
 const { addMDNPseudoElements, addMDNPseudoSelectors } = require('./mdn/mdn-data-selector-importer');
 const { addBrowserCompatDataToProperties, addMDNReferences } = require('./mdn/mdn-browser-compat-data-importer');
 const { applyRelevance } = require('./chromestatus/applyRelevance');
+const { getStatus } = require('compute-baseline');
 
 async function process() {
 
@@ -357,15 +358,25 @@ async function process() {
     pseudoElements
   }
 
-  customDataObject.properties.forEach(convertEntry)
-  customDataObject.atDirectives.forEach(convertEntry)
-  customDataObject.pseudoClasses.forEach(convertEntry)
-  customDataObject.pseudoElements.forEach(convertEntry)
+  customDataObject.properties.forEach(processEntry)
+  customDataObject.atDirectives.forEach(processEntry)
+  customDataObject.pseudoClasses.forEach(processEntry)
+  customDataObject.pseudoElements.forEach(processEntry)
 
   const outPath = path.resolve(__dirname, '../data/browsers.css-data.json')
   console.log('Writing custom data to: ' + outPath)
   await writeFile(outPath, JSON.stringify(customDataObject, null, 2));
   console.log('Done')
+}
+
+function processEntry(entry) {
+  try {
+    entry.baselineStatus = getStatus('', entry.webdxKey)
+  } catch {
+    delete entry.webdxKey
+  }
+
+  convertEntry(entry)
 }
 
 /**
