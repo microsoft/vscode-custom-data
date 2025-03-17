@@ -6,7 +6,6 @@
 //@ts-check
 
 const bcd = require('@mdn/browser-compat-data')
-const { getStatus } = require('compute-baseline')
 
 function addBrowserCompatDataToProperties(atdirectives, pseudoclasses, pseudoelements, properties) {
   atdirectives.forEach(item => {
