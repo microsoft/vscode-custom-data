@@ -9,11 +9,7 @@ const bcd = require('@mdn/browser-compat-data')
 
 function addBrowserCompatDataToProperties(atdirectives, pseudoclasses, pseudoelements, properties) {
   atdirectives.forEach(item => {
-    const featureName = item.name.slice(1)
-    if (bcd.css['at-rules'][featureName]) {
-      const matchingBCDItem = bcd.css['at-rules'][featureName]
-      addBCDToBrowsers(item, matchingBCDItem, featureName)
-    }
+    addCompatData(item, 'at-rules', item.name.slice(1))
   })
 
   pseudoclasses.forEach(item => {
@@ -21,10 +17,7 @@ function addBrowserCompatDataToProperties(atdirectives, pseudoclasses, pseudoele
     if (featureName.endsWith('()')) {
       featureName = featureName.slice(0, -2)
     }
-    if (bcd.css.selectors[featureName]) {
-      const matchingBCDItem = bcd.css.selectors[featureName]
-      addBCDToBrowsers(item, matchingBCDItem, featureName)
-    }
+    addCompatData(item, 'selectors', featureName)
   })
 
   pseudoelements.forEach(item => {
@@ -32,19 +25,22 @@ function addBrowserCompatDataToProperties(atdirectives, pseudoclasses, pseudoele
     if (featureName.endsWith('()')) {
       featureName = featureName.slice(0, -2)
     }
-    if (bcd.css.selectors[featureName]) {
-      const matchingBCDItem = bcd.css.selectors[featureName]
-      addBCDToBrowsers(item, matchingBCDItem, featureName)
-    }
+    addCompatData(item, 'selectors', featureName)
   })
 
   properties.forEach(item => {
-    const featureName = item.name
-    if (bcd.css.properties[featureName]) {
-      const matchingBCDItem = bcd.css.properties[featureName]
-      addBCDToBrowsers(item, matchingBCDItem, featureName)
-    }
+    addCompatData(item, 'properties', item.name)
   })
+}
+
+function addCompatData(item, namespace, featureName) {
+  if (!(featureName in bcd.css[namespace])) {
+    return;
+  }
+
+  const matchingBCDItem = bcd.css[namespace][featureName]
+  item.bcdKey = `css.${namespace}.${featureName}`
+  addBCDToBrowsers(item, matchingBCDItem)
 }
 
 function addMDNReferences(atdirectives, pseudoclasses, pseudoelements, properties) {
@@ -98,7 +94,7 @@ const browserNames = {
 	O: 'Opera'
 }
 
-function addBCDToBrowsers(item, matchingBCDItem, featureName) {
+function addBCDToBrowsers(item, matchingBCDItem) {
   const compatString = toCompatString(matchingBCDItem)
 
   if (compatString !== '') {
@@ -109,16 +105,6 @@ function addBCDToBrowsers(item, matchingBCDItem, featureName) {
         item.browsers = compatString
       }
     }
-  }
-
-  // map the BCD item to the feature's WebDX key
-  const sourceFile = matchingBCDItem.__compat.source_file
-  if (sourceFile) {
-    const parts = sourceFile.replace(/\.json$/, '').split('/')
-    if (parts.at(-1) == featureName) {
-      parts.pop()
-    }
-    item.webdxKey = [...parts, featureName].join('.')
   }
 }
 

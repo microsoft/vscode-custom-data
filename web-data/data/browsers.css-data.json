@@ -91,7 +91,6 @@
       ],
       "syntax": "normal | <baseline-position> | <content-distribution> | <overflow-position>? <content-position>",
       "relevance": 68,
-      "webdxKey": "css.properties.align-content",
       "references": [
         {
           "name": "MDN Reference",
@@ -172,7 +171,6 @@
       ],
       "syntax": "normal | stretch | <baseline-position> | [ <overflow-position>? <self-position> ]",
       "relevance": 89,
-      "webdxKey": "css.properties.align-items",
       "references": [
         {
           "name": "MDN Reference",
@@ -263,7 +261,6 @@
       ],
       "syntax": "normal | stretch | <baseline-position> | <overflow-position>? [ <self-position> | left | right ] | legacy | legacy && [ left | right | center ]",
       "relevance": 57,
-      "webdxKey": "css.properties.justify-items",
       "references": [
         {
           "name": "MDN Reference",
@@ -351,7 +348,6 @@
       ],
       "syntax": "auto | normal | stretch | <baseline-position> | <overflow-position>? [ <self-position> | left | right ]",
       "relevance": 56,
-      "webdxKey": "css.properties.justify-self",
       "references": [
         {
           "name": "MDN Reference",
@@ -430,7 +426,6 @@
       ],
       "syntax": "auto | normal | stretch | <baseline-position> | <overflow-position>? <self-position>",
       "relevance": 75,
-      "webdxKey": "css.properties.align-self",
       "references": [
         {
           "name": "MDN Reference",
@@ -459,7 +454,6 @@
       "values": [],
       "syntax": "initial | inherit | unset | revert | revert-layer",
       "relevance": 55,
-      "webdxKey": "css.properties.all",
       "references": [
         {
           "name": "MDN Reference",
@@ -483,7 +477,6 @@
       ],
       "values": [],
       "relevance": 50,
-      "webdxKey": "css.properties.alt",
       "baselineStatus": {
         "baseline": false
       },
@@ -543,7 +536,6 @@
       ],
       "syntax": "<single-animation>#",
       "relevance": 83,
-      "webdxKey": "css.properties.animation",
       "references": [
         {
           "name": "MDN Reference",
@@ -576,7 +568,6 @@
       ],
       "syntax": "<time>#",
       "relevance": 67,
-      "webdxKey": "css.properties.animation-delay",
       "references": [
         {
           "name": "MDN Reference",
@@ -623,7 +614,6 @@
       ],
       "syntax": "<single-animation-direction>#",
       "relevance": 58,
-      "webdxKey": "css.properties.animation-direction",
       "references": [
         {
           "name": "MDN Reference",
@@ -652,7 +642,6 @@
       ],
       "syntax": "<time>#",
       "relevance": 71,
-      "webdxKey": "css.properties.animation-duration",
       "references": [
         {
           "name": "MDN Reference",
@@ -699,7 +688,6 @@
       ],
       "syntax": "<single-animation-fill-mode>#",
       "relevance": 65,
-      "webdxKey": "css.properties.animation-fill-mode",
       "references": [
         {
           "name": "MDN Reference",
@@ -734,7 +722,6 @@
       ],
       "syntax": "<single-animation-iteration-count>#",
       "relevance": 65,
-      "webdxKey": "css.properties.animation-iteration-count",
       "references": [
         {
           "name": "MDN Reference",
@@ -770,7 +757,6 @@
       ],
       "syntax": "[ none | <keyframes-name> ]#",
       "relevance": 71,
-      "webdxKey": "css.properties.animation-name",
       "references": [
         {
           "name": "MDN Reference",
@@ -810,7 +796,6 @@
       ],
       "syntax": "<single-animation-play-state>#",
       "relevance": 55,
-      "webdxKey": "css.properties.animation-play-state",
       "references": [
         {
           "name": "MDN Reference",
@@ -839,7 +824,6 @@
       ],
       "syntax": "<easing-function>#",
       "relevance": 73,
-      "webdxKey": "css.properties.animation-timing-function",
       "references": [
         {
           "name": "MDN Reference",
@@ -878,7 +862,6 @@
       ],
       "syntax": "visible | hidden",
       "relevance": 60,
-      "webdxKey": "css.properties.backface-visibility",
       "references": [
         {
           "name": "MDN Reference",
@@ -925,7 +908,6 @@
       ],
       "syntax": "[ <bg-layer> , ]* <final-bg-layer>",
       "relevance": 93,
-      "webdxKey": "css.properties.background",
       "references": [
         {
           "name": "MDN Reference",
@@ -983,7 +965,6 @@
       ],
       "syntax": "<attachment>#",
       "relevance": 54,
-      "webdxKey": "css.properties.background-attachment",
       "references": [
         {
           "name": "MDN Reference",
@@ -1105,7 +1086,6 @@
       ],
       "syntax": "<blend-mode>#",
       "relevance": 54,
-      "webdxKey": "css.properties.background-blend-mode",
       "references": [
         {
           "name": "MDN Reference",
@@ -1134,7 +1114,6 @@
       ],
       "syntax": "<bg-clip>#",
       "relevance": 69,
-      "webdxKey": "css.properties.background-clip",
       "references": [
         {
           "name": "MDN Reference",
@@ -1163,7 +1142,6 @@
       ],
       "syntax": "<color>",
       "relevance": 95,
-      "webdxKey": "css.properties.background-color",
       "references": [
         {
           "name": "MDN Reference",
@@ -1198,7 +1176,6 @@
       ],
       "syntax": "<bg-image>#",
       "relevance": 89,
-      "webdxKey": "css.properties.background-image",
       "references": [
         {
           "name": "MDN Reference",
@@ -1228,7 +1205,6 @@
       ],
       "syntax": "<visual-box>#",
       "relevance": 53,
-      "webdxKey": "css.properties.background-origin",
       "references": [
         {
           "name": "MDN Reference",
@@ -1257,7 +1233,6 @@
       ],
       "syntax": "<bg-position>#",
       "relevance": 88,
-      "webdxKey": "css.properties.background-position",
       "references": [
         {
           "name": "MDN Reference",
@@ -1302,7 +1277,6 @@
       ],
       "syntax": "[ center | [ [ left | right | x-start | x-end ]? <length-percentage>? ]! ]#",
       "relevance": 56,
-      "webdxKey": "css.properties.background-position-x",
       "references": [
         {
           "name": "MDN Reference",
@@ -1346,7 +1320,6 @@
       ],
       "syntax": "[ center | [ [ top | bottom | y-start | y-end ]? <length-percentage>? ]! ]#",
       "relevance": 54,
-      "webdxKey": "css.properties.background-position-y",
       "references": [
         {
           "name": "MDN Reference",
@@ -1377,7 +1350,6 @@
       "values": [],
       "syntax": "<repeat-style>#",
       "relevance": 86,
-      "webdxKey": "css.properties.background-repeat",
       "references": [
         {
           "name": "MDN Reference",
@@ -1420,7 +1392,6 @@
       ],
       "syntax": "<bg-size>#",
       "relevance": 87,
-      "webdxKey": "css.properties.background-size",
       "references": [
         {
           "name": "MDN Reference",
@@ -1466,7 +1437,6 @@
       ],
       "syntax": "<'width'>",
       "relevance": 54,
-      "webdxKey": "css.properties.block-size",
       "references": [
         {
           "name": "MDN Reference",
@@ -1496,7 +1466,6 @@
       ],
       "syntax": "<line-width> || <line-style> || <color>",
       "relevance": 95,
-      "webdxKey": "css.properties.border",
       "references": [
         {
           "name": "MDN Reference",
@@ -1527,7 +1496,6 @@
       ],
       "syntax": "<'border-top-width'> || <'border-top-style'> || <color>",
       "relevance": 53,
-      "webdxKey": "css.properties.border-block-end",
       "references": [
         {
           "name": "MDN Reference",
@@ -1558,7 +1526,6 @@
       ],
       "syntax": "<'border-top-width'> || <'border-top-style'> || <color>",
       "relevance": 53,
-      "webdxKey": "css.properties.border-block-start",
       "references": [
         {
           "name": "MDN Reference",
@@ -1589,7 +1556,6 @@
       ],
       "syntax": "<'border-top-color'>",
       "relevance": 50,
-      "webdxKey": "css.properties.border-block-end-color",
       "references": [
         {
           "name": "MDN Reference",
@@ -1617,7 +1583,6 @@
       ],
       "syntax": "<'border-top-color'>",
       "relevance": 50,
-      "webdxKey": "css.properties.border-block-start-color",
       "references": [
         {
           "name": "MDN Reference",
@@ -1645,7 +1610,6 @@
       ],
       "syntax": "<'border-top-style'>",
       "relevance": 50,
-      "webdxKey": "css.properties.border-block-end-style",
       "references": [
         {
           "name": "MDN Reference",
@@ -1673,7 +1637,6 @@
       ],
       "syntax": "<'border-top-style'>",
       "relevance": 50,
-      "webdxKey": "css.properties.border-block-start-style",
       "references": [
         {
           "name": "MDN Reference",
@@ -1701,7 +1664,6 @@
       ],
       "syntax": "<'border-top-width'>",
       "relevance": 50,
-      "webdxKey": "css.properties.border-block-end-width",
       "references": [
         {
           "name": "MDN Reference",
@@ -1730,7 +1692,6 @@
       ],
       "syntax": "<'border-top-width'>",
       "relevance": 50,
-      "webdxKey": "css.properties.border-block-start-width",
       "references": [
         {
           "name": "MDN Reference",
@@ -1760,7 +1721,6 @@
       ],
       "syntax": "<line-width> || <line-style> || <color>",
       "relevance": 88,
-      "webdxKey": "css.properties.border-bottom",
       "references": [
         {
           "name": "MDN Reference",
@@ -1792,7 +1752,6 @@
       ],
       "syntax": "<'border-top-color'>",
       "relevance": 70,
-      "webdxKey": "css.properties.border-bottom-color",
       "references": [
         {
           "name": "MDN Reference",
@@ -1821,7 +1780,6 @@
       ],
       "syntax": "<length-percentage>{1,2}",
       "relevance": 75,
-      "webdxKey": "css.properties.border-bottom-left-radius",
       "references": [
         {
           "name": "MDN Reference",
@@ -1851,7 +1809,6 @@
       ],
       "syntax": "<length-percentage>{1,2}",
       "relevance": 75,
-      "webdxKey": "css.properties.border-bottom-right-radius",
       "references": [
         {
           "name": "MDN Reference",
@@ -1881,7 +1838,6 @@
       ],
       "syntax": "<line-style>",
       "relevance": 58,
-      "webdxKey": "css.properties.border-bottom-style",
       "references": [
         {
           "name": "MDN Reference",
@@ -1910,7 +1866,6 @@
       ],
       "syntax": "<line-width>",
       "relevance": 63,
-      "webdxKey": "css.properties.border-bottom-width",
       "references": [
         {
           "name": "MDN Reference",
@@ -1950,7 +1905,6 @@
       ],
       "syntax": "collapse | separate",
       "relevance": 73,
-      "webdxKey": "css.properties.border-collapse",
       "references": [
         {
           "name": "MDN Reference",
@@ -1980,7 +1934,6 @@
       "values": [],
       "syntax": "<color>{1,4}",
       "relevance": 88,
-      "webdxKey": "css.properties.border-color",
       "references": [
         {
           "name": "MDN Reference",
@@ -2042,7 +1995,6 @@
       ],
       "syntax": "<'border-image-source'> || <'border-image-slice'> [ / <'border-image-width'> | / <'border-image-width'>? / <'border-image-outset'> ]? || <'border-image-repeat'>",
       "relevance": 52,
-      "webdxKey": "css.properties.border-image",
       "references": [
         {
           "name": "MDN Reference",
@@ -2075,7 +2027,6 @@
       ],
       "syntax": "[ <length> | <number> ]{1,4}",
       "relevance": 50,
-      "webdxKey": "css.properties.border-image-outset",
       "references": [
         {
           "name": "MDN Reference",
@@ -2123,7 +2074,6 @@
       ],
       "syntax": "[ stretch | repeat | round | space ]{1,2}",
       "relevance": 50,
-      "webdxKey": "css.properties.border-image-repeat",
       "references": [
         {
           "name": "MDN Reference",
@@ -2158,7 +2108,6 @@
       ],
       "syntax": "<number-percentage>{1,4} && fill?",
       "relevance": 50,
-      "webdxKey": "css.properties.border-image-slice",
       "references": [
         {
           "name": "MDN Reference",
@@ -2194,7 +2143,6 @@
       ],
       "syntax": "none | <image>",
       "relevance": 50,
-      "webdxKey": "css.properties.border-image-source",
       "references": [
         {
           "name": "MDN Reference",
@@ -2229,7 +2177,6 @@
       ],
       "syntax": "[ <length-percentage> | <number> | auto ]{1,4}",
       "relevance": 50,
-      "webdxKey": "css.properties.border-image-width",
       "references": [
         {
           "name": "MDN Reference",
@@ -2259,7 +2206,6 @@
       ],
       "syntax": "<'border-top-width'> || <'border-top-style'> || <color>",
       "relevance": 53,
-      "webdxKey": "css.properties.border-inline-end",
       "references": [
         {
           "name": "MDN Reference",
@@ -2290,7 +2236,6 @@
       ],
       "syntax": "<'border-top-width'> || <'border-top-style'> || <color>",
       "relevance": 54,
-      "webdxKey": "css.properties.border-inline-start",
       "references": [
         {
           "name": "MDN Reference",
@@ -2321,7 +2266,6 @@
       ],
       "syntax": "<'border-top-color'>",
       "relevance": 50,
-      "webdxKey": "css.properties.border-inline-end-color",
       "references": [
         {
           "name": "MDN Reference",
@@ -2349,7 +2293,6 @@
       ],
       "syntax": "<'border-top-color'>",
       "relevance": 50,
-      "webdxKey": "css.properties.border-inline-start-color",
       "references": [
         {
           "name": "MDN Reference",
@@ -2377,7 +2320,6 @@
       ],
       "syntax": "<'border-top-style'>",
       "relevance": 50,
-      "webdxKey": "css.properties.border-inline-end-style",
       "references": [
         {
           "name": "MDN Reference",
@@ -2405,7 +2347,6 @@
       ],
       "syntax": "<'border-top-style'>",
       "relevance": 50,
-      "webdxKey": "css.properties.border-inline-start-style",
       "references": [
         {
           "name": "MDN Reference",
@@ -2433,7 +2374,6 @@
       ],
       "syntax": "<'border-top-width'>",
       "relevance": 51,
-      "webdxKey": "css.properties.border-inline-end-width",
       "references": [
         {
           "name": "MDN Reference",
@@ -2462,7 +2402,6 @@
       ],
       "syntax": "<'border-top-width'>",
       "relevance": 50,
-      "webdxKey": "css.properties.border-inline-start-width",
       "references": [
         {
           "name": "MDN Reference",
@@ -2492,7 +2431,6 @@
       ],
       "syntax": "<line-width> || <line-style> || <color>",
       "relevance": 82,
-      "webdxKey": "css.properties.border-left",
       "references": [
         {
           "name": "MDN Reference",
@@ -2524,7 +2462,6 @@
       ],
       "syntax": "<color>",
       "relevance": 67,
-      "webdxKey": "css.properties.border-left-color",
       "references": [
         {
           "name": "MDN Reference",
@@ -2553,7 +2490,6 @@
       ],
       "syntax": "<line-style>",
       "relevance": 54,
-      "webdxKey": "css.properties.border-left-style",
       "references": [
         {
           "name": "MDN Reference",
@@ -2582,7 +2518,6 @@
       ],
       "syntax": "<line-width>",
       "relevance": 64,
-      "webdxKey": "css.properties.border-left-width",
       "references": [
         {
           "name": "MDN Reference",
@@ -2612,7 +2547,6 @@
       ],
       "syntax": "<length-percentage>{1,4} [ / <length-percentage>{1,4} ]?",
       "relevance": 93,
-      "webdxKey": "css.properties.border-radius",
       "references": [
         {
           "name": "MDN Reference",
@@ -2642,7 +2576,6 @@
       ],
       "syntax": "<line-width> || <line-style> || <color>",
       "relevance": 81,
-      "webdxKey": "css.properties.border-right",
       "references": [
         {
           "name": "MDN Reference",
@@ -2674,7 +2607,6 @@
       ],
       "syntax": "<color>",
       "relevance": 66,
-      "webdxKey": "css.properties.border-right-color",
       "references": [
         {
           "name": "MDN Reference",
@@ -2703,7 +2635,6 @@
       ],
       "syntax": "<line-style>",
       "relevance": 53,
-      "webdxKey": "css.properties.border-right-style",
       "references": [
         {
           "name": "MDN Reference",
@@ -2732,7 +2663,6 @@
       ],
       "syntax": "<line-width>",
       "relevance": 64,
-      "webdxKey": "css.properties.border-right-width",
       "references": [
         {
           "name": "MDN Reference",
@@ -2762,7 +2692,6 @@
       ],
       "syntax": "<length> <length>?",
       "relevance": 66,
-      "webdxKey": "css.properties.border-spacing",
       "references": [
         {
           "name": "MDN Reference",
@@ -2792,7 +2721,6 @@
       "values": [],
       "syntax": "<line-style>{1,4}",
       "relevance": 80,
-      "webdxKey": "css.properties.border-style",
       "references": [
         {
           "name": "MDN Reference",
@@ -2821,7 +2749,6 @@
       ],
       "syntax": "<line-width> || <line-style> || <color>",
       "relevance": 86,
-      "webdxKey": "css.properties.border-top",
       "references": [
         {
           "name": "MDN Reference",
@@ -2853,7 +2780,6 @@
       ],
       "syntax": "<color>",
       "relevance": 70,
-      "webdxKey": "css.properties.border-top-color",
       "references": [
         {
           "name": "MDN Reference",
@@ -2882,7 +2808,6 @@
       ],
       "syntax": "<length-percentage>{1,2}",
       "relevance": 75,
-      "webdxKey": "css.properties.border-top-left-radius",
       "references": [
         {
           "name": "MDN Reference",
@@ -2912,7 +2837,6 @@
       ],
       "syntax": "<length-percentage>{1,2}",
       "relevance": 75,
-      "webdxKey": "css.properties.border-top-right-radius",
       "references": [
         {
           "name": "MDN Reference",
@@ -2942,7 +2866,6 @@
       ],
       "syntax": "<line-style>",
       "relevance": 56,
-      "webdxKey": "css.properties.border-top-style",
       "references": [
         {
           "name": "MDN Reference",
@@ -2971,7 +2894,6 @@
       ],
       "syntax": "<line-width>",
       "relevance": 62,
-      "webdxKey": "css.properties.border-top-width",
       "references": [
         {
           "name": "MDN Reference",
@@ -3002,7 +2924,6 @@
       "values": [],
       "syntax": "<line-width>{1,4}",
       "relevance": 83,
-      "webdxKey": "css.properties.border-width",
       "references": [
         {
           "name": "MDN Reference",
@@ -3038,7 +2959,6 @@
       ],
       "syntax": "<length> | <percentage> | auto",
       "relevance": 91,
-      "webdxKey": "css.properties.bottom",
       "references": [
         {
           "name": "MDN Reference",
@@ -3077,7 +2997,6 @@
       ],
       "syntax": "slice | clone",
       "relevance": 51,
-      "webdxKey": "css.properties.box-decoration-break",
       "references": [
         {
           "name": "MDN Reference",
@@ -3114,7 +3033,6 @@
       ],
       "syntax": "none | <shadow>#",
       "relevance": 90,
-      "webdxKey": "css.properties.box-shadow",
       "references": [
         {
           "name": "MDN Reference",
@@ -3155,7 +3073,6 @@
       ],
       "syntax": "content-box | border-box",
       "relevance": 93,
-      "webdxKey": "css.properties.box-sizing",
       "references": [
         {
           "name": "MDN Reference",
@@ -3222,7 +3139,6 @@
       ],
       "syntax": "auto | avoid | always | all | avoid-page | page | left | right | recto | verso | avoid-column | column | avoid-region | region",
       "relevance": 50,
-      "webdxKey": "css.properties.break-after",
       "references": [
         {
           "name": "MDN Reference",
@@ -3289,7 +3205,6 @@
       ],
       "syntax": "auto | avoid | always | all | avoid-page | page | left | right | recto | verso | avoid-column | column | avoid-region | region",
       "relevance": 50,
-      "webdxKey": "css.properties.break-before",
       "references": [
         {
           "name": "MDN Reference",
@@ -3336,7 +3251,6 @@
       ],
       "syntax": "auto | avoid | avoid-page | avoid-column | avoid-region",
       "relevance": 51,
-      "webdxKey": "css.properties.break-inside",
       "references": [
         {
           "name": "MDN Reference",
@@ -3375,7 +3289,6 @@
       ],
       "syntax": "top | bottom",
       "relevance": 52,
-      "webdxKey": "css.properties.caption-side",
       "references": [
         {
           "name": "MDN Reference",
@@ -3409,7 +3322,6 @@
       ],
       "syntax": "auto | <color>",
       "relevance": 56,
-      "webdxKey": "css.properties.caret-color",
       "references": [
         {
           "name": "MDN Reference",
@@ -3457,7 +3369,6 @@
       ],
       "syntax": "none | left | right | both | inline-start | inline-end",
       "relevance": 82,
-      "webdxKey": "css.properties.clear",
       "references": [
         {
           "name": "MDN Reference",
@@ -3497,7 +3408,6 @@
       "status": "obsolete",
       "syntax": "<shape> | auto",
       "relevance": 25,
-      "webdxKey": "css.properties.clip",
       "references": [
         {
           "name": "MDN Reference",
@@ -3534,7 +3444,6 @@
       ],
       "syntax": "<clip-source> | [ <basic-shape> || <geometry-box> ] | none",
       "relevance": 67,
-      "webdxKey": "css.properties.clip-path",
       "references": [
         {
           "name": "MDN Reference",
@@ -3575,7 +3484,6 @@
       ],
       "syntax": "nonzero | evenodd",
       "relevance": 50,
-      "webdxKey": "css.properties.clip-rule",
       "references": [
         {
           "name": "MDN Reference",
@@ -3604,7 +3512,6 @@
       ],
       "syntax": "<color>",
       "relevance": 95,
-      "webdxKey": "css.properties.color",
       "references": [
         {
           "name": "MDN Reference",
@@ -3646,7 +3553,6 @@
       ],
       "syntax": "auto | sRGB | linearRGB",
       "relevance": 50,
-      "webdxKey": "css.properties.color-interpolation-filters",
       "references": [
         {
           "name": "MDN Reference",
@@ -3681,7 +3587,6 @@
       ],
       "syntax": "<integer> | auto",
       "relevance": 53,
-      "webdxKey": "css.properties.column-count",
       "references": [
         {
           "name": "MDN Reference",
@@ -3721,7 +3626,6 @@
       ],
       "syntax": "auto | balance",
       "relevance": 50,
-      "webdxKey": "css.properties.column-fill",
       "references": [
         {
           "name": "MDN Reference",
@@ -3756,7 +3660,6 @@
       ],
       "syntax": "normal | <length-percentage>",
       "relevance": 65,
-      "webdxKey": "css.properties.column-gap",
       "references": [
         {
           "name": "MDN Reference",
@@ -3786,7 +3689,6 @@
       ],
       "syntax": "<'column-rule-width'> || <'column-rule-style'> || <'column-rule-color'>",
       "relevance": 51,
-      "webdxKey": "css.properties.column-rule",
       "references": [
         {
           "name": "MDN Reference",
@@ -3818,7 +3720,6 @@
       ],
       "syntax": "<color>",
       "relevance": 50,
-      "webdxKey": "css.properties.column-rule-color",
       "references": [
         {
           "name": "MDN Reference",
@@ -3847,7 +3748,6 @@
       ],
       "syntax": "<'border-style'>",
       "relevance": 50,
-      "webdxKey": "css.properties.column-rule-style",
       "references": [
         {
           "name": "MDN Reference",
@@ -3876,7 +3776,6 @@
       ],
       "syntax": "<'border-width'>",
       "relevance": 50,
-      "webdxKey": "css.properties.column-rule-width",
       "references": [
         {
           "name": "MDN Reference",
@@ -3912,7 +3811,6 @@
       ],
       "syntax": "<'column-width'> || <'column-count'>",
       "relevance": 51,
-      "webdxKey": "css.properties.columns",
       "references": [
         {
           "name": "MDN Reference",
@@ -3953,7 +3851,6 @@
       ],
       "syntax": "none | all",
       "relevance": 50,
-      "webdxKey": "css.properties.column-span",
       "references": [
         {
           "name": "MDN Reference",
@@ -3988,7 +3885,6 @@
       ],
       "syntax": "<length> | auto",
       "relevance": 51,
-      "webdxKey": "css.properties.column-width",
       "references": [
         {
           "name": "MDN Reference",
@@ -4047,7 +3943,6 @@
       ],
       "syntax": "none | strict | content | [ [ size || inline-size ] || layout || style || paint ]",
       "relevance": 59,
-      "webdxKey": "css.properties.contain",
       "references": [
         {
           "name": "MDN Reference",
@@ -4101,7 +3996,6 @@
       ],
       "syntax": "normal | none | [ <content-replacement> | <content-list> ] [/ [ <string> | <counter> ]+ ]?",
       "relevance": 91,
-      "webdxKey": "css.properties.content",
       "references": [
         {
           "name": "MDN Reference",
@@ -4137,7 +4031,6 @@
       ],
       "syntax": "[ <counter-name> <integer>? ]+ | none",
       "relevance": 55,
-      "webdxKey": "css.properties.counter-increment",
       "references": [
         {
           "name": "MDN Reference",
@@ -4173,7 +4066,6 @@
       ],
       "syntax": "[ <counter-name> <integer>? | <reversed-counter-name> <integer>? ]+ | none",
       "relevance": 54,
-      "webdxKey": "css.properties.counter-reset",
       "references": [
         {
           "name": "MDN Reference",
@@ -4477,7 +4369,6 @@
       ],
       "syntax": "[ [ <url> [ <x> <y> ]? , ]* [ auto | default | none | context-menu | help | pointer | progress | wait | cell | crosshair | text | vertical-text | alias | copy | move | no-drop | not-allowed | e-resize | n-resize | ne-resize | nw-resize | s-resize | se-resize | sw-resize | w-resize | ew-resize | ns-resize | nesw-resize | nwse-resize | col-resize | row-resize | all-scroll | zoom-in | zoom-out | grab | grabbing ] ]",
       "relevance": 92,
-      "webdxKey": "css.properties.cursor",
       "references": [
         {
           "name": "MDN Reference",
@@ -4518,7 +4409,6 @@
       ],
       "syntax": "ltr | rtl",
       "relevance": 72,
-      "webdxKey": "css.properties.direction",
       "references": [
         {
           "name": "MDN Reference",
@@ -4943,7 +4833,6 @@
       ],
       "syntax": "[ <display-outside> || <display-inside> ] | <display-listitem> | <display-internal> | <display-box> | <display-legacy>",
       "relevance": 96,
-      "webdxKey": "css.properties.display",
       "references": [
         {
           "name": "MDN Reference",
@@ -4993,7 +4882,6 @@
       ],
       "syntax": "show | hide",
       "relevance": 51,
-      "webdxKey": "css.properties.empty-cells",
       "references": [
         {
           "name": "MDN Reference",
@@ -5065,7 +4953,6 @@
       ],
       "syntax": "<paint>",
       "relevance": 80,
-      "webdxKey": "css.properties.fill",
       "references": [
         {
           "name": "MDN Reference",
@@ -5095,7 +4982,6 @@
       ],
       "syntax": "<'opacity'>",
       "relevance": 55,
-      "webdxKey": "css.properties.fill-opacity",
       "references": [
         {
           "name": "MDN Reference",
@@ -5133,7 +5019,6 @@
       ],
       "syntax": "nonzero | evenodd",
       "relevance": 51,
-      "webdxKey": "css.properties.fill-rule",
       "references": [
         {
           "name": "MDN Reference",
@@ -5218,7 +5103,6 @@
       ],
       "syntax": "none | <filter-value-list>",
       "relevance": 72,
-      "webdxKey": "css.properties.filter",
       "references": [
         {
           "name": "MDN Reference",
@@ -5270,7 +5154,6 @@
       ],
       "syntax": "none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]",
       "relevance": 83,
-      "webdxKey": "css.properties.flex",
       "references": [
         {
           "name": "MDN Reference",
@@ -5319,7 +5202,6 @@
       ],
       "syntax": "content | <'width'>",
       "relevance": 70,
-      "webdxKey": "css.properties.flex-basis",
       "references": [
         {
           "name": "MDN Reference",
@@ -5368,7 +5250,6 @@
       ],
       "syntax": "row | row-reverse | column | column-reverse",
       "relevance": 86,
-      "webdxKey": "css.properties.flex-direction",
       "references": [
         {
           "name": "MDN Reference",
@@ -5427,7 +5308,6 @@
       ],
       "syntax": "<'flex-direction'> || <'flex-wrap'>",
       "relevance": 65,
-      "webdxKey": "css.properties.flex-flow",
       "references": [
         {
           "name": "MDN Reference",
@@ -5456,7 +5336,6 @@
       ],
       "syntax": "<number>",
       "relevance": 78,
-      "webdxKey": "css.properties.flex-grow",
       "references": [
         {
           "name": "MDN Reference",
@@ -5485,7 +5364,6 @@
       ],
       "syntax": "<number>",
       "relevance": 78,
-      "webdxKey": "css.properties.flex-shrink",
       "references": [
         {
           "name": "MDN Reference",
@@ -5528,7 +5406,6 @@
       ],
       "syntax": "nowrap | wrap | wrap-reverse",
       "relevance": 84,
-      "webdxKey": "css.properties.flex-wrap",
       "references": [
         {
           "name": "MDN Reference",
@@ -5595,7 +5472,6 @@
       ],
       "syntax": "left | right | none | inline-start | inline-end",
       "relevance": 88,
-      "webdxKey": "css.properties.float",
       "references": [
         {
           "name": "MDN Reference",
@@ -5624,7 +5500,6 @@
       ],
       "syntax": "<color>",
       "relevance": 50,
-      "webdxKey": "css.properties.flood-color",
       "references": [
         {
           "name": "MDN Reference",
@@ -5653,7 +5528,6 @@
       ],
       "syntax": "<'opacity'>",
       "relevance": 50,
-      "webdxKey": "css.properties.flood-opacity",
       "references": [
         {
           "name": "MDN Reference",
@@ -5800,7 +5674,6 @@
       ],
       "syntax": "[ [ <'font-style'> || <font-variant-css21> || <'font-weight'> || <'font-stretch'> ]? <'font-size'> [ / <'line-height'> ]? <'font-family'> ] | caption | icon | menu | message-box | small-caption | status-bar",
       "relevance": 82,
-      "webdxKey": "css.properties.font",
       "references": [
         {
           "name": "MDN Reference",
@@ -5886,7 +5759,6 @@
       "atRule": "@font-palette-values",
       "syntax": "<family-name>#",
       "relevance": 94,
-      "webdxKey": "css.properties.font-family",
       "references": [
         {
           "name": "MDN Reference",
@@ -6398,7 +6270,6 @@
       "atRule": "@font-face",
       "syntax": "normal | <feature-tag-value>#",
       "relevance": 59,
-      "webdxKey": "css.properties.font-feature-settings",
       "references": [
         {
           "name": "MDN Reference",
@@ -6441,7 +6312,6 @@
       ],
       "syntax": "auto | normal | none",
       "relevance": 50,
-      "webdxKey": "css.properties.font-kerning",
       "references": [
         {
           "name": "MDN Reference",
@@ -6471,7 +6341,6 @@
       ],
       "syntax": "normal | <string>",
       "relevance": 50,
-      "webdxKey": "css.properties.font-language-override",
       "references": [
         {
           "name": "MDN Reference",
@@ -6527,7 +6396,6 @@
       ],
       "syntax": "<absolute-size> | <relative-size> | <length-percentage>",
       "relevance": 95,
-      "webdxKey": "css.properties.font-size",
       "references": [
         {
           "name": "MDN Reference",
@@ -6562,7 +6430,6 @@
       ],
       "syntax": "none | [ ex-height | cap-height | ch-width | ic-width | ic-height ]? [ from-font | <number> ]",
       "relevance": 50,
-      "webdxKey": "css.properties.font-size-adjust",
       "references": [
         {
           "name": "MDN Reference",
@@ -6644,7 +6511,6 @@
       "atRule": "@font-face",
       "syntax": "<font-stretch-absolute>{1,2}",
       "relevance": 59,
-      "webdxKey": "css.properties.font-stretch",
       "references": [
         {
           "name": "MDN Reference",
@@ -6686,7 +6552,6 @@
       "atRule": "@font-face",
       "syntax": "normal | italic | oblique <angle>{0,2}",
       "relevance": 89,
-      "webdxKey": "css.properties.font-style",
       "references": [
         {
           "name": "MDN Reference",
@@ -6728,7 +6593,6 @@
       ],
       "syntax": "none | [ weight || style || small-caps || position]",
       "relevance": 50,
-      "webdxKey": "css.properties.font-synthesis",
       "references": [
         {
           "name": "MDN Reference",
@@ -6767,7 +6631,6 @@
       ],
       "syntax": "normal | none | [ <common-lig-values> || <discretionary-lig-values> || <historical-lig-values> || <contextual-alt-values> || stylistic( <feature-value-name> ) || historical-forms || styleset( <feature-value-name># ) || character-variant( <feature-value-name># ) || swash( <feature-value-name> ) || ornaments( <feature-value-name> ) || annotation( <feature-value-name> ) || [ small-caps | all-small-caps | petite-caps | all-petite-caps | unicase | titling-caps ] || <numeric-figure-values> || <numeric-spacing-values> || <numeric-fraction-values> || ordinal || slashed-zero || <east-asian-variant-values> || <east-asian-width-values> || ruby ]",
       "relevance": 64,
-      "webdxKey": "css.properties.font-variant",
       "references": [
         {
           "name": "MDN Reference",
@@ -6829,7 +6692,6 @@
       ],
       "syntax": "normal | [ stylistic( <feature-value-name> ) || historical-forms || styleset( <feature-value-name># ) || character-variant( <feature-value-name># ) || swash( <feature-value-name> ) || ornaments( <feature-value-name> ) || annotation( <feature-value-name> ) ]",
       "relevance": 50,
-      "webdxKey": "css.properties.font-variant-alternates",
       "references": [
         {
           "name": "MDN Reference",
@@ -6886,7 +6748,6 @@
       ],
       "syntax": "normal | small-caps | all-small-caps | petite-caps | all-petite-caps | unicase | titling-caps",
       "relevance": 50,
-      "webdxKey": "css.properties.font-variant-caps",
       "references": [
         {
           "name": "MDN Reference",
@@ -6956,7 +6817,6 @@
       ],
       "syntax": "normal | [ <east-asian-variant-values> || <east-asian-width-values> || ruby ]",
       "relevance": 50,
-      "webdxKey": "css.properties.font-variant-east-asian",
       "references": [
         {
           "name": "MDN Reference",
@@ -7055,7 +6915,6 @@
       ],
       "syntax": "normal | none | [ <common-lig-values> || <discretionary-lig-values> || <historical-lig-values> || <contextual-alt-values> ]",
       "relevance": 52,
-      "webdxKey": "css.properties.font-variant-ligatures",
       "references": [
         {
           "name": "MDN Reference",
@@ -7121,7 +6980,6 @@
       ],
       "syntax": "normal | [ <numeric-figure-values> || <numeric-spacing-values> || <numeric-fraction-values> || ordinal || slashed-zero ]",
       "relevance": 52,
-      "webdxKey": "css.properties.font-variant-numeric",
       "references": [
         {
           "name": "MDN Reference",
@@ -7160,7 +7018,6 @@
       ],
       "syntax": "normal | sub | super",
       "relevance": 50,
-      "webdxKey": "css.properties.font-variant-position",
       "references": [
         {
           "name": "MDN Reference",
@@ -7242,7 +7099,6 @@
       "atRule": "@font-face",
       "syntax": "<font-weight-absolute>{1,2}",
       "relevance": 94,
-      "webdxKey": "css.properties.font-weight",
       "references": [
         {
           "name": "MDN Reference",
@@ -7280,7 +7136,6 @@
         }
       ],
       "relevance": 50,
-      "webdxKey": "css.properties.glyph-orientation-vertical",
       "baselineStatus": {
         "baseline": false
       },
@@ -7312,7 +7167,6 @@
       ],
       "syntax": "<grid-line> [ / <grid-line> ]{0,3}",
       "relevance": 59,
-      "webdxKey": "css.properties.grid-area",
       "references": [
         {
           "name": "MDN Reference",
@@ -7341,7 +7195,6 @@
       ],
       "syntax": "<'grid-template'> | <'grid-template-rows'> / [ auto-flow && dense? ] <'grid-auto-columns'>? | [ auto-flow && dense? ] <'grid-auto-rows'>? / <'grid-template-columns'>",
       "relevance": 50,
-      "webdxKey": "css.properties.grid",
       "references": [
         {
           "name": "MDN Reference",
@@ -7392,7 +7245,6 @@
       ],
       "syntax": "<track-size>+",
       "relevance": 52,
-      "webdxKey": "css.properties.grid-auto-columns",
       "references": [
         {
           "name": "MDN Reference",
@@ -7435,7 +7287,6 @@
       ],
       "syntax": "[ row | column ] || dense",
       "relevance": 55,
-      "webdxKey": "css.properties.grid-auto-flow",
       "references": [
         {
           "name": "MDN Reference",
@@ -7482,7 +7333,6 @@
       ],
       "syntax": "<track-size>+",
       "relevance": 53,
-      "webdxKey": "css.properties.grid-auto-rows",
       "references": [
         {
           "name": "MDN Reference",
@@ -7521,7 +7371,6 @@
       ],
       "syntax": "<grid-line> [ / <grid-line> ]?",
       "relevance": 61,
-      "webdxKey": "css.properties.grid-column",
       "references": [
         {
           "name": "MDN Reference",
@@ -7561,7 +7410,6 @@
       ],
       "syntax": "<grid-line>",
       "relevance": 52,
-      "webdxKey": "css.properties.grid-column-end",
       "references": [
         {
           "name": "MDN Reference",
@@ -7617,7 +7465,6 @@
       ],
       "syntax": "<grid-line>",
       "relevance": 53,
-      "webdxKey": "css.properties.grid-column-start",
       "references": [
         {
           "name": "MDN Reference",
@@ -7673,7 +7520,6 @@
       ],
       "syntax": "<grid-line> [ / <grid-line> ]?",
       "relevance": 57,
-      "webdxKey": "css.properties.grid-row",
       "references": [
         {
           "name": "MDN Reference",
@@ -7713,7 +7559,6 @@
       ],
       "syntax": "<grid-line>",
       "relevance": 52,
-      "webdxKey": "css.properties.grid-row-end",
       "references": [
         {
           "name": "MDN Reference",
@@ -7769,7 +7614,6 @@
       ],
       "syntax": "<grid-line>",
       "relevance": 53,
-      "webdxKey": "css.properties.grid-row-start",
       "references": [
         {
           "name": "MDN Reference",
@@ -7829,7 +7673,6 @@
       ],
       "syntax": "none | [ <'grid-template-rows'> / <'grid-template-columns'> ] | [ <line-names>? <string> <track-size>? <line-names>? ]+ [ / <explicit-track-list> ]?",
       "relevance": 50,
-      "webdxKey": "css.properties.grid-template",
       "references": [
         {
           "name": "MDN Reference",
@@ -7867,7 +7710,6 @@
       ],
       "syntax": "none | <string>+",
       "relevance": 55,
-      "webdxKey": "css.properties.grid-template-areas",
       "references": [
         {
           "name": "MDN Reference",
@@ -7926,7 +7768,6 @@
       ],
       "syntax": "none | <track-list> | <auto-track-list> | subgrid <line-name-list>?",
       "relevance": 70,
-      "webdxKey": "css.properties.grid-template-columns",
       "references": [
         {
           "name": "MDN Reference",
@@ -7988,7 +7829,6 @@
       ],
       "syntax": "none | <track-list> | <auto-track-list> | subgrid <line-name-list>?",
       "relevance": 61,
-      "webdxKey": "css.properties.grid-template-rows",
       "references": [
         {
           "name": "MDN Reference",
@@ -8063,7 +7903,6 @@
       ],
       "syntax": "auto | <length-percentage [0,∞]> | min-content | max-content | fit-content | fit-content(<length-percentage [0,∞]>) | <calc-size()> | <anchor-size()>",
       "relevance": 96,
-      "webdxKey": "css.properties.height",
       "references": [
         {
           "name": "MDN Reference",
@@ -8107,7 +7946,6 @@
       ],
       "syntax": "none | manual | auto",
       "relevance": 55,
-      "webdxKey": "css.properties.hyphens",
       "references": [
         {
           "name": "MDN Reference",
@@ -8144,7 +7982,6 @@
       ],
       "syntax": "from-image | <angle> | [ <angle>? flip ]",
       "relevance": 50,
-      "webdxKey": "css.properties.image-orientation",
       "references": [
         {
           "name": "MDN Reference",
@@ -8204,7 +8041,6 @@
       ],
       "syntax": "auto | crisp-edges | pixelated | smooth",
       "relevance": 53,
-      "webdxKey": "css.properties.image-rendering",
       "references": [
         {
           "name": "MDN Reference",
@@ -8253,7 +8089,6 @@
       "status": "obsolete",
       "syntax": "auto | normal | active | inactive | disabled",
       "relevance": 0,
-      "webdxKey": "css.properties.ime-mode",
       "baselineStatus": {
         "baseline": false
       },
@@ -8279,7 +8114,6 @@
       ],
       "syntax": "<'width'>",
       "relevance": 54,
-      "webdxKey": "css.properties.inline-size",
       "references": [
         {
           "name": "MDN Reference",
@@ -8318,7 +8152,6 @@
       ],
       "syntax": "auto | isolate",
       "relevance": 55,
-      "webdxKey": "css.properties.isolation",
       "references": [
         {
           "name": "MDN Reference",
@@ -8413,7 +8246,6 @@
       ],
       "syntax": "normal | <content-distribution> | <overflow-position>? [ <content-position> | left | right ]",
       "relevance": 89,
-      "webdxKey": "css.properties.justify-content",
       "references": [
         {
           "name": "MDN Reference",
@@ -8463,7 +8295,6 @@
       ],
       "syntax": "<length> | <percentage> | auto",
       "relevance": 95,
-      "webdxKey": "css.properties.left",
       "references": [
         {
           "name": "MDN Reference",
@@ -8499,7 +8330,6 @@
       ],
       "syntax": "normal | <length>",
       "relevance": 83,
-      "webdxKey": "css.properties.letter-spacing",
       "references": [
         {
           "name": "MDN Reference",
@@ -8528,7 +8358,6 @@
       ],
       "syntax": "<color>",
       "relevance": 50,
-      "webdxKey": "css.properties.lighting-color",
       "references": [
         {
           "name": "MDN Reference",
@@ -8579,7 +8408,6 @@
       ],
       "syntax": "auto | loose | normal | strict | anywhere",
       "relevance": 52,
-      "webdxKey": "css.properties.line-break",
       "references": [
         {
           "name": "MDN Reference",
@@ -8614,7 +8442,6 @@
       ],
       "syntax": "normal | <number> | <length> | <percentage>",
       "relevance": 93,
-      "webdxKey": "css.properties.line-height",
       "references": [
         {
           "name": "MDN Reference",
@@ -8718,7 +8545,6 @@
       ],
       "syntax": "<'list-style-type'> || <'list-style-position'> || <'list-style-image'>",
       "relevance": 84,
-      "webdxKey": "css.properties.list-style",
       "references": [
         {
           "name": "MDN Reference",
@@ -8755,7 +8581,6 @@
       ],
       "syntax": "<image> | none",
       "relevance": 52,
-      "webdxKey": "css.properties.list-style-image",
       "references": [
         {
           "name": "MDN Reference",
@@ -8794,7 +8619,6 @@
       ],
       "syntax": "inside | outside",
       "relevance": 55,
-      "webdxKey": "css.properties.list-style-position",
       "references": [
         {
           "name": "MDN Reference",
@@ -8897,7 +8721,6 @@
       ],
       "syntax": "<counter-style> | <string> | none",
       "relevance": 73,
-      "webdxKey": "css.properties.list-style-type",
       "references": [
         {
           "name": "MDN Reference",
@@ -8932,7 +8755,6 @@
       ],
       "syntax": "<'margin-top'>{1,4}",
       "relevance": 95,
-      "webdxKey": "css.properties.margin",
       "references": [
         {
           "name": "MDN Reference",
@@ -8966,7 +8788,6 @@
       ],
       "syntax": "<'margin-top'>",
       "relevance": 56,
-      "webdxKey": "css.properties.margin-block-end",
       "references": [
         {
           "name": "MDN Reference",
@@ -9000,7 +8821,6 @@
       ],
       "syntax": "<'margin-top'>",
       "relevance": 56,
-      "webdxKey": "css.properties.margin-block-start",
       "references": [
         {
           "name": "MDN Reference",
@@ -9035,7 +8855,6 @@
       ],
       "syntax": "<length-percentage> | auto",
       "relevance": 92,
-      "webdxKey": "css.properties.margin-bottom",
       "references": [
         {
           "name": "MDN Reference",
@@ -9069,7 +8888,6 @@
       ],
       "syntax": "<'margin-top'>",
       "relevance": 58,
-      "webdxKey": "css.properties.margin-inline-end",
       "references": [
         {
           "name": "MDN Reference",
@@ -9103,7 +8921,6 @@
       ],
       "syntax": "<'margin-top'>",
       "relevance": 59,
-      "webdxKey": "css.properties.margin-inline-start",
       "references": [
         {
           "name": "MDN Reference",
@@ -9138,7 +8955,6 @@
       ],
       "syntax": "<length-percentage> | auto",
       "relevance": 92,
-      "webdxKey": "css.properties.margin-left",
       "references": [
         {
           "name": "MDN Reference",
@@ -9173,7 +8989,6 @@
       ],
       "syntax": "<length-percentage> | auto",
       "relevance": 91,
-      "webdxKey": "css.properties.margin-right",
       "references": [
         {
           "name": "MDN Reference",
@@ -9208,7 +9023,6 @@
       ],
       "syntax": "<length-percentage> | auto",
       "relevance": 94,
-      "webdxKey": "css.properties.margin-top",
       "references": [
         {
           "name": "MDN Reference",
@@ -9247,7 +9061,6 @@
       ],
       "syntax": "none | <url>",
       "relevance": 50,
-      "webdxKey": "css.properties.marker",
       "references": [
         {
           "name": "MDN Reference",
@@ -9285,7 +9098,6 @@
       ],
       "syntax": "none | <url>",
       "relevance": 50,
-      "webdxKey": "css.properties.marker-end",
       "references": [
         {
           "name": "MDN Reference",
@@ -9323,7 +9135,6 @@
       ],
       "syntax": "none | <url>",
       "relevance": 50,
-      "webdxKey": "css.properties.marker-mid",
       "references": [
         {
           "name": "MDN Reference",
@@ -9361,7 +9172,6 @@
       ],
       "syntax": "none | <url>",
       "relevance": 50,
-      "webdxKey": "css.properties.marker-start",
       "references": [
         {
           "name": "MDN Reference",
@@ -9399,7 +9209,6 @@
       ],
       "syntax": "<mask-reference>#",
       "relevance": 58,
-      "webdxKey": "css.properties.mask-image",
       "references": [
         {
           "name": "MDN Reference",
@@ -9442,7 +9251,6 @@
       ],
       "syntax": "<masking-mode>#",
       "relevance": 51,
-      "webdxKey": "css.properties.mask-mode",
       "references": [
         {
           "name": "MDN Reference",
@@ -9471,7 +9279,6 @@
       ],
       "syntax": "<coord-box>#",
       "relevance": 50,
-      "webdxKey": "css.properties.mask-origin",
       "references": [
         {
           "name": "MDN Reference",
@@ -9499,7 +9306,6 @@
       ],
       "syntax": "<position>#",
       "relevance": 55,
-      "webdxKey": "css.properties.mask-position",
       "references": [
         {
           "name": "MDN Reference",
@@ -9528,7 +9334,6 @@
       ],
       "syntax": "<repeat-style>#",
       "relevance": 54,
-      "webdxKey": "css.properties.mask-repeat",
       "references": [
         {
           "name": "MDN Reference",
@@ -9569,7 +9374,6 @@
       ],
       "syntax": "<bg-size>#",
       "relevance": 54,
-      "webdxKey": "css.properties.mask-size",
       "references": [
         {
           "name": "MDN Reference",
@@ -9608,7 +9412,6 @@
       ],
       "syntax": "luminance | alpha",
       "relevance": 50,
-      "webdxKey": "css.properties.mask-type",
       "references": [
         {
           "name": "MDN Reference",
@@ -9642,7 +9445,6 @@
       ],
       "syntax": "<'max-width'>",
       "relevance": 54,
-      "webdxKey": "css.properties.max-block-size",
       "references": [
         {
           "name": "MDN Reference",
@@ -9714,7 +9516,6 @@
       ],
       "syntax": "none | <length-percentage [0,∞]> | min-content | max-content | fit-content | fit-content(<length-percentage [0,∞]>) | <calc-size()> | <anchor-size()>",
       "relevance": 86,
-      "webdxKey": "css.properties.max-height",
       "references": [
         {
           "name": "MDN Reference",
@@ -9749,7 +9550,6 @@
       ],
       "syntax": "<'max-width'>",
       "relevance": 54,
-      "webdxKey": "css.properties.max-inline-size",
       "references": [
         {
           "name": "MDN Reference",
@@ -9821,7 +9621,6 @@
       ],
       "syntax": "none | <length-percentage [0,∞]> | min-content | max-content | fit-content | fit-content(<length-percentage [0,∞]>) | <calc-size()> | <anchor-size()>",
       "relevance": 91,
-      "webdxKey": "css.properties.max-width",
       "references": [
         {
           "name": "MDN Reference",
@@ -9850,7 +9649,6 @@
       ],
       "syntax": "<'min-width'>",
       "relevance": 54,
-      "webdxKey": "css.properties.min-block-size",
       "references": [
         {
           "name": "MDN Reference",
@@ -9929,7 +9727,6 @@
       ],
       "syntax": "auto | <length-percentage [0,∞]> | min-content | max-content | fit-content | fit-content(<length-percentage [0,∞]>) | <calc-size()> | <anchor-size()>",
       "relevance": 90,
-      "webdxKey": "css.properties.min-height",
       "references": [
         {
           "name": "MDN Reference",
@@ -9958,7 +9755,6 @@
       ],
       "syntax": "<'min-width'>",
       "relevance": 54,
-      "webdxKey": "css.properties.min-inline-size",
       "references": [
         {
           "name": "MDN Reference",
@@ -10037,7 +9833,6 @@
       ],
       "syntax": "auto | <length-percentage [0,∞]> | min-content | max-content | fit-content | fit-content(<length-percentage [0,∞]>) | <calc-size()> | <anchor-size()>",
       "relevance": 89,
-      "webdxKey": "css.properties.min-width",
       "references": [
         {
           "name": "MDN Reference",
@@ -10160,7 +9955,6 @@
       ],
       "syntax": "<blend-mode> | plus-lighter",
       "relevance": 54,
-      "webdxKey": "css.properties.mix-blend-mode",
       "references": [
         {
           "name": "MDN Reference",
@@ -11569,7 +11363,6 @@
       "status": "obsolete",
       "syntax": "ignore | normal | select-after | select-before | select-menu | select-same | select-all | none",
       "relevance": 0,
-      "webdxKey": "css.properties.-moz-user-focus",
       "references": [
         {
           "name": "MDN Reference",
@@ -14194,7 +13987,6 @@
       ],
       "syntax": "fill | contain | cover | none | scale-down",
       "relevance": 75,
-      "webdxKey": "css.properties.object-fit",
       "references": [
         {
           "name": "MDN Reference",
@@ -14222,7 +14014,6 @@
       ],
       "syntax": "<position>",
       "relevance": 59,
-      "webdxKey": "css.properties.object-position",
       "references": [
         {
           "name": "MDN Reference",
@@ -14343,7 +14134,6 @@
       ],
       "syntax": "<opacity-value>",
       "relevance": 93,
-      "webdxKey": "css.properties.opacity",
       "references": [
         {
           "name": "MDN Reference",
@@ -14372,7 +14162,6 @@
       ],
       "syntax": "<integer>",
       "relevance": 69,
-      "webdxKey": "css.properties.order",
       "references": [
         {
           "name": "MDN Reference",
@@ -14400,7 +14189,6 @@
       ],
       "syntax": "<integer>",
       "relevance": 51,
-      "webdxKey": "css.properties.orphans",
       "references": [
         {
           "name": "MDN Reference",
@@ -14748,7 +14536,6 @@
       ],
       "syntax": "<'outline-width'> || <'outline-style'> || <'outline-color'>",
       "relevance": 88,
-      "webdxKey": "css.properties.outline",
       "references": [
         {
           "name": "MDN Reference",
@@ -14794,7 +14581,6 @@
       ],
       "syntax": "auto | <color>",
       "relevance": 62,
-      "webdxKey": "css.properties.outline-color",
       "references": [
         {
           "name": "MDN Reference",
@@ -14823,7 +14609,6 @@
       ],
       "syntax": "<length>",
       "relevance": 70,
-      "webdxKey": "css.properties.outline-offset",
       "references": [
         {
           "name": "MDN Reference",
@@ -14858,7 +14643,6 @@
       ],
       "syntax": "auto | <outline-line-style>",
       "relevance": 61,
-      "webdxKey": "css.properties.outline-style",
       "references": [
         {
           "name": "MDN Reference",
@@ -14888,7 +14672,6 @@
       ],
       "syntax": "<line-width>",
       "relevance": 63,
-      "webdxKey": "css.properties.outline-width",
       "references": [
         {
           "name": "MDN Reference",
@@ -14948,7 +14731,6 @@
       ],
       "syntax": "[ visible | hidden | clip | scroll | auto ]{1,2}",
       "relevance": 93,
-      "webdxKey": "css.properties.overflow",
       "references": [
         {
           "name": "MDN Reference",
@@ -14991,7 +14773,6 @@
       ],
       "syntax": "normal | break-word | anywhere",
       "relevance": 66,
-      "webdxKey": "css.properties.overflow-wrap",
       "references": [
         {
           "name": "MDN Reference",
@@ -15038,7 +14819,6 @@
       ],
       "syntax": "visible | hidden | clip | scroll | auto",
       "relevance": 82,
-      "webdxKey": "css.properties.overflow-x",
       "references": [
         {
           "name": "MDN Reference",
@@ -15085,7 +14865,6 @@
       ],
       "syntax": "visible | hidden | clip | scroll | auto",
       "relevance": 83,
-      "webdxKey": "css.properties.overflow-y",
       "references": [
         {
           "name": "MDN Reference",
@@ -15131,7 +14910,6 @@
       "values": [],
       "syntax": "<'padding-top'>{1,4}",
       "relevance": 96,
-      "webdxKey": "css.properties.padding",
       "references": [
         {
           "name": "MDN Reference",
@@ -15161,7 +14939,6 @@
       ],
       "syntax": "<length-percentage [0,∞]>",
       "relevance": 89,
-      "webdxKey": "css.properties.padding-bottom",
       "references": [
         {
           "name": "MDN Reference",
@@ -15190,7 +14967,6 @@
       ],
       "syntax": "<'padding-top'>",
       "relevance": 54,
-      "webdxKey": "css.properties.padding-block-end",
       "references": [
         {
           "name": "MDN Reference",
@@ -15219,7 +14995,6 @@
       ],
       "syntax": "<'padding-top'>",
       "relevance": 54,
-      "webdxKey": "css.properties.padding-block-start",
       "references": [
         {
           "name": "MDN Reference",
@@ -15248,7 +15023,6 @@
       ],
       "syntax": "<'padding-top'>",
       "relevance": 56,
-      "webdxKey": "css.properties.padding-inline-end",
       "references": [
         {
           "name": "MDN Reference",
@@ -15277,7 +15051,6 @@
       ],
       "syntax": "<'padding-top'>",
       "relevance": 58,
-      "webdxKey": "css.properties.padding-inline-start",
       "references": [
         {
           "name": "MDN Reference",
@@ -15307,7 +15080,6 @@
       ],
       "syntax": "<length-percentage [0,∞]>",
       "relevance": 90,
-      "webdxKey": "css.properties.padding-left",
       "references": [
         {
           "name": "MDN Reference",
@@ -15337,7 +15109,6 @@
       ],
       "syntax": "<length-percentage [0,∞]>",
       "relevance": 89,
-      "webdxKey": "css.properties.padding-right",
       "references": [
         {
           "name": "MDN Reference",
@@ -15367,7 +15138,6 @@
       ],
       "syntax": "<length-percentage [0,∞]>",
       "relevance": 90,
-      "webdxKey": "css.properties.padding-top",
       "references": [
         {
           "name": "MDN Reference",
@@ -15420,7 +15190,6 @@
       "status": "obsolete",
       "syntax": "auto | always | avoid | left | right | recto | verso",
       "relevance": 1,
-      "webdxKey": "css.properties.page-break-after",
       "references": [
         {
           "name": "MDN Reference",
@@ -15470,7 +15239,6 @@
       "status": "obsolete",
       "syntax": "auto | always | avoid | left | right | recto | verso",
       "relevance": 0,
-      "webdxKey": "css.properties.page-break-before",
       "references": [
         {
           "name": "MDN Reference",
@@ -15508,7 +15276,6 @@
       "status": "obsolete",
       "syntax": "auto | avoid",
       "relevance": 2,
-      "webdxKey": "css.properties.page-break-inside",
       "references": [
         {
           "name": "MDN Reference",
@@ -15549,7 +15316,6 @@
       ],
       "syntax": "normal | [ fill || stroke || markers ]",
       "relevance": 50,
-      "webdxKey": "css.properties.paint-order",
       "references": [
         {
           "name": "MDN Reference",
@@ -15583,7 +15349,6 @@
       ],
       "syntax": "none | <length>",
       "relevance": 55,
-      "webdxKey": "css.properties.perspective",
       "references": [
         {
           "name": "MDN Reference",
@@ -15613,7 +15378,6 @@
       ],
       "syntax": "<position>",
       "relevance": 51,
-      "webdxKey": "css.properties.perspective-origin",
       "references": [
         {
           "name": "MDN Reference",
@@ -15682,7 +15446,6 @@
       ],
       "syntax": "auto | none | visiblePainted | visibleFill | visibleStroke | visible | painted | fill | stroke | all | inherit",
       "relevance": 84,
-      "webdxKey": "css.properties.pointer-events",
       "references": [
         {
           "name": "MDN Reference",
@@ -15765,7 +15528,6 @@
       ],
       "syntax": "static | relative | absolute | sticky | fixed",
       "relevance": 95,
-      "webdxKey": "css.properties.position",
       "references": [
         {
           "name": "MDN Reference",
@@ -15815,7 +15577,6 @@
       ],
       "syntax": "none | auto | [ <string> <string> ]+",
       "relevance": 54,
-      "webdxKey": "css.properties.quotes",
       "references": [
         {
           "name": "MDN Reference",
@@ -15885,7 +15646,6 @@
       ],
       "syntax": "none | both | horizontal | vertical | block | inline",
       "relevance": 66,
-      "webdxKey": "css.properties.resize",
       "references": [
         {
           "name": "MDN Reference",
@@ -15918,7 +15678,6 @@
       ],
       "syntax": "<length> | <percentage> | auto",
       "relevance": 91,
-      "webdxKey": "css.properties.right",
       "references": [
         {
           "name": "MDN Reference",
@@ -16045,7 +15804,6 @@
       ],
       "syntax": "start | center | space-between | space-around",
       "relevance": 50,
-      "webdxKey": "css.properties.ruby-align",
       "references": [
         {
           "name": "MDN Reference",
@@ -16085,7 +15843,6 @@
         }
       ],
       "relevance": 50,
-      "webdxKey": "css.properties.ruby-overhang",
       "baselineStatus": {
         "baseline": false
       },
@@ -16122,7 +15879,6 @@
       ],
       "syntax": "[ alternate || [ over | under ] ] | inter-character",
       "relevance": 50,
-      "webdxKey": "css.properties.ruby-position",
       "references": [
         {
           "name": "MDN Reference",
@@ -16268,7 +16024,6 @@
       ],
       "syntax": "auto | smooth",
       "relevance": 57,
-      "webdxKey": "css.properties.scroll-behavior",
       "references": [
         {
           "name": "MDN Reference",
@@ -16394,7 +16149,6 @@
       ],
       "syntax": "none | [ x | y | block | inline | both ] [ mandatory | proximity ]?",
       "relevance": 57,
-      "webdxKey": "css.properties.scroll-snap-type",
       "references": [
         {
           "name": "MDN Reference",
@@ -16422,7 +16176,6 @@
       ],
       "syntax": "<opacity-value>",
       "relevance": 50,
-      "webdxKey": "css.properties.shape-image-threshold",
       "references": [
         {
           "name": "MDN Reference",
@@ -16450,7 +16203,6 @@
       ],
       "syntax": "<length-percentage>",
       "relevance": 50,
-      "webdxKey": "css.properties.shape-margin",
       "references": [
         {
           "name": "MDN Reference",
@@ -16490,7 +16242,6 @@
       ],
       "syntax": "none | [ <shape-box> || <basic-shape> ] | <image>",
       "relevance": 50,
-      "webdxKey": "css.properties.shape-outside",
       "references": [
         {
           "name": "MDN Reference",
@@ -16539,7 +16290,6 @@
       ],
       "syntax": "auto | optimizeSpeed | crispEdges | geometricPrecision",
       "relevance": 50,
-      "webdxKey": "css.properties.shape-rendering",
       "references": [
         {
           "name": "MDN Reference",
@@ -16607,7 +16357,6 @@
       ],
       "syntax": "<'color'>",
       "relevance": 51,
-      "webdxKey": "css.properties.stop-color",
       "references": [
         {
           "name": "MDN Reference",
@@ -16635,7 +16384,6 @@
       ],
       "syntax": "<'opacity'>",
       "relevance": 52,
-      "webdxKey": "css.properties.stop-opacity",
       "references": [
         {
           "name": "MDN Reference",
@@ -16673,7 +16421,6 @@
       ],
       "syntax": "<paint>",
       "relevance": 69,
-      "webdxKey": "css.properties.stroke",
       "references": [
         {
           "name": "MDN Reference",
@@ -16709,7 +16456,6 @@
       ],
       "syntax": "none | <dasharray>",
       "relevance": 62,
-      "webdxKey": "css.properties.stroke-dasharray",
       "references": [
         {
           "name": "MDN Reference",
@@ -16740,7 +16486,6 @@
       ],
       "syntax": "<length-percentage> | <number>",
       "relevance": 63,
-      "webdxKey": "css.properties.stroke-dashoffset",
       "references": [
         {
           "name": "MDN Reference",
@@ -16783,7 +16528,6 @@
       ],
       "syntax": "butt | round | square",
       "relevance": 54,
-      "webdxKey": "css.properties.stroke-linecap",
       "references": [
         {
           "name": "MDN Reference",
@@ -16825,7 +16569,6 @@
       ],
       "syntax": "miter | miter-clip | round | bevel | arcs",
       "relevance": 51,
-      "webdxKey": "css.properties.stroke-linejoin",
       "references": [
         {
           "name": "MDN Reference",
@@ -16853,7 +16596,6 @@
       ],
       "syntax": "<number>",
       "relevance": 54,
-      "webdxKey": "css.properties.stroke-miterlimit",
       "references": [
         {
           "name": "MDN Reference",
@@ -16881,7 +16623,6 @@
       ],
       "syntax": "<'opacity'>",
       "relevance": 53,
-      "webdxKey": "css.properties.stroke-opacity",
       "references": [
         {
           "name": "MDN Reference",
@@ -16909,7 +16650,6 @@
       ],
       "syntax": "<length-percentage> | <number>",
       "relevance": 70,
-      "webdxKey": "css.properties.stroke-width",
       "references": [
         {
           "name": "MDN Reference",
@@ -17023,7 +16763,6 @@
       ],
       "syntax": "auto | fixed",
       "relevance": 59,
-      "webdxKey": "css.properties.table-layout",
       "references": [
         {
           "name": "MDN Reference",
@@ -17051,7 +16790,6 @@
       ],
       "syntax": "<integer> | <length>",
       "relevance": 54,
-      "webdxKey": "css.properties.tab-size",
       "references": [
         {
           "name": "MDN Reference",
@@ -17123,7 +16861,6 @@
       ],
       "syntax": "start | end | left | right | center | justify | match-parent",
       "relevance": 94,
-      "webdxKey": "css.properties.text-align",
       "references": [
         {
           "name": "MDN Reference",
@@ -17174,7 +16911,6 @@
       ],
       "syntax": "auto | start | end | left | right | center | justify",
       "relevance": 51,
-      "webdxKey": "css.properties.text-align-last",
       "references": [
         {
           "name": "MDN Reference",
@@ -17216,7 +16952,6 @@
       ],
       "syntax": "start | middle | end",
       "relevance": 50,
-      "webdxKey": "css.properties.text-anchor",
       "references": [
         {
           "name": "MDN Reference",
@@ -17283,7 +17018,6 @@
       ],
       "syntax": "<'text-decoration-line'> || <'text-decoration-style'> || <'text-decoration-color'> || <'text-decoration-thickness'>",
       "relevance": 92,
-      "webdxKey": "css.properties.text-decoration",
       "references": [
         {
           "name": "MDN Reference",
@@ -17312,7 +17046,6 @@
       ],
       "syntax": "<color>",
       "relevance": 56,
-      "webdxKey": "css.properties.text-decoration-color",
       "references": [
         {
           "name": "MDN Reference",
@@ -17358,7 +17091,6 @@
       ],
       "syntax": "none | [ underline || overline || line-through || blink ] | spelling-error | grammar-error",
       "relevance": 58,
-      "webdxKey": "css.properties.text-decoration-line",
       "references": [
         {
           "name": "MDN Reference",
@@ -17412,7 +17144,6 @@
       ],
       "syntax": "solid | double | dotted | dashed | wavy",
       "relevance": 51,
-      "webdxKey": "css.properties.text-decoration-style",
       "references": [
         {
           "name": "MDN Reference",
@@ -17442,7 +17173,6 @@
       "values": [],
       "syntax": "<length-percentage> && hanging? && each-line?",
       "relevance": 69,
-      "webdxKey": "css.properties.text-indent",
       "references": [
         {
           "name": "MDN Reference",
@@ -17503,7 +17233,6 @@
       ],
       "syntax": "auto | inter-character | inter-word | none",
       "relevance": 50,
-      "webdxKey": "css.properties.text-justify",
       "references": [
         {
           "name": "MDN Reference",
@@ -17557,7 +17286,6 @@
       ],
       "syntax": "mixed | upright | sideways",
       "relevance": 50,
-      "webdxKey": "css.properties.text-orientation",
       "references": [
         {
           "name": "MDN Reference",
@@ -17596,7 +17324,6 @@
       ],
       "syntax": "[ clip | ellipsis | <string> ]{1,2}",
       "relevance": 82,
-      "webdxKey": "css.properties.text-overflow",
       "references": [
         {
           "name": "MDN Reference",
@@ -17642,7 +17369,6 @@
       ],
       "syntax": "auto | optimizeSpeed | optimizeLegibility | geometricPrecision",
       "relevance": 67,
-      "webdxKey": "css.properties.text-rendering",
       "references": [
         {
           "name": "MDN Reference",
@@ -17677,7 +17403,6 @@
       ],
       "syntax": "none | <shadow-t>#",
       "relevance": 73,
-      "webdxKey": "css.properties.text-shadow",
       "references": [
         {
           "name": "MDN Reference",
@@ -17725,7 +17450,6 @@
       ],
       "syntax": "none | [ capitalize | uppercase | lowercase ] || full-width || full-size-kana | math-auto",
       "relevance": 86,
-      "webdxKey": "css.properties.text-transform",
       "references": [
         {
           "name": "MDN Reference",
@@ -17767,7 +17491,6 @@
       ],
       "syntax": "auto | from-font | [ under || [ left | right ] ]",
       "relevance": 50,
-      "webdxKey": "css.properties.text-underline-position",
       "references": [
         {
           "name": "MDN Reference",
@@ -17802,7 +17525,6 @@
       ],
       "syntax": "<length> | <percentage> | auto",
       "relevance": 95,
-      "webdxKey": "css.properties.top",
       "references": [
         {
           "name": "MDN Reference",
@@ -17898,7 +17620,6 @@
       ],
       "syntax": "auto | none | [ [ pan-x | pan-left | pan-right ] || [ pan-y | pan-up | pan-down ] || pinch-zoom ] | manipulation",
       "relevance": 70,
-      "webdxKey": "css.properties.touch-action",
       "references": [
         {
           "name": "MDN Reference",
@@ -18016,7 +17737,6 @@
       ],
       "syntax": "none | <transform-list>",
       "relevance": 91,
-      "webdxKey": "css.properties.transform",
       "references": [
         {
           "name": "MDN Reference",
@@ -18045,7 +17765,6 @@
       ],
       "syntax": "[ <length-percentage> | left | center | right | top | bottom ] | [ [ <length-percentage> | left | center | right ] && [ <length-percentage> | top | center | bottom ] ] <length>?",
       "relevance": 76,
-      "webdxKey": "css.properties.transform-origin",
       "references": [
         {
           "name": "MDN Reference",
@@ -18092,7 +17811,6 @@
       ],
       "syntax": "flat | preserve-3d",
       "relevance": 56,
-      "webdxKey": "css.properties.transform-style",
       "references": [
         {
           "name": "MDN Reference",
@@ -18131,7 +17849,6 @@
       ],
       "syntax": "<single-transition>#",
       "relevance": 90,
-      "webdxKey": "css.properties.transition",
       "references": [
         {
           "name": "MDN Reference",
@@ -18163,7 +17880,6 @@
       ],
       "syntax": "<time>#",
       "relevance": 64,
-      "webdxKey": "css.properties.transition-delay",
       "references": [
         {
           "name": "MDN Reference",
@@ -18192,7 +17908,6 @@
       ],
       "syntax": "<time>#",
       "relevance": 70,
-      "webdxKey": "css.properties.transition-duration",
       "references": [
         {
           "name": "MDN Reference",
@@ -18231,7 +17946,6 @@
       ],
       "syntax": "none | <single-transition-property>#",
       "relevance": 69,
-      "webdxKey": "css.properties.transition-property",
       "references": [
         {
           "name": "MDN Reference",
@@ -18260,7 +17974,6 @@
       ],
       "syntax": "<easing-function>#",
       "relevance": 68,
-      "webdxKey": "css.properties.transition-timing-function",
       "references": [
         {
           "name": "MDN Reference",
@@ -18339,7 +18052,6 @@
       ],
       "syntax": "normal | embed | isolate | bidi-override | isolate-override | plaintext",
       "relevance": 56,
-      "webdxKey": "css.properties.unicode-bidi",
       "references": [
         {
           "name": "MDN Reference",
@@ -18709,7 +18421,6 @@
       ],
       "syntax": "auto | text | none | all",
       "relevance": 83,
-      "webdxKey": "css.properties.user-select",
       "references": [
         {
           "name": "MDN Reference",
@@ -18785,7 +18496,6 @@
       ],
       "syntax": "baseline | sub | super | text-top | text-bottom | middle | top | bottom | <percentage> | <length>",
       "relevance": 91,
-      "webdxKey": "css.properties.vertical-align",
       "references": [
         {
           "name": "MDN Reference",
@@ -18829,7 +18539,6 @@
       ],
       "syntax": "visible | hidden | collapse",
       "relevance": 88,
-      "webdxKey": "css.properties.visibility",
       "references": [
         {
           "name": "MDN Reference",
@@ -19558,7 +19267,6 @@
       "status": "nonstandard",
       "syntax": "[ above | below | right | left ]? <length>? <image>?",
       "relevance": 0,
-      "webdxKey": "css.properties.-webkit-box-reflect",
       "references": [
         {
           "name": "MDN Reference",
@@ -19787,7 +19495,6 @@
         }
       ],
       "relevance": 50,
-      "webdxKey": "css.properties.-webkit-column-break-after",
       "baselineStatus": {
         "baseline": false
       },
@@ -19849,7 +19556,6 @@
         }
       ],
       "relevance": 50,
-      "webdxKey": "css.properties.-webkit-column-break-before",
       "baselineStatus": {
         "baseline": false
       },
@@ -19888,7 +19594,6 @@
         }
       ],
       "relevance": 50,
-      "webdxKey": "css.properties.-webkit-column-break-inside",
       "baselineStatus": {
         "baseline": false
       },
@@ -20436,7 +20141,6 @@
         }
       ],
       "relevance": 50,
-      "webdxKey": "css.properties.-webkit-nbsp-mode",
       "baselineStatus": {
         "baseline": false
       },
@@ -20536,7 +20240,6 @@
       "status": "nonstandard",
       "syntax": "<color>",
       "relevance": 0,
-      "webdxKey": "css.properties.-webkit-tap-highlight-color",
       "references": [
         {
           "name": "MDN Reference",
@@ -20561,7 +20264,6 @@
       ],
       "syntax": "<color>",
       "relevance": 50,
-      "webdxKey": "css.properties.-webkit-text-fill-color",
       "references": [
         {
           "name": "MDN Reference",
@@ -20611,7 +20313,6 @@
       ],
       "syntax": "<length> || <color>",
       "relevance": 50,
-      "webdxKey": "css.properties.-webkit-text-stroke",
       "references": [
         {
           "name": "MDN Reference",
@@ -20641,7 +20342,6 @@
       ],
       "syntax": "<color>",
       "relevance": 50,
-      "webdxKey": "css.properties.-webkit-text-stroke-color",
       "references": [
         {
           "name": "MDN Reference",
@@ -20668,7 +20368,6 @@
       ],
       "syntax": "<length>",
       "relevance": 50,
-      "webdxKey": "css.properties.-webkit-text-stroke-width",
       "references": [
         {
           "name": "MDN Reference",
@@ -20699,7 +20398,6 @@
       "status": "nonstandard",
       "syntax": "default | none",
       "relevance": 0,
-      "webdxKey": "css.properties.-webkit-touch-callout",
       "references": [
         {
           "name": "MDN Reference",
@@ -20839,7 +20537,6 @@
         "O15"
       ],
       "relevance": 50,
-      "webdxKey": "css.properties.-webkit-transform-origin-x",
       "baselineStatus": {
         "baseline": false
       },
@@ -20858,7 +20555,6 @@
         "O15"
       ],
       "relevance": 50,
-      "webdxKey": "css.properties.-webkit-transform-origin-y",
       "baselineStatus": {
         "baseline": false
       },
@@ -20877,7 +20573,6 @@
         "O15"
       ],
       "relevance": 50,
-      "webdxKey": "css.properties.-webkit-transform-origin-z",
       "baselineStatus": {
         "baseline": false
       },
@@ -21013,7 +20708,6 @@
         }
       ],
       "relevance": 50,
-      "webdxKey": "css.properties.-webkit-user-drag",
       "baselineStatus": {
         "baseline": false
       },
@@ -21082,7 +20776,6 @@
       ],
       "syntax": "<integer>",
       "relevance": 51,
-      "webdxKey": "css.properties.widows",
       "references": [
         {
           "name": "MDN Reference",
@@ -21151,7 +20844,6 @@
       ],
       "syntax": "auto | <length-percentage [0,∞]> | min-content | max-content | fit-content | fit-content(<length-percentage [0,∞]>) | <calc-size()> | <anchor-size()>",
       "relevance": 96,
-      "webdxKey": "css.properties.width",
       "references": [
         {
           "name": "MDN Reference",
@@ -21194,7 +20886,6 @@
       ],
       "syntax": "auto | <animateable-feature>#",
       "relevance": 67,
-      "webdxKey": "css.properties.will-change",
       "references": [
         {
           "name": "MDN Reference",
@@ -21238,7 +20929,6 @@
       ],
       "syntax": "normal | break-all | keep-all | break-word | auto-phrase",
       "relevance": 78,
-      "webdxKey": "css.properties.word-break",
       "references": [
         {
           "name": "MDN Reference",
@@ -21273,7 +20963,6 @@
       ],
       "syntax": "normal | <length>",
       "relevance": 56,
-      "webdxKey": "css.properties.word-spacing",
       "references": [
         {
           "name": "MDN Reference",
@@ -21360,7 +21049,6 @@
       ],
       "syntax": "horizontal-tb | vertical-rl | vertical-lr | sideways-rl | sideways-lr",
       "relevance": 51,
-      "webdxKey": "css.properties.writing-mode",
       "references": [
         {
           "name": "MDN Reference",
@@ -21395,7 +21083,6 @@
       ],
       "syntax": "auto | <integer>",
       "relevance": 92,
-      "webdxKey": "css.properties.z-index",
       "references": [
         {
           "name": "MDN Reference",
@@ -21429,7 +21116,6 @@
       ],
       "syntax": "normal | reset | <number [0,∞]> || <percentage [0,∞]>",
       "relevance": 66,
-      "webdxKey": "css.properties.zoom",
       "references": [
         {
           "name": "MDN Reference",
@@ -21499,7 +21185,6 @@
       "browsers": [
         "FF1"
       ],
-      "webdxKey": "css.properties.-moz-float-edge",
       "references": [
         {
           "name": "MDN Reference",
@@ -21527,7 +21212,6 @@
       "browsers": [
         "FF1"
       ],
-      "webdxKey": "css.properties.-moz-force-broken-image-icon",
       "references": [
         {
           "name": "MDN Reference",
@@ -21547,7 +21231,6 @@
       "browsers": [
         "FF1"
       ],
-      "webdxKey": "css.properties.-moz-image-region",
       "references": [
         {
           "name": "MDN Reference",
@@ -21581,7 +21264,6 @@
       "browsers": [
         "FF6"
       ],
-      "webdxKey": "css.properties.-moz-orient",
       "references": [
         {
           "name": "MDN Reference",
@@ -21680,7 +21362,6 @@
       "browsers": [
         "FF1"
       ],
-      "webdxKey": "css.properties.-moz-user-input",
       "references": [
         {
           "name": "MDN Reference",
@@ -21760,7 +21441,6 @@
         "C8",
         "O15"
       ],
-      "webdxKey": "css.properties.-webkit-border-before",
       "references": [
         {
           "name": "MDN Reference",
@@ -21824,7 +21504,6 @@
         "C1",
         "O15"
       ],
-      "webdxKey": "css.properties.-webkit-mask-composite",
       "references": [
         {
           "name": "MDN Reference",
@@ -21855,7 +21534,6 @@
         "C1",
         "O15"
       ],
-      "webdxKey": "css.properties.-webkit-mask-position-x",
       "references": [
         {
           "name": "MDN Reference",
@@ -21881,7 +21559,6 @@
         "C1",
         "O15"
       ],
-      "webdxKey": "css.properties.-webkit-mask-position-y",
       "references": [
         {
           "name": "MDN Reference",
@@ -21920,7 +21597,6 @@
         "C3",
         "O15"
       ],
-      "webdxKey": "css.properties.-webkit-mask-repeat-x",
       "references": [
         {
           "name": "MDN Reference",
@@ -21957,7 +21633,6 @@
         "C3",
         "O15"
       ],
-      "webdxKey": "css.properties.-webkit-mask-repeat-y",
       "references": [
         {
           "name": "MDN Reference",
@@ -21980,7 +21655,6 @@
         "C93",
         "O79"
       ],
-      "webdxKey": "css.properties.accent-color",
       "references": [
         {
           "name": "MDN Reference",
@@ -22009,7 +21683,6 @@
         "C125",
         "O111"
       ],
-      "webdxKey": "css.properties.anchor-name",
       "references": [
         {
           "name": "MDN Reference",
@@ -22031,7 +21704,6 @@
         "C131",
         "O116"
       ],
-      "webdxKey": "css.properties.anchor-scope",
       "baselineStatus": {
         "baseline": false
       },
@@ -22048,7 +21720,6 @@
         "C112",
         "O98"
       ],
-      "webdxKey": "css.properties.animation-composition",
       "references": [
         {
           "name": "MDN Reference",
@@ -22071,7 +21742,6 @@
         "C115",
         "O101"
       ],
-      "webdxKey": "css.properties.animation-range",
       "references": [
         {
           "name": "MDN Reference",
@@ -22093,7 +21763,6 @@
         "C115",
         "O101"
       ],
-      "webdxKey": "css.properties.animation-range-end",
       "references": [
         {
           "name": "MDN Reference",
@@ -22115,7 +21784,6 @@
         "C115",
         "O101"
       ],
-      "webdxKey": "css.properties.animation-range-start",
       "references": [
         {
           "name": "MDN Reference",
@@ -22138,7 +21806,6 @@
         "C115",
         "O101"
       ],
-      "webdxKey": "css.properties.animation-timeline",
       "references": [
         {
           "name": "MDN Reference",
@@ -22161,7 +21828,6 @@
         "C84",
         "O70"
       ],
-      "webdxKey": "css.properties.appearance",
       "references": [
         {
           "name": "MDN Reference",
@@ -22186,7 +21852,6 @@
         "C88",
         "O74"
       ],
-      "webdxKey": "css.properties.aspect-ratio",
       "references": [
         {
           "name": "MDN Reference",
@@ -22211,7 +21876,6 @@
         "C76",
         "O63"
       ],
-      "webdxKey": "css.properties.backdrop-filter",
       "references": [
         {
           "name": "MDN Reference",
@@ -22235,7 +21899,6 @@
         "C87",
         "O73"
       ],
-      "webdxKey": "css.properties.border-block",
       "references": [
         {
           "name": "MDN Reference",
@@ -22260,7 +21923,6 @@
         "C87",
         "O73"
       ],
-      "webdxKey": "css.properties.border-block-color",
       "references": [
         {
           "name": "MDN Reference",
@@ -22285,7 +21947,6 @@
         "C87",
         "O73"
       ],
-      "webdxKey": "css.properties.border-block-style",
       "references": [
         {
           "name": "MDN Reference",
@@ -22310,7 +21971,6 @@
         "C87",
         "O73"
       ],
-      "webdxKey": "css.properties.border-block-width",
       "references": [
         {
           "name": "MDN Reference",
@@ -22335,7 +21995,6 @@
         "C89",
         "O75"
       ],
-      "webdxKey": "css.properties.border-end-end-radius",
       "references": [
         {
           "name": "MDN Reference",
@@ -22360,7 +22019,6 @@
         "C89",
         "O75"
       ],
-      "webdxKey": "css.properties.border-end-start-radius",
       "references": [
         {
           "name": "MDN Reference",
@@ -22385,7 +22043,6 @@
         "C87",
         "O73"
       ],
-      "webdxKey": "css.properties.border-inline",
       "references": [
         {
           "name": "MDN Reference",
@@ -22410,7 +22067,6 @@
         "C87",
         "O73"
       ],
-      "webdxKey": "css.properties.border-inline-color",
       "references": [
         {
           "name": "MDN Reference",
@@ -22435,7 +22091,6 @@
         "C87",
         "O73"
       ],
-      "webdxKey": "css.properties.border-inline-style",
       "references": [
         {
           "name": "MDN Reference",
@@ -22460,7 +22115,6 @@
         "C87",
         "O73"
       ],
-      "webdxKey": "css.properties.border-inline-width",
       "references": [
         {
           "name": "MDN Reference",
@@ -22485,7 +22139,6 @@
         "C89",
         "O75"
       ],
-      "webdxKey": "css.properties.border-start-end-radius",
       "references": [
         {
           "name": "MDN Reference",
@@ -22510,7 +22163,6 @@
         "C89",
         "O75"
       ],
-      "webdxKey": "css.properties.border-start-start-radius",
       "references": [
         {
           "name": "MDN Reference",
@@ -22553,7 +22205,6 @@
         "C1",
         "O15"
       ],
-      "webdxKey": "css.properties.box-align",
       "references": [
         {
           "name": "MDN Reference",
@@ -22588,7 +22239,6 @@
         "C1",
         "O15"
       ],
-      "webdxKey": "css.properties.box-direction",
       "references": [
         {
           "name": "MDN Reference",
@@ -22612,7 +22262,6 @@
         "C1",
         "O15"
       ],
-      "webdxKey": "css.properties.box-flex",
       "references": [
         {
           "name": "MDN Reference",
@@ -22634,7 +22283,6 @@
         "C1",
         "O15"
       ],
-      "webdxKey": "css.properties.box-flex-group",
       "references": [
         {
           "name": "MDN Reference",
@@ -22664,7 +22312,6 @@
         "C1",
         "O15"
       ],
-      "webdxKey": "css.properties.box-lines",
       "references": [
         {
           "name": "MDN Reference",
@@ -22688,7 +22335,6 @@
         "C1",
         "O15"
       ],
-      "webdxKey": "css.properties.box-ordinal-group",
       "references": [
         {
           "name": "MDN Reference",
@@ -22729,7 +22375,6 @@
         "C1",
         "O15"
       ],
-      "webdxKey": "css.properties.box-orient",
       "references": [
         {
           "name": "MDN Reference",
@@ -22767,7 +22412,6 @@
         "C1",
         "O15"
       ],
-      "webdxKey": "css.properties.box-pack",
       "references": [
         {
           "name": "MDN Reference",
@@ -22816,7 +22460,6 @@
         "C81",
         "O68"
       ],
-      "webdxKey": "css.properties.color-scheme",
       "references": [
         {
           "name": "MDN Reference",
@@ -22841,7 +22484,6 @@
         "C95",
         "O81"
       ],
-      "webdxKey": "css.properties.contain-intrinsic-block-size",
       "references": [
         {
           "name": "MDN Reference",
@@ -22865,7 +22507,6 @@
         "C95",
         "O81"
       ],
-      "webdxKey": "css.properties.contain-intrinsic-height",
       "references": [
         {
           "name": "MDN Reference",
@@ -22889,7 +22530,6 @@
         "C95",
         "O81"
       ],
-      "webdxKey": "css.properties.contain-intrinsic-inline-size",
       "references": [
         {
           "name": "MDN Reference",
@@ -22913,7 +22553,6 @@
         "C83",
         "O69"
       ],
-      "webdxKey": "css.properties.contain-intrinsic-size",
       "references": [
         {
           "name": "MDN Reference",
@@ -22937,7 +22576,6 @@
         "C95",
         "O81"
       ],
-      "webdxKey": "css.properties.contain-intrinsic-width",
       "references": [
         {
           "name": "MDN Reference",
@@ -22961,7 +22599,6 @@
         "C105",
         "O91"
       ],
-      "webdxKey": "css.properties.container",
       "references": [
         {
           "name": "MDN Reference",
@@ -22985,7 +22622,6 @@
         "C105",
         "O91"
       ],
-      "webdxKey": "css.properties.container-name",
       "references": [
         {
           "name": "MDN Reference",
@@ -23020,7 +22656,6 @@
         "C105",
         "O91"
       ],
-      "webdxKey": "css.properties.container-type",
       "references": [
         {
           "name": "MDN Reference",
@@ -23055,7 +22690,6 @@
         "C85",
         "O71"
       ],
-      "webdxKey": "css.properties.content-visibility",
       "references": [
         {
           "name": "MDN Reference",
@@ -23079,7 +22713,6 @@
         "C85",
         "O71"
       ],
-      "webdxKey": "css.properties.counter-set",
       "references": [
         {
           "name": "MDN Reference",
@@ -23103,7 +22736,6 @@
         "C80",
         "O67"
       ],
-      "webdxKey": "css.properties.cx",
       "references": [
         {
           "name": "MDN Reference",
@@ -23128,7 +22760,6 @@
         "C80",
         "O67"
       ],
-      "webdxKey": "css.properties.cy",
       "references": [
         {
           "name": "MDN Reference",
@@ -23152,7 +22783,6 @@
         "C80",
         "O67"
       ],
-      "webdxKey": "css.properties.d",
       "references": [
         {
           "name": "MDN Reference",
@@ -23204,7 +22834,6 @@
         "C80",
         "O67"
       ],
-      "webdxKey": "css.properties.dominant-baseline",
       "references": [
         {
           "name": "MDN Reference",
@@ -23236,7 +22865,6 @@
         "C123",
         "O109"
       ],
-      "webdxKey": "css.properties.field-sizing",
       "references": [
         {
           "name": "MDN Reference",
@@ -23267,7 +22895,6 @@
         "C79",
         "O66"
       ],
-      "webdxKey": "css.properties.font-optical-sizing",
       "references": [
         {
           "name": "MDN Reference",
@@ -23292,7 +22919,6 @@
         "C101",
         "O87"
       ],
-      "webdxKey": "css.properties.font-palette",
       "references": [
         {
           "name": "MDN Reference",
@@ -23317,7 +22943,6 @@
         "C5",
         "O15"
       ],
-      "webdxKey": "css.properties.font-smooth",
       "references": [
         {
           "name": "MDN Reference",
@@ -23345,7 +22970,6 @@
       "browsers": [
         "FF118"
       ],
-      "webdxKey": "css.properties.font-synthesis-position",
       "references": [
         {
           "name": "MDN Reference",
@@ -23376,7 +23000,6 @@
         "C97",
         "O83"
       ],
-      "webdxKey": "css.properties.font-synthesis-small-caps",
       "references": [
         {
           "name": "MDN Reference",
@@ -23408,7 +23031,6 @@
         "C97",
         "O83"
       ],
-      "webdxKey": "css.properties.font-synthesis-style",
       "references": [
         {
           "name": "MDN Reference",
@@ -23440,7 +23062,6 @@
         "C97",
         "O83"
       ],
-      "webdxKey": "css.properties.font-synthesis-weight",
       "references": [
         {
           "name": "MDN Reference",
@@ -23478,7 +23099,6 @@
         "C131",
         "O116"
       ],
-      "webdxKey": "css.properties.font-variant-emoji",
       "references": [
         {
           "name": "MDN Reference",
@@ -23502,7 +23122,6 @@
         "C62",
         "O49"
       ],
-      "webdxKey": "css.properties.font-variation-settings",
       "references": [
         {
           "name": "MDN Reference",
@@ -23538,7 +23157,6 @@
         "IE10",
         "O75"
       ],
-      "webdxKey": "css.properties.forced-color-adjust",
       "references": [
         {
           "name": "MDN Reference",
@@ -23561,7 +23179,6 @@
         "C57",
         "O44"
       ],
-      "webdxKey": "css.properties.gap",
       "references": [
         {
           "name": "MDN Reference",
@@ -23582,7 +23199,6 @@
       "browsers": [
         "S10"
       ],
-      "webdxKey": "css.properties.hanging-punctuation",
       "references": [
         {
           "name": "MDN Reference",
@@ -23605,7 +23221,6 @@
         "C106",
         "O92"
       ],
-      "webdxKey": "css.properties.hyphenate-character",
       "references": [
         {
           "name": "MDN Reference",
@@ -23628,7 +23243,6 @@
         "C109",
         "O95"
       ],
-      "webdxKey": "css.properties.hyphenate-limit-chars",
       "references": [
         {
           "name": "MDN Reference",
@@ -23657,7 +23271,6 @@
         "C110",
         "O96"
       ],
-      "webdxKey": "css.properties.initial-letter",
       "references": [
         {
           "name": "MDN Reference",
@@ -23687,7 +23300,6 @@
         "C87",
         "O73"
       ],
-      "webdxKey": "css.properties.inset",
       "references": [
         {
           "name": "MDN Reference",
@@ -23712,7 +23324,6 @@
         "C87",
         "O73"
       ],
-      "webdxKey": "css.properties.inset-block",
       "references": [
         {
           "name": "MDN Reference",
@@ -23737,7 +23348,6 @@
         "C87",
         "O73"
       ],
-      "webdxKey": "css.properties.inset-block-end",
       "references": [
         {
           "name": "MDN Reference",
@@ -23762,7 +23372,6 @@
         "C87",
         "O73"
       ],
-      "webdxKey": "css.properties.inset-block-start",
       "references": [
         {
           "name": "MDN Reference",
@@ -23787,7 +23396,6 @@
         "C87",
         "O73"
       ],
-      "webdxKey": "css.properties.inset-inline",
       "references": [
         {
           "name": "MDN Reference",
@@ -23812,7 +23420,6 @@
         "C87",
         "O73"
       ],
-      "webdxKey": "css.properties.inset-inline-end",
       "references": [
         {
           "name": "MDN Reference",
@@ -23837,7 +23444,6 @@
         "C87",
         "O73"
       ],
-      "webdxKey": "css.properties.inset-inline-start",
       "references": [
         {
           "name": "MDN Reference",
@@ -23869,7 +23475,6 @@
         "C129",
         "O115"
       ],
-      "webdxKey": "css.properties.interpolate-size",
       "references": [
         {
           "name": "MDN Reference",
@@ -23899,7 +23504,6 @@
         "C6",
         "O15"
       ],
-      "webdxKey": "css.properties.line-clamp",
       "references": [
         {
           "name": "MDN Reference",
@@ -23921,7 +23525,6 @@
         "C60",
         "O47"
       ],
-      "webdxKey": "css.properties.line-height-step",
       "references": [
         {
           "name": "MDN Reference",
@@ -23944,7 +23547,6 @@
         "C87",
         "O73"
       ],
-      "webdxKey": "css.properties.margin-block",
       "references": [
         {
           "name": "MDN Reference",
@@ -23969,7 +23571,6 @@
         "C87",
         "O73"
       ],
-      "webdxKey": "css.properties.margin-inline",
       "references": [
         {
           "name": "MDN Reference",
@@ -24002,7 +23603,6 @@
       "browsers": [
         "S16.4"
       ],
-      "webdxKey": "css.properties.margin-trim",
       "references": [
         {
           "name": "MDN Reference",
@@ -24025,7 +23625,6 @@
         "C120",
         "O106"
       ],
-      "webdxKey": "css.properties.mask",
       "references": [
         {
           "name": "MDN Reference",
@@ -24048,7 +23647,6 @@
         "C1",
         "O15"
       ],
-      "webdxKey": "css.properties.mask-border",
       "references": [
         {
           "name": "MDN Reference",
@@ -24084,7 +23682,6 @@
         "C1",
         "O15"
       ],
-      "webdxKey": "css.properties.mask-border-outset",
       "references": [
         {
           "name": "MDN Reference",
@@ -24106,7 +23703,6 @@
         "C1",
         "O15"
       ],
-      "webdxKey": "css.properties.mask-border-repeat",
       "references": [
         {
           "name": "MDN Reference",
@@ -24128,7 +23724,6 @@
         "C1",
         "O15"
       ],
-      "webdxKey": "css.properties.mask-border-slice",
       "references": [
         {
           "name": "MDN Reference",
@@ -24150,7 +23745,6 @@
         "C1",
         "O15"
       ],
-      "webdxKey": "css.properties.mask-border-source",
       "references": [
         {
           "name": "MDN Reference",
@@ -24172,7 +23766,6 @@
         "C1",
         "O15"
       ],
-      "webdxKey": "css.properties.mask-border-width",
       "references": [
         {
           "name": "MDN Reference",
@@ -24195,7 +23788,6 @@
         "C120",
         "O106"
       ],
-      "webdxKey": "css.properties.mask-clip",
       "references": [
         {
           "name": "MDN Reference",
@@ -24219,7 +23811,6 @@
         "C120",
         "O106"
       ],
-      "webdxKey": "css.properties.mask-composite",
       "references": [
         {
           "name": "MDN Reference",
@@ -24249,7 +23840,6 @@
         "C109",
         "O95"
       ],
-      "webdxKey": "css.properties.math-depth",
       "references": [
         {
           "name": "MDN Reference",
@@ -24279,7 +23869,6 @@
         "C109",
         "O95"
       ],
-      "webdxKey": "css.properties.math-shift",
       "references": [
         {
           "name": "MDN Reference",
@@ -24310,7 +23899,6 @@
         "C109",
         "O95"
       ],
-      "webdxKey": "css.properties.math-style",
       "references": [
         {
           "name": "MDN Reference",
@@ -24341,7 +23929,6 @@
         "C55",
         "O42"
       ],
-      "webdxKey": "css.properties.offset",
       "references": [
         {
           "name": "MDN Reference",
@@ -24366,7 +23953,6 @@
         "C116",
         "O102"
       ],
-      "webdxKey": "css.properties.offset-anchor",
       "references": [
         {
           "name": "MDN Reference",
@@ -24390,7 +23976,6 @@
         "C55",
         "O42"
       ],
-      "webdxKey": "css.properties.offset-distance",
       "references": [
         {
           "name": "MDN Reference",
@@ -24415,7 +24000,6 @@
         "C55",
         "O45"
       ],
-      "webdxKey": "css.properties.offset-path",
       "references": [
         {
           "name": "MDN Reference",
@@ -24440,7 +24024,6 @@
         "C116",
         "O102"
       ],
-      "webdxKey": "css.properties.offset-position",
       "references": [
         {
           "name": "MDN Reference",
@@ -24464,7 +24047,6 @@
         "C56",
         "O43"
       ],
-      "webdxKey": "css.properties.offset-rotate",
       "references": [
         {
           "name": "MDN Reference",
@@ -24497,7 +24079,6 @@
         "C56",
         "O43"
       ],
-      "webdxKey": "css.properties.overflow-anchor",
       "references": [
         {
           "name": "MDN Reference",
@@ -24535,7 +24116,6 @@
         "FF69",
         "C135"
       ],
-      "webdxKey": "css.properties.overflow-block",
       "references": [
         {
           "name": "MDN Reference",
@@ -24572,7 +24152,6 @@
         "C90",
         "O76"
       ],
-      "webdxKey": "css.properties.overflow-clip-margin",
       "references": [
         {
           "name": "MDN Reference",
@@ -24610,7 +24189,6 @@
         "FF69",
         "C135"
       ],
-      "webdxKey": "css.properties.overflow-inline",
       "references": [
         {
           "name": "MDN Reference",
@@ -24640,7 +24218,6 @@
         "C117",
         "O103"
       ],
-      "webdxKey": "css.properties.overlay",
       "references": [
         {
           "name": "MDN Reference",
@@ -24663,7 +24240,6 @@
         "C63",
         "O50"
       ],
-      "webdxKey": "css.properties.overscroll-behavior",
       "references": [
         {
           "name": "MDN Reference",
@@ -24699,7 +24275,6 @@
         "C77",
         "O64"
       ],
-      "webdxKey": "css.properties.overscroll-behavior-block",
       "references": [
         {
           "name": "MDN Reference",
@@ -24735,7 +24310,6 @@
         "C77",
         "O64"
       ],
-      "webdxKey": "css.properties.overscroll-behavior-inline",
       "references": [
         {
           "name": "MDN Reference",
@@ -24771,7 +24345,6 @@
         "C63",
         "O50"
       ],
-      "webdxKey": "css.properties.overscroll-behavior-x",
       "references": [
         {
           "name": "MDN Reference",
@@ -24807,7 +24380,6 @@
         "C63",
         "O50"
       ],
-      "webdxKey": "css.properties.overscroll-behavior-y",
       "references": [
         {
           "name": "MDN Reference",
@@ -24832,7 +24404,6 @@
         "C87",
         "O73"
       ],
-      "webdxKey": "css.properties.padding-block",
       "references": [
         {
           "name": "MDN Reference",
@@ -24857,7 +24428,6 @@
         "C87",
         "O73"
       ],
-      "webdxKey": "css.properties.padding-inline",
       "references": [
         {
           "name": "MDN Reference",
@@ -24882,7 +24452,6 @@
         "C85",
         "O71"
       ],
-      "webdxKey": "css.properties.page",
       "references": [
         {
           "name": "MDN Reference",
@@ -24906,7 +24475,6 @@
         "C59",
         "O46"
       ],
-      "webdxKey": "css.properties.place-content",
       "references": [
         {
           "name": "MDN Reference",
@@ -24931,7 +24499,6 @@
         "C59",
         "O46"
       ],
-      "webdxKey": "css.properties.place-items",
       "references": [
         {
           "name": "MDN Reference",
@@ -24956,7 +24523,6 @@
         "C59",
         "O46"
       ],
-      "webdxKey": "css.properties.place-self",
       "references": [
         {
           "name": "MDN Reference",
@@ -24980,7 +24546,6 @@
         "C125",
         "O111"
       ],
-      "webdxKey": "css.properties.position-anchor",
       "references": [
         {
           "name": "MDN Reference",
@@ -25002,7 +24567,6 @@
         "C129",
         "O115"
       ],
-      "webdxKey": "css.properties.position-area",
       "references": [
         {
           "name": "MDN Reference",
@@ -25024,7 +24588,6 @@
         "C125",
         "O111"
       ],
-      "webdxKey": "css.properties.position-try",
       "references": [
         {
           "name": "MDN Reference",
@@ -25046,7 +24609,6 @@
         "C128",
         "O114"
       ],
-      "webdxKey": "css.properties.position-try-fallbacks",
       "references": [
         {
           "name": "MDN Reference",
@@ -25068,7 +24630,6 @@
         "C125",
         "O111"
       ],
-      "webdxKey": "css.properties.position-try-order",
       "references": [
         {
           "name": "MDN Reference",
@@ -25090,7 +24651,6 @@
         "C125",
         "O111"
       ],
-      "webdxKey": "css.properties.position-visibility",
       "references": [
         {
           "name": "MDN Reference",
@@ -25121,7 +24681,6 @@
         "C17",
         "O15"
       ],
-      "webdxKey": "css.properties.print-color-adjust",
       "references": [
         {
           "name": "MDN Reference",
@@ -25144,7 +24703,6 @@
         "C80",
         "O67"
       ],
-      "webdxKey": "css.properties.r",
       "references": [
         {
           "name": "MDN Reference",
@@ -25169,7 +24727,6 @@
         "C104",
         "O90"
       ],
-      "webdxKey": "css.properties.rotate",
       "references": [
         {
           "name": "MDN Reference",
@@ -25194,7 +24751,6 @@
         "C47",
         "O34"
       ],
-      "webdxKey": "css.properties.row-gap",
       "references": [
         {
           "name": "MDN Reference",
@@ -25236,7 +24792,6 @@
         "C80",
         "O67"
       ],
-      "webdxKey": "css.properties.rx",
       "references": [
         {
           "name": "MDN Reference",
@@ -25258,7 +24813,6 @@
         "C80",
         "O67"
       ],
-      "webdxKey": "css.properties.ry",
       "references": [
         {
           "name": "MDN Reference",
@@ -25281,7 +24835,6 @@
         "C104",
         "O90"
       ],
-      "webdxKey": "css.properties.scale",
       "references": [
         {
           "name": "MDN Reference",
@@ -25306,7 +24859,6 @@
         "C69",
         "O56"
       ],
-      "webdxKey": "css.properties.scroll-margin",
       "references": [
         {
           "name": "MDN Reference",
@@ -25331,7 +24883,6 @@
         "C69",
         "O56"
       ],
-      "webdxKey": "css.properties.scroll-margin-block",
       "references": [
         {
           "name": "MDN Reference",
@@ -25356,7 +24907,6 @@
         "C69",
         "O56"
       ],
-      "webdxKey": "css.properties.scroll-margin-block-end",
       "references": [
         {
           "name": "MDN Reference",
@@ -25381,7 +24931,6 @@
         "C69",
         "O56"
       ],
-      "webdxKey": "css.properties.scroll-margin-block-start",
       "references": [
         {
           "name": "MDN Reference",
@@ -25406,7 +24955,6 @@
         "C69",
         "O56"
       ],
-      "webdxKey": "css.properties.scroll-margin-bottom",
       "references": [
         {
           "name": "MDN Reference",
@@ -25431,7 +24979,6 @@
         "C69",
         "O56"
       ],
-      "webdxKey": "css.properties.scroll-margin-inline",
       "references": [
         {
           "name": "MDN Reference",
@@ -25456,7 +25003,6 @@
         "C69",
         "O56"
       ],
-      "webdxKey": "css.properties.scroll-margin-inline-end",
       "references": [
         {
           "name": "MDN Reference",
@@ -25481,7 +25027,6 @@
         "C69",
         "O56"
       ],
-      "webdxKey": "css.properties.scroll-margin-inline-start",
       "references": [
         {
           "name": "MDN Reference",
@@ -25506,7 +25051,6 @@
         "C69",
         "O56"
       ],
-      "webdxKey": "css.properties.scroll-margin-left",
       "references": [
         {
           "name": "MDN Reference",
@@ -25531,7 +25075,6 @@
         "C69",
         "O56"
       ],
-      "webdxKey": "css.properties.scroll-margin-right",
       "references": [
         {
           "name": "MDN Reference",
@@ -25556,7 +25099,6 @@
         "C69",
         "O56"
       ],
-      "webdxKey": "css.properties.scroll-margin-top",
       "references": [
         {
           "name": "MDN Reference",
@@ -25581,7 +25123,6 @@
         "C69",
         "O56"
       ],
-      "webdxKey": "css.properties.scroll-padding",
       "references": [
         {
           "name": "MDN Reference",
@@ -25606,7 +25147,6 @@
         "C69",
         "O56"
       ],
-      "webdxKey": "css.properties.scroll-padding-block",
       "references": [
         {
           "name": "MDN Reference",
@@ -25631,7 +25171,6 @@
         "C69",
         "O56"
       ],
-      "webdxKey": "css.properties.scroll-padding-block-end",
       "references": [
         {
           "name": "MDN Reference",
@@ -25656,7 +25195,6 @@
         "C69",
         "O56"
       ],
-      "webdxKey": "css.properties.scroll-padding-block-start",
       "references": [
         {
           "name": "MDN Reference",
@@ -25681,7 +25219,6 @@
         "C69",
         "O56"
       ],
-      "webdxKey": "css.properties.scroll-padding-bottom",
       "references": [
         {
           "name": "MDN Reference",
@@ -25706,7 +25243,6 @@
         "C69",
         "O56"
       ],
-      "webdxKey": "css.properties.scroll-padding-inline",
       "references": [
         {
           "name": "MDN Reference",
@@ -25731,7 +25267,6 @@
         "C69",
         "O56"
       ],
-      "webdxKey": "css.properties.scroll-padding-inline-end",
       "references": [
         {
           "name": "MDN Reference",
@@ -25756,7 +25291,6 @@
         "C69",
         "O56"
       ],
-      "webdxKey": "css.properties.scroll-padding-inline-start",
       "references": [
         {
           "name": "MDN Reference",
@@ -25781,7 +25315,6 @@
         "C69",
         "O56"
       ],
-      "webdxKey": "css.properties.scroll-padding-left",
       "references": [
         {
           "name": "MDN Reference",
@@ -25806,7 +25339,6 @@
         "C69",
         "O56"
       ],
-      "webdxKey": "css.properties.scroll-padding-right",
       "references": [
         {
           "name": "MDN Reference",
@@ -25831,7 +25363,6 @@
         "C69",
         "O56"
       ],
-      "webdxKey": "css.properties.scroll-padding-top",
       "references": [
         {
           "name": "MDN Reference",
@@ -25856,7 +25387,6 @@
         "C69",
         "O56"
       ],
-      "webdxKey": "css.properties.scroll-snap-align",
       "references": [
         {
           "name": "MDN Reference",
@@ -25889,7 +25419,6 @@
         "C75",
         "O62"
       ],
-      "webdxKey": "css.properties.scroll-snap-stop",
       "references": [
         {
           "name": "MDN Reference",
@@ -25950,7 +25479,6 @@
         "C115",
         "O101"
       ],
-      "webdxKey": "css.properties.scroll-timeline",
       "references": [
         {
           "name": "MDN Reference",
@@ -25973,7 +25501,6 @@
         "C115",
         "O101"
       ],
-      "webdxKey": "css.properties.scroll-timeline-axis",
       "references": [
         {
           "name": "MDN Reference",
@@ -25996,7 +25523,6 @@
         "C115",
         "O101"
       ],
-      "webdxKey": "css.properties.scroll-timeline-name",
       "references": [
         {
           "name": "MDN Reference",
@@ -26018,7 +25544,6 @@
         "C121",
         "O107"
       ],
-      "webdxKey": "css.properties.scrollbar-color",
       "references": [
         {
           "name": "MDN Reference",
@@ -26041,7 +25566,6 @@
         "C94",
         "O80"
       ],
-      "webdxKey": "css.properties.scrollbar-gutter",
       "references": [
         {
           "name": "MDN Reference",
@@ -26076,7 +25600,6 @@
         "C121",
         "O107"
       ],
-      "webdxKey": "css.properties.scrollbar-width",
       "references": [
         {
           "name": "MDN Reference",
@@ -26097,7 +25620,6 @@
       "browsers": [
         "S11.1"
       ],
-      "webdxKey": "css.properties.speak-as",
       "references": [
         {
           "name": "MDN Reference",
@@ -26119,7 +25641,6 @@
         "C133",
         "O118"
       ],
-      "webdxKey": "css.properties.text-box",
       "references": [
         {
           "name": "MDN Reference",
@@ -26141,7 +25662,6 @@
         "C133",
         "O118"
       ],
-      "webdxKey": "css.properties.text-box-edge",
       "references": [
         {
           "name": "MDN Reference",
@@ -26177,7 +25697,6 @@
         "C133",
         "O118"
       ],
-      "webdxKey": "css.properties.text-box-trim",
       "references": [
         {
           "name": "MDN Reference",
@@ -26201,7 +25720,6 @@
         "IE11",
         "O35"
       ],
-      "webdxKey": "css.properties.text-combine-upright",
       "references": [
         {
           "name": "MDN Reference",
@@ -26225,7 +25743,6 @@
         "C57",
         "O44"
       ],
-      "webdxKey": "css.properties.text-decoration-skip",
       "references": [
         {
           "name": "MDN Reference",
@@ -26259,7 +25776,6 @@
         "C64",
         "O50"
       ],
-      "webdxKey": "css.properties.text-decoration-skip-ink",
       "references": [
         {
           "name": "MDN Reference",
@@ -26284,7 +25800,6 @@
         "C89",
         "O75"
       ],
-      "webdxKey": "css.properties.text-decoration-thickness",
       "references": [
         {
           "name": "MDN Reference",
@@ -26309,7 +25824,6 @@
         "C99",
         "O85"
       ],
-      "webdxKey": "css.properties.text-emphasis",
       "references": [
         {
           "name": "MDN Reference",
@@ -26334,7 +25848,6 @@
         "C99",
         "O85"
       ],
-      "webdxKey": "css.properties.text-emphasis-color",
       "references": [
         {
           "name": "MDN Reference",
@@ -26359,7 +25872,6 @@
         "C99",
         "O85"
       ],
-      "webdxKey": "css.properties.text-emphasis-position",
       "references": [
         {
           "name": "MDN Reference",
@@ -26384,7 +25896,6 @@
         "C99",
         "O85"
       ],
-      "webdxKey": "css.properties.text-emphasis-style",
       "references": [
         {
           "name": "MDN Reference",
@@ -26408,7 +25919,6 @@
         "C54",
         "O41"
       ],
-      "webdxKey": "css.properties.text-size-adjust",
       "references": [
         {
           "name": "MDN Reference",
@@ -26444,7 +25954,6 @@
         "C123",
         "O109"
       ],
-      "webdxKey": "css.properties.text-spacing-trim",
       "references": [
         {
           "name": "MDN Reference",
@@ -26467,7 +25976,6 @@
         "C87",
         "O73"
       ],
-      "webdxKey": "css.properties.text-underline-offset",
       "references": [
         {
           "name": "MDN Reference",
@@ -26492,7 +26000,6 @@
         "C114",
         "O100"
       ],
-      "webdxKey": "css.properties.text-wrap",
       "references": [
         {
           "name": "MDN Reference",
@@ -26524,7 +26031,6 @@
         "C130",
         "O115"
       ],
-      "webdxKey": "css.properties.text-wrap-mode",
       "references": [
         {
           "name": "MDN Reference",
@@ -26562,7 +26068,6 @@
         "C130",
         "O115"
       ],
-      "webdxKey": "css.properties.text-wrap-style",
       "references": [
         {
           "name": "MDN Reference",
@@ -26585,7 +26090,6 @@
         "C116",
         "O102"
       ],
-      "webdxKey": "css.properties.timeline-scope",
       "references": [
         {
           "name": "MDN Reference",
@@ -26625,7 +26129,6 @@
         "C64",
         "O51"
       ],
-      "webdxKey": "css.properties.transform-box",
       "references": [
         {
           "name": "MDN Reference",
@@ -26650,7 +26153,6 @@
         "C117",
         "O103"
       ],
-      "webdxKey": "css.properties.transition-behavior",
       "references": [
         {
           "name": "MDN Reference",
@@ -26674,7 +26176,6 @@
         "C104",
         "O90"
       ],
-      "webdxKey": "css.properties.translate",
       "references": [
         {
           "name": "MDN Reference",
@@ -26716,7 +26217,6 @@
         "C80",
         "O67"
       ],
-      "webdxKey": "css.properties.vector-effect",
       "references": [
         {
           "name": "MDN Reference",
@@ -26741,7 +26241,6 @@
         "C115",
         "O101"
       ],
-      "webdxKey": "css.properties.view-timeline",
       "references": [
         {
           "name": "MDN Reference",
@@ -26764,7 +26263,6 @@
         "C115",
         "O101"
       ],
-      "webdxKey": "css.properties.view-timeline-axis",
       "references": [
         {
           "name": "MDN Reference",
@@ -26786,7 +26284,6 @@
         "C115",
         "O101"
       ],
-      "webdxKey": "css.properties.view-timeline-inset",
       "references": [
         {
           "name": "MDN Reference",
@@ -26809,7 +26306,6 @@
         "C115",
         "O101"
       ],
-      "webdxKey": "css.properties.view-timeline-name",
       "references": [
         {
           "name": "MDN Reference",
@@ -26831,7 +26327,6 @@
         "C125",
         "O111"
       ],
-      "webdxKey": "css.properties.view-transition-class",
       "baselineStatus": {
         "baseline": false
       },
@@ -26847,7 +26342,6 @@
         "C111",
         "O97"
       ],
-      "webdxKey": "css.properties.view-transition-name",
       "references": [
         {
           "name": "MDN Reference",
@@ -26871,7 +26365,6 @@
         "IE5.5",
         "O4"
       ],
-      "webdxKey": "css.properties.white-space",
       "references": [
         {
           "name": "MDN Reference",
@@ -26913,7 +26406,6 @@
         "C114",
         "O100"
       ],
-      "webdxKey": "css.properties.white-space-collapse",
       "references": [
         {
           "name": "MDN Reference",
@@ -26937,7 +26429,6 @@
         "C80",
         "O67"
       ],
-      "webdxKey": "css.properties.x",
       "references": [
         {
           "name": "MDN Reference",
@@ -26962,7 +26453,6 @@
         "C80",
         "O67"
       ],
-      "webdxKey": "css.properties.y",
       "references": [
         {
           "name": "MDN Reference",
@@ -27126,7 +26616,6 @@
         "IE5.5",
         "O9"
       ],
-      "webdxKey": "css.at-rules.charset",
       "references": [
         {
           "name": "MDN Reference",
@@ -27149,7 +26638,6 @@
         "C91",
         "O77"
       ],
-      "webdxKey": "css.at-rules.counter-style",
       "references": [
         {
           "name": "MDN Reference",
@@ -27172,7 +26660,6 @@
         "IE4",
         "O10"
       ],
-      "webdxKey": "css.at-rules.font-face",
       "references": [
         {
           "name": "MDN Reference",
@@ -27195,7 +26682,6 @@
         "C111",
         "O97"
       ],
-      "webdxKey": "css.at-rules.font-feature-values",
       "references": [
         {
           "name": "MDN Reference",
@@ -27218,7 +26704,6 @@
         "IE5.5",
         "O3.5"
       ],
-      "webdxKey": "css.at-rules.import",
       "references": [
         {
           "name": "MDN Reference",
@@ -27242,7 +26727,6 @@
         "IE10",
         "O30"
       ],
-      "webdxKey": "css.at-rules.keyframes",
       "references": [
         {
           "name": "MDN Reference",
@@ -27265,7 +26749,6 @@
         "C99",
         "O85"
       ],
-      "webdxKey": "css.at-rules.layer",
       "references": [
         {
           "name": "MDN Reference",
@@ -27289,7 +26772,6 @@
         "IE6",
         "O9.2"
       ],
-      "webdxKey": "css.at-rules.media",
       "references": [
         {
           "name": "MDN Reference",
@@ -27335,7 +26817,6 @@
         "IE9",
         "O8"
       ],
-      "webdxKey": "css.at-rules.namespace",
       "references": [
         {
           "name": "MDN Reference",
@@ -27373,7 +26854,6 @@
         "IE8",
         "O6"
       ],
-      "webdxKey": "css.at-rules.page",
       "references": [
         {
           "name": "MDN Reference",
@@ -27395,7 +26875,6 @@
         "C85",
         "O71"
       ],
-      "webdxKey": "css.at-rules.property",
       "references": [
         {
           "name": "MDN Reference",
@@ -27417,7 +26896,6 @@
         "C28",
         "O12.1"
       ],
-      "webdxKey": "css.at-rules.supports",
       "references": [
         {
           "name": "MDN Reference",
@@ -27451,7 +26929,6 @@
         "IE4",
         "O5"
       ],
-      "webdxKey": "css.selectors.active",
       "references": [
         {
           "name": "MDN Reference",
@@ -27474,7 +26951,6 @@
         "C65",
         "O52"
       ],
-      "webdxKey": "css.selectors.any-link",
       "references": [
         {
           "name": "MDN Reference",
@@ -27498,7 +26974,6 @@
         "IE9",
         "O9"
       ],
-      "webdxKey": "css.selectors.checked",
       "references": [
         {
           "name": "MDN Reference",
@@ -27537,7 +27012,6 @@
         "C10",
         "O10"
       ],
-      "webdxKey": "css.selectors.default",
       "references": [
         {
           "name": "MDN Reference",
@@ -27561,7 +27035,6 @@
         "IE9",
         "O9"
       ],
-      "webdxKey": "css.selectors.disabled",
       "references": [
         {
           "name": "MDN Reference",
@@ -27593,7 +27066,6 @@
         "IE9",
         "O9.5"
       ],
-      "webdxKey": "css.selectors.empty",
       "references": [
         {
           "name": "MDN Reference",
@@ -27617,7 +27089,6 @@
         "IE9",
         "O9"
       ],
-      "webdxKey": "css.selectors.enabled",
       "references": [
         {
           "name": "MDN Reference",
@@ -27649,7 +27120,6 @@
         "IE8",
         "O9.2"
       ],
-      "webdxKey": "css.selectors.first",
       "references": [
         {
           "name": "MDN Reference",
@@ -27672,7 +27142,6 @@
         "IE7",
         "O9.5"
       ],
-      "webdxKey": "css.selectors.first-child",
       "references": [
         {
           "name": "MDN Reference",
@@ -27696,7 +27165,6 @@
         "IE9",
         "O9.5"
       ],
-      "webdxKey": "css.selectors.first-of-type",
       "references": [
         {
           "name": "MDN Reference",
@@ -27720,7 +27188,6 @@
         "IE8",
         "O7"
       ],
-      "webdxKey": "css.selectors.focus",
       "references": [
         {
           "name": "MDN Reference",
@@ -27744,7 +27211,6 @@
         "IE11",
         "O58"
       ],
-      "webdxKey": "css.selectors.fullscreen",
       "references": [
         {
           "name": "MDN Reference",
@@ -27764,7 +27230,6 @@
         "C23",
         "O15"
       ],
-      "webdxKey": "css.selectors.future",
       "references": [
         {
           "name": "MDN Reference",
@@ -27793,7 +27258,6 @@
         "C54",
         "O41"
       ],
-      "webdxKey": "css.selectors.host",
       "references": [
         {
           "name": "MDN Reference",
@@ -27816,7 +27280,6 @@
         "C54",
         "O41"
       ],
-      "webdxKey": "css.selectors.host",
       "baselineStatus": {
         "baseline": "high",
         "baseline_low_date": "2020-01-15",
@@ -27831,7 +27294,6 @@
         "C54",
         "O41"
       ],
-      "webdxKey": "css.selectors.host-context",
       "baselineStatus": {
         "baseline": false
       },
@@ -27847,7 +27309,6 @@
         "IE4",
         "O4"
       ],
-      "webdxKey": "css.selectors.hover",
       "references": [
         {
           "name": "MDN Reference",
@@ -27879,7 +27340,6 @@
         "IE10",
         "O9"
       ],
-      "webdxKey": "css.selectors.indeterminate",
       "references": [
         {
           "name": "MDN Reference",
@@ -27902,7 +27362,6 @@
         "C10",
         "O11"
       ],
-      "webdxKey": "css.selectors.in-range",
       "references": [
         {
           "name": "MDN Reference",
@@ -27926,7 +27385,6 @@
         "IE10",
         "O10"
       ],
-      "webdxKey": "css.selectors.invalid",
       "references": [
         {
           "name": "MDN Reference",
@@ -27950,7 +27408,6 @@
         "IE8",
         "O8"
       ],
-      "webdxKey": "css.selectors.lang",
       "baselineStatus": {
         "baseline": "high",
         "baseline_low_date": "2015-07-29",
@@ -27968,7 +27425,6 @@
         "IE9",
         "O9.5"
       ],
-      "webdxKey": "css.selectors.last-child",
       "references": [
         {
           "name": "MDN Reference",
@@ -27992,7 +27448,6 @@
         "IE9",
         "O9.5"
       ],
-      "webdxKey": "css.selectors.last-of-type",
       "references": [
         {
           "name": "MDN Reference",
@@ -28015,7 +27470,6 @@
         "IE8",
         "O9.2"
       ],
-      "webdxKey": "css.selectors.left",
       "references": [
         {
           "name": "MDN Reference",
@@ -28037,7 +27491,6 @@
         "IE3",
         "O3.5"
       ],
-      "webdxKey": "css.selectors.link",
       "references": [
         {
           "name": "MDN Reference",
@@ -28077,7 +27530,6 @@
       "browsers": [
         "FF3"
       ],
-      "webdxKey": "css.selectors.-moz-broken",
       "references": [
         {
           "name": "MDN Reference",
@@ -28101,7 +27553,6 @@
       "browsers": [
         "FF72"
       ],
-      "webdxKey": "css.selectors.-moz-first-node",
       "references": [
         {
           "name": "MDN Reference",
@@ -28132,7 +27583,6 @@
       "browsers": [
         "FF72"
       ],
-      "webdxKey": "css.selectors.-moz-last-node",
       "references": [
         {
           "name": "MDN Reference",
@@ -28156,7 +27606,6 @@
       "browsers": [
         "FF1"
       ],
-      "webdxKey": "css.selectors.-moz-only-whitespace",
       "references": [
         {
           "name": "MDN Reference",
@@ -28180,7 +27629,6 @@
       "browsers": [
         "FF88"
       ],
-      "webdxKey": "css.selectors.-moz-submit-invalid",
       "references": [
         {
           "name": "MDN Reference",
@@ -28225,7 +27673,6 @@
       "browsers": [
         "FF4"
       ],
-      "webdxKey": "css.selectors.-moz-window-inactive",
       "references": [
         {
           "name": "MDN Reference",
@@ -28284,7 +27731,6 @@
         "IE9",
         "O9.5"
       ],
-      "webdxKey": "css.selectors.not",
       "baselineStatus": {
         "baseline": "high",
         "baseline_low_date": "2015-07-29",
@@ -28302,7 +27748,6 @@
         "IE9",
         "O9.5"
       ],
-      "webdxKey": "css.selectors.nth-child",
       "baselineStatus": {
         "baseline": "high",
         "baseline_low_date": "2015-07-29",
@@ -28320,7 +27765,6 @@
         "IE9",
         "O9"
       ],
-      "webdxKey": "css.selectors.nth-last-child",
       "baselineStatus": {
         "baseline": "high",
         "baseline_low_date": "2015-07-29",
@@ -28338,7 +27782,6 @@
         "IE9",
         "O9.5"
       ],
-      "webdxKey": "css.selectors.nth-last-of-type",
       "baselineStatus": {
         "baseline": "high",
         "baseline_low_date": "2015-07-29",
@@ -28356,7 +27799,6 @@
         "IE9",
         "O9.5"
       ],
-      "webdxKey": "css.selectors.nth-of-type",
       "baselineStatus": {
         "baseline": "high",
         "baseline_low_date": "2015-07-29",
@@ -28374,7 +27816,6 @@
         "IE9",
         "O9.5"
       ],
-      "webdxKey": "css.selectors.only-child",
       "references": [
         {
           "name": "MDN Reference",
@@ -28398,7 +27839,6 @@
         "IE9",
         "O9.5"
       ],
-      "webdxKey": "css.selectors.only-of-type",
       "references": [
         {
           "name": "MDN Reference",
@@ -28422,7 +27862,6 @@
         "IE10",
         "O10"
       ],
-      "webdxKey": "css.selectors.optional",
       "references": [
         {
           "name": "MDN Reference",
@@ -28445,7 +27884,6 @@
         "C10",
         "O11"
       ],
-      "webdxKey": "css.selectors.out-of-range",
       "references": [
         {
           "name": "MDN Reference",
@@ -28467,7 +27905,6 @@
         "C23",
         "O15"
       ],
-      "webdxKey": "css.selectors.past",
       "references": [
         {
           "name": "MDN Reference",
@@ -28488,7 +27925,6 @@
         "C1",
         "O9"
       ],
-      "webdxKey": "css.selectors.read-only",
       "references": [
         {
           "name": "MDN Reference",
@@ -28511,7 +27947,6 @@
         "C1",
         "O9"
       ],
-      "webdxKey": "css.selectors.read-write",
       "references": [
         {
           "name": "MDN Reference",
@@ -28535,7 +27970,6 @@
         "IE10",
         "O10"
       ],
-      "webdxKey": "css.selectors.required",
       "references": [
         {
           "name": "MDN Reference",
@@ -28558,7 +27992,6 @@
         "IE8",
         "O9.2"
       ],
-      "webdxKey": "css.selectors.right",
       "references": [
         {
           "name": "MDN Reference",
@@ -28580,7 +28013,6 @@
         "IE9",
         "O9.5"
       ],
-      "webdxKey": "css.selectors.root",
       "references": [
         {
           "name": "MDN Reference",
@@ -28603,7 +28035,6 @@
         "C27",
         "O15"
       ],
-      "webdxKey": "css.selectors.scope",
       "references": [
         {
           "name": "MDN Reference",
@@ -28643,7 +28074,6 @@
         "IE9",
         "O9.5"
       ],
-      "webdxKey": "css.selectors.target",
       "references": [
         {
           "name": "MDN Reference",
@@ -28667,7 +28097,6 @@
         "IE10",
         "O10"
       ],
-      "webdxKey": "css.selectors.valid",
       "references": [
         {
           "name": "MDN Reference",
@@ -28699,7 +28128,6 @@
         "IE4",
         "O3.5"
       ],
-      "webdxKey": "css.selectors.visited",
       "references": [
         {
           "name": "MDN Reference",
@@ -28745,7 +28173,6 @@
         "C125",
         "O111"
       ],
-      "webdxKey": "css.selectors.active-view-transition",
       "baselineStatus": {
         "baseline": false
       },
@@ -28759,7 +28186,6 @@
         "C125",
         "O111"
       ],
-      "webdxKey": "css.selectors.active-view-transition-type",
       "baselineStatus": {
         "baseline": false
       },
@@ -28774,7 +28200,6 @@
         "C110",
         "O96"
       ],
-      "webdxKey": "css.selectors.autofill",
       "references": [
         {
           "name": "MDN Reference",
@@ -28797,7 +28222,6 @@
       "browsers": [
         "S15.4"
       ],
-      "webdxKey": "css.selectors.buffering",
       "references": [
         {
           "name": "MDN Reference",
@@ -28823,7 +28247,6 @@
         "C54",
         "O41"
       ],
-      "webdxKey": "css.selectors.defined",
       "references": [
         {
           "name": "MDN Reference",
@@ -28846,7 +28269,6 @@
         "C120",
         "O106"
       ],
-      "webdxKey": "css.selectors.dir",
       "baselineStatus": {
         "baseline": "low",
         "baseline_low_date": "2023-12-07"
@@ -28862,7 +28284,6 @@
         "C86",
         "O72"
       ],
-      "webdxKey": "css.selectors.focus-visible",
       "references": [
         {
           "name": "MDN Reference",
@@ -28885,7 +28306,6 @@
         "C60",
         "O47"
       ],
-      "webdxKey": "css.selectors.focus-within",
       "references": [
         {
           "name": "MDN Reference",
@@ -28908,7 +28328,6 @@
         "C105",
         "O91"
       ],
-      "webdxKey": "css.selectors.has",
       "baselineStatus": {
         "baseline": "low",
         "baseline_low_date": "2023-12-19"
@@ -28922,7 +28341,6 @@
         "FF136",
         "C134"
       ],
-      "webdxKey": "css.selectors.has-slotted",
       "references": [
         {
           "name": "MDN Reference",
@@ -28943,7 +28361,6 @@
         "C88",
         "O74"
       ],
-      "webdxKey": "css.selectors.is",
       "baselineStatus": {
         "baseline": "high",
         "baseline_low_date": "2021-01-21",
@@ -28965,7 +28382,6 @@
         "C105",
         "O91"
       ],
-      "webdxKey": "css.selectors.modal",
       "references": [
         {
           "name": "MDN Reference",
@@ -28984,7 +28400,6 @@
       "browsers": [
         "S15.4"
       ],
-      "webdxKey": "css.selectors.muted",
       "references": [
         {
           "name": "MDN Reference",
@@ -29001,7 +28416,6 @@
       "browsers": [
         "S15.4"
       ],
-      "webdxKey": "css.selectors.paused",
       "references": [
         {
           "name": "MDN Reference",
@@ -29021,7 +28435,6 @@
         "C110",
         "O96"
       ],
-      "webdxKey": "css.selectors.picture-in-picture",
       "references": [
         {
           "name": "MDN Reference",
@@ -29043,7 +28456,6 @@
         "IE10",
         "O34"
       ],
-      "webdxKey": "css.selectors.placeholder-shown",
       "references": [
         {
           "name": "MDN Reference",
@@ -29062,7 +28474,6 @@
       "browsers": [
         "S15.4"
       ],
-      "webdxKey": "css.selectors.playing",
       "references": [
         {
           "name": "MDN Reference",
@@ -29083,7 +28494,6 @@
         "C114",
         "O100"
       ],
-      "webdxKey": "css.selectors.popover-open",
       "references": [
         {
           "name": "MDN Reference",
@@ -29101,7 +28511,6 @@
       "browsers": [
         "S15.4"
       ],
-      "webdxKey": "css.selectors.seeking",
       "references": [
         {
           "name": "MDN Reference",
@@ -29118,7 +28527,6 @@
       "browsers": [
         "S15.4"
       ],
-      "webdxKey": "css.selectors.stalled",
       "references": [
         {
           "name": "MDN Reference",
@@ -29139,7 +28547,6 @@
         "C125",
         "O111"
       ],
-      "webdxKey": "css.selectors.state",
       "baselineStatus": {
         "baseline": "low",
         "baseline_low_date": "2024-05-17"
@@ -29153,7 +28560,6 @@
         "E135",
         "C135"
       ],
-      "webdxKey": "css.selectors.target-current",
       "baselineStatus": {
         "baseline": false
       },
@@ -29173,7 +28579,6 @@
         "C119",
         "O105"
       ],
-      "webdxKey": "css.selectors.user-invalid",
       "references": [
         {
           "name": "MDN Reference",
@@ -29195,7 +28600,6 @@
         "C119",
         "O105"
       ],
-      "webdxKey": "css.selectors.user-valid",
       "references": [
         {
           "name": "MDN Reference",
@@ -29213,7 +28617,6 @@
       "browsers": [
         "S15.4"
       ],
-      "webdxKey": "css.selectors.volume-locked",
       "references": [
         {
           "name": "MDN Reference",
@@ -29234,7 +28637,6 @@
         "C88",
         "O74"
       ],
-      "webdxKey": "css.selectors.where",
       "baselineStatus": {
         "baseline": "high",
         "baseline_low_date": "2021-01-21",
@@ -29250,7 +28652,6 @@
         "C83",
         "O69"
       ],
-      "webdxKey": "css.selectors.xr-overlay",
       "baselineStatus": {
         "baseline": false
       },
@@ -29268,7 +28669,6 @@
         "IE9",
         "O7"
       ],
-      "webdxKey": "css.selectors.after",
       "references": [
         {
           "name": "MDN Reference",
@@ -29292,7 +28692,6 @@
         "IE11",
         "O24"
       ],
-      "webdxKey": "css.selectors.backdrop",
       "references": [
         {
           "name": "MDN Reference",
@@ -29316,7 +28715,6 @@
         "IE9",
         "O7"
       ],
-      "webdxKey": "css.selectors.before",
       "references": [
         {
           "name": "MDN Reference",
@@ -29347,7 +28745,6 @@
         "C26",
         "O15"
       ],
-      "webdxKey": "css.selectors.cue",
       "references": [
         {
           "name": "MDN Reference",
@@ -29369,7 +28766,6 @@
         "C26",
         "O15"
       ],
-      "webdxKey": "css.selectors.cue",
       "baselineStatus": {
         "baseline": "high",
         "baseline_low_date": "2020-01-15",
@@ -29402,7 +28798,6 @@
         "IE9",
         "O7"
       ],
-      "webdxKey": "css.selectors.first-letter",
       "references": [
         {
           "name": "MDN Reference",
@@ -29426,7 +28821,6 @@
         "IE9",
         "O7"
       ],
-      "webdxKey": "css.selectors.first-line",
       "references": [
         {
           "name": "MDN Reference",
@@ -29445,7 +28839,6 @@
       "browsers": [
         "FF72"
       ],
-      "webdxKey": "css.selectors.-moz-focus-inner",
       "references": [
         {
           "name": "MDN Reference",
@@ -29467,7 +28860,6 @@
       "browsers": [
         "FF72"
       ],
-      "webdxKey": "css.selectors.-moz-list-bullet",
       "references": [
         {
           "name": "MDN Reference",
@@ -29484,7 +28876,6 @@
       "browsers": [
         "FF72"
       ],
-      "webdxKey": "css.selectors.-moz-list-number",
       "references": [
         {
           "name": "MDN Reference",
@@ -29508,7 +28899,6 @@
       "browsers": [
         "FF72"
       ],
-      "webdxKey": "css.selectors.-moz-progress-bar",
       "references": [
         {
           "name": "MDN Reference",
@@ -29656,7 +29046,6 @@
         "IE9",
         "O9.5"
       ],
-      "webdxKey": "css.selectors.selection",
       "references": [
         {
           "name": "MDN Reference",
@@ -29692,7 +29081,6 @@
         "C6",
         "O15"
       ],
-      "webdxKey": "css.selectors.-webkit-inner-spin-button",
       "references": [
         {
           "name": "MDN Reference",
@@ -29726,7 +29114,6 @@
         "C12",
         "O15"
       ],
-      "webdxKey": "css.selectors.-webkit-meter-bar",
       "references": [
         {
           "name": "MDN Reference",
@@ -29745,7 +29132,6 @@
         "C12",
         "O15"
       ],
-      "webdxKey": "css.selectors.-webkit-meter-even-less-good-value",
       "references": [
         {
           "name": "MDN Reference",
@@ -29764,7 +29150,6 @@
         "C12",
         "O15"
       ],
-      "webdxKey": "css.selectors.-webkit-meter-optimum-value",
       "references": [
         {
           "name": "MDN Reference",
@@ -29783,7 +29168,6 @@
         "C12",
         "O15"
       ],
-      "webdxKey": "css.selectors.-webkit-meter-suboptimum-value",
       "references": [
         {
           "name": "MDN Reference",
@@ -29810,7 +29194,6 @@
         "C25",
         "O15"
       ],
-      "webdxKey": "css.selectors.-webkit-progress-bar",
       "references": [
         {
           "name": "MDN Reference",
@@ -29829,7 +29212,6 @@
         "C23",
         "O15"
       ],
-      "webdxKey": "css.selectors.-webkit-progress-inner-element",
       "references": [
         {
           "name": "MDN Reference",
@@ -29848,7 +29230,6 @@
         "C25",
         "O15"
       ],
-      "webdxKey": "css.selectors.-webkit-progress-value",
       "references": [
         {
           "name": "MDN Reference",
@@ -29867,7 +29248,6 @@
         "C2",
         "O15"
       ],
-      "webdxKey": "css.selectors.-webkit-resizer",
       "references": [
         {
           "name": "MDN Reference",
@@ -29886,7 +29266,6 @@
         "C2",
         "O15"
       ],
-      "webdxKey": "css.selectors.-webkit-scrollbar",
       "references": [
         {
           "name": "MDN Reference",
@@ -29905,7 +29284,6 @@
         "C2",
         "O15"
       ],
-      "webdxKey": "css.selectors.-webkit-scrollbar-button",
       "references": [
         {
           "name": "MDN Reference",
@@ -29924,7 +29302,6 @@
         "C2",
         "O15"
       ],
-      "webdxKey": "css.selectors.-webkit-scrollbar-corner",
       "references": [
         {
           "name": "MDN Reference",
@@ -29943,7 +29320,6 @@
         "C2",
         "O15"
       ],
-      "webdxKey": "css.selectors.-webkit-scrollbar-thumb",
       "references": [
         {
           "name": "MDN Reference",
@@ -29962,7 +29338,6 @@
         "C2",
         "O15"
       ],
-      "webdxKey": "css.selectors.-webkit-scrollbar-track",
       "references": [
         {
           "name": "MDN Reference",
@@ -29981,7 +29356,6 @@
         "C2",
         "O15"
       ],
-      "webdxKey": "css.selectors.-webkit-scrollbar-track-piece",
       "references": [
         {
           "name": "MDN Reference",
@@ -30000,7 +29374,6 @@
         "C1",
         "O15"
       ],
-      "webdxKey": "css.selectors.-webkit-search-cancel-button",
       "references": [
         {
           "name": "MDN Reference",
@@ -30026,7 +29399,6 @@
         "C1",
         "O15"
       ],
-      "webdxKey": "css.selectors.-webkit-search-results-button",
       "references": [
         {
           "name": "MDN Reference",
@@ -30052,7 +29424,6 @@
         "C83",
         "O69"
       ],
-      "webdxKey": "css.selectors.-webkit-slider-runnable-track",
       "references": [
         {
           "name": "MDN Reference",
@@ -30071,7 +29442,6 @@
         "C83",
         "O69"
       ],
-      "webdxKey": "css.selectors.-webkit-slider-thumb",
       "references": [
         {
           "name": "MDN Reference",
@@ -30144,7 +29514,6 @@
       "browsers": [
         "FF22"
       ],
-      "webdxKey": "css.selectors.-moz-range-progress",
       "references": [
         {
           "name": "MDN Reference",
@@ -30162,7 +29531,6 @@
       "browsers": [
         "FF21"
       ],
-      "webdxKey": "css.selectors.-moz-range-thumb",
       "references": [
         {
           "name": "MDN Reference",
@@ -30180,7 +29548,6 @@
       "browsers": [
         "FF21"
       ],
-      "webdxKey": "css.selectors.-moz-range-track",
       "references": [
         {
           "name": "MDN Reference",
@@ -30206,7 +29573,6 @@
         "C131",
         "O116"
       ],
-      "webdxKey": "css.selectors.details-content",
       "references": [
         {
           "name": "MDN Reference",
@@ -30228,7 +29594,6 @@
         "IE10",
         "O75"
       ],
-      "webdxKey": "css.selectors.file-selector-button",
       "references": [
         {
           "name": "MDN Reference",
@@ -30250,7 +29615,6 @@
         "C121",
         "O107"
       ],
-      "webdxKey": "css.selectors.grammar-error",
       "references": [
         {
           "name": "MDN Reference",
@@ -30271,7 +29635,6 @@
         "C105",
         "O91"
       ],
-      "webdxKey": "css.selectors.highlight",
       "baselineStatus": {
         "baseline": false
       },
@@ -30286,7 +29649,6 @@
         "C86",
         "O72"
       ],
-      "webdxKey": "css.selectors.marker",
       "references": [
         {
           "name": "MDN Reference",
@@ -30307,7 +29669,6 @@
         "C73",
         "O60"
       ],
-      "webdxKey": "css.selectors.part",
       "baselineStatus": {
         "baseline": "high",
         "baseline_low_date": "2020-07-28",
@@ -30324,7 +29685,6 @@
         "C57",
         "O44"
       ],
-      "webdxKey": "css.selectors.placeholder",
       "references": [
         {
           "name": "MDN Reference",
@@ -30345,7 +29705,6 @@
         "E135",
         "C135"
       ],
-      "webdxKey": "css.selectors.scroll-marker",
       "baselineStatus": {
         "baseline": false
       },
@@ -30358,7 +29717,6 @@
         "E135",
         "C135"
       ],
-      "webdxKey": "css.selectors.scroll-marker-group",
       "baselineStatus": {
         "baseline": false
       },
@@ -30373,7 +29731,6 @@
         "C50",
         "O37"
       ],
-      "webdxKey": "css.selectors.slotted",
       "baselineStatus": {
         "baseline": "high",
         "baseline_low_date": "2020-01-15",
@@ -30389,7 +29746,6 @@
         "C121",
         "O107"
       ],
-      "webdxKey": "css.selectors.spelling-error",
       "references": [
         {
           "name": "MDN Reference",
@@ -30410,7 +29766,6 @@
         "C89",
         "O75"
       ],
-      "webdxKey": "css.selectors.target-text",
       "references": [
         {
           "name": "MDN Reference",
@@ -30431,7 +29786,6 @@
         "C109",
         "O95"
       ],
-      "webdxKey": "css.selectors.view-transition",
       "references": [
         {
           "name": "MDN Reference",
@@ -30451,7 +29805,6 @@
         "C109",
         "O95"
       ],
-      "webdxKey": "css.selectors.view-transition-group",
       "baselineStatus": {
         "baseline": false
       },
@@ -30465,7 +29818,6 @@
         "C109",
         "O95"
       ],
-      "webdxKey": "css.selectors.view-transition-image-pair",
       "baselineStatus": {
         "baseline": false
       },
@@ -30479,7 +29831,6 @@
         "C109",
         "O95"
       ],
-      "webdxKey": "css.selectors.view-transition-new",
       "baselineStatus": {
         "baseline": false
       },
@@ -30493,7 +29844,6 @@
         "C109",
         "O95"
       ],
-      "webdxKey": "css.selectors.view-transition-old",
       "baselineStatus": {
         "baseline": false
       },

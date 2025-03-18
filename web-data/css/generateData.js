@@ -370,11 +370,10 @@ async function process() {
 }
 
 function processEntry(entry) {
-  try {
-     const { baseline, baseline_low_date, baseline_high_date } = getStatus('', entry.webdxKey)
-     entry.baselineStatus = {baseline, baseline_low_date, baseline_high_date}
-  } catch {
-    delete entry.webdxKey
+  if (entry.bcdKey) {
+    const { support, ...status } = getStatus('', entry.bcdKey)
+    entry.baselineStatus = status
+    delete entry.bcdKey
   }
 
   convertEntry(entry)
