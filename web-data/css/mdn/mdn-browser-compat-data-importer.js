@@ -17,6 +17,7 @@ function addBrowserCompatDataToProperties(atdirectives, pseudoclasses, pseudoele
     if (featureName.endsWith('()')) {
       featureName = featureName.slice(0, -2)
     }
+    item.name = `:${featureName}`
     addCompatData(item, 'selectors', featureName)
   })
 
@@ -25,6 +26,7 @@ function addBrowserCompatDataToProperties(atdirectives, pseudoclasses, pseudoele
     if (featureName.endsWith('()')) {
       featureName = featureName.slice(0, -2)
     }
+    item.name = `::${featureName}`
     addCompatData(item, 'selectors', featureName)
   })
 
