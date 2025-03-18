@@ -4961,8 +4961,8 @@
       ],
       "baselineStatus": {
         "baseline": "high",
-        "baseline_low_date": "≤2020-07-28",
-        "baseline_high_date": "≤2023-01-28"
+        "baseline_low_date": "2020-07-28",
+        "baseline_high_date": "2023-01-28"
       },
       "description": "Paints the interior of the given graphical element.",
       "restrictions": [
@@ -4990,8 +4990,8 @@
       ],
       "baselineStatus": {
         "baseline": "high",
-        "baseline_low_date": "≤2020-03-24",
-        "baseline_high_date": "≤2022-09-24"
+        "baseline_low_date": "2020-03-24",
+        "baseline_high_date": "2022-09-24"
       },
       "description": "Specifies the opacity of the painting operation used to paint the interior the current object.",
       "restrictions": [
@@ -5027,8 +5027,8 @@
       ],
       "baselineStatus": {
         "baseline": "high",
-        "baseline_low_date": "≤2020-07-28",
-        "baseline_high_date": "≤2023-01-28"
+        "baseline_low_date": "2020-07-28",
+        "baseline_high_date": "2023-01-28"
       },
       "description": "Indicates the algorithm (or winding rule) which is to be used to determine what parts of the canvas are included inside the shape.",
       "restrictions": [
@@ -9069,8 +9069,8 @@
       ],
       "baselineStatus": {
         "baseline": "high",
-        "baseline_low_date": "≤2020-07-28",
-        "baseline_high_date": "≤2023-01-28"
+        "baseline_low_date": "2020-07-28",
+        "baseline_high_date": "2023-01-28"
       },
       "description": "Specifies the marker symbol that shall be used for all points on the sets the value for all vertices on the given 'path' element or basic shape.",
       "restrictions": [
@@ -9106,8 +9106,8 @@
       ],
       "baselineStatus": {
         "baseline": "high",
-        "baseline_low_date": "≤2020-07-28",
-        "baseline_high_date": "≤2023-01-28"
+        "baseline_low_date": "2020-07-28",
+        "baseline_high_date": "2023-01-28"
       },
       "description": "Specifies the marker that will be drawn at the last vertices of the given markable element.",
       "restrictions": [
@@ -9143,8 +9143,8 @@
       ],
       "baselineStatus": {
         "baseline": "high",
-        "baseline_low_date": "≤2020-07-28",
-        "baseline_high_date": "≤2023-01-28"
+        "baseline_low_date": "2020-07-28",
+        "baseline_high_date": "2023-01-28"
       },
       "description": "Specifies the marker that will be drawn at all vertices except the first and last.",
       "restrictions": [
@@ -9180,8 +9180,8 @@
       ],
       "baselineStatus": {
         "baseline": "high",
-        "baseline_low_date": "≤2020-07-28",
-        "baseline_high_date": "≤2023-01-28"
+        "baseline_low_date": "2020-07-28",
+        "baseline_high_date": "2023-01-28"
       },
       "description": "Specifies the marker that will be drawn at the first vertices of the given markable element.",
       "restrictions": [
@@ -16298,8 +16298,8 @@
       ],
       "baselineStatus": {
         "baseline": "high",
-        "baseline_low_date": "≤2020-07-28",
-        "baseline_high_date": "≤2023-01-28"
+        "baseline_low_date": "2020-07-28",
+        "baseline_high_date": "2023-01-28"
       },
       "description": "Provides hints about what tradeoffs to make as it renders vector graphics elements such as <path> elements and basic shapes such as circles and rectangles.",
       "restrictions": [
@@ -16365,8 +16365,8 @@
       ],
       "baselineStatus": {
         "baseline": "high",
-        "baseline_low_date": "≤2020-07-28",
-        "baseline_high_date": "≤2023-01-28"
+        "baseline_low_date": "2020-07-28",
+        "baseline_high_date": "2023-01-28"
       },
       "description": "Indicates what color to use at that gradient stop.",
       "restrictions": [
@@ -16392,8 +16392,8 @@
       ],
       "baselineStatus": {
         "baseline": "high",
-        "baseline_low_date": "≤2020-07-28",
-        "baseline_high_date": "≤2023-01-28"
+        "baseline_low_date": "2020-07-28",
+        "baseline_high_date": "2023-01-28"
       },
       "description": "Defines the opacity of a given gradient stop.",
       "restrictions": [
@@ -16429,8 +16429,8 @@
       ],
       "baselineStatus": {
         "baseline": "high",
-        "baseline_low_date": "≤2020-07-28",
-        "baseline_high_date": "≤2023-01-28"
+        "baseline_low_date": "2020-07-28",
+        "baseline_high_date": "2023-01-28"
       },
       "description": "Paints along the outline of the given graphical element.",
       "restrictions": [
@@ -16464,8 +16464,8 @@
       ],
       "baselineStatus": {
         "baseline": "high",
-        "baseline_low_date": "≤2020-03-24",
-        "baseline_high_date": "≤2022-09-24"
+        "baseline_low_date": "2020-03-24",
+        "baseline_high_date": "2022-09-24"
       },
       "description": "Controls the pattern of dashes and gaps used to stroke paths.",
       "restrictions": [
@@ -16494,8 +16494,8 @@
       ],
       "baselineStatus": {
         "baseline": "high",
-        "baseline_low_date": "≤2020-03-24",
-        "baseline_high_date": "≤2022-09-24"
+        "baseline_low_date": "2020-03-24",
+        "baseline_high_date": "2022-09-24"
       },
       "description": "Specifies the distance into the dash pattern to start the dash.",
       "restrictions": [
@@ -16536,8 +16536,8 @@
       ],
       "baselineStatus": {
         "baseline": "high",
-        "baseline_low_date": "≤2020-03-24",
-        "baseline_high_date": "≤2022-09-24"
+        "baseline_low_date": "2020-03-24",
+        "baseline_high_date": "2022-09-24"
       },
       "description": "Specifies the shape to be used at the end of open subpaths when they are stroked.",
       "restrictions": [
@@ -16577,8 +16577,8 @@
       ],
       "baselineStatus": {
         "baseline": "high",
-        "baseline_low_date": "≤2020-03-24",
-        "baseline_high_date": "≤2022-09-24"
+        "baseline_low_date": "2020-03-24",
+        "baseline_high_date": "2022-09-24"
       },
       "description": "Specifies the shape to be used at the corners of paths or basic shapes when they are stroked.",
       "restrictions": [
@@ -16604,8 +16604,8 @@
       ],
       "baselineStatus": {
         "baseline": "high",
-        "baseline_low_date": "≤2020-03-24",
-        "baseline_high_date": "≤2022-09-24"
+        "baseline_low_date": "2020-03-24",
+        "baseline_high_date": "2022-09-24"
       },
       "description": "When two line segments meet at a sharp angle and miter joins have been specified for 'stroke-linejoin', it is possible for the miter to extend far beyond the thickness of the line stroking the path.",
       "restrictions": [
@@ -16631,8 +16631,8 @@
       ],
       "baselineStatus": {
         "baseline": "high",
-        "baseline_low_date": "≤2020-03-24",
-        "baseline_high_date": "≤2022-09-24"
+        "baseline_low_date": "2020-03-24",
+        "baseline_high_date": "2022-09-24"
       },
       "description": "Specifies the opacity of the painting operation used to stroke the current object.",
       "restrictions": [
@@ -16658,8 +16658,8 @@
       ],
       "baselineStatus": {
         "baseline": "high",
-        "baseline_low_date": "≤2020-03-24",
-        "baseline_high_date": "≤2022-09-24"
+        "baseline_low_date": "2020-03-24",
+        "baseline_high_date": "2022-09-24"
       },
       "description": "Specifies the width of the stroke on the current object.",
       "restrictions": [
@@ -16960,8 +16960,8 @@
       ],
       "baselineStatus": {
         "baseline": "high",
-        "baseline_low_date": "≤2020-07-28",
-        "baseline_high_date": "≤2023-01-28"
+        "baseline_low_date": "2020-07-28",
+        "baseline_high_date": "2023-01-28"
       },
       "description": "Used to align (start-, middle- or end-alignment) a string of text relative to a given point.",
       "restrictions": [
@@ -22744,8 +22744,8 @@
       ],
       "baselineStatus": {
         "baseline": "high",
-        "baseline_low_date": "≤2020-07-28",
-        "baseline_high_date": "≤2023-01-28"
+        "baseline_low_date": "2020-07-28",
+        "baseline_high_date": "2023-01-28"
       },
       "description": "The cx CSS property defines the x-axis center point of an SVG circle or ellipse element. If present, it overrides the element's cx attribute."
     },
@@ -22768,8 +22768,8 @@
       ],
       "baselineStatus": {
         "baseline": "high",
-        "baseline_low_date": "≤2020-07-28",
-        "baseline_high_date": "≤2023-01-28"
+        "baseline_low_date": "2020-07-28",
+        "baseline_high_date": "2023-01-28"
       },
       "description": "The cy CSS property defines the y-axis center point of an SVG circle or ellipse elements. If present, it overrides the element's cy attribute."
     },
@@ -22842,8 +22842,8 @@
       ],
       "baselineStatus": {
         "baseline": "high",
-        "baseline_low_date": "≤2020-03-24",
-        "baseline_high_date": "≤2022-09-24"
+        "baseline_low_date": "2020-03-24",
+        "baseline_high_date": "2022-09-24"
       },
       "description": "The dominant-baseline CSS property specifies the specific baseline used to align the box's text and inline-level contents. It also indicates the default alignment baseline of any boxes participating in baseline alignment in the box's alignment context. If present, it overrides the shape's dominant-baseline attribute."
     },
@@ -24711,8 +24711,8 @@
       ],
       "baselineStatus": {
         "baseline": "high",
-        "baseline_low_date": "≤2020-07-28",
-        "baseline_high_date": "≤2023-01-28"
+        "baseline_low_date": "2020-07-28",
+        "baseline_high_date": "2023-01-28"
       },
       "description": "The r CSS property defines the radius of a circle. It can only be used with the SVG circle element. If present, it overrides the circle's r attribute."
     },
@@ -26225,8 +26225,8 @@
       ],
       "baselineStatus": {
         "baseline": "high",
-        "baseline_low_date": "≤2020-07-28",
-        "baseline_high_date": "≤2023-01-28"
+        "baseline_low_date": "2020-07-28",
+        "baseline_high_date": "2023-01-28"
       },
       "description": "The vector-effect CSS property suppresses specific transformation effects in SVG, thus permitting effects like a road on a map staying the same width no matter how the map is zoomed, or allowing a diagram key to retain its position and size regardless of other transforms. It can only be used with SVG elements that accept the vector-effect attribute. When used, the CSS value overrides any values of the element's vector-effect attribute."
     },
@@ -26437,8 +26437,8 @@
       ],
       "baselineStatus": {
         "baseline": "high",
-        "baseline_low_date": "≤2020-07-28",
-        "baseline_high_date": "≤2023-01-28"
+        "baseline_low_date": "2020-07-28",
+        "baseline_high_date": "2023-01-28"
       },
       "description": "The x CSS property defines the x-axis coordinate of the top left corner of the SVG rect shape, image image, foreignObject viewport or nested svg viewport relative to the nearest <svg> ancestor's user coordinate system. If present, it overrides the element's x attribute."
     },
@@ -26461,8 +26461,8 @@
       ],
       "baselineStatus": {
         "baseline": "high",
-        "baseline_low_date": "≤2020-07-28",
-        "baseline_high_date": "≤2023-01-28"
+        "baseline_low_date": "2020-07-28",
+        "baseline_high_date": "2023-01-28"
       },
       "description": "The y CSS property defines the y-axis coordinate of the top left corner of the SVG rect shape, image image, foreignObject viewport and nested svg viewport relative to the nearest <svg> ancestor's user coordinate system. If present, it overrides the element's y attribute."
     },

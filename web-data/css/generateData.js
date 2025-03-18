@@ -329,7 +329,7 @@ const { addMDNProperties } = require('./mdn/mdn-data-importer');
 const { addMDNPseudoElements, addMDNPseudoSelectors } = require('./mdn/mdn-data-selector-importer');
 const { addBrowserCompatDataToProperties, addMDNReferences } = require('./mdn/mdn-browser-compat-data-importer');
 const { applyRelevance } = require('./chromestatus/applyRelevance');
-const { getStatus } = require('compute-baseline');
+const { computeBaseline } = require('compute-baseline');
 
 async function process() {
 
@@ -371,8 +371,20 @@ async function process() {
 
 function processEntry(entry) {
   if (entry.bcdKey) {
-    const { support, ...status } = getStatus('', entry.bcdKey)
-    entry.baselineStatus = status
+    let { baseline, baseline_low_date, baseline_high_date } = computeBaseline({
+      compatKeys: [entry.bcdKey]
+    })
+    if (baseline_low_date?.startsWith('≤')) {
+      baseline_low_date = baseline_low_date.slice(1)
+    }
+    if (baseline_high_date?.startsWith('≤')) {
+      baseline_high_date = baseline_high_date.slice(1)
+    }
+    entry.baselineStatus = {
+      baseline,
+      baseline_low_date: baseline_low_date ?? undefined,
+      baseline_high_date: baseline_high_date ?? undefined
+    }
     delete entry.bcdKey
   }
 
