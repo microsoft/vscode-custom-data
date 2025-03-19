@@ -371,22 +371,28 @@ async function process() {
 
 function processEntry(entry) {
   if (entry.bcdKey) {
-    let { baseline, baseline_low_date, baseline_high_date } = computeBaseline({
+    const status = computeBaseline({
       compatKeys: [entry.bcdKey]
     })
-    if (baseline_low_date?.startsWith('≤')) {
-      baseline_low_date = baseline_low_date.slice(1)
+    if (status.baseline_low_date?.startsWith('≤')) {
+      status.baseline_low_date = status.baseline_low_date.slice(1)
     }
-    if (baseline_high_date?.startsWith('≤')) {
-      baseline_high_date = baseline_high_date.slice(1)
+    if (status.baseline_high_date?.startsWith('≤')) {
+      status.baseline_high_date = status.baseline_high_date.slice(1)
     }
+    const browserSupport = Object.fromEntries(Array.from(status.support?.entries()).map(([browser, initialSupport]) => {
+      return [browser.id, initialSupport?.text];
+    }));
     entry.baselineStatus = {
-      baseline,
-      baseline_low_date: baseline_low_date ?? undefined,
-      baseline_high_date: baseline_high_date ?? undefined
+      baseline: status.baseline,
+      support: browserSupport ?? {},
+      baseline_low_date: status.baseline_low_date ?? undefined,
+      baseline_high_date: status.baseline_high_date ?? undefined
     }
     delete entry.bcdKey
   }
+  // prefer the Baseline browser support list
+  delete entry.browsers
 
   convertEntry(entry)
 }
@@ -403,26 +409,8 @@ function convertEntry(entry) {
     entry.values.forEach(v => {
       v.description = v.desc
       delete v.desc
-
-      if (v.browsers) {
-        if (v.browsers === 'all') {
-          delete v.browsers
-        } else {
-          v.browsers = entry.browsers.split(',')
-          if (v.browsers.length === 1 && v.browsers[0] === 'all') {
-            delete v.browsers
-          }
-        }
-      }
+      delete v.browsers
     })
-  }
-
-  if (entry.browsers) {
-    if (entry.browsers === 'all') {
-      delete entry.browsers
-    } else {
-      entry.browsers = entry.browsers.split(',')
-    }
   }
 
   if (entry.restriction) {
