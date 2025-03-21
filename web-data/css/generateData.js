@@ -327,7 +327,7 @@ const schemaFileName = 'css-schema.json'
 
 const { addMDNProperties } = require('./mdn/mdn-data-importer');
 const { addMDNPseudoElements, addMDNPseudoSelectors } = require('./mdn/mdn-data-selector-importer');
-const { addBrowserCompatDataToProperties, addMDNReferences } = require('./mdn/mdn-browser-compat-data-importer');
+const { addBrowserCompatDataToProperties, addMDNReferences, browserNames } = require('./mdn/mdn-browser-compat-data-importer');
 const { applyRelevance } = require('./chromestatus/applyRelevance');
 const { computeBaseline } = require('compute-baseline');
 
@@ -380,6 +380,28 @@ function processEntry(entry) {
     if (status.baseline_high_date?.startsWith('≤')) {
       status.baseline_high_date = status.baseline_high_date.slice(1)
     }
+
+    if (entry.browsers.length) {
+      // if `baseline.support` is missing a core browser, make sure it's also omitted from `entry.browsers` for consistency
+      // for example, this discrepancy can happen in browsers that partially implement a feature
+      Array.from(status.support.entries()).forEach(([browser, value]) => {
+        if (value) {
+          return;
+        }
+
+        const browserShortName = Object.keys(browserNames).find(browserShortName => {
+          return browser.id === browserNames[browserShortName].toLowerCase();
+        });
+        entry.browsers = entry.browsers.split(',').filter(shortCompatString => {
+          const shortCompatPattern = new RegExp(`^${browserShortName}\\d`);
+          return !shortCompatPattern.test(shortCompatString);
+        }).join(',');
+      });
+      if (entry.browsers === '') {
+        delete entry.browsers;
+      }
+    }
+
     entry.baseline = {
       status: status.baseline.toString(),
       baseline_low_date: status.baseline_low_date ?? undefined,

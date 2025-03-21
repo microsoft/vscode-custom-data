@@ -220,5 +220,6 @@ function isSupported(support) {
 
 module.exports = {
   addBrowserCompatDataToProperties,
-  addMDNReferences
+  addMDNReferences,
+  browserNames
 }
