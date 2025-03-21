@@ -380,12 +380,8 @@ function processEntry(entry) {
     if (status.baseline_high_date?.startsWith('≤')) {
       status.baseline_high_date = status.baseline_high_date.slice(1)
     }
-    const browserSupport = Object.fromEntries(Array.from(status.support?.entries()).map(([browser, initialSupport]) => {
-      return [browser.id, initialSupport?.text];
-    }));
     entry.baseline = {
       status: status.baseline.toString(),
-      support: browserSupport ?? {},
       baseline_low_date: status.baseline_low_date ?? undefined,
       baseline_high_date: status.baseline_high_date ?? undefined
     }
