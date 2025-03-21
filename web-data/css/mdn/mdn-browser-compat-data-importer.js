@@ -90,11 +90,11 @@ function addMDNReferences(atdirectives, pseudoclasses, pseudoelements, propertie
 const browserNames = {
 	E: 'Edge',
 	FF: 'Firefox',
-  FM: 'Firefox_Android',
+  FFA: 'Firefox_Android',
 	S: 'Safari',
   SM: 'Safari_iOS',
 	C: 'Chrome',
-  CM: 'Chrome_Android',
+  CA: 'Chrome_Android',
 	IE: 'IE',
 	O: 'Opera'
 }
