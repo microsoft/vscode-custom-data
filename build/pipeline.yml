@@ -30,7 +30,7 @@ extends:
         testPlatforms:
           - name: Linux
             nodeVersions:
-              - 14.x
+              - 20.x
 
         publishPackage: ${{ parameters.publishPackage }}
         publishRequiresApproval: false

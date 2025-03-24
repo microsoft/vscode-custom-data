@@ -1,9 +1,5 @@
-/*---------------------------------------------------------------------------------------------
- *  Copyright (c) Microsoft Corporation. All rights reserved.
- *  Licensed under the MIT License. See License.txt in the project root for license information.
- *--------------------------------------------------------------------------------------------*/
-
-const chromeAttributeRelevance = require('./attributeRelevance');
+// Convert the file to ESM by replacing CommonJS syntax with ES module syntax
+import chromeAttributeRelevance from './attributeRelevance.mjs';
 
 function applyRelevance(properties) {
   for (let property of properties) {
@@ -19,6 +15,4 @@ function applyRelevance(properties) {
   return properties;
 }
 
-module.exports = {
-  applyRelevance
-}
+export { applyRelevance };

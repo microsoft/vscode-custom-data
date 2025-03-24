@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/web-data/css/generateData.js"
+            "program": "${workspaceFolder}/web-data/css/generateData.mjs"
         }
     ]
 }

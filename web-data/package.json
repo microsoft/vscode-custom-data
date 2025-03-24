@@ -1,6 +1,6 @@
 {
   "name": "@vscode/web-custom-data",
-  "version": "0.4.13",
+  "version": "0.5.0",
   "license": "MIT",
   "author": "Visual Studio Code Team",
   "repository": {
@@ -11,14 +11,14 @@
     "url": "https://github.com/microsoft/vscode-custom-data/issues"
   },
   "scripts": {
-    "update-sources": "npm i -D mdn-data @mdn/browser-compat-data && node ./css/chromestatus/updateRelevance.js",
-    "generate-data": "node html/generateData.js && node css/generateData.js"
+    "update-sources": "npm i -D mdn-data @mdn/browser-compat-data && node ./css/chromestatus/updateRelevance.mjs",
+    "generate-data": "node html/generateData.mjs && node css/generateData.mjs"
   },
   "files": [
     "data/*"
   ],
   "devDependencies": {
-    "@mdn/browser-compat-data": "^5.7.3",
+    "@mdn/browser-compat-data": "^5.7.5",
     "compute-baseline": "^0.3.0",
     "mdn-data": "^2.18.0"
   }
