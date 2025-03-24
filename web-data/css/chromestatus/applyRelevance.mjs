@@ -1,4 +1,8 @@
-// Convert the file to ESM by replacing CommonJS syntax with ES module syntax
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
 import chromeAttributeRelevance from './attributeRelevance.mjs';
 
 function applyRelevance(properties) {
