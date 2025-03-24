@@ -9,32 +9,40 @@ const bcd = require('@mdn/browser-compat-data')
 
 function addBrowserCompatDataToProperties(atdirectives, pseudoclasses, pseudoelements, properties) {
   atdirectives.forEach(item => {
-    if (bcd.css['at-rules'][item.name.slice(1)]) {
-      const matchingBCDItem = bcd.css['at-rules'][item.name.slice(1)]
-      addBCDToBrowsers(item, matchingBCDItem)
-    }
+    addCompatData(item, 'at-rules', item.name.slice(1))
   })
 
   pseudoclasses.forEach(item => {
-    if (bcd.css.selectors[item.name.slice(1)]) {
-      const matchingBCDItem = bcd.css.selectors[item.name.slice(1)]
-      addBCDToBrowsers(item, matchingBCDItem)
+    let featureName = item.name.slice(1)
+    if (featureName.endsWith('()')) {
+      featureName = featureName.slice(0, -2)
     }
+    item.name = `:${featureName}`
+    addCompatData(item, 'selectors', featureName)
   })
 
   pseudoelements.forEach(item => {
-    if (bcd.css.selectors[item.name.slice(2)]) {
-      const matchingBCDItem = bcd.css.selectors[item.name.slice(2)]
-      addBCDToBrowsers(item, matchingBCDItem)
+    let featureName = item.name.slice(2)
+    if (featureName.endsWith('()')) {
+      featureName = featureName.slice(0, -2)
     }
+    item.name = `::${featureName}`
+    addCompatData(item, 'selectors', featureName)
   })
 
   properties.forEach(item => {
-    if (bcd.css.properties[item.name]) {
-      const matchingBCDItem = bcd.css.properties[item.name]
-      addBCDToBrowsers(item, matchingBCDItem)
-    }
+    addCompatData(item, 'properties', item.name)
   })
+}
+
+function addCompatData(item, namespace, featureName) {
+  if (!(featureName in bcd.css[namespace])) {
+    return;
+  }
+
+  const matchingBCDItem = bcd.css[namespace][featureName]
+  item.bcdKey = `css.${namespace}.${featureName}`
+  addBCDToBrowsers(item, matchingBCDItem)
 }
 
 function addMDNReferences(atdirectives, pseudoclasses, pseudoelements, properties) {
@@ -82,8 +90,11 @@ function addMDNReferences(atdirectives, pseudoclasses, pseudoelements, propertie
 const browserNames = {
 	E: 'Edge',
 	FF: 'Firefox',
+  FFA: 'Firefox_Android',
 	S: 'Safari',
+  SM: 'Safari_iOS',
 	C: 'Chrome',
+  CA: 'Chrome_Android',
 	IE: 'IE',
 	O: 'Opera'
 }
@@ -209,5 +220,6 @@ function isSupported(support) {
 
 module.exports = {
   addBrowserCompatDataToProperties,
-  addMDNReferences
+  addMDNReferences,
+  browserNames
 }

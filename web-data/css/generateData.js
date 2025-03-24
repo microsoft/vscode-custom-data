@@ -327,8 +327,9 @@ const schemaFileName = 'css-schema.json'
 
 const { addMDNProperties } = require('./mdn/mdn-data-importer');
 const { addMDNPseudoElements, addMDNPseudoSelectors } = require('./mdn/mdn-data-selector-importer');
-const { addBrowserCompatDataToProperties, addMDNReferences } = require('./mdn/mdn-browser-compat-data-importer');
+const { addBrowserCompatDataToProperties, addMDNReferences, browserNames } = require('./mdn/mdn-browser-compat-data-importer');
 const { applyRelevance } = require('./chromestatus/applyRelevance');
+const { computeBaseline } = require('compute-baseline');
 
 async function process() {
 
@@ -357,15 +358,59 @@ async function process() {
     pseudoElements
   }
 
-  customDataObject.properties.forEach(convertEntry)
-  customDataObject.atDirectives.forEach(convertEntry)
-  customDataObject.pseudoClasses.forEach(convertEntry)
-  customDataObject.pseudoElements.forEach(convertEntry)
+  customDataObject.properties.forEach(processEntry)
+  customDataObject.atDirectives.forEach(processEntry)
+  customDataObject.pseudoClasses.forEach(processEntry)
+  customDataObject.pseudoElements.forEach(processEntry)
 
   const outPath = path.resolve(__dirname, '../data/browsers.css-data.json')
   console.log('Writing custom data to: ' + outPath)
   await writeFile(outPath, JSON.stringify(customDataObject, null, 2));
   console.log('Done')
+}
+
+function processEntry(entry) {
+  if (entry.bcdKey) {
+    const status = computeBaseline({
+      compatKeys: [entry.bcdKey]
+    })
+    if (status.baseline_low_date?.startsWith('≤')) {
+      status.baseline_low_date = status.baseline_low_date.slice(1)
+    }
+    if (status.baseline_high_date?.startsWith('≤')) {
+      status.baseline_high_date = status.baseline_high_date.slice(1)
+    }
+
+    if (entry.browsers.length) {
+      // if `baseline.support` is missing a core browser, make sure it's also omitted from `entry.browsers` for consistency
+      // for example, this discrepancy can happen in browsers that partially implement a feature
+      Array.from(status.support.entries()).forEach(([browser, value]) => {
+        if (value) {
+          return;
+        }
+
+        const browserShortName = Object.keys(browserNames).find(browserShortName => {
+          return browser.id === browserNames[browserShortName].toLowerCase();
+        });
+        entry.browsers = entry.browsers.split(',').filter(shortCompatString => {
+          const shortCompatPattern = new RegExp(`^${browserShortName}\\d`);
+          return !shortCompatPattern.test(shortCompatString);
+        }).join(',');
+      });
+      if (entry.browsers === '') {
+        delete entry.browsers;
+      }
+    }
+
+    entry.baseline = {
+      status: status.baseline.toString(),
+      baseline_low_date: status.baseline_low_date ?? undefined,
+      baseline_high_date: status.baseline_high_date ?? undefined
+    }
+    delete entry.bcdKey
+  }
+
+  convertEntry(entry)
 }
 
 /**
