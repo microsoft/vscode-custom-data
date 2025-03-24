@@ -5,8 +5,13 @@
 
 //@ts-check
 
-const fs = require('fs')
-const path = require('path')
+import fs from 'fs';
+import path from 'path';
+import { addMDNProperties } from './mdn/mdn-data-importer.mjs';
+import { addMDNPseudoElements, addMDNPseudoSelectors } from './mdn/mdn-data-selector-importer.mjs';
+import { addBrowserCompatDataToProperties, addMDNReferences, browserNames } from './mdn/mdn-browser-compat-data-importer.mjs';
+import { applyRelevance } from './chromestatus/applyRelevance.mjs';
+import { computeBaseline } from 'compute-baseline';
 
 const { readFile, writeFile } = fs.promises;
 
@@ -323,13 +328,8 @@ function toSource(object, keyName) {
 
   return result
 }
-const schemaFileName = 'css-schema.json'
-
-const { addMDNProperties } = require('./mdn/mdn-data-importer');
-const { addMDNPseudoElements, addMDNPseudoSelectors } = require('./mdn/mdn-data-selector-importer');
-const { addBrowserCompatDataToProperties, addMDNReferences, browserNames } = require('./mdn/mdn-browser-compat-data-importer');
-const { applyRelevance } = require('./chromestatus/applyRelevance');
-const { computeBaseline } = require('compute-baseline');
+const schemaFileName = 'css-schema.json';
+const __dirname = import.meta.dirname;
 
 async function process() {
 

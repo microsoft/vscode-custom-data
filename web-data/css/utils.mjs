@@ -2,8 +2,9 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-var https = require('https');
-var url = require('url');
+
+import https from 'https';
+import url from 'url';
 
 function download(source) {
 	return new Promise((c, e) => {
@@ -22,6 +23,4 @@ function download(source) {
 	});
 }
 
-module.exports = {
-    download
-}
+export { download };

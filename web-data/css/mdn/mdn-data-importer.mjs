@@ -5,9 +5,9 @@
 
 //@ts-check
 
-const mdnData = require('mdn-data');
-const mdnCompatData = require('@mdn/browser-compat-data');
-const { propertyDescriptions: mdnPropertyDescriptions, fetchDocFromMDN } = require('./mdn-documentation');
+import mdnData from 'mdn-data';
+import mdnCompatData from '@mdn/browser-compat-data' with { type: 'json' };
+import { propertyDescriptions as mdnPropertyDescriptions, fetchDocFromMDN } from './mdn-documentation.mjs';
 
 const mdnExcludedProperties = [
   '--*', // custom properties
@@ -17,12 +17,12 @@ const mdnExcludedProperties = [
   'motion-offset',
   'motion-path',
   'motion-rotation'
-]
+];
 
 const noDoc = ["-webkit-background-composite", "-webkit-margin-bottom-collapse", "-webkit-margin-collapse", "-webkit-margin-start", "-webkit-margin-top-collapse", "-webkit-padding-start", "-webkit-tap-highlight-color", "-webkit-text-fill-color", "-webkit-text-stroke", "-webkit-text-stroke-color", "-webkit-text-stroke-width", "-webkit-touch-callout", "-webkit-user-drag"];
 
-async function addMDNProperties(vscProperties) {
-  const propertyMap = {}
+export async function addMDNProperties(vscProperties) {
+  const propertyMap = {};
 
   const mdnProperties = mdnData.css.properties;
   const mdnCompatProperties = mdnCompatData.css.properties;
@@ -46,8 +46,8 @@ async function addMDNProperties(vscProperties) {
   }
 
   mdnExcludedProperties.forEach(p => {
-    delete allMDNProperties[p]
-  })
+    delete allMDNProperties[p];
+  });
 
   /**
    * 1. Go through VSC properties. For each entry that has a matching entry in MDN, merge both entry.
@@ -64,12 +64,12 @@ async function addMDNProperties(vscProperties) {
         propertyMap[p.name] = {
           ...p,
           ...mdnProperty
-        }
+        };
       } else {
-        propertyMap[p.name] = p
+        propertyMap[p.name] = p;
       }
     }
-  })
+  });
 
   /**
    * 2. Go through MDN properties. For each entry that hasn't been recorded, add it with empty description.
@@ -81,7 +81,7 @@ async function addMDNProperties(vscProperties) {
         desc: '',
         restriction: 'none',
         ...allMDNProperties[pn]
-      }
+      };
     }
   }
 
@@ -113,7 +113,7 @@ async function addMDNProperties(vscProperties) {
     fetchedDocs.push('}');
     console.log(fetchedDocs.join('\n'));
   }
-  return Object.values(propertyMap)
+  return Object.values(propertyMap);
 }
 
 /**
@@ -125,7 +125,7 @@ function extractMDNProperties(atRule, mdnEntry, mdCompatEntry) {
     status: abbreviateStatus(mdnEntry, mdCompatEntry),
     syntax: mdnEntry.syntax,
     values: getValuesFromSytax(mdnEntry.syntax)
-  }
+  };
 }
 
 function getValuesFromSytax(syntax) {
@@ -175,10 +175,7 @@ function abbreviateStatus(mdnEntry, mdnCompatEntry) {
     nonstandard: 'n',
     experimental: 'e',
     obsolete: 'o'
-  }[status]
+  }[status];
 }
 
-module.exports = {
-  abbreviateStatus,
-  addMDNProperties
-}
+export { abbreviateStatus };
