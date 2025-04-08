@@ -8,6 +8,15 @@
     "description": "Controls whether and how text input is automatically capitalized as it is entered/edited by the user. It can have the following values:\n\n*   `off` or `none`, no autocapitalization is applied (all letters default to lowercase)\n*   `on` or `sentences`, the first letter of each sentence defaults to a capital letter; all other letters default to lowercase\n*   `words`, the first letter of each word defaults to a capital letter; all other letters default to lowercase\n*   `characters`, all letters should default to uppercase"
   },
   {
+    "name": "autocorrect",
+    "description": "Controls whether autocorrection of editable text is enabled for spelling and/or punctuation errors.",
+    "valueSet": "o"
+  },
+  {
+    "name": "autofocus",
+    "description": "Indicates that an element should be focused on page load, or when the [`<dialog>`](https://developer.mozilla.org/docs/Web/HTML/Element/dialog) that it is part of is displayed."
+  },
+  {
     "name": "class",
     "description": "A space-separated list of the classes of the element. Classes allows CSS and JavaScript to select and access specific elements via the [class selectors](https://developer.mozilla.org/docs/Web/CSS/Class_selectors) or functions like the method [`Document.getElementsByClassName()`](https://developer.mozilla.org/docs/Web/API/Document/getElementsByClassName \"returns an array-like object of all child elements which have all of the given class names.\")."
   },
@@ -34,6 +43,11 @@
     "description": "An enumerated attribute indicating what types of content can be dropped on an element, using the [Drag and Drop API](https://developer.mozilla.org/docs/DragDrop/Drag_and_Drop). It can have the following values:\n\n*   `copy`, which indicates that dropping will create a copy of the element that was dragged\n*   `move`, which indicates that the element that was dragged will be moved to this new location.\n*   `link`, will create a link to the dragged data."
   },
   {
+    "name": "enterkeyhint",
+    "description": "An enumerated attribute defining what action label (or icon) to present for the enter key on virtual keyboards.",
+    "valueSet": "enterkeyhint"
+  },
+  {
     "name": "exportparts",
     "description": "Used to transitively export shadow parts from a nested shadow tree into a containing light tree."
   },
@@ -45,6 +59,10 @@
   {
     "name": "id",
     "description": "Defines a unique identifier (ID) which must be unique in the whole document. Its purpose is to identify the element when linking (using a fragment identifier), scripting, or styling (with CSS)."
+  },
+  {
+    "name": "inert",
+    "description": "Indicates that the element and all of its flat tree descendants become _inert_. Modal `<dialog>`s generated with [`showModal()`](https://developer.mozilla.org/docs/Web/API/HTMLDialogElement/showModal) escape inertness, meaning that they don't inherit inertness from their ancestors, but can only be made inert by having the `inert` attribute explicitly set on themselves."
   },
   {
     "name": "inputmode",
@@ -80,8 +98,17 @@
     "description": "Helps define the language of an element: the language that non-editable elements are in, or the language that editable elements should be written in by the user. The attribute contains one “language tag” (made of hyphen-separated “language subtags”) in the format defined in [_Tags for Identifying Languages (BCP47)_](https://www.ietf.org/rfc/bcp/bcp47.txt). [**xml:lang**](#attr-xml:lang) has priority over it."
   },
   {
+    "name": "nonce",
+    "description": "Defines a cryptographic nonce (\"number used once\") which can be used by [Content Security Policy](https://developer.mozilla.org/docs/Web/HTTP/Guides/CSP) to determine whether or not a given fetch will be allowed to proceed for a given element."
+  },
+  {
     "name": "part",
     "description": "A space-separated list of the part names of the element. Part names allows CSS to select and style specific elements in a shadow tree via the [`::part`](https://developer.mozilla.org/docs/Web/CSS/::part \"The ::part CSS pseudo-element represents any element within a shadow tree that has a matching part attribute.\") pseudo-element."
+  },
+  {
+    "name": "popover",
+    "description": "Designates an element as a popover element.",
+    "valueSet": "popover"
   },
   {
     "name": "role",
@@ -112,5 +139,10 @@
     "name": "translate",
     "description": "An enumerated attribute that is used to specify whether an element's attribute values and the values of its [`Text`](https://developer.mozilla.org/docs/Web/API/Text \"The Text interface represents the textual content of Element or Attr. If an element has no markup within its content, it has a single child implementing Text that contains the element's text. However, if the element contains markup, it is parsed into information items and Text nodes that form its children.\") node children are to be translated when the page is localized, or whether to leave them unchanged. It can have the following values:\n\n*   empty string and `yes`, which indicates that the element will be translated.\n*   `no`, which indicates that the element will not be translated.",
     "valueSet": "y"
+  },
+  {
+    "name": "virtualkeyboardpolicy",
+    "description": "When specified on an element that the element's content is editable (for example, it is an `<input>` or `<textarea>` element, or an element with the `contenteditable` attribute set), it controls the on-screen virtual keyboard behavior on devices such as tablets, mobile phones, or other devices where a hardware keyboard may not be available.",
+    "valueSet": "b"
   }
 ]
