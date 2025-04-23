@@ -544,6 +544,10 @@
         }
       },
       {
+        "name": "fetchpriority",
+        "valueSet": "fetchpriority"
+      },
+      {
         "name": "referrerpolicy",
         "valueSet": "referrerpolicy"
       },
@@ -1041,6 +1045,12 @@
         "name": "placeholder"
       },
       {
+        "name": "popovertarget"
+      },
+      {
+        "name": "popovertargetaction"
+      },
+      {
         "name": "readonly",
         "valueSet": "v"
       },
@@ -1104,6 +1114,12 @@
       },
       {
         "name": "name"
+      },
+      {
+        "name": "popovertarget"
+      },
+      {
+        "name": "popovertargetaction"
       },
       {
         "name": "type",
@@ -1415,6 +1431,31 @@
   {
     "name": "menu",
     "description": "The menu element represents an unordered list of interactive items.",
+    "attributes": []
+  },
+  {
+    "name": "search",
+    "description": "The search element represents the parts of the document or application with form controls or other content related to performing a search or filtering operation.",
+    "attributes": []
+  },
+  {
+    "name": "fencedframe",
+    "description": "The fencedframe element represents a nested browsing context, embedding another HTML page into the current one.",
+    "attributes": [
+      {
+        "name": "allow"
+      },
+      {
+        "name": "height"
+      },
+      {
+        "name": "width"
+      }
+    ]
+  },
+  {
+    "name": "selectedcontent",
+    "description": "The selectedcontent element can be used to display the content of the currently selected option element inside of a closed select element.",
     "attributes": []
   }
 ]

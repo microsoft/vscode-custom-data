@@ -150,7 +150,7 @@ function toCompatString(bcdProperty) {
   return s.join(',');
 }
 
-function supportToShortCompatString(support, browserAbbrev) {
+export function supportToShortCompatString(support, browserAbbrev) {
   let version_added;
   if (Array.isArray(support) && support[0] && support[0].version_added) {
     version_added = support[0].version_added;

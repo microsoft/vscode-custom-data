@@ -316,6 +316,14 @@
         "description": "The name of the button, which is submitted with the form data."
       },
       {
+        "name": "popovertarget",
+        "description": "Turns the button into a popover control button; takes the ID of the popover element to control as its value."
+      },
+      {
+        "name": "popovertargetaction",
+        "description": "Specifies the action to be performed on a popover element being controlled by the button."
+      },
+      {
         "name": "type",
         "description": "The type of the button. Possible values are:\n\n*   `submit`: The button submits the form data to the server. This is the default if the attribute is not specified, or if the attribute is dynamically changed to an empty or invalid value.\n*   `reset`: The button resets all the controls to their initial values.\n*   `button`: The button has no default behavior. It can have client-side scripts associated with the element's events, which are triggered when the events occur."
       },
@@ -733,6 +741,10 @@
       {
         "name": "decoding",
         "description": "`sync`\n\nDecode the image synchronously for atomic presentation with other content.\n\n`async`\n\nDecode the image asynchronously to reduce delay in presenting other content.\n\n`auto`\n\nDefault mode, which indicates no preference for the decoding mode. The browser decides what is best for the user."
+      },
+      {
+        "name": "fetchpriority",
+        "description": "Provides a hint of the relative priority to use when fetching the image."
       },
       {
         "name": "height",

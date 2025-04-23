@@ -6,6 +6,7 @@
 import fs from 'fs';
 import path from 'path';
 import bcd from '@mdn/browser-compat-data' with { type: 'json' };
+import { getStatus } from 'compute-baseline';
 import htmlTags from './htmlTags.json' with { type: 'json' };
 import htmlTagDescriptions from './mdnTagDescriptions.json'  with { type: 'json' };
 import htmlGlobalAttributes from './htmlGlobalAttributes.json' with { type: 'json' };
@@ -14,6 +15,35 @@ import oldEvents from './oldEvents.json' with { type: 'json' };
 import ariaData from './ariaData.json' with { type: 'json' };
 import ariaSpec from './ariaSpec.json' with { type: 'json' };
 import valueSets from './valueSets.json' with { type: 'json' };
+import { supportToShortCompatString } from '../css/mdn/mdn-browser-compat-data-importer.mjs';
+
+
+function getFeatureId(compat) {
+  return compat?.tags?.find(tag => {
+    const parts = tag.split(':');
+    return parts.length == 2 && parts[0] == 'web-features';
+  })?.split(':')[1];
+}
+
+const BaselineBrowserAbbreviations = {
+  "chrome": "C",
+  "chrome_android": "CA",
+  "edge": "E",
+  "firefox": "FF",
+  "firefox_android": "FFA",
+  "safari": "S",
+  "safari_ios": "SM"
+};
+
+function getBrowserCompatString(support) {
+  if (!support) {
+    return;
+  }
+  return Object.entries(support).map(([browser, version_added]) => {
+    const abbreviation = BaselineBrowserAbbreviations[browser];
+    return supportToShortCompatString({version_added}, abbreviation);
+  });
+}
 
 /*---------------------------------------------------------------------------------------------
  * Tags
@@ -67,6 +97,35 @@ htmlTags.forEach(t => {
         name: 'MDN Reference',
         url: bcdMatchingTag.__compat.mdn_url
       });
+
+      // Add the Baseline status to the HTML element
+      const featureId = getFeatureId(bcdMatchingTag.__compat);
+      if (!featureId) {
+        return;
+      }
+      const status = getStatus(featureId, `html.elements.${t.name}`);
+      if (!status) {
+        return;
+      }
+      t.browsers = getBrowserCompatString(status.support);
+      delete status.support;
+      t.status = status;
+
+      // Add the Baseline status to each attribute
+      t.attributes.forEach(a => {
+        const bcdMatchingAttr = bcdHTMLElements[t.name][a.name];
+        if (!bcdMatchingAttr) {
+          return;
+        }
+        const attrFeatureId = getFeatureId(bcdMatchingAttr.__compat) || featureId;
+        const attrStatus = getStatus(attrFeatureId, `html.elements.${t.name}.${a.name}`);
+        if (!attrStatus) {
+          return;
+        }
+        a.browsers = getBrowserCompatString(attrStatus.support);
+        delete attrStatus.support;
+        a.status = attrStatus;
+      });
     }
   }
 });
@@ -84,19 +143,28 @@ htmlGlobalAttributes.forEach(a => {
       value: a.description
     };
   }
-  if (
-    bcdGlobalAttributes[a.name] &&
-    bcdGlobalAttributes[a.name].__compat &&
-    bcdGlobalAttributes[a.name].__compat.mdn_url
-  ) {
+  const bcdMatchingAttr = bcdGlobalAttributes[a.name];
+  if (bcdMatchingAttr?.__compat?.mdn_url) {
     if (!a.references) {
       a.references = [];
     }
     a.references.push({
       name: 'MDN Reference',
-      url: bcdGlobalAttributes[a.name].__compat.mdn_url
+      url: bcdMatchingAttr.__compat.mdn_url
     });
   }
+
+  const featureId = getFeatureId(bcdMatchingAttr?.__compat);
+  if (!featureId) {
+    return;
+  }
+  const status = getStatus(featureId, `html.global_attributes.${a.name}`);
+  if (!status) {
+    return;
+  }
+  a.browsers = getBrowserCompatString(status.support);
+  delete status.support;
+  a.status = status;
 });
 
 /*---------------------------------------------------------------------------------------------

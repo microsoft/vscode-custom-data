@@ -1268,5 +1268,59 @@
         "name": "unsafe-url"
       }
     ]
+  },
+  {
+    "name": "enterkeyhint",
+    "values": [
+      {
+        "name": "enter"
+      },
+      {
+        "name": "done"
+      },
+      {
+        "name": "go"
+      },
+      {
+        "name": "next"
+      },
+      {
+        "name": "previous"
+      },
+      {
+        "name": "search"
+      },
+      {
+        "name": "send"
+      }
+    ]
+  },
+  {
+    "name": "popover",
+    "values": [
+      {
+        "name": "auto"
+      },
+      {
+        "name": "hint"
+      },
+      {
+        "name": "manual"
+      }
+    ]
+  },
+  {
+    "name": "fetchpriority",
+    "values": [
+      {
+        "name": "high"
+      },
+      {
+        "name": "low"
+      },
+      {
+        "name": "auto"
+      }
+    ]
   }
 ]
