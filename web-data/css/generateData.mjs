@@ -8,7 +8,7 @@
 import fs from 'fs';
 import path from 'path';
 import { addMDNProperties } from './mdn/mdn-data-importer.mjs';
-import { addMDNPseudoElements, addMDNPseudoSelectors } from './mdn/mdn-data-selector-importer.mjs';
+import { addMDNAtDirectives, addMDNPseudoElements, addMDNPseudoSelectors } from './mdn/mdn-data-selector-importer.mjs';
 import { addBrowserCompatDataToProperties, addMDNReferences, browserNames } from './mdn/mdn-browser-compat-data-importer.mjs';
 import { applyRelevance } from './chromestatus/applyRelevance.mjs';
 import { computeBaseline } from 'compute-baseline';
@@ -335,7 +335,8 @@ async function process() {
 
   const data = await readFile(path.resolve(__dirname, schemaFileName));
   const result = JSON.parse(data.toString());
-  const atDirectives = toSource(result, 'atDirectives');
+  let atDirectives = toSource(result, 'atDirectives');
+  atDirectives = await addMDNAtDirectives(atDirectives);
 
   let pseudoClasses = toSource(result, 'pseudoClasses');
   pseudoClasses = await addMDNPseudoSelectors(pseudoClasses);

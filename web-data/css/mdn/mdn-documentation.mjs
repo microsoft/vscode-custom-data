@@ -388,4 +388,14 @@ export const pseudoElementDescriptions = {
   '::scroll-marker-group': `The ::scroll-marker-group CSS pseudo-element is generated inside a scroll container and contains any ::scroll-marker pseudo-elements generated on descendants of the scroll container.`,
 };
 
+export const atDirectiveDescriptions = {
+  '@container': `The @container CSS at-rule is a conditional group rule that applies styles to a containment context.`,
+  '@document': `The @document CSS at-rule restricts the style rules contained within it based on the URL of the document. It is designed primarily for user-defined style sheets (see userchrome.org for more information), though it can be used on author-defined style sheets, too.`,
+  '@font-palette-values': `The @font-palette-values CSS at-rule allows you to customize the default values of font-palette created by the font-maker.`,
+  '@position-try': `The @position-try CSS at-rule is used to define a custom position try fallback option, which can be used to define positioning and alignment for anchor-positioned elements. One or more sets of position try fallback options can be applied to the anchored element via the position-try-fallbacks property or position-try shorthand. When the positioned element is moved to a position where it starts to overflow its containing block or the viewport, the browser will select the first position try fallback option it finds that places the positioned element fully back on-screen.`,
+  '@scope': `The @scope CSS at-rule enables you to select elements in specific DOM subtrees, targeting elements precisely without writing overly-specific selectors that are hard to override, and without coupling your selectors too tightly to the DOM structure.`,
+  '@starting-style': `The @starting-style CSS at-rule is used to define starting values for properties set on an element that you want to transition from when the element receives its first style update, i.e., when an element is first displayed on a previously loaded page.`,
+  '@view-transition': `The @view-transition CSS at-rule is used to opt in the current and destination documents to undergo a view transition, in the case of a cross-document navigation.`,
+};
+
 
