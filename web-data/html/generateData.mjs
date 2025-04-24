@@ -5,6 +5,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import bcd from '@mdn/browser-compat-data' with { type: 'json' };
 import { getStatus } from 'compute-baseline';
 import htmlTags from './htmlTags.json' with { type: 'json' };
@@ -245,7 +246,7 @@ const customDataObject = {
   valueSets: valueSets
 };
 
-const __dirname = path.dirname(new URL(import.meta.url).pathname);
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const outPath = path.resolve(__dirname, '../data/browsers.html-data.json');
 console.log('Writing custom data to: ' + outPath);
 fs.writeFileSync(outPath, JSON.stringify(customDataObject, null, 2));
