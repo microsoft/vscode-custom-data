@@ -28638,6 +28638,152 @@
         "S4"
       ],
       "description": "Defines set of animation key frames."
+    },
+    {
+      "name": "@container",
+      "browsers": [
+        "E105",
+        "FF110",
+        "FFA110",
+        "S16",
+        "SM16",
+        "C105",
+        "CA105",
+        "O91"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/@container"
+        }
+      ],
+      "baseline": {
+        "status": "low",
+        "baseline_low_date": "2023-02-14"
+      },
+      "description": "The @container CSS at-rule is a conditional group rule that applies styles to a containment context."
+    },
+    {
+      "name": "@document",
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/@document"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": "The @document CSS at-rule restricts the style rules contained within it based on the URL of the document. It is designed primarily for user-defined style sheets (see userchrome.org for more information), though it can be used on author-defined style sheets, too."
+    },
+    {
+      "name": "@font-palette-values",
+      "browsers": [
+        "E101",
+        "FF107",
+        "FFA107",
+        "S15.4",
+        "SM15.4",
+        "C101",
+        "CA101",
+        "O87"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/@font-palette-values"
+        }
+      ],
+      "baseline": {
+        "status": "low",
+        "baseline_low_date": "2022-11-15"
+      },
+      "description": "The @font-palette-values CSS at-rule allows you to customize the default values of font-palette created by the font-maker."
+    },
+    {
+      "name": "@position-try",
+      "browsers": [
+        "E125",
+        "C125",
+        "CA125",
+        "O111"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/@position-try"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": "The @position-try CSS at-rule is used to define a custom position try fallback option, which can be used to define positioning and alignment for anchor-positioned elements. One or more sets of position try fallback options can be applied to the anchored element via the position-try-fallbacks property or position-try shorthand. When the positioned element is moved to a position where it starts to overflow its containing block or the viewport, the browser will select the first position try fallback option it finds that places the positioned element fully back on-screen."
+    },
+    {
+      "name": "@scope",
+      "browsers": [
+        "E118",
+        "S17.4",
+        "SM17.4",
+        "C118",
+        "CA118",
+        "O104"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/@scope"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": "The @scope CSS at-rule enables you to select elements in specific DOM subtrees, targeting elements precisely without writing overly-specific selectors that are hard to override, and without coupling your selectors too tightly to the DOM structure."
+    },
+    {
+      "name": "@starting-style",
+      "browsers": [
+        "E117",
+        "FF129",
+        "FFA129",
+        "S17.5",
+        "SM17.5",
+        "C117",
+        "CA117",
+        "O103"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/@starting-style"
+        }
+      ],
+      "baseline": {
+        "status": "low",
+        "baseline_low_date": "2024-08-06"
+      },
+      "description": "The @starting-style CSS at-rule is used to define starting values for properties set on an element that you want to transition from when the element receives its first style update, i.e., when an element is first displayed on a previously loaded page."
+    },
+    {
+      "name": "@view-transition",
+      "browsers": [
+        "E126",
+        "S18.2",
+        "SM18.2",
+        "C126",
+        "CA126",
+        "O112"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/@view-transition"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": "The @view-transition CSS at-rule is used to opt in the current and destination documents to undergo a view transition, in the case of a cross-document navigation."
     }
   ],
   "pseudoClasses": [

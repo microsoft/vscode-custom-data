@@ -8,7 +8,7 @@
 import mdnData from 'mdn-data';
 import mdnCompatData from '@mdn/browser-compat-data' with { type: 'json' };
 import { abbreviateStatus } from './mdn-data-importer.mjs';
-import { pseudoSelectorDescriptions, pseudoElementDescriptions, fetchDocFromMDN } from './mdn-documentation.mjs';
+import { pseudoSelectorDescriptions, pseudoElementDescriptions, fetchDocFromMDN, atDirectiveDescriptions } from './mdn-documentation.mjs';
 
 export async function addMDNPseudoElements(vscPseudoElements) {
 	const mdnSelectors = mdnData.css.selectors;
@@ -102,4 +102,39 @@ export async function addMDNPseudoSelectors(vscPseudoClasses) {
 	}
 
 	return allPseudoSelectors;
+}
+
+export async function addMDNAtDirectives(atDirectives) {
+	const mdnAtRules = mdnData.css.atRules;
+	const allAtDirectives = atDirectives;
+	const allAtDirectiveNames = atDirectives.map(s => s.name);
+	const missingDocumentation = [];
+
+	for (const name of Object.keys(mdnAtRules)) {
+		if (!allAtDirectiveNames.includes(name)) {
+			const desc = atDirectiveDescriptions[name] || '';
+			if (!desc) {
+				missingDocumentation.push(name);
+			}
+
+			allAtDirectives.push({
+				name: name,
+				desc: desc,
+				browsers: undefined
+			});
+		}
+	}
+
+	if (missingDocumentation.length) {
+		console.log('add to mdn-documentation.ts (atDirectiveDescriptions):');
+		const fetchedDocs = ['{'];
+		for (let prop of missingDocumentation) {
+			const doc = await fetchDocFromMDN(prop.replace(/:/, '_colon_'), undefined);
+			fetchedDocs.push(`  '${prop}': \`${doc ?? ''}\`,`);
+		}
+		fetchedDocs.push('}');
+		console.log(fetchedDocs.join('\n'));
+	}
+
+	return allAtDirectives;
 }
