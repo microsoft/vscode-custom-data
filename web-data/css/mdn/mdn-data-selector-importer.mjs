@@ -144,6 +144,7 @@ export async function addMDNAtDirectives(atDirectives) {
 				const description = descriptorDescriptions[descriptor.name]
 				if (description !== undefined) {
 					descriptor.description = description
+					descriptor.status = abbreviateStatus(descriptor.name, mdnCompatData.css['at-rules'][directive.name.slice(1)]?.[descriptor.name])
 				} else {
 					missingDocumentation.push(descriptor.name)
 				}
