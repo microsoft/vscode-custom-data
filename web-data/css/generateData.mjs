@@ -12,6 +12,7 @@ import { addMDNAtDirectives, addMDNPseudoElements, addMDNPseudoSelectors } from 
 import { addBrowserCompatDataToProperties, addMDNReferences, browserNames } from './mdn/mdn-browser-compat-data-importer.mjs';
 import { applyRelevance } from './chromestatus/applyRelevance.mjs';
 import { computeBaseline } from 'compute-baseline';
+import { addAtRuleDescriptors } from './add-atrule-descriptors.mjs';
 
 const { readFile, writeFile } = fs.promises;
 
@@ -242,14 +243,14 @@ function getValues(valArr, restriction, ruleName) {
     }
   }
   var vals = valArr
-    .map(function (v) {
+    .map(function(v) {
       return {
         name: v.$.name,
         desc: v.desc,
         browsers: v.$.browsers !== 'all' ? v.$.browsers : void 0
       }
     })
-    .filter(function (v) {
+    .filter(function(v) {
       if (v.browsers === 'none') {
         return false
       }
@@ -261,7 +262,7 @@ function getValues(valArr, restriction, ruleName) {
 
     var moreColors = {}
 
-    vals = vals.filter(function (v) {
+    vals = vals.filter(function(v) {
       if (typeof colorsCopy[v.name] === 'string') {
         delete colorsCopy[v.name]
         return false
@@ -307,7 +308,7 @@ function toSource(object, keyName) {
   }
   var result = []
   var entryArr = object.css[keyName].entry
-  entryArr.forEach(function (e) {
+  entryArr.forEach(function(e) {
     if (e.$.browsers === 'none') {
       return
     }
@@ -336,6 +337,7 @@ async function process() {
   const data = await readFile(path.resolve(__dirname, schemaFileName));
   const result = JSON.parse(data.toString());
   let atDirectives = toSource(result, 'atDirectives');
+  atDirectives = await addAtRuleDescriptors(atDirectives)
   atDirectives = await addMDNAtDirectives(atDirectives);
 
   let pseudoClasses = toSource(result, 'pseudoClasses');
@@ -360,7 +362,12 @@ async function process() {
   }
 
   customDataObject.properties.forEach(processEntry)
-  customDataObject.atDirectives.forEach(processEntry)
+  for (const directive of customDataObject.atDirectives) {
+    processEntry(directive)
+    for (const descriptor of directive.descriptors || []) {
+      processEntry(descriptor)
+    }
+  }
   customDataObject.pseudoClasses.forEach(processEntry)
   customDataObject.pseudoElements.forEach(processEntry)
 
@@ -419,13 +426,17 @@ function processEntry(entry) {
  * Todo@Pine: Change MDN data generation so this yields new entry
  */
 function convertEntry(entry) {
-  entry.description = entry.desc
-  delete entry.desc
+  if ('desc' in entry) {
+    entry.description = entry.desc
+    delete entry.desc
+  }
 
   if (entry.values) {
     entry.values.forEach(v => {
-      v.description = v.desc
-      delete v.desc
+      if ('desc' in v) {
+        v.description = v.desc
+        delete v.desc
+      }
 
       if (v.browsers) {
         if (v.browsers === 'all') {
