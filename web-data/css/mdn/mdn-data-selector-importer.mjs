@@ -40,7 +40,7 @@ export async function addMDNPseudoElements(vscPseudoElements) {
 	}
 	if (missingDocumentation.length) {
 		const fetchedDocs = ['{'];
-		console.log('add to mdn-documentation.ts (pseudoElementDescriptions):');
+		console.log('add to mdn-documentation.mjs (pseudoElementDescriptions):');
 		for (let prop of missingDocumentation) {
 			const doc = await fetchDocFromMDN(prop.replace(/::/, '_doublecolon_'), undefined);
 			fetchedDocs.push(`  '${prop}': \`${doc ?? ''}\`,`);
@@ -91,7 +91,7 @@ export async function addMDNPseudoSelectors(vscPseudoClasses) {
 		}
 	}
 	if (missingDocumentation.length) {
-		console.log('add to mdn-documentation.ts (pseudoSelectorDescriptions):');
+		console.log('add to mdn-documentation.mjs (pseudoSelectorDescriptions):');
 		const fetchedDocs = ['{'];
 		for (let prop of missingDocumentation) {
 			const doc = await fetchDocFromMDN(prop.replace(/:/, '_colon_'), undefined);
@@ -126,7 +126,7 @@ export async function addMDNAtDirectives(atDirectives) {
 	}
 
 	if (missingDocumentation.length) {
-		console.log('add to mdn-documentation.ts (atDirectiveDescriptions):');
+		console.log('add to mdn-documentation.mjs (atDirectiveDescriptions):');
 		const fetchedDocs = ['{'];
 		for (let prop of missingDocumentation) {
 			const doc = await fetchDocFromMDN(prop.replace(/:/, '_colon_'), undefined);
@@ -151,7 +151,7 @@ export async function addMDNAtDirectives(atDirectives) {
 		}
 
 		if (missingDocumentation.length) {
-			console.log(`add to mdn-documentation.ts (atDirectiveDescriptorDescriptions['${directive.name}']):`);
+			console.log(`add to mdn-documentation.mjs (atDirectiveDescriptorDescriptions['${directive.name}']):`);
 			const fetchedDocs = ['{'];
 			for (const descriptor of missingDocumentation) {
 				const doc = await fetchDocFromMDN(descriptor, directive.name);
