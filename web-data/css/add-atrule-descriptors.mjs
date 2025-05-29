@@ -1,8 +1,8 @@
 import { listAll } from '@webref/css'
 
 export async function addAtRuleDescriptors(atDirectives) {
-	await addMediaQueryAtRuleDescriptors(atDirectives.find((directive) => directive.name === '@media'))
-	return atDirectives
+    await addMediaQueryAtRuleDescriptors(atDirectives.find((directive) => directive.name === '@media'))
+    return atDirectives
 }
 
 /**
@@ -14,23 +14,23 @@ export async function addAtRuleDescriptors(atDirectives) {
  */
 
 async function addMediaQueryAtRuleDescriptors(atDirective) {
-	const mediaQueries = (await listAll())['mediaqueries-5']
-	/** @type {SpecDescriptor[]} */
-	const specDescriptors = mediaQueries.atrules.find((obj) => obj.name === '@media').descriptors
-	/** @type {Descriptor[]} */
-	const outDescriptors = []
-	for (const descriptor of specDescriptors) {
-		outDescriptors.push({
-			name: descriptor.name,
-			references: [{ name: 'W3C Reference', url: descriptor.href }],
-			type: descriptor.type,
-			syntax: descriptor.value,
-			values: descriptor.values?.map((value) => ({
-				name: value.name,
-				description: value.prose,
-				references: [{ name: 'W3C Reference', url: value.href }],
-			})),
-		})
-	}
-	atDirective.descriptors = outDescriptors
+    const mediaQueries = (await listAll())['mediaqueries-5']
+    /** @type {SpecDescriptor[]} */
+    const specDescriptors = mediaQueries.atrules.find((obj) => obj.name === '@media').descriptors
+    /** @type {Descriptor[]} */
+    const outDescriptors = []
+    for (const descriptor of specDescriptors) {
+        outDescriptors.push({
+            name: descriptor.name,
+            references: [{ name: 'W3C Reference', url: descriptor.href }],
+            type: descriptor.type,
+            syntax: descriptor.value,
+            values: descriptor.values?.map((value) => ({
+                name: value.name,
+                description: value.prose,
+                references: [{ name: 'W3C Reference', url: value.href }],
+            })),
+        })
+    }
+    atDirective.descriptors = outDescriptors
 }

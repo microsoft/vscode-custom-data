@@ -243,14 +243,14 @@ function getValues(valArr, restriction, ruleName) {
     }
   }
   var vals = valArr
-    .map(function (v) {
+    .map(function(v) {
       return {
         name: v.$.name,
         desc: v.desc,
         browsers: v.$.browsers !== 'all' ? v.$.browsers : void 0
       }
     })
-    .filter(function (v) {
+    .filter(function(v) {
       if (v.browsers === 'none') {
         return false
       }
@@ -262,7 +262,7 @@ function getValues(valArr, restriction, ruleName) {
 
     var moreColors = {}
 
-    vals = vals.filter(function (v) {
+    vals = vals.filter(function(v) {
       if (typeof colorsCopy[v.name] === 'string') {
         delete colorsCopy[v.name]
         return false
@@ -308,7 +308,7 @@ function toSource(object, keyName) {
   }
   var result = []
   var entryArr = object.css[keyName].entry
-  entryArr.forEach(function (e) {
+  entryArr.forEach(function(e) {
     if (e.$.browsers === 'none') {
       return
     }
@@ -337,7 +337,7 @@ async function process() {
   const data = await readFile(path.resolve(__dirname, schemaFileName));
   const result = JSON.parse(data.toString());
   let atDirectives = toSource(result, 'atDirectives');
-	atDirectives = await addAtRuleDescriptors(atDirectives)
+  atDirectives = await addAtRuleDescriptors(atDirectives)
   atDirectives = await addMDNAtDirectives(atDirectives);
 
   let pseudoClasses = toSource(result, 'pseudoClasses');
