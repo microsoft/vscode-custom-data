@@ -8,6 +8,9 @@ import bcd from '@mdn/browser-compat-data' with { type: 'json' };
 export function addBrowserCompatDataToProperties(atdirectives, pseudoclasses, pseudoelements, properties) {
   atdirectives.forEach(item => {
     addCompatData(item, 'at-rules', item.name.slice(1));
+    for (const descriptor of item.descriptors || []) {
+      addCompatData(descriptor, 'at-rules', item.name.slice(1), descriptor.name);
+    }
   });
 
   pseudoclasses.forEach(item => {
@@ -33,19 +36,31 @@ export function addBrowserCompatDataToProperties(atdirectives, pseudoclasses, ps
   });
 }
 
-function addCompatData(item, namespace, featureName) {
+function addCompatData(item, namespace, featureName, subField) {
   if (!(featureName in bcd.css[namespace])) {
     return;
   }
 
-  const matchingBCDItem = bcd.css[namespace][featureName];
-  item.bcdKey = `css.${namespace}.${featureName}`;
+  let matchingBCDItem = bcd.css[namespace][featureName];
+  if (subField) {
+    matchingBCDItem = matchingBCDItem[subField]
+  }
+
+  if (!(matchingBCDItem)) {
+    return;
+  }
+
+  if (subField) {
+    item.bcdKey = `css.${namespace}.${featureName}.${subField}`;
+  } else {
+    item.bcdKey = `css.${namespace}.${featureName}`;
+  }
   addBCDToBrowsers(item, matchingBCDItem);
 }
 
 export function addMDNReferences(atdirectives, pseudoclasses, pseudoelements, properties) {
   const addReference = (item, matchingItem) => {
-    if (matchingItem.__compat && matchingItem.__compat.mdn_url) {
+    if (matchingItem?.__compat?.mdn_url) {
       if (!item.references) {
         item.references = [];
       }
@@ -60,6 +75,9 @@ export function addMDNReferences(atdirectives, pseudoclasses, pseudoelements, pr
     if (bcd.css['at-rules'][item.name.slice(1)]) {
       const matchingBCDItem = bcd.css['at-rules'][item.name.slice(1)];
       addReference(item, matchingBCDItem);
+      for (const descriptor of item.descriptors || []) {
+        addReference(descriptor, matchingBCDItem[descriptor.name]);
+      }
     }
   });
 
@@ -159,7 +177,7 @@ export function supportToShortCompatString(support, browserAbbrev) {
   }
 
   if (version_added) {
-    if (typeof(version_added) === 'string') {
+    if (typeof (version_added) === 'string') {
       if (version_added.startsWith('≤')) {
         version_added = version_added.substring(1);
       }
@@ -180,10 +198,10 @@ function isSupported(support) {
   }
 
   if (version_added) {
-    if (typeof(version_added) === 'boolean') {
+    if (typeof (version_added) === 'boolean') {
       return version_added;
-    } else if (typeof(version_added) === 'string') {
-      if (typeof(parseInt(version_added)) === 'number') {
+    } else if (typeof (version_added) === 'string') {
+      if (typeof (parseInt(version_added)) === 'number') {
         return true;
       }
     }

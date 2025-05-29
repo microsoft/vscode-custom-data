@@ -8,7 +8,7 @@
 import mdnData from 'mdn-data';
 import mdnCompatData from '@mdn/browser-compat-data' with { type: 'json' };
 import { abbreviateStatus } from './mdn-data-importer.mjs';
-import { pseudoSelectorDescriptions, pseudoElementDescriptions, fetchDocFromMDN, atDirectiveDescriptions } from './mdn-documentation.mjs';
+import { pseudoSelectorDescriptions, pseudoElementDescriptions, fetchDocFromMDN, atDirectiveDescriptions, atDirectiveDescriptorDescriptions } from './mdn-documentation.mjs';
 
 export async function addMDNPseudoElements(vscPseudoElements) {
 	const mdnSelectors = mdnData.css.selectors;
@@ -26,13 +26,13 @@ export async function addMDNPseudoElements(vscPseudoElements) {
 				!allPseudoElementNames.includes(selectorName) &&
 				!allPseudoElementNames.includes(selectorName + '()')
 			) {
-				const desc = pseudoElementDescriptions[selectorName] || '';
-				if (!desc) {
+				const description = pseudoElementDescriptions[selectorName] || '';
+				if (!description) {
 					missingDocumentation.push(selectorName);
 				}
 				allPseudoElements.push({
 					name: selectorName,
-					desc,
+					description,
 					status: abbreviateStatus(selector, mdnCompatProperties[selectorName])
 				});
 			}
@@ -77,14 +77,14 @@ export async function addMDNPseudoSelectors(vscPseudoClasses) {
 				!allPseudoSelectorNames.includes(selectorName) &&
 				!allPseudoSelectorNames.includes(selectorName + '()')
 			) {
-				const desc = pseudoSelectorDescriptions[selectorName] || '';
-				if (!desc) {
+				const description = pseudoSelectorDescriptions[selectorName] || '';
+				if (!description) {
 					missingDocumentation.push(selectorName);
 				}
 
 				allPseudoSelectors.push({
 					name: selectorName,
-					desc,
+					description,
 					status: abbreviateStatus(selector, mdnCompatProperties[selectorName])
 				});
 			}
@@ -112,14 +112,14 @@ export async function addMDNAtDirectives(atDirectives) {
 
 	for (const name of Object.keys(mdnAtRules)) {
 		if (!allAtDirectiveNames.includes(name)) {
-			const desc = atDirectiveDescriptions[name] || '';
-			if (!desc) {
+			const description = atDirectiveDescriptions[name] || '';
+			if (!description) {
 				missingDocumentation.push(name);
 			}
 
 			allAtDirectives.push({
 				name: name,
-				desc: desc,
+				description,
 				browsers: undefined
 			});
 		}
@@ -134,6 +134,32 @@ export async function addMDNAtDirectives(atDirectives) {
 		}
 		fetchedDocs.push('}');
 		console.log(fetchedDocs.join('\n'));
+	}
+
+	for (const directive of allAtDirectives) {
+		const missingDocumentation = [];
+		if (directive.descriptors) {
+			const descriptorDescriptions = atDirectiveDescriptorDescriptions[directive.name] || {}
+			for (const descriptor of directive.descriptors) {
+				const description = descriptorDescriptions[descriptor.name]
+				if (description !== undefined) {
+					descriptor.description = description
+				} else {
+					missingDocumentation.push(descriptor.name)
+				}
+			}
+		}
+
+		if (missingDocumentation.length) {
+			console.log(`add to mdn-documentation.ts (atDirectiveDescriptorDescriptions['${directive.name}']):`);
+			const fetchedDocs = ['{'];
+			for (const descriptor of missingDocumentation) {
+				const doc = await fetchDocFromMDN(descriptor, directive.name);
+				fetchedDocs.push(`  '${descriptor}': \`${doc ?? ''}\`,`);
+			}
+			fetchedDocs.push('}');
+			console.log(fetchedDocs.join('\n'));
+		}
 	}
 
 	return allAtDirectives;
