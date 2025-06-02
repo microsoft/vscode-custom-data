@@ -306,10 +306,10 @@ export const propertyDescriptions = {
   'text-box-edge': `The text-box-edge CSS property specifies an amount of space to trim from a text element's block container.`,
   'text-box-trim': `The text-box-trim CSS property specifies which of the over and under edges of text content to trim from a text element's block container.`,
   'alignment-baseline': `The alignment-baseline CSS property specifies the specific baseline used to align the box's text and inline-level contents. Baseline alignment is the relationship among the baselines of multiple alignment subjects within an alignment context. When performing baseline alignment, the alignment-baseline property value specifies which baseline of the box is aligned to the corresponding baseline of its alignment context.`,
+  'view-transition-class': `The view-transition-class CSS property provides the selected elements with an identifying class (a custom-ident), providing an additional method of styling the view transitions for those elements.`,
   'baseline-shift': ``,
   'object-view-box': ``,
   'scroll-initial-target': ``,
-  'view-transition-class': ``,
   'navigation': ``,
   'types': ``,
 };
@@ -383,7 +383,7 @@ export const pseudoElementDescriptions = {
   '::view-transition-old()': `The ::view-transition-old CSS pseudo-element represents the "old" view state of a view transition — a static snapshot of the old view, before the transition.`,
   '::checkmark': `The ::checkmark CSS pseudo-element targets the checkmark placed inside the currently-selected option element of a customizable select element. It can be used to provide a visual indication of which option is selected.`,
   '::picker-icon': `The ::picker-icon CSS pseudo-element targets the picker icon inside form controls that have an icon associated with them. In the case of a customizable select element, it selects the arrow icon shown on the <select> element that points down when it is closed.`,
-  '::picker()': ``,
+  '::picker()': `The ::picker() CSS pseudo-element targets the picker part of an element, for example the drop-down picker of a customizable select element.`,
   '::scroll-marker': `The ::scroll-marker CSS pseudo-element can be generated inside any element and represents its scroll marker. All elements can have a ::scroll-marker pseudo-element, which is placed into the ::scroll-marker-group of the nearest scroll container ancestor. A scroll marker behaves like an anchor (a element) whose scroll target is the marker's originating element — and scrolls the scroll container to that element when activated.`,
   '::scroll-marker-group': `The ::scroll-marker-group CSS pseudo-element is generated inside a scroll container and contains any ::scroll-marker pseudo-elements generated on descendants of the scroll container.`,
 };
