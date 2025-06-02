@@ -105,7 +105,7 @@ export async function addMDNProperties(vscProperties) {
 
   if (missingDocumentation.length) {
     const fetchedDocs = ['{'];
-    console.log('add to mdn-documentation.ts (propertyDescriptions):');
+    console.log('add to mdn-documentation.mjs (propertyDescriptions):');
     for (let prop of missingDocumentation) {
       const doc = await fetchDocFromMDN(prop, propertyMap[prop]?.atRule);
       fetchedDocs.push(`  '${prop}': \`${doc ?? ''}\`,`);
