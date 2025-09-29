@@ -14,9 +14,9 @@ export async function addAtRuleDescriptors(atDirectives) {
  */
 
 async function addMediaQueryAtRuleDescriptors(atDirective) {
-    const mediaQueries = (await listAll())['mediaqueries-5']
+    const listall = await listAll();
     /** @type {SpecDescriptor[]} */
-    const specDescriptors = mediaQueries.atrules.find((obj) => obj.name === '@media').descriptors
+    const specDescriptors = listall.atrules.find((obj) => obj.name === '@media').descriptors
     /** @type {Descriptor[]} */
     const outDescriptors = []
     for (const descriptor of specDescriptors) {
