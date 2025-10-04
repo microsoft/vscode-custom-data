@@ -1,4 +1,5 @@
 import { listAll } from '@webref/css'
+import { definitionSyntax } from 'css-tree'
 
 export async function addAtRuleDescriptors(atDirectives) {
     await addMediaQueryAtRuleDescriptors(atDirectives.find((directive) => directive.name === '@media'))
@@ -24,12 +25,11 @@ async function addMediaQueryAtRuleDescriptors(atDirective) {
             name: descriptor.name,
             references: [{ name: 'W3C Reference', url: descriptor.href }],
             type: descriptor.type,
-            syntax: descriptor.value,
-            values: descriptor.values?.map((value) => ({
-                name: value.name,
-                description: value.prose,
-                references: [{ name: 'W3C Reference', url: value.href }],
-            })),
+            syntax: descriptor.syntax,
+            values: !descriptor.syntax.startsWith("<")
+                ? definitionSyntax.parse(descriptor.syntax).terms
+                    .map((value) => ({ name: value.name }))
+                : undefined,
         })
     }
     atDirective.descriptors = outDescriptors
