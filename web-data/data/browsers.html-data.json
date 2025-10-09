@@ -8079,6 +8079,26 @@
             "baseline_low_date": "2020-01-15",
             "baseline_high_date": "2022-07-15"
           }
+        },
+        {
+          "name": "name",
+          "description": {
+            "kind": "markdown",
+            "value": "This attribute enables multiple `<details>` elements to be connected, with only one open at a time. This allows developers to easily create UI features such as accordions without scripting.\n\nThe `name` attribute specifies a group name — give multiple `<details>` elements the same `name` value to group them. Only one of the grouped `<details>` elements can be open at a time — opening one will cause another to close. If multiple grouped `<details>` elements are given the `open` attribute, only the first one in the source order will be rendered open.\n\n**Note**: `<details>` elements don't have to be adjacent to one another in the source to be part of the same group."
+          },
+          "browsers": [
+            "C120",
+            "CA120",
+            "E120",
+            "FF130",
+            "FFA130",
+            "S17.2",
+            "SM17.2"
+          ],
+          "status": {
+            "baseline": "low",
+            "baseline_low_date": "2024-09-03"
+          }
         }
       ],
       "references": [
