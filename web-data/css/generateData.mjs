@@ -361,7 +361,15 @@ async function process() {
     pseudoElements
   }
 
-  customDataObject.properties.forEach(processEntry)
+  customDataObject.properties.forEach(property => {
+    processEntry(property)
+    
+    if (Array.isArray(property.values)) {
+      property.values.forEach(value => {
+        processEntry(value)
+      })
+    }
+  })
   for (const directive of customDataObject.atDirectives) {
     processEntry(directive)
     for (const descriptor of directive.descriptors || []) {
@@ -431,25 +439,6 @@ function convertEntry(entry) {
     delete entry.desc
   }
 
-  if (entry.values) {
-    entry.values.forEach(v => {
-      if ('desc' in v) {
-        v.description = v.desc
-        delete v.desc
-      }
-
-      if (v.browsers) {
-        if (v.browsers === 'all') {
-          delete v.browsers
-        } else {
-          v.browsers = entry.browsers.split(',')
-          if (v.browsers.length === 1 && v.browsers[0] === 'all') {
-            delete v.browsers
-          }
-        }
-      }
-    })
-  }
 
   if (entry.browsers) {
     if (entry.browsers === 'all') {
