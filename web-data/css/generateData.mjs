@@ -449,7 +449,7 @@ function convertEntry(entry) {
         return
       }
       // Inherit browsers from parent entry
-      v.browsers = entry.browsers.join(',')
+      v.browsers = entry.browsers
     })
   }
 
