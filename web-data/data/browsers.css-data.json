@@ -1509,8 +1509,13 @@
         {
           "name": "hue",
           "browsers": [
-            "C35",
+            "E79",
             "FF30",
+            "FFA30",
+            "S8",
+            "SM8",
+            "C35",
+            "CA35",
             "O22"
           ],
           "description": "Creates a color with the hue of the source color and the saturation and luminosity of the backdrop color."
@@ -1518,8 +1523,13 @@
         {
           "name": "saturation",
           "browsers": [
-            "C35",
+            "E79",
             "FF30",
+            "FFA30",
+            "S8",
+            "SM8",
+            "C35",
+            "CA35",
             "O22"
           ],
           "description": "Creates a color with the saturation of the source color and the hue and luminosity of the backdrop color."
@@ -1527,8 +1537,13 @@
         {
           "name": "color",
           "browsers": [
-            "C35",
+            "E79",
             "FF30",
+            "FFA30",
+            "S8",
+            "SM8",
+            "C35",
+            "CA35",
             "O22"
           ],
           "description": "Creates a color with the hue and saturation of the source color and the luminosity of the backdrop color."
@@ -1536,8 +1551,13 @@
         {
           "name": "luminosity",
           "browsers": [
-            "C35",
+            "E79",
             "FF30",
+            "FFA30",
+            "S8",
+            "SM8",
+            "C35",
+            "CA35",
             "O22"
           ],
           "description": "Creates a color with the luminosity of the source color and the hue and saturation of the backdrop color."
@@ -6083,28 +6103,60 @@
         {
           "name": "-moz-grab",
           "browsers": [
-            "FF1.5"
+            "E12",
+            "FF1",
+            "FFA95",
+            "S1.2",
+            "SM13.4",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ],
           "description": "Indicates that something can be grabbed."
         },
         {
           "name": "-moz-grabbing",
           "browsers": [
-            "FF1.5"
+            "E12",
+            "FF1",
+            "FFA95",
+            "S1.2",
+            "SM13.4",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ],
           "description": "Indicates that something is being grabbed."
         },
         {
           "name": "-moz-zoom-in",
           "browsers": [
-            "FF"
+            "E12",
+            "FF1",
+            "FFA95",
+            "S1.2",
+            "SM13.4",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ],
           "description": "Indicates that something can be zoomed (magnified) in."
         },
         {
           "name": "-moz-zoom-out",
           "browsers": [
-            "FF"
+            "E12",
+            "FF1",
+            "FFA95",
+            "S1.2",
+            "SM13.4",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ],
           "description": "Indicates that something can be zoomed (magnified) out."
         },
@@ -6419,32 +6471,60 @@
         {
           "name": "-webkit-grab",
           "browsers": [
-            "C",
-            "S4"
+            "E12",
+            "FF1",
+            "FFA95",
+            "S1.2",
+            "SM13.4",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ],
           "description": "Indicates that something can be grabbed."
         },
         {
           "name": "-webkit-grabbing",
           "browsers": [
-            "C",
-            "S4"
+            "E12",
+            "FF1",
+            "FFA95",
+            "S1.2",
+            "SM13.4",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ],
           "description": "Indicates that something is being grabbed."
         },
         {
           "name": "-webkit-zoom-in",
           "browsers": [
-            "C",
-            "S1.2"
+            "E12",
+            "FF1",
+            "FFA95",
+            "S1.2",
+            "SM13.4",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ],
           "description": "Indicates that something can be zoomed (magnified) in."
         },
         {
           "name": "-webkit-zoom-out",
           "browsers": [
-            "C",
-            "S1.2"
+            "E12",
+            "FF1",
+            "FFA95",
+            "S1.2",
+            "SM13.4",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ],
           "description": "Indicates that something can be zoomed (magnified) out."
         },
@@ -6667,7 +6747,15 @@
         {
           "name": "flexbox",
           "browsers": [
-            "O12.1"
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ],
           "description": "The element lays out its contents using flow layout (block-and-inline layout). Standardized as 'flex'."
         },
@@ -6773,7 +6861,15 @@
         {
           "name": "inline-flexbox",
           "browsers": [
-            "O12.1"
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ],
           "description": "Inline-level flex container. Standardized as 'inline-flex'"
         },
@@ -6820,104 +6916,230 @@
         {
           "name": "-moz-box",
           "browsers": [
-            "FF"
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ],
           "description": "The element lays out its contents using flow layout (block-and-inline layout). Standardized as 'flex'."
         },
         {
           "name": "-moz-deck",
           "browsers": [
-            "FF"
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ]
         },
         {
           "name": "-moz-grid",
           "browsers": [
-            "FF"
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ]
         },
         {
           "name": "-moz-grid-group",
           "browsers": [
-            "FF"
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ]
         },
         {
           "name": "-moz-grid-line",
           "browsers": [
-            "FF"
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ]
         },
         {
           "name": "-moz-groupbox",
           "browsers": [
-            "FF"
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ]
         },
         {
           "name": "-moz-inline-box",
           "browsers": [
-            "FF"
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ],
           "description": "Inline-level flex container. Standardized as 'inline-flex'"
         },
         {
           "name": "-moz-inline-grid",
           "browsers": [
-            "FF"
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ]
         },
         {
           "name": "-moz-inline-stack",
           "browsers": [
-            "FF"
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ]
         },
         {
           "name": "-moz-marker",
           "browsers": [
-            "FF"
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ]
         },
         {
           "name": "-moz-popup",
           "browsers": [
-            "FF"
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ]
         },
         {
           "name": "-moz-stack",
           "browsers": [
-            "FF"
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ]
         },
         {
           "name": "-ms-flexbox",
           "browsers": [
-            "IE10"
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ],
           "description": "The element lays out its contents using flow layout (block-and-inline layout). Standardized as 'flex'."
         },
         {
           "name": "-ms-grid",
           "browsers": [
-            "E",
-            "IE10"
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ],
           "description": "The element generates a principal grid container box, and establishes a grid formatting context."
         },
         {
           "name": "-ms-inline-flexbox",
           "browsers": [
-            "IE10"
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ],
           "description": "Inline-level flex container. Standardized as 'inline-flex'"
         },
         {
           "name": "-ms-inline-grid",
           "browsers": [
-            "E",
-            "IE10"
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ],
           "description": "Inline-level grid container."
         },
@@ -7006,7 +7228,15 @@
         {
           "name": "run-in",
           "browsers": [
-            "IE8"
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ],
           "description": "The element generates a run-in box. Run-in elements act like inlines or blocks, depending on the surrounding elements."
         },
@@ -7184,34 +7414,60 @@
         {
           "name": "-webkit-box",
           "browsers": [
-            "C",
-            "S1"
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ],
           "description": "The element lays out its contents using flow layout (block-and-inline layout). Standardized as 'flex'."
         },
         {
           "name": "-webkit-flex",
           "browsers": [
-            "C21",
-            "O15",
-            "S6.1"
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ],
           "description": "The element lays out its contents using flow layout (block-and-inline layout)."
         },
         {
           "name": "-webkit-inline-box",
           "browsers": [
-            "C",
-            "S1"
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ],
           "description": "Inline-level flex container. Standardized as 'inline-flex'"
         },
         {
           "name": "-webkit-inline-flex",
           "browsers": [
-            "C21",
-            "O15",
-            "S6.1"
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ],
           "description": "Inline-level flex container."
         }
@@ -7271,7 +7527,15 @@
         {
           "name": "-moz-show-background",
           "browsers": [
-            "FF"
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1.2",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE8",
+            "O4"
           ]
         },
         {
@@ -7549,7 +7813,14 @@
         {
           "name": "url()",
           "browsers": [
-            "FF3.6"
+            "E12",
+            "FF35",
+            "FFA35",
+            "S9.1",
+            "SM9.3",
+            "C53",
+            "CA53",
+            "O40"
           ],
           "description": "A filter reference to a <filter> element."
         }
@@ -7594,8 +7865,15 @@
         {
           "name": "content",
           "browsers": [
-            "E",
-            "IE11"
+            "E12",
+            "FF22",
+            "FFA22",
+            "S9",
+            "SM9",
+            "C29",
+            "CA29",
+            "IE11",
+            "O12.1"
           ],
           "description": "Indicates automatic sizing, based on the flex item's content."
         },
@@ -9354,8 +9632,15 @@
         {
           "name": "narrower",
           "browsers": [
-            "E",
-            "IE10"
+            "E12",
+            "FF9",
+            "FFA9",
+            "S11",
+            "SM11",
+            "C60",
+            "CA60",
+            "IE9",
+            "O47"
           ],
           "description": "Indicates a narrower value relative to the width of the parent element."
         },
@@ -9377,8 +9662,15 @@
         {
           "name": "wider",
           "browsers": [
-            "E",
-            "IE10"
+            "E12",
+            "FF9",
+            "FFA9",
+            "S11",
+            "SM11",
+            "C60",
+            "CA60",
+            "IE9",
+            "O47"
           ],
           "description": "Indicates a wider value relative to the width of the parent element."
         }
@@ -12046,7 +12338,14 @@
         {
           "name": "-moz-crisp-edges",
           "browsers": [
-            "FF"
+            "E79",
+            "FF3.6",
+            "FFA4",
+            "S6",
+            "SM6",
+            "C13",
+            "CA18",
+            "O15"
           ]
         },
         {
@@ -12757,7 +13056,15 @@
         {
           "name": "symbols()",
           "browsers": [
-            "FF35"
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ],
           "description": "Allows a counter style to be defined inline."
         },
@@ -13177,7 +13484,15 @@
         {
           "name": "symbols()",
           "browsers": [
-            "FF35"
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE4",
+            "O3.5"
           ],
           "description": "Allows a counter style to be defined inline."
         },
@@ -14788,36 +15103,56 @@
         {
           "name": "hue",
           "browsers": [
-            "C41",
+            "E79",
             "FF32",
-            "O29"
+            "FFA32",
+            "S8",
+            "SM8",
+            "C41",
+            "CA41",
+            "O28"
           ],
           "description": "Creates a color with the hue of the source color and the saturation and luminosity of the backdrop color."
         },
         {
           "name": "saturation",
           "browsers": [
-            "C41",
+            "E79",
             "FF32",
-            "O29"
+            "FFA32",
+            "S8",
+            "SM8",
+            "C41",
+            "CA41",
+            "O28"
           ],
           "description": "Creates a color with the saturation of the source color and the hue and luminosity of the backdrop color."
         },
         {
           "name": "color",
           "browsers": [
-            "C41",
+            "E79",
             "FF32",
-            "O29"
+            "FFA32",
+            "S8",
+            "SM8",
+            "C41",
+            "CA41",
+            "O28"
           ],
           "description": "Creates a color with the hue and saturation of the source color and the luminosity of the backdrop color."
         },
         {
           "name": "luminosity",
           "browsers": [
-            "C41",
+            "E79",
             "FF32",
-            "O29"
+            "FFA32",
+            "S8",
+            "SM8",
+            "C41",
+            "CA41",
+            "O28"
           ],
           "description": "Creates a color with the luminosity of the source color and the hue and saturation of the backdrop color."
         }
@@ -15822,13 +16157,13 @@
         {
           "name": "off",
           "browsers": [
-            "FF15"
+            "FF4"
           ]
         },
         {
           "name": "on",
           "browsers": [
-            "FF15"
+            "FF4"
           ]
         }
       ],
@@ -19482,9 +19817,15 @@
         {
           "name": "invert",
           "browsers": [
-            "E",
+            "E94",
+            "FF88",
+            "FFA88",
+            "S16.4",
+            "SM16.4",
+            "C94",
+            "CA94",
             "IE8",
-            "O"
+            "O80"
           ],
           "description": "Performs a color inversion on the pixels on the screen."
         }
@@ -19527,9 +19868,15 @@
         {
           "name": "invert",
           "browsers": [
-            "E",
+            "E12",
+            "FF1.5",
+            "FFA4",
+            "S1.2",
+            "SM1",
+            "C1",
+            "CA18",
             "IE8",
-            "O"
+            "O7"
           ],
           "description": "Performs a color inversion on the pixels on the screen."
         }
@@ -19726,7 +20073,15 @@
         {
           "name": "-moz-hidden-unscrollable",
           "browsers": [
-            "FF"
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE4",
+            "O7"
           ],
           "description": "Same as the standardized 'clip', except doesn't establish a block formatting context."
         },
@@ -20969,8 +21324,15 @@
         {
           "name": "-ms-page",
           "browsers": [
-            "E",
-            "IE10"
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE4",
+            "O4"
           ],
           "description": "The box's position is calculated according to the 'absolute' model."
         },
@@ -21036,7 +21398,15 @@
         {
           "name": "-webkit-sticky",
           "browsers": [
-            "S6.1"
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE4",
+            "O4"
           ],
           "description": "The box's position is calculated according to the normal flow. Then the box is offset relative to its flow root and containing block and in all cases, including table elements, does not affect the position of any following boxes."
         }
@@ -21265,8 +21635,14 @@
         {
           "name": "auto",
           "browsers": [
-            "E",
-            "IE5"
+            "E128",
+            "FF38",
+            "FFA38",
+            "S18.2",
+            "SM18.2",
+            "C128",
+            "CA128",
+            "O114"
           ],
           "description": "The user agent determines how the ruby contents are aligned. This is the initial value."
         },
@@ -21291,16 +21667,28 @@
         {
           "name": "distribute-letter",
           "browsers": [
-            "E",
-            "IE5"
+            "E128",
+            "FF38",
+            "FFA38",
+            "S18.2",
+            "SM18.2",
+            "C128",
+            "CA128",
+            "O114"
           ],
           "description": "If the width of the ruby text is smaller than that of the base, then the ruby text contents are evenly distributed across the width of the base, with the first and last ruby text glyphs lining up with the corresponding first and last base glyphs. If the width of the ruby text is at least the width of the base, then the letters of the base are evenly distributed across the width of the ruby text."
         },
         {
           "name": "distribute-space",
           "browsers": [
-            "E",
-            "IE5"
+            "E128",
+            "FF38",
+            "FFA38",
+            "S18.2",
+            "SM18.2",
+            "C128",
+            "CA128",
+            "O114"
           ],
           "description": "If the width of the ruby text is smaller than that of the base, then the ruby text contents are evenly distributed across the width of the base, with a certain amount of white space preceding the first and following the last character in the ruby text. That amount of white space is normally equal to half the amount of inter-character space of the ruby text."
         },
@@ -21311,16 +21699,28 @@
         {
           "name": "line-edge",
           "browsers": [
-            "E",
-            "IE5"
+            "E128",
+            "FF38",
+            "FFA38",
+            "S18.2",
+            "SM18.2",
+            "C128",
+            "CA128",
+            "O114"
           ],
           "description": "If the ruby text is not adjacent to a line edge, it is aligned as in 'auto'. If it is adjacent to a line edge, then it is still aligned as in auto, but the side of the ruby text that touches the end of the line is lined up with the corresponding edge of the base."
         },
         {
           "name": "right",
           "browsers": [
-            "E",
-            "IE5"
+            "E128",
+            "FF38",
+            "FFA38",
+            "S18.2",
+            "SM18.2",
+            "C128",
+            "CA128",
+            "O114"
           ],
           "description": "The ruby text content is aligned with the end edge of the base."
         },
@@ -23338,9 +23738,14 @@
         {
           "name": "sideways-right",
           "browsers": [
-            "C25",
-            "O15",
-            "S6.1"
+            "E79",
+            "FF41",
+            "FFA41",
+            "S14",
+            "SM14",
+            "C48",
+            "CA48",
+            "O35"
           ],
           "description": "In vertical writing modes, this causes text to be set as if in a horizontal layout, but rotated 90° clockwise."
         },
@@ -23819,22 +24224,43 @@
         {
           "name": "cross-slide-x",
           "browsers": [
-            "E",
-            "IE11"
+            "E12",
+            "FF52",
+            "FFA52",
+            "S13",
+            "SM9.3",
+            "C36",
+            "CA36",
+            "IE11",
+            "O23"
           ]
         },
         {
           "name": "cross-slide-y",
           "browsers": [
-            "E",
-            "IE11"
+            "E12",
+            "FF52",
+            "FFA52",
+            "S13",
+            "SM9.3",
+            "C36",
+            "CA36",
+            "IE11",
+            "O23"
           ]
         },
         {
           "name": "double-tap-zoom",
           "browsers": [
-            "E",
-            "IE11"
+            "E12",
+            "FF52",
+            "FFA52",
+            "S13",
+            "SM9.3",
+            "C36",
+            "CA36",
+            "IE11",
+            "O23"
           ]
         },
         {
@@ -24128,11 +24554,14 @@
         {
           "name": "preserve-3d",
           "browsers": [
-            "E",
-            "C36",
+            "E12",
             "FF16",
-            "O23",
-            "S9"
+            "FFA16",
+            "S9",
+            "SM9",
+            "C36",
+            "CA36",
+            "O23"
           ],
           "description": "Flattening is not performed, so children maintain their position in 3D space."
         }
@@ -25127,8 +25556,15 @@
         {
           "name": "-webkit-baseline-middle",
           "browsers": [
-            "C",
-            "S1"
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE4",
+            "O4"
           ]
         }
       ],

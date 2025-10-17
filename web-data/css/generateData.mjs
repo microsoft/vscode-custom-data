@@ -397,7 +397,7 @@ function processEntry(entry) {
       status.baseline_high_date = status.baseline_high_date.slice(1)
     }
 
-    if (entry.browsers.length) {
+    if (entry.browsers?.length) {
       // if `baseline.support` is missing a core browser, make sure it's also omitted from `entry.browsers` for consistency
       // for example, this discrepancy can happen in browsers that partially implement a feature
       Array.from(status.support.entries()).forEach(([browser, value]) => {
@@ -439,6 +439,19 @@ function convertEntry(entry) {
     delete entry.desc
   }
 
+  if (entry.values) {
+    entry.values.forEach(v => {
+      if (v.bcdKey) {
+        return
+      }
+      if (v.browsers === 'all' || !v.browsers) {
+        delete v.browsers
+        return
+      }
+      // Inherit browsers from parent entry
+      v.browsers = entry.browsers.join(',')
+    })
+  }
 
   if (entry.browsers) {
     if (entry.browsers === 'all') {
