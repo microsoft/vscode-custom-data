@@ -361,7 +361,15 @@ async function process() {
     pseudoElements
   }
 
-  customDataObject.properties.forEach(processEntry)
+  customDataObject.properties.forEach(property => {
+    processEntry(property)
+    
+    if (Array.isArray(property.values)) {
+      property.values.forEach(value => {
+        processEntry(value)
+      })
+    }
+  })
   for (const directive of customDataObject.atDirectives) {
     processEntry(directive)
     for (const descriptor of directive.descriptors || []) {
@@ -389,7 +397,7 @@ function processEntry(entry) {
       status.baseline_high_date = status.baseline_high_date.slice(1)
     }
 
-    if (entry.browsers.length) {
+    if (entry.browsers?.length) {
       // if `baseline.support` is missing a core browser, make sure it's also omitted from `entry.browsers` for consistency
       // for example, this discrepancy can happen in browsers that partially implement a feature
       Array.from(status.support.entries()).forEach(([browser, value]) => {
@@ -433,21 +441,15 @@ function convertEntry(entry) {
 
   if (entry.values) {
     entry.values.forEach(v => {
-      if ('desc' in v) {
-        v.description = v.desc
-        delete v.desc
+      if (v.bcdKey) {
+        return
       }
-
-      if (v.browsers) {
-        if (v.browsers === 'all') {
-          delete v.browsers
-        } else {
-          v.browsers = entry.browsers.split(',')
-          if (v.browsers.length === 1 && v.browsers[0] === 'all') {
-            delete v.browsers
-          }
-        }
+      if (v.browsers === 'all' || !v.browsers) {
+        delete v.browsers
+        return
       }
+      // Inherit browsers from parent entry
+      v.browsers = entry.browsers
     })
   }
 

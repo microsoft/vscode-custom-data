@@ -33,6 +33,12 @@ export function addBrowserCompatDataToProperties(atdirectives, pseudoclasses, ps
 
   properties.forEach(item => {
     addCompatData(item, 'properties', item.name);
+    
+    if (Array.isArray(item.values)) {
+      item.values.forEach(value => {
+        addCompatData(value, 'properties', item.name, value.name);
+      });
+    }
   });
 }
 
