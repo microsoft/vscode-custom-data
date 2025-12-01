@@ -21,6 +21,7 @@
     "@mdn/browser-compat-data": "^7.1.8",
     "@webref/css": "^7.1.0",
     "compute-baseline": "^0.4.0",
+    "css-tree": "^3.1.0",
     "mdn-data": "^2.24.0"
   }
 }
