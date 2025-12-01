@@ -1340,6 +1340,9 @@
       {
         "name": "open",
         "valueSet": "v"
+      },
+      {
+        "name": "name"
       }
     ]
   },
