@@ -192,7 +192,7 @@
         }
       ],
       "syntax": "normal | stretch | <baseline-position> | [ <overflow-position>? <self-position> ] | anchor-center",
-      "relevance": 89,
+      "relevance": 90,
       "references": [
         {
           "name": "MDN Reference",
@@ -345,7 +345,7 @@
         }
       ],
       "syntax": "normal | stretch | <baseline-position> | <overflow-position>? [ <self-position> | left | right ] | legacy | legacy && [ left | right | center ] | anchor-center",
-      "relevance": 57,
+      "relevance": 58,
       "references": [
         {
           "name": "MDN Reference",
@@ -510,7 +510,7 @@
         }
       ],
       "syntax": "auto | normal | stretch | <baseline-position> | <overflow-position>? [ <self-position> | left | right ] | anchor-center",
-      "relevance": 57,
+      "relevance": 59,
       "references": [
         {
           "name": "MDN Reference",
@@ -636,7 +636,7 @@
         }
       ],
       "syntax": "auto | normal | stretch | <baseline-position> | <overflow-position>? <self-position> | anchor-center",
-      "relevance": 75,
+      "relevance": 76,
       "references": [
         {
           "name": "MDN Reference",
@@ -1032,7 +1032,7 @@
         }
       ],
       "syntax": "<single-animation-direction>#",
-      "relevance": 57,
+      "relevance": 56,
       "references": [
         {
           "name": "MDN Reference",
@@ -1176,7 +1176,7 @@
         }
       ],
       "syntax": "<single-animation-fill-mode>#",
-      "relevance": 65,
+      "relevance": 63,
       "references": [
         {
           "name": "MDN Reference",
@@ -1229,7 +1229,7 @@
         }
       ],
       "syntax": "<single-animation-iteration-count>#",
-      "relevance": 65,
+      "relevance": 63,
       "references": [
         {
           "name": "MDN Reference",
@@ -1357,7 +1357,7 @@
         }
       ],
       "syntax": "<single-animation-play-state>#",
-      "relevance": 56,
+      "relevance": 57,
       "references": [
         {
           "name": "MDN Reference",
@@ -1613,16 +1613,13 @@
             "FF2",
             "FFA4",
             "S15.4",
-            "SM15.4",
             "C1",
             "CA18",
             "IE9",
             "O10.5"
           ],
           "baseline": {
-            "status": "high",
-            "baseline_low_date": "2022-03-14",
-            "baseline_high_date": "2024-09-14"
+            "status": "false"
           },
           "description": "The background is fixed with regard to the viewport. In paged media where there is no viewport, a 'fixed' background is fixed with respect to the page box and therefore replicated on every page."
         },
@@ -2707,7 +2704,7 @@
         "O9.2"
       ],
       "syntax": "<line-style>",
-      "relevance": 58,
+      "relevance": 59,
       "references": [
         {
           "name": "MDN Reference",
@@ -2738,7 +2735,7 @@
         "O3.5"
       ],
       "syntax": "<line-width>",
-      "relevance": 64,
+      "relevance": 67,
       "references": [
         {
           "name": "MDN Reference",
@@ -3031,7 +3028,7 @@
         "IE11",
         "O15"
       ],
-      "syntax": "[ <length [0,∞]> | <number [0,∞]> ]{1,4}  ",
+      "syntax": "[ <length [0,∞]> | <number [0,∞]> ]{1,4}",
       "relevance": 50,
       "references": [
         {
@@ -3182,7 +3179,7 @@
           "description": "Causes the middle part of the border-image to be preserved."
         }
       ],
-      "syntax": "[ <number [0,∞]> | <percentage [0,∞]> ]{1,4}  && fill?",
+      "syntax": "[ <number [0,∞]> | <percentage [0,∞]> ]{1,4} && fill?",
       "relevance": 50,
       "references": [
         {
@@ -3321,7 +3318,7 @@
         "O56"
       ],
       "syntax": "<'border-top-width'> || <'border-top-style'> || <color>",
-      "relevance": 54,
+      "relevance": 53,
       "references": [
         {
           "name": "MDN Reference",
@@ -3604,7 +3601,7 @@
         "O3.5"
       ],
       "syntax": "<color>",
-      "relevance": 66,
+      "relevance": 67,
       "references": [
         {
           "name": "MDN Reference",
@@ -3635,7 +3632,7 @@
         "O9.2"
       ],
       "syntax": "<line-style>",
-      "relevance": 53,
+      "relevance": 54,
       "references": [
         {
           "name": "MDN Reference",
@@ -3764,7 +3761,7 @@
         "O3.5"
       ],
       "syntax": "<color>",
-      "relevance": 66,
+      "relevance": 65,
       "references": [
         {
           "name": "MDN Reference",
@@ -3795,7 +3792,7 @@
         "O9.2"
       ],
       "syntax": "<line-style>",
-      "relevance": 53,
+      "relevance": 54,
       "references": [
         {
           "name": "MDN Reference",
@@ -3921,7 +3918,7 @@
         "O3.5"
       ],
       "syntax": "<line-width> || <line-style> || <color>",
-      "relevance": 85,
+      "relevance": 86,
       "references": [
         {
           "name": "MDN Reference",
@@ -4081,7 +4078,7 @@
         "O3.5"
       ],
       "syntax": "<line-width>",
-      "relevance": 64,
+      "relevance": 66,
       "references": [
         {
           "name": "MDN Reference",
@@ -4305,7 +4302,7 @@
         }
       ],
       "syntax": "none | <shadow>#",
-      "relevance": 90,
+      "relevance": 91,
       "references": [
         {
           "name": "MDN Reference",
@@ -4967,7 +4964,7 @@
         }
       ],
       "syntax": "auto | <color>",
-      "relevance": 57,
+      "relevance": 56,
       "references": [
         {
           "name": "MDN Reference",
@@ -5080,7 +5077,7 @@
         }
       ],
       "syntax": "none | left | right | both | inline-start | inline-end",
-      "relevance": 80,
+      "relevance": 81,
       "references": [
         {
           "name": "MDN Reference",
@@ -5278,7 +5275,7 @@
         "O3.5"
       ],
       "syntax": "<color>",
-      "relevance": 94,
+      "relevance": 95,
       "references": [
         {
           "name": "MDN Reference",
@@ -5546,7 +5543,7 @@
         }
       ],
       "syntax": "normal | <length-percentage>",
-      "relevance": 66,
+      "relevance": 67,
       "references": [
         {
           "name": "MDN Reference",
@@ -5726,7 +5723,7 @@
           "description": "The width depends on the values of other properties."
         }
       ],
-      "syntax": "<'column-width'> || <'column-count'>",
+      "syntax": "[ <'column-width'> || <'column-count'> ] [ / <'column-height'> ]?",
       "relevance": 51,
       "references": [
         {
@@ -5851,7 +5848,7 @@
           "description": "The width depends on the values of other properties."
         }
       ],
-      "syntax": "<length> | auto",
+      "syntax": "auto | <length [0,∞]>",
       "relevance": 51,
       "references": [
         {
@@ -6984,7 +6981,7 @@
         }
       ],
       "syntax": "[ [ <url> [ <x> <y> ]? , ]* <cursor-predefined> ]",
-      "relevance": 91,
+      "relevance": 92,
       "references": [
         {
           "name": "MDN Reference",
@@ -8054,7 +8051,7 @@
         }
       ],
       "syntax": "<paint>",
-      "relevance": 82,
+      "relevance": 81,
       "references": [
         {
           "name": "MDN Reference",
@@ -8086,7 +8083,7 @@
         "O15"
       ],
       "syntax": "<'opacity'>",
-      "relevance": 55,
+      "relevance": 56,
       "references": [
         {
           "name": "MDN Reference",
@@ -8261,7 +8258,7 @@
         }
       ],
       "syntax": "none | <filter-value-list>",
-      "relevance": 75,
+      "relevance": 74,
       "references": [
         {
           "name": "MDN Reference",
@@ -8770,7 +8767,7 @@
         "O12.1"
       ],
       "syntax": "<number>",
-      "relevance": 79,
+      "relevance": 80,
       "references": [
         {
           "name": "MDN Reference",
@@ -8863,7 +8860,7 @@
         }
       ],
       "syntax": "nowrap | wrap | wrap-reverse",
-      "relevance": 84,
+      "relevance": 85,
       "references": [
         {
           "name": "MDN Reference",
@@ -9462,7 +9459,7 @@
       ],
       "atRule": "@font-palette-values",
       "syntax": "<family-name>#",
-      "relevance": 93,
+      "relevance": 94,
       "references": [
         {
           "name": "MDN Reference",
@@ -9992,7 +9989,7 @@
       ],
       "atRule": "@font-face",
       "syntax": "normal | <feature-tag-value>#",
-      "relevance": 60,
+      "relevance": 59,
       "references": [
         {
           "name": "MDN Reference",
@@ -10102,15 +10099,21 @@
     {
       "name": "font-language-override",
       "browsers": [
+        "E143",
         "FF34",
-        "FFA34"
+        "FFA34",
+        "C143",
+        "CA143"
       ],
       "values": [
         {
           "name": "normal",
           "browsers": [
+            "E143",
             "FF4",
-            "FFA4"
+            "FFA4",
+            "C143",
+            "CA143"
           ],
           "baseline": {
             "status": "false"
@@ -10271,7 +10274,9 @@
             "O47"
           ],
           "baseline": {
-            "status": "false"
+            "status": "high",
+            "baseline_low_date": "2017-09-19",
+            "baseline_high_date": "2020-03-19"
           }
         },
         {
@@ -10287,7 +10292,9 @@
             "O47"
           ],
           "baseline": {
-            "status": "false"
+            "status": "high",
+            "baseline_low_date": "2017-09-19",
+            "baseline_high_date": "2020-03-19"
           }
         },
         {
@@ -10303,7 +10310,9 @@
             "O47"
           ],
           "baseline": {
-            "status": "false"
+            "status": "high",
+            "baseline_low_date": "2017-09-19",
+            "baseline_high_date": "2020-03-19"
           }
         },
         {
@@ -10319,7 +10328,9 @@
             "O47"
           ],
           "baseline": {
-            "status": "false"
+            "status": "high",
+            "baseline_low_date": "2017-09-19",
+            "baseline_high_date": "2020-03-19"
           }
         },
         {
@@ -10350,7 +10361,9 @@
             "O47"
           ],
           "baseline": {
-            "status": "false"
+            "status": "high",
+            "baseline_low_date": "2017-09-19",
+            "baseline_high_date": "2020-03-19"
           }
         },
         {
@@ -10366,7 +10379,9 @@
             "O47"
           ],
           "baseline": {
-            "status": "false"
+            "status": "high",
+            "baseline_low_date": "2017-09-19",
+            "baseline_high_date": "2020-03-19"
           }
         },
         {
@@ -10382,7 +10397,9 @@
             "O47"
           ],
           "baseline": {
-            "status": "false"
+            "status": "high",
+            "baseline_low_date": "2017-09-19",
+            "baseline_high_date": "2020-03-19"
           }
         },
         {
@@ -10398,7 +10415,9 @@
             "O47"
           ],
           "baseline": {
-            "status": "false"
+            "status": "high",
+            "baseline_low_date": "2017-09-19",
+            "baseline_high_date": "2020-03-19"
           }
         },
         {
@@ -10414,7 +10433,9 @@
             "O47"
           ],
           "baseline": {
-            "status": "false"
+            "status": "high",
+            "baseline_low_date": "2017-09-19",
+            "baseline_high_date": "2020-03-19"
           }
         },
         {
@@ -10436,7 +10457,7 @@
       "atRule": "@font-face",
       "status": "obsolete",
       "syntax": "<font-stretch-absolute>{1,2}",
-      "relevance": 12,
+      "relevance": 13,
       "references": [
         {
           "name": "MDN Reference",
@@ -10444,7 +10465,9 @@
         }
       ],
       "baseline": {
-        "status": "false"
+        "status": "high",
+        "baseline_low_date": "2017-09-19",
+        "baseline_high_date": "2020-03-19"
       },
       "description": "Selects a normal, condensed, or expanded face from a font family.",
       "restrictions": [
@@ -10673,7 +10696,7 @@
         }
       ],
       "syntax": "normal | none | [ <common-lig-values> || <discretionary-lig-values> || <historical-lig-values> || <contextual-alt-values> || stylistic( <feature-value-name> ) || historical-forms || styleset( <feature-value-name># ) || character-variant( <feature-value-name># ) || swash( <feature-value-name> ) || ornaments( <feature-value-name> ) || annotation( <feature-value-name> ) || [ small-caps | all-small-caps | petite-caps | all-petite-caps | unicase | titling-caps ] || <numeric-figure-values> || <numeric-spacing-values> || <numeric-fraction-values> || ordinal || slashed-zero || <east-asian-variant-values> || <east-asian-width-values> || ruby ]",
-      "relevance": 63,
+      "relevance": 64,
       "references": [
         {
           "name": "MDN Reference",
@@ -11607,22 +11630,31 @@
     {
       "name": "font-variant-position",
       "browsers": [
+        "E117",
         "FF34",
         "FFA34",
         "S9.1",
-        "SM9.3"
+        "SM9.3",
+        "C117",
+        "CA117",
+        "O103"
       ],
       "values": [
         {
           "name": "normal",
           "browsers": [
+            "E117",
             "FF34",
             "FFA34",
             "S9.1",
-            "SM9.3"
+            "SM9.3",
+            "C117",
+            "CA117",
+            "O103"
           ],
           "baseline": {
-            "status": "false"
+            "status": "low",
+            "baseline_low_date": "2023-09-15"
           },
           "description": "None of the features are enabled."
         },
@@ -11631,8 +11663,7 @@
           "browsers": [
             "FF34",
             "FFA34",
-            "S9.1",
-            "SM9.3"
+            "O103"
           ],
           "baseline": {
             "status": "false"
@@ -11644,8 +11675,7 @@
           "browsers": [
             "FF34",
             "FFA34",
-            "S9.1",
-            "SM9.3"
+            "O103"
           ],
           "baseline": {
             "status": "false"
@@ -11662,7 +11692,8 @@
         }
       ],
       "baseline": {
-        "status": "false"
+        "status": "low",
+        "baseline_low_date": "2023-09-15"
       },
       "description": "Specifies the vertical position",
       "restrictions": [
@@ -11889,7 +11920,7 @@
         }
       ],
       "syntax": "<grid-line> [ / <grid-line> ]{0,3}",
-      "relevance": 60,
+      "relevance": 61,
       "references": [
         {
           "name": "MDN Reference",
@@ -12018,7 +12049,7 @@
         }
       ],
       "syntax": "<track-size>+",
-      "relevance": 53,
+      "relevance": 54,
       "references": [
         {
           "name": "MDN Reference",
@@ -12108,7 +12139,7 @@
         }
       ],
       "syntax": "[ row | column ] || dense",
-      "relevance": 56,
+      "relevance": 57,
       "references": [
         {
           "name": "MDN Reference",
@@ -12202,7 +12233,7 @@
         }
       ],
       "syntax": "<track-size>+",
-      "relevance": 54,
+      "relevance": 55,
       "references": [
         {
           "name": "MDN Reference",
@@ -12461,7 +12492,7 @@
         }
       ],
       "syntax": "<grid-line> [ / <grid-line> ]?",
-      "relevance": 58,
+      "relevance": 57,
       "references": [
         {
           "name": "MDN Reference",
@@ -12591,7 +12622,7 @@
         }
       ],
       "syntax": "<grid-line>",
-      "relevance": 54,
+      "relevance": 55,
       "references": [
         {
           "name": "MDN Reference",
@@ -12723,7 +12754,7 @@
         }
       ],
       "syntax": "none | <string>+",
-      "relevance": 57,
+      "relevance": 58,
       "references": [
         {
           "name": "MDN Reference",
@@ -12996,7 +13027,7 @@
         }
       ],
       "syntax": "none | <track-list> | <auto-track-list> | subgrid <line-name-list>?",
-      "relevance": 62,
+      "relevance": 63,
       "references": [
         {
           "name": "MDN Reference",
@@ -13110,7 +13141,7 @@
         }
       ],
       "syntax": "auto | <length-percentage [0,∞]> | min-content | max-content | fit-content | fit-content(<length-percentage [0,∞]>) | <calc-size()> | <anchor-size()>",
-      "relevance": 95,
+      "relevance": 96,
       "references": [
         {
           "name": "MDN Reference",
@@ -13540,7 +13571,7 @@
         }
       ],
       "syntax": "auto | isolate",
-      "relevance": 56,
+      "relevance": 57,
       "references": [
         {
           "name": "MDN Reference",
@@ -13667,7 +13698,7 @@
         }
       ],
       "syntax": "normal | <content-distribution> | <overflow-position>? [ <content-position> | left | right ]",
-      "relevance": 89,
+      "relevance": 90,
       "references": [
         {
           "name": "MDN Reference",
@@ -14001,7 +14032,7 @@
         }
       ],
       "syntax": "normal | <number> | <length> | <percentage>",
-      "relevance": 92,
+      "relevance": 93,
       "references": [
         {
           "name": "MDN Reference",
@@ -14786,7 +14817,7 @@
         }
       ],
       "syntax": "<'margin-top'>",
-      "relevance": 57,
+      "relevance": 58,
       "references": [
         {
           "name": "MDN Reference",
@@ -14941,7 +14972,7 @@
         }
       ],
       "syntax": "<'margin-top'>",
-      "relevance": 61,
+      "relevance": 62,
       "references": [
         {
           "name": "MDN Reference",
@@ -15100,7 +15131,7 @@
         }
       ],
       "syntax": "<length-percentage> | auto | <anchor-size()>",
-      "relevance": 93,
+      "relevance": 94,
       "references": [
         {
           "name": "MDN Reference",
@@ -15569,7 +15600,7 @@
         }
       ],
       "syntax": "<bg-size>#",
-      "relevance": 55,
+      "relevance": 54,
       "references": [
         {
           "name": "MDN Reference",
@@ -15640,7 +15671,7 @@
         }
       ],
       "syntax": "luminance | alpha",
-      "relevance": 51,
+      "relevance": 50,
       "references": [
         {
           "name": "MDN Reference",
@@ -15691,7 +15722,7 @@
         }
       ],
       "syntax": "<'max-width'>",
-      "relevance": 54,
+      "relevance": 55,
       "references": [
         {
           "name": "MDN Reference",
@@ -15853,7 +15884,7 @@
         }
       ],
       "syntax": "<'max-width'>",
-      "relevance": 54,
+      "relevance": 55,
       "references": [
         {
           "name": "MDN Reference",
@@ -15995,7 +16026,7 @@
         "O44"
       ],
       "syntax": "<'min-width'>",
-      "relevance": 54,
+      "relevance": 55,
       "references": [
         {
           "name": "MDN Reference",
@@ -16104,7 +16135,7 @@
         }
       ],
       "syntax": "auto | <length-percentage [0,∞]> | min-content | max-content | fit-content | fit-content(<length-percentage [0,∞]>) | <calc-size()> | <anchor-size()>",
-      "relevance": 89,
+      "relevance": 90,
       "references": [
         {
           "name": "MDN Reference",
@@ -16135,7 +16166,7 @@
         "O44"
       ],
       "syntax": "<'min-width'>",
-      "relevance": 54,
+      "relevance": 55,
       "references": [
         {
           "name": "MDN Reference",
@@ -20718,7 +20749,7 @@
         "O19"
       ],
       "syntax": "<position>",
-      "relevance": 60,
+      "relevance": 59,
       "references": [
         {
           "name": "MDN Reference",
@@ -24334,7 +24365,7 @@
         }
       ],
       "syntax": "none | <dasharray>",
-      "relevance": 62,
+      "relevance": 63,
       "references": [
         {
           "name": "MDN Reference",
@@ -24367,7 +24398,7 @@
         "O15"
       ],
       "syntax": "<length-percentage> | <number>",
-      "relevance": 63,
+      "relevance": 64,
       "references": [
         {
           "name": "MDN Reference",
@@ -24546,7 +24577,7 @@
         }
       ],
       "syntax": "miter | miter-clip | round | bevel | arcs",
-      "relevance": 51,
+      "relevance": 52,
       "references": [
         {
           "name": "MDN Reference",
@@ -24814,7 +24845,7 @@
         "O15"
       ],
       "syntax": "<integer> | <length>",
-      "relevance": 55,
+      "relevance": 56,
       "references": [
         {
           "name": "MDN Reference",
@@ -25218,12 +25249,15 @@
             "E79",
             "FF50",
             "FFA50",
+            "S26.2",
+            "SM26.2",
             "C57",
             "CA57",
             "O44"
           ],
           "baseline": {
-            "status": "false"
+            "status": "low",
+            "baseline_low_date": "2025-12-12"
           },
           "description": "Produces a dashed line style."
         },
@@ -25233,12 +25267,15 @@
             "E79",
             "FF50",
             "FFA50",
+            "S26.2",
+            "SM26.2",
             "C57",
             "CA57",
             "O44"
           ],
           "baseline": {
-            "status": "false"
+            "status": "low",
+            "baseline_low_date": "2025-12-12"
           },
           "description": "Produces a dotted line."
         },
@@ -25248,12 +25285,15 @@
             "E79",
             "FF50",
             "FFA50",
+            "S26.2",
+            "SM26.2",
             "C57",
             "CA57",
             "O44"
           ],
           "baseline": {
-            "status": "false"
+            "status": "low",
+            "baseline_low_date": "2025-12-12"
           },
           "description": "Produces a double line."
         },
@@ -25320,12 +25360,15 @@
             "E79",
             "FF50",
             "FFA50",
+            "S26.2",
+            "SM26.2",
             "C57",
             "CA57",
             "O44"
           ],
           "baseline": {
-            "status": "false"
+            "status": "low",
+            "baseline_low_date": "2025-12-12"
           },
           "description": "Produces a solid line."
         },
@@ -25354,18 +25397,21 @@
             "E79",
             "FF50",
             "FFA50",
+            "S26.2",
+            "SM26.2",
             "C57",
             "CA57",
             "O44"
           ],
           "baseline": {
-            "status": "false"
+            "status": "low",
+            "baseline_low_date": "2025-12-12"
           },
           "description": "Produces a wavy line."
         }
       ],
       "syntax": "<'text-decoration-line'> || <'text-decoration-style'> || <'text-decoration-color'> || <'text-decoration-thickness'>",
-      "relevance": 91,
+      "relevance": 92,
       "references": [
         {
           "name": "MDN Reference",
@@ -25504,7 +25550,7 @@
         }
       ],
       "syntax": "none | [ underline || overline || line-through || blink ] | spelling-error | grammar-error",
-      "relevance": 62,
+      "relevance": 61,
       "references": [
         {
           "name": "MDN Reference",
@@ -25667,7 +25713,7 @@
       ],
       "values": [],
       "syntax": "<length-percentage> && hanging? && each-line?",
-      "relevance": 67,
+      "relevance": 69,
       "references": [
         {
           "name": "MDN Reference",
@@ -25688,17 +25734,22 @@
     {
       "name": "text-justify",
       "browsers": [
+        "E145",
         "FF55",
         "FFA55",
-        "IE11",
-        "O19"
+        "C145",
+        "CA145",
+        "IE11"
       ],
       "values": [
         {
           "name": "auto",
           "browsers": [
+            "E145",
             "FF55",
-            "FFA55"
+            "FFA55",
+            "C145",
+            "CA145"
           ],
           "baseline": {
             "status": "false"
@@ -25723,8 +25774,11 @@
         {
           "name": "inter-word",
           "browsers": [
+            "E145",
             "FF55",
-            "FFA55"
+            "FFA55",
+            "C145",
+            "CA145"
           ],
           "baseline": {
             "status": "false"
@@ -26282,7 +26336,7 @@
         }
       ],
       "syntax": "auto | <length-percentage> | <anchor()> | <anchor-size()>",
-      "relevance": 94,
+      "relevance": 95,
       "references": [
         {
           "name": "MDN Reference",
@@ -26596,7 +26650,7 @@
         }
       ],
       "syntax": "none | <transform-list>",
-      "relevance": 91,
+      "relevance": 92,
       "references": [
         {
           "name": "MDN Reference",
@@ -26835,7 +26889,7 @@
         "O12.1"
       ],
       "syntax": "<time>#",
-      "relevance": 70,
+      "relevance": 71,
       "references": [
         {
           "name": "MDN Reference",
@@ -26908,7 +26962,7 @@
         }
       ],
       "syntax": "none | <single-transition-property>#",
-      "relevance": 70,
+      "relevance": 71,
       "references": [
         {
           "name": "MDN Reference",
@@ -27420,7 +27474,7 @@
       ],
       "atRule": "@font-face",
       "syntax": "<unicode-range-token>#",
-      "relevance": 71,
+      "relevance": 72,
       "description": "@font-face descriptor. Defines the set of Unicode codepoints that may be supported by the font face for which it is declared.",
       "restrictions": [
         "unicode-range"
@@ -30439,7 +30493,7 @@
         }
       ],
       "syntax": "normal | <length>",
-      "relevance": 56,
+      "relevance": 55,
       "references": [
         {
           "name": "MDN Reference",
@@ -30674,7 +30728,7 @@
         }
       ],
       "syntax": "normal | reset | <number [0,∞]> || <percentage [0,∞]>",
-      "relevance": 65,
+      "relevance": 63,
       "references": [
         {
           "name": "MDN Reference",
@@ -31380,7 +31434,8 @@
       "relevance": 50,
       "browsers": [
         "E125",
-        "FFpreview",
+        "FF147",
+        "FFA147",
         "S26",
         "SM26",
         "C125",
@@ -31394,7 +31449,8 @@
         }
       ],
       "baseline": {
-        "status": "false"
+        "status": "low",
+        "baseline_low_date": "2026-01-13"
       },
       "description": "The anchor-name property declares that an element is an anchor element, and gives it a list of anchor names to be targeted by."
     },
@@ -31404,15 +31460,23 @@
       "relevance": 50,
       "browsers": [
         "E131",
-        "FFpreview",
+        "FF147",
+        "FFA147",
         "S26",
         "SM26",
         "C131",
         "CA131",
         "O116"
       ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/anchor-scope"
+        }
+      ],
       "baseline": {
-        "status": "false"
+        "status": "low",
+        "baseline_low_date": "2026-01-13"
       },
       "description": "This property scopes the specified anchor names, and lookups for these anchor names, to this element’s subtree"
     },
@@ -31437,15 +31501,16 @@
         }
       ],
       "baseline": {
-        "status": "low",
-        "baseline_low_date": "2023-07-04"
+        "status": "high",
+        "baseline_low_date": "2023-07-04",
+        "baseline_high_date": "2026-01-04"
       },
       "description": "The composite operation to use when multiple animations affect the same property."
     },
     {
       "name": "animation-range",
       "syntax": "[ <'animation-range-start'> <'animation-range-end'>? ]#",
-      "relevance": 50,
+      "relevance": 51,
       "browsers": [
         "E115",
         "S26",
@@ -31514,7 +31579,7 @@
     {
       "name": "animation-timeline",
       "syntax": "<single-animation-timeline>#",
-      "relevance": 50,
+      "relevance": 51,
       "browsers": [
         "E115",
         "S26",
@@ -31535,9 +31600,18 @@
       "description": "Specifies the names of one or more @scroll-timeline at-rules to describe the element's scroll animations."
     },
     {
+      "name": "animation-trigger",
+      "syntax": "[ none | [ <dashed-ident> <animation-action>+ ]+ ]#",
+      "relevance": 50,
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
+    },
+    {
       "name": "appearance",
       "syntax": "none | auto | <compat-auto> | <compat-special>",
-      "relevance": 72,
+      "relevance": 73,
       "browsers": [
         "E84",
         "FF80",
@@ -31591,7 +31665,7 @@
     {
       "name": "backdrop-filter",
       "syntax": "none | <filter-value-list>",
-      "relevance": 65,
+      "relevance": 66,
       "browsers": [
         "E79",
         "FF103",
@@ -31626,10 +31700,83 @@
         "CA18",
         "O15"
       ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/baseline-shift"
+        }
+      ],
       "baseline": {
         "status": "false"
       },
       "description": "Allows repositioning of the dominant-baseline relative to the dominant-baseline of the parent text content element. The shifted object might be a sub- or superscript."
+    },
+    {
+      "name": "baseline-source",
+      "syntax": "auto | first | last",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E111",
+            "FF115",
+            "FFA115",
+            "C111",
+            "CA111",
+            "O97"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "first",
+          "browsers": [
+            "E111",
+            "FF115",
+            "FFA115",
+            "C111",
+            "CA111",
+            "O97"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "last",
+          "browsers": [
+            "E111",
+            "FF115",
+            "FFA115",
+            "C111",
+            "CA111",
+            "O97"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
+      "relevance": 50,
+      "browsers": [
+        "E111",
+        "FF115",
+        "FFA115",
+        "C111",
+        "CA111",
+        "O97"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/baseline-source"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
     },
     {
       "name": "border-block",
@@ -32176,17 +32323,20 @@
     },
     {
       "name": "caret",
-      "syntax": "<'caret-color'> || <'caret-shape'>",
+      "syntax": "<'caret-color'> || <'caret-animation'> || <'caret-shape'>",
       "relevance": 50,
       "description": "Shorthand for setting caret-color and caret-shape."
     },
     {
-      "name": "caret-shape",
-      "syntax": "auto | bar | block | underscore",
+      "name": "caret-animation",
+      "syntax": "auto | manual",
       "values": [
         {
           "name": "auto",
           "browsers": [
+            "E140",
+            "C140",
+            "CA140",
             "O124"
           ],
           "baseline": {
@@ -32194,26 +32344,11 @@
           }
         },
         {
-          "name": "bar",
+          "name": "manual",
           "browsers": [
-            "O124"
-          ],
-          "baseline": {
-            "status": "false"
-          }
-        },
-        {
-          "name": "block",
-          "browsers": [
-            "O124"
-          ],
-          "baseline": {
-            "status": "false"
-          }
-        },
-        {
-          "name": "underscore",
-          "browsers": [
+            "E140",
+            "C140",
+            "CA140",
             "O124"
           ],
           "baseline": {
@@ -32223,7 +32358,76 @@
       ],
       "relevance": 50,
       "browsers": [
+        "E140",
+        "C140",
+        "CA140",
         "O124"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/caret-animation"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
+    },
+    {
+      "name": "caret-shape",
+      "syntax": "auto | bar | block | underscore",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E144",
+            "C144",
+            "CA144"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "bar",
+          "browsers": [
+            "E144",
+            "C144",
+            "CA144"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "block",
+          "browsers": [
+            "E144",
+            "C144",
+            "CA144"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "underscore",
+          "browsers": [
+            "E144",
+            "C144",
+            "CA144"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
+      "relevance": 50,
+      "browsers": [
+        "E144",
+        "C144",
+        "CA144"
       ],
       "references": [
         {
@@ -32262,6 +32466,69 @@
         "baseline_high_date": "2024-07-11"
       },
       "description": "The color-scheme CSS property allows an element to indicate which color schemes it can comfortably be rendered in."
+    },
+    {
+      "name": "column-height",
+      "syntax": "auto | <length [0,∞]>",
+      "relevance": 50,
+      "browsers": [
+        "E145",
+        "C145",
+        "CA145"
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
+    },
+    {
+      "name": "column-wrap",
+      "syntax": "auto | nowrap | wrap",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E145",
+            "C145",
+            "CA145"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "nowrap",
+          "browsers": [
+            "E145",
+            "C145",
+            "CA145"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "wrap",
+          "browsers": [
+            "E145",
+            "C145",
+            "CA145"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
+      "relevance": 50,
+      "browsers": [
+        "E145",
+        "C145",
+        "CA145"
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
     },
     {
       "name": "contain-intrinsic-block-size",
@@ -32344,7 +32611,7 @@
     {
       "name": "contain-intrinsic-size",
       "syntax": "[ auto? [ none | <length> ] ]{1,2}",
-      "relevance": 53,
+      "relevance": 54,
       "browsers": [
         "E83",
         "FF107",
@@ -32396,7 +32663,7 @@
     {
       "name": "container",
       "syntax": "<'container-name'> [ / <'container-type'> ]?",
-      "relevance": 53,
+      "relevance": 54,
       "browsers": [
         "E105",
         "FF110",
@@ -32450,7 +32717,7 @@
     {
       "name": "container-type",
       "syntax": "normal | [ [ size | inline-size ] || scroll-state ]",
-      "relevance": 54,
+      "relevance": 56,
       "browsers": [
         "E105",
         "FF110",
@@ -32530,7 +32797,7 @@
           }
         }
       ],
-      "relevance": 52,
+      "relevance": 54,
       "browsers": [
         "E85",
         "FF125",
@@ -32552,6 +32819,363 @@
         "baseline_low_date": "2024-09-16"
       },
       "description": "Controls whether or not an element renders its contents at all, along with forcing a strong set of containments, allowing user agents to potentially omit large swathes of layout and rendering work until it becomes needed."
+    },
+    {
+      "name": "corner-block-end-shape",
+      "syntax": "<corner-shape-value>{1,2}",
+      "relevance": 50,
+      "browsers": [
+        "E139",
+        "C139",
+        "CA139",
+        "O123"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-block-end-shape"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
+    },
+    {
+      "name": "corner-block-start-shape",
+      "syntax": "<corner-shape-value>{1,2}",
+      "relevance": 50,
+      "browsers": [
+        "E139",
+        "C139",
+        "CA139",
+        "O123"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-block-start-shape"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
+    },
+    {
+      "name": "corner-bottom-shape",
+      "syntax": "<corner-shape-value>{1,2}",
+      "relevance": 50,
+      "browsers": [
+        "E139",
+        "C139",
+        "CA139",
+        "O123"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-bottom-shape"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
+    },
+    {
+      "name": "corner-bottom-left-shape",
+      "syntax": "<corner-shape-value>",
+      "relevance": 50,
+      "browsers": [
+        "E139",
+        "C139",
+        "CA139",
+        "O123"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-bottom-left-shape"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
+    },
+    {
+      "name": "corner-bottom-right-shape",
+      "syntax": "<corner-shape-value>",
+      "relevance": 50,
+      "browsers": [
+        "E139",
+        "C139",
+        "CA139",
+        "O123"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-bottom-right-shape"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
+    },
+    {
+      "name": "corner-end-end-shape",
+      "syntax": "<corner-shape-value>",
+      "relevance": 50,
+      "browsers": [
+        "E139",
+        "C139",
+        "CA139",
+        "O123"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-end-end-shape"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
+    },
+    {
+      "name": "corner-end-start-shape",
+      "syntax": "<corner-shape-value>",
+      "relevance": 50,
+      "browsers": [
+        "E139",
+        "C139",
+        "CA139",
+        "O123"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-end-start-shape"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
+    },
+    {
+      "name": "corner-inline-end-shape",
+      "syntax": "<corner-shape-value>{1,2}",
+      "relevance": 50,
+      "browsers": [
+        "E139",
+        "C139",
+        "CA139",
+        "O123"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-inline-end-shape"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
+    },
+    {
+      "name": "corner-inline-start-shape",
+      "syntax": "<corner-shape-value>{1,2}",
+      "relevance": 50,
+      "browsers": [
+        "E139",
+        "C139",
+        "CA139",
+        "O123"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-inline-start-shape"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
+    },
+    {
+      "name": "corner-left-shape",
+      "syntax": "<corner-shape-value>{1,2}",
+      "relevance": 50,
+      "browsers": [
+        "E139",
+        "C139",
+        "CA139",
+        "O123"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-left-shape"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
+    },
+    {
+      "name": "corner-right-shape",
+      "syntax": "<corner-shape-value>{1,2}",
+      "relevance": 50,
+      "browsers": [
+        "E139",
+        "C139",
+        "CA139",
+        "O123"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-right-shape"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
+    },
+    {
+      "name": "corner-shape",
+      "syntax": "<corner-shape-value>{1,4}",
+      "relevance": 50,
+      "browsers": [
+        "E139",
+        "C139",
+        "CA139",
+        "O123"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-shape"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
+    },
+    {
+      "name": "corner-start-start-shape",
+      "syntax": "<corner-shape-value>",
+      "relevance": 50,
+      "browsers": [
+        "E139",
+        "C139",
+        "CA139",
+        "O123"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-start-start-shape"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
+    },
+    {
+      "name": "corner-start-end-shape",
+      "syntax": "<corner-shape-value>",
+      "relevance": 50,
+      "browsers": [
+        "E139",
+        "C139",
+        "CA139",
+        "O123"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-start-end-shape"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
+    },
+    {
+      "name": "corner-top-shape",
+      "syntax": "<corner-shape-value>{1,2}",
+      "relevance": 50,
+      "browsers": [
+        "E139",
+        "C139",
+        "CA139",
+        "O123"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-top-shape"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
+    },
+    {
+      "name": "corner-top-left-shape",
+      "syntax": "<corner-shape-value>",
+      "relevance": 50,
+      "browsers": [
+        "E139",
+        "C139",
+        "CA139",
+        "O123"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-top-left-shape"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
+    },
+    {
+      "name": "corner-top-right-shape",
+      "syntax": "<corner-shape-value>",
+      "relevance": 50,
+      "browsers": [
+        "E139",
+        "C139",
+        "CA139",
+        "O123"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/corner-top-right-shape"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
     },
     {
       "name": "counter-set",
@@ -32818,15 +33442,38 @@
       "description": "The dominant-baseline CSS property specifies the specific baseline used to align the box's text and inline-level contents. It also indicates the default alignment baseline of any boxes participating in baseline alignment in the box's alignment context. If present, it overrides the shape's dominant-baseline attribute."
     },
     {
+      "name": "dynamic-range-limit",
+      "syntax": "standard | no-limit | constrained | <dynamic-range-limit-mix()>",
+      "relevance": 50,
+      "browsers": [
+        "E136",
+        "S26",
+        "SM26",
+        "C136",
+        "CA136",
+        "O121"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/dynamic-range-limit"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
+    },
+    {
       "name": "field-sizing",
-      "status": "experimental",
       "syntax": "content | fixed",
       "values": [
         {
           "name": "content",
           "browsers": [
             "E123",
-            "Spreview",
+            "S26.2",
+            "SM26.2",
             "C123",
             "CA123",
             "O109"
@@ -32839,7 +33486,8 @@
           "name": "fixed",
           "browsers": [
             "E123",
-            "Spreview",
+            "S26.2",
+            "SM26.2",
             "C123",
             "CA123",
             "O109"
@@ -32852,7 +33500,8 @@
       "relevance": 50,
       "browsers": [
         "E123",
-        "Spreview",
+        "S26.2",
+        "SM26.2",
         "C123",
         "CA123",
         "O109"
@@ -32909,7 +33558,7 @@
           }
         }
       ],
-      "relevance": 50,
+      "relevance": 51,
       "browsers": [
         "E17",
         "FF62",
@@ -33533,7 +34182,7 @@
     {
       "name": "inset",
       "syntax": "<'top'>{1,4}",
-      "relevance": 68,
+      "relevance": 69,
       "browsers": [
         "E87",
         "FF66",
@@ -33560,7 +34209,7 @@
     {
       "name": "inset-block",
       "syntax": "<'top'>{1,2}",
-      "relevance": 53,
+      "relevance": 54,
       "browsers": [
         "E87",
         "FF63",
@@ -33641,7 +34290,7 @@
     {
       "name": "inset-inline",
       "syntax": "<'top'>{1,2}",
-      "relevance": 54,
+      "relevance": 55,
       "browsers": [
         "E87",
         "FF63",
@@ -33668,7 +34317,7 @@
     {
       "name": "inset-inline-end",
       "syntax": "<'top'>",
-      "relevance": 56,
+      "relevance": 57,
       "browsers": [
         "E87",
         "FF63",
@@ -33695,7 +34344,7 @@
     {
       "name": "inset-inline-start",
       "syntax": "<'top'>",
-      "relevance": 57,
+      "relevance": 58,
       "browsers": [
         "E87",
         "FF63",
@@ -33749,7 +34398,7 @@
           }
         }
       ],
-      "relevance": 50,
+      "relevance": 51,
       "browsers": [
         "E129",
         "C129",
@@ -33766,6 +34415,113 @@
         "status": "false"
       },
       "description": "The interpolate-size CSS property allows you to enable animations and transitions between a <length-percentage> value and an intrinsic size value such as auto, fit-content, or max-content."
+    },
+    {
+      "name": "interactivity",
+      "syntax": "auto | inert",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E135",
+            "C135",
+            "CA135",
+            "O120"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "inert",
+          "browsers": [
+            "E135",
+            "C135",
+            "CA135",
+            "O120"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
+      "relevance": 50,
+      "browsers": [
+        "E135",
+        "C135",
+        "CA135",
+        "O120"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/interactivity"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
+    },
+    {
+      "name": "interest-delay",
+      "syntax": "<'interest-delay-start'>{1,2}",
+      "relevance": 50,
+      "browsers": [
+        "E142",
+        "C142",
+        "CA142"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/interest-delay"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
+    },
+    {
+      "name": "interest-delay-end",
+      "syntax": "normal | <time>",
+      "relevance": 50,
+      "browsers": [
+        "E142",
+        "C142",
+        "CA142"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/interest-delay-end"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
+    },
+    {
+      "name": "interest-delay-start",
+      "syntax": "normal | <time>",
+      "relevance": 50,
+      "browsers": [
+        "E142",
+        "C142",
+        "CA142"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/interest-delay-start"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
     },
     {
       "name": "justify-tracks",
@@ -33802,7 +34558,7 @@
     {
       "name": "margin-block",
       "syntax": "<'margin-top'>{1,2}",
-      "relevance": 56,
+      "relevance": 57,
       "browsers": [
         "E87",
         "FF66",
@@ -33829,7 +34585,7 @@
     {
       "name": "margin-inline",
       "syntax": "<'margin-top'>{1,2}",
-      "relevance": 57,
+      "relevance": 58,
       "browsers": [
         "E87",
         "FF66",
@@ -33894,7 +34650,7 @@
     {
       "name": "mask",
       "syntax": "<mask-layer>#",
-      "relevance": 59,
+      "relevance": 60,
       "browsers": [
         "E120",
         "FF53",
@@ -34080,7 +34836,7 @@
     {
       "name": "mask-composite",
       "syntax": "<compositing-operator>#",
-      "relevance": 54,
+      "relevance": 55,
       "browsers": [
         "E120",
         "FF53",
@@ -34141,31 +34897,44 @@
           "name": "normal",
           "browsers": [
             "E109",
+            "FF146",
+            "FFA146",
+            "S26.2",
+            "SM26.2",
             "C109",
             "CA109",
             "O95"
           ],
           "baseline": {
-            "status": "false"
+            "status": "low",
+            "baseline_low_date": "2025-12-12"
           }
         },
         {
           "name": "compact",
           "browsers": [
             "E109",
+            "FF146",
+            "FFA146",
+            "S26.2",
+            "SM26.2",
             "C109",
             "CA109",
             "O95"
           ],
           "baseline": {
-            "status": "false"
+            "status": "low",
+            "baseline_low_date": "2025-12-12"
           }
         }
       ],
       "relevance": 50,
       "browsers": [
         "E109",
-        "Spreview",
+        "FF146",
+        "FFA146",
+        "S26.2",
+        "SM26.2",
         "C109",
         "CA109",
         "O95"
@@ -34177,7 +34946,8 @@
         }
       ],
       "baseline": {
-        "status": "false"
+        "status": "low",
+        "baseline_low_date": "2025-12-12"
       },
       "description": "Used for positioning superscript during the layout of MathML scripted elements."
     },
@@ -34465,7 +35235,7 @@
           }
         }
       ],
-      "relevance": 53,
+      "relevance": 54,
       "browsers": [
         "E79",
         "FF66",
@@ -35182,7 +35952,7 @@
     {
       "name": "padding-inline",
       "syntax": "<'padding-top'>{1,2}",
-      "relevance": 60,
+      "relevance": 61,
       "browsers": [
         "E87",
         "FF66",
@@ -35236,7 +36006,7 @@
     {
       "name": "place-content",
       "syntax": "<'align-content'> <'justify-content'>?",
-      "relevance": 56,
+      "relevance": 57,
       "browsers": [
         "E79",
         "FF45",
@@ -35263,7 +36033,7 @@
     {
       "name": "place-items",
       "syntax": "<'align-items'> <'justify-items'>?",
-      "relevance": 57,
+      "relevance": 58,
       "browsers": [
         "E79",
         "FF45",
@@ -35323,11 +36093,12 @@
     },
     {
       "name": "position-anchor",
-      "syntax": "auto | <anchor-name>",
+      "syntax": "auto | none | <anchor-name>",
       "relevance": 50,
       "browsers": [
         "E125",
-        "FFpreview",
+        "FF147",
+        "FFA147",
         "S26",
         "SM26",
         "C125",
@@ -35341,7 +36112,8 @@
         }
       ],
       "baseline": {
-        "status": "false"
+        "status": "low",
+        "baseline_low_date": "2026-01-13"
       },
       "description": "The position-anchor property defines the default anchor specifier for all anchor functions on the element, allowing multiple elements to use the same set of anchor functions (and position options lists!) while changing which anchor element each is referring to."
     },
@@ -35351,7 +36123,8 @@
       "relevance": 50,
       "browsers": [
         "E129",
-        "FFpreview",
+        "FF147",
+        "FFA147",
         "S26",
         "SM26",
         "C129",
@@ -35365,7 +36138,8 @@
         }
       ],
       "baseline": {
-        "status": "false"
+        "status": "low",
+        "baseline_low_date": "2026-01-13"
       },
       "description": "The position-area CSS property enables an anchor-positioned element to be positioned relative to the edges of its associated anchor element by placing the positioned element on one or more tiles of an implicit 3x3 grid, where the anchoring element is the center cell."
     },
@@ -35375,7 +36149,8 @@
       "relevance": 50,
       "browsers": [
         "E125",
-        "FFpreview",
+        "FF147",
+        "FFA147",
         "S26",
         "SM26",
         "C125",
@@ -35389,7 +36164,8 @@
         }
       ],
       "baseline": {
-        "status": "false"
+        "status": "low",
+        "baseline_low_date": "2026-01-13"
       },
       "description": "This shorthand sets both position-try-options and position-try-order. If <'position-try-order'> is omitted, it’s set to the property’s initial value."
     },
@@ -35399,7 +36175,8 @@
       "relevance": 50,
       "browsers": [
         "E128",
-        "FFpreview",
+        "FF147",
+        "FFA147",
         "S26",
         "SM26",
         "C128",
@@ -35413,7 +36190,8 @@
         }
       ],
       "baseline": {
-        "status": "false"
+        "status": "low",
+        "baseline_low_date": "2026-01-13"
       },
       "description": "The position-try-fallbacks CSS property enables you to specify a list of one or more alternative position try fallback options for anchor-positioned elements to be placed relative to their associated anchor elements. When the element would otherwise overflow its inset-modified containing block, the browser will try placing the positioned element in these different fallback positions, in the order provided, until it finds a value that stops it from overflowing its container or the viewport."
     },
@@ -35442,12 +36220,14 @@
     },
     {
       "name": "position-visibility",
-      "status": "experimental",
       "syntax": "always | [ anchors-valid || anchors-visible || no-overflow ]",
       "relevance": 50,
       "browsers": [
         "E125",
-        "FFpreview",
+        "FF147",
+        "FFA147",
+        "S26.2",
+        "SM26.2",
         "C125",
         "CA125",
         "O111"
@@ -35459,7 +36239,8 @@
         }
       ],
       "baseline": {
-        "status": "false"
+        "status": "low",
+        "baseline_low_date": "2026-01-13"
       },
       "description": "There are times when an element’s anchors are not appropriate for positioning the element with, and it would be better to simply not display the element at all. position-visibility provides several conditions where this could be the case."
     },
@@ -35553,6 +36334,134 @@
       "description": "The r CSS property defines the radius of a circle. It can only be used with the SVG circle element. If present, it overrides the circle's r attribute."
     },
     {
+      "name": "reading-flow",
+      "syntax": "normal | source-order | flex-visual | flex-flow | grid-rows | grid-columns | grid-order",
+      "values": [
+        {
+          "name": "normal",
+          "browsers": [
+            "E137",
+            "C137",
+            "CA137",
+            "O121"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "source-order",
+          "browsers": [
+            "E137",
+            "C137",
+            "CA137",
+            "O121"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "flex-visual",
+          "browsers": [
+            "E137",
+            "C137",
+            "CA137",
+            "O121"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "flex-flow",
+          "browsers": [
+            "E137",
+            "C137",
+            "CA137",
+            "O121"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "grid-rows",
+          "browsers": [
+            "E137",
+            "C137",
+            "CA137",
+            "O121"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "grid-columns",
+          "browsers": [
+            "E137",
+            "C137",
+            "CA137",
+            "O121"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "grid-order",
+          "browsers": [
+            "E137",
+            "C137",
+            "CA137",
+            "O121"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
+      "relevance": 50,
+      "browsers": [
+        "E137",
+        "C137",
+        "CA137",
+        "O121"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/reading-flow"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
+    },
+    {
+      "name": "reading-order",
+      "syntax": "<integer>",
+      "relevance": 50,
+      "browsers": [
+        "E137",
+        "C137",
+        "CA137",
+        "O121"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/reading-order"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
+    },
+    {
       "name": "rotate",
       "syntax": "none | <angle> | [ x | y | z | <number>{3} ] && <angle>",
       "relevance": 54,
@@ -35582,7 +36491,7 @@
     {
       "name": "row-gap",
       "syntax": "normal | <length-percentage>",
-      "relevance": 62,
+      "relevance": 63,
       "browsers": [
         "E16",
         "FF52",
@@ -35679,7 +36588,7 @@
     {
       "name": "scale",
       "syntax": "none | [ <number> | <percentage> ]{1,3}",
-      "relevance": 55,
+      "relevance": 57,
       "browsers": [
         "E104",
         "FF72",
@@ -36043,6 +36952,65 @@
       "description": "The scroll-margin-top property defines the top margin of the scroll snap area that is used for snapping this box to the snapport. The scroll snap area is determined by taking the transformed border box, finding its rectangular bounding box (axis-aligned in the scroll container’s coordinate space), then adding the specified outsets."
     },
     {
+      "name": "scroll-marker-group",
+      "syntax": "none | before | after",
+      "values": [
+        {
+          "name": "none",
+          "browsers": [
+            "E135",
+            "C135",
+            "CA135",
+            "O120"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "before",
+          "browsers": [
+            "E135",
+            "C135",
+            "CA135",
+            "O120"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "after",
+          "browsers": [
+            "E135",
+            "C135",
+            "CA135",
+            "O120"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
+      "relevance": 50,
+      "browsers": [
+        "E135",
+        "C135",
+        "CA135",
+        "O120"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-marker-group"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
+    },
+    {
       "name": "scroll-padding",
       "syntax": "[ auto | <length-percentage> ]{1,4}",
       "relevance": 53,
@@ -36342,7 +37310,7 @@
     {
       "name": "scroll-snap-align",
       "syntax": "[ none | start | end | center ]{1,2}",
-      "relevance": 55,
+      "relevance": 56,
       "browsers": [
         "E79",
         "FF68",
@@ -36468,6 +37436,53 @@
       "description": "The scroll-snap-type-y CSS property defines how strictly snap points are enforced on the vertical axis of the scroll container in case there is one.\n\nSpecifying any precise animations or physics used to enforce those snap points is not covered by this property but instead left up to the user agent."
     },
     {
+      "name": "scroll-target-group",
+      "syntax": "none | auto",
+      "values": [
+        {
+          "name": "none",
+          "browsers": [
+            "E140",
+            "C140",
+            "CA140",
+            "O124"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "auto",
+          "browsers": [
+            "E140",
+            "C140",
+            "CA140",
+            "O124"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
+      "relevance": 50,
+      "browsers": [
+        "E140",
+        "C140",
+        "CA140",
+        "O124"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/scroll-target-group"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
+    },
+    {
       "name": "scroll-timeline",
       "syntax": "[ <'scroll-timeline-name'> <'scroll-timeline-axis'>? ]#",
       "relevance": 50,
@@ -36544,6 +37559,8 @@
         "E121",
         "FF64",
         "FFA64",
+        "S26.2",
+        "SM26.2",
         "C121",
         "CA121",
         "O107"
@@ -36555,14 +37572,15 @@
         }
       ],
       "baseline": {
-        "status": "false"
+        "status": "low",
+        "baseline_low_date": "2025-12-12"
       },
       "description": "The scrollbar-color CSS property sets the color of the scrollbar track and thumb."
     },
     {
       "name": "scrollbar-gutter",
       "syntax": "auto | stable && both-edges?",
-      "relevance": 55,
+      "relevance": 56,
       "browsers": [
         "E94",
         "FF97",
@@ -36641,7 +37659,7 @@
           }
         }
       ],
-      "relevance": 69,
+      "relevance": 70,
       "browsers": [
         "E121",
         "FF64",
@@ -36880,6 +37898,25 @@
       "description": "The text-combine-upright CSS property specifies the combination of multiple characters into the space of a single character. If the combined text is wider than 1em, the user agent must fit the contents within 1em. The resulting composition is treated as a single upright glyph for layout and decoration. This property only has an effect in vertical writing modes.\n\nThis is used to produce an effect that is known as tate-chū-yoko (縦中横) in Japanese, or as 直書橫向 in Chinese."
     },
     {
+      "name": "text-decoration-inset",
+      "syntax": "<length>{1,2} | auto",
+      "relevance": 50,
+      "browsers": [
+        "FF146",
+        "FFA146"
+      ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration-inset"
+        }
+      ],
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
+    },
+    {
       "name": "text-decoration-skip",
       "status": "experimental",
       "syntax": "none | [ objects || [ spaces | [ leading-spaces || trailing-spaces ] ] || edges || box-decoration ]",
@@ -36979,7 +38016,7 @@
     },
     {
       "name": "text-decoration-thickness",
-      "syntax": "auto | from-font | <length> | <percentage> ",
+      "syntax": "auto | from-font | <length> | <percentage>",
       "relevance": 56,
       "browsers": [
         "E89",
@@ -37116,7 +38153,7 @@
       "name": "text-size-adjust",
       "status": "experimental",
       "syntax": "none | auto | <percentage>",
-      "relevance": 60,
+      "relevance": 61,
       "browsers": [
         "E79",
         "C54",
@@ -37208,8 +38245,8 @@
     },
     {
       "name": "text-underline-offset",
-      "syntax": "auto | <length> | <percentage> ",
-      "relevance": 57,
+      "syntax": "auto | <length> | <percentage>",
+      "relevance": 58,
       "browsers": [
         "E87",
         "FF70",
@@ -37417,7 +38454,7 @@
     {
       "name": "timeline-scope",
       "syntax": "none | <dashed-ident>#",
-      "relevance": 50,
+      "relevance": 51,
       "browsers": [
         "E116",
         "S26",
@@ -37436,6 +38473,69 @@
         "status": "false"
       },
       "description": "The timeline-scope CSS property modifies the scope of a named animation timeline."
+    },
+    {
+      "name": "timeline-trigger",
+      "syntax": "none | [ <'timeline-trigger-name'> <'timeline-trigger-source'> <'timeline-trigger-range'> [ '/' <'timeline-trigger-exit-range'> ]? ]#",
+      "relevance": 50,
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
+    },
+    {
+      "name": "timeline-trigger-name",
+      "syntax": "none | <dashed-ident>#",
+      "relevance": 50,
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
+    },
+    {
+      "name": "timeline-trigger-exit-range",
+      "syntax": "[ <'timeline-trigger-exit-range-start'> <'timeline-trigger-exit-range-end'>? ]#",
+      "relevance": 50,
+      "description": ""
+    },
+    {
+      "name": "timeline-trigger-exit-range-end",
+      "syntax": "[ auto | normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
+      "relevance": 50,
+      "description": ""
+    },
+    {
+      "name": "timeline-trigger-exit-range-start",
+      "syntax": "[ auto | normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
+      "relevance": 50,
+      "description": ""
+    },
+    {
+      "name": "timeline-trigger-range",
+      "syntax": "[ <'timeline-trigger-range-start'> <'timeline-trigger-range-end'>? ]#",
+      "relevance": 50,
+      "description": ""
+    },
+    {
+      "name": "timeline-trigger-range-end",
+      "syntax": "[ normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
+      "relevance": 50,
+      "description": ""
+    },
+    {
+      "name": "timeline-trigger-range-start",
+      "syntax": "[ normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
+      "relevance": 50,
+      "description": ""
+    },
+    {
+      "name": "timeline-trigger-source",
+      "syntax": "<single-animation-timeline>#",
+      "relevance": 50,
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
     },
     {
       "name": "transform-box",
@@ -37582,7 +38682,7 @@
     {
       "name": "translate",
       "syntax": "none | <length-percentage> [ <length-percentage> <length>? ]?",
-      "relevance": 53,
+      "relevance": 54,
       "browsers": [
         "E104",
         "FF72",
@@ -37605,6 +38705,15 @@
         "baseline_high_date": "2025-02-05"
       },
       "description": "The translate CSS property allows you to specify translation transforms individually and independently of the transform property. This maps better to typical user interface usage, and saves having to remember the exact order of transform functions to specify in the transform value."
+    },
+    {
+      "name": "trigger-scope",
+      "syntax": "none | all | <dashed-ident>#",
+      "relevance": 50,
+      "baseline": {
+        "status": "false"
+      },
+      "description": ""
     },
     {
       "name": "vector-effect",
@@ -37683,7 +38792,7 @@
     {
       "name": "view-timeline",
       "syntax": "[ <'view-timeline-name'> [ <'view-timeline-axis'> || <'view-timeline-inset'> ]? ]#",
-      "relevance": 50,
+      "relevance": 51,
       "browsers": [
         "E115",
         "S26",
@@ -37801,7 +38910,7 @@
     {
       "name": "view-transition-name",
       "syntax": "none | <custom-ident> | match-element",
-      "relevance": 55,
+      "relevance": 56,
       "browsers": [
         "E111",
         "FF144",
@@ -37961,7 +39070,7 @@
     {
       "name": "x",
       "syntax": "<length> | <percentage>",
-      "relevance": 51,
+      "relevance": 50,
       "browsers": [
         "E79",
         "FF69",
@@ -37988,7 +39097,7 @@
     {
       "name": "y",
       "syntax": "<length> | <percentage>",
-      "relevance": 51,
+      "relevance": 50,
       "browsers": [
         "E79",
         "FF69",
@@ -38047,14 +39156,14 @@
           "name": "optional"
         }
       ],
-      "relevance": 75,
+      "relevance": 77,
       "description": "The font-display descriptor determines how a font face is displayed based on whether and when it is downloaded and ready to use."
     },
     {
       "name": "line-gap-override",
       "atRule": "@font-face",
       "syntax": "normal | <percentage>",
-      "relevance": 50,
+      "relevance": 51,
       "description": "Describes the line-gap metric of a font."
     },
     {
@@ -38095,7 +39204,18 @@
     {
       "name": "page-orientation",
       "atRule": "@page",
-      "syntax": "upright | rotate-left | rotate-right ",
+      "syntax": "upright | rotate-left | rotate-right",
+      "values": [
+        {
+          "name": "upright"
+        },
+        {
+          "name": "rotate-left"
+        },
+        {
+          "name": "rotate-right"
+        }
+      ],
       "relevance": 50,
       "description": "The page-orientation CSS descriptor for the @page at-rule controls the rotation of a printed page. It handles the flow of content across pages when the orientation of a page is changed. This behavior differs from the size descriptor in that a user can define the direction in which to rotate the page."
     },
@@ -38118,7 +39238,7 @@
       "name": "initial-value",
       "atRule": "@property",
       "syntax": "<declaration-value>?",
-      "relevance": 52,
+      "relevance": 53,
       "description": "Specifies the initial value of the custom property registration represented by the @property rule, controlling the property’s initial value."
     },
     {
@@ -38748,6 +39868,7 @@
           "browsers": [
             "E79",
             "FF47",
+            "FFA47",
             "S13",
             "SM12.2",
             "C42",
@@ -38755,7 +39876,9 @@
             "O29"
           ],
           "baseline": {
-            "status": "false"
+            "status": "high",
+            "baseline_low_date": "2020-01-15",
+            "baseline_high_date": "2022-07-15"
           }
         },
         {
@@ -39457,6 +40580,10 @@
             {
               "name": "W3C Reference",
               "url": "https://drafts.csswg.org/mediaqueries-5/#descdef-media-scan"
+            },
+            {
+              "name": "MDN Reference",
+              "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@media/scan"
             }
           ],
           "type": "discrete",
@@ -39469,7 +40596,22 @@
               "name": "progressive"
             }
           ],
-          "description": "The scan CSS media feature is used to apply CSS styles based on the scanning process of the output device."
+          "description": "The scan CSS media feature is used to apply CSS styles based on the scanning process of the output device.",
+          "browsers": [
+            "E104",
+            "FF63",
+            "FFA63",
+            "S16.4",
+            "SM16.4",
+            "C104",
+            "CA104",
+            "O90"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2023-03-27",
+            "baseline_high_date": "2025-09-27"
+          }
         },
         {
           "name": "scripting",
@@ -39912,7 +41054,8 @@
       "description": "The @position-try CSS at-rule is used to define a custom position try fallback option, which can be used to define positioning and alignment for anchor-positioned elements. One or more sets of position try fallback options can be applied to the anchored element via the position-try-fallbacks property or position-try shorthand. When the positioned element is moved to a position where it starts to overflow its containing block or the viewport, the browser will select the first position try fallback option it finds that places the positioned element fully back on-screen.",
       "browsers": [
         "E125",
-        "FFpreview",
+        "FF147",
+        "FFA147",
         "S26",
         "SM26",
         "C125",
@@ -39926,7 +41069,8 @@
         }
       ],
       "baseline": {
-        "status": "false"
+        "status": "low",
+        "baseline_low_date": "2026-01-13"
       }
     },
     {
@@ -39934,6 +41078,8 @@
       "description": "The @scope CSS at-rule enables you to select elements in specific DOM subtrees, targeting elements precisely without writing overly-specific selectors that are hard to override, and without coupling your selectors too tightly to the DOM structure.",
       "browsers": [
         "E118",
+        "FF146",
+        "FFA146",
         "S17.4",
         "SM17.4",
         "C118",
@@ -39947,7 +41093,8 @@
         }
       ],
       "baseline": {
-        "status": "false"
+        "status": "low",
+        "baseline_low_date": "2025-12-09"
       }
     },
     {
@@ -40229,8 +41376,9 @@
         }
       ],
       "baseline": {
-        "status": "low",
-        "baseline_low_date": "2023-08-01"
+        "status": "high",
+        "baseline_low_date": "2023-08-01",
+        "baseline_high_date": "2026-02-01"
       },
       "description": "When printing double-sided documents, the page boxes on left and right pages may be different. This can be expressed through CSS pseudo-classes defined in the  page context."
     },
@@ -41442,14 +42590,23 @@
       "description": "",
       "browsers": [
         "E125",
+        "FF147",
+        "FFA147",
         "S18.2",
         "SM18.2",
         "C125",
         "CA125",
         "O111"
       ],
+      "references": [
+        {
+          "name": "MDN Reference",
+          "url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/:active-view-transition-type"
+        }
+      ],
       "baseline": {
-        "status": "false"
+        "status": "low",
+        "baseline_low_date": "2026-01-13"
       }
     },
     {
@@ -41457,8 +42614,6 @@
       "description": "The :autofill CSS pseudo-class matches when an input element has its value autofilled by the browser. The class stops matching if the user edits the field.",
       "browsers": [
         "E110",
-        "FF86",
-        "FFA86",
         "S15",
         "SM15",
         "C110",
@@ -41472,9 +42627,7 @@
         }
       ],
       "baseline": {
-        "status": "high",
-        "baseline_low_date": "2023-02-09",
-        "baseline_high_date": "2025-08-09"
+        "status": "false"
       }
     },
     {
@@ -41907,6 +43060,7 @@
       "browsers": [
         "E135",
         "C135",
+        "CA135",
         "O120"
       ],
       "references": [
@@ -43241,6 +44395,7 @@
       "browsers": [
         "E135",
         "C135",
+        "CA135",
         "O120"
       ],
       "references": [

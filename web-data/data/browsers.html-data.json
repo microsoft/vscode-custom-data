@@ -5248,6 +5248,8 @@
         {
           "name": "span",
           "browsers": [
+            "C1",
+            "CA18",
             "E12",
             "FF1",
             "FFA4",
@@ -5255,7 +5257,9 @@
             "SM3.2"
           ],
           "status": {
-            "baseline": false
+            "baseline": "high",
+            "baseline_low_date": "2015-07-29",
+            "baseline_high_date": "2018-01-29"
           }
         },
         {
@@ -6151,8 +6155,9 @@
             "SM6"
           ],
           "status": {
-            "baseline": "low",
-            "baseline_low_date": "2023-08-01"
+            "baseline": "high",
+            "baseline_low_date": "2023-08-01",
+            "baseline_high_date": "2026-02-01"
           }
         },
         {
@@ -6286,21 +6291,7 @@
           "valueSet": "im"
         },
         {
-          "name": "list",
-          "browsers": [
-            "C20",
-            "CA25",
-            "E12",
-            "FF4",
-            "FFA4",
-            "S12.1",
-            "SM12.2"
-          ],
-          "status": {
-            "baseline": "high",
-            "baseline_low_date": "2019-03-25",
-            "baseline_high_date": "2021-09-25"
-          }
+          "name": "list"
         },
         {
           "name": "max",
@@ -7087,6 +7078,7 @@
         "C20",
         "CA33",
         "E12",
+        "FF4",
         "S12.1",
         "SM12.2"
       ],
@@ -7348,8 +7340,9 @@
             "SM6"
           ],
           "status": {
-            "baseline": "low",
-            "baseline_low_date": "2023-08-01"
+            "baseline": "high",
+            "baseline_low_date": "2023-08-01",
+            "baseline_high_date": "2026-02-01"
           }
         },
         {
@@ -9216,15 +9209,15 @@
         "C61",
         "CA61",
         "E79",
-        "FF31",
-        "FFA31",
-        "S15.4",
-        "SM15.4"
+        "FF75",
+        "FFA79",
+        "S15.5",
+        "SM15.5"
       ],
       "status": {
         "baseline": "high",
-        "baseline_low_date": "2022-03-14",
-        "baseline_high_date": "2024-09-14"
+        "baseline_low_date": "2022-05-16",
+        "baseline_high_date": "2024-11-16"
       }
     },
     {
