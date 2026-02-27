@@ -36055,7 +36055,14 @@
         "baseline_low_date": "2020-01-15",
         "baseline_high_date": "2022-07-15"
       },
-      "description": "The CSS place-items shorthand property sets both the align-items and justify-items properties. The first value is the align-items property value, the second the justify-items one. If the second value is not present, the first value is also used for it."
+      "description": "The CSS place-items shorthand property sets both the align-items and justify-items properties. The first value is the align-items property value, the second the justify-items one. If the second value is not present, the first value is also used for it.",
+      "values": [
+        { "name": "center", "description": "The items are packed flush to each other toward the center of the alignment container." },
+        { "name": "start", "description": "The items are packed flush to each other toward the start edge of the alignment container." },
+        { "name": "end", "description": "The items are packed flush to each other toward the end edge of the alignment container." },
+        { "name": "stretch", "description": "If the combined size of the items is less than the size of the alignment container, any auto-sized items have their size increased equally." },
+        { "name": "baseline", "description": "All items are aligned such that their baselines align." }
+      ]
     },
     {
       "name": "place-self",
