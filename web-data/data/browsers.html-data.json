@@ -3471,11 +3471,7 @@
         },
         {
           "name": "importance",
-          "description": "Indicates the relative importance of the resource. Priority hints are delegated using the values:"
-        },
-        {
-          "name": "importance",
-          "description": "`auto`: Indicates **no preference**. The browser may use its own heuristics to decide the priority of the image.\n\n`high`: Indicates to the browser that the image is of **high** priority.\n\n`low`: Indicates to the browser that the image is of **low** priority."
+          "description": "Indicates the relative importance of the resource. Priority hints are delegated using the values:\n\n`auto`: Indicates **no preference**. The browser may use its own heuristics to decide the priority of the image.\n\n`high`: Indicates to the browser that the image is of **high** priority.\n\n`low`: Indicates to the browser that the image is of **low** priority."
         },
         {
           "name": "intrinsicsize",
