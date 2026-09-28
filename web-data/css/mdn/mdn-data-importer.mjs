@@ -6,6 +6,7 @@
 //@ts-check
 
 import mdnData from 'mdn-data';
+import { definitionSyntax } from 'css-tree';
 import mdnCompatData from '@mdn/browser-compat-data' with { type: 'json' };
 import { propertyDescriptions as mdnPropertyDescriptions, fetchDocFromMDN } from './mdn-documentation.mjs';
 
@@ -57,10 +58,9 @@ export async function addMDNProperties(vscProperties) {
     if (name) {
       const mdnProperty = allMDNProperties[name];
       if (mdnProperty) {
-        if (p.values) {
-          // use the handcrafted values, if available
-          mdnProperty.values = p.values;
-        }
+        // use the handcrafted values, if available. Otherwise keep the values from the MDN syntax,
+        // unless the restriction already makes the language service propose that family's keywords
+        mdnProperty.values = p.values?.length ? p.values : (proposesKeywords(p.restriction) ? undefined : mdnProperty.values);
         propertyMap[p.name] = {
           ...p,
           ...mdnProperty
@@ -128,12 +128,71 @@ function extractMDNProperties(atRule, mdnEntry, mdCompatEntry) {
   };
 }
 
+// restrictions the language service proposes the keywords of itself, e.g. `thin` for `line-width`.
+// `image` and `shape` are not in the list, those only propose functions.
+const keywordRestrictions = ['color', 'position', 'repeat', 'line-style', 'line-width', 'geometry-box', 'box', 'timing-function'];
+
+function proposesKeywords(restriction) {
+  return !!restriction && restriction.split(',').some(r => keywordRestrictions.includes(r.trim()));
+}
+
 function getValuesFromSytax(syntax) {
-  // collect the values if the syntax is simple (a | b | c)
-  if (/^[\w-]+(?:\s*\|\s*[\w-]+)*$/.test(syntax)) {
-    return syntax.split('|').map(e => e.trim()).map(name => ({ name }));
+  if (!syntax) {
+    return undefined;
   }
-  return undefined;
+  const keywords = new Set();
+  try {
+    collectKeywords(definitionSyntax.parse(syntax), keywords, true);
+  } catch {
+    return undefined; // syntax we can not parse
+  }
+  // the language service proposes these for every property
+  for (const cssWideKeyword of ['initial', 'inherit', 'unset']) {
+    keywords.delete(cssWideKeyword);
+  }
+  return keywords.size ? [...keywords].map(name => ({ name })) : undefined;
+}
+
+/**
+ * Collect the keywords a value can be made of, e.g. `pre` in `normal | pre | <'white-space-collapse'>`.
+ * A keyword of a sequence is collected as well, e.g. `dense` of `auto-flow && dense?`, so that it is
+ * proposed once the rest of the sequence is typed. Keywords of a nested type are only collected one
+ * level deep (`<transition-behavior-value>` -> `normal`, `allow-discrete`), so that a type such as
+ * `<color>` does not pull in the keywords of everything it references.
+ */
+function collectKeywords(node, keywords, resolveTypes) {
+  switch (node.type) {
+    case 'Keyword':
+      keywords.add(node.name);
+      break;
+    case 'Group':
+      // a function call, e.g. `ray( <angle> && contain? )`: its keywords are arguments, not values
+      if (!isFunctionCall(node)) {
+        node.terms.forEach(term => collectKeywords(term, keywords, resolveTypes));
+      }
+      break;
+    case 'Multiplier':
+      collectKeywords(node.term, keywords, resolveTypes);
+      break;
+    case 'Type': {
+      const syntax = resolveTypes ? mdnData.css.syntaxes[node.name]?.syntax : undefined;
+      if (syntax) {
+        collectKeywords(definitionSyntax.parse(syntax), keywords, false);
+      }
+      break;
+    }
+  }
+}
+
+/**
+ * Whether the group is the arguments of a function, which start with its name, e.g. `ray(`.
+ */
+function isFunctionCall(group) {
+  let first = group;
+  while (first?.type === 'Group' || first?.type === 'Multiplier') {
+    first = first.type === 'Group' ? first.terms[0] : first.term;
+  }
+  return first?.type === 'Function';
 }
 
 /**
