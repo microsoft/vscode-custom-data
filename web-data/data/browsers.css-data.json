@@ -665,7 +665,14 @@
         "CA37",
         "O24"
       ],
-      "values": [],
+      "values": [
+        {
+          "name": "revert"
+        },
+        {
+          "name": "revert-layer"
+        }
+      ],
       "syntax": "initial | inherit | unset | revert | revert-layer",
       "relevance": 56,
       "references": [
@@ -1063,6 +1070,22 @@
         "O30"
       ],
       "syntax": "[ auto | <time [0s,∞]> ]#",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E115",
+            "S18.4",
+            "SM18.4",
+            "C115",
+            "CA115",
+            "O101"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 72,
       "references": [
         {
@@ -2103,7 +2126,6 @@
         "IE4",
         "O3.5"
       ],
-      "values": [],
       "syntax": "<repeat-style>#",
       "relevance": 86,
       "references": [
@@ -2837,7 +2859,6 @@
         "IE4",
         "O3.5"
       ],
-      "values": [],
       "syntax": "<color>{1,4}",
       "relevance": 88,
       "references": [
@@ -3885,7 +3906,6 @@
         "IE4",
         "O3.5"
       ],
-      "values": [],
       "syntax": "<line-style>{1,4}",
       "relevance": 80,
       "references": [
@@ -4109,7 +4129,6 @@
         "IE4",
         "O3.5"
       ],
-      "values": [],
       "syntax": "<line-width>{1,4}",
       "relevance": 82,
       "references": [
@@ -11951,6 +11970,14 @@
         "O44"
       ],
       "syntax": "<'grid-template'> | <'grid-template-rows'> / [ auto-flow && dense? ] <'grid-auto-columns'>? | [ auto-flow && dense? ] <'grid-auto-rows'>? / <'grid-template-columns'>",
+      "values": [
+        {
+          "name": "auto-flow"
+        },
+        {
+          "name": "dense"
+        }
+      ],
       "relevance": 50,
       "references": [
         {
@@ -18682,6 +18709,11 @@
       ],
       "status": "nonstandard",
       "syntax": "none | <track-list> | <auto-track-list>",
+      "values": [
+        {
+          "name": "none"
+        }
+      ],
       "relevance": 0,
       "description": "Lays out the columns of the grid."
     },
@@ -18772,6 +18804,11 @@
       ],
       "status": "nonstandard",
       "syntax": "none | <track-list> | <auto-track-list>",
+      "values": [
+        {
+          "name": "none"
+        }
+      ],
       "relevance": 0,
       "description": "Lays out the columns of the grid."
     },
@@ -21961,7 +21998,6 @@
         "IE4",
         "O3.5"
       ],
-      "values": [],
       "syntax": "<'padding-top'>{1,4}",
       "relevance": 95,
       "references": [
@@ -24182,6 +24218,47 @@
       ],
       "atRule": "@page",
       "syntax": "<length [0,∞]>{1,2} | auto | [ <page-size> || [ portrait | landscape ] ]",
+      "values": [
+        {
+          "name": "auto"
+        },
+        {
+          "name": "A5"
+        },
+        {
+          "name": "A4"
+        },
+        {
+          "name": "A3"
+        },
+        {
+          "name": "B5"
+        },
+        {
+          "name": "B4"
+        },
+        {
+          "name": "JIS-B5"
+        },
+        {
+          "name": "JIS-B4"
+        },
+        {
+          "name": "letter"
+        },
+        {
+          "name": "legal"
+        },
+        {
+          "name": "ledger"
+        },
+        {
+          "name": "portrait"
+        },
+        {
+          "name": "landscape"
+        }
+      ],
       "relevance": 53,
       "description": "The size CSS at-rule descriptor, used with the @page at-rule, defines the size and orientation of the box which is used to represent a page. Most of the time, this size corresponds to the target size of the printed page if applicable.",
       "restrictions": [
@@ -25711,7 +25788,32 @@
         "IE3",
         "O3.5"
       ],
-      "values": [],
+      "values": [
+        {
+          "name": "hanging",
+          "browsers": [
+            "FF121",
+            "FFA121",
+            "S15",
+            "SM15"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "each-line",
+          "browsers": [
+            "FF121",
+            "FFA121",
+            "S15",
+            "SM15"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "syntax": "<length-percentage> && hanging? && each-line?",
       "relevance": 69,
       "references": [
@@ -30766,6 +30868,11 @@
       "name": "-moz-binding",
       "status": "nonstandard",
       "syntax": "<url> | none",
+      "values": [
+        {
+          "name": "none"
+        }
+      ],
       "relevance": 0,
       "description": "The -moz-binding CSS property is used by Mozilla-based applications to attach an XBL binding to a DOM element."
     },
@@ -30773,6 +30880,23 @@
       "name": "-moz-context-properties",
       "status": "nonstandard",
       "syntax": "none | [ fill | fill-opacity | stroke | stroke-opacity ]#",
+      "values": [
+        {
+          "name": "none"
+        },
+        {
+          "name": "fill"
+        },
+        {
+          "name": "fill-opacity"
+        },
+        {
+          "name": "stroke"
+        },
+        {
+          "name": "stroke-opacity"
+        }
+      ],
       "relevance": 0,
       "description": "If you reference an SVG image in a webpage (such as with the <img> element or as a background image), the SVG image can coordinate with the embedding element (its context) to have the image adopt property values set on the embedding element. To do this the embedding element needs to list the properties that are to be made available to the image by listing them as values of the -moz-context-properties property, and the image needs to opt in to using those properties by using values such as the context-fill value.\n\nThis feature is available since Firefox 55, but is only currently supported with SVG images loaded via chrome:// or resource:// URLs. To experiment with the feature in SVG on the Web it is necessary to set the svg.context-properties.content.enabled pref to true."
     },
@@ -31048,6 +31172,11 @@
       "name": "-webkit-border-before",
       "status": "nonstandard",
       "syntax": "<'border-width'> || <'border-style'> || <color>",
+      "values": [
+        {
+          "name": "currentColor"
+        }
+      ],
       "relevance": 0,
       "browsers": [
         "E79",
@@ -31072,6 +31201,11 @@
       "name": "-webkit-border-before-color",
       "status": "nonstandard",
       "syntax": "<color>",
+      "values": [
+        {
+          "name": "currentColor"
+        }
+      ],
       "relevance": 0,
       "description": "The -webkit-border-before-color CSS property sets the color of the individual logical block start border in a single place in the style sheet."
     },
@@ -31092,6 +31226,11 @@
     {
       "name": "-webkit-line-clamp",
       "syntax": "none | <integer>",
+      "values": [
+        {
+          "name": "none"
+        }
+      ],
       "relevance": 50,
       "description": "The -webkit-line-clamp CSS property allows limiting of the contents of a block container to the specified number of lines."
     },
@@ -31099,6 +31238,74 @@
       "name": "-webkit-mask",
       "status": "nonstandard",
       "syntax": "[ <mask-reference> || <position> [ / <bg-size> ]? || <repeat-style> || [ <visual-box> | border | padding | content | text ] || [ <visual-box> | border | padding | content ] ]#",
+      "values": [
+        {
+          "name": "none"
+        },
+        {
+          "name": "left"
+        },
+        {
+          "name": "center"
+        },
+        {
+          "name": "right"
+        },
+        {
+          "name": "top"
+        },
+        {
+          "name": "bottom"
+        },
+        {
+          "name": "auto"
+        },
+        {
+          "name": "cover"
+        },
+        {
+          "name": "contain"
+        },
+        {
+          "name": "repeat-x"
+        },
+        {
+          "name": "repeat-y"
+        },
+        {
+          "name": "repeat"
+        },
+        {
+          "name": "space"
+        },
+        {
+          "name": "round"
+        },
+        {
+          "name": "no-repeat"
+        },
+        {
+          "name": "content-box"
+        },
+        {
+          "name": "padding-box"
+        },
+        {
+          "name": "border-box"
+        },
+        {
+          "name": "border"
+        },
+        {
+          "name": "padding"
+        },
+        {
+          "name": "content"
+        },
+        {
+          "name": "text"
+        }
+      ],
       "relevance": 0,
       "description": "The mask CSS property alters the visibility of an element by either partially or fully hiding it. This is accomplished by either masking or clipping the image at specific points."
     },
@@ -31106,6 +31313,17 @@
       "name": "-webkit-mask-attachment",
       "status": "nonstandard",
       "syntax": "<attachment>#",
+      "values": [
+        {
+          "name": "scroll"
+        },
+        {
+          "name": "fixed"
+        },
+        {
+          "name": "local"
+        }
+      ],
       "relevance": 0,
       "description": "If a -webkit-mask-image is specified, -webkit-mask-attachment determines whether the mask image's position is fixed within the viewport, or scrolls along with its containing block."
     },
@@ -31113,6 +31331,41 @@
       "name": "-webkit-mask-composite",
       "status": "nonstandard",
       "syntax": "<composite-style>#",
+      "values": [
+        {
+          "name": "clear"
+        },
+        {
+          "name": "copy"
+        },
+        {
+          "name": "source-over"
+        },
+        {
+          "name": "source-in"
+        },
+        {
+          "name": "source-out"
+        },
+        {
+          "name": "source-atop"
+        },
+        {
+          "name": "destination-over"
+        },
+        {
+          "name": "destination-in"
+        },
+        {
+          "name": "destination-out"
+        },
+        {
+          "name": "destination-atop"
+        },
+        {
+          "name": "xor"
+        }
+      ],
       "relevance": 0,
       "browsers": [
         "E18",
@@ -31137,6 +31390,23 @@
       "name": "-webkit-mask-position",
       "status": "nonstandard",
       "syntax": "<position>#",
+      "values": [
+        {
+          "name": "left"
+        },
+        {
+          "name": "center"
+        },
+        {
+          "name": "right"
+        },
+        {
+          "name": "top"
+        },
+        {
+          "name": "bottom"
+        }
+      ],
       "relevance": 0,
       "description": "The mask-position CSS property sets the initial position, relative to the mask position layer defined by mask-origin, for each defined mask image."
     },
@@ -31144,6 +31414,17 @@
       "name": "-webkit-mask-position-x",
       "status": "nonstandard",
       "syntax": "[ <length-percentage> | left | center | right ]#",
+      "values": [
+        {
+          "name": "left"
+        },
+        {
+          "name": "center"
+        },
+        {
+          "name": "right"
+        }
+      ],
       "relevance": 0,
       "browsers": [
         "E18",
@@ -31172,6 +31453,17 @@
       "name": "-webkit-mask-position-y",
       "status": "nonstandard",
       "syntax": "[ <length-percentage> | top | center | bottom ]#",
+      "values": [
+        {
+          "name": "top"
+        },
+        {
+          "name": "center"
+        },
+        {
+          "name": "bottom"
+        }
+      ],
       "relevance": 0,
       "browsers": [
         "E18",
@@ -31265,6 +31557,29 @@
     {
       "name": "accent-color",
       "syntax": "auto | <color>",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E93",
+            "FF92",
+            "FFA92",
+            "S15.4",
+            "SM15.4",
+            "C93",
+            "CA93",
+            "O79"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-03-14",
+            "baseline_high_date": "2024-09-14"
+          }
+        },
+        {
+          "name": "currentColor"
+        }
+      ],
       "relevance": 51,
       "browsers": [
         "E93",
@@ -31288,6 +31603,53 @@
       "name": "align-tracks",
       "status": "nonstandard",
       "syntax": "[ normal | <baseline-position> | <content-distribution> | <overflow-position>? <content-position> ]#",
+      "values": [
+        {
+          "name": "normal"
+        },
+        {
+          "name": "first"
+        },
+        {
+          "name": "last"
+        },
+        {
+          "name": "baseline"
+        },
+        {
+          "name": "space-between"
+        },
+        {
+          "name": "space-around"
+        },
+        {
+          "name": "space-evenly"
+        },
+        {
+          "name": "stretch"
+        },
+        {
+          "name": "unsafe"
+        },
+        {
+          "name": "safe"
+        },
+        {
+          "name": "center"
+        },
+        {
+          "name": "start"
+        },
+        {
+          "name": "end"
+        },
+        {
+          "name": "flex-start"
+        },
+        {
+          "name": "flex-end"
+        }
+      ],
       "relevance": 0,
       "description": "The align-tracks CSS property sets the alignment in the masonry axis for grid containers that have masonry in their block axis."
     },
@@ -31431,6 +31793,25 @@
     {
       "name": "anchor-name",
       "syntax": "none | <dashed-ident>#",
+      "values": [
+        {
+          "name": "none",
+          "browsers": [
+            "E125",
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "C125",
+            "CA125",
+            "O111"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E125",
@@ -31457,6 +31838,42 @@
     {
       "name": "anchor-scope",
       "syntax": "none | all | <dashed-ident>#",
+      "values": [
+        {
+          "name": "none",
+          "browsers": [
+            "E131",
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "C131",
+            "CA131",
+            "O116"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        },
+        {
+          "name": "all",
+          "browsers": [
+            "E131",
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "C131",
+            "CA131",
+            "O116"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E131",
@@ -31483,6 +31900,62 @@
     {
       "name": "animation-composition",
       "syntax": "<single-animation-composition>#",
+      "values": [
+        {
+          "name": "replace",
+          "browsers": [
+            "E112",
+            "FF115",
+            "FFA115",
+            "S16",
+            "SM16",
+            "C112",
+            "CA112",
+            "O98"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2023-07-04",
+            "baseline_high_date": "2026-01-04"
+          }
+        },
+        {
+          "name": "add",
+          "browsers": [
+            "E112",
+            "FF115",
+            "FFA115",
+            "S16",
+            "SM16",
+            "C112",
+            "CA112",
+            "O98"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2023-07-04",
+            "baseline_high_date": "2026-01-04"
+          }
+        },
+        {
+          "name": "accumulate",
+          "browsers": [
+            "E112",
+            "FF115",
+            "FFA115",
+            "S16",
+            "SM16",
+            "C112",
+            "CA112",
+            "O98"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2023-07-04",
+            "baseline_high_date": "2026-01-04"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E112",
@@ -31533,6 +32006,40 @@
     {
       "name": "animation-range-end",
       "syntax": "[ normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
+      "values": [
+        {
+          "name": "normal",
+          "browsers": [
+            "E115",
+            "S26",
+            "SM26",
+            "C115",
+            "CA115",
+            "O101"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "cover"
+        },
+        {
+          "name": "contain"
+        },
+        {
+          "name": "entry"
+        },
+        {
+          "name": "exit"
+        },
+        {
+          "name": "entry-crossing"
+        },
+        {
+          "name": "exit-crossing"
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E115",
@@ -31556,6 +32063,40 @@
     {
       "name": "animation-range-start",
       "syntax": "[ normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
+      "values": [
+        {
+          "name": "normal",
+          "browsers": [
+            "E115",
+            "S26",
+            "SM26",
+            "C115",
+            "CA115",
+            "O101"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "cover"
+        },
+        {
+          "name": "contain"
+        },
+        {
+          "name": "entry"
+        },
+        {
+          "name": "exit"
+        },
+        {
+          "name": "entry-crossing"
+        },
+        {
+          "name": "exit-crossing"
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E115",
@@ -31579,6 +32120,36 @@
     {
       "name": "animation-timeline",
       "syntax": "<single-animation-timeline>#",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E115",
+            "S26",
+            "SM26",
+            "C115",
+            "CA115",
+            "O101"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "none",
+          "browsers": [
+            "E115",
+            "S26",
+            "SM26",
+            "C115",
+            "CA115",
+            "O101"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 51,
       "browsers": [
         "E115",
@@ -31602,15 +32173,280 @@
     {
       "name": "animation-trigger",
       "syntax": "[ none | [ <dashed-ident> <animation-action>+ ]+ ]#",
+      "values": [
+        {
+          "name": "none",
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "play"
+        },
+        {
+          "name": "play-once"
+        },
+        {
+          "name": "play-forwards"
+        },
+        {
+          "name": "play-backwards"
+        },
+        {
+          "name": "pause"
+        },
+        {
+          "name": "reset"
+        },
+        {
+          "name": "replay"
+        }
+      ],
       "relevance": 50,
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Specifies the event or condition that triggers the start of an animation."
     },
     {
       "name": "appearance",
       "syntax": "none | auto | <compat-auto> | <compat-special>",
+      "values": [
+        {
+          "name": "none",
+          "browsers": [
+            "E12",
+            "FF54",
+            "FFA54",
+            "S3",
+            "SM3",
+            "C1",
+            "CA18",
+            "O15"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2017-06-13",
+            "baseline_high_date": "2019-12-13"
+          }
+        },
+        {
+          "name": "auto",
+          "browsers": [
+            "E83",
+            "FF80",
+            "FFA80",
+            "S15.4",
+            "SM15.4",
+            "C83",
+            "CA83",
+            "O69"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-03-14",
+            "baseline_high_date": "2024-09-14"
+          }
+        },
+        {
+          "name": "searchfield",
+          "browsers": [
+            "E12",
+            "FF1",
+            "FFA4",
+            "S3",
+            "SM2",
+            "C1",
+            "CA18",
+            "O15"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2015-07-29",
+            "baseline_high_date": "2018-01-29"
+          }
+        },
+        {
+          "name": "textarea",
+          "browsers": [
+            "E12",
+            "FF1",
+            "FFA4",
+            "S3",
+            "SM2",
+            "C1",
+            "CA18",
+            "O15"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2015-07-29",
+            "baseline_high_date": "2018-01-29"
+          }
+        },
+        {
+          "name": "checkbox",
+          "browsers": [
+            "E12",
+            "FF1",
+            "FFA4",
+            "S3",
+            "SM2",
+            "C1",
+            "CA18",
+            "O15"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2015-07-29",
+            "baseline_high_date": "2018-01-29"
+          }
+        },
+        {
+          "name": "radio",
+          "browsers": [
+            "E12",
+            "FF1",
+            "FFA4",
+            "S3",
+            "SM2",
+            "C1",
+            "CA18",
+            "O15"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2015-07-29",
+            "baseline_high_date": "2018-01-29"
+          }
+        },
+        {
+          "name": "menulist",
+          "browsers": [
+            "E12",
+            "FF1",
+            "FFA4",
+            "S3",
+            "SM2",
+            "C1",
+            "CA18",
+            "O15"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2015-07-29",
+            "baseline_high_date": "2018-01-29"
+          }
+        },
+        {
+          "name": "listbox",
+          "browsers": [
+            "E12",
+            "FF1",
+            "FFA4",
+            "S3",
+            "SM2",
+            "C1",
+            "CA18",
+            "O15"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2015-07-29",
+            "baseline_high_date": "2018-01-29"
+          }
+        },
+        {
+          "name": "meter",
+          "browsers": [
+            "E12",
+            "FF1",
+            "FFA4",
+            "S3",
+            "SM2",
+            "C1",
+            "CA18",
+            "O15"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2015-07-29",
+            "baseline_high_date": "2018-01-29"
+          }
+        },
+        {
+          "name": "progress-bar",
+          "browsers": [
+            "E12",
+            "FF1",
+            "FFA4",
+            "S3",
+            "SM2",
+            "C1",
+            "CA18",
+            "O15"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2015-07-29",
+            "baseline_high_date": "2018-01-29"
+          }
+        },
+        {
+          "name": "button",
+          "browsers": [
+            "E12",
+            "FF1",
+            "FFA4",
+            "S3",
+            "SM2",
+            "C1",
+            "CA18",
+            "O15"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2015-07-29",
+            "baseline_high_date": "2018-01-29"
+          }
+        },
+        {
+          "name": "textfield",
+          "browsers": [
+            "E12",
+            "FF1",
+            "FFA4",
+            "S3",
+            "SM1",
+            "C1",
+            "CA18",
+            "O15"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2015-07-29",
+            "baseline_high_date": "2018-01-29"
+          }
+        },
+        {
+          "name": "menulist-button",
+          "browsers": [
+            "E12",
+            "FF80",
+            "FFA80",
+            "S3",
+            "SM1",
+            "C1",
+            "CA18",
+            "O15"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2020-08-31",
+            "baseline_high_date": "2023-02-28"
+          }
+        }
+      ],
       "relevance": 73,
       "browsers": [
         "E84",
@@ -31638,6 +32474,26 @@
     {
       "name": "aspect-ratio",
       "syntax": "auto || <ratio>",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E88",
+            "FF89",
+            "FFA89",
+            "S15",
+            "SM15",
+            "C88",
+            "CA88",
+            "O74"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2021-09-20",
+            "baseline_high_date": "2024-03-20"
+          }
+        }
+      ],
       "relevance": 67,
       "browsers": [
         "E88",
@@ -31665,6 +32521,26 @@
     {
       "name": "backdrop-filter",
       "syntax": "none | <filter-value-list>",
+      "values": [
+        {
+          "name": "none",
+          "browsers": [
+            "E79",
+            "FF103",
+            "FFA103",
+            "S9",
+            "SM9",
+            "C76",
+            "CA76",
+            "O63"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-07-26",
+            "baseline_high_date": "2025-01-26"
+          }
+        }
+      ],
       "relevance": 66,
       "browsers": [
         "E79",
@@ -31691,6 +32567,50 @@
     {
       "name": "baseline-shift",
       "syntax": "<length-percentage> | sub | super | baseline",
+      "values": [
+        {
+          "name": "sub",
+          "browsers": [
+            "E79",
+            "S4",
+            "SM3.2",
+            "C1",
+            "CA18",
+            "O15"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "super",
+          "browsers": [
+            "E79",
+            "S4",
+            "SM3.2",
+            "C1",
+            "CA18",
+            "O15"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "baseline",
+          "browsers": [
+            "E79",
+            "S4",
+            "SM3.2",
+            "C1",
+            "CA18",
+            "O15"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E79",
@@ -31776,7 +32696,7 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Determines the baseline used for text alignment and vertical positioning."
     },
     {
       "name": "border-block",
@@ -32148,9 +33068,6 @@
         },
         {
           "name": "reverse"
-        },
-        {
-          "name": "inherit"
         }
       ],
       "relevance": 0,
@@ -32268,9 +33185,6 @@
         },
         {
           "name": "block-axis"
-        },
-        {
-          "name": "inherit"
         }
       ],
       "relevance": 0,
@@ -32372,7 +33286,7 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Controls whether the text input caret (text cursor) animates."
     },
     {
       "name": "caret-shape",
@@ -32443,6 +33357,80 @@
     {
       "name": "color-scheme",
       "syntax": "normal | [ light | dark | <custom-ident> ]+ && only?",
+      "values": [
+        {
+          "name": "normal",
+          "browsers": [
+            "E81",
+            "FF96",
+            "FFA96",
+            "S13",
+            "SM13",
+            "C81",
+            "CA81",
+            "O68"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-01-11",
+            "baseline_high_date": "2024-07-11"
+          }
+        },
+        {
+          "name": "light",
+          "browsers": [
+            "E81",
+            "FF96",
+            "FFA96",
+            "S13",
+            "SM13",
+            "C81",
+            "CA81",
+            "O68"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-01-11",
+            "baseline_high_date": "2024-07-11"
+          }
+        },
+        {
+          "name": "dark",
+          "browsers": [
+            "E81",
+            "FF96",
+            "FFA96",
+            "S13",
+            "SM13",
+            "C81",
+            "CA81",
+            "O68"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-01-11",
+            "baseline_high_date": "2024-07-11"
+          }
+        },
+        {
+          "name": "only",
+          "browsers": [
+            "E98",
+            "FF96",
+            "FFA96",
+            "S13",
+            "SM13",
+            "C98",
+            "CA98",
+            "O84"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-02-03",
+            "baseline_high_date": "2024-08-03"
+          }
+        }
+      ],
       "relevance": 58,
       "browsers": [
         "E81",
@@ -32470,6 +33458,19 @@
     {
       "name": "column-height",
       "syntax": "auto | <length [0,∞]>",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E145",
+            "C145",
+            "CA145"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E145",
@@ -32479,7 +33480,7 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Specifies the height constraint for CSS columns in multi-column layouts."
     },
     {
       "name": "column-wrap",
@@ -32528,11 +33529,33 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Determines whether content wraps between columns in multi-column layouts."
     },
     {
       "name": "contain-intrinsic-block-size",
       "syntax": "auto? [ none | <length> ]",
+      "values": [
+        {
+          "name": "auto"
+        },
+        {
+          "name": "none",
+          "browsers": [
+            "E98",
+            "FF107",
+            "FFA107",
+            "S17",
+            "SM17",
+            "C98",
+            "CA98",
+            "O84"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2023-09-18"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E95",
@@ -32559,6 +33582,28 @@
     {
       "name": "contain-intrinsic-height",
       "syntax": "auto? [ none | <length> ]",
+      "values": [
+        {
+          "name": "auto"
+        },
+        {
+          "name": "none",
+          "browsers": [
+            "E98",
+            "FF107",
+            "FFA107",
+            "S17",
+            "SM17",
+            "C98",
+            "CA98",
+            "O84"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2023-09-18"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E95",
@@ -32585,6 +33630,28 @@
     {
       "name": "contain-intrinsic-inline-size",
       "syntax": "auto? [ none | <length> ]",
+      "values": [
+        {
+          "name": "auto"
+        },
+        {
+          "name": "none",
+          "browsers": [
+            "E98",
+            "FF107",
+            "FFA107",
+            "S17",
+            "SM17",
+            "C98",
+            "CA98",
+            "O84"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2023-09-18"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E95",
@@ -32611,6 +33678,28 @@
     {
       "name": "contain-intrinsic-size",
       "syntax": "[ auto? [ none | <length> ] ]{1,2}",
+      "values": [
+        {
+          "name": "auto"
+        },
+        {
+          "name": "none",
+          "browsers": [
+            "E98",
+            "FF107",
+            "FFA107",
+            "S17",
+            "SM17",
+            "C98",
+            "CA98",
+            "O84"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2023-09-18"
+          }
+        }
+      ],
       "relevance": 54,
       "browsers": [
         "E83",
@@ -32637,6 +33726,28 @@
     {
       "name": "contain-intrinsic-width",
       "syntax": "auto? [ none | <length> ]",
+      "values": [
+        {
+          "name": "auto"
+        },
+        {
+          "name": "none",
+          "browsers": [
+            "E98",
+            "FF107",
+            "FFA107",
+            "S17",
+            "SM17",
+            "C98",
+            "CA98",
+            "O84"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2023-09-18"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E95",
@@ -32690,6 +33801,26 @@
     {
       "name": "container-name",
       "syntax": "none | <custom-ident>+",
+      "values": [
+        {
+          "name": "none",
+          "browsers": [
+            "E105",
+            "FF110",
+            "FFA110",
+            "S16",
+            "SM16",
+            "C105",
+            "CA105",
+            "O91"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2023-02-14",
+            "baseline_high_date": "2025-08-14"
+          }
+        }
+      ],
       "relevance": 51,
       "browsers": [
         "E105",
@@ -32717,6 +33848,74 @@
     {
       "name": "container-type",
       "syntax": "normal | [ [ size | inline-size ] || scroll-state ]",
+      "values": [
+        {
+          "name": "normal",
+          "browsers": [
+            "E105",
+            "FF110",
+            "FFA110",
+            "S16",
+            "SM16",
+            "C105",
+            "CA105",
+            "O91"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2023-02-14",
+            "baseline_high_date": "2025-08-14"
+          }
+        },
+        {
+          "name": "size",
+          "browsers": [
+            "E105",
+            "FF110",
+            "FFA110",
+            "S16",
+            "SM16",
+            "C105",
+            "CA105",
+            "O91"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2023-02-14",
+            "baseline_high_date": "2025-08-14"
+          }
+        },
+        {
+          "name": "inline-size",
+          "browsers": [
+            "E105",
+            "FF110",
+            "FFA110",
+            "S16",
+            "SM16",
+            "C105",
+            "CA105",
+            "O91"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2023-02-14",
+            "baseline_high_date": "2025-08-14"
+          }
+        },
+        {
+          "name": "scroll-state",
+          "browsers": [
+            "E133",
+            "C133",
+            "CA133",
+            "O118"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 56,
       "browsers": [
         "E105",
@@ -32823,6 +34022,80 @@
     {
       "name": "corner-block-end-shape",
       "syntax": "<corner-shape-value>{1,2}",
+      "values": [
+        {
+          "name": "round",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "scoop",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "bevel",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "notch",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "square",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "squircle",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E139",
@@ -32839,11 +34112,85 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Specifies the shape of corners at the block-end direction within their border-radius area."
     },
     {
       "name": "corner-block-start-shape",
       "syntax": "<corner-shape-value>{1,2}",
+      "values": [
+        {
+          "name": "round",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "scoop",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "bevel",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "notch",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "square",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "squircle",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E139",
@@ -32860,11 +34207,85 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Specifies the shape of corners at the block-start direction within their border-radius area."
     },
     {
       "name": "corner-bottom-shape",
       "syntax": "<corner-shape-value>{1,2}",
+      "values": [
+        {
+          "name": "round",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "scoop",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "bevel",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "notch",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "square",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "squircle",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E139",
@@ -32881,11 +34302,85 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Specifies the shape of both corners on a box's bottom edge, within their border-radius area."
     },
     {
       "name": "corner-bottom-left-shape",
       "syntax": "<corner-shape-value>",
+      "values": [
+        {
+          "name": "round",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "scoop",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "bevel",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "notch",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "square",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "squircle",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E139",
@@ -32902,11 +34397,85 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Specifies the shape of a box's bottom-left corner, within its border-radius area."
     },
     {
       "name": "corner-bottom-right-shape",
       "syntax": "<corner-shape-value>",
+      "values": [
+        {
+          "name": "round",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "scoop",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "bevel",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "notch",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "square",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "squircle",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E139",
@@ -32923,11 +34492,85 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Specifies the shape of a box's bottom-right corner, within its border-radius area."
     },
     {
       "name": "corner-end-end-shape",
       "syntax": "<corner-shape-value>",
+      "values": [
+        {
+          "name": "round",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "scoop",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "bevel",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "notch",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "square",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "squircle",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E139",
@@ -32944,11 +34587,85 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Specifies the shape of a box's block-end and inline-end corner, within its border-radius area."
     },
     {
       "name": "corner-end-start-shape",
       "syntax": "<corner-shape-value>",
+      "values": [
+        {
+          "name": "round",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "scoop",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "bevel",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "notch",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "square",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "squircle",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E139",
@@ -32965,11 +34682,85 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Specifies the shape of a box's block-end and inline-start corner, within its border-radius area."
     },
     {
       "name": "corner-inline-end-shape",
       "syntax": "<corner-shape-value>{1,2}",
+      "values": [
+        {
+          "name": "round",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "scoop",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "bevel",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "notch",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "square",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "squircle",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E139",
@@ -32986,11 +34777,85 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Specifies the shape of both corners on a box's inline-end edge, within their border-radius area."
     },
     {
       "name": "corner-inline-start-shape",
       "syntax": "<corner-shape-value>{1,2}",
+      "values": [
+        {
+          "name": "round",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "scoop",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "bevel",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "notch",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "square",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "squircle",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E139",
@@ -33007,11 +34872,85 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Specifies the shape of both corners on a box's inline-start edge, within their border-radius area."
     },
     {
       "name": "corner-left-shape",
       "syntax": "<corner-shape-value>{1,2}",
+      "values": [
+        {
+          "name": "round",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "scoop",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "bevel",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "notch",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "square",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "squircle",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E139",
@@ -33028,11 +34967,85 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Specifies the shape of both corners on a box's left-hand edge, within their border-radius area."
     },
     {
       "name": "corner-right-shape",
       "syntax": "<corner-shape-value>{1,2}",
+      "values": [
+        {
+          "name": "round",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "scoop",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "bevel",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "notch",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "square",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "squircle",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E139",
@@ -33049,11 +35062,85 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Specifies the shape of both corners on a box's right-hand edge, within their border-radius area."
     },
     {
       "name": "corner-shape",
       "syntax": "<corner-shape-value>{1,4}",
+      "values": [
+        {
+          "name": "round",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "scoop",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "bevel",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "notch",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "square",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "squircle",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E139",
@@ -33070,11 +35157,85 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Modifies the shape of rounded corners created by the border-radius property and its associated longhands."
     },
     {
       "name": "corner-start-start-shape",
       "syntax": "<corner-shape-value>",
+      "values": [
+        {
+          "name": "round",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "scoop",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "bevel",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "notch",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "square",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "squircle",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E139",
@@ -33091,11 +35252,85 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Specifies the shape of a box's block-start and inline-start corner, within its border-radius area."
     },
     {
       "name": "corner-start-end-shape",
       "syntax": "<corner-shape-value>",
+      "values": [
+        {
+          "name": "round",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "scoop",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "bevel",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "notch",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "square",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "squircle",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E139",
@@ -33112,11 +35347,85 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Specifies the shape of a box's block-start and inline-end corner, within its border-radius area."
     },
     {
       "name": "corner-top-shape",
       "syntax": "<corner-shape-value>{1,2}",
+      "values": [
+        {
+          "name": "round",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "scoop",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "bevel",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "notch",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "square",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "squircle",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E139",
@@ -33133,11 +35442,85 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Specifies the shape of both corners on a box's top edge, within their border-radius area."
     },
     {
       "name": "corner-top-left-shape",
       "syntax": "<corner-shape-value>",
+      "values": [
+        {
+          "name": "round",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "scoop",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "bevel",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "notch",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "square",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "squircle",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E139",
@@ -33154,11 +35537,85 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Specifies the shape of a box's top-left corner, within its border-radius area."
     },
     {
       "name": "corner-top-right-shape",
       "syntax": "<corner-shape-value>",
+      "values": [
+        {
+          "name": "round",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "scoop",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "bevel",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "notch",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "square",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "squircle",
+          "browsers": [
+            "E139",
+            "C139",
+            "CA139",
+            "O123"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E139",
@@ -33175,11 +35632,30 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Specifies the shape of a box's top-right corner, within its border-radius area."
     },
     {
       "name": "counter-set",
       "syntax": "[ <counter-name> <integer>? ]+ | none",
+      "values": [
+        {
+          "name": "none",
+          "browsers": [
+            "E85",
+            "FF68",
+            "FFA68",
+            "S17.2",
+            "SM17.2",
+            "C85",
+            "CA85",
+            "O71"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2023-12-11"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E85",
@@ -33260,6 +35736,22 @@
     {
       "name": "d",
       "syntax": "none | path(<string>)",
+      "values": [
+        {
+          "name": "none",
+          "browsers": [
+            "E79",
+            "FF97",
+            "FFA97",
+            "C52",
+            "CA52",
+            "O39"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E79",
@@ -33444,6 +35936,48 @@
     {
       "name": "dynamic-range-limit",
       "syntax": "standard | no-limit | constrained | <dynamic-range-limit-mix()>",
+      "values": [
+        {
+          "name": "standard",
+          "browsers": [
+            "E136",
+            "S26",
+            "SM26",
+            "C136",
+            "CA136",
+            "O121"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "no-limit",
+          "browsers": [
+            "E136",
+            "S26",
+            "SM26",
+            "C136",
+            "CA136",
+            "O121"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "constrained",
+          "browsers": [
+            "E136",
+            "C136",
+            "CA136",
+            "O121"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E136",
@@ -33462,7 +35996,7 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Specifies the maximum luminance allowed for High Dynamic Range (HDR) content."
     },
     {
       "name": "field-sizing",
@@ -33585,6 +36119,62 @@
     {
       "name": "font-palette",
       "syntax": "normal | light | dark | <palette-identifier> | <palette-mix()>",
+      "values": [
+        {
+          "name": "normal",
+          "browsers": [
+            "E101",
+            "FF107",
+            "FFA107",
+            "S15.4",
+            "SM15.4",
+            "C101",
+            "CA101",
+            "O87"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-11-15",
+            "baseline_high_date": "2025-05-15"
+          }
+        },
+        {
+          "name": "light",
+          "browsers": [
+            "E101",
+            "FF107",
+            "FFA107",
+            "S15.4",
+            "SM15.4",
+            "C101",
+            "CA101",
+            "O87"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-11-15",
+            "baseline_high_date": "2025-05-15"
+          }
+        },
+        {
+          "name": "dark",
+          "browsers": [
+            "E101",
+            "FF107",
+            "FFA107",
+            "S15.4",
+            "SM15.4",
+            "C101",
+            "CA101",
+            "O87"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-11-15",
+            "baseline_high_date": "2025-05-15"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E101",
@@ -33613,6 +36203,41 @@
       "name": "font-smooth",
       "status": "nonstandard",
       "syntax": "auto | never | always | <absolute-size> | <length>",
+      "values": [
+        {
+          "name": "auto"
+        },
+        {
+          "name": "never"
+        },
+        {
+          "name": "always"
+        },
+        {
+          "name": "xx-small"
+        },
+        {
+          "name": "x-small"
+        },
+        {
+          "name": "small"
+        },
+        {
+          "name": "medium"
+        },
+        {
+          "name": "large"
+        },
+        {
+          "name": "x-large"
+        },
+        {
+          "name": "xx-large"
+        },
+        {
+          "name": "xxx-large"
+        }
+      ],
       "relevance": 0,
       "browsers": [
         "O15"
@@ -33950,6 +36575,26 @@
       "name": "font-variation-settings",
       "atRule": "@font-face",
       "syntax": "normal | [ <string> <number> ]#",
+      "values": [
+        {
+          "name": "normal",
+          "browsers": [
+            "E17",
+            "FF62",
+            "FFA62",
+            "S11",
+            "SM11",
+            "C62",
+            "CA62",
+            "O49"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2018-09-05",
+            "baseline_high_date": "2021-03-05"
+          }
+        }
+      ],
       "relevance": 59,
       "browsers": [
         "E17",
@@ -33978,6 +36623,89 @@
       "name": "font-width",
       "status": "experimental",
       "syntax": "normal | <percentage [0,∞]> | ultra-condensed | extra-condensed | condensed | semi-condensed | semi-expanded | expanded | extra-expanded | ultra-expanded",
+      "values": [
+        {
+          "name": "normal",
+          "browsers": [
+            "S18.4"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "ultra-condensed",
+          "browsers": [
+            "S18.4"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "extra-condensed",
+          "browsers": [
+            "S18.4"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "condensed",
+          "browsers": [
+            "S18.4"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "semi-condensed",
+          "browsers": [
+            "S18.4"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "semi-expanded",
+          "browsers": [
+            "S18.4"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "expanded",
+          "browsers": [
+            "S18.4"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "extra-expanded",
+          "browsers": [
+            "S18.4"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "ultra-expanded",
+          "browsers": [
+            "S18.4"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "S18.4"
@@ -33985,7 +36713,7 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Controls the width variant of font selection, such as condensed or expanded."
     },
     {
       "name": "forced-color-adjust",
@@ -34083,6 +36811,51 @@
     {
       "name": "hanging-punctuation",
       "syntax": "none | [ first || [ force-end | allow-end ] || last ]",
+      "values": [
+        {
+          "name": "none",
+          "browsers": [
+            "S10",
+            "SM10"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "first",
+          "browsers": [
+            "S10",
+            "SM10"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "force-end"
+        },
+        {
+          "name": "allow-end",
+          "browsers": [
+            "S10",
+            "SM10"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "last",
+          "browsers": [
+            "S10",
+            "SM10"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "references": [
         {
@@ -34098,6 +36871,26 @@
     {
       "name": "hyphenate-character",
       "syntax": "auto | <string>",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E79",
+            "FF98",
+            "FFA98",
+            "S5.1",
+            "SM5",
+            "C6",
+            "CA18",
+            "O15"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-03-08",
+            "baseline_high_date": "2024-09-08"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E106",
@@ -34124,6 +36917,22 @@
     {
       "name": "hyphenate-limit-chars",
       "syntax": "[ auto | <integer> ]{1,3}",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E109",
+            "FF137",
+            "FFA137",
+            "C109",
+            "CA109",
+            "O95"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E109",
@@ -34148,12 +36957,36 @@
       "name": "image-resolution",
       "status": "experimental",
       "syntax": "[ from-image || <resolution> ] && snap?",
+      "values": [
+        {
+          "name": "from-image"
+        },
+        {
+          "name": "snap"
+        }
+      ],
       "relevance": 50,
       "description": "The image-resolution property specifies the intrinsic resolution of all raster images used in or on the element. It affects both content images (e.g. replaced elements and generated content) and decorative images (such as background-image). The intrinsic resolution of an image is used to determine the image’s intrinsic dimensions."
     },
     {
       "name": "initial-letter",
       "syntax": "normal | [ <number> <integer>? ]",
+      "values": [
+        {
+          "name": "normal",
+          "browsers": [
+            "E110",
+            "S9",
+            "SM9",
+            "C110",
+            "CA110",
+            "O96"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E110",
@@ -34176,6 +37009,20 @@
       "name": "initial-letter-align",
       "status": "experimental",
       "syntax": "[ auto | alphabetic | hanging | ideographic ]",
+      "values": [
+        {
+          "name": "auto"
+        },
+        {
+          "name": "alphabetic"
+        },
+        {
+          "name": "hanging"
+        },
+        {
+          "name": "ideographic"
+        }
+      ],
       "relevance": 50,
       "description": "The initial-letter-align CSS property specifies the alignment of initial letters within a paragraph."
     },
@@ -34461,7 +37308,7 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Specifies whether an element and its descendant nodes are set to be inert."
     },
     {
       "name": "interest-delay",
@@ -34481,11 +37328,24 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Specifies a delay before an element becomes the target of user interest signals."
     },
     {
       "name": "interest-delay-end",
       "syntax": "normal | <time>",
+      "values": [
+        {
+          "name": "normal",
+          "browsers": [
+            "E142",
+            "C142",
+            "CA142"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E142",
@@ -34501,11 +37361,24 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Specifies the end time of a delay period for user interest signals."
     },
     {
       "name": "interest-delay-start",
       "syntax": "normal | <time>",
+      "values": [
+        {
+          "name": "normal",
+          "browsers": [
+            "E142",
+            "C142",
+            "CA142"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E142",
@@ -34521,18 +37394,76 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Specifies the start time of a delay period for user interest signals."
     },
     {
       "name": "justify-tracks",
       "status": "nonstandard",
       "syntax": "[ normal | <content-distribution> | <overflow-position>? [ <content-position> | left | right ] ]#",
+      "values": [
+        {
+          "name": "normal"
+        },
+        {
+          "name": "space-between"
+        },
+        {
+          "name": "space-around"
+        },
+        {
+          "name": "space-evenly"
+        },
+        {
+          "name": "stretch"
+        },
+        {
+          "name": "unsafe"
+        },
+        {
+          "name": "safe"
+        },
+        {
+          "name": "center"
+        },
+        {
+          "name": "start"
+        },
+        {
+          "name": "end"
+        },
+        {
+          "name": "flex-start"
+        },
+        {
+          "name": "flex-end"
+        },
+        {
+          "name": "left"
+        },
+        {
+          "name": "right"
+        }
+      ],
       "relevance": 0,
       "description": "The justify-tracks CSS property sets the alignment in the masonry axis for grid containers that have masonry in their inline axis"
     },
     {
       "name": "line-clamp",
       "syntax": "none | <integer>",
+      "values": [
+        {
+          "name": "none",
+          "browsers": [
+            "FF68",
+            "FFA68",
+            "S18.2",
+            "SM18.2"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "O15"
@@ -34650,6 +37581,11 @@
     {
       "name": "mask",
       "syntax": "<mask-layer>#",
+      "values": [
+        {
+          "name": "no-clip"
+        }
+      ],
       "relevance": 60,
       "browsers": [
         "E120",
@@ -34730,6 +37666,20 @@
     {
       "name": "mask-border-repeat",
       "syntax": "[ stretch | repeat | round | space ]{1,2}",
+      "values": [
+        {
+          "name": "stretch"
+        },
+        {
+          "name": "repeat"
+        },
+        {
+          "name": "round"
+        },
+        {
+          "name": "space"
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "S17.2",
@@ -34750,6 +37700,11 @@
     {
       "name": "mask-border-slice",
       "syntax": "<number-percentage>{1,4} fill?",
+      "values": [
+        {
+          "name": "fill"
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "S17.2",
@@ -34770,6 +37725,11 @@
     {
       "name": "mask-border-source",
       "syntax": "none | <image>",
+      "values": [
+        {
+          "name": "none"
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "S17.2",
@@ -34790,6 +37750,11 @@
     {
       "name": "mask-border-width",
       "syntax": "[ <length-percentage> | <number> | auto ]{1,4}",
+      "values": [
+        {
+          "name": "auto"
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "S17.2",
@@ -34810,6 +37775,36 @@
     {
       "name": "mask-clip",
       "syntax": "[ <coord-box> | no-clip ]#",
+      "values": [
+        {
+          "name": "view-box",
+          "browsers": [
+            "E120",
+            "FF53",
+            "FFA53",
+            "C120",
+            "CA120",
+            "O106"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "no-clip",
+          "browsers": [
+            "E120",
+            "FF53",
+            "FFA53",
+            "C120",
+            "CA120",
+            "O106"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E120",
@@ -34836,6 +37831,76 @@
     {
       "name": "mask-composite",
       "syntax": "<compositing-operator>#",
+      "values": [
+        {
+          "name": "add",
+          "browsers": [
+            "E120",
+            "FF53",
+            "FFA53",
+            "S15.4",
+            "SM15.4",
+            "C120",
+            "CA120",
+            "O106"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2023-12-07"
+          }
+        },
+        {
+          "name": "subtract",
+          "browsers": [
+            "E120",
+            "FF53",
+            "FFA53",
+            "S15.4",
+            "SM15.4",
+            "C120",
+            "CA120",
+            "O106"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2023-12-07"
+          }
+        },
+        {
+          "name": "intersect",
+          "browsers": [
+            "E120",
+            "FF53",
+            "FFA53",
+            "S15.4",
+            "SM15.4",
+            "C120",
+            "CA120",
+            "O106"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2023-12-07"
+          }
+        },
+        {
+          "name": "exclude",
+          "browsers": [
+            "E120",
+            "FF53",
+            "FFA53",
+            "S15.4",
+            "SM15.4",
+            "C120",
+            "CA120",
+            "O106"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2023-12-07"
+          }
+        }
+      ],
       "relevance": 55,
       "browsers": [
         "E120",
@@ -34863,12 +37928,42 @@
       "name": "masonry-auto-flow",
       "status": "nonstandard",
       "syntax": "[ pack | next ] || [ definite-first | ordered ]",
+      "values": [
+        {
+          "name": "pack"
+        },
+        {
+          "name": "next"
+        },
+        {
+          "name": "definite-first"
+        },
+        {
+          "name": "ordered"
+        }
+      ],
       "relevance": 0,
       "description": "The masonry-auto-flow CSS property modifies how items are placed when using masonry in CSS Grid Layout."
     },
     {
       "name": "math-depth",
       "syntax": "auto-add | add(<integer>) | <integer>",
+      "values": [
+        {
+          "name": "auto-add",
+          "browsers": [
+            "E109",
+            "FF117",
+            "FFA117",
+            "C109",
+            "CA109",
+            "O95"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E109",
@@ -35017,6 +38112,11 @@
       "name": "max-lines",
       "status": "experimental",
       "syntax": "none | <integer>",
+      "values": [
+        {
+          "name": "none"
+        }
+      ],
       "relevance": 50,
       "description": "The max-lines property forces a break after a set number of lines"
     },
@@ -35024,6 +38124,20 @@
       "name": "object-view-box",
       "status": "experimental",
       "syntax": "none | <basic-shape-rect>",
+      "values": [
+        {
+          "name": "none",
+          "browsers": [
+            "E104",
+            "C104",
+            "CA104",
+            "O90"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E104",
@@ -35072,6 +38186,110 @@
     {
       "name": "offset-anchor",
       "syntax": "auto | <position>",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E116",
+            "FF72",
+            "FFA79",
+            "S16",
+            "SM16",
+            "C116",
+            "CA116",
+            "O102"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2023-08-21"
+          }
+        },
+        {
+          "name": "left",
+          "browsers": [
+            "E116",
+            "FF72",
+            "FFA79",
+            "S16",
+            "SM16",
+            "C116",
+            "CA116",
+            "O102"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2023-08-21"
+          }
+        },
+        {
+          "name": "center",
+          "browsers": [
+            "E116",
+            "FF72",
+            "FFA79",
+            "S16",
+            "SM16",
+            "C116",
+            "CA116",
+            "O102"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2023-08-21"
+          }
+        },
+        {
+          "name": "right",
+          "browsers": [
+            "E116",
+            "FF72",
+            "FFA79",
+            "S16",
+            "SM16",
+            "C116",
+            "CA116",
+            "O102"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2023-08-21"
+          }
+        },
+        {
+          "name": "top",
+          "browsers": [
+            "E116",
+            "FF72",
+            "FFA79",
+            "S16",
+            "SM16",
+            "C116",
+            "CA116",
+            "O102"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2023-08-21"
+          }
+        },
+        {
+          "name": "bottom",
+          "browsers": [
+            "E116",
+            "FF72",
+            "FFA79",
+            "S16",
+            "SM16",
+            "C116",
+            "CA116",
+            "O102"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2023-08-21"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E116",
@@ -35125,6 +38343,42 @@
     {
       "name": "offset-path",
       "syntax": "none | <offset-path> || <coord-box>",
+      "values": [
+        {
+          "name": "none",
+          "browsers": [
+            "E80",
+            "FF72",
+            "FFA79",
+            "S18",
+            "SM18",
+            "C80",
+            "CA80",
+            "O67"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2024-09-16"
+          }
+        },
+        {
+          "name": "view-box",
+          "browsers": [
+            "E116",
+            "FF122",
+            "FFA122",
+            "S18",
+            "SM18",
+            "C116",
+            "CA116",
+            "O102"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2024-09-16"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E79",
@@ -35152,6 +38406,127 @@
     {
       "name": "offset-position",
       "syntax": "normal | auto | <position>",
+      "values": [
+        {
+          "name": "normal",
+          "browsers": [
+            "E116",
+            "FF122",
+            "FFA122",
+            "S17.2",
+            "SM17.2",
+            "C116",
+            "CA116",
+            "O102"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2024-01-23"
+          }
+        },
+        {
+          "name": "auto",
+          "browsers": [
+            "E116",
+            "FF122",
+            "FFA122",
+            "S16",
+            "SM16",
+            "C116",
+            "CA116",
+            "O102"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2024-01-23"
+          }
+        },
+        {
+          "name": "left",
+          "browsers": [
+            "E116",
+            "FF122",
+            "FFA122",
+            "S16",
+            "SM16",
+            "C116",
+            "CA116",
+            "O102"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2024-01-23"
+          }
+        },
+        {
+          "name": "center",
+          "browsers": [
+            "E116",
+            "FF122",
+            "FFA122",
+            "S16",
+            "SM16",
+            "C116",
+            "CA116",
+            "O102"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2024-01-23"
+          }
+        },
+        {
+          "name": "right",
+          "browsers": [
+            "E116",
+            "FF122",
+            "FFA122",
+            "S16",
+            "SM16",
+            "C116",
+            "CA116",
+            "O102"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2024-01-23"
+          }
+        },
+        {
+          "name": "top",
+          "browsers": [
+            "E116",
+            "FF122",
+            "FFA122",
+            "S16",
+            "SM16",
+            "C116",
+            "CA116",
+            "O102"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2024-01-23"
+          }
+        },
+        {
+          "name": "bottom",
+          "browsers": [
+            "E116",
+            "FF122",
+            "FFA122",
+            "S16",
+            "SM16",
+            "C116",
+            "CA116",
+            "O102"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2024-01-23"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E116",
@@ -35178,6 +38553,44 @@
     {
       "name": "offset-rotate",
       "syntax": "[ auto | reverse ] || <angle>",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E79",
+            "FF72",
+            "FFA79",
+            "S16",
+            "SM16",
+            "C46",
+            "CA46",
+            "O33"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-09-12",
+            "baseline_high_date": "2025-03-12"
+          }
+        },
+        {
+          "name": "reverse",
+          "browsers": [
+            "E79",
+            "FF72",
+            "FFA79",
+            "S16",
+            "SM16",
+            "C46",
+            "CA46",
+            "O33"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-09-12",
+            "baseline_high_date": "2025-03-12"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E79",
@@ -35387,6 +38800,44 @@
     {
       "name": "overflow-clip-margin",
       "syntax": "<visual-box> || <length [0,∞]>",
+      "values": [
+        {
+          "name": "content-box",
+          "browsers": [
+            "E104",
+            "C104",
+            "CA104",
+            "O90"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "padding-box",
+          "browsers": [
+            "E104",
+            "C104",
+            "CA104",
+            "O90"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "border-box",
+          "browsers": [
+            "E104",
+            "C104",
+            "CA104",
+            "O90"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "O76"
@@ -35566,6 +39017,62 @@
     {
       "name": "overscroll-behavior",
       "syntax": "[ contain | none | auto ]{1,2}",
+      "values": [
+        {
+          "name": "contain",
+          "browsers": [
+            "E79",
+            "FF59",
+            "FFA59",
+            "S16",
+            "SM16",
+            "C63",
+            "CA63",
+            "O50"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-09-12",
+            "baseline_high_date": "2025-03-12"
+          }
+        },
+        {
+          "name": "none",
+          "browsers": [
+            "E79",
+            "FF59",
+            "FFA59",
+            "S16",
+            "SM16",
+            "C63",
+            "CA63",
+            "O50"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-09-12",
+            "baseline_high_date": "2025-03-12"
+          }
+        },
+        {
+          "name": "auto",
+          "browsers": [
+            "E79",
+            "FF59",
+            "FFA59",
+            "S16",
+            "SM16",
+            "C63",
+            "CA63",
+            "O50"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-09-12",
+            "baseline_high_date": "2025-03-12"
+          }
+        }
+      ],
       "relevance": 58,
       "browsers": [
         "E18",
@@ -35979,6 +39486,26 @@
     {
       "name": "page",
       "syntax": "auto | <custom-ident>",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E85",
+            "FF110",
+            "FFA110",
+            "S1",
+            "SM1",
+            "C85",
+            "CA85",
+            "O71"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2023-02-14",
+            "baseline_high_date": "2025-08-14"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E85",
@@ -36087,6 +39614,34 @@
     {
       "name": "position-anchor",
       "syntax": "auto | none | <anchor-name>",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "O111"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "none",
+          "browsers": [
+            "E144",
+            "FF147",
+            "FFA147",
+            "C144",
+            "CA144"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E125",
@@ -36113,6 +39668,703 @@
     {
       "name": "position-area",
       "syntax": "none | <position-area>",
+      "values": [
+        {
+          "name": "none",
+          "browsers": [
+            "E129",
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "C129",
+            "CA129",
+            "O115"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        },
+        {
+          "name": "left",
+          "browsers": [
+            "E144",
+            "S26",
+            "SM26",
+            "C144",
+            "CA144",
+            "O115"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "center",
+          "browsers": [
+            "E129",
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "C129",
+            "CA129",
+            "O115"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        },
+        {
+          "name": "right",
+          "browsers": [
+            "E144",
+            "S26",
+            "SM26",
+            "C144",
+            "CA144",
+            "O115"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "span-left",
+          "browsers": [
+            "E129",
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "C129",
+            "CA129",
+            "O115"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        },
+        {
+          "name": "span-right",
+          "browsers": [
+            "E129",
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "C129",
+            "CA129",
+            "O115"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        },
+        {
+          "name": "x-start",
+          "browsers": [
+            "E144",
+            "S26",
+            "SM26",
+            "C144",
+            "CA144",
+            "O115"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "x-end",
+          "browsers": [
+            "E144",
+            "S26",
+            "SM26",
+            "C144",
+            "CA144",
+            "O115"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "span-x-start",
+          "browsers": [
+            "E129",
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "C129",
+            "CA129",
+            "O115"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        },
+        {
+          "name": "span-x-end",
+          "browsers": [
+            "E129",
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "C129",
+            "CA129",
+            "O115"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        },
+        {
+          "name": "x-self-start"
+        },
+        {
+          "name": "x-self-end"
+        },
+        {
+          "name": "span-x-self-start"
+        },
+        {
+          "name": "span-x-self-end"
+        },
+        {
+          "name": "span-all",
+          "browsers": [
+            "E144",
+            "S26",
+            "SM26",
+            "C144",
+            "CA144",
+            "O115"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "top",
+          "browsers": [
+            "E144",
+            "S26",
+            "SM26",
+            "C144",
+            "CA144",
+            "O115"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "bottom",
+          "browsers": [
+            "E144",
+            "S26",
+            "SM26",
+            "C144",
+            "CA144",
+            "O115"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "span-top",
+          "browsers": [
+            "E129",
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "C129",
+            "CA129",
+            "O115"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        },
+        {
+          "name": "span-bottom",
+          "browsers": [
+            "E129",
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "C129",
+            "CA129",
+            "O115"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        },
+        {
+          "name": "y-start",
+          "browsers": [
+            "E144",
+            "S26",
+            "SM26",
+            "C144",
+            "CA144",
+            "O115"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "y-end",
+          "browsers": [
+            "E144",
+            "S26",
+            "SM26",
+            "C144",
+            "CA144",
+            "O115"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "span-y-start",
+          "browsers": [
+            "E129",
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "C129",
+            "CA129",
+            "O115"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        },
+        {
+          "name": "span-y-end",
+          "browsers": [
+            "E129",
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "C129",
+            "CA129",
+            "O115"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        },
+        {
+          "name": "y-self-start"
+        },
+        {
+          "name": "y-self-end"
+        },
+        {
+          "name": "span-y-self-start"
+        },
+        {
+          "name": "span-y-self-end"
+        },
+        {
+          "name": "block-start",
+          "browsers": [
+            "E144",
+            "S26",
+            "SM26",
+            "C144",
+            "CA144",
+            "O115"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "block-end",
+          "browsers": [
+            "E144",
+            "S26",
+            "SM26",
+            "C144",
+            "CA144",
+            "O115"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "span-block-start",
+          "browsers": [
+            "E129",
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "C129",
+            "CA129",
+            "O115"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        },
+        {
+          "name": "span-block-end",
+          "browsers": [
+            "E129",
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "C129",
+            "CA129",
+            "O115"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        },
+        {
+          "name": "inline-start",
+          "browsers": [
+            "E144",
+            "S26",
+            "SM26",
+            "C144",
+            "CA144",
+            "O115"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "inline-end",
+          "browsers": [
+            "E144",
+            "S26",
+            "SM26",
+            "C144",
+            "CA144",
+            "O115"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "span-inline-start",
+          "browsers": [
+            "E129",
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "C129",
+            "CA129",
+            "O115"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        },
+        {
+          "name": "span-inline-end",
+          "browsers": [
+            "E129",
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "C129",
+            "CA129",
+            "O115"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        },
+        {
+          "name": "self-block-start",
+          "browsers": [
+            "E144",
+            "S26",
+            "SM26",
+            "C144",
+            "CA144",
+            "O115"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "self-block-end",
+          "browsers": [
+            "E144",
+            "S26",
+            "SM26",
+            "C144",
+            "CA144",
+            "O115"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "span-self-block-start",
+          "browsers": [
+            "E129",
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "C129",
+            "CA129",
+            "O115"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        },
+        {
+          "name": "span-self-block-end",
+          "browsers": [
+            "E129",
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "C129",
+            "CA129",
+            "O115"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        },
+        {
+          "name": "self-inline-start",
+          "browsers": [
+            "E144",
+            "S26",
+            "SM26",
+            "C144",
+            "CA144",
+            "O115"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "self-inline-end",
+          "browsers": [
+            "E144",
+            "S26",
+            "SM26",
+            "C144",
+            "CA144",
+            "O115"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "span-self-inline-start",
+          "browsers": [
+            "E129",
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "C129",
+            "CA129",
+            "O115"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        },
+        {
+          "name": "span-self-inline-end",
+          "browsers": [
+            "E129",
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "C129",
+            "CA129",
+            "O115"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        },
+        {
+          "name": "start",
+          "browsers": [
+            "E129",
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "C129",
+            "CA129",
+            "O115"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        },
+        {
+          "name": "end",
+          "browsers": [
+            "E144",
+            "S26",
+            "SM26",
+            "C144",
+            "CA144",
+            "O115"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "span-start",
+          "browsers": [
+            "E129",
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "C129",
+            "CA129",
+            "O115"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        },
+        {
+          "name": "span-end",
+          "browsers": [
+            "E129",
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "C129",
+            "CA129",
+            "O115"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        },
+        {
+          "name": "self-start",
+          "browsers": [
+            "E144",
+            "S26",
+            "SM26",
+            "C144",
+            "CA144",
+            "O115"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "self-end",
+          "browsers": [
+            "E144",
+            "S26",
+            "SM26",
+            "C144",
+            "CA144",
+            "O115"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "span-self-start",
+          "browsers": [
+            "E129",
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "C129",
+            "CA129",
+            "O115"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        },
+        {
+          "name": "span-self-end",
+          "browsers": [
+            "E129",
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "C129",
+            "CA129",
+            "O115"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E129",
@@ -36165,6 +40417,76 @@
     {
       "name": "position-try-fallbacks",
       "syntax": "none | [ [<dashed-ident> || <try-tactic>] | <'position-area'> ]#",
+      "values": [
+        {
+          "name": "none",
+          "browsers": [
+            "E128",
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "C128",
+            "CA128",
+            "O114"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        },
+        {
+          "name": "flip-block",
+          "browsers": [
+            "E128",
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "C128",
+            "CA128",
+            "O114"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        },
+        {
+          "name": "flip-inline",
+          "browsers": [
+            "E128",
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "C128",
+            "CA128",
+            "O114"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        },
+        {
+          "name": "flip-start",
+          "browsers": [
+            "E128",
+            "FF147",
+            "FFA147",
+            "S26",
+            "SM26",
+            "C128",
+            "CA128",
+            "O114"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E128",
@@ -36191,6 +40513,78 @@
     {
       "name": "position-try-order",
       "syntax": "normal | <try-size>",
+      "values": [
+        {
+          "name": "normal",
+          "browsers": [
+            "E125",
+            "S26",
+            "SM26",
+            "C125",
+            "CA125",
+            "O111"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "most-width",
+          "browsers": [
+            "E125",
+            "S26",
+            "SM26",
+            "C125",
+            "CA125",
+            "O111"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "most-height",
+          "browsers": [
+            "E125",
+            "S26",
+            "SM26",
+            "C125",
+            "CA125",
+            "O111"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "most-block-size",
+          "browsers": [
+            "E125",
+            "S26",
+            "SM26",
+            "C125",
+            "CA125",
+            "O111"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "most-inline-size",
+          "browsers": [
+            "E125",
+            "S26",
+            "SM26",
+            "C125",
+            "CA125",
+            "O111"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E125",
@@ -36214,6 +40608,71 @@
     {
       "name": "position-visibility",
       "syntax": "always | [ anchors-valid || anchors-visible || no-overflow ]",
+      "values": [
+        {
+          "name": "always",
+          "browsers": [
+            "E125",
+            "FF147",
+            "FFA147",
+            "S26.2",
+            "SM26.2",
+            "C125",
+            "CA125",
+            "O111"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        },
+        {
+          "name": "anchors-valid",
+          "browsers": [
+            "FF147",
+            "FFA147",
+            "S26.2",
+            "SM26.2"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "anchors-visible",
+          "browsers": [
+            "E125",
+            "FF147",
+            "FFA147",
+            "S26.2",
+            "SM26.2",
+            "C125",
+            "CA125",
+            "O111"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        },
+        {
+          "name": "no-overflow",
+          "browsers": [
+            "E125",
+            "FF147",
+            "FFA147",
+            "S26.2",
+            "SM26.2",
+            "C125",
+            "CA125",
+            "O111"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2026-01-13"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E125",
@@ -36431,7 +40890,7 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Enables modifying the reading order of child elements of a block, flex, or grid layout."
     },
     {
       "name": "reading-order",
@@ -36452,11 +40911,40 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Enables changing the order in which a child of a reading flow container is read relative to its element siblings."
     },
     {
       "name": "rotate",
       "syntax": "none | <angle> | [ x | y | z | <number>{3} ] && <angle>",
+      "values": [
+        {
+          "name": "none",
+          "browsers": [
+            "E104",
+            "FF72",
+            "FFA79",
+            "S14.1",
+            "SM14.5",
+            "C104",
+            "CA104",
+            "O90"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-08-05",
+            "baseline_high_date": "2025-02-05"
+          }
+        },
+        {
+          "name": "x"
+        },
+        {
+          "name": "y"
+        },
+        {
+          "name": "z"
+        }
+      ],
       "relevance": 54,
       "browsers": [
         "E104",
@@ -36484,6 +40972,26 @@
     {
       "name": "row-gap",
       "syntax": "normal | <length-percentage>",
+      "values": [
+        {
+          "name": "normal",
+          "browsers": [
+            "E16",
+            "FF52",
+            "FFA52",
+            "S10.1",
+            "SM10.3",
+            "C47",
+            "CA47",
+            "O34"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2017-10-17",
+            "baseline_high_date": "2020-04-17"
+          }
+        }
+      ],
       "relevance": 63,
       "browsers": [
         "E16",
@@ -36581,6 +41089,26 @@
     {
       "name": "scale",
       "syntax": "none | [ <number> | <percentage> ]{1,3}",
+      "values": [
+        {
+          "name": "none",
+          "browsers": [
+            "E104",
+            "FF72",
+            "FFA79",
+            "S14.1",
+            "SM14.5",
+            "C104",
+            "CA104",
+            "O90"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-08-05",
+            "baseline_high_date": "2025-02-05"
+          }
+        }
+      ],
       "relevance": 57,
       "browsers": [
         "E104",
@@ -36645,7 +41173,7 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Specifies the initial scroll target when navigation begins on a page."
     },
     {
       "name": "scroll-margin",
@@ -37001,11 +41529,31 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Controls whether a scroll container element has a ::scroll-marker-group pseudo-element generated."
     },
     {
       "name": "scroll-padding",
       "syntax": "[ auto | <length-percentage> ]{1,4}",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E79",
+            "FF68",
+            "FFA68",
+            "S11",
+            "SM11",
+            "C69",
+            "CA69",
+            "O56"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2020-01-15",
+            "baseline_high_date": "2022-07-15"
+          }
+        }
+      ],
       "relevance": 53,
       "browsers": [
         "E79",
@@ -37033,6 +41581,26 @@
     {
       "name": "scroll-padding-block",
       "syntax": "[ auto | <length-percentage> ]{1,2}",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E79",
+            "FF68",
+            "FFA68",
+            "S15",
+            "SM15",
+            "C69",
+            "CA69",
+            "O56"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2021-09-20",
+            "baseline_high_date": "2024-03-20"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E79",
@@ -37060,6 +41628,26 @@
     {
       "name": "scroll-padding-block-end",
       "syntax": "auto | <length-percentage>",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E79",
+            "FF68",
+            "FFA68",
+            "S15",
+            "SM15",
+            "C69",
+            "CA69",
+            "O56"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2021-09-20",
+            "baseline_high_date": "2024-03-20"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E79",
@@ -37087,6 +41675,26 @@
     {
       "name": "scroll-padding-block-start",
       "syntax": "auto | <length-percentage>",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E79",
+            "FF68",
+            "FFA68",
+            "S15",
+            "SM15",
+            "C69",
+            "CA69",
+            "O56"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2021-09-20",
+            "baseline_high_date": "2024-03-20"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E79",
@@ -37114,6 +41722,26 @@
     {
       "name": "scroll-padding-bottom",
       "syntax": "auto | <length-percentage>",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E79",
+            "FF68",
+            "FFA68",
+            "S15",
+            "SM15",
+            "C78",
+            "CA78",
+            "O65"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2021-09-20",
+            "baseline_high_date": "2024-03-20"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E79",
@@ -37141,6 +41769,26 @@
     {
       "name": "scroll-padding-inline",
       "syntax": "[ auto | <length-percentage> ]{1,2}",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E79",
+            "FF68",
+            "FFA68",
+            "S15",
+            "SM15",
+            "C69",
+            "CA69",
+            "O56"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2021-09-20",
+            "baseline_high_date": "2024-03-20"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E79",
@@ -37168,6 +41816,26 @@
     {
       "name": "scroll-padding-inline-end",
       "syntax": "auto | <length-percentage>",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E79",
+            "FF68",
+            "FFA68",
+            "S15",
+            "SM15",
+            "C69",
+            "CA69",
+            "O56"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2021-09-20",
+            "baseline_high_date": "2024-03-20"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E79",
@@ -37195,6 +41863,26 @@
     {
       "name": "scroll-padding-inline-start",
       "syntax": "auto | <length-percentage>",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E79",
+            "FF68",
+            "FFA68",
+            "S15",
+            "SM15",
+            "C69",
+            "CA69",
+            "O56"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2021-09-20",
+            "baseline_high_date": "2024-03-20"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E79",
@@ -37222,6 +41910,26 @@
     {
       "name": "scroll-padding-left",
       "syntax": "auto | <length-percentage>",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E79",
+            "FF68",
+            "FFA68",
+            "S15",
+            "SM15",
+            "C78",
+            "CA78",
+            "O65"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2021-09-20",
+            "baseline_high_date": "2024-03-20"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E79",
@@ -37249,6 +41957,26 @@
     {
       "name": "scroll-padding-right",
       "syntax": "auto | <length-percentage>",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E79",
+            "FF68",
+            "FFA68",
+            "S15",
+            "SM15",
+            "C78",
+            "CA78",
+            "O65"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2021-09-20",
+            "baseline_high_date": "2024-03-20"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E79",
@@ -37276,6 +42004,26 @@
     {
       "name": "scroll-padding-top",
       "syntax": "auto | <length-percentage>",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E79",
+            "FF68",
+            "FFA68",
+            "S15",
+            "SM15",
+            "C78",
+            "CA78",
+            "O65"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2021-09-20",
+            "baseline_high_date": "2024-03-20"
+          }
+        }
+      ],
       "relevance": 51,
       "browsers": [
         "E79",
@@ -37303,6 +42051,80 @@
     {
       "name": "scroll-snap-align",
       "syntax": "[ none | start | end | center ]{1,2}",
+      "values": [
+        {
+          "name": "none",
+          "browsers": [
+            "E79",
+            "FF68",
+            "FFA68",
+            "S11",
+            "SM11",
+            "C69",
+            "CA69",
+            "O56"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2020-01-15",
+            "baseline_high_date": "2022-07-15"
+          }
+        },
+        {
+          "name": "start",
+          "browsers": [
+            "E79",
+            "FF68",
+            "FFA68",
+            "S11",
+            "SM11",
+            "C69",
+            "CA69",
+            "O56"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2020-01-15",
+            "baseline_high_date": "2022-07-15"
+          }
+        },
+        {
+          "name": "end",
+          "browsers": [
+            "E79",
+            "FF68",
+            "FFA68",
+            "S11",
+            "SM11",
+            "C69",
+            "CA69",
+            "O56"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2020-01-15",
+            "baseline_high_date": "2022-07-15"
+          }
+        },
+        {
+          "name": "center",
+          "browsers": [
+            "E79",
+            "FF68",
+            "FFA68",
+            "S11",
+            "SM11",
+            "C69",
+            "CA69",
+            "O56"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2020-01-15",
+            "baseline_high_date": "2022-07-15"
+          }
+        }
+      ],
       "relevance": 56,
       "browsers": [
         "E79",
@@ -37473,7 +42295,7 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Specifies whether an element is a scroll marker group container."
     },
     {
       "name": "scroll-timeline",
@@ -37501,6 +42323,64 @@
     {
       "name": "scroll-timeline-axis",
       "syntax": "[ block | inline | x | y ]#",
+      "values": [
+        {
+          "name": "block",
+          "browsers": [
+            "E115",
+            "S26",
+            "SM26",
+            "C115",
+            "CA115",
+            "O101"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "inline",
+          "browsers": [
+            "E115",
+            "S26",
+            "SM26",
+            "C115",
+            "CA115",
+            "O101"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "x",
+          "browsers": [
+            "E115",
+            "S26",
+            "SM26",
+            "C115",
+            "CA115",
+            "O101"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "y",
+          "browsers": [
+            "E115",
+            "S26",
+            "SM26",
+            "C115",
+            "CA115",
+            "O101"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E115",
@@ -37524,6 +42404,22 @@
     {
       "name": "scroll-timeline-name",
       "syntax": "[ none | <dashed-ident> ]#",
+      "values": [
+        {
+          "name": "none",
+          "browsers": [
+            "E115",
+            "S26",
+            "SM26",
+            "C115",
+            "CA115",
+            "O101"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E115",
@@ -37547,6 +42443,28 @@
     {
       "name": "scrollbar-color",
       "syntax": "auto | <color>{2}",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E121",
+            "FF64",
+            "FFA64",
+            "S26.2",
+            "SM26.2",
+            "C121",
+            "CA121",
+            "O107"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2025-12-12"
+          }
+        },
+        {
+          "name": "currentColor"
+        }
+      ],
       "relevance": 57,
       "browsers": [
         "E121",
@@ -37573,6 +42491,45 @@
     {
       "name": "scrollbar-gutter",
       "syntax": "auto | stable && both-edges?",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E94",
+            "FF97",
+            "FFA97",
+            "S18.2",
+            "SM18.2",
+            "C94",
+            "CA94",
+            "O80"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2024-12-11"
+          }
+        },
+        {
+          "name": "stable",
+          "browsers": [
+            "E94",
+            "FF97",
+            "FFA97",
+            "S18.2",
+            "SM18.2",
+            "C94",
+            "CA94",
+            "O80"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2024-12-11"
+          }
+        },
+        {
+          "name": "both-edges"
+        }
+      ],
       "relevance": 56,
       "browsers": [
         "E94",
@@ -37679,6 +42636,30 @@
       "name": "speak-as",
       "atRule": "@counter-style",
       "syntax": "auto | bullets | numbers | words | spell-out | <counter-style-name>",
+      "values": [
+        {
+          "name": "auto"
+        },
+        {
+          "name": "bullets"
+        },
+        {
+          "name": "numbers"
+        },
+        {
+          "name": "words"
+        },
+        {
+          "name": "spell-out",
+          "browsers": [
+            "S11.1",
+            "SM11.3"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "S11.1",
@@ -37699,6 +42680,18 @@
       "name": "stroke-color",
       "status": "experimental",
       "syntax": "<color>",
+      "values": [
+        {
+          "name": "currentColor",
+          "browsers": [
+            "S11.1",
+            "SM11.3"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "S11.1",
@@ -37707,11 +42700,42 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Specifies the color of the stroke (outline) for SVG elements or text."
     },
     {
       "name": "text-autospace",
       "syntax": "normal | <autospace> | auto",
+      "values": [
+        {
+          "name": "normal",
+          "browsers": [
+            "E140",
+            "FF145",
+            "FFA145",
+            "S18.4",
+            "SM18.4",
+            "C140",
+            "CA140",
+            "O124"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2025-11-11"
+          }
+        },
+        {
+          "name": "auto",
+          "browsers": [
+            "FF145",
+            "FFA145",
+            "S18.4",
+            "SM18.4"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E140",
@@ -37733,11 +42757,27 @@
         "status": "low",
         "baseline_low_date": "2025-11-11"
       },
-      "description": ""
+      "description": "Specifies the space applied between Chinese/Japanese/Korean (CJK) and non-CJK characters."
     },
     {
       "name": "text-box",
       "syntax": "normal | <'text-box-trim'> || <'text-box-edge'>",
+      "values": [
+        {
+          "name": "normal",
+          "browsers": [
+            "E133",
+            "S18.2",
+            "SM18.2",
+            "C133",
+            "CA133",
+            "O118"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E133",
@@ -37761,6 +42801,79 @@
     {
       "name": "text-box-edge",
       "syntax": "auto | <text-edge>",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E133",
+            "S18.2",
+            "SM18.2",
+            "C133",
+            "CA133",
+            "O118"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "text",
+          "browsers": [
+            "E133",
+            "S18.2",
+            "SM18.2",
+            "C133",
+            "CA133",
+            "O118"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "cap",
+          "browsers": [
+            "S18.2",
+            "SM18.2"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "ex",
+          "browsers": [
+            "S18.2",
+            "SM18.2"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "ideographic",
+          "browsers": [
+            "S18.2",
+            "SM18.2"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "ideographic-ink",
+          "browsers": [
+            "S18.2",
+            "SM18.2"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "alphabetic"
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E133",
@@ -37865,6 +42978,47 @@
     {
       "name": "text-combine-upright",
       "syntax": "none | all | [ digits <integer>? ]",
+      "values": [
+        {
+          "name": "none",
+          "browsers": [
+            "E79",
+            "FF48",
+            "FFA48",
+            "S15.4",
+            "SM15.4",
+            "C48",
+            "CA48",
+            "O35"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-03-14",
+            "baseline_high_date": "2024-09-14"
+          }
+        },
+        {
+          "name": "all",
+          "browsers": [
+            "E79",
+            "FF48",
+            "FFA48",
+            "S15.4",
+            "SM15.4",
+            "C48",
+            "CA48",
+            "O35"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-03-14",
+            "baseline_high_date": "2024-09-14"
+          }
+        },
+        {
+          "name": "digits"
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E79",
@@ -37893,6 +43047,18 @@
     {
       "name": "text-decoration-inset",
       "syntax": "<length>{1,2} | auto",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "FF146",
+            "FFA146"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "FF146",
@@ -37907,12 +43073,42 @@
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Controls the inset distance of text decorations from the text baseline."
     },
     {
       "name": "text-decoration-skip",
       "status": "experimental",
       "syntax": "none | [ objects || [ spaces | [ leading-spaces || trailing-spaces ] ] || edges || box-decoration ]",
+      "values": [
+        {
+          "name": "none",
+          "browsers": [
+            "S7",
+            "SM7"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "objects"
+        },
+        {
+          "name": "spaces"
+        },
+        {
+          "name": "leading-spaces"
+        },
+        {
+          "name": "trailing-spaces"
+        },
+        {
+          "name": "edges"
+        },
+        {
+          "name": "box-decoration"
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "S12.1",
@@ -38010,6 +43206,44 @@
     {
       "name": "text-decoration-thickness",
       "syntax": "auto | from-font | <length> | <percentage>",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E87",
+            "FF70",
+            "FFA79",
+            "S12.1",
+            "SM12.2",
+            "C87",
+            "CA87",
+            "O73"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2020-11-19",
+            "baseline_high_date": "2023-05-19"
+          }
+        },
+        {
+          "name": "from-font",
+          "browsers": [
+            "E87",
+            "FF70",
+            "FFA79",
+            "S12.1",
+            "SM12.2",
+            "C87",
+            "CA87",
+            "O73"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2020-11-19",
+            "baseline_high_date": "2023-05-19"
+          }
+        }
+      ],
       "relevance": 56,
       "browsers": [
         "E89",
@@ -38064,6 +43298,26 @@
     {
       "name": "text-emphasis-color",
       "syntax": "<color>",
+      "values": [
+        {
+          "name": "currentColor",
+          "browsers": [
+            "E79",
+            "FF46",
+            "FFA46",
+            "S7",
+            "SM7",
+            "C25",
+            "CA25",
+            "O15"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2020-01-15",
+            "baseline_high_date": "2022-07-15"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E99",
@@ -38091,6 +43345,90 @@
     {
       "name": "text-emphasis-position",
       "syntax": "auto | [ over | under ] && [ right | left ]?",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "FF132",
+            "FFA132"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "over",
+          "browsers": [
+            "E99",
+            "FF108",
+            "FFA108",
+            "S7",
+            "SM7",
+            "C99",
+            "CA99",
+            "O85"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-12-13",
+            "baseline_high_date": "2025-06-13"
+          }
+        },
+        {
+          "name": "under",
+          "browsers": [
+            "E99",
+            "FF108",
+            "FFA108",
+            "S7",
+            "SM7",
+            "C99",
+            "CA99",
+            "O85"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-12-13",
+            "baseline_high_date": "2025-06-13"
+          }
+        },
+        {
+          "name": "right",
+          "browsers": [
+            "E79",
+            "FF46",
+            "FFA46",
+            "S8",
+            "SM8",
+            "C62",
+            "CA62",
+            "O49"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2020-01-15",
+            "baseline_high_date": "2022-07-15"
+          }
+        },
+        {
+          "name": "left",
+          "browsers": [
+            "E79",
+            "FF46",
+            "FFA46",
+            "S8",
+            "SM8",
+            "C62",
+            "CA62",
+            "O49"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2020-01-15",
+            "baseline_high_date": "2022-07-15"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E99",
@@ -38118,6 +43456,152 @@
     {
       "name": "text-emphasis-style",
       "syntax": "none | [ [ filled | open ] || [ dot | circle | double-circle | triangle | sesame ] ] | <string>",
+      "values": [
+        {
+          "name": "none",
+          "browsers": [
+            "E99",
+            "FF46",
+            "FFA46",
+            "S7",
+            "SM7",
+            "C99",
+            "CA99",
+            "O85"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-03-03",
+            "baseline_high_date": "2024-09-03"
+          }
+        },
+        {
+          "name": "filled",
+          "browsers": [
+            "E99",
+            "FF46",
+            "FFA46",
+            "S7",
+            "SM7",
+            "C99",
+            "CA99",
+            "O85"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-03-03",
+            "baseline_high_date": "2024-09-03"
+          }
+        },
+        {
+          "name": "open",
+          "browsers": [
+            "E99",
+            "FF46",
+            "FFA46",
+            "S7",
+            "SM7",
+            "C99",
+            "CA99",
+            "O85"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-03-03",
+            "baseline_high_date": "2024-09-03"
+          }
+        },
+        {
+          "name": "dot",
+          "browsers": [
+            "E99",
+            "FF46",
+            "FFA46",
+            "S7",
+            "SM7",
+            "C99",
+            "CA99",
+            "O85"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-03-03",
+            "baseline_high_date": "2024-09-03"
+          }
+        },
+        {
+          "name": "circle",
+          "browsers": [
+            "E99",
+            "FF46",
+            "FFA46",
+            "S7",
+            "SM7",
+            "C99",
+            "CA99",
+            "O85"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-03-03",
+            "baseline_high_date": "2024-09-03"
+          }
+        },
+        {
+          "name": "double-circle",
+          "browsers": [
+            "E99",
+            "FF46",
+            "FFA46",
+            "S7",
+            "SM7",
+            "C99",
+            "CA99",
+            "O85"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-03-03",
+            "baseline_high_date": "2024-09-03"
+          }
+        },
+        {
+          "name": "triangle",
+          "browsers": [
+            "E99",
+            "FF46",
+            "FFA46",
+            "S7",
+            "SM7",
+            "C99",
+            "CA99",
+            "O85"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-03-03",
+            "baseline_high_date": "2024-09-03"
+          }
+        },
+        {
+          "name": "sesame",
+          "browsers": [
+            "E99",
+            "FF46",
+            "FFA46",
+            "S7",
+            "SM7",
+            "C99",
+            "CA99",
+            "O85"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-03-03",
+            "baseline_high_date": "2024-09-03"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E99",
@@ -38146,6 +43630,32 @@
       "name": "text-size-adjust",
       "status": "experimental",
       "syntax": "none | auto | <percentage>",
+      "values": [
+        {
+          "name": "none",
+          "browsers": [
+            "E79",
+            "C54",
+            "CA54",
+            "O41"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "auto",
+          "browsers": [
+            "E79",
+            "C54",
+            "CA54",
+            "O41"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 61,
       "browsers": [
         "E79",
@@ -38239,6 +43749,26 @@
     {
       "name": "text-underline-offset",
       "syntax": "auto | <length> | <percentage>",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E87",
+            "FF70",
+            "FFA79",
+            "S12.1",
+            "SM12.2",
+            "C87",
+            "CA87",
+            "O73"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2020-11-19",
+            "baseline_high_date": "2023-05-19"
+          }
+        }
+      ],
       "relevance": 58,
       "browsers": [
         "E87",
@@ -38447,6 +43977,22 @@
     {
       "name": "timeline-scope",
       "syntax": "none | <dashed-ident>#",
+      "values": [
+        {
+          "name": "none",
+          "browsers": [
+            "E116",
+            "S26",
+            "SM26",
+            "C116",
+            "CA116",
+            "O102"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 51,
       "browsers": [
         "E116",
@@ -38470,65 +44016,193 @@
     {
       "name": "timeline-trigger",
       "syntax": "none | [ <'timeline-trigger-name'> <'timeline-trigger-source'> <'timeline-trigger-range'> [ '/' <'timeline-trigger-exit-range'> ]? ]#",
+      "values": [
+        {
+          "name": "none",
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Specifies the condition that triggers the start of a scroll-driven animation."
     },
     {
       "name": "timeline-trigger-name",
       "syntax": "none | <dashed-ident>#",
+      "values": [
+        {
+          "name": "none",
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Names a scroll-driven animation trigger for reference and reuse."
     },
     {
       "name": "timeline-trigger-exit-range",
       "syntax": "[ <'timeline-trigger-exit-range-start'> <'timeline-trigger-exit-range-end'>? ]#",
       "relevance": 50,
-      "description": ""
+      "description": "Defines the range during which a scroll-driven animation exits."
     },
     {
       "name": "timeline-trigger-exit-range-end",
       "syntax": "[ auto | normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
+      "values": [
+        {
+          "name": "auto"
+        },
+        {
+          "name": "normal"
+        },
+        {
+          "name": "cover"
+        },
+        {
+          "name": "contain"
+        },
+        {
+          "name": "entry"
+        },
+        {
+          "name": "exit"
+        },
+        {
+          "name": "entry-crossing"
+        },
+        {
+          "name": "exit-crossing"
+        }
+      ],
       "relevance": 50,
-      "description": ""
+      "description": "Specifies the end point of the exit range for a scroll-driven animation."
     },
     {
       "name": "timeline-trigger-exit-range-start",
       "syntax": "[ auto | normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
+      "values": [
+        {
+          "name": "auto"
+        },
+        {
+          "name": "normal"
+        },
+        {
+          "name": "cover"
+        },
+        {
+          "name": "contain"
+        },
+        {
+          "name": "entry"
+        },
+        {
+          "name": "exit"
+        },
+        {
+          "name": "entry-crossing"
+        },
+        {
+          "name": "exit-crossing"
+        }
+      ],
       "relevance": 50,
-      "description": ""
+      "description": "Specifies the start point of the exit range for a scroll-driven animation."
     },
     {
       "name": "timeline-trigger-range",
       "syntax": "[ <'timeline-trigger-range-start'> <'timeline-trigger-range-end'>? ]#",
       "relevance": 50,
-      "description": ""
+      "description": "Defines the range during which a scroll-driven animation is active."
     },
     {
       "name": "timeline-trigger-range-end",
       "syntax": "[ normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
+      "values": [
+        {
+          "name": "normal"
+        },
+        {
+          "name": "cover"
+        },
+        {
+          "name": "contain"
+        },
+        {
+          "name": "entry"
+        },
+        {
+          "name": "exit"
+        },
+        {
+          "name": "entry-crossing"
+        },
+        {
+          "name": "exit-crossing"
+        }
+      ],
       "relevance": 50,
-      "description": ""
+      "description": "Specifies the end point of the active range for a scroll-driven animation."
     },
     {
       "name": "timeline-trigger-range-start",
       "syntax": "[ normal | <length-percentage> | <timeline-range-name> <length-percentage>? ]#",
+      "values": [
+        {
+          "name": "normal"
+        },
+        {
+          "name": "cover"
+        },
+        {
+          "name": "contain"
+        },
+        {
+          "name": "entry"
+        },
+        {
+          "name": "exit"
+        },
+        {
+          "name": "entry-crossing"
+        },
+        {
+          "name": "exit-crossing"
+        }
+      ],
       "relevance": 50,
-      "description": ""
+      "description": "Specifies the start point of the active range for a scroll-driven animation."
     },
     {
       "name": "timeline-trigger-source",
       "syntax": "<single-animation-timeline>#",
+      "values": [
+        {
+          "name": "auto",
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "none",
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Specifies the source element whose scroll position drives a scroll-driven animation."
     },
     {
       "name": "transform-box",
@@ -38649,6 +44323,42 @@
     {
       "name": "transition-behavior",
       "syntax": "<transition-behavior-value>#",
+      "values": [
+        {
+          "name": "normal",
+          "browsers": [
+            "E117",
+            "FF129",
+            "FFA129",
+            "S17.4",
+            "SM17.4",
+            "C117",
+            "CA117",
+            "O103"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2024-08-06"
+          }
+        },
+        {
+          "name": "allow-discrete",
+          "browsers": [
+            "E117",
+            "FF129",
+            "FFA129",
+            "S17.4",
+            "SM17.4",
+            "C117",
+            "CA117",
+            "O103"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2024-08-06"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E117",
@@ -38675,6 +44385,26 @@
     {
       "name": "translate",
       "syntax": "none | <length-percentage> [ <length-percentage> <length>? ]?",
+      "values": [
+        {
+          "name": "none",
+          "browsers": [
+            "E104",
+            "FF72",
+            "FFA79",
+            "S14.1",
+            "SM14.5",
+            "C104",
+            "CA104",
+            "O90"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2022-08-05",
+            "baseline_high_date": "2025-02-05"
+          }
+        }
+      ],
       "relevance": 54,
       "browsers": [
         "E104",
@@ -38702,11 +44432,25 @@
     {
       "name": "trigger-scope",
       "syntax": "none | all | <dashed-ident>#",
+      "values": [
+        {
+          "name": "none",
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "all",
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "baseline": {
         "status": "false"
       },
-      "description": ""
+      "description": "Defines the scope within which a trigger event is applicable."
     },
     {
       "name": "vector-effect",
@@ -38808,6 +44552,64 @@
     {
       "name": "view-timeline-axis",
       "syntax": "[ block | inline | x | y ]#",
+      "values": [
+        {
+          "name": "block",
+          "browsers": [
+            "E115",
+            "S26",
+            "SM26",
+            "C115",
+            "CA115",
+            "O101"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "inline",
+          "browsers": [
+            "E115",
+            "S26",
+            "SM26",
+            "C115",
+            "CA115",
+            "O101"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "x",
+          "browsers": [
+            "E115",
+            "S26",
+            "SM26",
+            "C115",
+            "CA115",
+            "O101"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        },
+        {
+          "name": "y",
+          "browsers": [
+            "E115",
+            "S26",
+            "SM26",
+            "C115",
+            "CA115",
+            "O101"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E115",
@@ -38831,6 +44633,22 @@
     {
       "name": "view-timeline-inset",
       "syntax": "[ [ auto | <length-percentage> ]{1,2} ]#",
+      "values": [
+        {
+          "name": "auto",
+          "browsers": [
+            "E115",
+            "S26",
+            "SM26",
+            "C115",
+            "CA115",
+            "O101"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E115",
@@ -38854,6 +44672,22 @@
     {
       "name": "view-timeline-name",
       "syntax": "[ none | <dashed-ident> ]#",
+      "values": [
+        {
+          "name": "none",
+          "browsers": [
+            "E115",
+            "S26",
+            "SM26",
+            "C115",
+            "CA115",
+            "O101"
+          ],
+          "baseline": {
+            "status": "false"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E115",
@@ -38877,6 +44711,25 @@
     {
       "name": "view-transition-class",
       "syntax": "none | <custom-ident>+",
+      "values": [
+        {
+          "name": "none",
+          "browsers": [
+            "E125",
+            "FF144",
+            "FFA144",
+            "S18.2",
+            "SM18.2",
+            "C125",
+            "CA125",
+            "O111"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2025-10-14"
+          }
+        }
+      ],
       "relevance": 50,
       "browsers": [
         "E125",
@@ -38903,6 +44756,42 @@
     {
       "name": "view-transition-name",
       "syntax": "none | <custom-ident> | match-element",
+      "values": [
+        {
+          "name": "none",
+          "browsers": [
+            "E111",
+            "FF144",
+            "FFA144",
+            "S18",
+            "SM18",
+            "C111",
+            "CA111",
+            "O97"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2025-10-14"
+          }
+        },
+        {
+          "name": "match-element",
+          "browsers": [
+            "E137",
+            "FF144",
+            "FFA144",
+            "S18.4",
+            "SM18.4",
+            "C137",
+            "CA137",
+            "O121"
+          ],
+          "baseline": {
+            "status": "low",
+            "baseline_low_date": "2025-10-14"
+          }
+        }
+      ],
       "relevance": 56,
       "browsers": [
         "E111",
@@ -38929,6 +44818,84 @@
     {
       "name": "white-space",
       "syntax": "normal | pre | pre-wrap | pre-line | <'white-space-collapse'> || <'text-wrap-mode'>",
+      "values": [
+        {
+          "name": "normal",
+          "browsers": [
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE11",
+            "O15"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2015-07-29",
+            "baseline_high_date": "2018-01-29"
+          }
+        },
+        {
+          "name": "pre",
+          "browsers": [
+            "E12",
+            "FF1",
+            "FFA4",
+            "S1",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE6",
+            "O4"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2015-07-29",
+            "baseline_high_date": "2018-01-29"
+          }
+        },
+        {
+          "name": "pre-wrap",
+          "browsers": [
+            "E12",
+            "FF3",
+            "FFA4",
+            "S3",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE8",
+            "O8"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2015-07-29",
+            "baseline_high_date": "2018-01-29"
+          }
+        },
+        {
+          "name": "pre-line",
+          "browsers": [
+            "E12",
+            "FF3.5",
+            "FFA4",
+            "S3",
+            "SM1",
+            "C1",
+            "CA18",
+            "IE8",
+            "O9.5"
+          ],
+          "baseline": {
+            "status": "high",
+            "baseline_low_date": "2015-07-29",
+            "baseline_high_date": "2018-01-29"
+          }
+        }
+      ],
       "relevance": 90,
       "browsers": [
         "E12",
@@ -39118,6 +45085,11 @@
       "name": "ascent-override",
       "atRule": "@font-face",
       "syntax": "normal | <percentage>",
+      "values": [
+        {
+          "name": "normal"
+        }
+      ],
       "relevance": 51,
       "description": "Describes the ascent metric of a font."
     },
@@ -39125,6 +45097,11 @@
       "name": "descent-override",
       "atRule": "@font-face",
       "syntax": "normal | <percentage>",
+      "values": [
+        {
+          "name": "normal"
+        }
+      ],
       "relevance": 51,
       "description": "Describes the descent metric of a font."
     },
@@ -39156,6 +45133,11 @@
       "name": "line-gap-override",
       "atRule": "@font-face",
       "syntax": "normal | <percentage>",
+      "values": [
+        {
+          "name": "normal"
+        }
+      ],
       "relevance": 51,
       "description": "Describes the line-gap metric of a font."
     },
@@ -39170,6 +45152,14 @@
       "name": "base-palette",
       "atRule": "@font-palette-values",
       "syntax": "light | dark | <integer [0,∞]>",
+      "values": [
+        {
+          "name": "light"
+        },
+        {
+          "name": "dark"
+        }
+      ],
       "relevance": 50,
       "description": "The base-palette CSS descriptor is used to specify the name or index of a pre-defined palette to be used for creating a new palette. If the specified base-palette does not exist, then the palette defined at index 0 will be used."
     },
@@ -39177,6 +45167,11 @@
       "name": "override-colors",
       "atRule": "@font-palette-values",
       "syntax": "[ <integer [0,∞]> <color> ]#",
+      "values": [
+        {
+          "name": "currentColor"
+        }
+      ],
       "relevance": 50,
       "description": "The override-colors CSS descriptor is used to override colors in the chosen base-palette for a color font."
     },
@@ -39184,6 +45179,11 @@
       "name": "bleed",
       "atRule": "@page",
       "syntax": "auto | <length>",
+      "values": [
+        {
+          "name": "auto"
+        }
+      ],
       "relevance": 50,
       "description": "The bleed CSS at-rule descriptor, used with the @page at-rule, specifies the extent of the page bleed area outside the page box. This property only has effect if crop marks are enabled using the marks property."
     },
@@ -39191,6 +45191,17 @@
       "name": "marks",
       "atRule": "@page",
       "syntax": "none | [ crop || cross ]",
+      "values": [
+        {
+          "name": "none"
+        },
+        {
+          "name": "crop"
+        },
+        {
+          "name": "cross"
+        }
+      ],
       "relevance": 50,
       "description": "The marks CSS at-rule descriptor, used with the @page at-rule, adds crop and/or cross marks to the presentation of the document. Crop marks indicate where the page should be cut. Cross marks are used to align sheets."
     },
@@ -39254,14 +45265,19 @@
         }
       ],
       "relevance": 55,
-      "description": ""
+      "description": "Specifies navigation behavior for elements or page transitions."
     },
     {
       "name": "types",
       "atRule": "@view-transition",
       "syntax": "none | <custom-ident>+",
+      "values": [
+        {
+          "name": "none"
+        }
+      ],
       "relevance": 50,
-      "description": ""
+      "description": "Defines the type of content or behavioral characteristics for form controls."
     }
   ],
   "atDirectives": [
