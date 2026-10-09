@@ -1225,14 +1225,14 @@
         "name": "eager",
         "description": {
           "kind": "markdown",
-          "value": "Loads the image immediately, regardless of whether or not the image is currently within the visible viewport (this is the default value)."
+          "value": "Loads the resource immediately, regardless of whether or not it is currently within the visible viewport (this is the default value)."
         }
       },
       {
         "name": "lazy",
         "description": {
           "kind": "markdown",
-          "value": "Defers loading the image until it reaches a calculated distance from the viewport, as defined by the browser. The intent is to avoid the network and storage bandwidth needed to handle the image until it's reasonably certain that it will be needed. This generally improves the performance of the content in most typical use cases."
+          "value": "Defers loading the resource until it reaches a calculated distance from the viewport, as defined by the browser. The intent is to avoid the network and storage bandwidth needed to handle the resource until it's reasonably certain that it will be needed. This generally improves the performance of the content in most typical use cases."
         }
       }
     ]
@@ -1317,6 +1317,72 @@
       },
       {
         "name": "auto"
+      }
+    ]
+  },
+  {
+    "name": "command",
+    "values": [
+      {
+        "name": "show-modal",
+        "description": {
+          "kind": "markdown",
+          "value": "Opens the target `<dialog>` as a modal."
+        }
+      },
+      {
+        "name": "close",
+        "description": {
+          "kind": "markdown",
+          "value": "Closes the target `<dialog>`."
+        }
+      },
+      {
+        "name": "request-close",
+        "description": {
+          "kind": "markdown",
+          "value": "Asks the target `<dialog>` to close. A cancelable `cancel` event fires first."
+        }
+      },
+      {
+        "name": "show-popover",
+        "description": {
+          "kind": "markdown",
+          "value": "Shows the target popover."
+        }
+      },
+      {
+        "name": "hide-popover",
+        "description": {
+          "kind": "markdown",
+          "value": "Hides the target popover."
+        }
+      },
+      {
+        "name": "toggle-popover",
+        "description": {
+          "kind": "markdown",
+          "value": "Toggles the target popover between showing and hidden."
+        }
+      }
+    ]
+  },
+  {
+    "name": "shadowrootmode",
+    "values": [
+      {
+        "name": "open",
+        "description": {
+          "kind": "markdown",
+          "value": "The shadow root is reachable from JavaScript through the host's `shadowRoot` property."
+        }
+      },
+      {
+        "name": "closed",
+        "description": {
+          "kind": "markdown",
+          "value": "The shadow root is hidden from JavaScript outside the shadow tree; the host's `shadowRoot` property returns `null`."
+        }
       }
     ]
   }
