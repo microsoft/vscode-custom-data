@@ -13,10 +13,29 @@ import * as util from '../utils.mjs';
 
 //@ts-check
 
-function extractFirstSentence(content) {
+/**
+ * Find the first prose paragraph of an MDN page. Older pages put it after a `{{CSSRef}}` macro;
+ * current pages declare the sidebar in the front matter (`sidebar: cssref`) and start the prose
+ * after it, sometimes preceded by banner macros such as `{{SeeCompatTable}}`.
+ */
+function findFirstParagraph(content) {
   const match = content.match(/\{\{CSSRef\}\}[^\n\r]*[\r\n]*([^\r\n]*)/);
   if (match) {
-    let desc = match[1].trim();
+    return match[1];
+  }
+  const body = content.replace(/^---[\s\S]*?\n---\s*\n/, '');
+  if (body === content) {
+    return undefined; // not an MDN page (e.g. a 404 response)
+  }
+  return body.split(/\r?\n/).map(line => line.trim()).find(line =>
+    line && !/^(\{\{[^}]*\}\}\s*)+$/.test(line) && !/^[#>]/.test(line)
+  );
+}
+
+function extractFirstSentence(content) {
+  const paragraph = findFirstParagraph(content);
+  if (paragraph) {
+    let desc = paragraph.trim();
     // replace all markdown links with the link text
     desc = desc.replace(/\[([^\]]*)\]\([^\)]*\)/g, '$1');
     // replace all markdown bold with the text
@@ -37,16 +56,34 @@ function extractFirstSentence(content) {
   return undefined;
 }
 
+/**
+ * MDN moved the CSS reference under `web/css/reference/` (properties, at-rules, selectors).
+ * Try the current location first and fall back to the old flat `web/css/<name>` layout.
+ */
+function getMDNPathSegments(prop, atRuleName) {
+  if (atRuleName) {
+    return [`reference/at-rules/${atRuleName}/${prop}`, `${atRuleName}/${prop}`];
+  }
+  if (prop.startsWith('@')) {
+    return [`reference/at-rules/${prop}`, prop];
+  }
+  if (/^_(double)?colon_/.test(prop)) {
+    return [`reference/selectors/${prop}`, prop];
+  }
+  return [`reference/properties/${prop}`, prop];
+}
+
 export async function fetchDocFromMDN(prop, atRuleName) {
-  let pathSegment = atRuleName ? `${atRuleName}/${prop}` : prop;
-  const url = `https://raw.githubusercontent.com/mdn/content/main/files/en-us/web/css/${pathSegment}/index.md`;
-  try {
-    let firstSentence = extractFirstSentence(await util.download(url));
-    if (firstSentence) {
-      firstSentence = firstSentence.replace(/\{\{\s*[\w]+\("([\w-]+)"\)\s*\}\}/g, "$1");
+  for (const pathSegment of getMDNPathSegments(prop, atRuleName)) {
+    const url = `https://raw.githubusercontent.com/mdn/content/main/files/en-us/web/css/${pathSegment.toLowerCase()}/index.md`;
+    try {
+      let firstSentence = extractFirstSentence(await util.download(url));
+      if (firstSentence) {
+        firstSentence = firstSentence.replace(/\{\{\s*[\w]+\("([\w-]+)"\)\s*\}\}/g, "$1");
+        return firstSentence;
+      }
+    } catch (e) {
     }
-    return firstSentence;
-  } catch (e) {
   }
   return undefined;
 }
