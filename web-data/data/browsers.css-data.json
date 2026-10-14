@@ -38349,7 +38349,7 @@
         "status": "low",
         "baseline_low_date": "2024-10-17"
       },
-      "description": "The text-wrap-mode CSS property controls whether the text inside an element is wrapped. The different values provide alternate ways of wrapping the content of a block element. It can also be set, and reset, using the {{CSSXRef(\"text-wrap\")}} shorthand."
+      "description": "The text-wrap-mode CSS property controls whether the text inside an element is wrapped. The different values provide alternate ways of wrapping the content of a block element. It can also be set, and reset, using the text-wrap shorthand."
     },
     {
       "name": "text-wrap-style",
@@ -38442,7 +38442,7 @@
         "status": "low",
         "baseline_low_date": "2024-10-17"
       },
-      "description": "The text-wrap-style CSS property controls how text inside an element is wrapped. The different values provide alternate ways of wrapping the content of a block element. It can also be set, and reset, using the {{CSSXRef(\"text-wrap\")}} shorthand."
+      "description": "The text-wrap-style CSS property controls how text inside an element is wrapped. The different values provide alternate ways of wrapping the content of a block element. It can also be set, and reset, using the text-wrap shorthand."
     },
     {
       "name": "timeline-scope",
