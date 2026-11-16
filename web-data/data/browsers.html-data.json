@@ -362,6 +362,89 @@
           }
         },
         {
+          "name": "disabled",
+          "valueSet": "v",
+          "description": {
+            "kind": "markdown",
+            "value": "For `rel=\"stylesheet\"`, a Boolean attribute that keeps the style sheet from being loaded and applied. Removing the attribute enables the style sheet."
+          },
+          "browsers": [
+            "C1",
+            "CA18",
+            "E12",
+            "FF1",
+            "FFA4",
+            "S4",
+            "SM3.2"
+          ],
+          "status": {
+            "baseline": "high",
+            "baseline_low_date": "2015-07-29",
+            "baseline_high_date": "2018-01-29"
+          }
+        },
+        {
+          "name": "fetchpriority",
+          "valueSet": "fetchpriority",
+          "description": {
+            "kind": "markdown",
+            "value": "Provides a hint of the relative priority to use when fetching the linked resource, such as a preloaded resource or a style sheet."
+          },
+          "browsers": [
+            "C101",
+            "CA101",
+            "E101",
+            "FF132",
+            "FFA132",
+            "S17.2",
+            "SM17.2"
+          ],
+          "status": {
+            "baseline": "low",
+            "baseline_low_date": "2024-10-29"
+          }
+        },
+        {
+          "name": "imagesizes",
+          "description": {
+            "kind": "markdown",
+            "value": "For `rel=\"preload\"` with `as=\"image\"`, the source sizes to use when choosing which image to preload. Same syntax and meaning as the `sizes` attribute of `<img>`."
+          },
+          "browsers": [
+            "C73",
+            "CA73",
+            "E79",
+            "FF78",
+            "FFA79",
+            "S17.2",
+            "SM17.2"
+          ],
+          "status": {
+            "baseline": "low",
+            "baseline_low_date": "2023-12-11"
+          }
+        },
+        {
+          "name": "imagesrcset",
+          "description": {
+            "kind": "markdown",
+            "value": "For `rel=\"preload\"` with `as=\"image\"`, the candidate images to choose from when preloading a responsive image. Same syntax and meaning as the `srcset` attribute of `<img>`."
+          },
+          "browsers": [
+            "C73",
+            "CA73",
+            "E79",
+            "FF78",
+            "FFA79",
+            "S17.2",
+            "SM17.2"
+          ],
+          "status": {
+            "baseline": "low",
+            "baseline_low_date": "2023-12-11"
+          }
+        },
+        {
           "name": "as",
           "description": "This attribute is only used when `rel=\"preload\"` or `rel=\"prefetch\"` has been set on the `<link>` element. It specifies the type of content being loaded by the `<link>`, which is necessary for content prioritization, request matching, application of correct [content security policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP), and setting of correct [`Accept`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept \"The Accept request HTTP header advertises which content types, expressed as MIME types, the client is able to understand. Using content negotiation, the server then selects one of the proposals, uses it and informs the client of its choice with the Content-Type response header. Browsers set adequate values for this header depending on the context where the request is done: when fetching a CSS stylesheet a different value is set for the request than when fetching an image, video or a script.\") request header.",
           "browsers": [
@@ -3661,6 +3744,27 @@
           }
         },
         {
+          "name": "loading",
+          "valueSet": "loading",
+          "description": {
+            "kind": "markdown",
+            "value": "Indicates when the browser should load the iframe. `eager` (the default) loads it immediately; `lazy` defers loading until the iframe nears the viewport."
+          },
+          "browsers": [
+            "C77",
+            "CA77",
+            "E79",
+            "FF121",
+            "FFA121",
+            "S16.4",
+            "SM16.4"
+          ],
+          "status": {
+            "baseline": "low",
+            "baseline_low_date": "2023-12-19"
+          }
+        },
+        {
           "name": "allow",
           "description": "Specifies a [feature policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Feature_Policy) for the `<iframe>`.",
           "browsers": [
@@ -4389,6 +4493,24 @@
             "baseline_low_date": "2015-07-29",
             "baseline_high_date": "2018-01-29"
           }
+        },
+        {
+          "name": "playsinline",
+          "valueSet": "v",
+          "description": {
+            "kind": "markdown",
+            "value": "A Boolean attribute indicating that the video should play inline, within the element's playback area, instead of automatically entering fullscreen. Mainly affects mobile browsers."
+          },
+          "browsers": [
+            "C75",
+            "CA75",
+            "E79",
+            "S10",
+            "SM10"
+          ],
+          "status": {
+            "baseline": false
+          }
         }
       ],
       "references": [
@@ -4645,6 +4767,48 @@
             "baseline": "high",
             "baseline_low_date": "2015-07-29",
             "baseline_high_date": "2018-01-29"
+          }
+        },
+        {
+          "name": "width",
+          "description": {
+            "kind": "markdown",
+            "value": "The intrinsic width of the image resource in CSS pixels. Only allowed when the `<source>` is a child of `<picture>`; lets the browser reserve space for the selected image before it loads."
+          },
+          "browsers": [
+            "C90",
+            "CA90",
+            "E90",
+            "FF108",
+            "FFA108",
+            "S15",
+            "SM15"
+          ],
+          "status": {
+            "baseline": "high",
+            "baseline_low_date": "2022-12-13",
+            "baseline_high_date": "2025-06-13"
+          }
+        },
+        {
+          "name": "height",
+          "description": {
+            "kind": "markdown",
+            "value": "The intrinsic height of the image resource in CSS pixels. Only allowed when the `<source>` is a child of `<picture>`; lets the browser reserve space for the selected image before it loads."
+          },
+          "browsers": [
+            "C90",
+            "CA90",
+            "E90",
+            "FF108",
+            "FFA108",
+            "S15",
+            "SM15"
+          ],
+          "status": {
+            "baseline": "high",
+            "baseline_low_date": "2022-12-13",
+            "baseline_high_date": "2025-06-13"
           }
         },
         {
@@ -5057,6 +5221,28 @@
         },
         {
           "name": "type"
+        },
+        {
+          "name": "referrerpolicy",
+          "valueSet": "referrerpolicy",
+          "description": {
+            "kind": "markdown",
+            "value": "Indicates which [referrer](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referer) to send when following the hyperlink. Takes the same values as the `referrerpolicy` attribute of `<a>`."
+          },
+          "browsers": [
+            "C51",
+            "CA51",
+            "E79",
+            "FF50",
+            "FFA50",
+            "S14",
+            "SM14"
+          ],
+          "status": {
+            "baseline": "high",
+            "baseline_low_date": "2020-09-16",
+            "baseline_high_date": "2023-03-16"
+          }
         },
         {
           "name": "accesskey",
@@ -5989,6 +6175,27 @@
           }
         },
         {
+          "name": "rel",
+          "description": {
+            "kind": "markdown",
+            "value": "A space-separated list of the link types the form submission creates. Allowed values are `external`, `help`, `license`, `next`, `nofollow`, `noopener`, `noreferrer`, `opener`, `prev` and `search`."
+          },
+          "browsers": [
+            "C108",
+            "CA108",
+            "E108",
+            "FF111",
+            "FFA111",
+            "S15.4",
+            "SM15.4"
+          ],
+          "status": {
+            "baseline": "high",
+            "baseline_low_date": "2023-03-14",
+            "baseline_high_date": "2025-09-14"
+          }
+        },
+        {
           "name": "accept",
           "description": "A comma-separated list of content types that the server accepts.\n\n**Usage note:** This attribute has been removed in HTML5 and should no longer be used. Instead, use the [`accept`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#attr-accept) attribute of the specific [`<input>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input \"The HTML <input> element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent.\") element."
         },
@@ -6863,6 +7070,47 @@
             "baseline": "high",
             "baseline_low_date": "2015-07-29",
             "baseline_high_date": "2018-01-29"
+          }
+        },
+        {
+          "name": "command",
+          "valueSet": "command",
+          "description": {
+            "kind": "markdown",
+            "value": "The action to perform on the element referenced by `commandfor` when the button is activated. Built-in commands are `show-modal`, `close` and `request-close` for `<dialog>` elements, and `show-popover`, `hide-popover` and `toggle-popover` for popovers. Custom commands start with two dashes (for example `--rotate`) and fire a `command` event on the target without any built-in behavior."
+          },
+          "browsers": [
+            "C135",
+            "CA135",
+            "E135",
+            "FF144",
+            "FFA144",
+            "S26.2",
+            "SM26.2"
+          ],
+          "status": {
+            "baseline": "low",
+            "baseline_low_date": "2025-12-12"
+          }
+        },
+        {
+          "name": "commandfor",
+          "description": {
+            "kind": "markdown",
+            "value": "The `id` of the element this button controls. Used together with `command` to act on that element, such as opening a dialog or toggling a popover, without JavaScript."
+          },
+          "browsers": [
+            "C135",
+            "CA135",
+            "E135",
+            "FF144",
+            "FFA144",
+            "S26.2",
+            "SM26.2"
+          ],
+          "status": {
+            "baseline": "low",
+            "baseline_low_date": "2025-12-12"
           }
         },
         {
@@ -8323,6 +8571,27 @@
           }
         },
         {
+          "name": "fetchpriority",
+          "valueSet": "fetchpriority",
+          "description": {
+            "kind": "markdown",
+            "value": "Provides a hint of the relative priority to use when fetching an external script."
+          },
+          "browsers": [
+            "C101",
+            "CA101",
+            "E101",
+            "FF132",
+            "FFA132",
+            "S17.2",
+            "SM17.2"
+          ],
+          "status": {
+            "baseline": "low",
+            "baseline_low_date": "2024-10-29"
+          }
+        },
+        {
           "name": "integrity",
           "description": "This attribute contains inline metadata that a user agent can use to verify that a fetched resource has been delivered free of unexpected manipulation. See [Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity).",
           "browsers": [
@@ -8436,7 +8705,89 @@
         "kind": "markdown",
         "value": "The template element is used to declare fragments of HTML that can be cloned and inserted in the document by script."
       },
-      "attributes": [],
+      "attributes": [
+        {
+          "name": "shadowrootmode",
+          "valueSet": "shadowrootmode",
+          "description": {
+            "kind": "markdown",
+            "value": "Turns the `<template>` into a declarative shadow root attached to its parent element. `open` exposes the shadow root to JavaScript through the host's `shadowRoot` property; `closed` does not."
+          },
+          "browsers": [
+            "C111",
+            "CA111",
+            "E111",
+            "FF123",
+            "FFA123",
+            "S16.4",
+            "SM16.4"
+          ],
+          "status": {
+            "baseline": "low",
+            "baseline_low_date": "2024-02-20"
+          }
+        },
+        {
+          "name": "shadowrootclonable",
+          "valueSet": "v",
+          "description": {
+            "kind": "markdown",
+            "value": "Sets the `clonable` property of a shadow root created with `shadowrootmode`, so the shadow root is copied when its host is cloned with `cloneNode()` or `importNode()`."
+          },
+          "browsers": [
+            "C124",
+            "CA124",
+            "E124",
+            "FF125",
+            "FFA125",
+            "S17.5",
+            "SM17.5"
+          ],
+          "status": {
+            "baseline": "low",
+            "baseline_low_date": "2024-05-13"
+          }
+        },
+        {
+          "name": "shadowrootdelegatesfocus",
+          "valueSet": "v",
+          "description": {
+            "kind": "markdown",
+            "value": "Sets the `delegatesFocus` property of a shadow root created with `shadowrootmode`, so focusing the host moves focus to the first focusable element in the shadow tree."
+          },
+          "browsers": [
+            "C123",
+            "CA123",
+            "E123",
+            "FF123",
+            "FFA123",
+            "S16.4",
+            "SM16.4"
+          ],
+          "status": {
+            "baseline": "low",
+            "baseline_low_date": "2024-03-22"
+          }
+        },
+        {
+          "name": "shadowrootserializable",
+          "valueSet": "v",
+          "description": {
+            "kind": "markdown",
+            "value": "Sets the `serializable` property of a shadow root created with `shadowrootmode`, so the shadow root is included when serializing with `getHTML({ serializableShadowRoots: true })`."
+          },
+          "browsers": [
+            "C125",
+            "CA125",
+            "E125",
+            "S18",
+            "SM18"
+          ],
+          "status": {
+            "baseline": false
+          }
+        }
+      ],
       "references": [
         {
           "name": "MDN Reference",
@@ -11807,14 +12158,14 @@
           "name": "eager",
           "description": {
             "kind": "markdown",
-            "value": "Loads the image immediately, regardless of whether or not the image is currently within the visible viewport (this is the default value)."
+            "value": "Loads the resource immediately, regardless of whether or not it is currently within the visible viewport (this is the default value)."
           }
         },
         {
           "name": "lazy",
           "description": {
             "kind": "markdown",
-            "value": "Defers loading the image until it reaches a calculated distance from the viewport, as defined by the browser. The intent is to avoid the network and storage bandwidth needed to handle the image until it's reasonably certain that it will be needed. This generally improves the performance of the content in most typical use cases."
+            "value": "Defers loading the resource until it reaches a calculated distance from the viewport, as defined by the browser. The intent is to avoid the network and storage bandwidth needed to handle the resource until it's reasonably certain that it will be needed. This generally improves the performance of the content in most typical use cases."
           }
         }
       ]
@@ -11899,6 +12250,72 @@
         },
         {
           "name": "auto"
+        }
+      ]
+    },
+    {
+      "name": "command",
+      "values": [
+        {
+          "name": "show-modal",
+          "description": {
+            "kind": "markdown",
+            "value": "Opens the target `<dialog>` as a modal."
+          }
+        },
+        {
+          "name": "close",
+          "description": {
+            "kind": "markdown",
+            "value": "Closes the target `<dialog>`."
+          }
+        },
+        {
+          "name": "request-close",
+          "description": {
+            "kind": "markdown",
+            "value": "Asks the target `<dialog>` to close. A cancelable `cancel` event fires first."
+          }
+        },
+        {
+          "name": "show-popover",
+          "description": {
+            "kind": "markdown",
+            "value": "Shows the target popover."
+          }
+        },
+        {
+          "name": "hide-popover",
+          "description": {
+            "kind": "markdown",
+            "value": "Hides the target popover."
+          }
+        },
+        {
+          "name": "toggle-popover",
+          "description": {
+            "kind": "markdown",
+            "value": "Toggles the target popover between shown and hidden."
+          }
+        }
+      ]
+    },
+    {
+      "name": "shadowrootmode",
+      "values": [
+        {
+          "name": "open",
+          "description": {
+            "kind": "markdown",
+            "value": "The shadow root is reachable from JavaScript through the host's `shadowRoot` property."
+          }
+        },
+        {
+          "name": "closed",
+          "description": {
+            "kind": "markdown",
+            "value": "The shadow root is hidden from JavaScript outside the shadow tree; the host's `shadowRoot` property returns `null`."
+          }
         }
       ]
     }
