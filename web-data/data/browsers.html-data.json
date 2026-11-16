@@ -12295,7 +12295,7 @@
           "name": "toggle-popover",
           "description": {
             "kind": "markdown",
-            "value": "Toggles the target popover between showing and hidden."
+            "value": "Toggles the target popover between shown and hidden."
           }
         }
       ]
