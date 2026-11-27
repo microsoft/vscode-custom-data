@@ -58,6 +58,20 @@
       },
       {
         "name": "sizes"
+      },
+      {
+        "name": "disabled",
+        "valueSet": "v"
+      },
+      {
+        "name": "fetchpriority",
+        "valueSet": "fetchpriority"
+      },
+      {
+        "name": "imagesizes"
+      },
+      {
+        "name": "imagesrcset"
       }
     ]
   },
@@ -586,6 +600,10 @@
       },
       {
         "name": "height"
+      },
+      {
+        "name": "loading",
+        "valueSet": "loading"
       }
     ]
   },
@@ -694,6 +712,10 @@
       },
       {
         "name": "height"
+      },
+      {
+        "name": "playsinline",
+        "valueSet": "v"
       }
     ]
   },
@@ -743,6 +765,12 @@
       },
       {
         "name": "type"
+      },
+      {
+        "name": "width"
+      },
+      {
+        "name": "height"
       }
     ]
   },
@@ -815,6 +843,10 @@
       },
       {
         "name": "type"
+      },
+      {
+        "name": "referrerpolicy",
+        "valueSet": "referrerpolicy"
       }
     ]
   },
@@ -943,6 +975,9 @@
       {
         "name": "target",
         "valueSet": "target"
+      },
+      {
+        "name": "rel"
       }
     ]
   },
@@ -1127,6 +1162,13 @@
       },
       {
         "name": "value"
+      },
+      {
+        "name": "command",
+        "valueSet": "command"
+      },
+      {
+        "name": "commandfor"
       }
     ]
   },
@@ -1383,6 +1425,10 @@
       },
       {
         "name": "nonce"
+      },
+      {
+        "name": "fetchpriority",
+        "valueSet": "fetchpriority"
       }
     ]
   },
@@ -1394,7 +1440,24 @@
   {
     "name": "template",
     "description": "The template element is used to declare fragments of HTML that can be cloned and inserted in the document by script.",
-    "attributes": []
+    "attributes": [
+      {
+        "name": "shadowrootmode",
+        "valueSet": "shadowrootmode"
+      },
+      {
+        "name": "shadowrootclonable",
+        "valueSet": "v"
+      },
+      {
+        "name": "shadowrootdelegatesfocus",
+        "valueSet": "v"
+      },
+      {
+        "name": "shadowrootserializable",
+        "valueSet": "v"
+      }
+    ]
   },
   {
     "name": "canvas",
